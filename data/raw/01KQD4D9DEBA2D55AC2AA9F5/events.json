@@ -1,0 +1,38 @@
+[
+  {
+    "participantName": "Lisa Park",
+    "timestamp": 1773074724000,
+    "type": "Join",
+    "time": 24.0
+  },
+  {
+    "participantName": "Philip Lau",
+    "timestamp": 1773074725000,
+    "type": "Join",
+    "time": 25.0
+  },
+  {
+    "participantName": "Rachel Torres",
+    "timestamp": 1773074749000,
+    "type": "Join",
+    "time": 49.0
+  },
+  {
+    "participantName": "Lisa Park",
+    "timestamp": 1773076401000,
+    "type": "Leave",
+    "time": 1701.0
+  },
+  {
+    "participantName": "Rachel Torres",
+    "timestamp": 1773076390000,
+    "type": "Leave",
+    "time": 1690.0
+  },
+  {
+    "participantName": "Philip Lau",
+    "timestamp": 1773076386000,
+    "type": "Leave",
+    "time": 1686.0
+  }
+]

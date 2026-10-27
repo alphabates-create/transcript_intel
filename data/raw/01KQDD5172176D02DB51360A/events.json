@@ -1,0 +1,26 @@
+[
+  {
+    "participantName": "Dr. Linda Cheng",
+    "timestamp": 1770112825000,
+    "type": "Join",
+    "time": 25.0
+  },
+  {
+    "participantName": "Priya Patel",
+    "timestamp": 1770112843000,
+    "type": "Join",
+    "time": 43.0
+  },
+  {
+    "participantName": "Priya Patel",
+    "timestamp": 1770114030000,
+    "type": "Leave",
+    "time": 1230.0
+  },
+  {
+    "participantName": "Dr. Linda Cheng",
+    "timestamp": 1770114033000,
+    "type": "Leave",
+    "time": 1233.0
+  }
+]

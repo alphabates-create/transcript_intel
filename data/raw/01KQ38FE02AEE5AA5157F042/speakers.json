@@ -1,0 +1,202 @@
+[
+  {
+    "speakerName": "Marcus Williams",
+    "timestamp": 3.3,
+    "endTimeTs": 9.1
+  },
+  {
+    "speakerName": "Oliver Grant",
+    "timestamp": 10.1,
+    "endTimeTs": 14.7
+  },
+  {
+    "speakerName": "Marcus Williams",
+    "timestamp": 15.2,
+    "endTimeTs": 24.2
+  },
+  {
+    "speakerName": "Oliver Grant",
+    "timestamp": 25.2,
+    "endTimeTs": 38.5
+  },
+  {
+    "speakerName": "Marcus Williams",
+    "timestamp": 39.0,
+    "endTimeTs": 45.6
+  },
+  {
+    "speakerName": "Oliver Grant",
+    "timestamp": 47.1,
+    "endTimeTs": 74.5
+  },
+  {
+    "speakerName": "Marcus Williams",
+    "timestamp": 75.0,
+    "endTimeTs": 83.6
+  },
+  {
+    "speakerName": "Oliver Grant",
+    "timestamp": 84.0,
+    "endTimeTs": 92.9
+  },
+  {
+    "speakerName": "Marcus Williams",
+    "timestamp": 93.6,
+    "endTimeTs": 103.1
+  },
+  {
+    "speakerName": "Oliver Grant",
+    "timestamp": 103.6,
+    "endTimeTs": 106.6
+  },
+  {
+    "speakerName": "Marcus Williams",
+    "timestamp": 107.1,
+    "endTimeTs": 112.3
+  },
+  {
+    "speakerName": "Oliver Grant",
+    "timestamp": 112.8,
+    "endTimeTs": 115.3
+  },
+  {
+    "speakerName": "Marcus Williams",
+    "timestamp": 116.1,
+    "endTimeTs": 130.8
+  },
+  {
+    "speakerName": "Oliver Grant",
+    "timestamp": 131.8,
+    "endTimeTs": 139.9
+  },
+  {
+    "speakerName": "Marcus Williams",
+    "timestamp": 141.3,
+    "endTimeTs": 149.5
+  },
+  {
+    "speakerName": "Oliver Grant",
+    "timestamp": 149.8,
+    "endTimeTs": 151.5
+  },
+  {
+    "speakerName": "Marcus Williams",
+    "timestamp": 152.0,
+    "endTimeTs": 171.2
+  },
+  {
+    "speakerName": "Oliver Grant",
+    "timestamp": 171.7,
+    "endTimeTs": 176.9
+  },
+  {
+    "speakerName": "Marcus Williams",
+    "timestamp": 177.2,
+    "endTimeTs": 196.6
+  },
+  {
+    "speakerName": "Oliver Grant",
+    "timestamp": 197.5,
+    "endTimeTs": 203.2
+  },
+  {
+    "speakerName": "Marcus Williams",
+    "timestamp": 204.0,
+    "endTimeTs": 219.2
+  },
+  {
+    "speakerName": "Oliver Grant",
+    "timestamp": 220.7,
+    "endTimeTs": 231.5
+  },
+  {
+    "speakerName": "Marcus Williams",
+    "timestamp": 232.0,
+    "endTimeTs": 256.8
+  },
+  {
+    "speakerName": "Oliver Grant",
+    "timestamp": 257.2,
+    "endTimeTs": 266.1
+  },
+  {
+    "speakerName": "Marcus Williams",
+    "timestamp": 266.6,
+    "endTimeTs": 289.5
+  },
+  {
+    "speakerName": "Oliver Grant",
+    "timestamp": 289.9,
+    "endTimeTs": 294.4
+  },
+  {
+    "speakerName": "Marcus Williams",
+    "timestamp": 295.2,
+    "endTimeTs": 313.4
+  },
+  {
+    "speakerName": "Oliver Grant",
+    "timestamp": 314.4,
+    "endTimeTs": 323.6
+  },
+  {
+    "speakerName": "Marcus Williams",
+    "timestamp": 324.0,
+    "endTimeTs": 343.4
+  },
+  {
+    "speakerName": "Oliver Grant",
+    "timestamp": 343.8,
+    "endTimeTs": 355.5
+  },
+  {
+    "speakerName": "Marcus Williams",
+    "timestamp": 356.1,
+    "endTimeTs": 368.9
+  },
+  {
+    "speakerName": "Oliver Grant",
+    "timestamp": 370.0,
+    "endTimeTs": 374.6
+  },
+  {
+    "speakerName": "Marcus Williams",
+    "timestamp": 375.0,
+    "endTimeTs": 395.2
+  },
+  {
+    "speakerName": "Oliver Grant",
+    "timestamp": 396.3,
+    "endTimeTs": 405.9
+  },
+  {
+    "speakerName": "Oliver Grant",
+    "timestamp": 406.8,
+    "endTimeTs": 421.0
+  },
+  {
+    "speakerName": "Oliver Grant",
+    "timestamp": 422.3,
+    "endTimeTs": 428.8
+  },
+  {
+    "speakerName": "Marcus Williams",
+    "timestamp": 430.0,
+    "endTimeTs": 441.7
+  },
+  {
+    "speakerName": "Oliver Grant",
+    "timestamp": 442.4,
+    "endTimeTs": 448.2
+  },
+  {
+    "speakerName": "Marcus Williams",
+    "timestamp": 449.2,
+    "endTimeTs": 460.6
+  },
+  {
+    "speakerName": "Oliver Grant",
+    "timestamp": 461.5,
+    "endTimeTs": 463.0
+  }
+]

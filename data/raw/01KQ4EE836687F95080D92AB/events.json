@@ -1,0 +1,50 @@
+[
+  {
+    "participantName": "Mike Romano",
+    "timestamp": 1770300914000,
+    "type": "Join",
+    "time": 14.0
+  },
+  {
+    "participantName": "Chris Lee",
+    "timestamp": 1770300920000,
+    "type": "Join",
+    "time": 20.0
+  },
+  {
+    "participantName": "Ananya Sharma",
+    "timestamp": 1770300929000,
+    "type": "Join",
+    "time": 29.0
+  },
+  {
+    "participantName": "Nina Kowalski",
+    "timestamp": 1770300947000,
+    "type": "Join",
+    "time": 47.0
+  },
+  {
+    "participantName": "Mike Romano",
+    "timestamp": 1770302433000,
+    "type": "Leave",
+    "time": 1533.0
+  },
+  {
+    "participantName": "Ananya Sharma",
+    "timestamp": 1770302414000,
+    "type": "Leave",
+    "time": 1514.0
+  },
+  {
+    "participantName": "Chris Lee",
+    "timestamp": 1770302429000,
+    "type": "Leave",
+    "time": 1529.0
+  },
+  {
+    "participantName": "Nina Kowalski",
+    "timestamp": 1770302422000,
+    "type": "Leave",
+    "time": 1522.0
+  }
+]

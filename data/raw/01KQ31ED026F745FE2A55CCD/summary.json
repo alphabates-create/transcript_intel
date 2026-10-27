@@ -1,0 +1,46 @@
+{
+  "summary": "The team held a Q2 roadmap planning session for the Identity product, covering three major themes: JIT provisioning and SCIM improvements, adaptive MFA policies, and an Identity audit trail integrated with the Comply module. Technical leads discussed specific failure modes in SCIM sync, a redesigned attribute mapping UI with inline validation, and a phased approach to adaptive MFA starting with location and device posture signals. The session also touched on competitive pressure from SentinelShield, lingering customer trust concerns following a March Detect outage, and cross-team alignment with the Comply team around SOC 2 reporting gaps.",
+  "actionItems": [
+    "Mike Romano: Break Q2 roadmap themes (JIT/SCIM, adaptive MFA, audit trail) into epics in Jira and flag shared infrastructure dependencies by end of week",
+    "Jordan Whitfield: Share redesigned attribute mapping designs in Figma in the Identity channel by tomorrow morning for async team feedback",
+    "Ananya Sharma: Collaborate with Mike Romano on JIT provisioning and SCIM improvements, targeting a four-to-five week timeline with strong test coverage",
+    "Alex Reyes: Follow up with Priya on the Comply team to formalize cross-team alignment on the Identity audit trail API integration"
+  ],
+  "topics": [
+    "roadmap planning",
+    "identity & access management",
+    "scim / provisioning",
+    "adaptive mfa",
+    "compliance integration",
+    "competitive landscape"
+  ],
+  "overallSentiment": "positive",
+  "sentimentScore": 4.4,
+  "keyMoments": [
+    {
+      "time": 142.0,
+      "text": "Sofia flags a clear cluster of support tickets around JIT provisioning and SSO configuration, directly informing Q2 prioritization.",
+      "type": "feature_gap",
+      "speaker": "Sofia Petrov"
+    },
+    {
+      "time": 520.0,
+      "text": "Ananya details three distinct SCIM sync failure modes and notes the need for disciplined testing given reduced customer trust following the March Detect outage.",
+      "type": "technical_issue",
+      "speaker": "Ananya Sharma"
+    },
+    {
+      "time": 890.0,
+      "text": "Alex highlights that SentinelShield already offers adaptive MFA and the team keeps getting asked about it in enterprise deals, underscoring competitive urgency.",
+      "type": "churn_signal",
+      "speaker": "Alex Reyes"
+    },
+    {
+      "time": 1080.0,
+      "text": "Alex shares that the Comply team's Priya confirmed identity access events are a major gap in SOC 2 reports, validating the audit trail as a high-impact cross-module feature.",
+      "type": "positive_pivot",
+      "speaker": "Alex Reyes"
+    }
+  ],
+  "meetingId": "01KQ31ED026F745FE2A55CCD"
+}

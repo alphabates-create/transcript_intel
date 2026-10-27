@@ -1,0 +1,434 @@
+{
+  "data": [
+    {
+      "sentence": "Hey Wayne, thanks for making time today \u2014 I know your schedule's been pretty packed lately.",
+      "speaker_name": "Rachel Torres",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 3.2,
+      "endTime": 8.5,
+      "averageConfidence": 0.95,
+      "index": 0
+    },
+    {
+      "sentence": "Yeah, no, appreciate it. February's always a little hectic on our end, quarter close and all that.",
+      "speaker_name": "Wayne Keller",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 9.7,
+      "endTime": 15.4,
+      "averageConfidence": 0.94,
+      "index": 1
+    },
+    {
+      "sentence": "Totally understandable. I've got Maria Santos from our customer success team on the line as well \u2014 Maria, you want to say hi?",
+      "speaker_name": "Rachel Torres",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 16.3,
+      "endTime": 24.0,
+      "averageConfidence": 0.92,
+      "index": 2
+    },
+    {
+      "sentence": "Hey Wayne, good to meet you. I've been supporting the Atlas account for a few months now so I'm pretty familiar with your setup.",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 24.4,
+      "endTime": 32.6,
+      "averageConfidence": 0.92,
+      "index": 3
+    },
+    {
+      "sentence": "Good to have you both on. So Rachel mentioned this was around the contract renewal and some billing questions \u2014 is that still the main agenda?",
+      "speaker_name": "Wayne Keller",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 33.3,
+      "endTime": 42.1,
+      "averageConfidence": 0.95,
+      "index": 4
+    },
+    {
+      "sentence": "Yeah, that's exactly right. Your current contract runs through end of March, so we wanted to get ahead of it a bit, talk through the current structure, see if anything needs to be adjusted going into the next term.",
+      "speaker_name": "Rachel Torres",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 43.2,
+      "endTime": 57.0,
+      "averageConfidence": 0.95,
+      "index": 5
+    },
+    {
+      "sentence": "Sure, that makes sense. I did want to bring up a few things actually. Our finance team flagged a couple of line items on the last two invoices that they weren't totally clear on.",
+      "speaker_name": "Wayne Keller",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 57.7,
+      "endTime": 70.0,
+      "averageConfidence": 0.9,
+      "index": 6
+    },
+    {
+      "sentence": "Okay, yeah, let's dig into that. Do you have the invoice numbers handy or should I pull them up on my end?",
+      "speaker_name": "Rachel Torres",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 70.4,
+      "endTime": 78.1,
+      "averageConfidence": 0.95,
+      "index": 7
+    },
+    {
+      "sentence": "I've got them \u2014 it's invoice 8847 and 8901. Both from January and February respectively.",
+      "speaker_name": "Wayne Keller",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 79.2,
+      "endTime": 84.3,
+      "averageConfidence": 0.97,
+      "index": 8
+    },
+    {
+      "sentence": "Got it, I'm pulling those up right now. Give me just a second.",
+      "speaker_name": "Rachel Torres",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 85.2,
+      "endTime": 89.7,
+      "averageConfidence": 0.88,
+      "index": 9
+    },
+    {
+      "sentence": "While Rachel does that, Wayne, can you tell me which line items specifically your finance team was asking about? That'll help us address it faster.",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 90.4,
+      "endTime": 99.6,
+      "averageConfidence": 0.91,
+      "index": 10
+    },
+    {
+      "sentence": "Sure. So the main one is \u2014 there's an overage charge on both invoices under the Aegis Detect module. And honestly our team wasn't totally aware that we had a usage cap on that tier.",
+      "speaker_name": "Wayne Keller",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 100.7,
+      "endTime": 113.3,
+      "averageConfidence": 0.96,
+      "index": 11
+    },
+    {
+      "sentence": "Okay, I can see it on my end now. So yeah, the overage is tied to event volume \u2014 your current contract includes up to 500 million events per month processed through Detect, and it looks like you went over that in both months.",
+      "speaker_name": "Rachel Torres",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 114.1,
+      "endTime": 129.8,
+      "averageConfidence": 0.9,
+      "index": 12
+    },
+    {
+      "sentence": "By how much? Because I don't think our operations have changed that dramatically since we signed.",
+      "speaker_name": "Wayne Keller",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 130.4,
+      "endTime": 136.2,
+      "averageConfidence": 0.94,
+      "index": 13
+    },
+    {
+      "sentence": "Uh, let me see \u2014 January was about 620 million, and February looks like 590 million. So not a huge overage but it does trigger the per-million rate in the contract.",
+      "speaker_name": "Rachel Torres",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 137.6,
+      "endTime": 148.4,
+      "averageConfidence": 0.89,
+      "index": 14
+    },
+    {
+      "sentence": "Hmm. And what is that rate?",
+      "speaker_name": "Wayne Keller",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 149.2,
+      "endTime": 151.5,
+      "averageConfidence": 0.96,
+      "index": 15
+    },
+    {
+      "sentence": "It's $0.004 per million events over the threshold. So in January that worked out to \u2014 roughly $480, and February around $360.",
+      "speaker_name": "Rachel Torres",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 152.4,
+      "endTime": 160.2,
+      "averageConfidence": 0.88,
+      "index": 16
+    },
+    {
+      "sentence": "Okay so it's not a massive number, but my finance team's concern is more just the principle of it \u2014 they didn't know the cap existed and they want to understand if this is going to keep happening.",
+      "speaker_name": "Wayne Keller",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 160.7,
+      "endTime": 173.7,
+      "averageConfidence": 0.9,
+      "index": 17
+    },
+    {
+      "sentence": "That's a totally fair concern and honestly it's something we should have been more proactive about flagging. Maria, do you have visibility into the event volume trending for Atlas?",
+      "speaker_name": "Rachel Torres",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 175.2,
+      "endTime": 185.4,
+      "averageConfidence": 0.94,
+      "index": 18
+    },
+    {
+      "sentence": "Yeah I do. So looking at the last six months, Wayne, your event volume has been gradually climbing \u2014 which honestly makes sense, you've got more endpoints connected to the platform than you did at contract start. You added, I think, two new production facilities to the monitoring scope back in November?",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 186.6,
+      "endTime": 204.9,
+      "averageConfidence": 0.95,
+      "index": 19
+    },
+    {
+      "sentence": "Yeah, that's right, we brought the Dayton and Phoenix plants online for Detect coverage. I guess that would account for some of it.",
+      "speaker_name": "Wayne Keller",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 206.4,
+      "endTime": 214.9,
+      "averageConfidence": 0.91,
+      "index": 20
+    },
+    {
+      "sentence": "Right, exactly. So that's probably the main driver. The good news is it gives us a pretty clear picture of where your volume is heading and we can right-size the contract tier accordingly for the renewal.",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 215.2,
+      "endTime": 227.8,
+      "averageConfidence": 0.92,
+      "index": 21
+    },
+    {
+      "sentence": "What would that look like from a pricing standpoint? Are we talking about just bumping the event cap, or is it a full tier change?",
+      "speaker_name": "Wayne Keller",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 228.9,
+      "endTime": 237.6,
+      "averageConfidence": 0.93,
+      "index": 22
+    },
+    {
+      "sentence": "So we have a 750 million event tier that would likely cover your current volume with some headroom. The price difference per month compared to your current tier is \u2014 let me check \u2014 it comes out to about $310 more per month.",
+      "speaker_name": "Rachel Torres",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 238.7,
+      "endTime": 254.2,
+      "averageConfidence": 0.93,
+      "index": 23
+    },
+    {
+      "sentence": "And that would eliminate the overage charges going forward.",
+      "speaker_name": "Wayne Keller",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 255.5,
+      "endTime": 258.9,
+      "averageConfidence": 0.89,
+      "index": 24
+    },
+    {
+      "sentence": "Correct. And when you do the math, if you're consistently going over, the tier bump actually costs you less than the overage rate on average. So it's cleaner from a budgeting perspective too.",
+      "speaker_name": "Rachel Torres",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 259.5,
+      "endTime": 271.4,
+      "averageConfidence": 0.88,
+      "index": 25
+    },
+    {
+      "sentence": "Yeah that makes sense. I'd want to see that laid out in writing so I can show my finance team, but directionally it seems reasonable.",
+      "speaker_name": "Wayne Keller",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 272.2,
+      "endTime": 281.4,
+      "averageConfidence": 0.9,
+      "index": 26
+    },
+    {
+      "sentence": "Absolutely, I'll put together a revised pricing summary that shows the current tier versus the 750 million tier with the cost comparison. I can have that to you by end of week.",
+      "speaker_name": "Rachel Torres",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 282.5,
+      "endTime": 293.9,
+      "averageConfidence": 0.94,
+      "index": 27
+    },
+    {
+      "sentence": "That works. The other thing I wanted to ask about \u2014 and this is more forward-looking \u2014 we've been getting some pressure internally to get better compliance reporting in place. Specifically around SOC 2. Is that something Aegis handles?",
+      "speaker_name": "Wayne Keller",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 294.2,
+      "endTime": 308.3,
+      "averageConfidence": 0.89,
+      "index": 28
+    },
+    {
+      "sentence": "Yes, that falls under Aegis Comply \u2014 you're currently not subscribed to that module but it's something we can definitely talk through. Maria, do you want to give a quick overview?",
+      "speaker_name": "Rachel Torres",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 309.6,
+      "endTime": 320.6,
+      "averageConfidence": 0.89,
+      "index": 29
+    },
+    {
+      "sentence": "Sure. So Aegis Comply is our compliance reporting and audit module. It supports multiple frameworks \u2014 SOC 2 is one of them, along with things like HIPAA and PCI DSS. It's designed to give you on-demand reporting rather than having to manually compile audit evidence.",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 321.9,
+      "endTime": 338.0,
+      "averageConfidence": 0.93,
+      "index": 30
+    },
+    {
+      "sentence": "Okay. Is that something that would be priced separately on top of the existing contract?",
+      "speaker_name": "Wayne Keller",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 338.4,
+      "endTime": 343.9,
+      "averageConfidence": 0.9,
+      "index": 31
+    },
+    {
+      "sentence": "It is a separate add-on, yeah. We can include the Comply pricing in that summary doc I'm putting together so you have the full picture. Depending on the scope, there are also some bundle discounts available when you're renewing.",
+      "speaker_name": "Rachel Torres",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 344.3,
+      "endTime": 357.9,
+      "averageConfidence": 0.95,
+      "index": 32
+    },
+    {
+      "sentence": "Sure, include it. I'm not committing to anything yet but I want to have the numbers in front of me when I talk to our CFO.",
+      "speaker_name": "Wayne Keller",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 359.2,
+      "endTime": 368.3,
+      "averageConfidence": 0.94,
+      "index": 33
+    },
+    {
+      "sentence": "Completely understood. So to recap \u2014 I'll send over the pricing comparison for the Detect tier upgrade, include the Comply module pricing with renewal bundle options, and we should also talk about the renewal term length. Are you open to a two-year term or would you prefer to stay annual?",
+      "speaker_name": "Rachel Torres",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 368.7,
+      "endTime": 386.4,
+      "averageConfidence": 0.97,
+      "index": 34
+    },
+    {
+      "sentence": "Annual for now. We've got some internal budget planning happening and I don't want to lock in a multi-year until we have more visibility into our infrastructure roadmap for next year.",
+      "speaker_name": "Wayne Keller",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 387.1,
+      "endTime": 397.8,
+      "averageConfidence": 0.9,
+      "index": 35
+    },
+    {
+      "sentence": "That's totally fine, we can absolutely work on an annual renewal. I'll structure the proposal that way and flag that multi-year options are available if the conversation changes internally.",
+      "speaker_name": "Rachel Torres",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 398.1,
+      "endTime": 408.0,
+      "averageConfidence": 0.95,
+      "index": 36
+    },
+    {
+      "sentence": "Sounds good. And timing-wise, if I get this to my finance and legal team by mid-March, is that still enough runway before the contract expires?",
+      "speaker_name": "Wayne Keller",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 408.7,
+      "endTime": 417.3,
+      "averageConfidence": 0.89,
+      "index": 37
+    },
+    {
+      "sentence": "Yeah, mid-March gives us enough time to get the paperwork sorted before end of March. I'd say try to target the 13th or 14th internally so we have a buffer. I'll follow up with you if anything looks like it's getting close.",
+      "speaker_name": "Rachel Torres",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 418.0,
+      "endTime": 432.6,
+      "averageConfidence": 0.89,
+      "index": 38
+    },
+    {
+      "sentence": "Alright, I think that covers what I needed. Maria, anything else on your end?",
+      "speaker_name": "Wayne Keller",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 433.6,
+      "endTime": 438.8,
+      "averageConfidence": 0.91,
+      "index": 39
+    },
+    {
+      "sentence": "Nothing urgent from me \u2014 I'll just make sure we have a check-in scheduled after the proposal goes out in case you have questions. I'll reach out to get something on the calendar.",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 439.9,
+      "endTime": 451.3,
+      "averageConfidence": 0.89,
+      "index": 40
+    },
+    {
+      "sentence": "Perfect. Thanks both of you, I'll keep an eye out for that doc.",
+      "speaker_name": "Wayne Keller",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 452.6,
+      "endTime": 456.9,
+      "averageConfidence": 0.94,
+      "index": 41
+    },
+    {
+      "sentence": "Thanks Wayne, talk soon.",
+      "speaker_name": "Rachel Torres",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 458.3,
+      "endTime": 459.9,
+      "averageConfidence": 0.94,
+      "index": 42
+    }
+  ]
+}

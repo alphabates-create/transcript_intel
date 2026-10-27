@@ -1,0 +1,374 @@
+{
+  "data": [
+    {
+      "sentence": "Thank you for calling Aegis Cloud Security support, this is David Kim, how can I help you today?",
+      "speaker_name": "David Kim",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 7.7,
+      "endTime": 14.4,
+      "averageConfidence": 0.96,
+      "index": 0
+    },
+    {
+      "sentence": "David, hi, this is Lauren Bishop, I'm the VP of Infrastructure over at Cobalt Software, and I need you to understand right now that this is a critical situation \u2014 our Aegis Detect dashboard is completely down and we have zero visibility into our threat monitoring.",
+      "speaker_name": "Lauren Bishop",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 14.9,
+      "endTime": 30.9,
+      "averageConfidence": 0.97,
+      "index": 1
+    },
+    {
+      "sentence": "Hi Lauren, I'm sorry to hear that, I understand that's \u2014 that's a serious issue, let me pull up your account right now, can you give me your organization ID or the email associated with the account?",
+      "speaker_name": "David Kim",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 32.3,
+      "endTime": 45.2,
+      "averageConfidence": 0.96,
+      "index": 2
+    },
+    {
+      "sentence": "It's Cobalt Software, C-O-B-A-L-T, and our account ID is CSW-4492, and David I really need you to move fast here because we're a technology company, we have SLAs with our own customers, we cannot be flying blind on security right now.",
+      "speaker_name": "Lauren Bishop",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 46.1,
+      "endTime": 60.9,
+      "averageConfidence": 0.96,
+      "index": 3
+    },
+    {
+      "sentence": "Okay, I've got your account pulled up, CSW-4492, I can see you're on the Enterprise tier, and um \u2014 okay, let me check the dashboard status from our end.",
+      "speaker_name": "David Kim",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 62.4,
+      "endTime": 72.2,
+      "averageConfidence": 0.89,
+      "index": 4
+    },
+    {
+      "sentence": "What does it show? Because on our side it's just \u2014 it's a blank screen, the dashboard loads but there's no data, no alerts, no event feed, nothing, it's like the whole thing is dead.",
+      "speaker_name": "Lauren Bishop",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 73.2,
+      "endTime": 85.9,
+      "averageConfidence": 0.97,
+      "index": 5
+    },
+    {
+      "sentence": "Right, so I'm seeing \u2014 okay, I'm actually seeing some anomalies on our infrastructure monitoring right now, Lauren, it looks like this may not be isolated to just your account, I'm seeing flags on the event processing side.",
+      "speaker_name": "David Kim",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 86.6,
+      "endTime": 100.0,
+      "averageConfidence": 0.96,
+      "index": 6
+    },
+    {
+      "sentence": "Wait, so this is a platform-wide issue? Are you telling me that Aegis Detect is down for everyone? Why \u2014 why did nobody tell us about this, why didn't we get a notification or a status page update or anything?",
+      "speaker_name": "Lauren Bishop",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 100.9,
+      "endTime": 115.3,
+      "averageConfidence": 0.9,
+      "index": 7
+    },
+    {
+      "sentence": "Lauren, I \u2014 I hear you and that's a completely fair point, I'm honestly still investigating right now, I can see there's something happening with the event ingestion pipeline but I don't have full details yet, I'm escalating this internally as we speak.",
+      "speaker_name": "David Kim",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 116.1,
+      "endTime": 131.0,
+      "averageConfidence": 0.92,
+      "index": 8
+    },
+    {
+      "sentence": "How long has this been going on? Because my team first noticed it about forty-five minutes ago and I want to know if Aegis even knew about it before I called in.",
+      "speaker_name": "Lauren Bishop",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 131.5,
+      "endTime": 142.6,
+      "averageConfidence": 0.95,
+      "index": 9
+    },
+    {
+      "sentence": "I'm \u2014 I'm checking the internal incident logs right now and it looks like the first flag came in approximately... it looks like around the same time your team noticed it, so this appears to be a very recent onset.",
+      "speaker_name": "David Kim",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 143.1,
+      "endTime": 157.4,
+      "averageConfidence": 0.95,
+      "index": 10
+    },
+    {
+      "sentence": "So you're telling me your own system didn't catch this proactively, and a customer had to call in to tell you that your threat monitoring product isn't monitoring threats? Do you understand how insane that sounds?",
+      "speaker_name": "Lauren Bishop",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 158.4,
+      "endTime": 170.9,
+      "averageConfidence": 0.96,
+      "index": 11
+    },
+    {
+      "sentence": "I \u2014 yes, Lauren, I understand completely why that is frustrating and I'm not going to try to spin that, what I can tell you is I have our on-call engineering team paged right now and we are treating this as a P1 incident.",
+      "speaker_name": "David Kim",
+      "sentimentType": "negative",
+      "speaker_id": 0,
+      "time": 172.2,
+      "endTime": 188.0,
+      "averageConfidence": 0.89,
+      "index": 12
+    },
+    {
+      "sentence": "A P1 incident, great, what does that mean in terms of actual resolution time? Because I need to give my security team something, they're sitting there right now with no visibility and I need a number.",
+      "speaker_name": "Lauren Bishop",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 188.9,
+      "endTime": 201.7,
+      "averageConfidence": 0.89,
+      "index": 13
+    },
+    {
+      "sentence": "I can't give you a hard ETA right now because I'm still diagnosing the root cause, but what I can tell you is that our P1 SLA commits our engineering team to active remediation within fifteen minutes of escalation, and I've already triggered that.",
+      "speaker_name": "David Kim",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 202.2,
+      "endTime": 217.6,
+      "averageConfidence": 0.9,
+      "index": 14
+    },
+    {
+      "sentence": "Okay but that fifteen minutes started when, right now? Because my team has already been down for almost an hour.",
+      "speaker_name": "Lauren Bishop",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 218.2,
+      "endTime": 225.1,
+      "averageConfidence": 0.97,
+      "index": 15
+    },
+    {
+      "sentence": "The escalation was triggered just now, yes, and \u2014 and I want to be transparent with you about that, Lauren, I'm not going to pretend otherwise.",
+      "speaker_name": "David Kim",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 226.3,
+      "endTime": 235.3,
+      "averageConfidence": 0.88,
+      "index": 16
+    },
+    {
+      "sentence": "David, I'm going to be really honest with you right now \u2014 we have been evaluating SentinelShield as an alternative for the past couple of months, and this, this right here is exactly the kind of thing that makes that decision very easy.",
+      "speaker_name": "Lauren Bishop",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 236.5,
+      "endTime": 251.8,
+      "averageConfidence": 0.89,
+      "index": 17
+    },
+    {
+      "sentence": "Lauren, I \u2014 I hear that, and I understand, and I'm not going to beg you to stay on a call like this, what I'm going to do is focus on getting your service restored and making sure our team follows up with a full incident report and a conversation with your account team about what happened.",
+      "speaker_name": "David Kim",
+      "sentimentType": "negative",
+      "speaker_id": 0,
+      "time": 252.9,
+      "endTime": 272.6,
+      "averageConfidence": 0.92,
+      "index": 18
+    },
+    {
+      "sentence": "Is there anything \u2014 and I know this is a bad situation \u2014 is there anything on your end, like any cached data or any local logging that your team is using in the interim while we work on restoring the feed?",
+      "speaker_name": "David Kim",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 273.3,
+      "endTime": 288.1,
+      "averageConfidence": 0.94,
+      "index": 19
+    },
+    {
+      "sentence": "We have our own endpoint logs but that's not \u2014 that's not what we're paying you for, David, we're paying for centralized threat detection and correlation, not to go dig through raw logs manually, my team is not equipped to do that in real time.",
+      "speaker_name": "Lauren Bishop",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 289.5,
+      "endTime": 305.2,
+      "averageConfidence": 0.96,
+      "index": 20
+    },
+    {
+      "sentence": "Yeah, no, I understand, I wasn't suggesting that as a solution, more just trying to understand your current exposure level while we work on this.",
+      "speaker_name": "David Kim",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 305.6,
+      "endTime": 314.3,
+      "averageConfidence": 0.9,
+      "index": 21
+    },
+    {
+      "sentence": "Our exposure level is \u2014 it's unknown, David, that's the whole problem, I don't know what's happening on our network right now and that is not acceptable for a company like ours.",
+      "speaker_name": "Lauren Bishop",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 315.3,
+      "endTime": 326.4,
+      "averageConfidence": 0.95,
+      "index": 22
+    },
+    {
+      "sentence": "I'm getting an update from our incident channel right now \u2014 it looks like the engineering team has identified a cascading failure in the event processing pipeline, they're working on isolating the affected component.",
+      "speaker_name": "David Kim",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 326.8,
+      "endTime": 338.9,
+      "averageConfidence": 0.93,
+      "index": 23
+    },
+    {
+      "sentence": "A cascading failure \u2014 so what does that mean, how widespread is this, and how does something like that even happen in a platform that's supposed to be enterprise grade?",
+      "speaker_name": "Lauren Bishop",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 339.7,
+      "endTime": 350.3,
+      "averageConfidence": 0.94,
+      "index": 24
+    },
+    {
+      "sentence": "So I don't want to speculate on the technical specifics until our engineers have completed their diagnosis, but I will absolutely make sure that you receive a full root cause analysis as part of the incident report.",
+      "speaker_name": "David Kim",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 351.2,
+      "endTime": 364.1,
+      "averageConfidence": 0.95,
+      "index": 25
+    },
+    {
+      "sentence": "I want that in writing, and I want to know what Aegis is doing to make sure this never happens again, because if this is a single point of failure in your pipeline that is a fundamental architecture problem.",
+      "speaker_name": "Lauren Bishop",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 364.7,
+      "endTime": 378.7,
+      "averageConfidence": 0.92,
+      "index": 26
+    },
+    {
+      "sentence": "That is a completely reasonable ask and I will personally make sure that is flagged to your account team and to our engineering leadership for the follow-up.",
+      "speaker_name": "David Kim",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 379.1,
+      "endTime": 388.8,
+      "averageConfidence": 0.93,
+      "index": 27
+    },
+    {
+      "sentence": "And I want a service credit conversation, because this is \u2014 we're paying a significant amount for this platform and right now it is not functioning, and I don't think that's a controversial ask.",
+      "speaker_name": "Lauren Bishop",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 389.2,
+      "endTime": 400.9,
+      "averageConfidence": 0.93,
+      "index": 28
+    },
+    {
+      "sentence": "No, it's not, and that's absolutely something your account manager can discuss with you, I'll make sure that's flagged as part of this incident record, that's not a conversation I can authorize on a support call but I will make sure it happens.",
+      "speaker_name": "David Kim",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 401.8,
+      "endTime": 417.0,
+      "averageConfidence": 0.91,
+      "index": 29
+    },
+    {
+      "sentence": "Okay. So where are we right now, what's the latest from your engineering team?",
+      "speaker_name": "Lauren Bishop",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 417.5,
+      "endTime": 422.5,
+      "averageConfidence": 0.9,
+      "index": 30
+    },
+    {
+      "sentence": "They're actively working on the remediation, the pipeline failure has been isolated and they're working to restore the event processing flow, I don't have an ETA yet but I will update you the moment I hear anything.",
+      "speaker_name": "David Kim",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 423.0,
+      "endTime": 436.1,
+      "averageConfidence": 0.93,
+      "index": 31
+    },
+    {
+      "sentence": "I want updates every fifteen minutes, can you do that? I need to be able to tell my team and my leadership what is happening.",
+      "speaker_name": "Lauren Bishop",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 436.5,
+      "endTime": 445.6,
+      "averageConfidence": 0.93,
+      "index": 32
+    },
+    {
+      "sentence": "Yes, I can commit to that, I'll send you updates via email every fifteen minutes and if there's a significant change I'll call you directly, what's the best number for you?",
+      "speaker_name": "David Kim",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 446.4,
+      "endTime": 457.3,
+      "averageConfidence": 0.92,
+      "index": 33
+    },
+    {
+      "sentence": "Use the number I called in on and my email is l.bishop at cobalt software dot com, and David \u2014 I really hope you can get this resolved quickly because this is a really bad look for Aegis.",
+      "speaker_name": "Lauren Bishop",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 457.7,
+      "endTime": 471.4,
+      "averageConfidence": 0.92,
+      "index": 34
+    },
+    {
+      "sentence": "Lauren, I completely understand, and I am sorry that you're dealing with this today, we will do everything we can to get you restored as fast as possible and we will be in touch very shortly.",
+      "speaker_name": "David Kim",
+      "sentimentType": "negative",
+      "speaker_id": 0,
+      "time": 472.5,
+      "endTime": 485.5,
+      "averageConfidence": 0.93,
+      "index": 35
+    },
+    {
+      "sentence": "Okay. I'll be waiting.",
+      "speaker_name": "Lauren Bishop",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 486.7,
+      "endTime": 488.2,
+      "averageConfidence": 0.89,
+      "index": 36
+    }
+  ]
+}

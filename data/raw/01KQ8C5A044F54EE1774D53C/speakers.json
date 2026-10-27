@@ -1,0 +1,202 @@
+[
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 6.6,
+    "endTimeTs": 11.9
+  },
+  {
+    "speakerName": "Charles Ng",
+    "timestamp": 12.8,
+    "endTimeTs": 15.5
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 16.4,
+    "endTimeTs": 26.5
+  },
+  {
+    "speakerName": "Charles Ng",
+    "timestamp": 27.6,
+    "endTimeTs": 34.0
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 34.9,
+    "endTimeTs": 49.6
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 50.3,
+    "endTimeTs": 54.2
+  },
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 55.4,
+    "endTimeTs": 77.7
+  },
+  {
+    "speakerName": "Charles Ng",
+    "timestamp": 78.6,
+    "endTimeTs": 87.0
+  },
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 88.4,
+    "endTimeTs": 94.5
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 94.8,
+    "endTimeTs": 100.3
+  },
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 101.5,
+    "endTimeTs": 123.5
+  },
+  {
+    "speakerName": "Charles Ng",
+    "timestamp": 124.9,
+    "endTimeTs": 144.5
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 145.1,
+    "endTimeTs": 147.1
+  },
+  {
+    "speakerName": "Charles Ng",
+    "timestamp": 148.4,
+    "endTimeTs": 164.6
+  },
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 165.4,
+    "endTimeTs": 180.9
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 181.8,
+    "endTimeTs": 196.9
+  },
+  {
+    "speakerName": "Charles Ng",
+    "timestamp": 197.7,
+    "endTimeTs": 220.9
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 221.7,
+    "endTimeTs": 226.9
+  },
+  {
+    "speakerName": "Charles Ng",
+    "timestamp": 227.4,
+    "endTimeTs": 249.9
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 251.0,
+    "endTimeTs": 262.7
+  },
+  {
+    "speakerName": "Charles Ng",
+    "timestamp": 264.0,
+    "endTimeTs": 285.1
+  },
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 286.2,
+    "endTimeTs": 293.4
+  },
+  {
+    "speakerName": "Charles Ng",
+    "timestamp": 294.9,
+    "endTimeTs": 305.8
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 306.3,
+    "endTimeTs": 317.9
+  },
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 318.7,
+    "endTimeTs": 336.0
+  },
+  {
+    "speakerName": "Charles Ng",
+    "timestamp": 336.9,
+    "endTimeTs": 349.3
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 349.6,
+    "endTimeTs": 367.9
+  },
+  {
+    "speakerName": "Charles Ng",
+    "timestamp": 369.3,
+    "endTimeTs": 391.4
+  },
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 391.9,
+    "endTimeTs": 407.2
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 408.1,
+    "endTimeTs": 418.9
+  },
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 419.7,
+    "endTimeTs": 427.8
+  },
+  {
+    "speakerName": "Charles Ng",
+    "timestamp": 428.3,
+    "endTimeTs": 437.4
+  },
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 438.8,
+    "endTimeTs": 444.3
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 444.9,
+    "endTimeTs": 467.7
+  },
+  {
+    "speakerName": "Charles Ng",
+    "timestamp": 468.6,
+    "endTimeTs": 482.4
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 483.2,
+    "endTimeTs": 501.5
+  },
+  {
+    "speakerName": "Charles Ng",
+    "timestamp": 502.2,
+    "endTimeTs": 510.6
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 511.9,
+    "endTimeTs": 526.4
+  },
+  {
+    "speakerName": "Charles Ng",
+    "timestamp": 527.5,
+    "endTimeTs": 534.4
+  },
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 534.9,
+    "endTimeTs": 536.4
+  }
+]

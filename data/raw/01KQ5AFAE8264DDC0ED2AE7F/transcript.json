@@ -1,0 +1,434 @@
+{
+  "data": [
+    {
+      "sentence": "Alright, I think we've got everyone on \u2014 Derek, can you hear us okay?",
+      "speaker_name": "Rachel Torres",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 3.7,
+      "endTime": 8.4,
+      "averageConfidence": 0.95,
+      "index": 0
+    },
+    {
+      "sentence": "Yeah, loud and clear. Good to go.",
+      "speaker_name": "Derek Owens",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 9.1,
+      "endTime": 11.6,
+      "averageConfidence": 0.97,
+      "index": 1
+    },
+    {
+      "sentence": "Perfect. Okay so, welcome everyone \u2014 I'm Rachel Torres, Senior Account Manager here at Aegis, and I have Sofia Petrov with me today, she's one of our Senior Engineers on the Identity side of things. Sofia, you wanna say a quick hi?",
+      "speaker_name": "Rachel Torres",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 12.8,
+      "endTime": 27.4,
+      "averageConfidence": 0.91,
+      "index": 2
+    },
+    {
+      "sentence": "Hey Derek, great to meet you. Really excited to be working with Crestline on this \u2014 Identity deployments in financial services are kind of my favorite thing to dig into, so, yeah, looking forward to the conversation.",
+      "speaker_name": "Sofia Petrov",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 28.3,
+      "endTime": 40.9,
+      "averageConfidence": 0.94,
+      "index": 3
+    },
+    {
+      "sentence": "Likewise, honestly. I've been looking forward to this one. We've had Protect and Detect running for a while now and the team's been happy, so adding Identity feels like a natural next step.",
+      "speaker_name": "Derek Owens",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 41.6,
+      "endTime": 53.6,
+      "averageConfidence": 0.96,
+      "index": 4
+    },
+    {
+      "sentence": "That's great to hear, and yeah, that's \u2014 that's kind of the pattern we see with a lot of our financial services customers. They start with backup and threat monitoring and then once Identity is on the roadmap it sort of becomes a priority real fast, especially given the regulatory environment you're dealing with.",
+      "speaker_name": "Rachel Torres",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 54.8,
+      "endTime": 74.2,
+      "averageConfidence": 0.89,
+      "index": 5
+    },
+    {
+      "sentence": "Exactly, yeah. We had our annual audit in February and the auditors flagged some gaps around privileged access management and MFA coverage across our admin accounts specifically. So that sort of lit a fire under us to get this moving.",
+      "speaker_name": "Derek Owens",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 75.2,
+      "endTime": 89.4,
+      "averageConfidence": 0.88,
+      "index": 6
+    },
+    {
+      "sentence": "Okay, that's \u2014 that's actually super helpful context, Derek, thank you. So Sofia, that kind of shapes where we should probably start today, right?",
+      "speaker_name": "Rachel Torres",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 90.6,
+      "endTime": 99.5,
+      "averageConfidence": 0.94,
+      "index": 7
+    },
+    {
+      "sentence": "Yeah, absolutely. So Derek, before I get into the actual deployment steps, can you give me a quick picture of your current identity landscape? Like, what are you using today for SSO or directory services, if anything?",
+      "speaker_name": "Sofia Petrov",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 100.8,
+      "endTime": 113.6,
+      "averageConfidence": 0.9,
+      "index": 8
+    },
+    {
+      "sentence": "Sure, so we're running Azure AD \u2014 or I guess it's Entra ID now, still getting used to that name \u2014 for our primary directory. We've got about 340 users total, around 40 of those are in elevated or admin roles. MFA right now is a mix of, uh, Nextera Authenticator and some legacy SMS-based auth that we've been meaning to deprecate for a while but just haven't gotten around to it.",
+      "speaker_name": "Derek Owens",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 114.5,
+      "endTime": 140.0,
+      "averageConfidence": 0.91,
+      "index": 9
+    },
+    {
+      "sentence": "Okay, great. And the SMS-based stuff \u2014 is that mostly for a specific group of users or is it kind of scattered across different departments?",
+      "speaker_name": "Sofia Petrov",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 141.4,
+      "endTime": 150.5,
+      "averageConfidence": 0.97,
+      "index": 10
+    },
+    {
+      "sentence": "Honestly it's a bit scattered. I think it's probably 20, maybe 25 users, a lot of them are in our wealth advisory group. Some of the senior advisors have been resistant to changing their auth flow, if I'm being honest.",
+      "speaker_name": "Derek Owens",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 151.0,
+      "endTime": 165.2,
+      "averageConfidence": 0.96,
+      "index": 11
+    },
+    {
+      "sentence": "Ha, yeah, that's \u2014 that's a very common story. We hear that a lot. The good news is Aegis Identity has some tooling around phased MFA policy rollout that makes that transition a lot smoother. You can essentially grandfather users into a migration window rather than doing a hard cutover, which tends to reduce the, uh, the pushback significantly.",
+      "speaker_name": "Sofia Petrov",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 166.7,
+      "endTime": 187.6,
+      "averageConfidence": 0.92,
+      "index": 12
+    },
+    {
+      "sentence": "Oh that's actually really good to know. My manager was asking about that specifically \u2014 like whether we'd have to do a big bang cutover. I was not looking forward to that conversation with the advisory team.",
+      "speaker_name": "Derek Owens",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 188.9,
+      "endTime": 202.4,
+      "averageConfidence": 0.9,
+      "index": 13
+    },
+    {
+      "sentence": "You can tell your manager that's a hard no on the big bang approach. We've got you.",
+      "speaker_name": "Sofia Petrov",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 203.3,
+      "endTime": 209.5,
+      "averageConfidence": 0.92,
+      "index": 14
+    },
+    {
+      "sentence": "I love it. Okay so Sofia, do you want to walk Derek through sort of the high level deployment phases? I think that'll help frame the rest of the conversation.",
+      "speaker_name": "Rachel Torres",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 210.9,
+      "endTime": 221.4,
+      "averageConfidence": 0.91,
+      "index": 15
+    },
+    {
+      "sentence": "Yeah, definitely. So, at a high level we're looking at three phases for a deployment like yours. Phase one is directory sync and SSO configuration \u2014 basically getting Aegis Identity talking to your Entra ID environment, setting up the SAML or OIDC connectors, depending on what your apps support. Phase two is MFA policy configuration and enrollment, which is where we'd handle that phased migration you mentioned. And then phase three is privileged access management, which sounds like it's actually going to be really important for you given what the auditors flagged.",
+      "speaker_name": "Sofia Petrov",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 222.9,
+      "endTime": 254.8,
+      "averageConfidence": 0.91,
+      "index": 16
+    },
+    {
+      "sentence": "Yeah, the PAM piece is huge for us. Can you tell me a bit more about what that looks like in practice? Like, are we talking just session recording, or is there more to it?",
+      "speaker_name": "Derek Owens",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 255.7,
+      "endTime": 268.2,
+      "averageConfidence": 0.92,
+      "index": 17
+    },
+    {
+      "sentence": "So it's quite a bit more than just session recording, which I think you'll find pretty compelling. Aegis Identity gives you just-in-time access provisioning for admin roles, so instead of users having standing admin privileges 24/7, they request elevated access for a specific window, it gets approved through a workflow, and then it auto-expires. You still get full session recording and audit logs, but the just-in-time piece is really what closes that standing privilege gap that auditors love to flag.",
+      "speaker_name": "Sofia Petrov",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 269.0,
+      "endTime": 297.5,
+      "averageConfidence": 0.91,
+      "index": 18
+    },
+    {
+      "sentence": "Okay, that's \u2014 yeah, that's exactly what we need. That's honestly the thing that's going to make my auditors happiest. We've had a few instances where terminated employees still had admin access longer than they should have because the offboarding process wasn't fully automated, and that's a conversation I don't want to have again.",
+      "speaker_name": "Derek Owens",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 298.7,
+      "endTime": 318.1,
+      "averageConfidence": 0.94,
+      "index": 19
+    },
+    {
+      "sentence": "The automated deprovisioning is actually one of the things our financial services customers consistently call out as like a \u2014 a real pain point solved. We can tie it directly into your HR system or your ticketing system so the moment an offboarding ticket is triggered, access is revoked automatically. No manual steps, full audit trail.",
+      "speaker_name": "Sofia Petrov",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 319.0,
+      "endTime": 338.7,
+      "averageConfidence": 0.97,
+      "index": 20
+    },
+    {
+      "sentence": "We're using ServiceNow for ITSM, would that work?",
+      "speaker_name": "Derek Owens",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 339.1,
+      "endTime": 342.1,
+      "averageConfidence": 0.91,
+      "index": 21
+    },
+    {
+      "sentence": "ServiceNow is one of our, uh, supported integrations out of the box, yeah. We've got a native connector.",
+      "speaker_name": "Sofia Petrov",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 343.2,
+      "endTime": 349.5,
+      "averageConfidence": 0.88,
+      "index": 22
+    },
+    {
+      "sentence": "Perfect. Okay I'm taking notes furiously over here.",
+      "speaker_name": "Derek Owens",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 350.7,
+      "endTime": 353.3,
+      "averageConfidence": 0.93,
+      "index": 23
+    },
+    {
+      "sentence": "Ha, I love to hear it. So Derek, just while we're talking timelines \u2014 you mentioned the audit flagged some gaps. Do you have a target date in mind for when you want to have the Identity module fully deployed? Like, is there a next audit or a compliance checkpoint you're working toward?",
+      "speaker_name": "Rachel Torres",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 353.9,
+      "endTime": 372.2,
+      "averageConfidence": 0.92,
+      "index": 24
+    },
+    {
+      "sentence": "Yeah, so our next internal compliance review is in August, and I'd really love to have everything buttoned up by end of July at the latest so we have time to generate some reports and actually show progress. Is that \u2014 is that a realistic window?",
+      "speaker_name": "Derek Owens",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 372.9,
+      "endTime": 389.2,
+      "averageConfidence": 0.9,
+      "index": 25
+    },
+    {
+      "sentence": "End of July is very doable. If we can get the kickoff scheduled within the next week or two, we're looking at roughly ten to twelve weeks of deployment work depending on how complex the app integrations get, and that puts us comfortably in the early July range for full deployment.",
+      "speaker_name": "Sofia Petrov",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 389.5,
+      "endTime": 407.3,
+      "averageConfidence": 0.96,
+      "index": 26
+    },
+    {
+      "sentence": "That's \u2014 yeah, that's better than I was expecting honestly. I had budgeted for like a four month process in my head.",
+      "speaker_name": "Derek Owens",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 408.0,
+      "endTime": 415.9,
+      "averageConfidence": 0.89,
+      "index": 27
+    },
+    {
+      "sentence": "I mean, it can get longer if there are a lot of custom app integrations or if there's a lot of back and forth on MFA policy decisions, but for your environment as you've described it \u2014 340 users, existing Entra ID foundation \u2014 we've got a really solid baseline to work from. Sofia's done probably a dozen of these in the financial services space at this point.",
+      "speaker_name": "Rachel Torres",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 417.1,
+      "endTime": 440.7,
+      "averageConfidence": 0.97,
+      "index": 28
+    },
+    {
+      "sentence": "Closer to fifteen actually, but who's counting.",
+      "speaker_name": "Sofia Petrov",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 441.3,
+      "endTime": 443.6,
+      "averageConfidence": 0.89,
+      "index": 29
+    },
+    {
+      "sentence": "Ha, even better. Oh, one thing I did want to mention while I have you both \u2014 I saw the announcement about Aegis Comply v2 that went out earlier this month. We're not currently on the Comply module but the on-demand SOC 2 and the multi-framework reporting \u2014 that caught my eye. Is that something we could potentially layer in down the road?",
+      "speaker_name": "Derek Owens",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 444.6,
+      "endTime": 466.5,
+      "averageConfidence": 0.91,
+      "index": 30
+    },
+    {
+      "sentence": "Oh, absolutely. And honestly the timing is great because the Identity deployment is going to generate a ton of the underlying audit data that Comply v2 pulls into those reports. Like, all of the access logs, the privileged session records, the MFA enrollment status \u2014 that all feeds directly into the compliance reporting engine. So by the time you're ready to look at Comply, you'll already have months of clean data to work with.",
+      "speaker_name": "Rachel Torres",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 467.4,
+      "endTime": 493.7,
+      "averageConfidence": 0.92,
+      "index": 31
+    },
+    {
+      "sentence": "Oh that's a really good point, I hadn't thought about it that way. So it's not like starting from scratch with Comply, we'd already have a head start.",
+      "speaker_name": "Derek Owens",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 494.7,
+      "endTime": 505.0,
+      "averageConfidence": 0.9,
+      "index": 32
+    },
+    {
+      "sentence": "Exactly. And just so you know, Comply v2 has SOC 2, PCI DSS, HIPAA, and ISO 27001 all supported now as of the April launch. I know financial services customers often need to juggle multiple frameworks, so having all of that in one place on demand \u2014 no more waiting for quarterly report runs \u2014 it's pretty compelling.",
+      "speaker_name": "Rachel Torres",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 505.4,
+      "endTime": 525.7,
+      "averageConfidence": 0.93,
+      "index": 33
+    },
+    {
+      "sentence": "Yeah, I'm going to bring that up with our Chief Compliance Officer. She's been asking about the SOC 2 reporting specifically. But let's \u2014 let's get Identity locked in first and then circle back on Comply. One thing at a time.",
+      "speaker_name": "Derek Owens",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 526.3,
+      "endTime": 540.9,
+      "averageConfidence": 0.93,
+      "index": 34
+    },
+    {
+      "sentence": "Totally, that's the right approach. Okay so in terms of next steps \u2014 I'm going to send over a deployment plan document after this call that Sofia will put together, it'll have the three phases laid out with rough timelines, the integration checklist for the Entra ID connector and ServiceNow, and what we'll need from your side to get started. Does that work?",
+      "speaker_name": "Rachel Torres",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 541.6,
+      "endTime": 563.9,
+      "averageConfidence": 0.89,
+      "index": 35
+    },
+    {
+      "sentence": "Yeah, that's perfect. If you can also include the MFA migration framework stuff Sofia mentioned \u2014 the phased rollout approach \u2014 that would be great because I'm going to want to share that with my manager before the kickoff.",
+      "speaker_name": "Derek Owens",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 564.5,
+      "endTime": 578.2,
+      "averageConfidence": 0.89,
+      "index": 36
+    },
+    {
+      "sentence": "I'll include a section on that specifically, and I'll flag the just-in-time PAM stuff too since that sounds like it'll be an important talking point for your audit preparation.",
+      "speaker_name": "Sofia Petrov",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 578.9,
+      "endTime": 589.2,
+      "averageConfidence": 0.93,
+      "index": 37
+    },
+    {
+      "sentence": "Awesome. This has been \u2014 yeah, this has been really helpful. I feel a lot more confident about the timeline than I did going into this call. I'll loop my manager in on the doc once I get it and then let's get that kickoff on the calendar.",
+      "speaker_name": "Derek Owens",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 590.3,
+      "endTime": 607.1,
+      "averageConfidence": 0.92,
+      "index": 38
+    },
+    {
+      "sentence": "Sounds great. We'll aim to get the document to you by end of day Monday, and then we can do a quick kickoff call early next week if that works. Rachel, does that align with what you're thinking?",
+      "speaker_name": "Sofia Petrov",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 608.4,
+      "endTime": 621.5,
+      "averageConfidence": 0.91,
+      "index": 39
+    },
+    {
+      "sentence": "Yep, that works perfectly on our end. Derek, I'll send a calendar invite with a few options for early next week. And as always, if anything comes up before then, don't hesitate to reach out \u2014 you've got my direct line. We're really excited to get this moving with the Crestline team.",
+      "speaker_name": "Rachel Torres",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 622.4,
+      "endTime": 641.0,
+      "averageConfidence": 0.92,
+      "index": 40
+    },
+    {
+      "sentence": "Likewise, thanks so much Rachel, thanks Sofia. Talk soon.",
+      "speaker_name": "Derek Owens",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 642.2,
+      "endTime": 645.4,
+      "averageConfidence": 0.92,
+      "index": 41
+    },
+    {
+      "sentence": "Take care, Derek!",
+      "speaker_name": "Sofia Petrov",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 646.2,
+      "endTime": 647.7,
+      "averageConfidence": 0.97,
+      "index": 42
+    }
+  ]
+}

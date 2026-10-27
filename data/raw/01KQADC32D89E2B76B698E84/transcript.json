@@ -1,0 +1,414 @@
+{
+  "data": [
+    {
+      "sentence": "Hi, thanks for joining \u2014 this is Sarah Chen from Aegis Cloud Security support, and I also have my colleague Elena Vasquez on the line with me today. Elena specializes in our Identity module so I wanted to bring her in given what you described in the case notes.",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 3.2,
+      "endTime": 20.1,
+      "averageConfidence": 0.96,
+      "index": 0
+    },
+    {
+      "sentence": "Great, yeah. This is Stephanie Blair, VP of Technology at Nova Retail Group, and I have Andre Coleman on with me \u2014 he's one of our senior security engineers and he's been in the thick of this since it started.",
+      "speaker_name": "Stephanie Blair",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 21.5,
+      "endTime": 35.6,
+      "averageConfidence": 0.94,
+      "index": 1
+    },
+    {
+      "sentence": "Hi everyone, Andre here. Yeah, happy to be on \u2014 well, not happy about the situation, but you know what I mean.",
+      "speaker_name": "Andre Coleman",
+      "sentimentType": "negative",
+      "speaker_id": 2,
+      "time": 36.6,
+      "endTime": 44.4,
+      "averageConfidence": 0.88,
+      "index": 2
+    },
+    {
+      "sentence": "Totally understand, and hi Andre, hi Stephanie. We've reviewed the case notes you submitted but I'd love to just hear directly from you \u2014 can you walk us through what you're experiencing? When did this start?",
+      "speaker_name": "Elena Vasquez",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 44.8,
+      "endTime": 57.4,
+      "averageConfidence": 0.94,
+      "index": 3
+    },
+    {
+      "sentence": "So it started \u2014 Andre, was it Tuesday morning? Around like 9 AM?",
+      "speaker_name": "Stephanie Blair",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 58.6,
+      "endTime": 63.5,
+      "averageConfidence": 0.89,
+      "index": 4
+    },
+    {
+      "sentence": "Yeah, Tuesday February 10th, roughly 8:50, 8:55 AM central time. We started getting a flood of tickets from users saying they couldn't log in through SSO. They'd hit the login page, get redirected to our IdP, authenticate fine, and then come back and just get... a generic error. Something like 'authentication failed, please contact your administrator.'",
+      "speaker_name": "Andre Coleman",
+      "sentimentType": "negative",
+      "speaker_id": 2,
+      "time": 64.9,
+      "endTime": 84.9,
+      "averageConfidence": 0.93,
+      "index": 5
+    },
+    {
+      "sentence": "And this is affecting \u2014 I want to make sure I understand the scope \u2014 is this all of your users or a subset?",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 85.5,
+      "endTime": 94.0,
+      "averageConfidence": 0.91,
+      "index": 6
+    },
+    {
+      "sentence": "That's what's so frustrating about this, honestly. It's not all users. It's roughly \u2014 Andre, what are we at, like 40 percent?",
+      "speaker_name": "Stephanie Blair",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 94.8,
+      "endTime": 102.5,
+      "averageConfidence": 0.9,
+      "index": 7
+    },
+    {
+      "sentence": "Yeah, we've been tracking it. About 38 to 42 percent of our user base is hitting the failure. We have around 1,200 users in Aegis Identity and somewhere between 450 and 500 of them are completely locked out. And there's no obvious pattern \u2014 it's not department-based, it's not role-based, it doesn't seem to correlate with when they were provisioned or anything like that.",
+      "speaker_name": "Andre Coleman",
+      "sentimentType": "negative",
+      "speaker_id": 2,
+      "time": 103.2,
+      "endTime": 125.7,
+      "averageConfidence": 0.93,
+      "index": 8
+    },
+    {
+      "sentence": "Okay, that's really helpful context. And just to confirm \u2014 you're using Okta as your identity provider, correct? That's what's in the case.",
+      "speaker_name": "Elena Vasquez",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 126.1,
+      "endTime": 134.6,
+      "averageConfidence": 0.95,
+      "index": 9
+    },
+    {
+      "sentence": "That's right, Okta. SAML 2.0. We've been running this configuration for, what, eight, nine months without any issues, and then Tuesday just \u2014 boom.",
+      "speaker_name": "Andre Coleman",
+      "sentimentType": "negative",
+      "speaker_id": 2,
+      "time": 135.3,
+      "endTime": 144.1,
+      "averageConfidence": 0.9,
+      "index": 10
+    },
+    {
+      "sentence": "And nothing changed on your Okta side? No config updates, no certificate renewals, anything like that?",
+      "speaker_name": "Elena Vasquez",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 145.3,
+      "endTime": 150.8,
+      "averageConfidence": 0.93,
+      "index": 11
+    },
+    {
+      "sentence": "Nothing. I went through everything. Our Okta config is untouched. The SAML app settings are exactly what they've been. I even pulled the metadata and compared it to what we had exported three weeks ago \u2014 identical.",
+      "speaker_name": "Andre Coleman",
+      "sentimentType": "negative",
+      "speaker_id": 2,
+      "time": 151.3,
+      "endTime": 164.6,
+      "averageConfidence": 0.9,
+      "index": 12
+    },
+    {
+      "sentence": "Okay so, and I want to be transparent here \u2014 we do have some reports from a couple of other customers about SSO intermittency, and our engineering team is actively investigating. I don't want to say definitively this is a platform bug yet, but it's something we're taking seriously. Elena, do you want to talk about what we've been looking at on our end?",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 165.6,
+      "endTime": 188.4,
+      "averageConfidence": 0.95,
+      "index": 13
+    },
+    {
+      "sentence": "Yeah, absolutely. So um, what we've identified so far is there may be an issue with how Aegis Identity is processing certain SAML assertion attributes \u2014 specifically around the NameID format. There was a minor update pushed to the Identity module on February 9th, which was the day before you started seeing issues, and we think it may have introduced a regression in how we're handling persistent versus transient NameID formats.",
+      "speaker_name": "Elena Vasquez",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 189.3,
+      "endTime": 214.4,
+      "averageConfidence": 0.96,
+      "index": 14
+    },
+    {
+      "sentence": "Wait \u2014 there was an update pushed the day before this started and you're just telling us this now? We've had 500 users locked out for four days.",
+      "speaker_name": "Stephanie Blair",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 215.3,
+      "endTime": 225.2,
+      "averageConfidence": 0.94,
+      "index": 15
+    },
+    {
+      "sentence": "You're absolutely right to be frustrated by that, Stephanie, and I'm sorry. The update was a minor patch \u2014 it wasn't expected to affect SSO behavior and it didn't trigger our standard pre-release SSO regression tests the way it should have. That's a gap in our process and I don't want to gloss over that.",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "negative",
+      "speaker_id": 0,
+      "time": 226.3,
+      "endTime": 245.9,
+      "averageConfidence": 0.89,
+      "index": 16
+    },
+    {
+      "sentence": "I mean, look \u2014 I get it, things happen. But four days is a long time. We've got retail operations staff who literally cannot access the security platform. We're a retail company, Valentine's Day is today, this is one of our biggest sales days of the year, and we have team leads who can't get into the system.",
+      "speaker_name": "Stephanie Blair",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 247.0,
+      "endTime": 267.0,
+      "averageConfidence": 0.91,
+      "index": 17
+    },
+    {
+      "sentence": "Understood, and that context is really important \u2014 thank you for sharing that. Let me ask you this \u2014 in the interim, as a workaround, have your affected users tried using local username and password login instead of SSO? I know that's not ideal but it would at least get them access while we work on the fix.",
+      "speaker_name": "Elena Vasquez",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 267.8,
+      "endTime": 288.1,
+      "averageConfidence": 0.93,
+      "index": 18
+    },
+    {
+      "sentence": "We did try that for a handful of users. The problem is we enforced SSO-only as a security requirement, so local auth is disabled for most of our user accounts. Andre, is that still the case across the board?",
+      "speaker_name": "Stephanie Blair",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 288.4,
+      "endTime": 302.0,
+      "averageConfidence": 0.89,
+      "index": 19
+    },
+    {
+      "sentence": "Yeah, we have local auth disabled for about 90 percent of users. It's a security policy thing \u2014 we went SSO-only specifically because it was the recommended configuration in Aegis's own documentation. So the workaround kind of doesn't apply to us.",
+      "speaker_name": "Andre Coleman",
+      "sentimentType": "negative",
+      "speaker_id": 2,
+      "time": 302.9,
+      "endTime": 317.6,
+      "averageConfidence": 0.96,
+      "index": 20
+    },
+    {
+      "sentence": "Right, okay. So Elena, can we talk about the admin override option? Because I think that might be relevant here.",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 318.0,
+      "endTime": 325.4,
+      "averageConfidence": 0.93,
+      "index": 21
+    },
+    {
+      "sentence": "Yes \u2014 so Stephanie, Andre, there is an option in the Aegis Identity admin console where a super admin can temporarily re-enable local authentication on a per-user basis without changing your global policy. It's under Identity Settings, User Management, and then you'd select the affected user, go to Authentication Override, and toggle on 'Allow local auth \u2014 temporary.' It sets a 72-hour window by default. That would let your affected users in today at least.",
+      "speaker_name": "Elena Vasquez",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 326.4,
+      "endTime": 352.7,
+      "averageConfidence": 0.95,
+      "index": 22
+    },
+    {
+      "sentence": "Okay, that's... actually useful. Andre, can you look at that while we're on the call?",
+      "speaker_name": "Stephanie Blair",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 353.7,
+      "endTime": 359.4,
+      "averageConfidence": 0.95,
+      "index": 23
+    },
+    {
+      "sentence": "Yeah, pulling it up now. Identity Settings... User Management... okay I see it. Authentication Override, yeah. So I'd have to do this for each of the 450 affected users individually?",
+      "speaker_name": "Andre Coleman",
+      "sentimentType": "negative",
+      "speaker_id": 2,
+      "time": 360.2,
+      "endTime": 370.9,
+      "averageConfidence": 0.92,
+      "index": 24
+    },
+    {
+      "sentence": "There is a bulk selection option \u2014 if you filter your user list and select multiple users, the bulk actions dropdown should have the Authentication Override option. It's a little buried, I'll be honest.",
+      "speaker_name": "Elena Vasquez",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 371.6,
+      "endTime": 383.3,
+      "averageConfidence": 0.89,
+      "index": 25
+    },
+    {
+      "sentence": "Okay, yeah, I see the bulk action. That's... manageable. Not great, but manageable. I'll take it.",
+      "speaker_name": "Andre Coleman",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 383.7,
+      "endTime": 389.7,
+      "averageConfidence": 0.94,
+      "index": 26
+    },
+    {
+      "sentence": "Good. And I want to be clear that this is a stopgap \u2014 we are working on a proper fix. Our engineering team has identified the regression in the NameID handling and a patch is being tested right now. I can't give you a hard commit time, but the current estimate from engineering is that we're targeting a fix deployment within 48 hours.",
+      "speaker_name": "Elena Vasquez",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 390.4,
+      "endTime": 412.6,
+      "averageConfidence": 0.9,
+      "index": 27
+    },
+    {
+      "sentence": "48 hours. So that's... Sunday at the earliest. We will have had users locked out for almost a week by then. That's really not acceptable, Elena.",
+      "speaker_name": "Stephanie Blair",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 413.1,
+      "endTime": 422.2,
+      "averageConfidence": 0.93,
+      "index": 28
+    },
+    {
+      "sentence": "I hear you. I'm going to escalate the priority on this case when we get off this call and push engineering to see if there's any path to accelerating that timeline. I can't promise a different date but I will personally follow up with you by end of day today with an updated ETA.",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 423.1,
+      "endTime": 441.8,
+      "averageConfidence": 0.91,
+      "index": 29
+    },
+    {
+      "sentence": "I'd also like to understand \u2014 are there any other customers affected by this? Because if this is a widespread issue I'd expect a status page update or some kind of proactive communication, and I haven't seen anything.",
+      "speaker_name": "Stephanie Blair",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 442.5,
+      "endTime": 455.9,
+      "averageConfidence": 0.93,
+      "index": 30
+    },
+    {
+      "sentence": "That's a fair point. We have seen reports from a small number of other customers \u2014 I don't have exact numbers in front of me \u2014 and you're right that a status page update should have gone out sooner. I'm going to flag that internally as well. You shouldn't have to check in with support to find out if there's a known issue affecting your platform.",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "negative",
+      "speaker_id": 0,
+      "time": 456.6,
+      "endTime": 480.0,
+      "averageConfidence": 0.89,
+      "index": 31
+    },
+    {
+      "sentence": "Yeah. Yeah, exactly. Look, I want to be clear \u2014 we're not going anywhere, we're committed to Aegis, but this has been a rough week and I need to see some responsiveness here. Our CISO is asking me questions I don't have great answers to right now.",
+      "speaker_name": "Stephanie Blair",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 481.1,
+      "endTime": 497.3,
+      "averageConfidence": 0.91,
+      "index": 32
+    },
+    {
+      "sentence": "Completely understood. I want to make sure you have everything you need to communicate internally. Would it help if we drafted a brief incident summary email that you could share with your CISO? Something that lays out the root cause, what we know, and the remediation plan?",
+      "speaker_name": "Elena Vasquez",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 498.4,
+      "endTime": 515.2,
+      "averageConfidence": 0.96,
+      "index": 33
+    },
+    {
+      "sentence": "Actually, yeah. That would be helpful. Something I can forward that doesn't come from me trying to paraphrase a support call.",
+      "speaker_name": "Stephanie Blair",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 516.2,
+      "endTime": 524.0,
+      "averageConfidence": 0.93,
+      "index": 34
+    },
+    {
+      "sentence": "We'll put that together and send it over within the hour. And Andre \u2014 as you go through the bulk override process, if you run into any issues or it doesn't behave the way I described, please ping us directly in the case thread and we'll jump back on immediately.",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 524.7,
+      "endTime": 542.0,
+      "averageConfidence": 0.97,
+      "index": 35
+    },
+    {
+      "sentence": "Will do. And just to confirm the next steps I'm hearing \u2014 you'll escalate the patch timeline, you'll send an incident summary we can share internally, and you'll follow up by end of day today with an updated fix ETA. Is that right?",
+      "speaker_name": "Andre Coleman",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 542.7,
+      "endTime": 558.0,
+      "averageConfidence": 0.93,
+      "index": 36
+    },
+    {
+      "sentence": "That's exactly right. And we'll keep the case thread updated in real time as we get information from engineering. You won't have to chase us.",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 558.8,
+      "endTime": 568.0,
+      "averageConfidence": 0.91,
+      "index": 37
+    },
+    {
+      "sentence": "Okay. I appreciate that. I'm still frustrated, I'm not going to pretend otherwise, but at least we have a path forward. Let's see how the next 24 hours go.",
+      "speaker_name": "Stephanie Blair",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 568.7,
+      "endTime": 579.2,
+      "averageConfidence": 0.94,
+      "index": 38
+    },
+    {
+      "sentence": "That's completely fair, Stephanie. We'll earn back your confidence here. Thank you both for your time today and I'm sorry again for the disruption, especially on a day like today.",
+      "speaker_name": "Elena Vasquez",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 580.4,
+      "endTime": 591.3,
+      "averageConfidence": 0.94,
+      "index": 39
+    },
+    {
+      "sentence": "Thanks. Talk soon.",
+      "speaker_name": "Andre Coleman",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 592.5,
+      "endTime": 594.0,
+      "averageConfidence": 0.92,
+      "index": 40
+    }
+  ]
+}

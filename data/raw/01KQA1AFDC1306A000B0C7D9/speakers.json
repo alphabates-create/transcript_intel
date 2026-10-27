@@ -1,0 +1,277 @@
+[
+  {
+    "speakerName": "Lisa Park",
+    "timestamp": 3.4,
+    "endTimeTs": 11.1
+  },
+  {
+    "speakerName": "Raymond Burke",
+    "timestamp": 12.2,
+    "endTimeTs": 22.6
+  },
+  {
+    "speakerName": "Lisa Park",
+    "timestamp": 23.3,
+    "endTimeTs": 36.1
+  },
+  {
+    "speakerName": "Aisha Johnson",
+    "timestamp": 36.4,
+    "endTimeTs": 49.9
+  },
+  {
+    "speakerName": "Raymond Burke",
+    "timestamp": 50.7,
+    "endTimeTs": 67.7
+  },
+  {
+    "speakerName": "Aisha Johnson",
+    "timestamp": 69.1,
+    "endTimeTs": 78.4
+  },
+  {
+    "speakerName": "Lisa Park",
+    "timestamp": 79.5,
+    "endTimeTs": 97.4
+  },
+  {
+    "speakerName": "Raymond Burke",
+    "timestamp": 98.5,
+    "endTimeTs": 113.2
+  },
+  {
+    "speakerName": "Aisha Johnson",
+    "timestamp": 114.3,
+    "endTimeTs": 120.2
+  },
+  {
+    "speakerName": "Raymond Burke",
+    "timestamp": 121.1,
+    "endTimeTs": 144.8
+  },
+  {
+    "speakerName": "Aisha Johnson",
+    "timestamp": 146.0,
+    "endTimeTs": 160.8
+  },
+  {
+    "speakerName": "Raymond Burke",
+    "timestamp": 161.4,
+    "endTimeTs": 172.4
+  },
+  {
+    "speakerName": "Lisa Park",
+    "timestamp": 173.1,
+    "endTimeTs": 189.3
+  },
+  {
+    "speakerName": "Raymond Burke",
+    "timestamp": 190.7,
+    "endTimeTs": 200.3
+  },
+  {
+    "speakerName": "Aisha Johnson",
+    "timestamp": 201.0,
+    "endTimeTs": 202.5
+  },
+  {
+    "speakerName": "Raymond Burke",
+    "timestamp": 203.3,
+    "endTimeTs": 225.9
+  },
+  {
+    "speakerName": "Aisha Johnson",
+    "timestamp": 226.9,
+    "endTimeTs": 232.7
+  },
+  {
+    "speakerName": "Raymond Burke",
+    "timestamp": 233.4,
+    "endTimeTs": 248.0
+  },
+  {
+    "speakerName": "Aisha Johnson",
+    "timestamp": 249.1,
+    "endTimeTs": 260.7
+  },
+  {
+    "speakerName": "Raymond Burke",
+    "timestamp": 261.9,
+    "endTimeTs": 282.1
+  },
+  {
+    "speakerName": "Lisa Park",
+    "timestamp": 282.8,
+    "endTimeTs": 297.3
+  },
+  {
+    "speakerName": "Raymond Burke",
+    "timestamp": 298.1,
+    "endTimeTs": 313.5
+  },
+  {
+    "speakerName": "Aisha Johnson",
+    "timestamp": 314.3,
+    "endTimeTs": 332.2
+  },
+  {
+    "speakerName": "Raymond Burke",
+    "timestamp": 333.0,
+    "endTimeTs": 341.1
+  },
+  {
+    "speakerName": "Aisha Johnson",
+    "timestamp": 342.5,
+    "endTimeTs": 354.4
+  },
+  {
+    "speakerName": "Raymond Burke",
+    "timestamp": 355.5,
+    "endTimeTs": 365.4
+  },
+  {
+    "speakerName": "Lisa Park",
+    "timestamp": 366.8,
+    "endTimeTs": 374.9
+  },
+  {
+    "speakerName": "Raymond Burke",
+    "timestamp": 375.3,
+    "endTimeTs": 387.0
+  },
+  {
+    "speakerName": "Aisha Johnson",
+    "timestamp": 388.5,
+    "endTimeTs": 404.4
+  },
+  {
+    "speakerName": "Raymond Burke",
+    "timestamp": 404.9,
+    "endTimeTs": 411.3
+  },
+  {
+    "speakerName": "Aisha Johnson",
+    "timestamp": 411.9,
+    "endTimeTs": 425.9
+  },
+  {
+    "speakerName": "Raymond Burke",
+    "timestamp": 426.7,
+    "endTimeTs": 444.3
+  },
+  {
+    "speakerName": "Lisa Park",
+    "timestamp": 445.2,
+    "endTimeTs": 461.6
+  },
+  {
+    "speakerName": "Raymond Burke",
+    "timestamp": 461.9,
+    "endTimeTs": 473.5
+  },
+  {
+    "speakerName": "Aisha Johnson",
+    "timestamp": 474.8,
+    "endTimeTs": 487.2
+  },
+  {
+    "speakerName": "Raymond Burke",
+    "timestamp": 487.9,
+    "endTimeTs": 502.8
+  },
+  {
+    "speakerName": "Aisha Johnson",
+    "timestamp": 504.0,
+    "endTimeTs": 522.5
+  },
+  {
+    "speakerName": "Raymond Burke",
+    "timestamp": 523.4,
+    "endTimeTs": 530.5
+  },
+  {
+    "speakerName": "Lisa Park",
+    "timestamp": 531.5,
+    "endTimeTs": 541.5
+  },
+  {
+    "speakerName": "Raymond Burke",
+    "timestamp": 542.8,
+    "endTimeTs": 550.8
+  },
+  {
+    "speakerName": "Aisha Johnson",
+    "timestamp": 551.5,
+    "endTimeTs": 574.1
+  },
+  {
+    "speakerName": "Raymond Burke",
+    "timestamp": 574.7,
+    "endTimeTs": 590.6
+  },
+  {
+    "speakerName": "Lisa Park",
+    "timestamp": 591.1,
+    "endTimeTs": 604.3
+  },
+  {
+    "speakerName": "Raymond Burke",
+    "timestamp": 604.8,
+    "endTimeTs": 616.4
+  },
+  {
+    "speakerName": "Aisha Johnson",
+    "timestamp": 617.7,
+    "endTimeTs": 636.4
+  },
+  {
+    "speakerName": "Raymond Burke",
+    "timestamp": 637.9,
+    "endTimeTs": 647.0
+  },
+  {
+    "speakerName": "Aisha Johnson",
+    "timestamp": 647.7,
+    "endTimeTs": 661.3
+  },
+  {
+    "speakerName": "Raymond Burke",
+    "timestamp": 662.4,
+    "endTimeTs": 671.7
+  },
+  {
+    "speakerName": "Lisa Park",
+    "timestamp": 672.5,
+    "endTimeTs": 685.2
+  },
+  {
+    "speakerName": "Raymond Burke",
+    "timestamp": 685.7,
+    "endTimeTs": 700.1
+  },
+  {
+    "speakerName": "Aisha Johnson",
+    "timestamp": 701.4,
+    "endTimeTs": 708.5
+  },
+  {
+    "speakerName": "Lisa Park",
+    "timestamp": 708.9,
+    "endTimeTs": 721.7
+  },
+  {
+    "speakerName": "Raymond Burke",
+    "timestamp": 722.6,
+    "endTimeTs": 729.2
+  },
+  {
+    "speakerName": "Aisha Johnson",
+    "timestamp": 730.5,
+    "endTimeTs": 736.5
+  },
+  {
+    "speakerName": "Lisa Park",
+    "timestamp": 737.9,
+    "endTimeTs": 740.7
+  }
+]

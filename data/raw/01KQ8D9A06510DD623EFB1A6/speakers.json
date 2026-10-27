@@ -1,0 +1,372 @@
+[
+  {
+    "speakerName": "Rachel Torres",
+    "timestamp": 3.7,
+    "endTimeTs": 10.4
+  },
+  {
+    "speakerName": "Sandra Keating",
+    "timestamp": 11.0,
+    "endTimeTs": 17.5
+  },
+  {
+    "speakerName": "Rachel Torres",
+    "timestamp": 17.9,
+    "endTimeTs": 32.1
+  },
+  {
+    "speakerName": "Sandra Keating",
+    "timestamp": 32.8,
+    "endTimeTs": 36.3
+  },
+  {
+    "speakerName": "Rachel Torres",
+    "timestamp": 37.4,
+    "endTimeTs": 47.3
+  },
+  {
+    "speakerName": "Sandra Keating",
+    "timestamp": 48.3,
+    "endTimeTs": 62.9
+  },
+  {
+    "speakerName": "Rachel Torres",
+    "timestamp": 64.4,
+    "endTimeTs": 74.7
+  },
+  {
+    "speakerName": "Sandra Keating",
+    "timestamp": 75.7,
+    "endTimeTs": 86.3
+  },
+  {
+    "speakerName": "Rachel Torres",
+    "timestamp": 87.0,
+    "endTimeTs": 101.2
+  },
+  {
+    "speakerName": "Sandra Keating",
+    "timestamp": 102.5,
+    "endTimeTs": 109.6
+  },
+  {
+    "speakerName": "Rachel Torres",
+    "timestamp": 110.7,
+    "endTimeTs": 112.2
+  },
+  {
+    "speakerName": "Sandra Keating",
+    "timestamp": 113.1,
+    "endTimeTs": 123.3
+  },
+  {
+    "speakerName": "Rachel Torres",
+    "timestamp": 124.6,
+    "endTimeTs": 130.4
+  },
+  {
+    "speakerName": "Sandra Keating",
+    "timestamp": 131.8,
+    "endTimeTs": 147.1
+  },
+  {
+    "speakerName": "Rachel Torres",
+    "timestamp": 147.8,
+    "endTimeTs": 149.3
+  },
+  {
+    "speakerName": "Sandra Keating",
+    "timestamp": 150.4,
+    "endTimeTs": 162.1
+  },
+  {
+    "speakerName": "Rachel Torres",
+    "timestamp": 163.0,
+    "endTimeTs": 175.4
+  },
+  {
+    "speakerName": "Sandra Keating",
+    "timestamp": 176.2,
+    "endTimeTs": 188.6
+  },
+  {
+    "speakerName": "Rachel Torres",
+    "timestamp": 189.8,
+    "endTimeTs": 200.8
+  },
+  {
+    "speakerName": "Sandra Keating",
+    "timestamp": 201.6,
+    "endTimeTs": 214.2
+  },
+  {
+    "speakerName": "Rachel Torres",
+    "timestamp": 215.5,
+    "endTimeTs": 224.4
+  },
+  {
+    "speakerName": "Sandra Keating",
+    "timestamp": 225.6,
+    "endTimeTs": 234.8
+  },
+  {
+    "speakerName": "Rachel Torres",
+    "timestamp": 235.9,
+    "endTimeTs": 258.0
+  },
+  {
+    "speakerName": "Sandra Keating",
+    "timestamp": 259.2,
+    "endTimeTs": 261.3
+  },
+  {
+    "speakerName": "Rachel Torres",
+    "timestamp": 262.6,
+    "endTimeTs": 270.5
+  },
+  {
+    "speakerName": "Sandra Keating",
+    "timestamp": 271.7,
+    "endTimeTs": 278.0
+  },
+  {
+    "speakerName": "Rachel Torres",
+    "timestamp": 278.7,
+    "endTimeTs": 283.8
+  },
+  {
+    "speakerName": "Sandra Keating",
+    "timestamp": 284.8,
+    "endTimeTs": 294.7
+  },
+  {
+    "speakerName": "Rachel Torres",
+    "timestamp": 295.0,
+    "endTimeTs": 307.1
+  },
+  {
+    "speakerName": "Sandra Keating",
+    "timestamp": 307.5,
+    "endTimeTs": 326.4
+  },
+  {
+    "speakerName": "Rachel Torres",
+    "timestamp": 326.7,
+    "endTimeTs": 342.0
+  },
+  {
+    "speakerName": "Sandra Keating",
+    "timestamp": 342.8,
+    "endTimeTs": 344.8
+  },
+  {
+    "speakerName": "Rachel Torres",
+    "timestamp": 346.2,
+    "endTimeTs": 359.1
+  },
+  {
+    "speakerName": "Sandra Keating",
+    "timestamp": 360.2,
+    "endTimeTs": 375.0
+  },
+  {
+    "speakerName": "Rachel Torres",
+    "timestamp": 376.5,
+    "endTimeTs": 390.3
+  },
+  {
+    "speakerName": "Sandra Keating",
+    "timestamp": 390.9,
+    "endTimeTs": 403.8
+  },
+  {
+    "speakerName": "Rachel Torres",
+    "timestamp": 404.6,
+    "endTimeTs": 418.7
+  },
+  {
+    "speakerName": "Sandra Keating",
+    "timestamp": 419.0,
+    "endTimeTs": 431.0
+  },
+  {
+    "speakerName": "Rachel Torres",
+    "timestamp": 431.7,
+    "endTimeTs": 443.3
+  },
+  {
+    "speakerName": "Sandra Keating",
+    "timestamp": 444.6,
+    "endTimeTs": 446.1
+  },
+  {
+    "speakerName": "Rachel Torres",
+    "timestamp": 446.8,
+    "endTimeTs": 458.6
+  },
+  {
+    "speakerName": "Sandra Keating",
+    "timestamp": 459.5,
+    "endTimeTs": 461.0
+  },
+  {
+    "speakerName": "Rachel Torres",
+    "timestamp": 462.4,
+    "endTimeTs": 477.1
+  },
+  {
+    "speakerName": "Sandra Keating",
+    "timestamp": 478.4,
+    "endTimeTs": 488.2
+  },
+  {
+    "speakerName": "Rachel Torres",
+    "timestamp": 488.7,
+    "endTimeTs": 499.2
+  },
+  {
+    "speakerName": "Sandra Keating",
+    "timestamp": 500.5,
+    "endTimeTs": 502.6
+  },
+  {
+    "speakerName": "Rachel Torres",
+    "timestamp": 503.0,
+    "endTimeTs": 518.0
+  },
+  {
+    "speakerName": "Sandra Keating",
+    "timestamp": 518.5,
+    "endTimeTs": 521.4
+  },
+  {
+    "speakerName": "Rachel Torres",
+    "timestamp": 522.6,
+    "endTimeTs": 536.7
+  },
+  {
+    "speakerName": "Sandra Keating",
+    "timestamp": 537.6,
+    "endTimeTs": 547.2
+  },
+  {
+    "speakerName": "Rachel Torres",
+    "timestamp": 548.3,
+    "endTimeTs": 556.8
+  },
+  {
+    "speakerName": "Sandra Keating",
+    "timestamp": 558.2,
+    "endTimeTs": 565.7
+  },
+  {
+    "speakerName": "Rachel Torres",
+    "timestamp": 566.6,
+    "endTimeTs": 576.2
+  },
+  {
+    "speakerName": "Sandra Keating",
+    "timestamp": 576.8,
+    "endTimeTs": 583.4
+  },
+  {
+    "speakerName": "Rachel Torres",
+    "timestamp": 584.3,
+    "endTimeTs": 592.7
+  },
+  {
+    "speakerName": "Sandra Keating",
+    "timestamp": 593.3,
+    "endTimeTs": 604.1
+  },
+  {
+    "speakerName": "Rachel Torres",
+    "timestamp": 604.7,
+    "endTimeTs": 621.1
+  },
+  {
+    "speakerName": "Sandra Keating",
+    "timestamp": 622.0,
+    "endTimeTs": 628.7
+  },
+  {
+    "speakerName": "Rachel Torres",
+    "timestamp": 630.1,
+    "endTimeTs": 641.0
+  },
+  {
+    "speakerName": "Sandra Keating",
+    "timestamp": 642.3,
+    "endTimeTs": 649.7
+  },
+  {
+    "speakerName": "Rachel Torres",
+    "timestamp": 651.0,
+    "endTimeTs": 660.5
+  },
+  {
+    "speakerName": "Sandra Keating",
+    "timestamp": 661.3,
+    "endTimeTs": 662.8
+  },
+  {
+    "speakerName": "Rachel Torres",
+    "timestamp": 664.0,
+    "endTimeTs": 673.4
+  },
+  {
+    "speakerName": "Sandra Keating",
+    "timestamp": 673.9,
+    "endTimeTs": 675.4
+  },
+  {
+    "speakerName": "Rachel Torres",
+    "timestamp": 676.2,
+    "endTimeTs": 687.5
+  },
+  {
+    "speakerName": "Sandra Keating",
+    "timestamp": 688.5,
+    "endTimeTs": 690.1
+  },
+  {
+    "speakerName": "Rachel Torres",
+    "timestamp": 690.6,
+    "endTimeTs": 699.5
+  },
+  {
+    "speakerName": "Sandra Keating",
+    "timestamp": 700.1,
+    "endTimeTs": 708.8
+  },
+  {
+    "speakerName": "Rachel Torres",
+    "timestamp": 709.6,
+    "endTimeTs": 715.3
+  },
+  {
+    "speakerName": "Sandra Keating",
+    "timestamp": 715.8,
+    "endTimeTs": 726.0
+  },
+  {
+    "speakerName": "Rachel Torres",
+    "timestamp": 726.9,
+    "endTimeTs": 739.9
+  },
+  {
+    "speakerName": "Sandra Keating",
+    "timestamp": 741.0,
+    "endTimeTs": 747.8
+  },
+  {
+    "speakerName": "Rachel Torres",
+    "timestamp": 748.1,
+    "endTimeTs": 753.6
+  },
+  {
+    "speakerName": "Sandra Keating",
+    "timestamp": 754.1,
+    "endTimeTs": 755.6
+  }
+]

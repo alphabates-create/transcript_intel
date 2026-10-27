@@ -1,0 +1,404 @@
+{
+  "data": [
+    {
+      "sentence": "Hi, this is Marcus Williams from Aegis Cloud Security support, am I speaking with Oliver Grant?",
+      "speaker_name": "Marcus Williams",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 3.3,
+      "endTime": 9.1,
+      "averageConfidence": 0.94,
+      "index": 0
+    },
+    {
+      "sentence": "Yeah, that's me. Hi Marcus, thanks for getting back to me so quickly.",
+      "speaker_name": "Oliver Grant",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 10.1,
+      "endTime": 14.7,
+      "averageConfidence": 0.89,
+      "index": 1
+    },
+    {
+      "sentence": "Of course, happy to help. So I'm pulling up support case number 3296 here \u2014 you're reporting a formatting issue with Aegis Comply v2 reports?",
+      "speaker_name": "Marcus Williams",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 15.2,
+      "endTime": 24.2,
+      "averageConfidence": 0.92,
+      "index": 2
+    },
+    {
+      "sentence": "Yeah, exactly. So we just upgraded to \u2014 or I guess it launched yesterday, right, the v2 \u2014 and we ran our first on-demand SOC 2 report this morning and the output is just... it's not right.",
+      "speaker_name": "Oliver Grant",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 25.2,
+      "endTime": 38.5,
+      "averageConfidence": 0.97,
+      "index": 3
+    },
+    {
+      "sentence": "Okay, can you describe what you're seeing? Like is it a visual formatting thing, or is data missing, or...?",
+      "speaker_name": "Marcus Williams",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 39.0,
+      "endTime": 45.6,
+      "averageConfidence": 0.96,
+      "index": 4
+    },
+    {
+      "sentence": "It's \u2014 okay so a couple of things. First, the section headers in the PDF export are getting cut off. Like the text is truncating mid-word on some of the longer control category names. And then second, the control status table, the one that shows pass, fail, not applicable \u2014 it's rendering across two pages in a really awkward way. Like the header row is on one page and then all the data is on the next.",
+      "speaker_name": "Oliver Grant",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 47.1,
+      "endTime": 74.5,
+      "averageConfidence": 0.96,
+      "index": 5
+    },
+    {
+      "sentence": "Got it, okay. And just to confirm \u2014 is this happening on every report you generate, or is it specific to the SOC 2 framework?",
+      "speaker_name": "Marcus Williams",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 75.0,
+      "endTime": 83.6,
+      "averageConfidence": 0.91,
+      "index": 6
+    },
+    {
+      "sentence": "Uh, we only ran SOC 2 so far. We were planning to run a PCI DSS one later today but haven't done that yet.",
+      "speaker_name": "Oliver Grant",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 84.0,
+      "endTime": 92.9,
+      "averageConfidence": 0.89,
+      "index": 7
+    },
+    {
+      "sentence": "Okay, that's helpful. And when you say PDF export \u2014 are you using the direct download from the Comply dashboard, or are you going through the API?",
+      "speaker_name": "Marcus Williams",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 93.6,
+      "endTime": 103.1,
+      "averageConfidence": 0.95,
+      "index": 8
+    },
+    {
+      "sentence": "Dashboard. Just the download button in the UI.",
+      "speaker_name": "Oliver Grant",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 103.6,
+      "endTime": 106.6,
+      "averageConfidence": 0.95,
+      "index": 9
+    },
+    {
+      "sentence": "Alright. And what browser are you using, just so I can note that down?",
+      "speaker_name": "Marcus Williams",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 107.1,
+      "endTime": 112.3,
+      "averageConfidence": 0.92,
+      "index": 10
+    },
+    {
+      "sentence": "Chrome. Latest version, I keep it updated.",
+      "speaker_name": "Oliver Grant",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 112.8,
+      "endTime": 115.3,
+      "averageConfidence": 0.92,
+      "index": 11
+    },
+    {
+      "sentence": "Okay, Chrome, noted. And um \u2014 can you send me a copy of the report that's showing the issue? You can attach it to the case, or if there's any sensitivity around that I can also try to reproduce it on my end.",
+      "speaker_name": "Marcus Williams",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 116.1,
+      "endTime": 130.8,
+      "averageConfidence": 0.95,
+      "index": 12
+    },
+    {
+      "sentence": "Yeah, there's definitely sensitivity \u2014 it's a compliance report so I'd rather not send the whole thing externally. Can you reproduce it?",
+      "speaker_name": "Oliver Grant",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 131.8,
+      "endTime": 139.9,
+      "averageConfidence": 0.95,
+      "index": 13
+    },
+    {
+      "sentence": "Absolutely, totally understand. Let me just spin up a test environment here and generate a SOC 2 report... give me just a second.",
+      "speaker_name": "Marcus Williams",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 141.3,
+      "endTime": 149.5,
+      "averageConfidence": 0.88,
+      "index": 14
+    },
+    {
+      "sentence": "Sure, take your time.",
+      "speaker_name": "Oliver Grant",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 149.8,
+      "endTime": 151.5,
+      "averageConfidence": 0.96,
+      "index": 15
+    },
+    {
+      "sentence": "Okay, so I'm generating it now... and yeah, I can actually see what you're describing. The header truncation is pretty noticeable on \u2014 looks like it's specifically the longer control category labels. Like the Availability and Confidentiality sections are fine but Processing Integrity is getting cut. And yeah the table pagination issue is there too.",
+      "speaker_name": "Marcus Williams",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 152.0,
+      "endTime": 171.2,
+      "averageConfidence": 0.93,
+      "index": 16
+    },
+    {
+      "sentence": "Right, yeah, that's exactly it. Processing Integrity was one of the ones I noticed too.",
+      "speaker_name": "Oliver Grant",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 171.7,
+      "endTime": 176.9,
+      "averageConfidence": 0.88,
+      "index": 17
+    },
+    {
+      "sentence": "Okay so this is definitely a bug on our end, I'm not going to ask you to clear your cache or anything like that \u2014 this is a rendering issue in the PDF generation service. Given that v2 just went GA yesterday this is almost certainly something that came in with the new release.",
+      "speaker_name": "Marcus Williams",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 177.2,
+      "endTime": 196.6,
+      "averageConfidence": 0.93,
+      "index": 18
+    },
+    {
+      "sentence": "Yeah, that was my assumption too. Is this affecting other customers or is it just us?",
+      "speaker_name": "Oliver Grant",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 197.5,
+      "endTime": 203.2,
+      "averageConfidence": 0.94,
+      "index": 19
+    },
+    {
+      "sentence": "I don't have visibility into other cases right now but I'm going to flag this to the engineering team immediately and check if there are other reports of the same thing. I'd expect this to be a known issue shortly if it isn't already.",
+      "speaker_name": "Marcus Williams",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 204.0,
+      "endTime": 219.2,
+      "averageConfidence": 0.92,
+      "index": 20
+    },
+    {
+      "sentence": "Okay. And what's the timeline looking like for a fix? Because we have an internal audit review next week and we were hoping to have clean reports ready before that.",
+      "speaker_name": "Oliver Grant",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 220.7,
+      "endTime": 231.5,
+      "averageConfidence": 0.96,
+      "index": 21
+    },
+    {
+      "sentence": "Yeah, I hear you, that's a real constraint. I can't give you a hard commitment on timeline right now without talking to engineering, but given that this is a rendering defect and not like a data integrity issue, these types of fixes tend to be relatively quick to patch. I'll escalate this as high priority and get back to you with an ETA today \u2014 is email okay for that?",
+      "speaker_name": "Marcus Williams",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 232.0,
+      "endTime": 256.8,
+      "averageConfidence": 0.9,
+      "index": 22
+    },
+    {
+      "sentence": "Email works. And look, I appreciate that \u2014 I just want to make sure we're not scrambling the day before the review, you know.",
+      "speaker_name": "Oliver Grant",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 257.2,
+      "endTime": 266.1,
+      "averageConfidence": 0.88,
+      "index": 23
+    },
+    {
+      "sentence": "Completely understand. I'll make sure the ticket reflects that timeline urgency. In the meantime \u2014 and this is just a workaround, not a solution \u2014 do you have access to the raw CSV export for the control status data? It won't have the same formatting obviously but at least the underlying data would be available if you need something to reference before the patch lands.",
+      "speaker_name": "Marcus Williams",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 266.6,
+      "endTime": 289.5,
+      "averageConfidence": 0.94,
+      "index": 24
+    },
+    {
+      "sentence": "Hmm, yeah, I can dig into that. Where would I find that?",
+      "speaker_name": "Oliver Grant",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 289.9,
+      "endTime": 294.4,
+      "averageConfidence": 0.94,
+      "index": 25
+    },
+    {
+      "sentence": "In the Comply dashboard, if you go to the report you generated, there should be an export dropdown \u2014 not just the PDF button \u2014 and there's a CSV option in there. It'll give you the full control list with statuses. It's not formatted for presentation but it has the data.",
+      "speaker_name": "Marcus Williams",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 295.2,
+      "endTime": 313.4,
+      "averageConfidence": 0.93,
+      "index": 26
+    },
+    {
+      "sentence": "Okay, let me \u2014 yeah, I see it. Export as CSV. Alright, I'll grab that as a backup. That could work for our internal reference at least.",
+      "speaker_name": "Oliver Grant",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 314.4,
+      "endTime": 323.6,
+      "averageConfidence": 0.96,
+      "index": 27
+    },
+    {
+      "sentence": "Good. And I'll also \u2014 let me just make sure I've got all this documented correctly in the case. So we've got: SOC 2 report, PDF export via the dashboard, section header text truncation on long control category names, and the control status table pagination breaking across pages. Anything else you noticed that I should add?",
+      "speaker_name": "Marcus Williams",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 324.0,
+      "endTime": 343.4,
+      "averageConfidence": 0.92,
+      "index": 28
+    },
+    {
+      "sentence": "Uh... actually, yeah, there was one more thing. The page numbers in the footer \u2014 they seem off. Like page one of twelve or something, but the document is clearly more than twelve pages.",
+      "speaker_name": "Oliver Grant",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 343.8,
+      "endTime": 355.5,
+      "averageConfidence": 0.94,
+      "index": 29
+    },
+    {
+      "sentence": "Oh interesting, okay. Let me check that on my end too... yeah, I see it \u2014 the page count in the footer isn't matching the actual document length. Okay, adding that to the bug report. Good catch.",
+      "speaker_name": "Marcus Williams",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 356.1,
+      "endTime": 368.9,
+      "averageConfidence": 0.88,
+      "index": 30
+    },
+    {
+      "sentence": "Yeah, I figured it was probably all related but wanted to mention it.",
+      "speaker_name": "Oliver Grant",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 370.0,
+      "endTime": 374.6,
+      "averageConfidence": 0.93,
+      "index": 31
+    },
+    {
+      "sentence": "Yep, likely all the same root cause in the PDF renderer. Okay, so next steps \u2014 I'm going to file this with engineering right after this call, flag the audit timeline urgency, and send you an email update today with whatever ETA they give me. Case number stays 3296, so you can reference that in any follow-up.",
+      "speaker_name": "Marcus Williams",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 375.0,
+      "endTime": 395.2,
+      "averageConfidence": 0.92,
+      "index": 32
+    },
+    {
+      "sentence": "Sounds good. And if the fix does come through before next week, will we get notified automatically or do we need to re-download the report manually?",
+      "speaker_name": "Oliver Grant",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 396.3,
+      "endTime": 405.9,
+      "averageConfidence": 0.94,
+      "index": 33
+    },
+    {
+      "sentence": "You'd need to regenerate the report \u2014 the system doesn't auto-regenerate existing ones. But once the patch is deployed I'll let you know via the case and you can just kick off a new on-demand report and it should render correctly.",
+      "speaker_name": "Oliver Grant",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 406.8,
+      "endTime": 421.0,
+      "averageConfidence": 0.92,
+      "index": 34
+    },
+    {
+      "sentence": "Wait, sorry, that was me answering my own question \u2014 I meant to direct that to you, Marcus.",
+      "speaker_name": "Oliver Grant",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 422.3,
+      "endTime": 428.8,
+      "averageConfidence": 0.95,
+      "index": 35
+    },
+    {
+      "sentence": "Ha, no worries \u2014 and actually you were right. Reports aren't stored and auto-updated, you'd generate a fresh one after the fix. It'll pull the latest data anyway so it'd be current.",
+      "speaker_name": "Marcus Williams",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 430.0,
+      "endTime": 441.7,
+      "averageConfidence": 0.92,
+      "index": 36
+    },
+    {
+      "sentence": "Perfect. Okay, I think that covers it from my end. I appreciate you jumping on this quickly.",
+      "speaker_name": "Oliver Grant",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 442.4,
+      "endTime": 448.2,
+      "averageConfidence": 0.96,
+      "index": 37
+    },
+    {
+      "sentence": "Of course. Sorry for the hassle on day two of the v2 launch \u2014 we'll get it sorted. You'll hear from me later today on the ETA. Have a good one, Oliver.",
+      "speaker_name": "Marcus Williams",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 449.2,
+      "endTime": 460.6,
+      "averageConfidence": 0.9,
+      "index": 38
+    },
+    {
+      "sentence": "Thanks Marcus, you too.",
+      "speaker_name": "Oliver Grant",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 461.5,
+      "endTime": 463.0,
+      "averageConfidence": 0.89,
+      "index": 39
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "participantName": "Mina Joshi",
+    "timestamp": 1776419106000,
+    "type": "Join",
+    "time": 6.0
+  },
+  {
+    "participantName": "Aisha Johnson",
+    "timestamp": 1776419109000,
+    "type": "Join",
+    "time": 9.0
+  },
+  {
+    "participantName": "Ryan Caldwell",
+    "timestamp": 1776419154000,
+    "type": "Join",
+    "time": 54.0
+  },
+  {
+    "participantName": "Aisha Johnson",
+    "timestamp": 1776422019000,
+    "type": "Leave",
+    "time": 2919.0
+  },
+  {
+    "participantName": "Ryan Caldwell",
+    "timestamp": 1776422016000,
+    "type": "Leave",
+    "time": 2916.0
+  },
+  {
+    "participantName": "Mina Joshi",
+    "timestamp": 1776422023000,
+    "type": "Leave",
+    "time": 2923.0
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "participantName": "Daniel Okafor",
+    "timestamp": 1772874015000,
+    "type": "Join",
+    "time": 15.0
+  },
+  {
+    "participantName": "Paula Schneider",
+    "timestamp": 1772874023000,
+    "type": "Join",
+    "time": 23.0
+  },
+  {
+    "participantName": "Daniel Okafor",
+    "timestamp": 1772875698000,
+    "type": "Leave",
+    "time": 1698.0
+  },
+  {
+    "participantName": "Paula Schneider",
+    "timestamp": 1772875695000,
+    "type": "Leave",
+    "time": 1695.0
+  }
+]

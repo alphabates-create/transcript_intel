@@ -1,0 +1,257 @@
+[
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 6.0,
+    "endTimeTs": 12.9
+  },
+  {
+    "speakerName": "Derek Owens",
+    "timestamp": 13.3,
+    "endTimeTs": 21.7
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 23.0,
+    "endTimeTs": 45.3
+  },
+  {
+    "speakerName": "Derek Owens",
+    "timestamp": 45.7,
+    "endTimeTs": 55.9
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 57.2,
+    "endTimeTs": 66.0
+  },
+  {
+    "speakerName": "Derek Owens",
+    "timestamp": 66.5,
+    "endTimeTs": 73.3
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 73.8,
+    "endTimeTs": 83.7
+  },
+  {
+    "speakerName": "Derek Owens",
+    "timestamp": 85.0,
+    "endTimeTs": 92.5
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 93.2,
+    "endTimeTs": 107.3
+  },
+  {
+    "speakerName": "Derek Owens",
+    "timestamp": 107.9,
+    "endTimeTs": 120.1
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 120.6,
+    "endTimeTs": 130.8
+  },
+  {
+    "speakerName": "Derek Owens",
+    "timestamp": 132.3,
+    "endTimeTs": 145.3
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 146.1,
+    "endTimeTs": 163.8
+  },
+  {
+    "speakerName": "Derek Owens",
+    "timestamp": 164.4,
+    "endTimeTs": 175.0
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 176.3,
+    "endTimeTs": 192.1
+  },
+  {
+    "speakerName": "Derek Owens",
+    "timestamp": 192.5,
+    "endTimeTs": 200.9
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 201.2,
+    "endTimeTs": 211.9
+  },
+  {
+    "speakerName": "Derek Owens",
+    "timestamp": 212.5,
+    "endTimeTs": 224.3
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 225.2,
+    "endTimeTs": 249.6
+  },
+  {
+    "speakerName": "Derek Owens",
+    "timestamp": 250.3,
+    "endTimeTs": 254.9
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 256.4,
+    "endTimeTs": 269.8
+  },
+  {
+    "speakerName": "Derek Owens",
+    "timestamp": 270.8,
+    "endTimeTs": 284.7
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 286.1,
+    "endTimeTs": 299.2
+  },
+  {
+    "speakerName": "Derek Owens",
+    "timestamp": 299.7,
+    "endTimeTs": 309.3
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 310.2,
+    "endTimeTs": 322.9
+  },
+  {
+    "speakerName": "Derek Owens",
+    "timestamp": 324.3,
+    "endTimeTs": 335.5
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 335.9,
+    "endTimeTs": 356.8
+  },
+  {
+    "speakerName": "Derek Owens",
+    "timestamp": 358.2,
+    "endTimeTs": 372.8
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 373.6,
+    "endTimeTs": 385.1
+  },
+  {
+    "speakerName": "Derek Owens",
+    "timestamp": 385.6,
+    "endTimeTs": 391.9
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 392.3,
+    "endTimeTs": 401.7
+  },
+  {
+    "speakerName": "Derek Owens",
+    "timestamp": 402.7,
+    "endTimeTs": 408.3
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 409.5,
+    "endTimeTs": 427.6
+  },
+  {
+    "speakerName": "Derek Owens",
+    "timestamp": 428.7,
+    "endTimeTs": 430.2
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 431.6,
+    "endTimeTs": 442.9
+  },
+  {
+    "speakerName": "Derek Owens",
+    "timestamp": 443.5,
+    "endTimeTs": 451.4
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 452.8,
+    "endTimeTs": 469.3
+  },
+  {
+    "speakerName": "Derek Owens",
+    "timestamp": 470.0,
+    "endTimeTs": 486.9
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 487.3,
+    "endTimeTs": 505.2
+  },
+  {
+    "speakerName": "Derek Owens",
+    "timestamp": 505.8,
+    "endTimeTs": 512.3
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 513.2,
+    "endTimeTs": 527.1
+  },
+  {
+    "speakerName": "Derek Owens",
+    "timestamp": 527.5,
+    "endTimeTs": 544.8
+  },
+  {
+    "speakerName": "Derek Owens",
+    "timestamp": 545.5,
+    "endTimeTs": 557.5
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 558.1,
+    "endTimeTs": 572.6
+  },
+  {
+    "speakerName": "Derek Owens",
+    "timestamp": 573.5,
+    "endTimeTs": 581.8
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 582.9,
+    "endTimeTs": 600.2
+  },
+  {
+    "speakerName": "Derek Owens",
+    "timestamp": 601.2,
+    "endTimeTs": 617.2
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 617.7,
+    "endTimeTs": 628.1
+  },
+  {
+    "speakerName": "Derek Owens",
+    "timestamp": 629.3,
+    "endTimeTs": 640.3
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 641.3,
+    "endTimeTs": 653.7
+  },
+  {
+    "speakerName": "Derek Owens",
+    "timestamp": 654.5,
+    "endTimeTs": 656.6
+  }
+]

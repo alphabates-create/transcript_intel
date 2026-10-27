@@ -1,0 +1,46 @@
+{
+  "summary": "Julia Tran from Blackridge Investments called Aegis Cloud Security support in a critical situation where her firm has had zero threat visibility for over three hours due to a known event processing pipeline failure. Marcus Williams confirmed the outage is a cascading failure affecting multiple customers on the same processing cluster, with engineering estimating restoration within two more hours. Julia expressed serious frustration over the lack of proactive communication, a single point of failure in the architecture, and the operational impact of having analysts manually reviewing logs. She disclosed they have been evaluating a competitor (SentinelShield) and has a board meeting next week where she must explain the security blind spot. Marcus committed to a formal incident report, SLA review, AE loop-in, and a direct phone call upon service restoration.",
+  "actionItems": [
+    "Marcus Williams: Call Julia Tran directly the moment threat visibility is restored on Blackridge's account",
+    "Marcus Williams: Provide a formal written incident report including full timeline, root cause, and remediation steps for Julia's board meeting",
+    "Marcus Williams: Loop in Blackridge's account executive for SLA breach review and compensation conversation",
+    "Marcus Williams: Confirm in writing from engineering whether events during the outage window will be backfilled or are lost"
+  ],
+  "topics": [
+    "service outage",
+    "threat monitoring failure",
+    "sla breach",
+    "churn risk",
+    "incident escalation",
+    "proactive communication failure"
+  ],
+  "overallSentiment": "very-negative",
+  "sentimentScore": 1.6,
+  "keyMoments": [
+    {
+      "time": 42.0,
+      "text": "Julia reveals Blackridge has had zero threat visibility for over three hours, with a team of analysts staring at a dead screen \u2014 a critical situation for a financial services firm that is a constant target.",
+      "type": "concern",
+      "speaker": "Julia Tran"
+    },
+    {
+      "time": 390.0,
+      "text": "Marcus confirms there is a known issue with the Detect event processing pipeline, revealing Aegis was aware of the problem but had not proactively notified affected customers.",
+      "type": "technical_issue",
+      "speaker": "Marcus Williams"
+    },
+    {
+      "time": 540.0,
+      "text": "Julia discloses Blackridge has been evaluating SentinelShield as an alternative vendor for months and states that today's incident is making that decision very easy \u2014 a clear churn signal.",
+      "type": "churn_signal",
+      "speaker": "Julia Tran"
+    },
+    {
+      "time": 462.0,
+      "text": "Julia challenges the platform's architecture, pointing out that a single component failure took down the entire monitoring pipeline with no redundancy for an enterprise security product.",
+      "type": "feature_gap",
+      "speaker": "Julia Tran"
+    }
+  ],
+  "meetingId": "01KQ2D93184912F0147315E7"
+}

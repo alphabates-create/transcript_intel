@@ -1,0 +1,232 @@
+[
+  {
+    "speakerName": "Warren Beck",
+    "timestamp": 7.0,
+    "endTimeTs": 12.5
+  },
+  {
+    "speakerName": "Lisa Park",
+    "timestamp": 13.8,
+    "endTimeTs": 21.9
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 22.8,
+    "endTimeTs": 29.2
+  },
+  {
+    "speakerName": "Julia Tran",
+    "timestamp": 30.6,
+    "endTimeTs": 37.6
+  },
+  {
+    "speakerName": "Lisa Park",
+    "timestamp": 38.4,
+    "endTimeTs": 53.7
+  },
+  {
+    "speakerName": "Warren Beck",
+    "timestamp": 54.9,
+    "endTimeTs": 83.0
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 84.3,
+    "endTimeTs": 100.3
+  },
+  {
+    "speakerName": "Julia Tran",
+    "timestamp": 101.4,
+    "endTimeTs": 123.9
+  },
+  {
+    "speakerName": "Lisa Park",
+    "timestamp": 125.3,
+    "endTimeTs": 132.0
+  },
+  {
+    "speakerName": "Julia Tran",
+    "timestamp": 133.3,
+    "endTimeTs": 143.2
+  },
+  {
+    "speakerName": "Warren Beck",
+    "timestamp": 144.5,
+    "endTimeTs": 164.5
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 165.7,
+    "endTimeTs": 188.7
+  },
+  {
+    "speakerName": "Julia Tran",
+    "timestamp": 189.6,
+    "endTimeTs": 199.2
+  },
+  {
+    "speakerName": "Lisa Park",
+    "timestamp": 200.0,
+    "endTimeTs": 217.2
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 217.5,
+    "endTimeTs": 242.4
+  },
+  {
+    "speakerName": "Julia Tran",
+    "timestamp": 243.9,
+    "endTimeTs": 255.3
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 256.1,
+    "endTimeTs": 277.3
+  },
+  {
+    "speakerName": "Julia Tran",
+    "timestamp": 277.9,
+    "endTimeTs": 291.3
+  },
+  {
+    "speakerName": "Warren Beck",
+    "timestamp": 291.8,
+    "endTimeTs": 305.8
+  },
+  {
+    "speakerName": "Lisa Park",
+    "timestamp": 307.0,
+    "endTimeTs": 327.7
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 328.2,
+    "endTimeTs": 357.0
+  },
+  {
+    "speakerName": "Julia Tran",
+    "timestamp": 357.3,
+    "endTimeTs": 366.7
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 367.2,
+    "endTimeTs": 387.6
+  },
+  {
+    "speakerName": "Julia Tran",
+    "timestamp": 389.1,
+    "endTimeTs": 403.2
+  },
+  {
+    "speakerName": "Lisa Park",
+    "timestamp": 404.4,
+    "endTimeTs": 420.7
+  },
+  {
+    "speakerName": "Warren Beck",
+    "timestamp": 421.9,
+    "endTimeTs": 433.3
+  },
+  {
+    "speakerName": "Lisa Park",
+    "timestamp": 433.9,
+    "endTimeTs": 463.7
+  },
+  {
+    "speakerName": "Warren Beck",
+    "timestamp": 464.8,
+    "endTimeTs": 477.8
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 478.4,
+    "endTimeTs": 492.9
+  },
+  {
+    "speakerName": "Warren Beck",
+    "timestamp": 493.3,
+    "endTimeTs": 505.0
+  },
+  {
+    "speakerName": "Julia Tran",
+    "timestamp": 506.4,
+    "endTimeTs": 514.9
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 515.3,
+    "endTimeTs": 534.8
+  },
+  {
+    "speakerName": "Julia Tran",
+    "timestamp": 535.3,
+    "endTimeTs": 546.6
+  },
+  {
+    "speakerName": "Warren Beck",
+    "timestamp": 548.0,
+    "endTimeTs": 550.5
+  },
+  {
+    "speakerName": "Julia Tran",
+    "timestamp": 551.8,
+    "endTimeTs": 562.0
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 563.1,
+    "endTimeTs": 578.2
+  },
+  {
+    "speakerName": "Julia Tran",
+    "timestamp": 579.5,
+    "endTimeTs": 589.4
+  },
+  {
+    "speakerName": "Lisa Park",
+    "timestamp": 589.9,
+    "endTimeTs": 617.6
+  },
+  {
+    "speakerName": "Julia Tran",
+    "timestamp": 618.7,
+    "endTimeTs": 624.0
+  },
+  {
+    "speakerName": "Warren Beck",
+    "timestamp": 624.4,
+    "endTimeTs": 639.8
+  },
+  {
+    "speakerName": "Lisa Park",
+    "timestamp": 641.3,
+    "endTimeTs": 656.1
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 657.0,
+    "endTimeTs": 675.3
+  },
+  {
+    "speakerName": "Warren Beck",
+    "timestamp": 676.4,
+    "endTimeTs": 687.0
+  },
+  {
+    "speakerName": "Julia Tran",
+    "timestamp": 688.2,
+    "endTimeTs": 691.3
+  },
+  {
+    "speakerName": "Lisa Park",
+    "timestamp": 692.7,
+    "endTimeTs": 707.9
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 708.3,
+    "endTimeTs": 709.8
+  }
+]

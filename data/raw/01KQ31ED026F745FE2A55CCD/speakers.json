@@ -1,0 +1,232 @@
+[
+  {
+    "speakerName": "Alex Reyes",
+    "timestamp": 4.5,
+    "endTimeTs": 8.4
+  },
+  {
+    "speakerName": "Sofia Petrov",
+    "timestamp": 8.9,
+    "endTimeTs": 15.2
+  },
+  {
+    "speakerName": "Jordan Whitfield",
+    "timestamp": 16.6,
+    "endTimeTs": 25.1
+  },
+  {
+    "speakerName": "Mike Romano",
+    "timestamp": 25.6,
+    "endTimeTs": 34.1
+  },
+  {
+    "speakerName": "Alex Reyes",
+    "timestamp": 35.3,
+    "endTimeTs": 46.3
+  },
+  {
+    "speakerName": "Ananya Sharma",
+    "timestamp": 46.8,
+    "endTimeTs": 60.0
+  },
+  {
+    "speakerName": "Alex Reyes",
+    "timestamp": 60.9,
+    "endTimeTs": 74.1
+  },
+  {
+    "speakerName": "Sofia Petrov",
+    "timestamp": 74.7,
+    "endTimeTs": 85.3
+  },
+  {
+    "speakerName": "Alex Reyes",
+    "timestamp": 85.7,
+    "endTimeTs": 96.8
+  },
+  {
+    "speakerName": "Mike Romano",
+    "timestamp": 97.6,
+    "endTimeTs": 99.1
+  },
+  {
+    "speakerName": "Alex Reyes",
+    "timestamp": 99.9,
+    "endTimeTs": 112.7
+  },
+  {
+    "speakerName": "Jordan Whitfield",
+    "timestamp": 113.0,
+    "endTimeTs": 124.1
+  },
+  {
+    "speakerName": "Alex Reyes",
+    "timestamp": 125.5,
+    "endTimeTs": 139.4
+  },
+  {
+    "speakerName": "Ananya Sharma",
+    "timestamp": 140.6,
+    "endTimeTs": 150.0
+  },
+  {
+    "speakerName": "Alex Reyes",
+    "timestamp": 151.1,
+    "endTimeTs": 160.4
+  },
+  {
+    "speakerName": "Mike Romano",
+    "timestamp": 161.5,
+    "endTimeTs": 186.5
+  },
+  {
+    "speakerName": "Sofia Petrov",
+    "timestamp": 186.9,
+    "endTimeTs": 195.6
+  },
+  {
+    "speakerName": "Ananya Sharma",
+    "timestamp": 196.6,
+    "endTimeTs": 218.6
+  },
+  {
+    "speakerName": "Alex Reyes",
+    "timestamp": 219.8,
+    "endTimeTs": 225.7
+  },
+  {
+    "speakerName": "Ananya Sharma",
+    "timestamp": 226.1,
+    "endTimeTs": 243.2
+  },
+  {
+    "speakerName": "Mike Romano",
+    "timestamp": 244.2,
+    "endTimeTs": 257.9
+  },
+  {
+    "speakerName": "Sofia Petrov",
+    "timestamp": 259.1,
+    "endTimeTs": 269.2
+  },
+  {
+    "speakerName": "Alex Reyes",
+    "timestamp": 270.3,
+    "endTimeTs": 285.5
+  },
+  {
+    "speakerName": "Jordan Whitfield",
+    "timestamp": 286.2,
+    "endTimeTs": 311.0
+  },
+  {
+    "speakerName": "Ananya Sharma",
+    "timestamp": 311.5,
+    "endTimeTs": 324.9
+  },
+  {
+    "speakerName": "Jordan Whitfield",
+    "timestamp": 326.0,
+    "endTimeTs": 340.1
+  },
+  {
+    "speakerName": "Alex Reyes",
+    "timestamp": 340.5,
+    "endTimeTs": 344.9
+  },
+  {
+    "speakerName": "Sofia Petrov",
+    "timestamp": 346.3,
+    "endTimeTs": 369.8
+  },
+  {
+    "speakerName": "Mike Romano",
+    "timestamp": 370.7,
+    "endTimeTs": 378.1
+  },
+  {
+    "speakerName": "Sofia Petrov",
+    "timestamp": 378.9,
+    "endTimeTs": 395.8
+  },
+  {
+    "speakerName": "Jordan Whitfield",
+    "timestamp": 396.3,
+    "endTimeTs": 408.0
+  },
+  {
+    "speakerName": "Alex Reyes",
+    "timestamp": 409.2,
+    "endTimeTs": 419.5
+  },
+  {
+    "speakerName": "Ananya Sharma",
+    "timestamp": 421.0,
+    "endTimeTs": 436.1
+  },
+  {
+    "speakerName": "Alex Reyes",
+    "timestamp": 436.8,
+    "endTimeTs": 450.2
+  },
+  {
+    "speakerName": "Mike Romano",
+    "timestamp": 451.7,
+    "endTimeTs": 467.5
+  },
+  {
+    "speakerName": "Ananya Sharma",
+    "timestamp": 468.5,
+    "endTimeTs": 486.5
+  },
+  {
+    "speakerName": "Sofia Petrov",
+    "timestamp": 488.0,
+    "endTimeTs": 493.8
+  },
+  {
+    "speakerName": "Alex Reyes",
+    "timestamp": 495.1,
+    "endTimeTs": 512.9
+  },
+  {
+    "speakerName": "Jordan Whitfield",
+    "timestamp": 514.2,
+    "endTimeTs": 524.4
+  },
+  {
+    "speakerName": "Alex Reyes",
+    "timestamp": 525.3,
+    "endTimeTs": 541.3
+  },
+  {
+    "speakerName": "Mike Romano",
+    "timestamp": 542.0,
+    "endTimeTs": 552.1
+  },
+  {
+    "speakerName": "Alex Reyes",
+    "timestamp": 552.6,
+    "endTimeTs": 561.0
+  },
+  {
+    "speakerName": "Jordan Whitfield",
+    "timestamp": 562.3,
+    "endTimeTs": 574.1
+  },
+  {
+    "speakerName": "Alex Reyes",
+    "timestamp": 574.4,
+    "endTimeTs": 586.0
+  },
+  {
+    "speakerName": "Ananya Sharma",
+    "timestamp": 586.5,
+    "endTimeTs": 589.7
+  },
+  {
+    "speakerName": "Sofia Petrov",
+    "timestamp": 591.2,
+    "endTimeTs": 592.9
+  }
+]

@@ -1,0 +1,46 @@
+{
+  "summary": "Dr. Linda Cheng, CTO of a healthcare organization, contacted Aegis Cloud Security support regarding a three-day outage of the Aegis Protect backup API affecting patient data backup workflows. Support agent Priya Patel investigated the issue and confirmed it was a platform-level failure in Aegis's backup orchestration infrastructure, not a client-side error. Priya committed to initiating manual backup snapshots within the hour, providing a written incident summary for HIPAA audit purposes, and delivering a root cause and fix timeline within four hours. Dr. Cheng expressed significant frustration over both the technical failure and the lack of proactive communication from Aegis over the three-day period.",
+  "actionItems": [
+    "Priya Patel: Escalate to Protect infrastructure team immediately and initiate manual backup snapshots for Dr. Cheng's environment within one hour",
+    "Priya Patel: Send written incident summary to Dr. Cheng by end of day for use in HIPAA audit documentation",
+    "Priya Patel: Follow up with root cause analysis and fix deployment timeline within four hours via email and phone",
+    "Priya Patel: Include direct contact information in confirmation email and escalate communication failure feedback to Aegis leadership"
+  ],
+  "topics": [
+    "api outage",
+    "backup failure",
+    "hipaa compliance",
+    "healthcare data",
+    "incident communication",
+    "escalation"
+  ],
+  "overallSentiment": "mixed-negative",
+  "sentimentScore": 2.4,
+  "keyMoments": [
+    {
+      "time": 45.0,
+      "text": "Dr. Cheng expresses serious concern about the impact on a healthcare organization with regulatory obligations, framing the outage as more than a minor inconvenience.",
+      "type": "concern",
+      "speaker": "Dr. Linda Cheng"
+    },
+    {
+      "time": 245.0,
+      "text": "Dr. Cheng reveals that manual backups through the web console also fail, shifting the evidence clearly toward a platform-side infrastructure issue.",
+      "type": "technical_issue",
+      "speaker": "Dr. Linda Cheng"
+    },
+    {
+      "time": 390.0,
+      "text": "Priya confirms the backup orchestration layer failure is on Aegis's infrastructure and not caused by the customer's team, providing long-awaited clarity.",
+      "type": "positive_pivot",
+      "speaker": "Priya Patel"
+    },
+    {
+      "time": 530.0,
+      "text": "Dr. Cheng warns that while she does not want to end the relationship with Aegis, the situation is serious and must be treated as such, signaling churn risk if not resolved properly.",
+      "type": "churn_signal",
+      "speaker": "Dr. Linda Cheng"
+    }
+  ],
+  "meetingId": "01KQDD5172176D02DB51360A"
+}

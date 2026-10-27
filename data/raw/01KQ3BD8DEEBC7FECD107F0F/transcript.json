@@ -1,0 +1,464 @@
+{
+  "data": [
+    {
+      "sentence": "Good morning everyone, thanks for jumping on \u2014 Lisa, Maria, can you hear us okay?",
+      "speaker_name": "Warren Beck",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 7.0,
+      "endTime": 12.5,
+      "averageConfidence": 0.9,
+      "index": 0
+    },
+    {
+      "sentence": "Yeah, loud and clear Warren, good morning! Thanks for making time for this \u2014 I know your calendar's been pretty packed lately.",
+      "speaker_name": "Lisa Park",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 13.8,
+      "endTime": 21.9,
+      "averageConfidence": 0.89,
+      "index": 1
+    },
+    {
+      "sentence": "Morning! Really excited for this one, we have a lot of good stuff to walk through today.",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 22.8,
+      "endTime": 29.2,
+      "averageConfidence": 0.91,
+      "index": 2
+    },
+    {
+      "sentence": "Morning everyone, Julia Tran here from the security team \u2014 looking forward to digging into the HIPAA piece specifically.",
+      "speaker_name": "Julia Tran",
+      "sentimentType": "positive",
+      "speaker_id": 3,
+      "time": 30.6,
+      "endTime": 37.6,
+      "averageConfidence": 0.96,
+      "index": 3
+    },
+    {
+      "sentence": "Perfect, yeah, that's really the main focus for us today. Um, so just to set the stage a little \u2014 Warren, do you want to give everyone a quick overview of where Blackridge is at from a compliance standpoint before we jump in?",
+      "speaker_name": "Lisa Park",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 38.4,
+      "endTime": 53.7,
+      "averageConfidence": 0.92,
+      "index": 4
+    },
+    {
+      "sentence": "Sure, yeah, happy to. So, uh, as you know we're primarily a financial services firm, right, but we have a subsidiary \u2014 Blackridge Health Finance \u2014 that handles healthcare lending and some benefits administration, and that arm of the business has to be fully HIPAA compliant. We went through an internal audit last quarter and honestly, the reporting piece was just... it was painful. A lot of manual work, a lot of spreadsheets, and our auditors were not happy.",
+      "speaker_name": "Warren Beck",
+      "sentimentType": "negative",
+      "speaker_id": 0,
+      "time": 54.9,
+      "endTime": 83.0,
+      "averageConfidence": 0.93,
+      "index": 5
+    },
+    {
+      "sentence": "Yeah, that's such a common story and it's \u2014 honestly it's one of the exact things that the new Comply v2 release was built to address. Julia, I'm curious, from your perspective on the analyst side, where were the biggest friction points in that audit process?",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 84.3,
+      "endTime": 100.3,
+      "averageConfidence": 0.91,
+      "index": 6
+    },
+    {
+      "sentence": "So, um, the biggest thing for me was just the evidence gathering. Like I was spending, I don't know, probably two full weeks before the audit just pulling logs from different systems, trying to reconcile timestamps, making sure our access control documentation was current. It was... yeah, it was a lot of manual effort that felt like it shouldn't have to be manual.",
+      "speaker_name": "Julia Tran",
+      "sentimentType": "negative",
+      "speaker_id": 3,
+      "time": 101.4,
+      "endTime": 123.9,
+      "averageConfidence": 0.94,
+      "index": 7
+    },
+    {
+      "sentence": "Two weeks \u2014 yeah, that's significant. And that's two weeks of your time that's not going toward actual security work.",
+      "speaker_name": "Lisa Park",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 125.3,
+      "endTime": 132.0,
+      "averageConfidence": 0.88,
+      "index": 8
+    },
+    {
+      "sentence": "Exactly, exactly. And we had a near-miss on a deadline last time because of it, so Warren kind of lit a fire under us to find a better solution.",
+      "speaker_name": "Julia Tran",
+      "sentimentType": "negative",
+      "speaker_id": 3,
+      "time": 133.3,
+      "endTime": 143.2,
+      "averageConfidence": 0.96,
+      "index": 9
+    },
+    {
+      "sentence": "Right, and that's \u2014 that's kind of what led us back to this conversation with Aegis. We've been running Protect and Identity for about, what, eight months now? And those have been really solid. So when Lisa mentioned that the Comply module had a major update, it felt like the right time to take a closer look.",
+      "speaker_name": "Warren Beck",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 144.5,
+      "endTime": 164.5,
+      "averageConfidence": 0.91,
+      "index": 10
+    },
+    {
+      "sentence": "Yeah, exactly, and honestly Warren your timing could not be better. So Aegis Comply v2 went generally available on April 7th \u2014 just a couple weeks ago \u2014 and the headline feature for a customer in your situation is really the on-demand compliance reporting. So instead of that two-week evidence gathering scramble, you can generate a full HIPAA report... basically whenever you need it. On demand.",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 165.7,
+      "endTime": 188.7,
+      "averageConfidence": 0.92,
+      "index": 11
+    },
+    {
+      "sentence": "When you say on-demand, are we talking like, I click a button and it's done in minutes, or is there still some configuration and setup time involved?",
+      "speaker_name": "Julia Tran",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 189.6,
+      "endTime": 199.2,
+      "averageConfidence": 0.94,
+      "index": 12
+    },
+    {
+      "sentence": "Great question. So there's an initial configuration pass \u2014 you're mapping your environment, defining your scope, connecting your data sources \u2014 and that typically takes, uh, Maria correct me if I'm off, but somewhere in the range of a few days to maybe a week depending on environment complexity?",
+      "speaker_name": "Lisa Park",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 200.0,
+      "endTime": 217.2,
+      "averageConfidence": 0.96,
+      "index": 13
+    },
+    {
+      "sentence": "Yeah, that's right. For a environment like yours where you already have Aegis Identity and Protect running, honestly it could be even faster because we're already pulling a lot of the relevant signals. The IAM data, the access logs, the backup records \u2014 a lot of that is already flowing into the platform. So once Comply is scoped and configured, generating a HIPAA report is... yeah, it's essentially a few clicks.",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 217.5,
+      "endTime": 242.4,
+      "averageConfidence": 0.92,
+      "index": 14
+    },
+    {
+      "sentence": "Okay, that's \u2014 that's actually really compelling. Because right now it's like, we have all this data in various places and it's just not... connected in any meaningful way for audit purposes.",
+      "speaker_name": "Julia Tran",
+      "sentimentType": "positive",
+      "speaker_id": 3,
+      "time": 243.9,
+      "endTime": 255.3,
+      "averageConfidence": 0.91,
+      "index": 15
+    },
+    {
+      "sentence": "That's exactly the problem Comply v2 was designed to solve. And you mentioned HIPAA but I do want to flag \u2014 the multi-framework support is a big part of this release too. So you get SOC 2, PCI DSS, ISO 27001 all in the same platform. Given that you're in financial services, I'd imagine PCI DSS is also on your radar.",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 256.1,
+      "endTime": 277.3,
+      "averageConfidence": 0.94,
+      "index": 16
+    },
+    {
+      "sentence": "Oh yeah, absolutely. We have a separate compliance cycle for PCI and right now that's managed by a completely different team using completely different tools, so the idea of consolidating that is... yeah, Warren, that's something we've talked about.",
+      "speaker_name": "Julia Tran",
+      "sentimentType": "positive",
+      "speaker_id": 3,
+      "time": 277.9,
+      "endTime": 291.3,
+      "averageConfidence": 0.93,
+      "index": 17
+    },
+    {
+      "sentence": "We have, yeah. I mean, the consolidation story is attractive from a cost standpoint and also just from an operational standpoint. Having one pane of glass for compliance across frameworks \u2014 that's something our board has actually been asking about.",
+      "speaker_name": "Warren Beck",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 291.8,
+      "endTime": 305.8,
+      "averageConfidence": 0.96,
+      "index": 18
+    },
+    {
+      "sentence": "That's great to hear, and I think that's a really strong use case we can build out for you. But let's stay focused on HIPAA for now since that's the urgent one \u2014 we can absolutely come back to the multi-framework story. Maria, do you want to walk through what a HIPAA report actually looks like in v2?",
+      "speaker_name": "Lisa Park",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 307.0,
+      "endTime": 327.7,
+      "averageConfidence": 0.91,
+      "index": 19
+    },
+    {
+      "sentence": "Yeah, definitely. So I'm going to pull up a sample report here \u2014 bear with me one second \u2014 okay, so what you're seeing is the executive summary view, which is what you'd typically hand to an auditor or your leadership team. It maps your controls directly to the HIPAA Security Rule safeguards \u2014 administrative, physical, technical. Each control has a status, an evidence log, and a timestamp. Auditors love the timestamp piece because it removes a lot of the back and forth.",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 328.2,
+      "endTime": 357.0,
+      "averageConfidence": 0.88,
+      "index": 20
+    },
+    {
+      "sentence": "Oh, that's really clean actually. Can you click into \u2014 um, can you show the technical safeguards section? That's typically where we have the most scrutiny.",
+      "speaker_name": "Julia Tran",
+      "sentimentType": "positive",
+      "speaker_id": 3,
+      "time": 357.3,
+      "endTime": 366.7,
+      "averageConfidence": 0.94,
+      "index": 21
+    },
+    {
+      "sentence": "Of course, yeah. So here you can see access controls, audit controls, integrity controls, transmission security \u2014 each one has a detailed evidence panel. And if you have a gap, it'll flag it and give you a recommended remediation action. It's not just telling you that you have a problem, it's pointing you toward how to fix it.",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 367.2,
+      "endTime": 387.6,
+      "averageConfidence": 0.93,
+      "index": 22
+    },
+    {
+      "sentence": "Okay I have to say, that remediation guidance piece is something we're missing completely right now. Like our current process is finding a gap and then going okay, now what? And it usually involves a lot of internal back and forth.",
+      "speaker_name": "Julia Tran",
+      "sentimentType": "positive",
+      "speaker_id": 3,
+      "time": 389.1,
+      "endTime": 403.2,
+      "averageConfidence": 0.97,
+      "index": 23
+    },
+    {
+      "sentence": "Yeah, and that back and forth is where time really bleeds out. And honestly, Warren, from a CISO perspective, that remediation guidance also gives you a cleaner audit trail to show that gaps were identified and actioned \u2014 which is exactly what regulators want to see.",
+      "speaker_name": "Lisa Park",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 404.4,
+      "endTime": 420.7,
+      "averageConfidence": 0.9,
+      "index": 24
+    },
+    {
+      "sentence": "That's a really good point. The ability to demonstrate that we have a process for finding and remediating issues is almost as important as the issues themselves in the eyes of HHS.",
+      "speaker_name": "Warren Beck",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 421.9,
+      "endTime": 433.3,
+      "averageConfidence": 0.9,
+      "index": 25
+    },
+    {
+      "sentence": "Exactly, yeah. So, um, I do want to just mention one thing \u2014 and Maria, jump in here \u2014 but we did have a period of instability on the Detect side back in March, some of you may have been aware of that. We were very upfront about it. That was a six-hour window where event processing had an issue. That's been fully resolved with redundant nodes and a circuit breaker pattern, and I want to be transparent that we took that very seriously.",
+      "speaker_name": "Lisa Park",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 433.9,
+      "endTime": 463.7,
+      "averageConfidence": 0.95,
+      "index": 26
+    },
+    {
+      "sentence": "Yeah, we did see the incident notification. Appreciate that you were proactive about communicating it. Honestly, the transparency there actually... it increased my confidence in Aegis a little, weirdly enough. Like you didn't try to hide it.",
+      "speaker_name": "Warren Beck",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 464.8,
+      "endTime": 477.8,
+      "averageConfidence": 0.88,
+      "index": 27
+    },
+    {
+      "sentence": "That means a lot to hear, Warren, really. And just to be clear, Comply v2 \u2014 the reporting infrastructure \u2014 runs on a completely separate pipeline from the Detect event processing, so that incident has no bearing on the compliance reporting capabilities.",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 478.4,
+      "endTime": 492.9,
+      "averageConfidence": 0.88,
+      "index": 28
+    },
+    {
+      "sentence": "Good to know, and yeah, I didn't think it was related but it's good to have that confirmed. Julia, any other questions on the technical side before we talk about next steps?",
+      "speaker_name": "Warren Beck",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 493.3,
+      "endTime": 505.0,
+      "averageConfidence": 0.89,
+      "index": 29
+    },
+    {
+      "sentence": "Um, yeah, one thing \u2014 what does the scheduling look like? Can we set up automated recurring reports or is it purely on-demand?",
+      "speaker_name": "Julia Tran",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 506.4,
+      "endTime": 514.9,
+      "averageConfidence": 0.89,
+      "index": 30
+    },
+    {
+      "sentence": "Both, actually. You can do on-demand whenever you need a fresh snapshot, but you can also configure scheduled reports \u2014 monthly, quarterly, whatever cadence makes sense for your audit cycles. And they get delivered to whatever stakeholders you define, so Warren could get an executive summary automatically without Julia having to manually generate and send it.",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 515.3,
+      "endTime": 534.8,
+      "averageConfidence": 0.89,
+      "index": 31
+    },
+    {
+      "sentence": "Oh that's a nice feature. Yeah, I currently send Warren a monthly compliance status email that takes me like an hour to put together. That's... I could see that going away.",
+      "speaker_name": "Julia Tran",
+      "sentimentType": "positive",
+      "speaker_id": 3,
+      "time": 535.3,
+      "endTime": 546.6,
+      "averageConfidence": 0.9,
+      "index": 32
+    },
+    {
+      "sentence": "Ha, one less thing on your plate, Julia.",
+      "speaker_name": "Warren Beck",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 548.0,
+      "endTime": 550.5,
+      "averageConfidence": 0.92,
+      "index": 33
+    },
+    {
+      "sentence": "I'll take it! Um, one more question \u2014 and this is maybe a bigger one \u2014 what does the integration look like with our existing SIEM? We're running LogVault.",
+      "speaker_name": "Julia Tran",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 551.8,
+      "endTime": 562.0,
+      "averageConfidence": 0.9,
+      "index": 34
+    },
+    {
+      "sentence": "LogVault is fully supported, yeah. We have a native connector \u2014 it's not a custom integration, it's out of the box. So Comply can pull relevant log data from LogVault as part of the evidence collection, which again reduces the manual work significantly.",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 563.1,
+      "endTime": 578.2,
+      "averageConfidence": 0.94,
+      "index": 35
+    },
+    {
+      "sentence": "Okay, that's a big one for us. We were a little worried we'd have to do some heavy lifting on the integration side but that's \u2014 that's reassuring.",
+      "speaker_name": "Julia Tran",
+      "sentimentType": "positive",
+      "speaker_id": 3,
+      "time": 579.5,
+      "endTime": 589.4,
+      "averageConfidence": 0.91,
+      "index": 36
+    },
+    {
+      "sentence": "So from a next steps standpoint \u2014 and I want to make sure we're leaving this call with something concrete \u2014 I'd love to propose that we put together a scoped proof of concept specifically for the HIPAA reporting against your Blackridge Health Finance environment. We can have our implementation team map out the configuration, give you a realistic timeline, and then do a demo with your actual data architecture. Does that sound like a reasonable path forward?",
+      "speaker_name": "Lisa Park",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 589.9,
+      "endTime": 617.6,
+      "averageConfidence": 0.94,
+      "index": 37
+    },
+    {
+      "sentence": "Yeah, I think that makes a lot of sense. Warren, what do you think?",
+      "speaker_name": "Julia Tran",
+      "sentimentType": "positive",
+      "speaker_id": 3,
+      "time": 618.7,
+      "endTime": 624.0,
+      "averageConfidence": 0.91,
+      "index": 38
+    },
+    {
+      "sentence": "I think so, yeah. I'd want our legal and compliance team looped in before we go too far down the path, but a scoped POC sounds like the right way to validate the approach. Lisa, can you get us a proposed timeline for that?",
+      "speaker_name": "Warren Beck",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 624.4,
+      "endTime": 639.8,
+      "averageConfidence": 0.93,
+      "index": 39
+    },
+    {
+      "sentence": "Absolutely, I'll have something over to you by end of week. And I'll include a contact from our implementation team so Julia can connect directly with them on the technical environment questions. Maria, anything else you want to cover before we close out?",
+      "speaker_name": "Lisa Park",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 641.3,
+      "endTime": 656.1,
+      "averageConfidence": 0.9,
+      "index": 40
+    },
+    {
+      "sentence": "Just one thing \u2014 I'll send over the v2 release notes and a sample HIPAA report PDF after this call so Julia and the team can review it offline. And Warren, I'll include some customer case studies from other regulated industries \u2014 not exactly financial services but close enough that they should resonate.",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 657.0,
+      "endTime": 675.3,
+      "averageConfidence": 0.93,
+      "index": 41
+    },
+    {
+      "sentence": "That's great, really appreciate it. This has been a really productive conversation \u2014 honestly more than I expected going in. I feel like we have a clear path forward here.",
+      "speaker_name": "Warren Beck",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 676.4,
+      "endTime": 687.0,
+      "averageConfidence": 0.9,
+      "index": 42
+    },
+    {
+      "sentence": "Same, yeah. Thank you both, this was super helpful.",
+      "speaker_name": "Julia Tran",
+      "sentimentType": "positive",
+      "speaker_id": 3,
+      "time": 688.2,
+      "endTime": 691.3,
+      "averageConfidence": 0.88,
+      "index": 43
+    },
+    {
+      "sentence": "Really appreciate your time Warren, Julia. We're excited about this one and I think Comply v2 is going to make a real difference for your team. We'll be in touch by Friday with the POC proposal. Have a great rest of your week everyone.",
+      "speaker_name": "Lisa Park",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 692.7,
+      "endTime": 707.9,
+      "averageConfidence": 0.94,
+      "index": 44
+    },
+    {
+      "sentence": "Thanks everyone, take care!",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 708.3,
+      "endTime": 709.8,
+      "averageConfidence": 0.9,
+      "index": 45
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "summary": "Lisa Park and Aisha Johnson held an onboarding strategy workshop with Raymond Burke of Vanta Health to assess their backup and recovery environment and map out how Aegis Protect can address their needs. Raymond described a fragmented hybrid environment with ~450 on-prem VMs across two data centers and a growing CloudPrime footprint, including 200TB of DICOM imaging data. Key pain points include untested RTOs/RPOs, lack of unified backup visibility, VM coverage gaps, and complex HIPAA and tiered retention compliance requirements. The team aligned on a phased implementation approach starting with CloudPrime workloads, with next steps including an implementation plan, dashboard demo, and involvement of Vanta Health's infrastructure lead.",
+  "actionItems": [
+    "Aisha Johnson: Draft a phased implementation plan based on today's discussion, starting with CloudPrime workloads, including pre-work checklist items for Raymond's team",
+    "Lisa Park: Send follow-up calendar invite for next week's session along with the implementation plan draft and dashboard demo agenda",
+    "Raymond Burke: Loop in infrastructure lead for the next session to cover VMware integration technical details",
+    "Raymond Burke: Distribute pre-work checklist to internal team to begin preparing network access, vSphere API credentials, and CloudPrime IAM roles"
+  ],
+  "topics": [
+    "hybrid backup strategy",
+    "hipaa compliance",
+    "disaster recovery testing",
+    "data retention policies",
+    "onboarding",
+    "healthcare data management"
+  ],
+  "overallSentiment": "very-positive",
+  "sentimentScore": 4.7,
+  "keyMoments": [
+    {
+      "time": 145.0,
+      "text": "Raymond reveals backup strategy has been a longstanding internal pain point, citing fragmented coverage across hybrid on-prem and CloudPrime environments",
+      "type": "concern",
+      "speaker": "Raymond Burke"
+    },
+    {
+      "time": 380.0,
+      "text": "Raymond candidly admits documented RTOs have never been tested and he has very low confidence the organization would meet them with current tooling",
+      "type": "churn_signal",
+      "speaker": "Raymond Burke"
+    },
+    {
+      "time": 490.0,
+      "text": "Aisha explains Aegis Protect's automated recovery testing feature that runs restore validation on a schedule without requiring manual maintenance windows, generating strong positive reaction from Raymond",
+      "type": "positive_pivot",
+      "speaker": "Aisha Johnson"
+    },
+    {
+      "time": 720.0,
+      "text": "Raymond highlights the VM backup coverage gap problem \u2014 new VMs spun up without agents going unprotected until an incident occurs \u2014 and Lisa confirms built-in alerting addresses this",
+      "type": "feature_gap",
+      "speaker": "Raymond Burke"
+    }
+  ],
+  "meetingId": "01KQA1AFDC1306A000B0C7D9"
+}

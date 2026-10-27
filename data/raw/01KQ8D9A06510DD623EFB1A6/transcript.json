@@ -1,0 +1,744 @@
+{
+  "data": [
+    {
+      "sentence": "Hi Sandra, thanks for making time this afternoon \u2014 I know Tuesdays tend to get a little chaotic.",
+      "speaker_name": "Rachel Torres",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 3.7,
+      "endTime": 10.4,
+      "averageConfidence": 0.97,
+      "index": 0
+    },
+    {
+      "sentence": "Yeah, no kidding, I had three back-to-backs before this so I appreciate you being flexible on the time.",
+      "speaker_name": "Sandra Keating",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 11.0,
+      "endTime": 17.5,
+      "averageConfidence": 0.91,
+      "index": 1
+    },
+    {
+      "sentence": "Of course, absolutely \u2014 okay so, I've got the agenda pulled up, we wanted to walk through some of the Detect roadmap items, and I know you had some specific feature requests you wanted to put on the table today.",
+      "speaker_name": "Rachel Torres",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 17.9,
+      "endTime": 32.1,
+      "averageConfidence": 0.9,
+      "index": 2
+    },
+    {
+      "sentence": "Right, yeah, that's the main thing I want to get into.",
+      "speaker_name": "Sandra Keating",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 32.8,
+      "endTime": 36.3,
+      "averageConfidence": 0.96,
+      "index": 3
+    },
+    {
+      "sentence": "Before we jump in \u2014 how are things going on your end generally, like from a security posture standpoint, anything major come up since we last spoke?",
+      "speaker_name": "Rachel Torres",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 37.4,
+      "endTime": 47.3,
+      "averageConfidence": 0.95,
+      "index": 4
+    },
+    {
+      "sentence": "I mean it's been a pretty busy quarter, we had an internal audit wrap up last week, and honestly the compliance side of things has been eating a lot of our bandwidth, but we can get to that in a sec.",
+      "speaker_name": "Sandra Keating",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 48.3,
+      "endTime": 62.9,
+      "averageConfidence": 0.9,
+      "index": 5
+    },
+    {
+      "sentence": "Sure, sure, yeah we can definitely touch on that \u2014 I know the Comply v2 launch just happened last week actually, so there might be some relevant stuff there.",
+      "speaker_name": "Rachel Torres",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 64.4,
+      "endTime": 74.7,
+      "averageConfidence": 0.9,
+      "index": 6
+    },
+    {
+      "sentence": "Yeah I saw that announcement, I want to circle back to that, but let's do Detect first because that's kind of the more pressing thing for my team right now.",
+      "speaker_name": "Sandra Keating",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 75.7,
+      "endTime": 86.3,
+      "averageConfidence": 0.9,
+      "index": 7
+    },
+    {
+      "sentence": "Totally, let's do it \u2014 so do you want to just kick us off with what you're seeing as the gaps, or would it be helpful if I first walked through what's on the roadmap for the next two quarters?",
+      "speaker_name": "Rachel Torres",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 87.0,
+      "endTime": 101.2,
+      "averageConfidence": 0.92,
+      "index": 8
+    },
+    {
+      "sentence": "Let me start with the gaps because I think it'll be useful context for whatever you're about to tell me.",
+      "speaker_name": "Sandra Keating",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 102.5,
+      "endTime": 109.6,
+      "averageConfidence": 0.92,
+      "index": 9
+    },
+    {
+      "sentence": "Perfect, go ahead.",
+      "speaker_name": "Rachel Torres",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 110.7,
+      "endTime": 112.2,
+      "averageConfidence": 0.92,
+      "index": 10
+    },
+    {
+      "sentence": "So the primary thing \u2014 and I've been saying this for a couple of quarters now \u2014 is that we really need more granular alerting thresholds by entity type.",
+      "speaker_name": "Sandra Keating",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 113.1,
+      "endTime": 123.3,
+      "averageConfidence": 0.9,
+      "index": 11
+    },
+    {
+      "sentence": "Right, can you walk me through specifically what you mean by entity type in your context?",
+      "speaker_name": "Rachel Torres",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 124.6,
+      "endTime": 130.4,
+      "averageConfidence": 0.9,
+      "index": 12
+    },
+    {
+      "sentence": "Sure, so \u2014 in the insurance world we're dealing with a lot of different categories of users and systems, right, so you've got your claims processing systems, your underwriting platforms, your customer-facing portals, and the risk profile for each of those is very different.",
+      "speaker_name": "Sandra Keating",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 131.8,
+      "endTime": 147.1,
+      "averageConfidence": 0.96,
+      "index": 13
+    },
+    {
+      "sentence": "Mm-hmm.",
+      "speaker_name": "Rachel Torres",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 147.8,
+      "endTime": 149.3,
+      "averageConfidence": 0.9,
+      "index": 14
+    },
+    {
+      "sentence": "But right now in Detect, when we're setting alert thresholds, it's basically a one-size-fits-all situation, and that creates a ton of noise on the low-risk endpoints and then potentially under-alerts on the high-value systems.",
+      "speaker_name": "Sandra Keating",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 150.4,
+      "endTime": 162.1,
+      "averageConfidence": 0.92,
+      "index": 15
+    },
+    {
+      "sentence": "Yeah that's \u2014 that's a fair point and actually that lines up with feedback we've been getting from a few other financial services customers as well, so it's definitely something that's been getting traction internally.",
+      "speaker_name": "Rachel Torres",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 163.0,
+      "endTime": 175.4,
+      "averageConfidence": 0.95,
+      "index": 16
+    },
+    {
+      "sentence": "Good, because it should be, honestly \u2014 the alert fatigue is real, my SOC team is dealing with a lot of false positives and it affects their ability to respond to the things that actually matter.",
+      "speaker_name": "Sandra Keating",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 176.2,
+      "endTime": 188.6,
+      "averageConfidence": 0.88,
+      "index": 17
+    },
+    {
+      "sentence": "Understood, and I don't want to get too far ahead without checking \u2014 are we talking about thresholds on the behavioral side, like anomaly detection thresholds, or also on the signature-based rules?",
+      "speaker_name": "Rachel Torres",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 189.8,
+      "endTime": 200.8,
+      "averageConfidence": 0.89,
+      "index": 18
+    },
+    {
+      "sentence": "Both, but honestly the behavioral side is where it's most painful because the baselines are being calculated across everything and they just don't reflect the actual behavior patterns of, say, a claims adjuster versus a network admin.",
+      "speaker_name": "Sandra Keating",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 201.6,
+      "endTime": 214.2,
+      "averageConfidence": 0.96,
+      "index": 19
+    },
+    {
+      "sentence": "Got it, okay \u2014 so what you'd really want is the ability to define entity groups and then have separate baseline models trained per group, essentially.",
+      "speaker_name": "Rachel Torres",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 215.5,
+      "endTime": 224.4,
+      "averageConfidence": 0.9,
+      "index": 20
+    },
+    {
+      "sentence": "Exactly, yes, that's exactly it \u2014 and ideally you'd be able to map those groups to your own org hierarchy, not just some generic taxonomy.",
+      "speaker_name": "Sandra Keating",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 225.6,
+      "endTime": 234.8,
+      "averageConfidence": 0.95,
+      "index": 21
+    },
+    {
+      "sentence": "Okay, I'm noting all of this down \u2014 and I do want to be upfront with you, Sandra, that the entity grouping with custom baselines is something our product team has been scoping, it's not GA yet, it was targeted for Q3 in the roadmap I have, but I want to get you connected with our product team directly so they have this context.",
+      "speaker_name": "Rachel Torres",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 235.9,
+      "endTime": 258.0,
+      "averageConfidence": 0.93,
+      "index": 22
+    },
+    {
+      "sentence": "Q3, so like July-September timeframe?",
+      "speaker_name": "Sandra Keating",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 259.2,
+      "endTime": 261.3,
+      "averageConfidence": 0.89,
+      "index": 23
+    },
+    {
+      "sentence": "That's the current target, yeah \u2014 but I want to be careful not to commit to that because roadmaps shift, as you know.",
+      "speaker_name": "Rachel Torres",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 262.6,
+      "endTime": 270.5,
+      "averageConfidence": 0.96,
+      "index": 24
+    },
+    {
+      "sentence": "Yeah, I appreciate the honesty, I'd rather know the real situation than get a date that slips.",
+      "speaker_name": "Sandra Keating",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 271.7,
+      "endTime": 278.0,
+      "averageConfidence": 0.92,
+      "index": 25
+    },
+    {
+      "sentence": "Right, exactly \u2014 okay so that's the first item, what else is on your list?",
+      "speaker_name": "Rachel Torres",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 278.7,
+      "endTime": 283.8,
+      "averageConfidence": 0.9,
+      "index": 26
+    },
+    {
+      "sentence": "The second thing, um, this is a little more sensitive to bring up but I think it needs to be on the table \u2014 the outage in March.",
+      "speaker_name": "Sandra Keating",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 284.8,
+      "endTime": 294.7,
+      "averageConfidence": 0.88,
+      "index": 27
+    },
+    {
+      "sentence": "Yeah, I was going to bring that up too \u2014 I know we sent the incident report and the RCA but I wanted to make sure you had a chance to ask questions directly.",
+      "speaker_name": "Rachel Torres",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 295.0,
+      "endTime": 307.1,
+      "averageConfidence": 0.96,
+      "index": 28
+    },
+    {
+      "sentence": "So we were dark for, what, six hours \u2014 and look, I understand things happen, infrastructure fails, I've been in this industry long enough to know that, but for us specifically, that's six hours where we had no visibility into threats across our environment, and given our regulatory obligations that's not a small thing.",
+      "speaker_name": "Sandra Keating",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 307.5,
+      "endTime": 326.4,
+      "averageConfidence": 0.9,
+      "index": 29
+    },
+    {
+      "sentence": "No, absolutely not, and I want to acknowledge that directly \u2014 that outage was a significant failure on our part, it was a cascading failure in the event ingestion pipeline, single point of failure that we should have architected around, and we did not.",
+      "speaker_name": "Rachel Torres",
+      "sentimentType": "negative",
+      "speaker_id": 0,
+      "time": 326.7,
+      "endTime": 342.0,
+      "averageConfidence": 0.91,
+      "index": 30
+    },
+    {
+      "sentence": "Right, that's what the RCA said.",
+      "speaker_name": "Sandra Keating",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 342.8,
+      "endTime": 344.8,
+      "averageConfidence": 0.94,
+      "index": 31
+    },
+    {
+      "sentence": "And the fix \u2014 we've implemented redundant processing nodes and a circuit breaker pattern so that if one node in the pipeline degrades, it doesn't take everything down with it, and that's been live since mid-March.",
+      "speaker_name": "Rachel Torres",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 346.2,
+      "endTime": 359.1,
+      "averageConfidence": 0.96,
+      "index": 32
+    },
+    {
+      "sentence": "Okay, so my follow-up question on that is \u2014 and this goes to the feature request angle \u2014 is there any way for customers to have visibility into the health of the Detect pipeline itself, like a status indicator within the product?",
+      "speaker_name": "Sandra Keating",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 360.2,
+      "endTime": 375.0,
+      "averageConfidence": 0.9,
+      "index": 33
+    },
+    {
+      "sentence": "That's actually a really good one and it's something I've heard from a couple of other accounts too \u2014 right now the status page is external and it's sort of \u2014 it's not surfaced inside the product itself.",
+      "speaker_name": "Rachel Torres",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 376.5,
+      "endTime": 390.3,
+      "averageConfidence": 0.89,
+      "index": 34
+    },
+    {
+      "sentence": "Yeah because we only found out about the outage because someone on my team noticed the alert volume had dropped to zero and then went and checked the status page \u2014 that's not a great discovery mechanism.",
+      "speaker_name": "Sandra Keating",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 390.9,
+      "endTime": 403.8,
+      "averageConfidence": 0.96,
+      "index": 35
+    },
+    {
+      "sentence": "No, I completely agree, and that's \u2014 I'll be honest, that's a gap in the product experience, and I'm going to log that as a formal feature request, in-product pipeline health status with proactive alerting if ingestion drops below a threshold.",
+      "speaker_name": "Rachel Torres",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 404.6,
+      "endTime": 418.7,
+      "averageConfidence": 0.89,
+      "index": 36
+    },
+    {
+      "sentence": "Yeah, even just like a banner or an indicator in the UI that says hey, we're experiencing reduced capacity, something \u2014 anything \u2014 would have saved my team a lot of confusion that morning.",
+      "speaker_name": "Sandra Keating",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 419.0,
+      "endTime": 431.0,
+      "averageConfidence": 0.9,
+      "index": 37
+    },
+    {
+      "sentence": "Understood, and I think that's a very reasonable ask \u2014 I'm going to make sure that goes to the right product team with your name on it so they have the customer context.",
+      "speaker_name": "Rachel Torres",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 431.7,
+      "endTime": 443.3,
+      "averageConfidence": 0.94,
+      "index": 38
+    },
+    {
+      "sentence": "Appreciate that.",
+      "speaker_name": "Sandra Keating",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 444.6,
+      "endTime": 446.1,
+      "averageConfidence": 0.96,
+      "index": 39
+    },
+    {
+      "sentence": "Okay so let me also share a few things that are on the Detect roadmap that I think are relevant to what you're describing \u2014 there are two items I want to highlight specifically.",
+      "speaker_name": "Rachel Torres",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 446.8,
+      "endTime": 458.6,
+      "averageConfidence": 0.91,
+      "index": 40
+    },
+    {
+      "sentence": "Sure, go ahead.",
+      "speaker_name": "Sandra Keating",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 459.5,
+      "endTime": 461.0,
+      "averageConfidence": 0.95,
+      "index": 41
+    },
+    {
+      "sentence": "First one is expanded SIEM integration \u2014 we're adding native connectors for a couple of the major SIEM platforms in Q2, which I know you're running LogVault, so that should reduce the time from event to alert in your existing workflow.",
+      "speaker_name": "Rachel Torres",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 462.4,
+      "endTime": 477.1,
+      "averageConfidence": 0.97,
+      "index": 42
+    },
+    {
+      "sentence": "That would actually be helpful, yeah \u2014 right now the LogVault integration is a little manual, we're doing some custom scripting to get the data in there.",
+      "speaker_name": "Sandra Keating",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 478.4,
+      "endTime": 488.2,
+      "averageConfidence": 0.89,
+      "index": 43
+    },
+    {
+      "sentence": "Yeah so that should get a lot cleaner \u2014 I'll send you the details on that after this call, it's a Q2 item so should be coming up relatively soon.",
+      "speaker_name": "Rachel Torres",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 488.7,
+      "endTime": 499.2,
+      "averageConfidence": 0.97,
+      "index": 44
+    },
+    {
+      "sentence": "Okay, and the second thing?",
+      "speaker_name": "Sandra Keating",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 500.5,
+      "endTime": 502.6,
+      "averageConfidence": 0.92,
+      "index": 45
+    },
+    {
+      "sentence": "Second one is \u2014 we're building out a threat intelligence correlation layer, so essentially Detect will be able to cross-reference events against external threat intel feeds in near real-time, which should improve the signal-to-noise ratio on the alerts that are actually meaningful.",
+      "speaker_name": "Rachel Torres",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 503.0,
+      "endTime": 518.0,
+      "averageConfidence": 0.91,
+      "index": 46
+    },
+    {
+      "sentence": "That's interesting \u2014 what feeds are you pulling from?",
+      "speaker_name": "Sandra Keating",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 518.5,
+      "endTime": 521.4,
+      "averageConfidence": 0.91,
+      "index": 47
+    },
+    {
+      "sentence": "The initial launch is going to include a few of the major ones \u2014 I don't want to get into specifics that I haven't confirmed with the product team, so let me get you the accurate list rather than guess.",
+      "speaker_name": "Rachel Torres",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 522.6,
+      "endTime": 536.7,
+      "averageConfidence": 0.97,
+      "index": 48
+    },
+    {
+      "sentence": "Fair enough, yeah, please do send that over \u2014 the feeds matter a lot, some of them are better for financial services specific threat actors than others.",
+      "speaker_name": "Sandra Keating",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 537.6,
+      "endTime": 547.2,
+      "averageConfidence": 0.89,
+      "index": 49
+    },
+    {
+      "sentence": "Absolutely, I'll include that in the follow-up \u2014 and actually, is there a specific feed you're already using or want to see prioritized?",
+      "speaker_name": "Rachel Torres",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 548.3,
+      "endTime": 556.8,
+      "averageConfidence": 0.91,
+      "index": 50
+    },
+    {
+      "sentence": "We're subscribed to FS-ISAC feeds and I'd want to see that included, that's probably the most relevant for our threat landscape.",
+      "speaker_name": "Sandra Keating",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 558.2,
+      "endTime": 565.7,
+      "averageConfidence": 0.92,
+      "index": 51
+    },
+    {
+      "sentence": "FS-ISAC, got it, I'm writing that down \u2014 that's a very reasonable ask for a financial services customer and I'll flag that specifically to the product team.",
+      "speaker_name": "Rachel Torres",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 566.6,
+      "endTime": 576.2,
+      "averageConfidence": 0.89,
+      "index": 52
+    },
+    {
+      "sentence": "Yeah I mean that one feels like a no-brainer for any insurance or banking customer you're working with.",
+      "speaker_name": "Sandra Keating",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 576.8,
+      "endTime": 583.4,
+      "averageConfidence": 0.95,
+      "index": 53
+    },
+    {
+      "sentence": "Agreed \u2014 okay, you mentioned the compliance audit earlier, do you want to spend a few minutes on Comply before we wrap up?",
+      "speaker_name": "Rachel Torres",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 584.3,
+      "endTime": 592.7,
+      "averageConfidence": 0.89,
+      "index": 54
+    },
+    {
+      "sentence": "Yeah just quickly \u2014 we're coming up on a SOC 2 Type II renewal and honestly the reporting process last time was pretty painful, lots of manual exports and spreadsheet work.",
+      "speaker_name": "Sandra Keating",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 593.3,
+      "endTime": 604.1,
+      "averageConfidence": 0.96,
+      "index": 55
+    },
+    {
+      "sentence": "So this is actually really timely because Comply v2 launched last week \u2014 April 7 \u2014 and one of the headline features is on-demand SOC 2 reporting, so you can generate the report without the manual export process, it pulls directly from the data in the platform.",
+      "speaker_name": "Rachel Torres",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 604.7,
+      "endTime": 621.1,
+      "averageConfidence": 0.89,
+      "index": 56
+    },
+    {
+      "sentence": "Okay, that's \u2014 yeah that could actually save us a lot of pain, when can we see that in action?",
+      "speaker_name": "Sandra Keating",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 622.0,
+      "endTime": 628.7,
+      "averageConfidence": 0.91,
+      "index": 57
+    },
+    {
+      "sentence": "I can set up a demo for your team, I'm thinking we loop in your compliance lead too \u2014 would that be the right person to have in the room?",
+      "speaker_name": "Rachel Torres",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 630.1,
+      "endTime": 641.0,
+      "averageConfidence": 0.89,
+      "index": 58
+    },
+    {
+      "sentence": "Yeah, definitely bring in Marcus, he's the one who's actually doing the evidence gathering so he'd want to see the workflow.",
+      "speaker_name": "Sandra Keating",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 642.3,
+      "endTime": 649.7,
+      "averageConfidence": 0.93,
+      "index": 59
+    },
+    {
+      "sentence": "Perfect, I'll reach out to coordinate schedules \u2014 okay let me just do a quick recap of the action items before we lose track of everything.",
+      "speaker_name": "Rachel Torres",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 651.0,
+      "endTime": 660.5,
+      "averageConfidence": 0.9,
+      "index": 60
+    },
+    {
+      "sentence": "Yeah please.",
+      "speaker_name": "Sandra Keating",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 661.3,
+      "endTime": 662.8,
+      "averageConfidence": 0.89,
+      "index": 61
+    },
+    {
+      "sentence": "So from my side \u2014 I'm logging two formal feature requests: entity grouping with custom behavioral baselines, and in-product pipeline health status with proactive degradation alerts.",
+      "speaker_name": "Rachel Torres",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 664.0,
+      "endTime": 673.4,
+      "averageConfidence": 0.95,
+      "index": 62
+    },
+    {
+      "sentence": "Correct, yes.",
+      "speaker_name": "Sandra Keating",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 673.9,
+      "endTime": 675.4,
+      "averageConfidence": 0.88,
+      "index": 63
+    },
+    {
+      "sentence": "I'm also going to send you the confirmed list of threat intel feeds for the correlation layer, including whether FS-ISAC is on the roadmap, and the details on the LogVault native connector timeline.",
+      "speaker_name": "Rachel Torres",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 676.2,
+      "endTime": 687.5,
+      "averageConfidence": 0.92,
+      "index": 64
+    },
+    {
+      "sentence": "That all sounds right.",
+      "speaker_name": "Sandra Keating",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 688.5,
+      "endTime": 690.1,
+      "averageConfidence": 0.89,
+      "index": 65
+    },
+    {
+      "sentence": "And then I'll set up the Comply v2 demo with you and Marcus \u2014 I'm thinking we can probably do that within the next two weeks?",
+      "speaker_name": "Rachel Torres",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 690.6,
+      "endTime": 699.5,
+      "averageConfidence": 0.88,
+      "index": 66
+    },
+    {
+      "sentence": "Two weeks works, yeah \u2014 try to avoid the last week of April if you can, I think we've got some internal stuff happening.",
+      "speaker_name": "Sandra Keating",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 700.1,
+      "endTime": 708.8,
+      "averageConfidence": 0.95,
+      "index": 67
+    },
+    {
+      "sentence": "No problem, I'll aim for the week of the 20th \u2014 I'll send a calendar invite.",
+      "speaker_name": "Rachel Torres",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 709.6,
+      "endTime": 715.3,
+      "averageConfidence": 0.93,
+      "index": 68
+    },
+    {
+      "sentence": "Perfect, that works \u2014 and Rachel, I do appreciate you actually listening on the feature requests, sometimes these calls feel like they go into a black hole so.",
+      "speaker_name": "Sandra Keating",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 715.8,
+      "endTime": 726.0,
+      "averageConfidence": 0.95,
+      "index": 69
+    },
+    {
+      "sentence": "I hear you, and I want to make sure that doesn't happen here \u2014 I'll keep you posted on what traction these get with the product team, even if the answer is not yet, I'll tell you.",
+      "speaker_name": "Rachel Torres",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 726.9,
+      "endTime": 739.9,
+      "averageConfidence": 0.88,
+      "index": 70
+    },
+    {
+      "sentence": "That's all I ask \u2014 okay I've got a hard stop in about two minutes so let's call it there.",
+      "speaker_name": "Sandra Keating",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 741.0,
+      "endTime": 747.8,
+      "averageConfidence": 0.94,
+      "index": 71
+    },
+    {
+      "sentence": "Sounds good \u2014 thanks Sandra, I'll have everything in your inbox by end of week.",
+      "speaker_name": "Rachel Torres",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 748.1,
+      "endTime": 753.6,
+      "averageConfidence": 0.89,
+      "index": 72
+    },
+    {
+      "sentence": "Great, talk soon.",
+      "speaker_name": "Sandra Keating",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 754.1,
+      "endTime": 755.6,
+      "averageConfidence": 0.97,
+      "index": 73
+    }
+  ]
+}

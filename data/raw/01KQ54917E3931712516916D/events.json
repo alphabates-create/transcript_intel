@@ -1,0 +1,26 @@
+[
+  {
+    "participantName": "Kevin O'Brien",
+    "timestamp": 1775060127000,
+    "type": "Join",
+    "time": 27.0
+  },
+  {
+    "participantName": "Keith Donovan",
+    "timestamp": 1775060148000,
+    "type": "Join",
+    "time": 48.0
+  },
+  {
+    "participantName": "Kevin O'Brien",
+    "timestamp": 1775063354000,
+    "type": "Leave",
+    "time": 3254.0
+  },
+  {
+    "participantName": "Keith Donovan",
+    "timestamp": 1775063332000,
+    "type": "Leave",
+    "time": 3232.0
+  }
+]

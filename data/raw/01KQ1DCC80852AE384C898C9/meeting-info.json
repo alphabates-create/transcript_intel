@@ -1,0 +1,19 @@
+{
+  "meetingId": "01KQ1DCC80852AE384C898C9",
+  "title": "Aegis / Quantum Edge - Renewal Concerns",
+  "organizerEmail": "maria.santos@aegiscloud.com",
+  "host": "maria.santos@aegiscloud.com",
+  "startTime": "2026-03-19T16:00:00.000Z",
+  "endTime": "2026-03-19T16:45:00.000Z",
+  "duration": 45.0,
+  "allEmails": [
+    "maria.santos@aegiscloud.com",
+    "b.foster@quantumedge.com",
+    "l.marquez@quantumedge.com"
+  ],
+  "invitees": [
+    "maria.santos@aegiscloud.com",
+    "b.foster@quantumedge.com",
+    "l.marquez@quantumedge.com"
+  ]
+}

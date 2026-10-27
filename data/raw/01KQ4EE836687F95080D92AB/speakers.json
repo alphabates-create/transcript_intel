@@ -1,0 +1,207 @@
+[
+  {
+    "speakerName": "Chris Lee",
+    "timestamp": 6.6,
+    "endTimeTs": 12.2
+  },
+  {
+    "speakerName": "Ananya Sharma",
+    "timestamp": 12.8,
+    "endTimeTs": 17.4
+  },
+  {
+    "speakerName": "Chris Lee",
+    "timestamp": 18.9,
+    "endTimeTs": 20.4
+  },
+  {
+    "speakerName": "Mike Romano",
+    "timestamp": 21.0,
+    "endTimeTs": 23.0
+  },
+  {
+    "speakerName": "Chris Lee",
+    "timestamp": 24.5,
+    "endTimeTs": 32.9
+  },
+  {
+    "speakerName": "Nina Kowalski",
+    "timestamp": 33.9,
+    "endTimeTs": 36.9
+  },
+  {
+    "speakerName": "Chris Lee",
+    "timestamp": 37.6,
+    "endTimeTs": 51.8
+  },
+  {
+    "speakerName": "Mike Romano",
+    "timestamp": 53.0,
+    "endTimeTs": 72.2
+  },
+  {
+    "speakerName": "Ananya Sharma",
+    "timestamp": 73.3,
+    "endTimeTs": 91.5
+  },
+  {
+    "speakerName": "Chris Lee",
+    "timestamp": 92.4,
+    "endTimeTs": 102.6
+  },
+  {
+    "speakerName": "Nina Kowalski",
+    "timestamp": 102.9,
+    "endTimeTs": 121.0
+  },
+  {
+    "speakerName": "Mike Romano",
+    "timestamp": 121.9,
+    "endTimeTs": 129.1
+  },
+  {
+    "speakerName": "Nina Kowalski",
+    "timestamp": 129.5,
+    "endTimeTs": 138.4
+  },
+  {
+    "speakerName": "Ananya Sharma",
+    "timestamp": 139.8,
+    "endTimeTs": 149.2
+  },
+  {
+    "speakerName": "Chris Lee",
+    "timestamp": 150.4,
+    "endTimeTs": 168.7
+  },
+  {
+    "speakerName": "Mike Romano",
+    "timestamp": 169.3,
+    "endTimeTs": 176.0
+  },
+  {
+    "speakerName": "Chris Lee",
+    "timestamp": 177.1,
+    "endTimeTs": 184.0
+  },
+  {
+    "speakerName": "Ananya Sharma",
+    "timestamp": 184.5,
+    "endTimeTs": 198.2
+  },
+  {
+    "speakerName": "Mike Romano",
+    "timestamp": 198.9,
+    "endTimeTs": 212.0
+  },
+  {
+    "speakerName": "Chris Lee",
+    "timestamp": 213.5,
+    "endTimeTs": 216.8
+  },
+  {
+    "speakerName": "Mike Romano",
+    "timestamp": 217.1,
+    "endTimeTs": 222.4
+  },
+  {
+    "speakerName": "Chris Lee",
+    "timestamp": 223.3,
+    "endTimeTs": 234.7
+  },
+  {
+    "speakerName": "Nina Kowalski",
+    "timestamp": 235.2,
+    "endTimeTs": 253.2
+  },
+  {
+    "speakerName": "Chris Lee",
+    "timestamp": 253.6,
+    "endTimeTs": 267.7
+  },
+  {
+    "speakerName": "Mike Romano",
+    "timestamp": 269.0,
+    "endTimeTs": 279.6
+  },
+  {
+    "speakerName": "Chris Lee",
+    "timestamp": 280.4,
+    "endTimeTs": 288.6
+  },
+  {
+    "speakerName": "Ananya Sharma",
+    "timestamp": 289.6,
+    "endTimeTs": 311.1
+  },
+  {
+    "speakerName": "Chris Lee",
+    "timestamp": 312.4,
+    "endTimeTs": 316.7
+  },
+  {
+    "speakerName": "Ananya Sharma",
+    "timestamp": 317.4,
+    "endTimeTs": 326.5
+  },
+  {
+    "speakerName": "Chris Lee",
+    "timestamp": 327.1,
+    "endTimeTs": 337.8
+  },
+  {
+    "speakerName": "Ananya Sharma",
+    "timestamp": 338.2,
+    "endTimeTs": 348.3
+  },
+  {
+    "speakerName": "Chris Lee",
+    "timestamp": 349.5,
+    "endTimeTs": 361.7
+  },
+  {
+    "speakerName": "Mike Romano",
+    "timestamp": 362.9,
+    "endTimeTs": 364.4
+  },
+  {
+    "speakerName": "Nina Kowalski",
+    "timestamp": 365.4,
+    "endTimeTs": 367.0
+  },
+  {
+    "speakerName": "Ananya Sharma",
+    "timestamp": 368.2,
+    "endTimeTs": 371.8
+  },
+  {
+    "speakerName": "Chris Lee",
+    "timestamp": 373.2,
+    "endTimeTs": 377.9
+  },
+  {
+    "speakerName": "Mike Romano",
+    "timestamp": 379.4,
+    "endTimeTs": 388.8
+  },
+  {
+    "speakerName": "Chris Lee",
+    "timestamp": 389.8,
+    "endTimeTs": 399.3
+  },
+  {
+    "speakerName": "Nina Kowalski",
+    "timestamp": 400.5,
+    "endTimeTs": 402.2
+  },
+  {
+    "speakerName": "Ananya Sharma",
+    "timestamp": 403.1,
+    "endTimeTs": 404.6
+  },
+  {
+    "speakerName": "Mike Romano",
+    "timestamp": 405.6,
+    "endTimeTs": 407.1
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "participantName": "David Kim",
+    "timestamp": 1773148503000,
+    "type": "Join",
+    "time": 3.0
+  },
+  {
+    "participantName": "Lauren Bishop",
+    "timestamp": 1773148559000,
+    "type": "Join",
+    "time": 59.0
+  },
+  {
+    "participantName": "David Kim",
+    "timestamp": 1773149276000,
+    "type": "Leave",
+    "time": 776.0
+  },
+  {
+    "participantName": "Lauren Bishop",
+    "timestamp": 1773149302000,
+    "type": "Leave",
+    "time": 802.0
+  }
+]

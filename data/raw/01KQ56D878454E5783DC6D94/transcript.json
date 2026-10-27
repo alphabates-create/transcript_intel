@@ -1,0 +1,414 @@
+{
+  "data": [
+    {
+      "sentence": "Hi, this is David Kim calling from Aegis Cloud Security support, I have case number 3536 here for Stratos Cloud \u2014 am I speaking with Damien?",
+      "speaker_name": "David Kim",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 6.2,
+      "endTime": 15.5,
+      "averageConfidence": 0.93,
+      "index": 0
+    },
+    {
+      "sentence": "Yeah, yeah that's me. Damien Rowe. Thanks for calling back, I've been waiting on this for like \u2014 look, we submitted this ticket yesterday morning and this is kind of urgent for us.",
+      "speaker_name": "Damien Rowe",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 16.3,
+      "endTime": 28.1,
+      "averageConfidence": 0.95,
+      "index": 1
+    },
+    {
+      "sentence": "I completely understand, Damien, and I apologize for the wait. I also have my team lead Priya Patel joining us on the call today, she's been looped in given the priority of the case.",
+      "speaker_name": "David Kim",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 28.7,
+      "endTime": 40.4,
+      "averageConfidence": 0.97,
+      "index": 2
+    },
+    {
+      "sentence": "Hi Damien, thanks for your patience. We definitely want to get to the bottom of this with you today.",
+      "speaker_name": "Priya Patel",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 41.2,
+      "endTime": 47.7,
+      "averageConfidence": 0.95,
+      "index": 3
+    },
+    {
+      "sentence": "Okay, sure. I appreciate that. So \u2014 look, I'll just get into it. We've been running Aegis Detect integrated with our LogVault environment, right, and starting around \u2014 I want to say April 18th, maybe 19th \u2014 we started seeing consistent timeout errors when Detect tries to push event data to our LogVault HTTP Event Collector endpoint. It's not intermittent, it's basically every... every batch that goes through.",
+      "speaker_name": "Damien Rowe",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 49.1,
+      "endTime": 72.7,
+      "averageConfidence": 0.91,
+      "index": 4
+    },
+    {
+      "sentence": "Okay, so consistent timeouts hitting the HEC endpoint. And when you say every batch \u2014 are these on a scheduled interval or is this continuous streaming from Detect?",
+      "speaker_name": "David Kim",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 73.1,
+      "endTime": 82.8,
+      "averageConfidence": 0.96,
+      "index": 5
+    },
+    {
+      "sentence": "We have it set to push every five minutes. And it was working fine, totally fine, for months before this. Nothing changed on our end \u2014 we didn't update LogVault, we didn't change the HEC token, nothing. So whatever broke, it broke on your side.",
+      "speaker_name": "Damien Rowe",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 83.3,
+      "endTime": 98.7,
+      "averageConfidence": 0.96,
+      "index": 6
+    },
+    {
+      "sentence": "I hear you, and I want to be careful not to make assumptions before we dig into the logs, but I do want to look at this thoroughly. Can I ask \u2014 are you seeing any error codes coming back, or is it just a straight connection timeout with no response from the HEC endpoint?",
+      "speaker_name": "David Kim",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 99.6,
+      "endTime": 118.6,
+      "averageConfidence": 0.93,
+      "index": 7
+    },
+    {
+      "sentence": "It's a connection timeout. We're not even getting a response code. The connection just... hangs and then drops. Our LogVault team confirmed the HEC endpoint itself is healthy \u2014 they're receiving data from other sources without any issues.",
+      "speaker_name": "Damien Rowe",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 120.0,
+      "endTime": 133.6,
+      "averageConfidence": 0.96,
+      "index": 8
+    },
+    {
+      "sentence": "Okay so LogVault HEC is healthy, other sources pushing fine, only Aegis Detect is timing out. David, I'm wondering if this could be related to the event processing changes that were pushed in the pipeline update earlier this month.",
+      "speaker_name": "Priya Patel",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 134.6,
+      "endTime": 148.2,
+      "averageConfidence": 0.93,
+      "index": 9
+    },
+    {
+      "sentence": "Yeah, I was thinking the same thing. Damien, I want to ask \u2014 do you happen to know your Aegis Detect tenant version? It should be visible in the platform under Settings and then About.",
+      "speaker_name": "David Kim",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 149.5,
+      "endTime": 161.5,
+      "averageConfidence": 0.93,
+      "index": 10
+    },
+    {
+      "sentence": "Uh, hold on. Let me \u2014 yeah, give me a second, I'm pulling it up now. Okay it says... Detect pipeline version 4.1.2, event processor build April 8th.",
+      "speaker_name": "Damien Rowe",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 162.6,
+      "endTime": 172.9,
+      "averageConfidence": 0.95,
+      "index": 11
+    },
+    {
+      "sentence": "April 8th build. Okay. Priya, that would be the post-remediation build from after the March incident, right?",
+      "speaker_name": "David Kim",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 173.8,
+      "endTime": 179.6,
+      "averageConfidence": 0.92,
+      "index": 12
+    },
+    {
+      "sentence": "Yes, that's correct. So Damien, I don't know if you were made aware \u2014 in mid-March we had a significant incident with the Aegis Detect event processing pipeline. There was a cascading failure that caused monitoring gaps, and we pushed a remediation update that included redundant processing nodes and a circuit breaker pattern in the ingestion layer.",
+      "speaker_name": "Priya Patel",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 180.6,
+      "endTime": 200.5,
+      "averageConfidence": 0.94,
+      "index": 13
+    },
+    {
+      "sentence": "Oh, I am very aware of that outage. Yeah, we were one of the customers affected. Six hours of no visibility \u2014 that was a really bad week for us. We had to explain to our own leadership why we had blind spots in our threat monitoring. That was not a fun conversation.",
+      "speaker_name": "Damien Rowe",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 201.8,
+      "endTime": 220.4,
+      "averageConfidence": 0.97,
+      "index": 14
+    },
+    {
+      "sentence": "Yeah, we \u2014 we really do understand that, and I'm sorry again for the disruption that caused. What I'm wondering now though is whether the circuit breaker implementation in that fix might be contributing to what you're seeing with LogVault. If the outbound connector to your HEC endpoint is getting tripped by the circuit breaker under certain load conditions, that could explain the timeout pattern.",
+      "speaker_name": "Priya Patel",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 221.0,
+      "endTime": 244.0,
+      "averageConfidence": 0.93,
+      "index": 15
+    },
+    {
+      "sentence": "So you're telling me the fix for one problem might have caused a new problem? That's \u2014 I mean, come on. That's not great to hear.",
+      "speaker_name": "Damien Rowe",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 244.8,
+      "endTime": 254.2,
+      "averageConfidence": 0.89,
+      "index": 16
+    },
+    {
+      "sentence": "I want to be clear that I'm not confirming that yet, we need to look at the logs before I say anything definitively. But it's a hypothesis worth investigating. David, can you pull the outbound connector logs for Stratos on the Detect side?",
+      "speaker_name": "Priya Patel",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 255.3,
+      "endTime": 270.3,
+      "averageConfidence": 0.94,
+      "index": 17
+    },
+    {
+      "sentence": "Already on it. Damien, while I'm doing that \u2014 can you tell me roughly what volume of events Detect is processing in your environment? Like ballpark events per minute during peak hours?",
+      "speaker_name": "David Kim",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 270.9,
+      "endTime": 282.6,
+      "averageConfidence": 0.88,
+      "index": 18
+    },
+    {
+      "sentence": "Uh, we're a pretty active environment. I'd say during peak \u2014 probably somewhere between eight and twelve thousand events per minute. We're a technology company, we've got a lot of infrastructure generating signal.",
+      "speaker_name": "Damien Rowe",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 283.2,
+      "endTime": 295.1,
+      "averageConfidence": 0.95,
+      "index": 19
+    },
+    {
+      "sentence": "Okay, yeah that's \u2014 that's actually useful context. So I'm looking at the connector logs now and... okay, yeah. I'm seeing the circuit breaker state flipping to open on the LogVault HEC connector. It looks like it's tripping because the payload size on the five-minute batch is exceeding the default threshold that was set in the 4.1.2 build.",
+      "speaker_name": "David Kim",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 295.9,
+      "endTime": 316.0,
+      "averageConfidence": 0.95,
+      "index": 20
+    },
+    {
+      "sentence": "So what does that mean exactly? In plain terms.",
+      "speaker_name": "Damien Rowe",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 316.6,
+      "endTime": 319.4,
+      "averageConfidence": 0.95,
+      "index": 21
+    },
+    {
+      "sentence": "So the circuit breaker that was added to protect the pipeline \u2014 it has a payload threshold, and at your event volume, the five-minute batch is generating a payload that's hitting that limit. When the circuit breaker trips, it stops the outbound push to LogVault and the connection just drops, which is why you're seeing the timeout with no response code.",
+      "speaker_name": "David Kim",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 320.4,
+      "endTime": 341.8,
+      "averageConfidence": 0.92,
+      "index": 22
+    },
+    {
+      "sentence": "So it's stopping itself from sending data to our SIEM. That means we've had gaps in our LogVault data since the 18th? That's \u2014 that's four days of incomplete data. Do you understand what that means for us from a security monitoring standpoint?",
+      "speaker_name": "Damien Rowe",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 342.7,
+      "endTime": 357.7,
+      "averageConfidence": 0.91,
+      "index": 23
+    },
+    {
+      "sentence": "I do, and I want to be transparent with you \u2014 yes, the events during the tripped periods would not have been forwarded to LogVault. They are retained within Aegis Detect itself, so the data isn't lost, but it hasn't been pushed to your HEC endpoint during those windows.",
+      "speaker_name": "Priya Patel",
+      "sentimentType": "negative",
+      "speaker_id": 2,
+      "time": 358.8,
+      "endTime": 375.7,
+      "averageConfidence": 0.97,
+      "index": 24
+    },
+    {
+      "sentence": "Okay so the data exists on your side. Can we backfill it? Can you push the missed events retroactively to our LogVault instance?",
+      "speaker_name": "Damien Rowe",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 376.1,
+      "endTime": 384.5,
+      "averageConfidence": 0.94,
+      "index": 25
+    },
+    {
+      "sentence": "That's actually something we can do, yes. We have a manual replay function for the outbound connector. What I'd want to do first though is fix the underlying threshold issue so we're not in the same situation after the backfill.",
+      "speaker_name": "David Kim",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 385.4,
+      "endTime": 399.3,
+      "averageConfidence": 0.9,
+      "index": 26
+    },
+    {
+      "sentence": "Yes, absolutely do that first. What's the fix?",
+      "speaker_name": "Damien Rowe",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 400.4,
+      "endTime": 403.4,
+      "averageConfidence": 0.9,
+      "index": 27
+    },
+    {
+      "sentence": "So we have two options. One \u2014 we can adjust the circuit breaker payload threshold for your tenant specifically to accommodate your event volume. Two \u2014 we can switch your LogVault integration to use a streaming mode instead of batched pushes, which would distribute the load more evenly and avoid hitting the threshold altogether. Honestly for your volume, streaming is probably the better long-term configuration.",
+      "speaker_name": "David Kim",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 404.7,
+      "endTime": 427.8,
+      "averageConfidence": 0.95,
+      "index": 28
+    },
+    {
+      "sentence": "How long does switching to streaming take to configure? And is there any disruption during the switchover?",
+      "speaker_name": "Damien Rowe",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 429.2,
+      "endTime": 435.2,
+      "averageConfidence": 0.89,
+      "index": 29
+    },
+    {
+      "sentence": "The configuration change itself is pretty quick on our end, maybe fifteen minutes to apply and validate. There'd be a brief pause in forwarding during the switch \u2014 we're talking under a minute typically. And then we'd do the backfill right after to make sure you have everything.",
+      "speaker_name": "David Kim",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 436.5,
+      "endTime": 453.5,
+      "averageConfidence": 0.94,
+      "index": 30
+    },
+    {
+      "sentence": "Okay. Do the streaming mode. And I want a written summary of what happened here \u2014 the root cause, the timeline, what data was affected, and what was done to fix it. I need to take that to my leadership and frankly I'm going to need to share it with our security team so they can assess any gaps in coverage.",
+      "speaker_name": "Damien Rowe",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 453.8,
+      "endTime": 474.9,
+      "averageConfidence": 0.9,
+      "index": 31
+    },
+    {
+      "sentence": "Absolutely, Damien. I'll personally make sure a detailed incident summary is drafted and sent to you \u2014 I'd say end of business tomorrow at the latest. And I want to flag that given this is the second significant disruption to your Detect environment this year, I'd like to schedule a call with you and our customer success team to review your overall configuration and make sure we're set up in a way that's more resilient for your environment going forward.",
+      "speaker_name": "Priya Patel",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 475.3,
+      "endTime": 503.2,
+      "averageConfidence": 0.95,
+      "index": 32
+    },
+    {
+      "sentence": "Yeah, that conversation needs to happen. I'll be honest with you \u2014 my team has been asking questions about whether Aegis Detect is the right platform for us. We're a fast-growing company, we can't be absorbing incidents like this. So that conversation with customer success, fine, but it better be substantive.",
+      "speaker_name": "Damien Rowe",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 503.6,
+      "endTime": 521.9,
+      "averageConfidence": 0.92,
+      "index": 33
+    },
+    {
+      "sentence": "Understood, and I appreciate you being direct with us about that. That feedback is important and I won't minimize it. Let's get the immediate fix applied today, get you the backfill, and then we'll make sure the follow-up conversation is meaningful. David, can you go ahead and initiate the streaming mode switch for Stratos now?",
+      "speaker_name": "Priya Patel",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 522.7,
+      "endTime": 541.9,
+      "averageConfidence": 0.92,
+      "index": 34
+    },
+    {
+      "sentence": "Yeah, doing it now. Damien, you might see a very brief pause in the LogVault feed \u2014 like I said, under a minute \u2014 and then it should resume and you'll see the stream mode active. I'll confirm with you on the call when it's validated.",
+      "speaker_name": "David Kim",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 542.6,
+      "endTime": 558.5,
+      "averageConfidence": 0.94,
+      "index": 35
+    },
+    {
+      "sentence": "Fine. And the backfill \u2014 how long will that take to actually show up in LogVault?",
+      "speaker_name": "Damien Rowe",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 558.8,
+      "endTime": 564.2,
+      "averageConfidence": 0.88,
+      "index": 36
+    },
+    {
+      "sentence": "Given the volume we're talking about, probably one to two hours for the full four-day backfill to complete. It runs as a background job. I'll send you a confirmation email when it kicks off and another when it completes.",
+      "speaker_name": "David Kim",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 565.4,
+      "endTime": 579.4,
+      "averageConfidence": 0.93,
+      "index": 37
+    },
+    {
+      "sentence": "Alright. I'll take that. Look \u2014 I appreciate you both getting on the call and actually diagnosing this today. I'm still frustrated with the situation, I won't pretend I'm not. But at least we have a path forward.",
+      "speaker_name": "Damien Rowe",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 580.1,
+      "endTime": 593.3,
+      "averageConfidence": 0.93,
+      "index": 38
+    },
+    {
+      "sentence": "That's completely fair, Damien. We'll get everything wrapped up and make sure you have the documentation you need. Keep an eye out for my email and I'll be in touch as soon as the backfill is confirmed running.",
+      "speaker_name": "Priya Patel",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 594.5,
+      "endTime": 607.7,
+      "averageConfidence": 0.91,
+      "index": 39
+    },
+    {
+      "sentence": "Sounds good. Thanks.",
+      "speaker_name": "Damien Rowe",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 609.1,
+      "endTime": 610.6,
+      "averageConfidence": 0.89,
+      "index": 40
+    }
+  ]
+}

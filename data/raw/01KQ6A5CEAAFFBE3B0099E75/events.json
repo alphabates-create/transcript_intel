@@ -1,0 +1,26 @@
+[
+  {
+    "participantName": "Marcus Williams",
+    "timestamp": 1774170903000,
+    "type": "Join",
+    "time": 3.0
+  },
+  {
+    "participantName": "Harold Jensen",
+    "timestamp": 1774170914000,
+    "type": "Join",
+    "time": 14.0
+  },
+  {
+    "participantName": "Marcus Williams",
+    "timestamp": 1774172135000,
+    "type": "Leave",
+    "time": 1235.0
+  },
+  {
+    "participantName": "Harold Jensen",
+    "timestamp": 1774172147000,
+    "type": "Leave",
+    "time": 1247.0
+  }
+]

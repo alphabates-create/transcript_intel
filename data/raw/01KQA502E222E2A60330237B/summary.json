@@ -1,0 +1,46 @@
+{
+  "summary": "Daniel Okafor led a Q1 business review with Yuki Tanaka of Pineridge, joined by Kevin O'Brien and Ananya Sharma. Yuki expressed strong overall satisfaction with the Aegis platform, particularly highlighting Aegis Detect's improved signal-to-noise ratio and a successful DR drill using Aegis Protect. A significant portion of the call focused on the upcoming Aegis Comply v2 release, which Yuki found compelling for their SOC 2 readiness needs and indicated could strengthen the ROI case for renewal. The call concluded with a positive renewal outlook, with Yuki requesting a separate commercial discussion in mid-April after reviewing the Comply v2 details.",
+  "actionItems": [
+    "Ananya Sharma: Create a tiered restore playbook tailored to Pineridge's architecture based on DR drill learnings",
+    "Daniel Okafor: Send customized ROI template for Aegis Comply v2 that Yuki can present to CFO and leadership",
+    "Daniel Okafor: Add Yuki Tanaka to the Aegis Comply v2 early access communication list ahead of April 7th GA",
+    "Daniel Okafor: Schedule commercial renewal follow-up call with Yuki for the week of April 13th"
+  ],
+  "topics": [
+    "quarterly business review",
+    "renewal",
+    "compliance",
+    "disaster recovery",
+    "product update",
+    "pricing"
+  ],
+  "overallSentiment": "very-positive",
+  "sentimentScore": 4.7,
+  "keyMoments": [
+    {
+      "time": 142.0,
+      "text": "Yuki praised Aegis Detect for dramatically improving signal-to-noise ratio, calling it night and day compared to manual log correlation",
+      "type": "praise",
+      "speaker": "Yuki Tanaka"
+    },
+    {
+      "time": 298.0,
+      "text": "Yuki reported a successful DR drill with a two-hour RTO, meeting engineering leadership expectations",
+      "type": "positive_pivot",
+      "speaker": "Yuki Tanaka"
+    },
+    {
+      "time": 520.0,
+      "text": "Yuki expressed genuine excitement about on-demand SOC 2 reporting in Comply v2, noting it changes her thinking on the renewal value proposition",
+      "type": "positive_pivot",
+      "speaker": "Yuki Tanaka"
+    },
+    {
+      "time": 680.0,
+      "text": "Yuki confirmed intent to renew but flagged tighter budget and requested a separate commercial discussion focused on pricing structure",
+      "type": "pricing_offer",
+      "speaker": "Yuki Tanaka"
+    }
+  ],
+  "meetingId": "01KQA502E222E2A60330237B"
+}

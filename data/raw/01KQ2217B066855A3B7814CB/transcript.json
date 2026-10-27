@@ -1,0 +1,484 @@
+{
+  "data": [
+    {
+      "sentence": "Hi Suki, thanks so much for making time for us today, I know your schedule has been pretty packed this week.",
+      "speaker_name": "Rachel Torres",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 3.8,
+      "endTime": 11.4,
+      "averageConfidence": 0.92,
+      "index": 0
+    },
+    {
+      "sentence": "Yeah, it has been, honestly. Hi Rachel, hi everyone.",
+      "speaker_name": "Suki Nakamura",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 12.3,
+      "endTime": 15.6,
+      "averageConfidence": 0.94,
+      "index": 1
+    },
+    {
+      "sentence": "Hi Suki, I'm Lisa Park, I work alongside Rachel on your account \u2014 I don't think we've actually spoken before, so just wanted to introduce myself quickly.",
+      "speaker_name": "Lisa Park",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 16.6,
+      "endTime": 26.4,
+      "averageConfidence": 0.94,
+      "index": 2
+    },
+    {
+      "sentence": "Oh right, yes, Rachel mentioned you'd be joining. Nice to meet you Lisa.",
+      "speaker_name": "Suki Nakamura",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 27.8,
+      "endTime": 32.4,
+      "averageConfidence": 0.95,
+      "index": 3
+    },
+    {
+      "sentence": "And I've also got Ravi Gupta on the line, he's one of our DevOps engineers and he can speak a lot more technically to some of the stuff we're going to cover today.",
+      "speaker_name": "Rachel Torres",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 33.8,
+      "endTime": 45.3,
+      "averageConfidence": 0.96,
+      "index": 4
+    },
+    {
+      "sentence": "Hey Suki, good to be here.",
+      "speaker_name": "Ravi Gupta",
+      "sentimentType": "positive",
+      "speaker_id": 3,
+      "time": 46.1,
+      "endTime": 48.4,
+      "averageConfidence": 0.92,
+      "index": 5
+    },
+    {
+      "sentence": "Good, okay. So look, I'll be honest with you Rachel, I agreed to this call but I'm \u2014 I'm not in a great headspace about things right now, and I think you probably know why.",
+      "speaker_name": "Suki Nakamura",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 49.2,
+      "endTime": 61.9,
+      "averageConfidence": 0.9,
+      "index": 6
+    },
+    {
+      "sentence": "We do, and that's exactly why we wanted to get on the phone rather than just send another email. I want to give you the space to tell us everything that's on your mind.",
+      "speaker_name": "Rachel Torres",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 62.4,
+      "endTime": 74.5,
+      "averageConfidence": 0.92,
+      "index": 7
+    },
+    {
+      "sentence": "Okay. So, you know, Monday was \u2014 it was a really bad day for us. We had no visibility into threat monitoring for, what, like six hours? Six hours, Rachel. In financial services, that's not a minor inconvenience, that's a serious risk event.",
+      "speaker_name": "Suki Nakamura",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 75.0,
+      "endTime": 89.8,
+      "averageConfidence": 0.92,
+      "index": 8
+    },
+    {
+      "sentence": "Completely understood, and I'm not going to minimize that at all.",
+      "speaker_name": "Rachel Torres",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 90.3,
+      "endTime": 94.5,
+      "averageConfidence": 0.92,
+      "index": 9
+    },
+    {
+      "sentence": "Our security team was essentially flying blind. We had regulators \u2014 we have ongoing audit conversations happening, and I had to get on a call with our CISO on Monday afternoon and explain why our threat monitoring platform was just... not working. That's not a conversation I ever want to have.",
+      "speaker_name": "Suki Nakamura",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 95.9,
+      "endTime": 113.7,
+      "averageConfidence": 0.97,
+      "index": 10
+    },
+    {
+      "sentence": "Yeah, and Suki, I want to jump in here because I think it's important that you hear directly from me on the technical side of what happened. Can I \u2014 is it okay if I walk through it?",
+      "speaker_name": "Ravi Gupta",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 114.7,
+      "endTime": 127.9,
+      "averageConfidence": 0.94,
+      "index": 11
+    },
+    {
+      "sentence": "Please. Yes. I want to understand what actually happened because the status page updates were... they were not sufficient.",
+      "speaker_name": "Suki Nakamura",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 128.6,
+      "endTime": 135.0,
+      "averageConfidence": 0.93,
+      "index": 12
+    },
+    {
+      "sentence": "Yeah, and I hear you on that, the communications piece is something we're addressing separately. But on the technical side \u2014 what happened was we had a cascading failure in our event processing pipeline. There was essentially a single point of failure in the event ingestion layer, and when that component went down, it took the whole pipeline with it rather than failing gracefully.",
+      "speaker_name": "Ravi Gupta",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 136.4,
+      "endTime": 159.1,
+      "averageConfidence": 0.89,
+      "index": 13
+    },
+    {
+      "sentence": "Right. So there was no redundancy built in.",
+      "speaker_name": "Suki Nakamura",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 159.8,
+      "endTime": 162.5,
+      "averageConfidence": 0.92,
+      "index": 14
+    },
+    {
+      "sentence": "That's \u2014 yeah, that's the honest answer. There wasn't sufficient redundancy at that layer, and that's a design gap that we've already started addressing. We're implementing redundant processing nodes and we're adding a circuit breaker pattern so that if one node degrades, traffic gets redistributed rather than causing a full outage.",
+      "speaker_name": "Ravi Gupta",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 163.5,
+      "endTime": 181.8,
+      "averageConfidence": 0.95,
+      "index": 15
+    },
+    {
+      "sentence": "Okay, and when does that actually get shipped? Because I've been in software long enough to know that 'we're implementing' can mean a lot of different things.",
+      "speaker_name": "Suki Nakamura",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 183.1,
+      "endTime": 192.8,
+      "averageConfidence": 0.96,
+      "index": 16
+    },
+    {
+      "sentence": "That's a completely fair push. Ravi, do you want to give Suki the timeline?",
+      "speaker_name": "Rachel Torres",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 193.8,
+      "endTime": 199.1,
+      "averageConfidence": 0.93,
+      "index": 17
+    },
+    {
+      "sentence": "Yeah, so the redundant nodes are already being staged in our dev environment, and we're targeting end of this month for the circuit breaker rollout to production. We're not waiting on this one.",
+      "speaker_name": "Ravi Gupta",
+      "sentimentType": "positive",
+      "speaker_id": 3,
+      "time": 200.4,
+      "endTime": 211.8,
+      "averageConfidence": 0.97,
+      "index": 18
+    },
+    {
+      "sentence": "End of March. Okay. And what happens between now and end of March if something goes wrong again?",
+      "speaker_name": "Suki Nakamura",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 212.1,
+      "endTime": 218.8,
+      "averageConfidence": 0.95,
+      "index": 19
+    },
+    {
+      "sentence": "So in the interim we've actually increased monitoring frequency on that specific pipeline component and we have an on-call rotation specifically watching it. It's not the permanent fix but it's not nothing either.",
+      "speaker_name": "Ravi Gupta",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 220.2,
+      "endTime": 232.2,
+      "averageConfidence": 0.93,
+      "index": 20
+    },
+    {
+      "sentence": "I appreciate you explaining it, Ravi, I do. But I have to be candid with you all \u2014 this isn't just about the technical fix for me. The bigger issue is that this shook my confidence, and frankly my leadership's confidence, in Aegis Detect as a platform we can rely on.",
+      "speaker_name": "Suki Nakamura",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 233.5,
+      "endTime": 251.7,
+      "averageConfidence": 0.93,
+      "index": 21
+    },
+    {
+      "sentence": "Can you tell us a bit more about what that looks like internally? Like, is this something your leadership is actively asking questions about?",
+      "speaker_name": "Lisa Park",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 252.1,
+      "endTime": 260.7,
+      "averageConfidence": 0.89,
+      "index": 22
+    },
+    {
+      "sentence": "Yes. My CISO has asked me to do a formal review of our threat monitoring vendor options. And I don't love that I'm in that position, because we've been with Aegis for, what, almost two years now, and up until Monday I would have said we were pretty happy. But this... this was bad timing on a lot of levels.",
+      "speaker_name": "Suki Nakamura",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 261.2,
+      "endTime": 282.0,
+      "averageConfidence": 0.95,
+      "index": 23
+    },
+    {
+      "sentence": "I really appreciate you being so direct with us Suki, that kind of honesty helps us actually address what matters. Can I ask \u2014 is the review something that's already in motion, or is it more of a... a contingency your CISO is preparing for?",
+      "speaker_name": "Rachel Torres",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 282.8,
+      "endTime": 298.8,
+      "averageConfidence": 0.92,
+      "index": 24
+    },
+    {
+      "sentence": "It's in motion. We've \u2014 look, I'll be transparent. We've been talking to SentinelShield. They actually reached out to us a few weeks ago, coincidentally, and we had a demo scheduled that we were going to deprioritize, and now... we're not deprioritizing it.",
+      "speaker_name": "Suki Nakamura",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 300.0,
+      "endTime": 315.4,
+      "averageConfidence": 0.91,
+      "index": 25
+    },
+    {
+      "sentence": "Okay. Thank you for telling us that.",
+      "speaker_name": "Rachel Torres",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 315.9,
+      "endTime": 318.7,
+      "averageConfidence": 0.9,
+      "index": 26
+    },
+    {
+      "sentence": "I'm not saying it to be threatening, I'm saying it because I think you deserve to know where we're at. We haven't made any decisions. But I'd be lying if I said we weren't looking.",
+      "speaker_name": "Suki Nakamura",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 319.2,
+      "endTime": 331.9,
+      "averageConfidence": 0.88,
+      "index": 27
+    },
+    {
+      "sentence": "No, and I \u2014 I genuinely appreciate that, Suki. Look, we're not going to sit here and tell you not to do your due diligence, that would be unreasonable. What I do want to make sure is that you're evaluating us based on a full picture, not just this week.",
+      "speaker_name": "Rachel Torres",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 333.1,
+      "endTime": 351.0,
+      "averageConfidence": 0.91,
+      "index": 28
+    },
+    {
+      "sentence": "And that's fair, but the full picture does include this week. That's part of the picture.",
+      "speaker_name": "Suki Nakamura",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 351.9,
+      "endTime": 357.3,
+      "averageConfidence": 0.94,
+      "index": 29
+    },
+    {
+      "sentence": "Absolutely. No question. And we own that.",
+      "speaker_name": "Rachel Torres",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 357.9,
+      "endTime": 360.4,
+      "averageConfidence": 0.9,
+      "index": 30
+    },
+    {
+      "sentence": "I guess what I want to understand from you all is \u2014 is this a one-off? Or is this symptomatic of something deeper in how Detect is architected? Because those are two very different stories.",
+      "speaker_name": "Suki Nakamura",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 361.4,
+      "endTime": 374.0,
+      "averageConfidence": 0.95,
+      "index": 31
+    },
+    {
+      "sentence": "That's exactly the right question and I want to give you a real answer, not a canned one. The honest truth is \u2014 the single point of failure that caused this outage was a known architectural limitation that we hadn't yet prioritized fixing. We knew it existed. We underestimated the blast radius. That's on us.",
+      "speaker_name": "Ravi Gupta",
+      "sentimentType": "negative",
+      "speaker_id": 3,
+      "time": 374.9,
+      "endTime": 394.0,
+      "averageConfidence": 0.96,
+      "index": 32
+    },
+    {
+      "sentence": "I... okay. I actually appreciate that you said that, Ravi. That's more honest than I expected.",
+      "speaker_name": "Suki Nakamura",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 394.8,
+      "endTime": 400.8,
+      "averageConfidence": 0.93,
+      "index": 33
+    },
+    {
+      "sentence": "We've done a full audit of similar single points of failure across the Detect infrastructure this week, and the circuit breaker implementation addresses the highest risk ones. I can share that audit summary with you if that would be helpful \u2014 obviously redacted where appropriate, but I think seeing the scope of what we've reviewed might give you some confidence.",
+      "speaker_name": "Ravi Gupta",
+      "sentimentType": "positive",
+      "speaker_id": 3,
+      "time": 402.3,
+      "endTime": 423.5,
+      "averageConfidence": 0.92,
+      "index": 34
+    },
+    {
+      "sentence": "Yes. Yes I'd want to see that. That's the kind of thing I can actually bring to my CISO \u2014 something substantive.",
+      "speaker_name": "Suki Nakamura",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 424.9,
+      "endTime": 433.0,
+      "averageConfidence": 0.93,
+      "index": 35
+    },
+    {
+      "sentence": "We'll get that to you by end of day Monday, Ravi can you confirm that works on your end?",
+      "speaker_name": "Rachel Torres",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 434.1,
+      "endTime": 440.5,
+      "averageConfidence": 0.92,
+      "index": 36
+    },
+    {
+      "sentence": "Yeah, Monday works, I'll have it ready.",
+      "speaker_name": "Ravi Gupta",
+      "sentimentType": "positive",
+      "speaker_id": 3,
+      "time": 441.2,
+      "endTime": 444.0,
+      "averageConfidence": 0.92,
+      "index": 37
+    },
+    {
+      "sentence": "Okay. And look, I do want to say \u2014 the other piece of this that's been frustrating, and this is maybe more on the compliance side, is that I need to be able to demonstrate to our regulators that we have continuous monitoring in place. When Detect goes down, that argument falls apart. And in our industry, that's not academic.",
+      "speaker_name": "Suki Nakamura",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 444.8,
+      "endTime": 465.6,
+      "averageConfidence": 0.89,
+      "index": 38
+    },
+    {
+      "sentence": "That's such an important point, and actually \u2014 I don't want to pivot too hard here because I know we're focused on Detect today \u2014 but we do have some things coming in Comply that might actually help you build a stronger narrative around that for regulators, around your overall monitoring posture.",
+      "speaker_name": "Lisa Park",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 467.0,
+      "endTime": 485.3,
+      "averageConfidence": 0.97,
+      "index": 39
+    },
+    {
+      "sentence": "Maybe, but right now I need Detect to work before I worry about how we report on it.",
+      "speaker_name": "Suki Nakamura",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 486.8,
+      "endTime": 493.4,
+      "averageConfidence": 0.97,
+      "index": 40
+    },
+    {
+      "sentence": "That's completely fair. You're right, one thing at a time.",
+      "speaker_name": "Lisa Park",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 494.8,
+      "endTime": 498.3,
+      "averageConfidence": 0.94,
+      "index": 41
+    },
+    {
+      "sentence": "So where do we land today? I want to make sure I leave this call with a clear picture of what you're committing to and by when.",
+      "speaker_name": "Suki Nakamura",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 499.7,
+      "endTime": 509.5,
+      "averageConfidence": 0.91,
+      "index": 42
+    },
+    {
+      "sentence": "Okay, let me summarize and you can tell me if I'm missing anything. Ravi's going to send over the infrastructure audit summary by Monday. We're committing to end-of-month production deployment of the circuit breaker fix and redundant nodes. And I'd like to schedule a follow-up call in two weeks \u2014 not to sell you anything, just to check in and make sure the interim monitoring is holding and answer any questions that come up from your internal review.",
+      "speaker_name": "Rachel Torres",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 510.7,
+      "endTime": 538.0,
+      "averageConfidence": 0.96,
+      "index": 43
+    },
+    {
+      "sentence": "Two weeks. Okay. Yeah, I can do that. And Rachel \u2014 I do want to be clear, I'm not trying to be difficult here. I'm trying to do right by my organization.",
+      "speaker_name": "Suki Nakamura",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 539.3,
+      "endTime": 550.7,
+      "averageConfidence": 0.92,
+      "index": 44
+    },
+    {
+      "sentence": "I know that. And honestly, the fact that you're still talking to us and being this candid tells me that you haven't given up on us yet, and we're not going to give up on you either.",
+      "speaker_name": "Rachel Torres",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 551.1,
+      "endTime": 564.3,
+      "averageConfidence": 0.94,
+      "index": 45
+    },
+    {
+      "sentence": "We'll see. Send me that audit doc and let's talk in two weeks.",
+      "speaker_name": "Suki Nakamura",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 565.7,
+      "endTime": 570.4,
+      "averageConfidence": 0.91,
+      "index": 46
+    },
+    {
+      "sentence": "Absolutely. Thanks Suki, we'll be in touch Monday.",
+      "speaker_name": "Rachel Torres",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 571.2,
+      "endTime": 574.4,
+      "averageConfidence": 0.95,
+      "index": 47
+    }
+  ]
+}

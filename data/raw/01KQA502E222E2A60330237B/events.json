@@ -1,0 +1,50 @@
+[
+  {
+    "participantName": "Yuki Tanaka",
+    "timestamp": 1772550912000,
+    "type": "Join",
+    "time": 12.0
+  },
+  {
+    "participantName": "Daniel Okafor",
+    "timestamp": 1772550914000,
+    "type": "Join",
+    "time": 14.0
+  },
+  {
+    "participantName": "Kevin O'Brien",
+    "timestamp": 1772550932000,
+    "type": "Join",
+    "time": 32.0
+  },
+  {
+    "participantName": "Ananya Sharma",
+    "timestamp": 1772550953000,
+    "type": "Join",
+    "time": 53.0
+  },
+  {
+    "participantName": "Kevin O'Brien",
+    "timestamp": 1772553365000,
+    "type": "Leave",
+    "time": 2465.0
+  },
+  {
+    "participantName": "Daniel Okafor",
+    "timestamp": 1772553362000,
+    "type": "Leave",
+    "time": 2462.0
+  },
+  {
+    "participantName": "Ananya Sharma",
+    "timestamp": 1772553373000,
+    "type": "Leave",
+    "time": 2473.0
+  },
+  {
+    "participantName": "Yuki Tanaka",
+    "timestamp": 1772553371000,
+    "type": "Leave",
+    "time": 2471.0
+  }
+]

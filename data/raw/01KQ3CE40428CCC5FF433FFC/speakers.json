@@ -1,0 +1,207 @@
+[
+  {
+    "speakerName": "Tom Bradley",
+    "timestamp": 5.4,
+    "endTimeTs": 11.2
+  },
+  {
+    "speakerName": "Diana Reeves",
+    "timestamp": 12.2,
+    "endTimeTs": 14.3
+  },
+  {
+    "speakerName": "Megan Lawson",
+    "timestamp": 15.5,
+    "endTimeTs": 20.8
+  },
+  {
+    "speakerName": "Tom Bradley",
+    "timestamp": 22.1,
+    "endTimeTs": 32.4
+  },
+  {
+    "speakerName": "Diana Reeves",
+    "timestamp": 32.8,
+    "endTimeTs": 43.6
+  },
+  {
+    "speakerName": "Tom Bradley",
+    "timestamp": 44.6,
+    "endTimeTs": 54.9
+  },
+  {
+    "speakerName": "Megan Lawson",
+    "timestamp": 56.2,
+    "endTimeTs": 57.7
+  },
+  {
+    "speakerName": "Tom Bradley",
+    "timestamp": 58.8,
+    "endTimeTs": 80.5
+  },
+  {
+    "speakerName": "Megan Lawson",
+    "timestamp": 81.9,
+    "endTimeTs": 85.4
+  },
+  {
+    "speakerName": "Tom Bradley",
+    "timestamp": 86.7,
+    "endTimeTs": 97.9
+  },
+  {
+    "speakerName": "Diana Reeves",
+    "timestamp": 99.3,
+    "endTimeTs": 106.8
+  },
+  {
+    "speakerName": "Tom Bradley",
+    "timestamp": 107.9,
+    "endTimeTs": 119.0
+  },
+  {
+    "speakerName": "Diana Reeves",
+    "timestamp": 119.8,
+    "endTimeTs": 129.0
+  },
+  {
+    "speakerName": "Tom Bradley",
+    "timestamp": 130.3,
+    "endTimeTs": 155.1
+  },
+  {
+    "speakerName": "Diana Reeves",
+    "timestamp": 155.8,
+    "endTimeTs": 161.0
+  },
+  {
+    "speakerName": "Megan Lawson",
+    "timestamp": 162.2,
+    "endTimeTs": 178.2
+  },
+  {
+    "speakerName": "Diana Reeves",
+    "timestamp": 179.3,
+    "endTimeTs": 180.8
+  },
+  {
+    "speakerName": "Megan Lawson",
+    "timestamp": 181.8,
+    "endTimeTs": 189.7
+  },
+  {
+    "speakerName": "Diana Reeves",
+    "timestamp": 190.9,
+    "endTimeTs": 201.7
+  },
+  {
+    "speakerName": "Megan Lawson",
+    "timestamp": 202.2,
+    "endTimeTs": 207.9
+  },
+  {
+    "speakerName": "Tom Bradley",
+    "timestamp": 208.7,
+    "endTimeTs": 223.3
+  },
+  {
+    "speakerName": "Megan Lawson",
+    "timestamp": 224.8,
+    "endTimeTs": 228.6
+  },
+  {
+    "speakerName": "Tom Bradley",
+    "timestamp": 230.0,
+    "endTimeTs": 238.8
+  },
+  {
+    "speakerName": "Diana Reeves",
+    "timestamp": 239.8,
+    "endTimeTs": 244.7
+  },
+  {
+    "speakerName": "Tom Bradley",
+    "timestamp": 245.2,
+    "endTimeTs": 255.5
+  },
+  {
+    "speakerName": "Diana Reeves",
+    "timestamp": 256.2,
+    "endTimeTs": 271.2
+  },
+  {
+    "speakerName": "Tom Bradley",
+    "timestamp": 271.7,
+    "endTimeTs": 286.5
+  },
+  {
+    "speakerName": "Megan Lawson",
+    "timestamp": 287.0,
+    "endTimeTs": 301.1
+  },
+  {
+    "speakerName": "Diana Reeves",
+    "timestamp": 302.2,
+    "endTimeTs": 306.2
+  },
+  {
+    "speakerName": "Megan Lawson",
+    "timestamp": 306.7,
+    "endTimeTs": 319.4
+  },
+  {
+    "speakerName": "Tom Bradley",
+    "timestamp": 319.8,
+    "endTimeTs": 327.9
+  },
+  {
+    "speakerName": "Diana Reeves",
+    "timestamp": 329.0,
+    "endTimeTs": 340.4
+  },
+  {
+    "speakerName": "Tom Bradley",
+    "timestamp": 341.1,
+    "endTimeTs": 349.3
+  },
+  {
+    "speakerName": "Diana Reeves",
+    "timestamp": 350.1,
+    "endTimeTs": 364.0
+  },
+  {
+    "speakerName": "Megan Lawson",
+    "timestamp": 365.4,
+    "endTimeTs": 372.2
+  },
+  {
+    "speakerName": "Diana Reeves",
+    "timestamp": 373.7,
+    "endTimeTs": 383.3
+  },
+  {
+    "speakerName": "Tom Bradley",
+    "timestamp": 384.6,
+    "endTimeTs": 390.8
+  },
+  {
+    "speakerName": "Diana Reeves",
+    "timestamp": 392.2,
+    "endTimeTs": 401.9
+  },
+  {
+    "speakerName": "Tom Bradley",
+    "timestamp": 403.1,
+    "endTimeTs": 404.6
+  },
+  {
+    "speakerName": "Megan Lawson",
+    "timestamp": 405.4,
+    "endTimeTs": 406.9
+  },
+  {
+    "speakerName": "Diana Reeves",
+    "timestamp": 407.5,
+    "endTimeTs": 411.4
+  }
+]

@@ -1,0 +1,444 @@
+{
+  "data": [
+    {
+      "sentence": "Alright, I think we've got everyone on now \u2014 Natalie, Ajay, good to see you both, welcome to the Comply v2 kickoff!",
+      "speaker_name": "Aisha Johnson",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 3.9,
+      "endTime": 11.7,
+      "averageConfidence": 0.97,
+      "index": 0
+    },
+    {
+      "sentence": "Thanks Aisha, really excited to finally be here, it feels like we've been building up to this for a while.",
+      "speaker_name": "Natalie Simmons",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 12.5,
+      "endTime": 19.7,
+      "averageConfidence": 0.97,
+      "index": 1
+    },
+    {
+      "sentence": "Yeah, same here, we've been looking forward to getting started \u2014 Ajay especially, he's been, uh, chomping at the bit on the compliance side.",
+      "speaker_name": "Natalie Simmons",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 21.0,
+      "endTime": 29.5,
+      "averageConfidence": 0.94,
+      "index": 2
+    },
+    {
+      "sentence": "Ha, guilty as charged \u2014 our last audit cycle was, let's just say, not fun, so anything that makes that smoother is a win in my book.",
+      "speaker_name": "Ajay Mehta",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 30.2,
+      "endTime": 40.2,
+      "averageConfidence": 0.92,
+      "index": 3
+    },
+    {
+      "sentence": "We totally hear you on that, and honestly that's exactly what Comply v2 was built for, so I think you're going to be really happy \u2014 let me also just quickly introduce Kevin and Mike who are joining me today.",
+      "speaker_name": "Aisha Johnson",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 41.4,
+      "endTime": 55.5,
+      "averageConfidence": 0.94,
+      "index": 4
+    },
+    {
+      "sentence": "Hey everyone, Kevin O'Brien here, Solutions Architect \u2014 I'll be the one getting into the weeds with you on the technical deployment side, really glad to be on this call.",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "positive",
+      "speaker_id": 3,
+      "time": 56.2,
+      "endTime": 66.5,
+      "averageConfidence": 0.92,
+      "index": 5
+    },
+    {
+      "sentence": "And I'm Mike Romano, Staff Engineer, so I'm sort of Kevin's partner in crime on the implementation \u2014 if anything breaks I'm the one you can blame.",
+      "speaker_name": "Mike Romano",
+      "sentimentType": "positive",
+      "speaker_id": 4,
+      "time": 67.8,
+      "endTime": 77.1,
+      "averageConfidence": 0.93,
+      "index": 6
+    },
+    {
+      "sentence": "Ha, we'll hold you to that Mike.",
+      "speaker_name": "Ajay Mehta",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 78.3,
+      "endTime": 81.1,
+      "averageConfidence": 0.94,
+      "index": 7
+    },
+    {
+      "sentence": "So before we dive in, I just want to set the agenda real quick \u2014 we're going to walk through the Comply v2 feature set, talk about your specific compliance framework needs, get into the deployment plan, and then leave time at the end for questions and next steps, does that work for you both?",
+      "speaker_name": "Aisha Johnson",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 82.4,
+      "endTime": 101.7,
+      "averageConfidence": 0.89,
+      "index": 8
+    },
+    {
+      "sentence": "That sounds perfect, yeah.",
+      "speaker_name": "Natalie Simmons",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 102.2,
+      "endTime": 103.9,
+      "averageConfidence": 0.89,
+      "index": 9
+    },
+    {
+      "sentence": "Great \u2014 so, big news, and I mean this is actually really good timing for you guys, Comply v2 went GA literally today, April 7th, so you are among the very first customers to be onboarding onto the new version.",
+      "speaker_name": "Aisha Johnson",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 104.5,
+      "endTime": 118.4,
+      "averageConfidence": 0.95,
+      "index": 10
+    },
+    {
+      "sentence": "Oh wow, we didn't realize we were that early in the queue \u2014 that's kind of exciting actually.",
+      "speaker_name": "Natalie Simmons",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 119.6,
+      "endTime": 125.6,
+      "averageConfidence": 0.93,
+      "index": 11
+    },
+    {
+      "sentence": "Yeah it's genuinely exciting, and the headline feature that I know is going to matter a lot for Clearwater specifically is the on-demand reporting \u2014 so rather than waiting for scheduled report runs, your compliance team can pull a SOC 2 or HIPAA report literally whenever they need it.",
+      "speaker_name": "Aisha Johnson",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 126.8,
+      "endTime": 144.2,
+      "averageConfidence": 0.89,
+      "index": 12
+    },
+    {
+      "sentence": "Okay that \u2014 that right there is huge, because our last HIPAA audit we were scrambling to pull together evidence at like eleven at night, so on-demand is just... yeah, that's the thing.",
+      "speaker_name": "Ajay Mehta",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 145.7,
+      "endTime": 157.7,
+      "averageConfidence": 0.96,
+      "index": 13
+    },
+    {
+      "sentence": "Yeah and the other thing I want to highlight is the multi-framework support, so Comply v2 covers SOC 2, PCI DSS, HIPAA, and ISO 27001 all in one place \u2014 Kevin, do you want to speak a bit to how that's structured under the hood?",
+      "speaker_name": "Aisha Johnson",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 158.5,
+      "endTime": 174.7,
+      "averageConfidence": 0.97,
+      "index": 14
+    },
+    {
+      "sentence": "Sure, yeah \u2014 so the way it works is that the platform uses a unified control mapping layer, which means a single data point or evidence artifact can satisfy requirements across multiple frameworks simultaneously, so if you're doing HIPAA and SOC 2, you're not duplicating work, the system handles the cross-mapping automatically.",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "positive",
+      "speaker_id": 3,
+      "time": 175.1,
+      "endTime": 193.1,
+      "averageConfidence": 0.97,
+      "index": 15
+    },
+    {
+      "sentence": "That is \u2014 okay that is actually really smart because that was one of my biggest pain points, I was maintaining like three separate spreadsheets for three different frameworks and it was just, ugh, it was a mess.",
+      "speaker_name": "Ajay Mehta",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 193.5,
+      "endTime": 207.0,
+      "averageConfidence": 0.97,
+      "index": 16
+    },
+    {
+      "sentence": "Yeah the spreadsheet era is officially over for you, which is, I think, cause for celebration.",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "positive",
+      "speaker_id": 3,
+      "time": 208.0,
+      "endTime": 213.8,
+      "averageConfidence": 0.88,
+      "index": 17
+    },
+    {
+      "sentence": "So Natalie, I know from our earlier conversations that HIPAA is obviously the primary framework given that you're in healthcare, but can you give us a sense of what else is on your radar \u2014 I believe PCI came up at some point?",
+      "speaker_name": "Aisha Johnson",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 214.6,
+      "endTime": 229.6,
+      "averageConfidence": 0.94,
+      "index": 18
+    },
+    {
+      "sentence": "Yeah, so HIPAA is definitely the big one, that's non-negotiable for us \u2014 but we also process some payment data through our patient portal so PCI DSS is relevant, and then our board has been nudging us toward ISO 27001 as more of a longer-term goal, maybe end of year.",
+      "speaker_name": "Natalie Simmons",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 230.4,
+      "endTime": 248.4,
+      "averageConfidence": 0.91,
+      "index": 19
+    },
+    {
+      "sentence": "That's actually a really common progression we see in healthcare organizations, and the good news is you can start with HIPAA and PCI in Comply v2 and then ISO 27001 just kind of layers on without a big lift \u2014 Mike, can you talk a little bit about the deployment sequence we'd recommend here?",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "positive",
+      "speaker_id": 3,
+      "time": 249.5,
+      "endTime": 268.6,
+      "averageConfidence": 0.94,
+      "index": 20
+    },
+    {
+      "sentence": "Yeah absolutely \u2014 so for Clearwater, what I'd suggest is we start with the data connector setup first, getting your cloud environment piped into the platform, and then we layer in the HIPAA framework configuration, run a baseline report, and that gives you an immediate lay of the land before we touch anything else.",
+      "speaker_name": "Mike Romano",
+      "sentimentType": "neutral",
+      "speaker_id": 4,
+      "time": 269.9,
+      "endTime": 289.1,
+      "averageConfidence": 0.94,
+      "index": 21
+    },
+    {
+      "sentence": "How long does that initial connector setup typically take, like are we talking hours or days?",
+      "speaker_name": "Natalie Simmons",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 290.5,
+      "endTime": 296.0,
+      "averageConfidence": 0.91,
+      "index": 22
+    },
+    {
+      "sentence": "For a cloud environment your size, honestly, the connector piece is usually a few hours if everything goes smoothly \u2014 I'd say plan for a full day just to give yourself buffer, and then the HIPAA baseline report can actually run that same day once data is flowing.",
+      "speaker_name": "Mike Romano",
+      "sentimentType": "positive",
+      "speaker_id": 4,
+      "time": 297.1,
+      "endTime": 313.7,
+      "averageConfidence": 0.92,
+      "index": 23
+    },
+    {
+      "sentence": "Oh that's faster than I expected, honestly I was bracing for like a week of setup.",
+      "speaker_name": "Natalie Simmons",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 314.1,
+      "endTime": 319.9,
+      "averageConfidence": 0.88,
+      "index": 24
+    },
+    {
+      "sentence": "Yeah v2 specifically made a big push to reduce that time to first value \u2014 the old version had a lot more manual configuration steps and we heard that feedback pretty loudly from customers, so that was a big focus area.",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "positive",
+      "speaker_id": 3,
+      "time": 320.8,
+      "endTime": 335.3,
+      "averageConfidence": 0.9,
+      "index": 25
+    },
+    {
+      "sentence": "Ajay, while we're on the topic, what does your typical audit cycle look like \u2014 like how far in advance do auditors usually come knocking?",
+      "speaker_name": "Aisha Johnson",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 336.3,
+      "endTime": 345.3,
+      "averageConfidence": 0.9,
+      "index": 26
+    },
+    {
+      "sentence": "So for HIPAA we get maybe, um, thirty days notice if we're lucky, sometimes it's less, and then SOC 2 we're actually pursuing type two for the first time this year so that's more of an ongoing thing over like a six month observation period.",
+      "speaker_name": "Ajay Mehta",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 346.6,
+      "endTime": 362.4,
+      "averageConfidence": 0.92,
+      "index": 27
+    },
+    {
+      "sentence": "Okay so the SOC 2 type two use case is actually perfect for Comply v2 because the continuous monitoring integration means evidence is being collected automatically throughout that observation window, so you're not trying to reconstruct what happened six months ago.",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "positive",
+      "speaker_id": 3,
+      "time": 363.5,
+      "endTime": 378.0,
+      "averageConfidence": 0.89,
+      "index": 28
+    },
+    {
+      "sentence": "That alone might have saved me from that eleven PM scramble situation \u2014 like if I'd had this six months ago...",
+      "speaker_name": "Ajay Mehta",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 378.4,
+      "endTime": 386.2,
+      "averageConfidence": 0.9,
+      "index": 29
+    },
+    {
+      "sentence": "Ha, well you have it now \u2014 and honestly given your SOC 2 timeline, the sooner we get you live the better, because that observation period clock is sort of always ticking.",
+      "speaker_name": "Aisha Johnson",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 387.5,
+      "endTime": 399.0,
+      "averageConfidence": 0.93,
+      "index": 30
+    },
+    {
+      "sentence": "Yeah that's a really good point, I want to make sure we're not losing any time \u2014 Natalie, should we try to target getting the connectors up this week?",
+      "speaker_name": "Ajay Mehta",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 399.3,
+      "endTime": 409.6,
+      "averageConfidence": 0.92,
+      "index": 31
+    },
+    {
+      "sentence": "I think so, yeah \u2014 Mike, what do you need from us to get that started, like what does the prep checklist look like on our end?",
+      "speaker_name": "Natalie Simmons",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 410.9,
+      "endTime": 420.5,
+      "averageConfidence": 0.94,
+      "index": 32
+    },
+    {
+      "sentence": "So the main things are going to be CloudPrime or Azure \u2014 which cloud provider are you on?",
+      "speaker_name": "Mike Romano",
+      "sentimentType": "neutral",
+      "speaker_id": 4,
+      "time": 421.5,
+      "endTime": 428.1,
+      "averageConfidence": 0.95,
+      "index": 33
+    },
+    {
+      "sentence": "We're primarily CloudPrime, we have a small Azure footprint but like eighty percent is CloudPrime.",
+      "speaker_name": "Natalie Simmons",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 428.5,
+      "endTime": 434.3,
+      "averageConfidence": 0.9,
+      "index": 34
+    },
+    {
+      "sentence": "Perfect, CloudPrime is very well-trodden ground for us \u2014 so you'll need to create an IAM role with read permissions that we can assume, I'll send you a CloudFormation template that does that in about five minutes, and then just make sure your CloudTrail logging is enabled across all regions.",
+      "speaker_name": "Mike Romano",
+      "sentimentType": "positive",
+      "speaker_id": 4,
+      "time": 435.6,
+      "endTime": 453.3,
+      "averageConfidence": 0.93,
+      "index": 35
+    },
+    {
+      "sentence": "CloudTrail should already be on, we turned that on a while back \u2014 I'll double check the multi-region piece but I'm pretty confident we're good there.",
+      "speaker_name": "Natalie Simmons",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 453.8,
+      "endTime": 463.3,
+      "averageConfidence": 0.89,
+      "index": 36
+    },
+    {
+      "sentence": "Great, that's going to make things really smooth \u2014 and once I send that template over, you or your team can run it in maybe ten minutes and then just send me the role ARN and we're off to the races.",
+      "speaker_name": "Mike Romano",
+      "sentimentType": "positive",
+      "speaker_id": 4,
+      "time": 463.7,
+      "endTime": 477.9,
+      "averageConfidence": 0.93,
+      "index": 37
+    },
+    {
+      "sentence": "This is, honestly, way more straightforward than I anticipated \u2014 I had kind of mentally prepared for this to be a whole thing.",
+      "speaker_name": "Natalie Simmons",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 478.4,
+      "endTime": 486.9,
+      "averageConfidence": 0.97,
+      "index": 38
+    },
+    {
+      "sentence": "We appreciate you saying that \u2014 a lot of work went into making this less painful and it's nice to hear it's landing that way.",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "positive",
+      "speaker_id": 3,
+      "time": 487.2,
+      "endTime": 496.1,
+      "averageConfidence": 0.93,
+      "index": 39
+    },
+    {
+      "sentence": "So let's talk about next steps and timeline \u2014 what I'm thinking is Mike sends over that CloudFormation template today, we target connector setup early this week, baseline HIPAA report by maybe Wednesday or Thursday, and then we reconvene late this week to review the first report together \u2014 does that sound reasonable?",
+      "speaker_name": "Aisha Johnson",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 496.8,
+      "endTime": 515.4,
+      "averageConfidence": 0.88,
+      "index": 40
+    },
+    {
+      "sentence": "That sounds great to me \u2014 Ajay, does Thursday work for you for that review call?",
+      "speaker_name": "Natalie Simmons",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 516.8,
+      "endTime": 522.4,
+      "averageConfidence": 0.93,
+      "index": 41
+    },
+    {
+      "sentence": "Thursday works, yeah \u2014 and honestly I'm just really glad we're moving this fast, this has been a long time coming for our compliance program and I feel really good about where this is headed.",
+      "speaker_name": "Ajay Mehta",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 523.8,
+      "endTime": 536.4,
+      "averageConfidence": 0.92,
+      "index": 42
+    },
+    {
+      "sentence": "That's exactly what we want to hear \u2014 alright, I'll get a Thursday invite out to everyone, and in the meantime don't hesitate to reach out if anything comes up, we are very much in this together.",
+      "speaker_name": "Aisha Johnson",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 537.5,
+      "endTime": 550.6,
+      "averageConfidence": 0.93,
+      "index": 43
+    }
+  ]
+}

@@ -1,0 +1,187 @@
+[
+  {
+    "speakerName": "Mike Romano",
+    "timestamp": 4.9,
+    "endTimeTs": 11.6
+  },
+  {
+    "speakerName": "Ananya Sharma",
+    "timestamp": 13.1,
+    "endTimeTs": 14.6
+  },
+  {
+    "speakerName": "Ravi Gupta",
+    "timestamp": 15.1,
+    "endTimeTs": 16.6
+  },
+  {
+    "speakerName": "Sofia Petrov",
+    "timestamp": 18.0,
+    "endTimeTs": 22.3
+  },
+  {
+    "speakerName": "Mike Romano",
+    "timestamp": 22.7,
+    "endTimeTs": 39.3
+  },
+  {
+    "speakerName": "Ananya Sharma",
+    "timestamp": 40.4,
+    "endTimeTs": 43.3
+  },
+  {
+    "speakerName": "Mike Romano",
+    "timestamp": 44.5,
+    "endTimeTs": 52.3
+  },
+  {
+    "speakerName": "Sofia Petrov",
+    "timestamp": 53.3,
+    "endTimeTs": 59.5
+  },
+  {
+    "speakerName": "Ananya Sharma",
+    "timestamp": 60.4,
+    "endTimeTs": 73.0
+  },
+  {
+    "speakerName": "Mike Romano",
+    "timestamp": 73.5,
+    "endTimeTs": 84.9
+  },
+  {
+    "speakerName": "Ananya Sharma",
+    "timestamp": 85.9,
+    "endTimeTs": 101.6
+  },
+  {
+    "speakerName": "Ravi Gupta",
+    "timestamp": 102.7,
+    "endTimeTs": 118.0
+  },
+  {
+    "speakerName": "Mike Romano",
+    "timestamp": 118.5,
+    "endTimeTs": 125.3
+  },
+  {
+    "speakerName": "Ravi Gupta",
+    "timestamp": 126.6,
+    "endTimeTs": 136.1
+  },
+  {
+    "speakerName": "Mike Romano",
+    "timestamp": 137.2,
+    "endTimeTs": 151.6
+  },
+  {
+    "speakerName": "Sofia Petrov",
+    "timestamp": 152.3,
+    "endTimeTs": 172.4
+  },
+  {
+    "speakerName": "Ananya Sharma",
+    "timestamp": 173.6,
+    "endTimeTs": 177.7
+  },
+  {
+    "speakerName": "Sofia Petrov",
+    "timestamp": 179.1,
+    "endTimeTs": 199.6
+  },
+  {
+    "speakerName": "Ananya Sharma",
+    "timestamp": 201.1,
+    "endTimeTs": 205.6
+  },
+  {
+    "speakerName": "Sofia Petrov",
+    "timestamp": 205.9,
+    "endTimeTs": 221.3
+  },
+  {
+    "speakerName": "Ravi Gupta",
+    "timestamp": 222.4,
+    "endTimeTs": 240.8
+  },
+  {
+    "speakerName": "Mike Romano",
+    "timestamp": 242.1,
+    "endTimeTs": 258.1
+  },
+  {
+    "speakerName": "Ananya Sharma",
+    "timestamp": 258.6,
+    "endTimeTs": 272.4
+  },
+  {
+    "speakerName": "Mike Romano",
+    "timestamp": 273.5,
+    "endTimeTs": 284.3
+  },
+  {
+    "speakerName": "Ananya Sharma",
+    "timestamp": 285.6,
+    "endTimeTs": 301.6
+  },
+  {
+    "speakerName": "Mike Romano",
+    "timestamp": 302.6,
+    "endTimeTs": 310.0
+  },
+  {
+    "speakerName": "Ananya Sharma",
+    "timestamp": 311.3,
+    "endTimeTs": 324.4
+  },
+  {
+    "speakerName": "Mike Romano",
+    "timestamp": 324.8,
+    "endTimeTs": 335.1
+  },
+  {
+    "speakerName": "Ravi Gupta",
+    "timestamp": 335.5,
+    "endTimeTs": 350.8
+  },
+  {
+    "speakerName": "Mike Romano",
+    "timestamp": 351.1,
+    "endTimeTs": 356.7
+  },
+  {
+    "speakerName": "Sofia Petrov",
+    "timestamp": 357.8,
+    "endTimeTs": 359.3
+  },
+  {
+    "speakerName": "Mike Romano",
+    "timestamp": 360.7,
+    "endTimeTs": 362.7
+  },
+  {
+    "speakerName": "Ananya Sharma",
+    "timestamp": 364.2,
+    "endTimeTs": 374.6
+  },
+  {
+    "speakerName": "Mike Romano",
+    "timestamp": 375.8,
+    "endTimeTs": 387.0
+  },
+  {
+    "speakerName": "Sofia Petrov",
+    "timestamp": 387.7,
+    "endTimeTs": 389.2
+  },
+  {
+    "speakerName": "Ravi Gupta",
+    "timestamp": 389.9,
+    "endTimeTs": 391.4
+  },
+  {
+    "speakerName": "Ananya Sharma",
+    "timestamp": 392.0,
+    "endTimeTs": 393.5
+  }
+]

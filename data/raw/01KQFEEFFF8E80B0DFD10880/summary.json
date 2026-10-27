@@ -1,0 +1,46 @@
+{
+  "summary": "The team held a final walk-through of their SOC 2 Type II audit materials before submission to auditors. Key sections reviewed included availability controls, change management, logical access, and incident response, with particular attention given to the March Detect outage and how it is framed transparently in the documentation. The Comply v2 platform was praised for dramatically reducing the manual effort of evidence packaging. The submission is planned for Thursday, with an audit window scheduled for the week of April 27th, which is critical for five commercial accounts dependent on the Type II certification.",
+  "actionItems": [
+    "Nina Kowalski: Complete final QA sign-off on the evidence package by Wednesday",
+    "Ravi Gupta: Do a final pass on the evidence package Thursday morning and submit to auditors Thursday afternoon; send Nina the specific page reference for the availability exception note",
+    "Tyler Washington: Remain on standby for any last-minute evidence questions during final review",
+    "Diana Reeves: Hold communications with the auditor contact and update the five dependent enterprise accounts that the submission is on track"
+  ],
+  "topics": [
+    "soc 2 type ii audit",
+    "compliance",
+    "incident response",
+    "audit evidence packaging",
+    "product dogfooding",
+    "customer renewals"
+  ],
+  "overallSentiment": "very-positive",
+  "sentimentScore": 4.7,
+  "keyMoments": [
+    {
+      "time": 45.0,
+      "text": "Nina highlights that Comply v2's on-demand reporting is night and day compared to manual evidence collection, with Tyler noting it reduced a two-week process to a single click.",
+      "type": "praise",
+      "speaker": "Nina Kowalski"
+    },
+    {
+      "time": 210.0,
+      "text": "Ravi and Tyler explain how the March Detect outage and six-hour monitoring visibility loss are being framed transparently in the incident response section, with full remediation documentation included.",
+      "type": "concern",
+      "speaker": "Ravi Gupta"
+    },
+    {
+      "time": 480.0,
+      "text": "Nina flags that the uptime SLA documentation references 99.9% availability but Detect fell below that during the March window, requesting it be clearly annotated rather than buried.",
+      "type": "technical_issue",
+      "speaker": "Nina Kowalski"
+    },
+    {
+      "time": 620.0,
+      "text": "Diana confirms three enterprise prospects and two existing customers have SOC 2 Type II as a procurement or renewal requirement, making the end-of-May report deadline commercially critical.",
+      "type": "action_item",
+      "speaker": "Diana Reeves"
+    }
+  ],
+  "meetingId": "01KQFEEFFF8E80B0DFD10880"
+}

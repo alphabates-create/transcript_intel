@@ -1,0 +1,414 @@
+{
+  "data": [
+    {
+      "sentence": "Alright, I think we've got everyone \u2014 let me just pull up the board real quick.",
+      "speaker_name": "Sofia Petrov",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 6.1,
+      "endTime": 11.9,
+      "averageConfidence": 0.95,
+      "index": 0
+    },
+    {
+      "sentence": "Yeah, I'm here. Sorry I was a couple minutes late, my previous meeting ran over.",
+      "speaker_name": "Tyler Washington",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 12.7,
+      "endTime": 18.2,
+      "averageConfidence": 0.95,
+      "index": 1
+    },
+    {
+      "sentence": "No worries, we were just getting started. Ravi, you on?",
+      "speaker_name": "Sofia Petrov",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 18.9,
+      "endTime": 22.9,
+      "averageConfidence": 0.93,
+      "index": 2
+    },
+    {
+      "sentence": "Yep, I'm here. Can everyone hear me okay?",
+      "speaker_name": "Ravi Gupta",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 23.6,
+      "endTime": 26.4,
+      "averageConfidence": 0.89,
+      "index": 3
+    },
+    {
+      "sentence": "Loud and clear. Okay so, uh, let's just do a quick run through of what we're carrying over from last sprint and then figure out what we're committing to for this one. Nina, do you have the QA status on the event filtering tickets?",
+      "speaker_name": "Sofia Petrov",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 27.8,
+      "endTime": 43.3,
+      "averageConfidence": 0.89,
+      "index": 4
+    },
+    {
+      "sentence": "Yeah so, DETECT-214 is done, that's fully verified. DETECT-219 is still in progress \u2014 Tyler's fix came through but I found two edge cases that need to be addressed before I can close it out.",
+      "speaker_name": "Nina Kowalski",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 43.8,
+      "endTime": 56.0,
+      "averageConfidence": 0.95,
+      "index": 5
+    },
+    {
+      "sentence": "Oh, the \u2014 is that the one with the regex matching issue on the custom rule engine?",
+      "speaker_name": "Tyler Washington",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 57.3,
+      "endTime": 63.8,
+      "averageConfidence": 0.93,
+      "index": 6
+    },
+    {
+      "sentence": "Yeah exactly. So when you pass in a rule with a wildcard at the start of the pattern, it's not matching correctly against certain log formats. I can send you the repro steps after this.",
+      "speaker_name": "Nina Kowalski",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 65.2,
+      "endTime": 77.5,
+      "averageConfidence": 0.96,
+      "index": 7
+    },
+    {
+      "sentence": "Yeah please do, I thought I had that covered but... apparently not. I'll take a look today.",
+      "speaker_name": "Tyler Washington",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 78.0,
+      "endTime": 83.9,
+      "averageConfidence": 0.94,
+      "index": 8
+    },
+    {
+      "sentence": "How long do you think that fix will take, Tyler? Because I want to factor that into what we're pulling into this sprint.",
+      "speaker_name": "Sofia Petrov",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 85.1,
+      "endTime": 93.4,
+      "averageConfidence": 0.94,
+      "index": 9
+    },
+    {
+      "sentence": "Uh, honestly if it's just the wildcard handling, maybe a couple hours? But I don't want to commit to that without actually seeing Nina's repro first.",
+      "speaker_name": "Tyler Washington",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 94.5,
+      "endTime": 103.9,
+      "averageConfidence": 0.93,
+      "index": 10
+    },
+    {
+      "sentence": "Fair enough. Let's call it a two-point carryover for now and adjust if needed. Ananya, what's the status on the ingestion pipeline work? I know you were heads-down on that last week.",
+      "speaker_name": "Sofia Petrov",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 104.8,
+      "endTime": 115.8,
+      "averageConfidence": 0.95,
+      "index": 11
+    },
+    {
+      "sentence": "So, uh, the core refactor is done \u2014 I finished that Thursday. But I want to flag something, and I think this is actually worth a conversation for sprint planning. The current architecture has a single ingestion node that everything funnels through, and I'm a little uncomfortable with that given the load we're projecting for Q2.",
+      "speaker_name": "Ananya Sharma",
+      "sentimentType": "neutral",
+      "speaker_id": 4,
+      "time": 116.6,
+      "endTime": 136.2,
+      "averageConfidence": 0.89,
+      "index": 12
+    },
+    {
+      "sentence": "Yeah I've had the same thought honestly. What are you thinking, like introducing redundancy at that layer?",
+      "speaker_name": "Ravi Gupta",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 137.6,
+      "endTime": 143.9,
+      "averageConfidence": 0.88,
+      "index": 13
+    },
+    {
+      "sentence": "Right, or at minimum some kind of failover mechanism. If that node goes down, we basically have a blind spot in event processing. That's not great.",
+      "speaker_name": "Ananya Sharma",
+      "sentimentType": "neutral",
+      "speaker_id": 4,
+      "time": 144.7,
+      "endTime": 154.2,
+      "averageConfidence": 0.94,
+      "index": 14
+    },
+    {
+      "sentence": "I mean, agreed in principle, but is that realistically something we can scope into this sprint? That feels like a pretty significant chunk of work.",
+      "speaker_name": "Sofia Petrov",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 155.4,
+      "endTime": 164.4,
+      "averageConfidence": 0.93,
+      "index": 15
+    },
+    {
+      "sentence": "Probably not a full implementation, no. But maybe we scope it as a design spike this sprint and carry the build work into next sprint? At least we'd have the architecture figured out.",
+      "speaker_name": "Ananya Sharma",
+      "sentimentType": "neutral",
+      "speaker_id": 4,
+      "time": 164.8,
+      "endTime": 176.4,
+      "averageConfidence": 0.9,
+      "index": 16
+    },
+    {
+      "sentence": "That makes sense to me. Ravi, from an infra standpoint what would redundant nodes actually look like? Like are we talking a lot of new infrastructure or is it relatively contained?",
+      "speaker_name": "Sofia Petrov",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 177.2,
+      "endTime": 187.7,
+      "averageConfidence": 0.93,
+      "index": 17
+    },
+    {
+      "sentence": "So it depends on how we want to handle state. If the nodes need to share state, then it gets complicated fast \u2014 we'd need some kind of coordination layer. If they're stateless and we just route around failures, it's simpler. I'd want to sit down with Ananya and look at what the node is actually doing before I give a real estimate.",
+      "speaker_name": "Ravi Gupta",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 188.3,
+      "endTime": 210.5,
+      "averageConfidence": 0.93,
+      "index": 18
+    },
+    {
+      "sentence": "Okay, let's do this \u2014 Ananya and Ravi, can you two block some time this week, maybe Wednesday, to look at that together and come back with a rough scope? We don't need to solve it today.",
+      "speaker_name": "Sofia Petrov",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 210.9,
+      "endTime": 223.8,
+      "averageConfidence": 0.93,
+      "index": 19
+    },
+    {
+      "sentence": "Works for me.",
+      "speaker_name": "Ravi Gupta",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 224.2,
+      "endTime": 225.7,
+      "averageConfidence": 0.94,
+      "index": 20
+    },
+    {
+      "sentence": "Yeah, I'm free Wednesday afternoon.",
+      "speaker_name": "Ananya Sharma",
+      "sentimentType": "neutral",
+      "speaker_id": 4,
+      "time": 226.7,
+      "endTime": 228.9,
+      "averageConfidence": 0.93,
+      "index": 21
+    },
+    {
+      "sentence": "Great. Okay so for this sprint \u2014 carryover on 219, the ingestion refactor from Ananya landing and going through QA, the design spike on redundancy, and then what else were we planning to pull in? I had a few new tickets flagged.",
+      "speaker_name": "Sofia Petrov",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 229.3,
+      "endTime": 244.3,
+      "averageConfidence": 0.93,
+      "index": 22
+    },
+    {
+      "sentence": "DETECT-231 is the alert deduplication improvement. That one's been sitting in the backlog for a while and product has been asking about it.",
+      "speaker_name": "Tyler Washington",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 245.1,
+      "endTime": 253.0,
+      "averageConfidence": 0.92,
+      "index": 23
+    },
+    {
+      "sentence": "Right, yeah. How are we estimating that?",
+      "speaker_name": "Sofia Petrov",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 254.4,
+      "endTime": 257.1,
+      "averageConfidence": 0.92,
+      "index": 24
+    },
+    {
+      "sentence": "I put it at five points. It's not super complex but there's a fair amount of testing surface \u2014 like we need to make sure we're not accidentally suppressing legit alerts while we're deduplicating. Nina, you'd probably need to write a decent set of test cases for that.",
+      "speaker_name": "Tyler Washington",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 257.7,
+      "endTime": 274.7,
+      "averageConfidence": 0.89,
+      "index": 25
+    },
+    {
+      "sentence": "Yeah, that one's going to need a solid test matrix. I'd want to cover at least twenty or so distinct scenarios. Five points sounds right to me \u2014 maybe push it to eight if we're being conservative.",
+      "speaker_name": "Nina Kowalski",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 275.3,
+      "endTime": 288.0,
+      "averageConfidence": 0.93,
+      "index": 26
+    },
+    {
+      "sentence": "Let's say five for now and flag it if we're running into issues mid-sprint. I don't want to over-inflate points just out of caution if the engineering side is relatively clean.",
+      "speaker_name": "Sofia Petrov",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 288.3,
+      "endTime": 299.2,
+      "averageConfidence": 0.92,
+      "index": 27
+    },
+    {
+      "sentence": "Fine by me.",
+      "speaker_name": "Nina Kowalski",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 300.4,
+      "endTime": 301.9,
+      "averageConfidence": 0.92,
+      "index": 28
+    },
+    {
+      "sentence": "What about DETECT-240, the latency metrics dashboard? I know Ravi had some thoughts on that.",
+      "speaker_name": "Ananya Sharma",
+      "sentimentType": "neutral",
+      "speaker_id": 4,
+      "time": 302.4,
+      "endTime": 307.8,
+      "averageConfidence": 0.96,
+      "index": 29
+    },
+    {
+      "sentence": "Yeah so I actually think that one should wait. We're in the middle of some infra changes and I don't want to build a dashboard off metrics that might shift once we've stabilized the environment. I'd rather do it after we've landed those infra changes so we're actually measuring the right thing.",
+      "speaker_name": "Ravi Gupta",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 309.1,
+      "endTime": 327.7,
+      "averageConfidence": 0.9,
+      "index": 30
+    },
+    {
+      "sentence": "That's a reasonable point. Okay, we'll push 240 to next sprint. What's our total looking like then? Carryover 219 at two, ingestion refactor QA... Nina what are you estimating for that?",
+      "speaker_name": "Sofia Petrov",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 329.1,
+      "endTime": 340.2,
+      "averageConfidence": 0.95,
+      "index": 31
+    },
+    {
+      "sentence": "Probably three points for QA, assuming the code is clean. If Ananya's refactor introduces anything unexpected I might need more time but let's start at three.",
+      "speaker_name": "Nina Kowalski",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 340.6,
+      "endTime": 349.9,
+      "averageConfidence": 0.93,
+      "index": 32
+    },
+    {
+      "sentence": "Okay so two plus three plus the design spike \u2014 what are we calling that, three points? \u2014 and then 231 at five. That's thirteen, which is pretty comfortable. Do we want to pull in anything else or leave some buffer?",
+      "speaker_name": "Sofia Petrov",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 350.7,
+      "endTime": 365.2,
+      "averageConfidence": 0.95,
+      "index": 33
+    },
+    {
+      "sentence": "I'd vote for buffer honestly. Last sprint we overcommitted a little and it wasn't fun.",
+      "speaker_name": "Tyler Washington",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 365.9,
+      "endTime": 371.6,
+      "averageConfidence": 0.93,
+      "index": 34
+    },
+    {
+      "sentence": "Yeah I agree, let's not do that again. Thirteen is fine. If we're burning through it early, we can always pull something in.",
+      "speaker_name": "Sofia Petrov",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 373.0,
+      "endTime": 381.3,
+      "averageConfidence": 0.97,
+      "index": 35
+    },
+    {
+      "sentence": "Sounds good. Are we doing the usual check-in cadence \u2014 async updates in Slack, then syncing Thursday?",
+      "speaker_name": "Ananya Sharma",
+      "sentimentType": "neutral",
+      "speaker_id": 4,
+      "time": 382.3,
+      "endTime": 388.6,
+      "averageConfidence": 0.95,
+      "index": 36
+    },
+    {
+      "sentence": "Yeah, same as always. Daily async, Thursday sync at two. Any blockers come up before then, just ping the channel and we'll sort it out. Alright, I think that's everything \u2014 any other questions before we wrap?",
+      "speaker_name": "Sofia Petrov",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 389.4,
+      "endTime": 402.1,
+      "averageConfidence": 0.95,
+      "index": 37
+    },
+    {
+      "sentence": "Nothing from me.",
+      "speaker_name": "Ravi Gupta",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 403.4,
+      "endTime": 404.9,
+      "averageConfidence": 0.92,
+      "index": 38
+    },
+    {
+      "sentence": "Nope, good to go.",
+      "speaker_name": "Tyler Washington",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 405.2,
+      "endTime": 407.1,
+      "averageConfidence": 0.92,
+      "index": 39
+    },
+    {
+      "sentence": "Alright, good. Okay everyone, talk Thursday. Thanks.",
+      "speaker_name": "Sofia Petrov",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 408.1,
+      "endTime": 410.9,
+      "averageConfidence": 0.96,
+      "index": 40
+    }
+  ]
+}

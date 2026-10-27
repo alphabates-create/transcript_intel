@@ -1,0 +1,46 @@
+{
+  "summary": "Lisa Park and Rachel Torres from Aegis held a renewal check-in with Philip Lau from Keystone Health. Philip expressed strong satisfaction with Aegis Comply and Protect, citing approximately 40-50 hours saved per quarter on audit prep and solid backup recovery performance. The team discussed the upcoming Aegis Comply v2 launch featuring on-demand multi-framework compliance reporting, which Philip found genuinely exciting given his team's simultaneous HIPAA and SOC 2 Type II obligations. The call concluded positively with agreement to proceed on the core renewal at existing rates with a three-year lock, and to schedule a separate technical demo of the Aegis Detect module with Philip's CISO before making an add-on decision.",
+  "actionItems": [
+    "Lisa Park: Send renewal paperwork for Protect and Comply at current rates by end of week",
+    "Lisa Park: Coordinate with solutions engineering team to schedule a Detect module technical demo within 2-3 weeks, including Philip's CISO",
+    "Philip Lau: Connect with Lisa about developing a case study on Aegis Comply time savings",
+    "Rachel Torres: Follow up on Detect bundle pricing proposal after the demo is completed"
+  ],
+  "topics": [
+    "renewal",
+    "compliance",
+    "product launch",
+    "upsell",
+    "technical incident",
+    "healthcare"
+  ],
+  "overallSentiment": "positive",
+  "sentimentScore": 4.4,
+  "keyMoments": [
+    {
+      "time": 95.0,
+      "text": "Philip shares that Aegis Comply has saved his team 40-50 hours per quarter on audit prep and his IT director wants to do a case study",
+      "type": "praise",
+      "speaker": "Philip Lau"
+    },
+    {
+      "time": 230.0,
+      "text": "Rachel announces Aegis Comply v2 launching in early April with on-demand multi-framework compliance reporting included at no extra cost for existing customers",
+      "type": "positive_pivot",
+      "speaker": "Rachel Torres"
+    },
+    {
+      "time": 430.0,
+      "text": "Lisa transparently discloses a recent Detect event ingestion pipeline failure that affected monitoring visibility for some customers",
+      "type": "technical_issue",
+      "speaker": "Lisa Park"
+    },
+    {
+      "time": 530.0,
+      "text": "Philip agrees to lock in core renewal and schedule a separate Detect demo with his CISO before deciding on the add-on bundle",
+      "type": "action_item",
+      "speaker": "Philip Lau"
+    }
+  ],
+  "meetingId": "01KQD4D9DEBA2D55AC2AA9F5"
+}

@@ -1,0 +1,464 @@
+{
+  "data": [
+    {
+      "sentence": "Alright, I think we've got everyone \u2014 Sofia, you just joined right?",
+      "speaker_name": "Alex Reyes",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 4.5,
+      "endTime": 8.4,
+      "averageConfidence": 0.89,
+      "index": 0
+    },
+    {
+      "sentence": "Yeah, sorry, I was just finishing up a Slack thread with the Detect team about the post-mortem follow-ups.",
+      "speaker_name": "Sofia Petrov",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 8.9,
+      "endTime": 15.2,
+      "averageConfidence": 0.97,
+      "index": 1
+    },
+    {
+      "sentence": "Oh no worries at all, we were just doing the usual five minutes of 'can everyone hear me' so you didn't miss anything.",
+      "speaker_name": "Jordan Whitfield",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 16.6,
+      "endTime": 25.1,
+      "averageConfidence": 0.94,
+      "index": 2
+    },
+    {
+      "sentence": "Ha, classic. Okay so, yeah, are we recording this? I want to make sure the folks who couldn't make it can catch up.",
+      "speaker_name": "Mike Romano",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 25.6,
+      "endTime": 34.1,
+      "averageConfidence": 0.96,
+      "index": 3
+    },
+    {
+      "sentence": "Yep, recording is on. Okay so \u2014 Q2 roadmap planning for Identity. I'm really excited about this one honestly, I think we have a genuinely strong quarter ahead of us.",
+      "speaker_name": "Alex Reyes",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 35.3,
+      "endTime": 46.3,
+      "averageConfidence": 0.89,
+      "index": 4
+    },
+    {
+      "sentence": "Same, and I feel like Q1 kind of lit the fire a little bit? Like, the Comply v2 launch last week showed what we can do when we're really coordinated, and I want that energy for Identity.",
+      "speaker_name": "Ananya Sharma",
+      "sentimentType": "positive",
+      "speaker_id": 4,
+      "time": 46.8,
+      "endTime": 60.0,
+      "averageConfidence": 0.96,
+      "index": 5
+    },
+    {
+      "sentence": "Totally agree with that. Comply v2 was a good moment for the org. And honestly, Identity has been in a bit of a holding pattern, so I think customers are ready to see some movement from us.",
+      "speaker_name": "Alex Reyes",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 60.9,
+      "endTime": 74.1,
+      "averageConfidence": 0.88,
+      "index": 6
+    },
+    {
+      "sentence": "Yeah, I've been looking at the support ticket volume and there's a pretty clear cluster around SSO configuration \u2014 specifically around just-in-time provisioning. Like, that's coming up again and again.",
+      "speaker_name": "Sofia Petrov",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 74.7,
+      "endTime": 85.3,
+      "averageConfidence": 0.94,
+      "index": 7
+    },
+    {
+      "sentence": "Right, and that's actually on my list as a Q2 priority. So let me just share my screen and walk through the draft roadmap so we're all looking at the same thing.",
+      "speaker_name": "Alex Reyes",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 85.7,
+      "endTime": 96.8,
+      "averageConfidence": 0.91,
+      "index": 8
+    },
+    {
+      "sentence": "Perfect.",
+      "speaker_name": "Mike Romano",
+      "sentimentType": "positive",
+      "speaker_id": 3,
+      "time": 97.6,
+      "endTime": 99.1,
+      "averageConfidence": 0.92,
+      "index": 9
+    },
+    {
+      "sentence": "Okay so \u2014 three big themes for Q2. First is JIT provisioning and SCIM improvements, second is adaptive MFA policies, and third is what I'm calling the Identity audit trail, which ties into the Comply integration story.",
+      "speaker_name": "Alex Reyes",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 99.9,
+      "endTime": 112.7,
+      "averageConfidence": 0.96,
+      "index": 10
+    },
+    {
+      "sentence": "Oh, I love that the audit trail piece connects to Comply. That feels like a really natural cross-module story and honestly something we should be talking about in sales materials too.",
+      "speaker_name": "Jordan Whitfield",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 113.0,
+      "endTime": 124.1,
+      "averageConfidence": 0.96,
+      "index": 11
+    },
+    {
+      "sentence": "A hundred percent, and that was actually a direct ask from \u2014 I think it was the Fortiguard Pro competitive deal we almost lost last quarter? The customer specifically said they wanted IAM events surfaced in their compliance reports.",
+      "speaker_name": "Alex Reyes",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 125.5,
+      "endTime": 139.4,
+      "averageConfidence": 0.9,
+      "index": 12
+    },
+    {
+      "sentence": "Yeah I remember that one. That was painful. But it's good that it's shaping actual roadmap items rather than just becoming a post-deal retrospective that nobody reads.",
+      "speaker_name": "Ananya Sharma",
+      "sentimentType": "positive",
+      "speaker_id": 4,
+      "time": 140.6,
+      "endTime": 150.0,
+      "averageConfidence": 0.97,
+      "index": 13
+    },
+    {
+      "sentence": "Exactly. Okay so let's go a level deeper on each one. Mike, you've been thinking about the SCIM work \u2014 do you want to take JIT provisioning?",
+      "speaker_name": "Alex Reyes",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 151.1,
+      "endTime": 160.4,
+      "averageConfidence": 0.95,
+      "index": 14
+    },
+    {
+      "sentence": "Sure, yeah. So the current state is that JIT provisioning exists but it's kind of half-baked \u2014 you can provision users on first login but there's no good story around attribute mapping or role assignment from the IdP side. So what I'm proposing is we build out a proper attribute mapping UI, add support for group-based role assignment, and fix the SCIM endpoint inconsistencies that have been causing sync failures.",
+      "speaker_name": "Mike Romano",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 161.5,
+      "endTime": 186.5,
+      "averageConfidence": 0.93,
+      "index": 15
+    },
+    {
+      "sentence": "The sync failures specifically \u2014 do we have a sense of scope there? Because I know Ananya you've been in the weeds on that.",
+      "speaker_name": "Sofia Petrov",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 186.9,
+      "endTime": 195.6,
+      "averageConfidence": 0.94,
+      "index": 16
+    },
+    {
+      "sentence": "Yeah so there are basically three distinct failure modes. One is race conditions when you have concurrent provisioning requests, two is the SCIM patch operation not handling partial updates correctly, and three is just some gnarly edge cases around deprovisioning when a user is in multiple groups. None of them are insurmountable but they're all kind of annoying in their own way.",
+      "speaker_name": "Ananya Sharma",
+      "sentimentType": "neutral",
+      "speaker_id": 4,
+      "time": 196.6,
+      "endTime": 218.6,
+      "averageConfidence": 0.95,
+      "index": 17
+    },
+    {
+      "sentence": "How long are we thinking for that piece \u2014 like, just a rough estimate at this point.",
+      "speaker_name": "Alex Reyes",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 219.8,
+      "endTime": 225.7,
+      "averageConfidence": 0.91,
+      "index": 18
+    },
+    {
+      "sentence": "If Mike and I take it together I'd say four to five weeks? We'd want to do it properly with good test coverage because the last thing we need is a reliability issue on top of everything the Detect outage already stirred up in terms of customer trust.",
+      "speaker_name": "Ananya Sharma",
+      "sentimentType": "neutral",
+      "speaker_id": 4,
+      "time": 226.1,
+      "endTime": 243.2,
+      "averageConfidence": 0.91,
+      "index": 19
+    },
+    {
+      "sentence": "Yeah that's a fair point. The March outage definitely put everyone a bit more on edge about stability. I think that's actually \u2014 it's a good forcing function for us to be really disciplined about testing this quarter.",
+      "speaker_name": "Mike Romano",
+      "sentimentType": "positive",
+      "speaker_id": 3,
+      "time": 244.2,
+      "endTime": 257.9,
+      "averageConfidence": 0.93,
+      "index": 20
+    },
+    {
+      "sentence": "Agreed. And I think the customers who were affected by Detect are going to be watching us closely, so any Identity work we ship needs to feel rock solid.",
+      "speaker_name": "Sofia Petrov",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 259.1,
+      "endTime": 269.2,
+      "averageConfidence": 0.92,
+      "index": 21
+    },
+    {
+      "sentence": "Okay so let's pencil in JIT and SCIM as weeks one through five roughly. Jordan, for the attribute mapping UI \u2014 have you had a chance to look at any of the existing flows? Because I know there's some legacy stuff in there.",
+      "speaker_name": "Alex Reyes",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 270.3,
+      "endTime": 285.5,
+      "averageConfidence": 0.97,
+      "index": 22
+    },
+    {
+      "sentence": "I have, yeah, and honestly it's \u2014 it's not terrible but it's also not great. The configuration screens feel like they were designed for an engineer rather than an IT admin, which is probably accurate. I've started sketching out a redesigned attribute mapping flow that uses a more visual drag-and-drop approach and gives you inline validation so you can see if your mappings are going to work before you save.",
+      "speaker_name": "Jordan Whitfield",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 286.2,
+      "endTime": 311.0,
+      "averageConfidence": 0.94,
+      "index": 23
+    },
+    {
+      "sentence": "Oh that inline validation piece is really smart, because right now you basically have to save, trigger a test login, see that it broke, go back and try to figure out what happened. It's a terrible loop.",
+      "speaker_name": "Ananya Sharma",
+      "sentimentType": "positive",
+      "speaker_id": 4,
+      "time": 311.5,
+      "endTime": 324.9,
+      "averageConfidence": 0.92,
+      "index": 24
+    },
+    {
+      "sentence": "Right, exactly! And it generates a disproportionate number of support tickets because people just \u2014 they don't know what they did wrong. So if we can surface that feedback in the moment it should meaningfully reduce support load too.",
+      "speaker_name": "Jordan Whitfield",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 326.0,
+      "endTime": 340.1,
+      "averageConfidence": 0.9,
+      "index": 25
+    },
+    {
+      "sentence": "Love it. Okay, adaptive MFA policies \u2014 Sofia, this is yours I think.",
+      "speaker_name": "Alex Reyes",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 340.5,
+      "endTime": 344.9,
+      "averageConfidence": 0.94,
+      "index": 26
+    },
+    {
+      "sentence": "Yeah so the vision here is moving away from static MFA rules \u2014 like, everyone in this role gets MFA \u2014 toward something that's context-aware. So you'd factor in things like login location, device posture, time of day, whether it's an unusual access pattern. And based on that you can either prompt for MFA, step up authentication, or in low-risk scenarios maybe let it through without friction.",
+      "speaker_name": "Sofia Petrov",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 346.3,
+      "endTime": 369.8,
+      "averageConfidence": 0.94,
+      "index": 27
+    },
+    {
+      "sentence": "That's a big feature though, right? Like, are we scoping the full adaptive engine or is this a first iteration?",
+      "speaker_name": "Mike Romano",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 370.7,
+      "endTime": 378.1,
+      "averageConfidence": 0.96,
+      "index": 28
+    },
+    {
+      "sentence": "Definitely first iteration. I'm thinking we start with location and device posture as the two signal inputs, build the policy engine to be extensible so we can add more signals later, and ship that as a beta in Q2. Full GA with more signals would be Q3.",
+      "speaker_name": "Sofia Petrov",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 378.9,
+      "endTime": 395.8,
+      "averageConfidence": 0.91,
+      "index": 29
+    },
+    {
+      "sentence": "That's a really sensible scope. And I think shipping it as beta is smart \u2014 we can get real customer feedback on the policy configuration experience before we commit to the full design.",
+      "speaker_name": "Jordan Whitfield",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 396.3,
+      "endTime": 408.0,
+      "averageConfidence": 0.96,
+      "index": 30
+    },
+    {
+      "sentence": "Yeah and honestly from a competitive standpoint this is overdue. SentinelShield has had something like this for a while and we keep getting asked about it in enterprise deals.",
+      "speaker_name": "Alex Reyes",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 409.2,
+      "endTime": 419.5,
+      "averageConfidence": 0.95,
+      "index": 31
+    },
+    {
+      "sentence": "Ugh, yeah. Every time SentinelShield comes up in a deal it's like \u2014 okay, what's their talking point this time. But I do think our implementation can be more tightly integrated with the rest of the platform, which is a real differentiator.",
+      "speaker_name": "Ananya Sharma",
+      "sentimentType": "positive",
+      "speaker_id": 4,
+      "time": 421.0,
+      "endTime": 436.1,
+      "averageConfidence": 0.95,
+      "index": 32
+    },
+    {
+      "sentence": "That's exactly the angle. Like, the fact that adaptive MFA signals can feed into the Identity audit trail and then surface in Comply reports \u2014 that's something SentinelShield can't do because they don't have the compliance layer.",
+      "speaker_name": "Alex Reyes",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 436.8,
+      "endTime": 450.2,
+      "averageConfidence": 0.93,
+      "index": 33
+    },
+    {
+      "sentence": "Okay so then the audit trail \u2014 this is the one I'm most excited about personally. Can we talk through what the data model looks like? Because I want to make sure we're designing this in a way that Comply can actually consume it cleanly.",
+      "speaker_name": "Mike Romano",
+      "sentimentType": "positive",
+      "speaker_id": 3,
+      "time": 451.7,
+      "endTime": 467.5,
+      "averageConfidence": 0.9,
+      "index": 34
+    },
+    {
+      "sentence": "Yeah absolutely. So the idea is that every significant Identity event \u2014 login, logout, MFA challenge, provisioning change, role assignment, policy update \u2014 gets written to a structured event log with a consistent schema. And then we expose that via an internal API that Comply can query when it's generating reports.",
+      "speaker_name": "Ananya Sharma",
+      "sentimentType": "neutral",
+      "speaker_id": 4,
+      "time": 468.5,
+      "endTime": 486.5,
+      "averageConfidence": 0.95,
+      "index": 35
+    },
+    {
+      "sentence": "And the Comply team is on board with this? Like, have you guys talked to them?",
+      "speaker_name": "Sofia Petrov",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 488.0,
+      "endTime": 493.8,
+      "averageConfidence": 0.92,
+      "index": 36
+    },
+    {
+      "sentence": "I had a quick chat with Priya on the Comply team last week, yeah. She was really enthusiastic about it. Apparently identity access events are one of the biggest gaps in what they can currently include in SOC 2 reports, so this would actually unlock a lot for their customers too.",
+      "speaker_name": "Alex Reyes",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 495.1,
+      "endTime": 512.9,
+      "averageConfidence": 0.91,
+      "index": 37
+    },
+    {
+      "sentence": "That's great to hear. I think cross-team stuff like this is where the platform story really shines and it's something we should be doing more of in general.",
+      "speaker_name": "Jordan Whitfield",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 514.2,
+      "endTime": 524.4,
+      "averageConfidence": 0.95,
+      "index": 38
+    },
+    {
+      "sentence": "Agreed. Okay so \u2014 I think we have a pretty solid shape for Q2. JIT and SCIM improvements, adaptive MFA beta, Identity audit trail. Mike, do you want to take a first pass at breaking these down into epics in Jira before our next planning session?",
+      "speaker_name": "Alex Reyes",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 525.3,
+      "endTime": 541.3,
+      "averageConfidence": 0.92,
+      "index": 39
+    },
+    {
+      "sentence": "Yeah I can do that by end of week. I'll also flag any dependencies I see on shared infrastructure so we can get those on the radar early.",
+      "speaker_name": "Mike Romano",
+      "sentimentType": "positive",
+      "speaker_id": 3,
+      "time": 542.0,
+      "endTime": 552.1,
+      "averageConfidence": 0.94,
+      "index": 40
+    },
+    {
+      "sentence": "Perfect. And Jordan \u2014 are you good to share the attribute mapping designs in Figma this week so the team can give feedback async?",
+      "speaker_name": "Alex Reyes",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 552.6,
+      "endTime": 561.0,
+      "averageConfidence": 0.96,
+      "index": 41
+    },
+    {
+      "sentence": "Absolutely, I'll post the link in the Identity channel tomorrow morning. I'm really happy with where it's heading and I want everyone's eyes on it before I get too attached to any particular direction.",
+      "speaker_name": "Jordan Whitfield",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 562.3,
+      "endTime": 574.1,
+      "averageConfidence": 0.95,
+      "index": 42
+    },
+    {
+      "sentence": "Ha, the designer's curse. Okay, I think that covers everything \u2014 honestly this was one of the more energizing planning sessions we've had in a while. I feel good about where we're headed.",
+      "speaker_name": "Alex Reyes",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 574.4,
+      "endTime": 586.0,
+      "averageConfidence": 0.89,
+      "index": 43
+    },
+    {
+      "sentence": "Yeah, same. Q2 is going to be a good one.",
+      "speaker_name": "Ananya Sharma",
+      "sentimentType": "positive",
+      "speaker_id": 4,
+      "time": 586.5,
+      "endTime": 589.7,
+      "averageConfidence": 0.9,
+      "index": 44
+    },
+    {
+      "sentence": "Alright, thanks everyone. Talk soon.",
+      "speaker_name": "Sofia Petrov",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 591.2,
+      "endTime": 592.9,
+      "averageConfidence": 0.93,
+      "index": 45
+    }
+  ]
+}

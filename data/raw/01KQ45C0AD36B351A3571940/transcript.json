@@ -1,0 +1,474 @@
+{
+  "data": [
+    {
+      "sentence": "Hey Dominic, good to connect again \u2014 how's everything going over at Silverline?",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 7.8,
+      "endTime": 12.4,
+      "averageConfidence": 0.92,
+      "index": 0
+    },
+    {
+      "sentence": "Kevin! Yeah, things are good, things are good \u2014 it's been a busy quarter honestly, we just wrapped up our spring inventory push so I'm finally coming up for air a little bit.",
+      "speaker_name": "Dominic Flores",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 13.6,
+      "endTime": 24.9,
+      "averageConfidence": 0.91,
+      "index": 1
+    },
+    {
+      "sentence": "Oh I can imagine, retail Q1 is no joke \u2014 glad you're through it.",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 26.3,
+      "endTime": 31.4,
+      "averageConfidence": 0.9,
+      "index": 2
+    },
+    {
+      "sentence": "Yeah exactly, and honestly the timing of this call is actually pretty good for us because we've got our PCI DSS renewal audit coming up in like six weeks so compliance is very top of mind right now.",
+      "speaker_name": "Dominic Flores",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 32.3,
+      "endTime": 45.6,
+      "averageConfidence": 0.91,
+      "index": 3
+    },
+    {
+      "sentence": "Perfect, yeah that's \u2014 honestly that's exactly why I wanted to get you on early access for the Comply v2 demo because what you're about to see is going to be really relevant to that audit cycle.",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 46.3,
+      "endTime": 59.4,
+      "averageConfidence": 0.91,
+      "index": 4
+    },
+    {
+      "sentence": "Yeah I was looking at the invite notes you sent over, the on-demand reporting piece caught my eye immediately \u2014 like can you just walk me through what that actually means in practice?",
+      "speaker_name": "Dominic Flores",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 60.3,
+      "endTime": 72.1,
+      "averageConfidence": 0.96,
+      "index": 5
+    },
+    {
+      "sentence": "Absolutely, so let me just pull up the environment here \u2014 bear with me one second \u2014 okay, so what you're looking at is the new Comply v2 dashboard and the big shift here is that previously, as you know, generating a compliance report was kind of a scheduled batch process, right, you'd request it and wait, sometimes hours.",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 72.6,
+      "endTime": 93.0,
+      "averageConfidence": 0.95,
+      "index": 6
+    },
+    {
+      "sentence": "Yeah that was \u2014 I'll be honest that was a pain point for us, like our auditors would ask for something and I'd have to say well come back tomorrow basically.",
+      "speaker_name": "Dominic Flores",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 94.3,
+      "endTime": 105.2,
+      "averageConfidence": 0.92,
+      "index": 7
+    },
+    {
+      "sentence": "Right, and that's gone in v2 \u2014 so what we've built is a fully on-demand reporting engine, so you click here, you select your framework \u2014 and this is the other big thing \u2014 we now support PCI DSS, SOC 2, HIPAA, and ISO 27001 all natively in the platform.",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 105.9,
+      "endTime": 123.5,
+      "averageConfidence": 0.91,
+      "index": 8
+    },
+    {
+      "sentence": "Oh wow, okay so all four in one place \u2014 that's actually huge because right now we're kind of stitching together like three different tools to cover those.",
+      "speaker_name": "Dominic Flores",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 124.6,
+      "endTime": 134.4,
+      "averageConfidence": 0.89,
+      "index": 9
+    },
+    {
+      "sentence": "Yeah that's a really common thing we're hearing, and that's kind of the whole value prop of pulling it into Aegis Comply \u2014 so let me show you the PCI DSS report generation since that's what's most relevant for you right now.",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 135.9,
+      "endTime": 151.0,
+      "averageConfidence": 0.89,
+      "index": 10
+    },
+    {
+      "sentence": "Please, yeah.",
+      "speaker_name": "Dominic Flores",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 152.5,
+      "endTime": 154.0,
+      "averageConfidence": 0.95,
+      "index": 11
+    },
+    {
+      "sentence": "So I'm clicking on PCI DSS here, you select your scope \u2014 in your case this would be your cardholder data environment, your point of sale systems, whatever you've got mapped \u2014 and then you just hit generate, and watch how fast this comes back.",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 154.5,
+      "endTime": 170.7,
+      "averageConfidence": 0.95,
+      "index": 12
+    },
+    {
+      "sentence": "Okay so that's... wow that was like eight seconds?",
+      "speaker_name": "Dominic Flores",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 171.9,
+      "endTime": 175.0,
+      "averageConfidence": 0.94,
+      "index": 13
+    },
+    {
+      "sentence": "Eight, nine seconds yeah \u2014 and what you get is a full report with your control status, evidence mapping, gap analysis, and an audit-ready export in PDF or CSV depending on what your auditors prefer.",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 176.2,
+      "endTime": 188.4,
+      "averageConfidence": 0.91,
+      "index": 14
+    },
+    {
+      "sentence": "Okay I need to send this to my audit team \u2014 like, genuinely, our QSA has been asking us for faster evidence turnaround and this would just... this changes the dynamic completely.",
+      "speaker_name": "Dominic Flores",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 188.8,
+      "endTime": 200.0,
+      "averageConfidence": 0.92,
+      "index": 15
+    },
+    {
+      "sentence": "Yeah that's exactly what we're hearing from customers in the retail space especially, because you've got real-time transaction environments and your compliance posture is constantly shifting.",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 200.6,
+      "endTime": 210.2,
+      "averageConfidence": 0.94,
+      "index": 16
+    },
+    {
+      "sentence": "Exactly, and it's not like we can just freeze everything and run a report \u2014 we've got stores running 24/7 so having something that can pull a point-in-time snapshot on demand is... yeah that's the thing.",
+      "speaker_name": "Dominic Flores",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 210.9,
+      "endTime": 223.2,
+      "averageConfidence": 0.89,
+      "index": 17
+    },
+    {
+      "sentence": "And that's exactly how the engine works \u2014 it's pulling a point-in-time snapshot of your control state, so the report you generate at 2pm is accurate to that moment, and you can generate another one at 4pm and compare them side by side.",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 224.3,
+      "endTime": 239.6,
+      "averageConfidence": 0.89,
+      "index": 18
+    },
+    {
+      "sentence": "Can you actually do that? Like is there a comparison view or is that something on the roadmap?",
+      "speaker_name": "Dominic Flores",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 241.0,
+      "endTime": 247.2,
+      "averageConfidence": 0.94,
+      "index": 19
+    },
+    {
+      "sentence": "Great question \u2014 so the comparison view is in the roadmap, that's targeted for the Q3 release, but what you can do right now is pull two reports and the timestamps are embedded in the metadata so you can diff them manually, which is not as slick but it works.",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 248.2,
+      "endTime": 265.5,
+      "averageConfidence": 0.89,
+      "index": 20
+    },
+    {
+      "sentence": "Okay fair enough, I can work with that \u2014 we've been doing way more manual stuff than that so that's fine.",
+      "speaker_name": "Dominic Flores",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 266.0,
+      "endTime": 273.6,
+      "averageConfidence": 0.94,
+      "index": 21
+    },
+    {
+      "sentence": "Yeah and I'll flag that to the product team that it's a requested feature, that kind of customer input actually does move things on the roadmap so I appreciate you calling it out.",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 274.3,
+      "endTime": 286.4,
+      "averageConfidence": 0.96,
+      "index": 22
+    },
+    {
+      "sentence": "Sure, yeah \u2014 so can we talk about the gap analysis piece a little more? Like when it flags a gap, how specific does it get?",
+      "speaker_name": "Dominic Flores",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 286.8,
+      "endTime": 296.3,
+      "averageConfidence": 0.92,
+      "index": 23
+    },
+    {
+      "sentence": "Yeah so let me click into one of these gap items here \u2014 so this is showing a control gap under PCI DSS requirement 10, which is around log monitoring, and it's giving you the specific control ID, the description of what's failing, and then it links directly to the relevant log source or resource in your environment.",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 296.8,
+      "endTime": 317.3,
+      "averageConfidence": 0.93,
+      "index": 24
+    },
+    {
+      "sentence": "Oh okay so it's not just telling me I have a problem, it's telling me where the problem is.",
+      "speaker_name": "Dominic Flores",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 318.2,
+      "endTime": 325.3,
+      "averageConfidence": 0.95,
+      "index": 25
+    },
+    {
+      "sentence": "Exactly, and then you've got a remediation guidance section right below it which gives you \u2014 it's not prescriptive step-by-step but it's directional, it'll say something like this control requires log retention of at least 12 months and your current configuration shows 90 days.",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 326.3,
+      "endTime": 342.0,
+      "averageConfidence": 0.96,
+      "index": 26
+    },
+    {
+      "sentence": "That's actually really useful because honestly one of the things my team struggles with is they know we have gaps but they don't always know how to articulate them to leadership \u2014 having something like this that just spells it out is gonna save us a lot of back and forth.",
+      "speaker_name": "Dominic Flores",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 343.4,
+      "endTime": 361.0,
+      "averageConfidence": 0.95,
+      "index": 27
+    },
+    {
+      "sentence": "Yeah that's \u2014 I hear that a lot, the translation layer between technical teams and leadership is real, and these reports are designed to be legible to both audiences.",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 362.0,
+      "endTime": 372.5,
+      "averageConfidence": 0.9,
+      "index": 28
+    },
+    {
+      "sentence": "How does this interact with Aegis Detect by the way? Like we're using both and I'm wondering if the threat events feed into the compliance posture at all.",
+      "speaker_name": "Dominic Flores",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 373.1,
+      "endTime": 383.2,
+      "averageConfidence": 0.88,
+      "index": 29
+    },
+    {
+      "sentence": "Yeah great question and the short answer is yes, they're integrated \u2014 so Detect is feeding event data into Comply and certain threat signals can trigger control status changes, like if Detect identifies an anomalous access pattern that violates a PCI control, that gets surfaced in the compliance report.",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 384.4,
+      "endTime": 401.4,
+      "averageConfidence": 0.89,
+      "index": 30
+    },
+    {
+      "sentence": "Oh that's interesting \u2014 and this is working well right now? Like the Detect integration is stable?",
+      "speaker_name": "Dominic Flores",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 402.3,
+      "endTime": 408.5,
+      "averageConfidence": 0.92,
+      "index": 31
+    },
+    {
+      "sentence": "Yeah, absolutely \u2014 we had some infrastructure work done on the Detect side earlier this month actually, some improvements to the processing pipeline, and that's all resolved and the integration with Comply is solid.",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 409.3,
+      "endTime": 421.2,
+      "averageConfidence": 0.9,
+      "index": 32
+    },
+    {
+      "sentence": "Okay good, yeah I think I may have seen something come through about some maintenance or something, I didn't dig too deep into it.",
+      "speaker_name": "Dominic Flores",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 422.0,
+      "endTime": 430.2,
+      "averageConfidence": 0.92,
+      "index": 33
+    },
+    {
+      "sentence": "Yeah there was some scheduled work, everything's good now \u2014 and actually what the team built into Detect as part of that is a more resilient architecture, so it's actually more robust now than it was before, which cascades nicely into the Comply integration.",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 430.7,
+      "endTime": 446.2,
+      "averageConfidence": 0.93,
+      "index": 34
+    },
+    {
+      "sentence": "Good to know \u2014 okay so coming back to Comply v2, when does this actually go GA? Because if we could have this in place before our audit I would love that.",
+      "speaker_name": "Dominic Flores",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 446.6,
+      "endTime": 457.7,
+      "averageConfidence": 0.95,
+      "index": 35
+    },
+    {
+      "sentence": "So GA is April 7th \u2014 that's four days from now \u2014 so you will absolutely have it live before your six week audit window, and honestly you could start generating reports by April 8th if we get your environment configured.",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 458.2,
+      "endTime": 472.9,
+      "averageConfidence": 0.97,
+      "index": 36
+    },
+    {
+      "sentence": "April 7th \u2014 okay wow that's really close, that's great news actually.",
+      "speaker_name": "Dominic Flores",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 473.5,
+      "endTime": 478.1,
+      "averageConfidence": 0.96,
+      "index": 37
+    },
+    {
+      "sentence": "Yeah and because you're on early access you're already provisioned in the new environment, so the upgrade is essentially automatic \u2014 you'll get a notification on the 7th and then you're on v2.",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 478.9,
+      "endTime": 490.2,
+      "averageConfidence": 0.89,
+      "index": 38
+    },
+    {
+      "sentence": "That's great, that's really great \u2014 honestly this has been one of the more exciting demos I've sat through in a while, like usually I'm looking at features and thinking yeah that's nice but this is stuff we actually need right now.",
+      "speaker_name": "Dominic Flores",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 491.3,
+      "endTime": 505.8,
+      "averageConfidence": 0.89,
+      "index": 39
+    },
+    {
+      "sentence": "That's really good to hear Dominic, genuinely \u2014 and I think the timing just worked out perfectly with your audit cycle, so let's make sure we set you up for success, what would be most helpful as a next step?",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 506.2,
+      "endTime": 519.9,
+      "averageConfidence": 0.92,
+      "index": 40
+    },
+    {
+      "sentence": "I think getting my compliance lead on a call with you after the 7th to do like a hands-on walkthrough would be the right move \u2014 she's the one who's actually going to be living in this tool so I want her to be comfortable with it.",
+      "speaker_name": "Dominic Flores",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 520.5,
+      "endTime": 537.3,
+      "averageConfidence": 0.9,
+      "index": 41
+    },
+    {
+      "sentence": "Perfect, yeah let's do that \u2014 I'll send you a scheduling link today and you can loop her in, and I'll also send over the v2 release notes and the PCI DSS mapping documentation so she can review it ahead of time.",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 537.6,
+      "endTime": 552.7,
+      "averageConfidence": 0.95,
+      "index": 42
+    },
+    {
+      "sentence": "That would be perfect, she'll appreciate having something to read through beforehand \u2014 okay I think we're good, this was really helpful Kevin, thanks for making time.",
+      "speaker_name": "Dominic Flores",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 553.8,
+      "endTime": 563.0,
+      "averageConfidence": 0.95,
+      "index": 43
+    },
+    {
+      "sentence": "Of course, always good talking to you \u2014 and good luck with the audit, though I have a feeling you're going to be in much better shape than you think.",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 563.6,
+      "endTime": 574.1,
+      "averageConfidence": 0.97,
+      "index": 44
+    },
+    {
+      "sentence": "Ha, from your mouth to God's ears \u2014 alright talk soon Kevin.",
+      "speaker_name": "Dominic Flores",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 575.0,
+      "endTime": 579.1,
+      "averageConfidence": 0.95,
+      "index": 45
+    },
+    {
+      "sentence": "Take care Dominic, talk soon.",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 580.0,
+      "endTime": 581.9,
+      "averageConfidence": 0.94,
+      "index": 46
+    }
+  ]
+}

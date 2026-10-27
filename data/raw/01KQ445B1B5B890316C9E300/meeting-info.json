@@ -1,0 +1,19 @@
+{
+  "meetingId": "01KQ445B1B5B890316C9E300",
+  "title": "Weekly Engineering Standup",
+  "organizerEmail": "ravi.gupta@aegiscloud.com",
+  "host": "ravi.gupta@aegiscloud.com",
+  "startTime": "2026-04-17T17:15:00.000Z",
+  "endTime": "2026-04-17T18:00:12.000Z",
+  "duration": 45.2,
+  "allEmails": [
+    "ravi.gupta@aegiscloud.com",
+    "sofia.petrov@aegiscloud.com",
+    "raj.kapoor@aegiscloud.com"
+  ],
+  "invitees": [
+    "ravi.gupta@aegiscloud.com",
+    "sofia.petrov@aegiscloud.com",
+    "raj.kapoor@aegiscloud.com"
+  ]
+}

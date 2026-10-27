@@ -1,0 +1,374 @@
+{
+  "data": [
+    {
+      "sentence": "Hi Kendra, thanks for making time today \u2014 I know your calendar's been pretty packed lately.",
+      "speaker_name": "Aisha Johnson",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 7.0,
+      "endTime": 12.7,
+      "averageConfidence": 0.96,
+      "index": 0
+    },
+    {
+      "sentence": "Yeah, it has been, honestly. We're in the middle of a platform migration on top of everything else so, um, timing is a little chaotic but \u2014 yeah, let's do this.",
+      "speaker_name": "Kendra Wallace",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 14.1,
+      "endTime": 24.9,
+      "averageConfidence": 0.96,
+      "index": 1
+    },
+    {
+      "sentence": "I appreciate it, really. So I wanted to carve out some time because I know we've had a few back-and-forth emails but I'd rather just talk through where things stand between Brightpath and Aegis directly.",
+      "speaker_name": "Aisha Johnson",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 25.4,
+      "endTime": 37.9,
+      "averageConfidence": 0.89,
+      "index": 2
+    },
+    {
+      "sentence": "Yeah, that's \u2014 that's probably a good idea. Because honestly Aisha, I'll just be upfront with you, we've been doing a broader security vendor evaluation over the last six weeks or so and it's been... eye-opening.",
+      "speaker_name": "Kendra Wallace",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 39.4,
+      "endTime": 52.3,
+      "averageConfidence": 0.89,
+      "index": 3
+    },
+    {
+      "sentence": "I appreciate you saying that directly, that's exactly the kind of conversation I want to have. Can you tell me more about what that evaluation has looked like?",
+      "speaker_name": "Aisha Johnson",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 53.3,
+      "endTime": 63.0,
+      "averageConfidence": 0.92,
+      "index": 4
+    },
+    {
+      "sentence": "Sure. So we've been talking to SentinelShield, we've had a couple of pretty deep demo sessions with them, and their threat monitoring story is \u2014 I mean, it's compelling. Especially after, you know, what happened in March.",
+      "speaker_name": "Kendra Wallace",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 64.2,
+      "endTime": 77.2,
+      "averageConfidence": 0.9,
+      "index": 5
+    },
+    {
+      "sentence": "Right. And I \u2014 I want to address that directly because I know the March incident is something we need to own. That was not acceptable and I understand why it's still top of mind for you.",
+      "speaker_name": "Aisha Johnson",
+      "sentimentType": "negative",
+      "speaker_id": 0,
+      "time": 78.2,
+      "endTime": 91.1,
+      "averageConfidence": 0.91,
+      "index": 6
+    },
+    {
+      "sentence": "I mean, six hours, Aisha. Six hours where we had zero threat monitoring visibility. We're a retail company, we process transactions around the clock, and we had no idea what was happening on our infrastructure for six hours. That's \u2014 that's really hard to just move past.",
+      "speaker_name": "Kendra Wallace",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 91.5,
+      "endTime": 107.8,
+      "averageConfidence": 0.96,
+      "index": 7
+    },
+    {
+      "sentence": "And it should be hard to move past, I'm not going to sit here and tell you to forget about it. What I can tell you is what we did about it \u2014 the root cause was a single point of failure in the event ingestion layer, and the engineering team has since implemented redundant processing nodes and a circuit breaker pattern so that kind of cascading failure literally cannot happen the same way again.",
+      "speaker_name": "Aisha Johnson",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 108.6,
+      "endTime": 135.2,
+      "averageConfidence": 0.96,
+      "index": 8
+    },
+    {
+      "sentence": "I saw the post-mortem doc your team sent over. And look, the transparency was appreciated, I'll give you that. But a post-mortem doesn't help me if my board is asking why we're still with a vendor that had a six-hour outage two months ago.",
+      "speaker_name": "Kendra Wallace",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 136.0,
+      "endTime": 151.9,
+      "averageConfidence": 0.92,
+      "index": 9
+    },
+    {
+      "sentence": "That's a completely fair point. Has that \u2014 has the March outage been part of what's driving the SentinelShield conversations, or was that evaluation already in flight before that happened?",
+      "speaker_name": "Aisha Johnson",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 152.5,
+      "endTime": 163.2,
+      "averageConfidence": 0.97,
+      "index": 10
+    },
+    {
+      "sentence": "Honestly? It accelerated it. We had some low-level grumblings about Aegis Detect before March \u2014 the alert fatigue issue I mentioned back in, I think it was January \u2014 but the outage kind of pushed us to actually go out and look at alternatives. So yeah, SentinelShield is now a serious contender where a few months ago they wouldn't have been.",
+      "speaker_name": "Kendra Wallace",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 164.5,
+      "endTime": 186.0,
+      "averageConfidence": 0.89,
+      "index": 11
+    },
+    {
+      "sentence": "Okay, and I \u2014 I want to come back to the alert fatigue piece because that's something I want to make sure we've addressed properly. But on SentinelShield specifically, what's resonating with you? Like what are they showing you that's landing well?",
+      "speaker_name": "Aisha Johnson",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 186.8,
+      "endTime": 201.8,
+      "averageConfidence": 0.9,
+      "index": 12
+    },
+    {
+      "sentence": "Their detection accuracy demos have been solid. They're showing us this, uh, behavioral baselining thing where it learns what normal looks like for your specific environment over time and reduces false positives significantly. And for us that's huge because our team is small, we can't have people chasing ghost alerts all day.",
+      "speaker_name": "Kendra Wallace",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 202.6,
+      "endTime": 220.7,
+      "averageConfidence": 0.91,
+      "index": 13
+    },
+    {
+      "sentence": "Yeah, and that behavioral baselining is \u2014 I mean, Aegis Detect does have adaptive thresholding that works similarly, but I hear you that we haven't done a great job of demonstrating that or helping you configure it for your environment. That's on us.",
+      "speaker_name": "Aisha Johnson",
+      "sentimentType": "negative",
+      "speaker_id": 0,
+      "time": 221.3,
+      "endTime": 236.1,
+      "averageConfidence": 0.88,
+      "index": 14
+    },
+    {
+      "sentence": "I guess what I'd say is \u2014 it's not just about features at this point, Aisha. It's about confidence. And right now my confidence in Aegis Detect specifically is pretty low. The other modules, honestly, less so.",
+      "speaker_name": "Kendra Wallace",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 236.8,
+      "endTime": 250.0,
+      "averageConfidence": 0.9,
+      "index": 15
+    },
+    {
+      "sentence": "That's a really important distinction. Can you say more about that? Because I want to understand which pieces of the platform still feel solid to you.",
+      "speaker_name": "Aisha Johnson",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 251.2,
+      "endTime": 260.4,
+      "averageConfidence": 0.9,
+      "index": 16
+    },
+    {
+      "sentence": "Yeah, so Aegis Protect has been fine \u2014 backup and recovery has done what it's supposed to do. And actually, your Comply v2 launch, the one that just happened a couple weeks ago \u2014 we actually pulled our first on-demand SOC 2 report through it last week and that was... genuinely impressive. Saved my compliance team probably two days of work.",
+      "speaker_name": "Kendra Wallace",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 261.1,
+      "endTime": 282.2,
+      "averageConfidence": 0.9,
+      "index": 17
+    },
+    {
+      "sentence": "Oh, that's great to hear \u2014 I'm really glad that landed well. The Comply v2 team worked really hard on that launch. Were you able to use any of the other frameworks, or was it primarily SOC 2 for now?",
+      "speaker_name": "Aisha Johnson",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 282.9,
+      "endTime": 296.7,
+      "averageConfidence": 0.94,
+      "index": 18
+    },
+    {
+      "sentence": "Just SOC 2 for now but we'll definitely be looking at PCI DSS next because obviously as a retailer that's a big one for us. So that part I'm not worried about. It's really Detect that's the problem.",
+      "speaker_name": "Kendra Wallace",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 297.7,
+      "endTime": 311.5,
+      "averageConfidence": 0.94,
+      "index": 19
+    },
+    {
+      "sentence": "Okay. So help me understand \u2014 if we could demonstrate, concretely, that the reliability issues with Detect are resolved and we could do a proper optimization session to address the alert tuning, is that enough to keep you from switching, or is there something more fundamental going on here?",
+      "speaker_name": "Aisha Johnson",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 312.7,
+      "endTime": 330.0,
+      "averageConfidence": 0.94,
+      "index": 20
+    },
+    {
+      "sentence": "That's a hard question to answer right now. I think \u2014 look, we're not trying to blow up our entire security stack. Switching vendors is painful and expensive and my team doesn't have bandwidth for a big rip-and-replace. So if Aegis can get its act together on Detect, yeah, there's a path. But I need to see it, not just hear about it.",
+      "speaker_name": "Kendra Wallace",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 331.1,
+      "endTime": 353.2,
+      "averageConfidence": 0.9,
+      "index": 21
+    },
+    {
+      "sentence": "That's fair. And I think show-don't-tell is the right framing here. What if we set up a dedicated technical session \u2014 I'm thinking bring in our Detect product team directly, not just a CS overlay \u2014 and we go through your specific environment, your alert configuration, and do a live walkthrough of what the redundancy architecture looks like now post-March?",
+      "speaker_name": "Aisha Johnson",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 354.5,
+      "endTime": 375.2,
+      "averageConfidence": 0.88,
+      "index": 22
+    },
+    {
+      "sentence": "Yeah, I'd be open to that. I just \u2014 I don't want it to be a sales demo. My team has sat through enough of those. I want it to be a real technical conversation where my engineers can ask hard questions.",
+      "speaker_name": "Kendra Wallace",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 376.1,
+      "endTime": 390.7,
+      "averageConfidence": 0.92,
+      "index": 23
+    },
+    {
+      "sentence": "Completely understood. I'll make sure it's the right people in the room \u2014 we'll bring the engineering lead who actually implemented the circuit breaker changes. No slides, just architecture diagrams and your real config.",
+      "speaker_name": "Aisha Johnson",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 391.2,
+      "endTime": 403.3,
+      "averageConfidence": 0.9,
+      "index": 24
+    },
+    {
+      "sentence": "Okay. That would help. And Aisha, I do want to be honest \u2014 SentinelShield is probably going to come back to us with a pricing proposal in the next week or two. So we're not in a wait-forever situation here.",
+      "speaker_name": "Kendra Wallace",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 404.3,
+      "endTime": 418.0,
+      "averageConfidence": 0.95,
+      "index": 25
+    },
+    {
+      "sentence": "I appreciate you telling me that. Genuinely. How much runway are we talking \u2014 like what's the realistic decision timeline from your side?",
+      "speaker_name": "Aisha Johnson",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 418.3,
+      "endTime": 426.5,
+      "averageConfidence": 0.92,
+      "index": 26
+    },
+    {
+      "sentence": "I'd say we need to have a clearer picture by mid-May. Our current Aegis contract comes up for renewal in July and I don't want to be scrambling at the last minute either way.",
+      "speaker_name": "Kendra Wallace",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 426.8,
+      "endTime": 438.5,
+      "averageConfidence": 0.88,
+      "index": 27
+    },
+    {
+      "sentence": "Okay, that's helpful. Mid-May gives us enough time to do this right if we move quickly. Can we target the technical session for sometime in the next two weeks? I'm thinking early May at the latest.",
+      "speaker_name": "Aisha Johnson",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 440.0,
+      "endTime": 452.7,
+      "averageConfidence": 0.91,
+      "index": 28
+    },
+    {
+      "sentence": "Yeah, early May works. Let me check with my lead engineer \u2014 her name's Priya \u2014 and I'll have her connect with you directly to get something on the calendar. She'll know better than me what questions she wants to dig into.",
+      "speaker_name": "Kendra Wallace",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 453.7,
+      "endTime": 468.1,
+      "averageConfidence": 0.95,
+      "index": 29
+    },
+    {
+      "sentence": "Perfect. And honestly, Kendra, I just want to say \u2014 I understand the frustration. What happened in March was serious and you're right to hold us accountable. I'm glad you're still willing to have this conversation rather than just, you know, walking away.",
+      "speaker_name": "Aisha Johnson",
+      "sentimentType": "negative",
+      "speaker_id": 0,
+      "time": 468.9,
+      "endTime": 484.0,
+      "averageConfidence": 0.91,
+      "index": 30
+    },
+    {
+      "sentence": "I mean, we've had a decent working relationship for two years and I'm not trying to blow that up for no reason. But I have to make the right call for Brightpath. So \u2014 yeah. Let's see what the technical session looks like.",
+      "speaker_name": "Kendra Wallace",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 484.7,
+      "endTime": 499.7,
+      "averageConfidence": 0.95,
+      "index": 31
+    },
+    {
+      "sentence": "Absolutely. I'll send you a follow-up email today summarizing what we talked about \u2014 the technical session plan, who we'll bring from our side, and the timeline. And I'll loop in Priya's contact info too.",
+      "speaker_name": "Aisha Johnson",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 500.1,
+      "endTime": 512.4,
+      "averageConfidence": 0.91,
+      "index": 32
+    },
+    {
+      "sentence": "Sounds good. And, um, one more thing \u2014 if you can also send over whatever documentation exists on the redundancy changes post-March, the actual technical docs not the marketing version, I'd like to have Priya review it before the session.",
+      "speaker_name": "Kendra Wallace",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 512.8,
+      "endTime": 527.3,
+      "averageConfidence": 0.94,
+      "index": 33
+    },
+    {
+      "sentence": "Absolutely, I'll get the engineering post-mortem and the architecture change doc \u2014 the real ones \u2014 and include those in the follow-up. No marketing fluff.",
+      "speaker_name": "Aisha Johnson",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 528.2,
+      "endTime": 537.4,
+      "averageConfidence": 0.96,
+      "index": 34
+    },
+    {
+      "sentence": "Great. Okay, I've got a hard stop in about two minutes so I'll let you go but \u2014 yeah, appreciate you reaching out for this call. It was a good conversation.",
+      "speaker_name": "Kendra Wallace",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 538.7,
+      "endTime": 549.3,
+      "averageConfidence": 0.95,
+      "index": 35
+    },
+    {
+      "sentence": "Really appreciate it, Kendra. Talk soon.",
+      "speaker_name": "Aisha Johnson",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 549.9,
+      "endTime": 551.8,
+      "averageConfidence": 0.96,
+      "index": 36
+    }
+  ]
+}

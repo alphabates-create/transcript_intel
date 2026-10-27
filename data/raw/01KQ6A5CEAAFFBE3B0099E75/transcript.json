@@ -1,0 +1,444 @@
+{
+  "data": [
+    {
+      "sentence": "Thanks for calling Aegis Cloud Security support, this is Marcus Williams, how can I help you today?",
+      "speaker_name": "Marcus Williams",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 5.3,
+      "endTime": 11.1,
+      "averageConfidence": 0.89,
+      "index": 0
+    },
+    {
+      "sentence": "Yeah, hi Marcus, this is Harold Jensen, IT Director over at Steelpoint Manufacturing. I've got a case open \u2014 it's case number 6539 \u2014 and honestly I'm pretty frustrated at this point because this has been going on for a few days now.",
+      "speaker_name": "Harold Jensen",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 12.5,
+      "endTime": 27.9,
+      "averageConfidence": 0.89,
+      "index": 1
+    },
+    {
+      "sentence": "I completely understand Harold, and I appreciate you calling in. Let me pull up case 6539 right here... okay I'm seeing it, LDAP sync failures with Aegis Identity. Can you walk me through what you're experiencing on your end?",
+      "speaker_name": "Marcus Williams",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 28.3,
+      "endTime": 42.0,
+      "averageConfidence": 0.89,
+      "index": 2
+    },
+    {
+      "sentence": "Sure, so \u2014 basically our Active Directory sync through Aegis Identity just stopped working. Users aren't getting provisioned, group memberships aren't syncing, and we've got about, uh, I'd say 200 plus employees who can't get into systems they need access to. This is a manufacturing floor environment, Marcus. People can't do their jobs.",
+      "speaker_name": "Harold Jensen",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 42.7,
+      "endTime": 61.3,
+      "averageConfidence": 0.92,
+      "index": 3
+    },
+    {
+      "sentence": "Yeah, that's \u2014 that's a serious impact and I hear you. When did you first notice the sync failures? Do you have an approximate timestamp?",
+      "speaker_name": "Marcus Williams",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 62.5,
+      "endTime": 71.3,
+      "averageConfidence": 0.89,
+      "index": 4
+    },
+    {
+      "sentence": "It started March 19th, around 7 AM our time, Central. And look, I submitted the case that same morning and it took almost 24 hours to get a response, which is not acceptable for something this critical.",
+      "speaker_name": "Harold Jensen",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 72.6,
+      "endTime": 85.9,
+      "averageConfidence": 0.94,
+      "index": 5
+    },
+    {
+      "sentence": "You're right and I \u2014 I want to apologize for that response delay, that shouldn't have happened on a case with this kind of operational impact. I'm going to personally own this from here on out. Now, the 19th... let me check something real quick on our end.",
+      "speaker_name": "Marcus Williams",
+      "sentimentType": "negative",
+      "speaker_id": 0,
+      "time": 86.6,
+      "endTime": 103.6,
+      "averageConfidence": 0.96,
+      "index": 6
+    },
+    {
+      "sentence": "Okay, and while you're doing that \u2014 I also want to mention that we had some issues earlier in the month with Aegis Detect, the outage you guys had, and now this. My leadership is starting to ask questions about whether we made the right call going with Aegis and that's a conversation I really don't want to be having.",
+      "speaker_name": "Harold Jensen",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 104.1,
+      "endTime": 124.9,
+      "averageConfidence": 0.97,
+      "index": 7
+    },
+    {
+      "sentence": "I understand, and that's a fair concern. The Detect outage was \u2014 yeah, that was a significant incident and I know it affected a lot of customers. We've made infrastructure changes since then. But let's focus on getting your LDAP sync resolved right now because that's what's actively hurting you. So I'm looking at our sync logs for your tenant...",
+      "speaker_name": "Marcus Williams",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 126.1,
+      "endTime": 147.1,
+      "averageConfidence": 0.91,
+      "index": 8
+    },
+    {
+      "sentence": "Right, yeah.",
+      "speaker_name": "Harold Jensen",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 147.5,
+      "endTime": 149.0,
+      "averageConfidence": 0.97,
+      "index": 9
+    },
+    {
+      "sentence": "Okay so I'm seeing a high volume of sync errors starting the 19th, you're correct. The error codes being thrown are mostly \u2014 it looks like connection timeout errors and then some authentication failures against your LDAP endpoint. Can you tell me, did anything change in your environment around that time? Any firewall rule updates, certificate rotations, anything like that?",
+      "speaker_name": "Marcus Williams",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 149.5,
+      "endTime": 170.9,
+      "averageConfidence": 0.93,
+      "index": 10
+    },
+    {
+      "sentence": "That's \u2014 hm, that's actually a good question. We did have a scheduled maintenance window on the 18th, overnight. Our network team pushed some firewall policy updates. I didn't think that would affect the LDAP connector but...",
+      "speaker_name": "Harold Jensen",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 171.8,
+      "endTime": 184.6,
+      "averageConfidence": 0.95,
+      "index": 11
+    },
+    {
+      "sentence": "Yeah that could absolutely be it. The Aegis Identity LDAP connector needs outbound access on port 389 for standard LDAP or 636 for LDAPS \u2014 are you running LDAPS by any chance?",
+      "speaker_name": "Marcus Williams",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 185.0,
+      "endTime": 196.0,
+      "averageConfidence": 0.95,
+      "index": 12
+    },
+    {
+      "sentence": "We are, yeah, we're using LDAPS. Port 636.",
+      "speaker_name": "Harold Jensen",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 196.3,
+      "endTime": 199.0,
+      "averageConfidence": 0.92,
+      "index": 13
+    },
+    {
+      "sentence": "Okay, so there's two things I want to check then. First, can you verify with your network team that port 636 is still open from our connector's IP range? I can send you the current list of Aegis egress IPs. And second \u2014 did anything happen with your SSL certificate on the LDAP server during or after that maintenance window?",
+      "speaker_name": "Marcus Williams",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 199.6,
+      "endTime": 220.8,
+      "averageConfidence": 0.89,
+      "index": 14
+    },
+    {
+      "sentence": "I \u2014 I'm not sure about the certificate. I'd have to check. But I'll tell you what, this is information that should have been asked three days ago when I first filed the case. I had to chase your team for a response and now we're just starting the basic troubleshooting. Do you understand how that feels from my side?",
+      "speaker_name": "Harold Jensen",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 222.2,
+      "endTime": 243.4,
+      "averageConfidence": 0.89,
+      "index": 15
+    },
+    {
+      "sentence": "Yes, and honestly Harold, you're completely right. There's no excuse for the delay and I'm not going to try to make one. What I can do right now is move fast. Can you get your network team on a quick message while we're talking to check that port 636 egress rule?",
+      "speaker_name": "Marcus Williams",
+      "sentimentType": "negative",
+      "speaker_id": 0,
+      "time": 244.8,
+      "endTime": 263.2,
+      "averageConfidence": 0.94,
+      "index": 16
+    },
+    {
+      "sentence": "Yeah, let me \u2014 hold on, I'm going to ping Dave on our network team right now via Teams. Give me just a second.",
+      "speaker_name": "Harold Jensen",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 263.7,
+      "endTime": 272.4,
+      "averageConfidence": 0.96,
+      "index": 17
+    },
+    {
+      "sentence": "Of course, take your time. And while you're doing that I'm going to look at the specific authentication error details more closely. The error is... okay so it's saying SSL handshake failure. Which actually \u2014 Harold, that points more to a certificate issue than a firewall issue.",
+      "speaker_name": "Marcus Williams",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 272.9,
+      "endTime": 289.6,
+      "averageConfidence": 0.96,
+      "index": 18
+    },
+    {
+      "sentence": "Okay, Dave's responding. He says the firewall rules look \u2014 yeah he says 636 should be open. So it's not the firewall.",
+      "speaker_name": "Harold Jensen",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 290.1,
+      "endTime": 297.5,
+      "averageConfidence": 0.92,
+      "index": 19
+    },
+    {
+      "sentence": "Right, which is consistent with what I'm seeing. The SSL handshake failure means our connector is trying to establish the encrypted connection and something's going wrong on the certificate side. Two possibilities \u2014 either your LDAP server's SSL cert was renewed or changed during maintenance and the new cert isn't trusted by our connector, or the cert expired. Can you have Dave check the certificate on your Active Directory server?",
+      "speaker_name": "Marcus Williams",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 298.9,
+      "endTime": 323.7,
+      "averageConfidence": 0.91,
+      "index": 20
+    },
+    {
+      "sentence": "Okay I'm asking him now... he's checking... oh for the love of \u2014 Marcus, he's saying the SSL certificate on the AD server was renewed as part of the maintenance on the 18th and, uh, it looks like it was issued by an internal CA. Would that cause a problem?",
+      "speaker_name": "Harold Jensen",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 324.6,
+      "endTime": 342.2,
+      "averageConfidence": 0.96,
+      "index": 21
+    },
+    {
+      "sentence": "That is exactly the problem. If your certificate was issued by an internal certificate authority, our connector doesn't inherently trust that CA. You need to upload your internal CA's root certificate into Aegis Identity so that we can validate the chain. This is why the handshake is failing.",
+      "speaker_name": "Marcus Williams",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 342.9,
+      "endTime": 359.6,
+      "averageConfidence": 0.89,
+      "index": 22
+    },
+    {
+      "sentence": "Okay so \u2014 three days of my people not being able to work because of a certificate. That's \u2014 I'm glad we found it but I'm also really annoyed that it took this long.",
+      "speaker_name": "Harold Jensen",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 360.4,
+      "endTime": 372.5,
+      "averageConfidence": 0.94,
+      "index": 23
+    },
+    {
+      "sentence": "I hear that completely. Let me walk you through uploading the CA cert right now so we can get this fixed in the next few minutes. In Aegis Identity, go to Settings, then Directory Connectors, find your LDAP connector and click into it.",
+      "speaker_name": "Marcus Williams",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 373.6,
+      "endTime": 388.7,
+      "averageConfidence": 0.92,
+      "index": 24
+    },
+    {
+      "sentence": "Alright, I'm in Identity, going to Settings... Directory Connectors... okay I see our LDAP connector listed here, it's showing a red status icon.",
+      "speaker_name": "Harold Jensen",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 390.1,
+      "endTime": 397.9,
+      "averageConfidence": 0.92,
+      "index": 25
+    },
+    {
+      "sentence": "Yeah that red status is the sync failure. Click into the connector and you should see a tab called Security or TLS Settings \u2014 it might vary slightly depending on your version.",
+      "speaker_name": "Marcus Williams",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 398.7,
+      "endTime": 410.1,
+      "averageConfidence": 0.9,
+      "index": 26
+    },
+    {
+      "sentence": "I see... there's a tab that says TLS Configuration. Is that it?",
+      "speaker_name": "Harold Jensen",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 411.3,
+      "endTime": 416.0,
+      "averageConfidence": 0.88,
+      "index": 27
+    },
+    {
+      "sentence": "Perfect, yes. In there you should see an option to upload a custom CA certificate. You'll need the root CA cert from your internal certificate authority \u2014 your team should be able to export that as a PEM or CER file.",
+      "speaker_name": "Marcus Williams",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 417.0,
+      "endTime": 431.3,
+      "averageConfidence": 0.92,
+      "index": 28
+    },
+    {
+      "sentence": "Okay I'm asking Dave to pull that cert. He should have it... yeah he's exporting it now, says he'll have it in a minute. And Marcus \u2014 look, while we're waiting \u2014 I need to understand why this wasn't documented anywhere. Like shouldn't there be some kind of alert or error message in the UI that says 'hey your certificate is untrusted' instead of just showing a generic sync failure?",
+      "speaker_name": "Harold Jensen",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 432.5,
+      "endTime": 457.3,
+      "averageConfidence": 0.93,
+      "index": 29
+    },
+    {
+      "sentence": "That is a completely valid piece of feedback and honestly you're not the first person to raise that. The current error messaging in the connector is not specific enough and I'm going to log this as product feedback with our Identity team. A more descriptive SSL error message would have made this much faster to diagnose.",
+      "speaker_name": "Marcus Williams",
+      "sentimentType": "negative",
+      "speaker_id": 0,
+      "time": 458.0,
+      "endTime": 477.6,
+      "averageConfidence": 0.88,
+      "index": 30
+    },
+    {
+      "sentence": "Yeah it would have saved us three days. Okay, Dave just dropped the cert in our shared drive, I'm downloading it now. It's a .cer file, is that going to work?",
+      "speaker_name": "Harold Jensen",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 478.2,
+      "endTime": 489.2,
+      "averageConfidence": 0.95,
+      "index": 31
+    },
+    {
+      "sentence": "CER should work, yep. Go ahead and upload it through that TLS Configuration tab \u2014 there should be an Upload Certificate button.",
+      "speaker_name": "Marcus Williams",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 489.6,
+      "endTime": 497.2,
+      "averageConfidence": 0.92,
+      "index": 32
+    },
+    {
+      "sentence": "Uploading... okay it's uploaded. Now do I just save and it'll try to reconnect automatically?",
+      "speaker_name": "Harold Jensen",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 498.5,
+      "endTime": 503.7,
+      "averageConfidence": 0.9,
+      "index": 33
+    },
+    {
+      "sentence": "Hit Save and then there should be a Test Connection button \u2014 click that to trigger a manual test before you do a full sync.",
+      "speaker_name": "Marcus Williams",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 504.7,
+      "endTime": 513.3,
+      "averageConfidence": 0.9,
+      "index": 34
+    },
+    {
+      "sentence": "Okay saving... and Test Connection... it's running... Marcus, it says Connection Successful. The status icon just turned green.",
+      "speaker_name": "Harold Jensen",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 513.9,
+      "endTime": 520.3,
+      "averageConfidence": 0.95,
+      "index": 35
+    },
+    {
+      "sentence": "That's what we want to see. Now trigger a manual sync from the sync options and let's make sure user provisioning starts flowing correctly.",
+      "speaker_name": "Marcus Williams",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 521.6,
+      "endTime": 530.3,
+      "averageConfidence": 0.93,
+      "index": 36
+    },
+    {
+      "sentence": "Running manual sync now... okay it's running and I'm already seeing sync events populating. Users are coming through. This looks like it's working. I'm glad it's fixed but I \u2014 yeah, I still want to talk about the support response time issue because this cannot happen again.",
+      "speaker_name": "Harold Jensen",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 531.7,
+      "endTime": 548.6,
+      "averageConfidence": 0.96,
+      "index": 37
+    },
+    {
+      "sentence": "Absolutely, and I want to make sure that's addressed. I'm going to escalate the response time failure internally and make sure your account is flagged for priority routing on future cases. I'd also like to set up a brief call with your account manager this week so we can have that broader conversation about your experience, including the Detect outage and now this.",
+      "speaker_name": "Marcus Williams",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 549.4,
+      "endTime": 572.0,
+      "averageConfidence": 0.9,
+      "index": 38
+    },
+    {
+      "sentence": "Yeah, I think that's a good idea. I need someone from Aegis leadership to understand the impact this has had on Steelpoint. We're a 24-7 manufacturing operation \u2014 downtime isn't abstract for us, it's real dollars and real people standing around.",
+      "speaker_name": "Harold Jensen",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 572.5,
+      "endTime": 586.8,
+      "averageConfidence": 0.91,
+      "index": 39
+    },
+    {
+      "sentence": "I completely understand that and I will make sure that message gets communicated. I'll document everything in the case notes today and reach out to your account manager to schedule that follow-up. Is there anything else I can help you with right now while I have you?",
+      "speaker_name": "Marcus Williams",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 588.0,
+      "endTime": 604.6,
+      "averageConfidence": 0.91,
+      "index": 40
+    },
+    {
+      "sentence": "No, I think we're \u2014 we're good for now. Sync looks like it's running clean. Just make sure those case notes are thorough and that someone actually follows up with me. I've had cases fall through the cracks before.",
+      "speaker_name": "Harold Jensen",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 605.7,
+      "endTime": 619.5,
+      "averageConfidence": 0.97,
+      "index": 41
+    },
+    {
+      "sentence": "You have my word on that Harold. I'll send you a case summary email within the hour and copy your account manager. Thank you for your patience today and again I'm sorry for the trouble this caused.",
+      "speaker_name": "Marcus Williams",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 620.0,
+      "endTime": 633.3,
+      "averageConfidence": 0.97,
+      "index": 42
+    },
+    {
+      "sentence": "Alright. Thanks Marcus. Bye.",
+      "speaker_name": "Harold Jensen",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 634.6,
+      "endTime": 636.1,
+      "averageConfidence": 0.88,
+      "index": 43
+    }
+  ]
+}

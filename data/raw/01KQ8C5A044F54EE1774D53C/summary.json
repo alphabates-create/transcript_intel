@@ -1,0 +1,46 @@
+{
+  "summary": "Maria Santos and Kevin O'Brien from Aegis held an urgent call with Charles Ng from Helix to address a six-hour outage in their threat monitoring pipeline caused by a single point of failure in the event ingestion system. Charles expressed significant frustration that his team was not alerted for nearly two hours and had to manually audit logs afterward, costing 12-15 person-hours. He disclosed that Helix is actively reviewing their security vendor stack and has been in conversations with competitor VaultEdge, citing both the outage and ongoing concerns about false positive alert noise and cumbersome custom rule configuration. The Aegis team committed to delivering a technical remediation brief for Charles's CTO, scheduling a detection tuning session, and presenting a broader make-right proposal before a follow-up call mid-next week with Helix's security lead Priya.",
+  "actionItems": [
+    "Kevin O'Brien: Prepare a CTO-readable technical brief documenting the remediation steps and new redundant pipeline architecture by end of this week",
+    "Kevin O'Brien: Schedule and conduct a detection tuning working session with Helix to address false positive noise and custom rule configuration issues within the next two weeks",
+    "Maria Santos: Develop and present a commercial make-right proposal to Charles by end of this week",
+    "Maria Santos: Schedule a mid-week follow-up call (Tuesday or Wednesday) with Charles Ng and Helix security lead Priya to review all deliverables"
+  ],
+  "topics": [
+    "outage post-mortem",
+    "churn risk",
+    "false positives",
+    "pipeline reliability",
+    "competitor evaluation",
+    "detection tuning"
+  ],
+  "overallSentiment": "mixed-negative",
+  "sentimentScore": 2.3,
+  "keyMoments": [
+    {
+      "time": 97.0,
+      "text": "Kevin acknowledges a six-hour total loss of threat monitoring visibility and confirms no softening of the severity",
+      "type": "technical_issue",
+      "speaker": "Kevin O'Brien"
+    },
+    {
+      "time": 218.0,
+      "text": "Charles reveals Helix noticed the outage before Aegis sent any alert, calling it 'backwards' for a threat monitoring product",
+      "type": "concern",
+      "speaker": "Charles Ng"
+    },
+    {
+      "time": 390.0,
+      "text": "Charles discloses Helix is actively speaking with competitor VaultEdge as part of a broader vendor review, signaling serious churn risk",
+      "type": "churn_signal",
+      "speaker": "Charles Ng"
+    },
+    {
+      "time": 468.0,
+      "text": "Charles identifies persistent issues with high false positive alert noise and cumbersome custom rule configuration as pre-existing concerns beyond the outage",
+      "type": "feature_gap",
+      "speaker": "Charles Ng"
+    }
+  ],
+  "meetingId": "01KQ8C5A044F54EE1774D53C"
+}

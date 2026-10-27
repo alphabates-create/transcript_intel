@@ -1,0 +1,207 @@
+[
+  {
+    "speakerName": "Elena Vasquez",
+    "timestamp": 6.4,
+    "endTimeTs": 15.8
+  },
+  {
+    "speakerName": "Grace Yoon",
+    "timestamp": 16.3,
+    "endTimeTs": 23.7
+  },
+  {
+    "speakerName": "Frank Delaney",
+    "timestamp": 24.2,
+    "endTimeTs": 31.3
+  },
+  {
+    "speakerName": "Elena Vasquez",
+    "timestamp": 32.3,
+    "endTimeTs": 46.4
+  },
+  {
+    "speakerName": "Frank Delaney",
+    "timestamp": 47.4,
+    "endTimeTs": 58.7
+  },
+  {
+    "speakerName": "Grace Yoon",
+    "timestamp": 59.2,
+    "endTimeTs": 77.3
+  },
+  {
+    "speakerName": "Elena Vasquez",
+    "timestamp": 77.8,
+    "endTimeTs": 95.9
+  },
+  {
+    "speakerName": "Grace Yoon",
+    "timestamp": 97.2,
+    "endTimeTs": 100.8
+  },
+  {
+    "speakerName": "Elena Vasquez",
+    "timestamp": 101.3,
+    "endTimeTs": 109.2
+  },
+  {
+    "speakerName": "Frank Delaney",
+    "timestamp": 110.3,
+    "endTimeTs": 128.6
+  },
+  {
+    "speakerName": "Elena Vasquez",
+    "timestamp": 129.7,
+    "endTimeTs": 148.1
+  },
+  {
+    "speakerName": "Grace Yoon",
+    "timestamp": 149.1,
+    "endTimeTs": 156.3
+  },
+  {
+    "speakerName": "Elena Vasquez",
+    "timestamp": 156.6,
+    "endTimeTs": 166.4
+  },
+  {
+    "speakerName": "Grace Yoon",
+    "timestamp": 167.6,
+    "endTimeTs": 187.5
+  },
+  {
+    "speakerName": "Elena Vasquez",
+    "timestamp": 188.4,
+    "endTimeTs": 207.1
+  },
+  {
+    "speakerName": "Grace Yoon",
+    "timestamp": 207.7,
+    "endTimeTs": 213.8
+  },
+  {
+    "speakerName": "Frank Delaney",
+    "timestamp": 214.8,
+    "endTimeTs": 218.2
+  },
+  {
+    "speakerName": "Elena Vasquez",
+    "timestamp": 219.1,
+    "endTimeTs": 237.7
+  },
+  {
+    "speakerName": "Grace Yoon",
+    "timestamp": 238.9,
+    "endTimeTs": 247.5
+  },
+  {
+    "speakerName": "Frank Delaney",
+    "timestamp": 248.8,
+    "endTimeTs": 273.3
+  },
+  {
+    "speakerName": "Elena Vasquez",
+    "timestamp": 274.6,
+    "endTimeTs": 296.7
+  },
+  {
+    "speakerName": "Grace Yoon",
+    "timestamp": 297.1,
+    "endTimeTs": 301.9
+  },
+  {
+    "speakerName": "Elena Vasquez",
+    "timestamp": 303.1,
+    "endTimeTs": 325.9
+  },
+  {
+    "speakerName": "Frank Delaney",
+    "timestamp": 326.9,
+    "endTimeTs": 340.4
+  },
+  {
+    "speakerName": "Elena Vasquez",
+    "timestamp": 341.6,
+    "endTimeTs": 368.2
+  },
+  {
+    "speakerName": "Grace Yoon",
+    "timestamp": 369.2,
+    "endTimeTs": 376.4
+  },
+  {
+    "speakerName": "Elena Vasquez",
+    "timestamp": 376.9,
+    "endTimeTs": 384.2
+  },
+  {
+    "speakerName": "Grace Yoon",
+    "timestamp": 385.2,
+    "endTimeTs": 394.7
+  },
+  {
+    "speakerName": "Elena Vasquez",
+    "timestamp": 396.1,
+    "endTimeTs": 412.4
+  },
+  {
+    "speakerName": "Grace Yoon",
+    "timestamp": 413.6,
+    "endTimeTs": 421.0
+  },
+  {
+    "speakerName": "Elena Vasquez",
+    "timestamp": 421.6,
+    "endTimeTs": 435.9
+  },
+  {
+    "speakerName": "Frank Delaney",
+    "timestamp": 436.4,
+    "endTimeTs": 451.4
+  },
+  {
+    "speakerName": "Elena Vasquez",
+    "timestamp": 452.0,
+    "endTimeTs": 477.9
+  },
+  {
+    "speakerName": "Grace Yoon",
+    "timestamp": 478.4,
+    "endTimeTs": 485.9
+  },
+  {
+    "speakerName": "Frank Delaney",
+    "timestamp": 486.7,
+    "endTimeTs": 502.0
+  },
+  {
+    "speakerName": "Elena Vasquez",
+    "timestamp": 503.3,
+    "endTimeTs": 515.8
+  },
+  {
+    "speakerName": "Frank Delaney",
+    "timestamp": 516.9,
+    "endTimeTs": 531.0
+  },
+  {
+    "speakerName": "Elena Vasquez",
+    "timestamp": 531.9,
+    "endTimeTs": 542.8
+  },
+  {
+    "speakerName": "Grace Yoon",
+    "timestamp": 544.1,
+    "endTimeTs": 556.8
+  },
+  {
+    "speakerName": "Elena Vasquez",
+    "timestamp": 557.9,
+    "endTimeTs": 576.8
+  },
+  {
+    "speakerName": "Grace Yoon",
+    "timestamp": 578.1,
+    "endTimeTs": 581.7
+  }
+]

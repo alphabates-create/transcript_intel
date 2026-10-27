@@ -1,0 +1,26 @@
+[
+  {
+    "participantName": "Megan Lawson",
+    "timestamp": 1774363518000,
+    "type": "Join",
+    "time": 18.0
+  },
+  {
+    "participantName": "Chris Lee",
+    "timestamp": 1774363518000,
+    "type": "Join",
+    "time": 18.0
+  },
+  {
+    "participantName": "Megan Lawson",
+    "timestamp": 1774365831000,
+    "type": "Leave",
+    "time": 2331.0
+  },
+  {
+    "participantName": "Chris Lee",
+    "timestamp": 1774365840000,
+    "type": "Leave",
+    "time": 2340.0
+  }
+]

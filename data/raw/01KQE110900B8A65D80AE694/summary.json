@@ -1,0 +1,46 @@
+{
+  "summary": "The team conducted a post-incident review of a cascading failure in their event ingestion pipeline that caused six hours of zero threat monitoring visibility for customers. Mike Romano explained that an out-of-memory error on a primary ingestion node triggered a cascade due to the absence of a circuit breaker and inadequate health checks that couldn't distinguish between liveness and readiness. The group identified three root technical causes: a single point of failure in ingestion, no circuit breaker pattern, and insufficient health checking. The team also acknowledged that the underlying single-point-of-failure risk had been flagged in Q3 of the prior year but was deprioritized in favor of feature work, and agreed the post-mortem should reflect that honestly.",
+  "actionItems": [
+    "Mike Romano: Write a proper scope document today for circuit breaker implementation and redundant ingestion node architecture",
+    "Ananya Sharma and Tyler Washington: Investigate and implement health check improvements, specifically adding readiness checks",
+    "Nina Kowalski: Scope out a chaos testing framework for the ingestion pipeline, coordinating with Tyler Washington",
+    "Sofia Petrov: Circulate the post-mortem draft by end of day tomorrow, including transparent account of known-risk deprioritization"
+  ],
+  "topics": [
+    "incident review",
+    "pipeline failure",
+    "infrastructure reliability",
+    "health checks",
+    "chaos engineering",
+    "post-mortem"
+  ],
+  "overallSentiment": "mixed-negative",
+  "sentimentScore": 2.4,
+  "keyMoments": [
+    {
+      "time": 95,
+      "text": "Sofia expresses frustration that a known single point of failure was never prioritized, resulting in six hours of zero customer threat monitoring visibility",
+      "type": "concern",
+      "speaker": "Sofia Petrov"
+    },
+    {
+      "time": 280,
+      "text": "Tyler identifies that the health check was a liveness check rather than a readiness check, making it effectively useless in detecting the stuck node",
+      "type": "technical_issue",
+      "speaker": "Tyler Washington"
+    },
+    {
+      "time": 490,
+      "text": "Nina requests the two-week circuit breaker estimate in writing, and Mike agrees to produce a formal scope document",
+      "type": "action_item",
+      "speaker": "Nina Kowalski"
+    },
+    {
+      "time": 620,
+      "text": "Ananya pushes for full transparency in the post-mortem about the known risk being deprioritized, and Sofia agrees the decision-making chain must be documented honestly",
+      "type": "positive_pivot",
+      "speaker": "Ananya Sharma"
+    }
+  ],
+  "meetingId": "01KQE110900B8A65D80AE694"
+}

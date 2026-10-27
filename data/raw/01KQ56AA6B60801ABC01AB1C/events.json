@@ -1,0 +1,50 @@
+[
+  {
+    "participantName": "Ajay Mehta",
+    "timestamp": 1775842217000,
+    "type": "Join",
+    "time": 17.0
+  },
+  {
+    "participantName": "Marcus Williams",
+    "timestamp": 1775842228000,
+    "type": "Join",
+    "time": 28.0
+  },
+  {
+    "participantName": "Sarah Chen",
+    "timestamp": 1775842239000,
+    "type": "Join",
+    "time": 39.0
+  },
+  {
+    "participantName": "Natalie Simmons",
+    "timestamp": 1775842244000,
+    "type": "Join",
+    "time": 44.0
+  },
+  {
+    "participantName": "Sarah Chen",
+    "timestamp": 1775843471000,
+    "type": "Leave",
+    "time": 1271.0
+  },
+  {
+    "participantName": "Marcus Williams",
+    "timestamp": 1775843475000,
+    "type": "Leave",
+    "time": 1275.0
+  },
+  {
+    "participantName": "Ajay Mehta",
+    "timestamp": 1775843484000,
+    "type": "Leave",
+    "time": 1284.0
+  },
+  {
+    "participantName": "Natalie Simmons",
+    "timestamp": 1775843480000,
+    "type": "Leave",
+    "time": 1280.0
+  }
+]

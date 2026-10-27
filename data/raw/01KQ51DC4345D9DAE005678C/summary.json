@@ -1,0 +1,46 @@
+{
+  "summary": "Daniel Okafor and Lisa Park held a structured feedback session with Thomas Hargrove from the healthcare vertical to discuss pain points with Aegis Comply after eight months of use. Thomas outlined four prioritized feature gaps: granular control-family filtering in HIPAA reports, scheduled automated report delivery to stakeholders, an executive summary layer, and period-over-period delta tracking for compliance posture. Thomas noted that while Protect and Identity modules are performing well, Comply feels behind and could eventually prompt evaluation of competing tools like VaultEdge if gaps persist. The call concluded with agreed next steps including a written summary, follow-up on scheduled delivery roadmap status, and an introduction to the healthcare vertical product liaison.",
+  "actionItems": [
+    "Lisa Park: Send Thomas a written summary of all captured feedback and priority rankings by end of week",
+    "Lisa Park: Confirm and share current roadmap status for scheduled automated report delivery feature",
+    "Lisa Park: Introduce Thomas to product liaison Ren for a follow-up call focused on control filtering use case",
+    "Daniel Okafor: Provide more concrete timeline on granular control filtering roadmap item once internal details are available"
+  ],
+  "topics": [
+    "hipaa reporting",
+    "compliance tooling",
+    "feature gaps",
+    "product feedback",
+    "audit workflow",
+    "roadmap"
+  ],
+  "overallSentiment": "mixed-positive",
+  "sentimentScore": 3.2,
+  "keyMoments": [
+    {
+      "time": 142.0,
+      "text": "Thomas describes the core pain point: HIPAA reports are static and cannot be filtered by control family, forcing manual work in Excel during audits.",
+      "type": "feature_gap",
+      "speaker": "Thomas Hargrove"
+    },
+    {
+      "time": 380.0,
+      "text": "Thomas responds skeptically to the roadmap mention, saying 'I've heard on the roadmap before so I'll believe it when I see it.'",
+      "type": "concern",
+      "speaker": "Thomas Hargrove"
+    },
+    {
+      "time": 620.0,
+      "text": "Thomas reveals VaultEdge has come up internally and warns that unaddressed gaps in Comply could eventually prompt a formal evaluation.",
+      "type": "churn_signal",
+      "speaker": "Thomas Hargrove"
+    },
+    {
+      "time": 670.0,
+      "text": "Thomas affirms that Protect and Identity modules are solid, clarifying Comply is the only area where the platform feels behind.",
+      "type": "positive_pivot",
+      "speaker": "Thomas Hargrove"
+    }
+  ],
+  "meetingId": "01KQ51DC4345D9DAE005678C"
+}

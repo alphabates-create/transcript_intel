@@ -1,0 +1,207 @@
+[
+  {
+    "speakerName": "David Kim",
+    "timestamp": 6.2,
+    "endTimeTs": 15.5
+  },
+  {
+    "speakerName": "Damien Rowe",
+    "timestamp": 16.3,
+    "endTimeTs": 28.1
+  },
+  {
+    "speakerName": "David Kim",
+    "timestamp": 28.7,
+    "endTimeTs": 40.4
+  },
+  {
+    "speakerName": "Priya Patel",
+    "timestamp": 41.2,
+    "endTimeTs": 47.7
+  },
+  {
+    "speakerName": "Damien Rowe",
+    "timestamp": 49.1,
+    "endTimeTs": 72.7
+  },
+  {
+    "speakerName": "David Kim",
+    "timestamp": 73.1,
+    "endTimeTs": 82.8
+  },
+  {
+    "speakerName": "Damien Rowe",
+    "timestamp": 83.3,
+    "endTimeTs": 98.7
+  },
+  {
+    "speakerName": "David Kim",
+    "timestamp": 99.6,
+    "endTimeTs": 118.6
+  },
+  {
+    "speakerName": "Damien Rowe",
+    "timestamp": 120.0,
+    "endTimeTs": 133.6
+  },
+  {
+    "speakerName": "Priya Patel",
+    "timestamp": 134.6,
+    "endTimeTs": 148.2
+  },
+  {
+    "speakerName": "David Kim",
+    "timestamp": 149.5,
+    "endTimeTs": 161.5
+  },
+  {
+    "speakerName": "Damien Rowe",
+    "timestamp": 162.6,
+    "endTimeTs": 172.9
+  },
+  {
+    "speakerName": "David Kim",
+    "timestamp": 173.8,
+    "endTimeTs": 179.6
+  },
+  {
+    "speakerName": "Priya Patel",
+    "timestamp": 180.6,
+    "endTimeTs": 200.5
+  },
+  {
+    "speakerName": "Damien Rowe",
+    "timestamp": 201.8,
+    "endTimeTs": 220.4
+  },
+  {
+    "speakerName": "Priya Patel",
+    "timestamp": 221.0,
+    "endTimeTs": 244.0
+  },
+  {
+    "speakerName": "Damien Rowe",
+    "timestamp": 244.8,
+    "endTimeTs": 254.2
+  },
+  {
+    "speakerName": "Priya Patel",
+    "timestamp": 255.3,
+    "endTimeTs": 270.3
+  },
+  {
+    "speakerName": "David Kim",
+    "timestamp": 270.9,
+    "endTimeTs": 282.6
+  },
+  {
+    "speakerName": "Damien Rowe",
+    "timestamp": 283.2,
+    "endTimeTs": 295.1
+  },
+  {
+    "speakerName": "David Kim",
+    "timestamp": 295.9,
+    "endTimeTs": 316.0
+  },
+  {
+    "speakerName": "Damien Rowe",
+    "timestamp": 316.6,
+    "endTimeTs": 319.4
+  },
+  {
+    "speakerName": "David Kim",
+    "timestamp": 320.4,
+    "endTimeTs": 341.8
+  },
+  {
+    "speakerName": "Damien Rowe",
+    "timestamp": 342.7,
+    "endTimeTs": 357.7
+  },
+  {
+    "speakerName": "Priya Patel",
+    "timestamp": 358.8,
+    "endTimeTs": 375.7
+  },
+  {
+    "speakerName": "Damien Rowe",
+    "timestamp": 376.1,
+    "endTimeTs": 384.5
+  },
+  {
+    "speakerName": "David Kim",
+    "timestamp": 385.4,
+    "endTimeTs": 399.3
+  },
+  {
+    "speakerName": "Damien Rowe",
+    "timestamp": 400.4,
+    "endTimeTs": 403.4
+  },
+  {
+    "speakerName": "David Kim",
+    "timestamp": 404.7,
+    "endTimeTs": 427.8
+  },
+  {
+    "speakerName": "Damien Rowe",
+    "timestamp": 429.2,
+    "endTimeTs": 435.2
+  },
+  {
+    "speakerName": "David Kim",
+    "timestamp": 436.5,
+    "endTimeTs": 453.5
+  },
+  {
+    "speakerName": "Damien Rowe",
+    "timestamp": 453.8,
+    "endTimeTs": 474.9
+  },
+  {
+    "speakerName": "Priya Patel",
+    "timestamp": 475.3,
+    "endTimeTs": 503.2
+  },
+  {
+    "speakerName": "Damien Rowe",
+    "timestamp": 503.6,
+    "endTimeTs": 521.9
+  },
+  {
+    "speakerName": "Priya Patel",
+    "timestamp": 522.7,
+    "endTimeTs": 541.9
+  },
+  {
+    "speakerName": "David Kim",
+    "timestamp": 542.6,
+    "endTimeTs": 558.5
+  },
+  {
+    "speakerName": "Damien Rowe",
+    "timestamp": 558.8,
+    "endTimeTs": 564.2
+  },
+  {
+    "speakerName": "David Kim",
+    "timestamp": 565.4,
+    "endTimeTs": 579.4
+  },
+  {
+    "speakerName": "Damien Rowe",
+    "timestamp": 580.1,
+    "endTimeTs": 593.3
+  },
+  {
+    "speakerName": "Priya Patel",
+    "timestamp": 594.5,
+    "endTimeTs": 607.7
+  },
+  {
+    "speakerName": "Damien Rowe",
+    "timestamp": 609.1,
+    "endTimeTs": 610.6
+  }
+]

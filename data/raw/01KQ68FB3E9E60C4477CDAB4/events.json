@@ -1,0 +1,50 @@
+[
+  {
+    "participantName": "Ananya Sharma",
+    "timestamp": 1775065516000,
+    "type": "Join",
+    "time": 16.0
+  },
+  {
+    "participantName": "Nina Kowalski",
+    "timestamp": 1775065521000,
+    "type": "Join",
+    "time": 21.0
+  },
+  {
+    "participantName": "Mike Romano",
+    "timestamp": 1775065527000,
+    "type": "Join",
+    "time": 27.0
+  },
+  {
+    "participantName": "Ravi Gupta",
+    "timestamp": 1775065528000,
+    "type": "Join",
+    "time": 28.0
+  },
+  {
+    "participantName": "Ananya Sharma",
+    "timestamp": 1775067269000,
+    "type": "Leave",
+    "time": 1769.0
+  },
+  {
+    "participantName": "Ravi Gupta",
+    "timestamp": 1775067262000,
+    "type": "Leave",
+    "time": 1762.0
+  },
+  {
+    "participantName": "Mike Romano",
+    "timestamp": 1775067247000,
+    "type": "Leave",
+    "time": 1747.0
+  },
+  {
+    "participantName": "Nina Kowalski",
+    "timestamp": 1775067246000,
+    "type": "Leave",
+    "time": 1746.0
+  }
+]

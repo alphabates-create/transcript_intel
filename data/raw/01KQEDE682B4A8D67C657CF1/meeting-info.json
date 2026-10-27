@@ -1,0 +1,19 @@
+{
+  "meetingId": "01KQEDE682B4A8D67C657CF1",
+  "title": "Support Case #3103 - Silverline Brands Detect False Positives After Patch",
+  "organizerEmail": "sarah.chen@aegiscloud.com",
+  "host": "sarah.chen@aegiscloud.com",
+  "startTime": "2026-03-16T16:15:00.000Z",
+  "endTime": "2026-03-16T16:28:48.000Z",
+  "duration": 13.8,
+  "allEmails": [
+    "sarah.chen@aegiscloud.com",
+    "d.flores@silverlinebrands.com",
+    "m.tan@silverlinebrands.com"
+  ],
+  "invitees": [
+    "sarah.chen@aegiscloud.com",
+    "d.flores@silverlinebrands.com",
+    "m.tan@silverlinebrands.com"
+  ]
+}

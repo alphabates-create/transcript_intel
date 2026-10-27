@@ -1,0 +1,46 @@
+{
+  "summary": "Aisha Johnson (CSM) held a renewal planning call with Ryan Caldwell and Mina Joshi ahead of their end-of-May contract anniversary. The customer expressed strong overall satisfaction with the platform, particularly with the Identity and Comply v2 modules, while acknowledging the March Detect outage was serious but handled well. Aisha presented a three-year renewal proposal featuring an elastic seat model and enterprise API tier, and the conversation surfaced a previously unknown streaming endpoint that could solve a latency issue in the customer's internal alerting pipeline. The call concluded positively with clear next steps including a formal proposal, a technical deep dive, and looping in finance and legal for final approval.",
+  "actionItems": [
+    "Aisha Johnson: Send formal three-year proposal with elastic seat model, enterprise API tier, and QBR cadence by end of next week",
+    "Aisha Johnson: Send scheduling link today for technical deep dive on streaming API endpoint with a solutions engineer for early next week",
+    "Aisha Johnson: Set up a dedicated ISO 27001 readiness walkthrough session with the compliance team closer to the customer's 2027 certification timeline",
+    "Ryan Caldwell: Loop in VP of Finance and legal team on the renewal proposal for final sign-off and contract language review"
+  ],
+  "topics": [
+    "renewal",
+    "contract negotiation",
+    "api rate limits",
+    "compliance reporting",
+    "platform outage",
+    "competitive displacement"
+  ],
+  "overallSentiment": "mixed-positive",
+  "sentimentScore": 4.2,
+  "keyMoments": [
+    {
+      "time": 390.0,
+      "text": "Ryan acknowledges the March 6-hour Detect outage was unacceptable but praises the communication and transparency during and after the incident",
+      "type": "positive_pivot",
+      "speaker": "Ryan Caldwell"
+    },
+    {
+      "time": 780.0,
+      "text": "Mina describes Comply v2 on-demand SOC 2 reporting and multi-framework support as a game changer, replacing multiple tools",
+      "type": "praise",
+      "speaker": "Mina Joshi"
+    },
+    {
+      "time": 1110.0,
+      "text": "Mina flags API rate limit issues with the Detect integration, revealing a feature gap that has been causing friction in their internal alerting pipeline",
+      "type": "feature_gap",
+      "speaker": "Mina Joshi"
+    },
+    {
+      "time": 1260.0,
+      "text": "Ryan discloses inbound outreach from competitors SentinelShield and VaultEdge but affirms the platform consolidation value proposition keeps Aegis ahead",
+      "type": "churn_signal",
+      "speaker": "Ryan Caldwell"
+    }
+  ],
+  "meetingId": "01KQ410FB7E434BA3F99EE7D"
+}

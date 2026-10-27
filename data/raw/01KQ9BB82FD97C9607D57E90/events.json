@@ -1,0 +1,26 @@
+[
+  {
+    "participantName": "Maria Santos",
+    "timestamp": 1770202841000,
+    "type": "Join",
+    "time": 41.0
+  },
+  {
+    "participantName": "Vanessa Cruz",
+    "timestamp": 1770202854000,
+    "type": "Join",
+    "time": 54.0
+  },
+  {
+    "participantName": "Maria Santos",
+    "timestamp": 1770204629000,
+    "type": "Leave",
+    "time": 1829.0
+  },
+  {
+    "participantName": "Vanessa Cruz",
+    "timestamp": 1770204619000,
+    "type": "Leave",
+    "time": 1819.0
+  }
+]

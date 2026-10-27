@@ -1,0 +1,46 @@
+{
+  "summary": "Mike Romano led a Q2 quarterly planning call for the Protect product with Ananya Sharma, Ravi Gupta, and Sofia Petrov. The team discussed three main initiatives: a 30%+ improvement to incremental backup performance targeting a late April canary rollout, a redesigned restore wizard UX that enables search-first file recovery, and multi-region replication which was scoped to Q3 rather than Q2 to avoid overpromising. The team also agreed to carve out capacity for tech debt work in the backup scheduler during Q2.",
+  "actionItems": [
+    "Ananya Sharma: Write a technical brief explaining Q2 incremental backup work and how it sets up multi-region replication for Q3",
+    "Sofia Petrov: Share Figma prototype link for the new restore wizard in the planning doc",
+    "Ravi Gupta: Review current pipeline config and post notes on scheduling file index updates without contention with backup jobs",
+    "Mike Romano: Update the planning doc with meeting outcomes and send a summary to the channel"
+  ],
+  "topics": [
+    "quarterly planning",
+    "incremental backup performance",
+    "restore ux improvement",
+    "multi-region replication",
+    "canary deployment",
+    "tech debt"
+  ],
+  "overallSentiment": "positive",
+  "sentimentScore": 4.4,
+  "keyMoments": [
+    {
+      "time": 112.0,
+      "text": "Ananya shares benchmark results showing a 30%+ reduction in backup window times, calling it significant for customers with large data sets.",
+      "type": "positive_pivot",
+      "speaker": "Ananya Sharma"
+    },
+    {
+      "time": 245.0,
+      "text": "Sofia identifies the clunky multi-step restore UX as a pain point backed by support tickets, signaling a meaningful feature gap.",
+      "type": "feature_gap",
+      "speaker": "Sofia Petrov"
+    },
+    {
+      "time": 390.0,
+      "text": "Ananya pushes back on putting multi-region replication in Q2, recommending an honest Q3 target to avoid overpromising to enterprise sales.",
+      "type": "concern",
+      "speaker": "Ananya Sharma"
+    },
+    {
+      "time": 530.0,
+      "text": "Ravi requests dedicated Q2 capacity for tech debt in the backup scheduler, noting it is slowing down feature development.",
+      "type": "technical_issue",
+      "speaker": "Ravi Gupta"
+    }
+  ],
+  "meetingId": "01KQAC572C34475A8791F2C3"
+}

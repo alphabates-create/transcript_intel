@@ -1,0 +1,217 @@
+[
+  {
+    "speakerName": "Alex Reyes",
+    "timestamp": 6.3,
+    "endTimeTs": 10.4
+  },
+  {
+    "speakerName": "Nina Kowalski",
+    "timestamp": 11.1,
+    "endTimeTs": 17.4
+  },
+  {
+    "speakerName": "Jordan Whitfield",
+    "timestamp": 18.8,
+    "endTimeTs": 21.1
+  },
+  {
+    "speakerName": "Alex Reyes",
+    "timestamp": 21.7,
+    "endTimeTs": 30.2
+  },
+  {
+    "speakerName": "Jordan Whitfield",
+    "timestamp": 31.0,
+    "endTimeTs": 33.4
+  },
+  {
+    "speakerName": "Nina Kowalski",
+    "timestamp": 34.1,
+    "endTimeTs": 40.2
+  },
+  {
+    "speakerName": "Alex Reyes",
+    "timestamp": 41.7,
+    "endTimeTs": 56.3
+  },
+  {
+    "speakerName": "Nina Kowalski",
+    "timestamp": 56.7,
+    "endTimeTs": 59.8
+  },
+  {
+    "speakerName": "Jordan Whitfield",
+    "timestamp": 60.3,
+    "endTimeTs": 66.0
+  },
+  {
+    "speakerName": "Alex Reyes",
+    "timestamp": 66.9,
+    "endTimeTs": 77.7
+  },
+  {
+    "speakerName": "Nina Kowalski",
+    "timestamp": 79.1,
+    "endTimeTs": 92.1
+  },
+  {
+    "speakerName": "Alex Reyes",
+    "timestamp": 92.5,
+    "endTimeTs": 95.9
+  },
+  {
+    "speakerName": "Nina Kowalski",
+    "timestamp": 96.5,
+    "endTimeTs": 113.4
+  },
+  {
+    "speakerName": "Alex Reyes",
+    "timestamp": 114.4,
+    "endTimeTs": 119.8
+  },
+  {
+    "speakerName": "Nina Kowalski",
+    "timestamp": 120.2,
+    "endTimeTs": 132.3
+  },
+  {
+    "speakerName": "Jordan Whitfield",
+    "timestamp": 133.1,
+    "endTimeTs": 148.6
+  },
+  {
+    "speakerName": "Alex Reyes",
+    "timestamp": 149.6,
+    "endTimeTs": 155.6
+  },
+  {
+    "speakerName": "Jordan Whitfield",
+    "timestamp": 156.7,
+    "endTimeTs": 162.9
+  },
+  {
+    "speakerName": "Alex Reyes",
+    "timestamp": 163.9,
+    "endTimeTs": 167.6
+  },
+  {
+    "speakerName": "Nina Kowalski",
+    "timestamp": 169.0,
+    "endTimeTs": 175.8
+  },
+  {
+    "speakerName": "Alex Reyes",
+    "timestamp": 177.0,
+    "endTimeTs": 187.2
+  },
+  {
+    "speakerName": "Jordan Whitfield",
+    "timestamp": 188.3,
+    "endTimeTs": 204.3
+  },
+  {
+    "speakerName": "Nina Kowalski",
+    "timestamp": 205.1,
+    "endTimeTs": 211.6
+  },
+  {
+    "speakerName": "Jordan Whitfield",
+    "timestamp": 212.9,
+    "endTimeTs": 230.5
+  },
+  {
+    "speakerName": "Alex Reyes",
+    "timestamp": 231.6,
+    "endTimeTs": 240.7
+  },
+  {
+    "speakerName": "Jordan Whitfield",
+    "timestamp": 241.7,
+    "endTimeTs": 253.6
+  },
+  {
+    "speakerName": "Alex Reyes",
+    "timestamp": 254.5,
+    "endTimeTs": 265.5
+  },
+  {
+    "speakerName": "Nina Kowalski",
+    "timestamp": 266.1,
+    "endTimeTs": 268.7
+  },
+  {
+    "speakerName": "Alex Reyes",
+    "timestamp": 269.3,
+    "endTimeTs": 288.8
+  },
+  {
+    "speakerName": "Nina Kowalski",
+    "timestamp": 289.3,
+    "endTimeTs": 303.0
+  },
+  {
+    "speakerName": "Jordan Whitfield",
+    "timestamp": 303.5,
+    "endTimeTs": 317.9
+  },
+  {
+    "speakerName": "Alex Reyes",
+    "timestamp": 318.6,
+    "endTimeTs": 332.1
+  },
+  {
+    "speakerName": "Nina Kowalski",
+    "timestamp": 332.6,
+    "endTimeTs": 345.9
+  },
+  {
+    "speakerName": "Alex Reyes",
+    "timestamp": 346.5,
+    "endTimeTs": 350.8
+  },
+  {
+    "speakerName": "Nina Kowalski",
+    "timestamp": 351.9,
+    "endTimeTs": 360.1
+  },
+  {
+    "speakerName": "Alex Reyes",
+    "timestamp": 360.5,
+    "endTimeTs": 372.1
+  },
+  {
+    "speakerName": "Jordan Whitfield",
+    "timestamp": 372.5,
+    "endTimeTs": 392.1
+  },
+  {
+    "speakerName": "Nina Kowalski",
+    "timestamp": 393.2,
+    "endTimeTs": 399.9
+  },
+  {
+    "speakerName": "Jordan Whitfield",
+    "timestamp": 401.4,
+    "endTimeTs": 412.2
+  },
+  {
+    "speakerName": "Alex Reyes",
+    "timestamp": 413.4,
+    "endTimeTs": 431.2
+  },
+  {
+    "speakerName": "Nina Kowalski",
+    "timestamp": 432.2,
+    "endTimeTs": 435.2
+  },
+  {
+    "speakerName": "Jordan Whitfield",
+    "timestamp": 436.3,
+    "endTimeTs": 441.2
+  },
+  {
+    "speakerName": "Alex Reyes",
+    "timestamp": 442.5,
+    "endTimeTs": 445.2
+  }
+]

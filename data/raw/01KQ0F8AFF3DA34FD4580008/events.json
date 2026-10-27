@@ -1,0 +1,26 @@
+[
+  {
+    "participantName": "Lisa Park",
+    "timestamp": 1775916909000,
+    "type": "Join",
+    "time": 9.0
+  },
+  {
+    "participantName": "Lauren Bishop",
+    "timestamp": 1775916927000,
+    "type": "Join",
+    "time": 27.0
+  },
+  {
+    "participantName": "Lisa Park",
+    "timestamp": 1775919372000,
+    "type": "Leave",
+    "time": 2472.0
+  },
+  {
+    "participantName": "Lauren Bishop",
+    "timestamp": 1775919353000,
+    "type": "Leave",
+    "time": 2453.0
+  }
+]

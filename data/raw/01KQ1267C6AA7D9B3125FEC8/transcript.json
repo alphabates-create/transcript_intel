@@ -1,0 +1,574 @@
+{
+  "data": [
+    {
+      "sentence": "Alright, I think we've got everyone on. Let me just do a quick roll call \u2014 Tyler, Raj, Ravi, Brian, Mike \u2014 okay yeah looks like we're all here.",
+      "speaker_name": "Raj Kapoor",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 7.1,
+      "endTime": 17.5,
+      "averageConfidence": 0.97,
+      "index": 0
+    },
+    {
+      "sentence": "Yep, I'm here.",
+      "speaker_name": "Tyler Washington",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 18.1,
+      "endTime": 19.6,
+      "averageConfidence": 0.93,
+      "index": 1
+    },
+    {
+      "sentence": "Here.",
+      "speaker_name": "Ravi Gupta",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 20.0,
+      "endTime": 21.5,
+      "averageConfidence": 0.94,
+      "index": 2
+    },
+    {
+      "sentence": "Yeah, good to go.",
+      "speaker_name": "Brian Cho",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 22.4,
+      "endTime": 24.0,
+      "averageConfidence": 0.91,
+      "index": 3
+    },
+    {
+      "sentence": "Here, sorry I'm like thirty seconds late, had a thing.",
+      "speaker_name": "Mike Romano",
+      "sentimentType": "neutral",
+      "speaker_id": 4,
+      "time": 24.7,
+      "endTime": 28.6,
+      "averageConfidence": 0.95,
+      "index": 4
+    },
+    {
+      "sentence": "No worries. Okay so, the reason I pulled everyone together today \u2014 as you all know we've got our SOC 2 Type II audit window coming up, and I want to make sure we're not scrambling at the last minute. The auditors are going to want evidence going back several months so we need to be organized now.",
+      "speaker_name": "Raj Kapoor",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 29.6,
+      "endTime": 49.8,
+      "averageConfidence": 0.9,
+      "index": 5
+    },
+    {
+      "sentence": "Do we have the audit window confirmed? Last I heard it was still tentative.",
+      "speaker_name": "Tyler Washington",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 50.7,
+      "endTime": 55.5,
+      "averageConfidence": 0.96,
+      "index": 6
+    },
+    {
+      "sentence": "Yeah, it got confirmed last week. We're looking at a roughly ninety-day observation period, starting March first and running through end of May. Auditors will do their fieldwork in June.",
+      "speaker_name": "Raj Kapoor",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 56.1,
+      "endTime": 66.7,
+      "averageConfidence": 0.92,
+      "index": 7
+    },
+    {
+      "sentence": "Okay, so we've got like three days before the observation period actually kicks off. That's not a ton of runway.",
+      "speaker_name": "Mike Romano",
+      "sentimentType": "negative",
+      "speaker_id": 4,
+      "time": 67.8,
+      "endTime": 74.9,
+      "averageConfidence": 0.93,
+      "index": 8
+    },
+    {
+      "sentence": "Right, which is why we're doing this now. I want to go through the key control areas and figure out who owns what. Tyler, I was going to start with you on the access control and change management side.",
+      "speaker_name": "Raj Kapoor",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 75.5,
+      "endTime": 89.4,
+      "averageConfidence": 0.91,
+      "index": 9
+    },
+    {
+      "sentence": "Sure. So for access control, I think we're in pretty decent shape. We've got access reviews running quarterly, last one was \u2014 uh, I want to say January fifteenth? I'd have to double-check the exact date. And we're logging provisioning and deprovisioning events through Aegis Identity.",
+      "speaker_name": "Tyler Washington",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 90.8,
+      "endTime": 106.7,
+      "averageConfidence": 0.96,
+      "index": 10
+    },
+    {
+      "sentence": "Are those logs being retained for the right duration? SOC 2 auditors are going to want to see at minimum a year of retention depending on the trust service criteria.",
+      "speaker_name": "Mike Romano",
+      "sentimentType": "neutral",
+      "speaker_id": 4,
+      "time": 107.4,
+      "endTime": 117.7,
+      "averageConfidence": 0.91,
+      "index": 11
+    },
+    {
+      "sentence": "That's actually a good question. Ravi, you're closer to the logging infrastructure \u2014 what are we configured to right now?",
+      "speaker_name": "Tyler Washington",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 118.6,
+      "endTime": 126.0,
+      "averageConfidence": 0.91,
+      "index": 12
+    },
+    {
+      "sentence": "So right now I believe we're at thirteen months retention for the identity and access logs specifically. I set that up back in Q3. For the broader system logs it's a bit more varied \u2014 some are at ninety days, some at a year. I can pull together a full inventory this week if that's helpful.",
+      "speaker_name": "Ravi Gupta",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 126.6,
+      "endTime": 146.0,
+      "averageConfidence": 0.95,
+      "index": 13
+    },
+    {
+      "sentence": "Yeah, please do that. And flag anything that's under a year, we should probably normalize that before March first if we can.",
+      "speaker_name": "Raj Kapoor",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 146.9,
+      "endTime": 154.7,
+      "averageConfidence": 0.93,
+      "index": 14
+    },
+    {
+      "sentence": "I can have something by Wednesday.",
+      "speaker_name": "Ravi Gupta",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 155.7,
+      "endTime": 158.1,
+      "averageConfidence": 0.92,
+      "index": 15
+    },
+    {
+      "sentence": "Perfect. Okay, change management \u2014 Tyler, where are we on that?",
+      "speaker_name": "Raj Kapoor",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 159.3,
+      "endTime": 163.0,
+      "averageConfidence": 0.93,
+      "index": 16
+    },
+    {
+      "sentence": "So we've got the change advisory board process documented, and most production deploys are going through the proper approval workflow in Jira. The one gap I'm a little worried about is the hotfix process \u2014 we've had a few cases where engineers pushed directly to prod without a formal ticket and then backdated the documentation.",
+      "speaker_name": "Tyler Washington",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 164.2,
+      "endTime": 183.5,
+      "averageConfidence": 0.88,
+      "index": 17
+    },
+    {
+      "sentence": "Yeah, that's going to be a problem. Auditors will look at commit history and deployment logs and they'll see the timing doesn't line up.",
+      "speaker_name": "Mike Romano",
+      "sentimentType": "negative",
+      "speaker_id": 4,
+      "time": 184.3,
+      "endTime": 193.1,
+      "averageConfidence": 0.96,
+      "index": 18
+    },
+    {
+      "sentence": "It happened, I think, twice in the past quarter. Both times it was legitimate emergencies but still \u2014 the process wasn't followed.",
+      "speaker_name": "Tyler Washington",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 193.7,
+      "endTime": 201.9,
+      "averageConfidence": 0.92,
+      "index": 19
+    },
+    {
+      "sentence": "We need to tighten that up going forward during the observation period. Can we add a gate in the CI/CD pipeline so that anything touching production requires a ticket reference? Like, a hard gate, not just a reminder.",
+      "speaker_name": "Raj Kapoor",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 202.3,
+      "endTime": 215.5,
+      "averageConfidence": 0.93,
+      "index": 20
+    },
+    {
+      "sentence": "Yeah that's doable. I can build that out. It'll probably take me a day or two, I'd want to test it in staging first so we don't break the deployment pipeline.",
+      "speaker_name": "Ravi Gupta",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 216.5,
+      "endTime": 227.2,
+      "averageConfidence": 0.91,
+      "index": 21
+    },
+    {
+      "sentence": "Good. Let's get that in before March first. Brian, I want to pull you in here \u2014 from a support perspective, do you have visibility into how incidents are being tracked and escalated? That's going to come up under the availability trust service criteria.",
+      "speaker_name": "Raj Kapoor",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 227.7,
+      "endTime": 243.3,
+      "averageConfidence": 0.93,
+      "index": 22
+    },
+    {
+      "sentence": "Yeah so we use PagerDuty for alerting and Zendesk for the customer-facing ticket side. I'd say the process is reasonably well documented. The thing I want to flag is that we don't always have great linkage between a customer ticket and the underlying incident record. Like, if a customer reports something and we tie it to a system incident, that connection isn't always formally captured.",
+      "speaker_name": "Brian Cho",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 244.4,
+      "endTime": 267.6,
+      "averageConfidence": 0.89,
+      "index": 23
+    },
+    {
+      "sentence": "Is that a manual process right now or is there supposed to be an integration?",
+      "speaker_name": "Mike Romano",
+      "sentimentType": "neutral",
+      "speaker_id": 4,
+      "time": 268.6,
+      "endTime": 274.1,
+      "averageConfidence": 0.88,
+      "index": 24
+    },
+    {
+      "sentence": "It's supposed to be integrated but honestly it's kind of broken. The Zendesk to PagerDuty link works maybe sixty percent of the time. My team has been working around it manually.",
+      "speaker_name": "Brian Cho",
+      "sentimentType": "negative",
+      "speaker_id": 3,
+      "time": 275.3,
+      "endTime": 285.9,
+      "averageConfidence": 0.89,
+      "index": 25
+    },
+    {
+      "sentence": "Okay, that's a gap we need to address. Even if the auditors don't specifically flag the integration, if they pull a sample of incidents and can't trace them end to end, that's going to be a finding.",
+      "speaker_name": "Raj Kapoor",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 287.2,
+      "endTime": 300.1,
+      "averageConfidence": 0.92,
+      "index": 26
+    },
+    {
+      "sentence": "I agree. I've been meaning to get someone to look at that integration for like two months, it just keeps getting deprioritized.",
+      "speaker_name": "Brian Cho",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 300.9,
+      "endTime": 308.8,
+      "averageConfidence": 0.9,
+      "index": 27
+    },
+    {
+      "sentence": "Mike, can you take a look at the Zendesk PagerDuty integration and see what's going on? I don't want to put more on Ravi's plate.",
+      "speaker_name": "Raj Kapoor",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 309.4,
+      "endTime": 318.1,
+      "averageConfidence": 0.96,
+      "index": 28
+    },
+    {
+      "sentence": "Yeah, I can take that. I'll coordinate with Brian to understand what's actually failing. My guess is it's probably an API auth token that expired or something like that, but I won't know until I look.",
+      "speaker_name": "Mike Romano",
+      "sentimentType": "neutral",
+      "speaker_id": 4,
+      "time": 318.6,
+      "endTime": 331.2,
+      "averageConfidence": 0.89,
+      "index": 29
+    },
+    {
+      "sentence": "That would actually make sense, we rotated some credentials in December.",
+      "speaker_name": "Brian Cho",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 332.4,
+      "endTime": 336.4,
+      "averageConfidence": 0.88,
+      "index": 30
+    },
+    {
+      "sentence": "Yeah, I'll take a look. Should be fixable pretty quickly if that's the case.",
+      "speaker_name": "Mike Romano",
+      "sentimentType": "neutral",
+      "speaker_id": 4,
+      "time": 337.6,
+      "endTime": 342.3,
+      "averageConfidence": 0.93,
+      "index": 31
+    },
+    {
+      "sentence": "Okay good. Let me pivot to monitoring and threat detection. We use Aegis Detect for that internally \u2014 Ravi, what's the state of our alerting coverage? Are we logging the right events?",
+      "speaker_name": "Raj Kapoor",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 342.8,
+      "endTime": 354.0,
+      "averageConfidence": 0.92,
+      "index": 32
+    },
+    {
+      "sentence": "So coverage is pretty good overall. We're monitoring login anomalies, privilege escalations, API rate limit breaches, network egress outliers \u2014 basically the standard playbook. One thing I've been meaning to raise is that we have some alert fatigue going on. The tuning hasn't been updated in a while and we're getting a lot of low-signal alerts that people are starting to ignore.",
+      "speaker_name": "Ravi Gupta",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 354.5,
+      "endTime": 376.2,
+      "averageConfidence": 0.9,
+      "index": 33
+    },
+    {
+      "sentence": "That's actually a risk from an audit perspective too. If auditors see a bunch of unacknowledged alerts in the system that's going to raise questions about whether we're actually reviewing them.",
+      "speaker_name": "Tyler Washington",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 377.1,
+      "endTime": 388.4,
+      "averageConfidence": 0.91,
+      "index": 34
+    },
+    {
+      "sentence": "Exactly. I'd like to do a tuning pass before the observation period starts. Maybe a half-day exercise where we go through the alert configs and suppress or recategorize the noisy ones.",
+      "speaker_name": "Ravi Gupta",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 389.1,
+      "endTime": 400.4,
+      "averageConfidence": 0.91,
+      "index": 35
+    },
+    {
+      "sentence": "Let's schedule that. Who needs to be in that session?",
+      "speaker_name": "Raj Kapoor",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 401.2,
+      "endTime": 404.6,
+      "averageConfidence": 0.96,
+      "index": 36
+    },
+    {
+      "sentence": "Me, Tyler probably, and it might be worth having Brian there since some of the alerts feed into the support escalation queue.",
+      "speaker_name": "Ravi Gupta",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 405.8,
+      "endTime": 413.6,
+      "averageConfidence": 0.91,
+      "index": 37
+    },
+    {
+      "sentence": "Works for me. Let's try to do that Tuesday or Wednesday this week.",
+      "speaker_name": "Brian Cho",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 414.6,
+      "endTime": 419.4,
+      "averageConfidence": 0.88,
+      "index": 38
+    },
+    {
+      "sentence": "Okay I'll send a calendar invite. Now \u2014 vendor management and third-party risk. This is one that I feel like we always underinvest in until an auditor asks about it. Do we have current SOC 2 reports for our critical vendors?",
+      "speaker_name": "Raj Kapoor",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 420.8,
+      "endTime": 435.6,
+      "averageConfidence": 0.9,
+      "index": 39
+    },
+    {
+      "sentence": "Uh, I know we have CloudPrime's compliance reports and we have something for Zendesk but it might be out of date. I'd have to check.",
+      "speaker_name": "Tyler Washington",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 436.1,
+      "endTime": 444.8,
+      "averageConfidence": 0.88,
+      "index": 40
+    },
+    {
+      "sentence": "Yeah that's something we should inventory. I can take a first pass at it \u2014 I'll pull together a list of our critical third-party vendors and check what compliance documentation we have on file versus what's missing.",
+      "speaker_name": "Mike Romano",
+      "sentimentType": "neutral",
+      "speaker_id": 4,
+      "time": 445.7,
+      "endTime": 458.9,
+      "averageConfidence": 0.89,
+      "index": 41
+    },
+    {
+      "sentence": "That would be great. We also need to make sure we have BAAs in place for anything that touches customer data. I know that's more of a legal thing but someone needs to chase it down.",
+      "speaker_name": "Raj Kapoor",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 459.6,
+      "endTime": 472.1,
+      "averageConfidence": 0.88,
+      "index": 42
+    },
+    {
+      "sentence": "I can loop in legal and make sure those are accounted for. That's probably a quick check.",
+      "speaker_name": "Tyler Washington",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 473.0,
+      "endTime": 478.9,
+      "averageConfidence": 0.91,
+      "index": 43
+    },
+    {
+      "sentence": "Good. Okay, let me just summarize what we've got so far in terms of action items. Ravi, you're doing the log retention inventory by Wednesday and the CI/CD gate for production deployments before March first. Mike, you're looking at the Zendesk PagerDuty integration and taking a pass at the vendor compliance documentation. Tyler, you're following up with legal on BAAs and keeping the access review records organized. Brian, you're participating in the alert tuning session. Does that all sound right?",
+      "speaker_name": "Raj Kapoor",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 479.3,
+      "endTime": 507.2,
+      "averageConfidence": 0.91,
+      "index": 44
+    },
+    {
+      "sentence": "That tracks for me.",
+      "speaker_name": "Ravi Gupta",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 507.7,
+      "endTime": 509.3,
+      "averageConfidence": 0.9,
+      "index": 45
+    },
+    {
+      "sentence": "Yep.",
+      "speaker_name": "Mike Romano",
+      "sentimentType": "neutral",
+      "speaker_id": 4,
+      "time": 510.2,
+      "endTime": 511.7,
+      "averageConfidence": 0.92,
+      "index": 46
+    },
+    {
+      "sentence": "Good with me.",
+      "speaker_name": "Tyler Washington",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 512.2,
+      "endTime": 513.7,
+      "averageConfidence": 0.95,
+      "index": 47
+    },
+    {
+      "sentence": "Same.",
+      "speaker_name": "Brian Cho",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 514.1,
+      "endTime": 515.6,
+      "averageConfidence": 0.94,
+      "index": 48
+    },
+    {
+      "sentence": "One more thing I want to raise before we wrap up \u2014 employee security training. Auditors consistently ask about this. Do we have completion records for security awareness training for all staff?",
+      "speaker_name": "Raj Kapoor",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 516.8,
+      "endTime": 528.0,
+      "averageConfidence": 0.89,
+      "index": 49
+    },
+    {
+      "sentence": "We ran a training in November and I believe we got pretty close to a hundred percent completion but there were a handful of people who didn't finish it. I'm not sure if we ever followed up.",
+      "speaker_name": "Tyler Washington",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 529.3,
+      "endTime": 542.0,
+      "averageConfidence": 0.94,
+      "index": 50
+    },
+    {
+      "sentence": "That handful is going to matter to an auditor. If there are any outstanding completions we need to chase those down and document that we followed up, even if we can't get everyone to retroactively complete it.",
+      "speaker_name": "Mike Romano",
+      "sentimentType": "neutral",
+      "speaker_id": 4,
+      "time": 543.0,
+      "endTime": 555.6,
+      "averageConfidence": 0.94,
+      "index": 51
+    },
+    {
+      "sentence": "Agreed. Tyler, can you pull the completion report from our LMS and send it around? We can figure out who still needs to complete it and decide if we want to issue a new training cycle or just document the exceptions.",
+      "speaker_name": "Raj Kapoor",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 556.7,
+      "endTime": 571.1,
+      "averageConfidence": 0.92,
+      "index": 52
+    },
+    {
+      "sentence": "Yeah, I'll get that today.",
+      "speaker_name": "Tyler Washington",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 571.4,
+      "endTime": 573.5,
+      "averageConfidence": 0.95,
+      "index": 53
+    },
+    {
+      "sentence": "Alright. I think we're in reasonable shape but there's clearly work to do before March first. Let's plan to do a quick check-in next Friday to see where things stand. I'll set up a shared tracker so everyone can update their items.",
+      "speaker_name": "Raj Kapoor",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 573.9,
+      "endTime": 589.1,
+      "averageConfidence": 0.95,
+      "index": 54
+    },
+    {
+      "sentence": "That works. I'll keep an eye on the tracker.",
+      "speaker_name": "Brian Cho",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 590.0,
+      "endTime": 593.4,
+      "averageConfidence": 0.97,
+      "index": 55
+    },
+    {
+      "sentence": "Okay, I think that's everything for today. Thanks everyone, let's get this stuff done.",
+      "speaker_name": "Raj Kapoor",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 594.7,
+      "endTime": 599.4,
+      "averageConfidence": 0.92,
+      "index": 56
+    }
+  ]
+}

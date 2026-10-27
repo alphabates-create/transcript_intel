@@ -1,0 +1,207 @@
+[
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 4.0,
+    "endTimeTs": 12.1
+  },
+  {
+    "speakerName": "Catherine Page",
+    "timestamp": 12.8,
+    "endTimeTs": 22.9
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 24.4,
+    "endTimeTs": 33.5
+  },
+  {
+    "speakerName": "Russell Tang",
+    "timestamp": 33.9,
+    "endTimeTs": 44.5
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 44.9,
+    "endTimeTs": 64.3
+  },
+  {
+    "speakerName": "Catherine Page",
+    "timestamp": 65.4,
+    "endTimeTs": 81.6
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 82.1,
+    "endTimeTs": 91.4
+  },
+  {
+    "speakerName": "Catherine Page",
+    "timestamp": 92.1,
+    "endTimeTs": 100.8
+  },
+  {
+    "speakerName": "Russell Tang",
+    "timestamp": 101.8,
+    "endTimeTs": 125.5
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 126.4,
+    "endTimeTs": 146.9
+  },
+  {
+    "speakerName": "Russell Tang",
+    "timestamp": 148.0,
+    "endTimeTs": 162.6
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 163.1,
+    "endTimeTs": 187.2
+  },
+  {
+    "speakerName": "Catherine Page",
+    "timestamp": 188.4,
+    "endTimeTs": 212.4
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 213.0,
+    "endTimeTs": 224.0
+  },
+  {
+    "speakerName": "Russell Tang",
+    "timestamp": 224.4,
+    "endTimeTs": 232.0
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 233.0,
+    "endTimeTs": 247.8
+  },
+  {
+    "speakerName": "Catherine Page",
+    "timestamp": 249.2,
+    "endTimeTs": 266.9
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 267.7,
+    "endTimeTs": 289.2
+  },
+  {
+    "speakerName": "Russell Tang",
+    "timestamp": 290.2,
+    "endTimeTs": 292.0
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 293.3,
+    "endTimeTs": 307.4
+  },
+  {
+    "speakerName": "Catherine Page",
+    "timestamp": 307.9,
+    "endTimeTs": 318.0
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 319.3,
+    "endTimeTs": 335.4
+  },
+  {
+    "speakerName": "Catherine Page",
+    "timestamp": 336.4,
+    "endTimeTs": 346.9
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 348.0,
+    "endTimeTs": 351.9
+  },
+  {
+    "speakerName": "Catherine Page",
+    "timestamp": 352.7,
+    "endTimeTs": 359.2
+  },
+  {
+    "speakerName": "Russell Tang",
+    "timestamp": 360.4,
+    "endTimeTs": 376.4
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 377.9,
+    "endTimeTs": 397.6
+  },
+  {
+    "speakerName": "Russell Tang",
+    "timestamp": 398.0,
+    "endTimeTs": 403.1
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 404.4,
+    "endTimeTs": 430.4
+  },
+  {
+    "speakerName": "Russell Tang",
+    "timestamp": 431.3,
+    "endTimeTs": 433.8
+  },
+  {
+    "speakerName": "Catherine Page",
+    "timestamp": 434.7,
+    "endTimeTs": 452.9
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 454.0,
+    "endTimeTs": 467.7
+  },
+  {
+    "speakerName": "Catherine Page",
+    "timestamp": 468.6,
+    "endTimeTs": 490.0
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 491.5,
+    "endTimeTs": 516.1
+  },
+  {
+    "speakerName": "Catherine Page",
+    "timestamp": 517.2,
+    "endTimeTs": 519.7
+  },
+  {
+    "speakerName": "Russell Tang",
+    "timestamp": 520.4,
+    "endTimeTs": 521.9
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 522.4,
+    "endTimeTs": 544.4
+  },
+  {
+    "speakerName": "Catherine Page",
+    "timestamp": 545.5,
+    "endTimeTs": 558.7
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 559.2,
+    "endTimeTs": 569.4
+  },
+  {
+    "speakerName": "Russell Tang",
+    "timestamp": 570.9,
+    "endTimeTs": 573.6
+  },
+  {
+    "speakerName": "Catherine Page",
+    "timestamp": 574.0,
+    "endTimeTs": 575.6
+  }
+]

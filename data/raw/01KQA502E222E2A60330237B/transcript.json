@@ -1,0 +1,444 @@
+{
+  "data": [
+    {
+      "sentence": "Alright, I think we've got everyone on \u2014 Yuki, can you hear us okay?",
+      "speaker_name": "Daniel Okafor",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 3.2,
+      "endTime": 8.3,
+      "averageConfidence": 0.88,
+      "index": 0
+    },
+    {
+      "sentence": "Yeah, loud and clear! Hey Daniel, hey everyone.",
+      "speaker_name": "Yuki Tanaka",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 8.8,
+      "endTime": 11.8,
+      "averageConfidence": 0.91,
+      "index": 1
+    },
+    {
+      "sentence": "Hey Yuki! Good to have you on. I've got Kevin and Ananya here with me today as well.",
+      "speaker_name": "Daniel Okafor",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 12.3,
+      "endTime": 18.6,
+      "averageConfidence": 0.9,
+      "index": 2
+    },
+    {
+      "sentence": "Hey Yuki, great to connect again \u2014 it's been a little while.",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 19.6,
+      "endTime": 24.0,
+      "averageConfidence": 0.95,
+      "index": 3
+    },
+    {
+      "sentence": "Kevin! Yeah it has, I think the last time we actually talked was, uh, what, back in December? The onboarding wrap-up call?",
+      "speaker_name": "Yuki Tanaka",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 25.2,
+      "endTime": 32.7,
+      "averageConfidence": 0.96,
+      "index": 4
+    },
+    {
+      "sentence": "That sounds about right, yeah. Time flies.",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 33.1,
+      "endTime": 35.8,
+      "averageConfidence": 0.97,
+      "index": 5
+    },
+    {
+      "sentence": "Hi Yuki, I'm Ananya \u2014 I joined the solutions engineering team back in January, so this is actually my first time connecting with you directly. Looking forward to the conversation.",
+      "speaker_name": "Ananya Sharma",
+      "sentimentType": "positive",
+      "speaker_id": 3,
+      "time": 37.3,
+      "endTime": 47.8,
+      "averageConfidence": 0.93,
+      "index": 6
+    },
+    {
+      "sentence": "Oh nice, welcome! Yeah, I'm sure Daniel's told you all about us \u2014 we're a fun bunch over here at Pineridge.",
+      "speaker_name": "Yuki Tanaka",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 48.7,
+      "endTime": 56.2,
+      "averageConfidence": 0.94,
+      "index": 7
+    },
+    {
+      "sentence": "He definitely has, all good things.",
+      "speaker_name": "Ananya Sharma",
+      "sentimentType": "positive",
+      "speaker_id": 3,
+      "time": 56.5,
+      "endTime": 58.6,
+      "averageConfidence": 0.92,
+      "index": 8
+    },
+    {
+      "sentence": "So Yuki, um, just to set the stage for today \u2014 we wanted to use this Q1 review to, you know, look back at how things have been going since you've been live on the platform, talk through where you're seeing value, and then we do want to get into some of the renewal conversation as well since that's coming up. Does that agenda work for you?",
+      "speaker_name": "Daniel Okafor",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 59.8,
+      "endTime": 83.3,
+      "averageConfidence": 0.91,
+      "index": 9
+    },
+    {
+      "sentence": "Yeah, absolutely, that's exactly what I was hoping we'd cover. I've actually got a few things I wanted to bring up too so I'll just, uh, weave those in as we go if that's alright.",
+      "speaker_name": "Yuki Tanaka",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 83.6,
+      "endTime": 95.8,
+      "averageConfidence": 0.93,
+      "index": 10
+    },
+    {
+      "sentence": "Perfect, please do. So let's start with \u2014 how has the overall experience been? Like, high level, how's the team feeling about Aegis so far?",
+      "speaker_name": "Daniel Okafor",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 96.6,
+      "endTime": 105.2,
+      "averageConfidence": 0.95,
+      "index": 11
+    },
+    {
+      "sentence": "Honestly? Pretty great. Like I'll be real with you \u2014 we evaluated a few different vendors before we went with Aegis, we were looking at SentinelShield pretty seriously, and I'm glad we went the direction we did. The platform has been solid.",
+      "speaker_name": "Yuki Tanaka",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 106.6,
+      "endTime": 121.3,
+      "averageConfidence": 0.89,
+      "index": 12
+    },
+    {
+      "sentence": "That's really good to hear. What's been the standout for your team?",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 122.2,
+      "endTime": 126.6,
+      "averageConfidence": 0.95,
+      "index": 13
+    },
+    {
+      "sentence": "Aegis Detect, hands down. The threat monitoring visibility we have now compared to what we were doing before \u2014 it's night and day. My team was spending so much time on manual log correlation and now we're just... getting alerts that actually matter. The signal-to-noise ratio is way better than I expected going in.",
+      "speaker_name": "Yuki Tanaka",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 128.0,
+      "endTime": 146.9,
+      "averageConfidence": 0.93,
+      "index": 14
+    },
+    {
+      "sentence": "That's awesome to hear, and that's honestly one of the things we hear most consistently from customers in the tech space \u2014 the alert fatigue problem is real and we spent a lot of time tuning the detection models for that.",
+      "speaker_name": "Ananya Sharma",
+      "sentimentType": "positive",
+      "speaker_id": 3,
+      "time": 148.2,
+      "endTime": 162.4,
+      "averageConfidence": 0.97,
+      "index": 15
+    },
+    {
+      "sentence": "Yeah it shows. I mean, we're a lean security team \u2014 it's basically me and two other engineers \u2014 so anything that reduces the noise is, like, genuinely mission critical for us.",
+      "speaker_name": "Yuki Tanaka",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 163.1,
+      "endTime": 174.4,
+      "averageConfidence": 0.96,
+      "index": 16
+    },
+    {
+      "sentence": "Totally makes sense. And how about Aegis Protect? I know the backup and recovery piece was a big part of the initial use case when we were scoping the deal.",
+      "speaker_name": "Daniel Okafor",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 175.1,
+      "endTime": 185.8,
+      "averageConfidence": 0.88,
+      "index": 17
+    },
+    {
+      "sentence": "Yeah, Protect has been good. We did a recovery test last month actually \u2014 like a planned DR drill \u2014 and uh, the RTO we hit was within what we needed. I think it was somewhere around the two hour mark for our primary workloads, which our engineering leadership was very happy about.",
+      "speaker_name": "Yuki Tanaka",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 186.5,
+      "endTime": 205.3,
+      "averageConfidence": 0.9,
+      "index": 18
+    },
+    {
+      "sentence": "Oh that's great, a two hour RTO for a first DR drill is a solid result. Did everything go pretty smoothly or were there any hiccups during the test?",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 205.9,
+      "endTime": 216.1,
+      "averageConfidence": 0.96,
+      "index": 19
+    },
+    {
+      "sentence": "Um, there was one thing \u2014 we had a little confusion around the restore sequencing for our database tier, like which snapshots to pull in what order. But honestly that was more of a documentation gap on our end than a platform issue. We figured it out, and actually your support team was super responsive when we pinged them mid-drill, which I appreciated.",
+      "speaker_name": "Yuki Tanaka",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 217.1,
+      "endTime": 239.0,
+      "averageConfidence": 0.91,
+      "index": 20
+    },
+    {
+      "sentence": "Oh good, I'm glad support was helpful. And noted on the restore sequencing \u2014 Ananya, that's something we could maybe look at putting together some additional runbook guidance for, right?",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 240.3,
+      "endTime": 250.9,
+      "averageConfidence": 0.91,
+      "index": 21
+    },
+    {
+      "sentence": "Definitely, yeah \u2014 I can work with Yuki's team to put together a tiered restore playbook specific to your architecture. That's something we've done for a couple of other customers and it's made a big difference.",
+      "speaker_name": "Ananya Sharma",
+      "sentimentType": "positive",
+      "speaker_id": 3,
+      "time": 252.2,
+      "endTime": 265.0,
+      "averageConfidence": 0.95,
+      "index": 22
+    },
+    {
+      "sentence": "Oh that would be amazing, yes please. That's exactly the kind of thing that would be super helpful.",
+      "speaker_name": "Yuki Tanaka",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 265.9,
+      "endTime": 272.0,
+      "averageConfidence": 0.89,
+      "index": 23
+    },
+    {
+      "sentence": "We'll make that a follow-up action item. So Yuki, on the Comply side \u2014 I know compliance wasn't initially the primary driver for your purchase, but we have been rolling out some, uh, some pretty significant updates there. Have you had a chance to poke around in that module at all?",
+      "speaker_name": "Daniel Okafor",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 273.3,
+      "endTime": 291.1,
+      "averageConfidence": 0.94,
+      "index": 24
+    },
+    {
+      "sentence": "A little bit, yeah. We're not heavily compliance-burdened right now \u2014 we do have some SOC 2 obligations but we've been managing that kind of manually. What's coming on that front?",
+      "speaker_name": "Yuki Tanaka",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 292.1,
+      "endTime": 302.8,
+      "averageConfidence": 0.91,
+      "index": 25
+    },
+    {
+      "sentence": "So we've got a major release coming up in April \u2014 Aegis Comply version 2 \u2014 and it's a pretty big deal honestly. The headline feature is on-demand compliance reporting, so you'll be able to generate SOC 2 reports, PCI DSS, HIPAA, ISO 27001 \u2014 all from within the platform, whenever you need them, without having to go through a manual evidence collection process.",
+      "speaker_name": "Ananya Sharma",
+      "sentimentType": "positive",
+      "speaker_id": 3,
+      "time": 303.9,
+      "endTime": 326.1,
+      "averageConfidence": 0.94,
+      "index": 26
+    },
+    {
+      "sentence": "Wait, on-demand SOC 2 reporting? Like, I can just... generate it when an enterprise prospect asks for it?",
+      "speaker_name": "Yuki Tanaka",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 327.5,
+      "endTime": 333.6,
+      "averageConfidence": 0.92,
+      "index": 27
+    },
+    {
+      "sentence": "Exactly, that's the idea. The platform continuously maps your controls against the framework requirements, so when you need to produce a report it's pulling from live evidence rather than you having to scramble to collect everything manually.",
+      "speaker_name": "Ananya Sharma",
+      "sentimentType": "positive",
+      "speaker_id": 3,
+      "time": 334.8,
+      "endTime": 348.2,
+      "averageConfidence": 0.91,
+      "index": 28
+    },
+    {
+      "sentence": "Okay that is genuinely exciting. Our CTO has been on my case about SOC 2 readiness for like six months so this could be \u2014 yeah, I need to loop him in on this. When in April is this going live?",
+      "speaker_name": "Yuki Tanaka",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 349.2,
+      "endTime": 363.6,
+      "averageConfidence": 0.9,
+      "index": 29
+    },
+    {
+      "sentence": "We're targeting April 7th for general availability. I can make sure you're on the early access communication list so you get all the details as soon as they're finalized.",
+      "speaker_name": "Daniel Okafor",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 364.5,
+      "endTime": 374.9,
+      "averageConfidence": 0.95,
+      "index": 30
+    },
+    {
+      "sentence": "Yes, please do that. And honestly this is \u2014 this changes my thinking a little bit around the renewal because we were kind of treating Comply as like a nice-to-have, but if we can actually use it to streamline our SOC 2 process that becomes a much more concrete ROI story for me to take to my leadership.",
+      "speaker_name": "Yuki Tanaka",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 376.3,
+      "endTime": 396.6,
+      "averageConfidence": 0.88,
+      "index": 31
+    },
+    {
+      "sentence": "That's exactly the conversation we want to help you have internally. Do you want us to put together some numbers around the time savings and cost of manual compliance work versus what you'd be looking at with Comply v2? We can customize that for your situation.",
+      "speaker_name": "Daniel Okafor",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 397.8,
+      "endTime": 413.8,
+      "averageConfidence": 0.89,
+      "index": 32
+    },
+    {
+      "sentence": "Yeah, that would be super useful. If you can give me something I can actually put in a slide that my CFO will understand, that's gold.",
+      "speaker_name": "Yuki Tanaka",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 414.8,
+      "endTime": 424.0,
+      "averageConfidence": 0.91,
+      "index": 33
+    },
+    {
+      "sentence": "We've got a template for exactly that, so I'll customize it for Pineridge and send it over. Okay \u2014 so let's talk about the renewal itself. Your current term is up at the end of Q2, so we've got a bit of runway but I don't want to leave it too late. How are you feeling about it?",
+      "speaker_name": "Daniel Okafor",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 425.1,
+      "endTime": 445.2,
+      "averageConfidence": 0.94,
+      "index": 34
+    },
+    {
+      "sentence": "I mean, directionally I'm very positive on renewing. The platform has delivered, the team likes it, support has been responsive \u2014 we're not shopping around. I do want to have a conversation about pricing though, not because I'm unhappy, just because my budget situation going into next year is a little tighter and I want to make sure we're getting the best structure.",
+      "speaker_name": "Yuki Tanaka",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 445.9,
+      "endTime": 468.4,
+      "averageConfidence": 0.91,
+      "index": 35
+    },
+    {
+      "sentence": "Totally fair, and I appreciate you being upfront about that. Let me see what I can work out \u2014 I think if we're looking at a multi-year renewal there might be some flexibility we can bring to the table. And if Comply v2 is going to become a more active part of your workflow, we should also make sure the packaging makes sense for where your usage is going to land.",
+      "speaker_name": "Daniel Okafor",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 468.8,
+      "endTime": 493.8,
+      "averageConfidence": 0.9,
+      "index": 36
+    },
+    {
+      "sentence": "Yeah that's a good point actually. Can we set up a separate call to go through the commercial details once I've had a chance to review the Comply v2 stuff? I want to have a clearer picture of scope before we talk numbers.",
+      "speaker_name": "Yuki Tanaka",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 494.2,
+      "endTime": 509.5,
+      "averageConfidence": 0.93,
+      "index": 37
+    },
+    {
+      "sentence": "Absolutely, let's do that. I'm thinking second week of April? That gives you time to digest the Comply v2 launch and we can have a more informed conversation.",
+      "speaker_name": "Daniel Okafor",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 510.7,
+      "endTime": 520.3,
+      "averageConfidence": 0.91,
+      "index": 38
+    },
+    {
+      "sentence": "That works. Week of April 13th or so \u2014 I'll send you some times. And hey, can I just say \u2014 I know these QBRs can sometimes feel like a checkbox exercise but this has actually been really useful. I've got a few concrete things to take back and share with my team.",
+      "speaker_name": "Yuki Tanaka",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 521.0,
+      "endTime": 539.9,
+      "averageConfidence": 0.9,
+      "index": 39
+    },
+    {
+      "sentence": "That's exactly what we're going for. We really value the partnership with Pineridge and we want these conversations to feel like they're worth your time. Alright \u2014 let me just recap the action items real quick: Ananya is going to put together the tiered restore playbook, I'm going to send over the ROI template for Comply v2, get you on the early access list, and we'll schedule a commercial follow-up for mid-April. Sound right?",
+      "speaker_name": "Daniel Okafor",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 541.2,
+      "endTime": 567.4,
+      "averageConfidence": 0.93,
+      "index": 40
+    },
+    {
+      "sentence": "Yep, that's exactly right. Thanks everyone \u2014 Kevin, Ananya, always great to connect. Looking forward to the next one.",
+      "speaker_name": "Yuki Tanaka",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 568.1,
+      "endTime": 574.7,
+      "averageConfidence": 0.89,
+      "index": 41
+    },
+    {
+      "sentence": "Thanks Yuki, take care!",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 575.2,
+      "endTime": 576.7,
+      "averageConfidence": 0.92,
+      "index": 42
+    },
+    {
+      "sentence": "Really nice to meet you Yuki, talk soon!",
+      "speaker_name": "Ananya Sharma",
+      "sentimentType": "positive",
+      "speaker_id": 3,
+      "time": 577.9,
+      "endTime": 581.2,
+      "averageConfidence": 0.9,
+      "index": 43
+    }
+  ]
+}

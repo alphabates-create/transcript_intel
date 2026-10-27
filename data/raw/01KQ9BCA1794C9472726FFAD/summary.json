@@ -1,0 +1,46 @@
+{
+  "summary": "The team held a two-week retrospective on the Comply v2 launch, reviewing adoption metrics, support volume, and customer feedback. Adoption reached approximately 38-39% of eligible accounts (847 out of ~2,200 tenants), significantly exceeding the internal 25% benchmark. HIPAA reports tracked higher than expected, and a minor ISO 27001 formatting issue is being addressed in an upcoming patch. The team also identified promising cross-sell signals, with customers discovering gaps in their IAM configuration through SOC 2 reports and subsequently inquiring about Aegis Identity.",
+  "actionItems": [
+    "Megan Lawson: Prepare a one-pager for the exec review covering adoption numbers, HIPAA findings, and cross-sell signals",
+    "Tom Bradley: Deploy the ISO 27001 control numbering formatting fix in the next patch by end of next week",
+    "Diana Reeves: Pull customer testimonial quotes from recent QBRs, including the healthcare company audit prep quote",
+    "Megan Lawson: Initiate internal conversation about scoping and resourcing GDPR framework addition"
+  ],
+  "topics": [
+    "product launch",
+    "compliance reporting",
+    "adoption metrics",
+    "cross-sell",
+    "gdpr roadmap",
+    "customer feedback"
+  ],
+  "overallSentiment": "very-positive",
+  "sentimentScore": 4.7,
+  "keyMoments": [
+    {
+      "time": 180.0,
+      "text": "Megan shares that 847 unique tenants generated at least one report in two weeks, beating the internal 25% adoption benchmark with ~38-39% adoption",
+      "type": "positive_pivot",
+      "speaker": "Megan Lawson"
+    },
+    {
+      "time": 420.0,
+      "text": "Brian notes ongoing ISO 27001 formatting issue where control numbering doesn't match customer expectations",
+      "type": "technical_issue",
+      "speaker": "Brian Cho"
+    },
+    {
+      "time": 540.0,
+      "text": "Diana reports at least four active upsell conversations driven by customers discovering IAM gaps through SOC 2 compliance reports",
+      "type": "positive_pivot",
+      "speaker": "Diana Reeves"
+    },
+    {
+      "time": 720.0,
+      "text": "Jordan raises GDPR as the next framework to add, with Diana confirming strong demand from the European segment since Q3 last year",
+      "type": "feature_gap",
+      "speaker": "Jordan Whitfield"
+    }
+  ],
+  "meetingId": "01KQ9BCA1794C9472726FFAD"
+}

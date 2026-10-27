@@ -1,0 +1,46 @@
+{
+  "summary": "Vanta Health Systems contacted Aegis Cloud Security support regarding a critical issue with their LogVault SIEM connector dropping event data since February 8th, including complete 45-minute to 1-hour blackout windows. Sarah Chen and Priya Patel identified the root cause as a known bug in connector version 3.4.1 where connection timeouts from F5 load balancer throttling cause the buffer to flush instead of retry. Immediate workarounds were provided (adjusting F5 connection limits and enabling the undocumented retry_on_timeout parameter), with a permanent fix available via upgrade to version 3.5.0. Dr. Cheng expressed significant frustration with the 10-day support response delay, undocumented parameters, and lack of proactive notification about the known bug in a healthcare/HIPAA environment.",
+  "actionItems": [
+    "Sarah Chen: Send follow-up email within the hour containing retry_on_timeout config syntax, upgrade steps to 3.5.0, recommended F5 connection limit settings, and all available parameter documentation",
+    "Raymond Burke: Apply interim config changes today (retry_on_timeout and F5 connection limit increase) and plan connector upgrade to 3.5.0 for the weekend",
+    "Priya Patel: Ensure account executive reaches out to Vanta Health Systems this week to discuss broader support experience concerns",
+    "Priya Patel: Flag internally the process failure around proactive customer notification for affected connector versions and escalate documentation gap for retry_on_timeout parameter"
+  ],
+  "topics": [
+    "siem integration",
+    "technical issue",
+    "compliance",
+    "support response time",
+    "product bug",
+    "documentation gap"
+  ],
+  "overallSentiment": "mixed-negative",
+  "sentimentScore": 2.4,
+  "keyMoments": [
+    {
+      "time": 162.0,
+      "text": "Dr. Cheng highlights HIPAA obligations and flags that monitoring blind spots are unacceptable for a healthcare organization handling PHI",
+      "type": "churn_signal",
+      "speaker": "Dr. Linda Cheng"
+    },
+    {
+      "time": 264.0,
+      "text": "Dr. Cheng criticizes the 10-day response delay and states this is not the enterprise-tier support they were sold on",
+      "type": "concern",
+      "speaker": "Dr. Linda Cheng"
+    },
+    {
+      "time": 582.0,
+      "text": "Sarah Chen confirms the root cause: a known bug in connector 3.4.1 where HEC timeouts from F5 throttling cause the buffer to drop instead of retry, resulting in actual event loss",
+      "type": "technical_issue",
+      "speaker": "Sarah Chen"
+    },
+    {
+      "time": 822.0,
+      "text": "Raymond Burke discovers the retry_on_timeout parameter is undocumented, prompting Dr. Cheng to enumerate a list of support failures including undocumented parameters, delayed response, and lack of proactive notification",
+      "type": "feature_gap",
+      "speaker": "Raymond Burke"
+    }
+  ],
+  "meetingId": "01KQBB7C4D4789DB2F3DA9C2"
+}

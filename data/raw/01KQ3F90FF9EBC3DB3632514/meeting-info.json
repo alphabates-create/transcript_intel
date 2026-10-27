@@ -1,0 +1,21 @@
+{
+  "meetingId": "01KQ3F90FF9EBC3DB3632514",
+  "title": "Identity Team - Sprint Retro",
+  "organizerEmail": "nina.kowalski@aegiscloud.com",
+  "host": "nina.kowalski@aegiscloud.com",
+  "startTime": "2026-03-28T16:00:00.000Z",
+  "endTime": "2026-03-28T16:26:00.000Z",
+  "duration": 26.0,
+  "allEmails": [
+    "nina.kowalski@aegiscloud.com",
+    "sofia.petrov@aegiscloud.com",
+    "tyler.washington@aegiscloud.com",
+    "mike.romano@aegiscloud.com"
+  ],
+  "invitees": [
+    "nina.kowalski@aegiscloud.com",
+    "sofia.petrov@aegiscloud.com",
+    "tyler.washington@aegiscloud.com",
+    "mike.romano@aegiscloud.com"
+  ]
+}

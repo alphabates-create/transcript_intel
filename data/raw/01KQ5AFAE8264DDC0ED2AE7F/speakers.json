@@ -1,0 +1,217 @@
+[
+  {
+    "speakerName": "Rachel Torres",
+    "timestamp": 3.7,
+    "endTimeTs": 8.4
+  },
+  {
+    "speakerName": "Derek Owens",
+    "timestamp": 9.1,
+    "endTimeTs": 11.6
+  },
+  {
+    "speakerName": "Rachel Torres",
+    "timestamp": 12.8,
+    "endTimeTs": 27.4
+  },
+  {
+    "speakerName": "Sofia Petrov",
+    "timestamp": 28.3,
+    "endTimeTs": 40.9
+  },
+  {
+    "speakerName": "Derek Owens",
+    "timestamp": 41.6,
+    "endTimeTs": 53.6
+  },
+  {
+    "speakerName": "Rachel Torres",
+    "timestamp": 54.8,
+    "endTimeTs": 74.2
+  },
+  {
+    "speakerName": "Derek Owens",
+    "timestamp": 75.2,
+    "endTimeTs": 89.4
+  },
+  {
+    "speakerName": "Rachel Torres",
+    "timestamp": 90.6,
+    "endTimeTs": 99.5
+  },
+  {
+    "speakerName": "Sofia Petrov",
+    "timestamp": 100.8,
+    "endTimeTs": 113.6
+  },
+  {
+    "speakerName": "Derek Owens",
+    "timestamp": 114.5,
+    "endTimeTs": 140.0
+  },
+  {
+    "speakerName": "Sofia Petrov",
+    "timestamp": 141.4,
+    "endTimeTs": 150.5
+  },
+  {
+    "speakerName": "Derek Owens",
+    "timestamp": 151.0,
+    "endTimeTs": 165.2
+  },
+  {
+    "speakerName": "Sofia Petrov",
+    "timestamp": 166.7,
+    "endTimeTs": 187.6
+  },
+  {
+    "speakerName": "Derek Owens",
+    "timestamp": 188.9,
+    "endTimeTs": 202.4
+  },
+  {
+    "speakerName": "Sofia Petrov",
+    "timestamp": 203.3,
+    "endTimeTs": 209.5
+  },
+  {
+    "speakerName": "Rachel Torres",
+    "timestamp": 210.9,
+    "endTimeTs": 221.4
+  },
+  {
+    "speakerName": "Sofia Petrov",
+    "timestamp": 222.9,
+    "endTimeTs": 254.8
+  },
+  {
+    "speakerName": "Derek Owens",
+    "timestamp": 255.7,
+    "endTimeTs": 268.2
+  },
+  {
+    "speakerName": "Sofia Petrov",
+    "timestamp": 269.0,
+    "endTimeTs": 297.5
+  },
+  {
+    "speakerName": "Derek Owens",
+    "timestamp": 298.7,
+    "endTimeTs": 318.1
+  },
+  {
+    "speakerName": "Sofia Petrov",
+    "timestamp": 319.0,
+    "endTimeTs": 338.7
+  },
+  {
+    "speakerName": "Derek Owens",
+    "timestamp": 339.1,
+    "endTimeTs": 342.1
+  },
+  {
+    "speakerName": "Sofia Petrov",
+    "timestamp": 343.2,
+    "endTimeTs": 349.5
+  },
+  {
+    "speakerName": "Derek Owens",
+    "timestamp": 350.7,
+    "endTimeTs": 353.3
+  },
+  {
+    "speakerName": "Rachel Torres",
+    "timestamp": 353.9,
+    "endTimeTs": 372.2
+  },
+  {
+    "speakerName": "Derek Owens",
+    "timestamp": 372.9,
+    "endTimeTs": 389.2
+  },
+  {
+    "speakerName": "Sofia Petrov",
+    "timestamp": 389.5,
+    "endTimeTs": 407.3
+  },
+  {
+    "speakerName": "Derek Owens",
+    "timestamp": 408.0,
+    "endTimeTs": 415.9
+  },
+  {
+    "speakerName": "Rachel Torres",
+    "timestamp": 417.1,
+    "endTimeTs": 440.7
+  },
+  {
+    "speakerName": "Sofia Petrov",
+    "timestamp": 441.3,
+    "endTimeTs": 443.6
+  },
+  {
+    "speakerName": "Derek Owens",
+    "timestamp": 444.6,
+    "endTimeTs": 466.5
+  },
+  {
+    "speakerName": "Rachel Torres",
+    "timestamp": 467.4,
+    "endTimeTs": 493.7
+  },
+  {
+    "speakerName": "Derek Owens",
+    "timestamp": 494.7,
+    "endTimeTs": 505.0
+  },
+  {
+    "speakerName": "Rachel Torres",
+    "timestamp": 505.4,
+    "endTimeTs": 525.7
+  },
+  {
+    "speakerName": "Derek Owens",
+    "timestamp": 526.3,
+    "endTimeTs": 540.9
+  },
+  {
+    "speakerName": "Rachel Torres",
+    "timestamp": 541.6,
+    "endTimeTs": 563.9
+  },
+  {
+    "speakerName": "Derek Owens",
+    "timestamp": 564.5,
+    "endTimeTs": 578.2
+  },
+  {
+    "speakerName": "Sofia Petrov",
+    "timestamp": 578.9,
+    "endTimeTs": 589.2
+  },
+  {
+    "speakerName": "Derek Owens",
+    "timestamp": 590.3,
+    "endTimeTs": 607.1
+  },
+  {
+    "speakerName": "Sofia Petrov",
+    "timestamp": 608.4,
+    "endTimeTs": 621.5
+  },
+  {
+    "speakerName": "Rachel Torres",
+    "timestamp": 622.4,
+    "endTimeTs": 641.0
+  },
+  {
+    "speakerName": "Derek Owens",
+    "timestamp": 642.2,
+    "endTimeTs": 645.4
+  },
+  {
+    "speakerName": "Sofia Petrov",
+    "timestamp": 646.2,
+    "endTimeTs": 647.7
+  }
+]

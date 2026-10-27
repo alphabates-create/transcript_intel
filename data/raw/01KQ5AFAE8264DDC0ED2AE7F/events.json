@@ -1,0 +1,38 @@
+[
+  {
+    "participantName": "Sofia Petrov",
+    "timestamp": 1777049105000,
+    "type": "Join",
+    "time": 5.0
+  },
+  {
+    "participantName": "Rachel Torres",
+    "timestamp": 1777049126000,
+    "type": "Join",
+    "time": 26.0
+  },
+  {
+    "participantName": "Derek Owens",
+    "timestamp": 1777049148000,
+    "type": "Join",
+    "time": 48.0
+  },
+  {
+    "participantName": "Rachel Torres",
+    "timestamp": 1777051238000,
+    "type": "Leave",
+    "time": 2138.0
+  },
+  {
+    "participantName": "Sofia Petrov",
+    "timestamp": 1777051223000,
+    "type": "Leave",
+    "time": 2123.0
+  },
+  {
+    "participantName": "Derek Owens",
+    "timestamp": 1777051213000,
+    "type": "Leave",
+    "time": 2113.0
+  }
+]

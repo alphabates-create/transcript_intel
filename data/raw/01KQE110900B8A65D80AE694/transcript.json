@@ -1,0 +1,384 @@
+{
+  "data": [
+    {
+      "sentence": "Okay, I think everyone's on now \u2014 Tyler, can you hear us okay?",
+      "speaker_name": "Sofia Petrov",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 7.1,
+      "endTime": 11.7,
+      "averageConfidence": 0.93,
+      "index": 0
+    },
+    {
+      "sentence": "Yeah, yeah I'm here, sorry I was \u2014 had to grab the right headset, my other one died.",
+      "speaker_name": "Tyler Washington",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 12.2,
+      "endTime": 18.3,
+      "averageConfidence": 0.94,
+      "index": 1
+    },
+    {
+      "sentence": "Alright, let's just get into it because honestly we've been in firefighting mode for the past four days and I want to actually understand what happened here.",
+      "speaker_name": "Sofia Petrov",
+      "sentimentType": "negative",
+      "speaker_id": 0,
+      "time": 19.6,
+      "endTime": 29.0,
+      "averageConfidence": 0.95,
+      "index": 2
+    },
+    {
+      "sentence": "Yeah, agreed. So, Mike, do you want to walk us through what you found? You were the one digging into the pipeline logs last night.",
+      "speaker_name": "Ananya Sharma",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 30.5,
+      "endTime": 38.9,
+      "averageConfidence": 0.92,
+      "index": 3
+    },
+    {
+      "sentence": "Sure, yeah. So, um, the short version is \u2014 we had a cascading failure in the event ingestion layer. There's essentially a single point of failure in how we're routing events through the processing pipeline, and once that node went down on Monday morning, everything backed up.",
+      "speaker_name": "Mike Romano",
+      "sentimentType": "negative",
+      "speaker_id": 3,
+      "time": 39.5,
+      "endTime": 55.9,
+      "averageConfidence": 0.94,
+      "index": 4
+    },
+    {
+      "sentence": "Wait, a single point of failure? Like, we've known about that risk for how long? I feel like that was flagged in Q3 last year.",
+      "speaker_name": "Nina Kowalski",
+      "sentimentType": "negative",
+      "speaker_id": 4,
+      "time": 57.2,
+      "endTime": 65.7,
+      "averageConfidence": 0.88,
+      "index": 5
+    },
+    {
+      "sentence": "It was flagged, yeah. It was in the backlog. It just... never got prioritized above the feature work.",
+      "speaker_name": "Mike Romano",
+      "sentimentType": "negative",
+      "speaker_id": 3,
+      "time": 66.0,
+      "endTime": 72.4,
+      "averageConfidence": 0.89,
+      "index": 6
+    },
+    {
+      "sentence": "That is honestly really frustrating to hear, Mike, because we had six hours \u2014 six hours \u2014 where customers had zero threat monitoring visibility. Like, Detect is supposed to be the thing that tells you when something bad is happening.",
+      "speaker_name": "Sofia Petrov",
+      "sentimentType": "negative",
+      "speaker_id": 0,
+      "time": 73.6,
+      "endTime": 87.6,
+      "averageConfidence": 0.95,
+      "index": 7
+    },
+    {
+      "sentence": "I know. I know, and I'm not trying to make excuses. The prioritization call was made above our level and at the time there were reasons, but obviously in hindsight\u2014",
+      "speaker_name": "Mike Romano",
+      "sentimentType": "negative",
+      "speaker_id": 3,
+      "time": 88.6,
+      "endTime": 99.3,
+      "averageConfidence": 0.89,
+      "index": 8
+    },
+    {
+      "sentence": "In hindsight it was the wrong call, yeah.",
+      "speaker_name": "Ananya Sharma",
+      "sentimentType": "negative",
+      "speaker_id": 2,
+      "time": 99.9,
+      "endTime": 102.6,
+      "averageConfidence": 0.92,
+      "index": 9
+    },
+    {
+      "sentence": "Can we talk about the actual failure sequence though? Like I want to understand technically what cascaded. Was it a memory issue, was it network, what actually triggered the initial node failure?",
+      "speaker_name": "Tyler Washington",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 103.2,
+      "endTime": 114.1,
+      "averageConfidence": 0.92,
+      "index": 10
+    },
+    {
+      "sentence": "So from what I can tell in the logs, the primary ingestion node started throwing out-of-memory errors around 6:47 AM. And instead of failing gracefully, it just \u2014 it locked up. And then the queue started building, and because there was no circuit breaker, the downstream processors kept trying to pull from a source that wasn't responding.",
+      "speaker_name": "Mike Romano",
+      "sentimentType": "negative",
+      "speaker_id": 3,
+      "time": 115.6,
+      "endTime": 135.6,
+      "averageConfidence": 0.92,
+      "index": 11
+    },
+    {
+      "sentence": "Right, and that's what caused the cascading part. The downstream processors themselves started degrading.",
+      "speaker_name": "Ananya Sharma",
+      "sentimentType": "negative",
+      "speaker_id": 2,
+      "time": 137.0,
+      "endTime": 142.3,
+      "averageConfidence": 0.88,
+      "index": 12
+    },
+    {
+      "sentence": "Exactly. And by the time our alerting caught it \u2014 which was, ugh, almost 40 minutes later \u2014 the whole pipeline was basically dead.",
+      "speaker_name": "Mike Romano",
+      "sentimentType": "negative",
+      "speaker_id": 3,
+      "time": 143.5,
+      "endTime": 152.0,
+      "averageConfidence": 0.9,
+      "index": 13
+    },
+    {
+      "sentence": "Forty minutes before alerting kicked in? Why did it take that long? We have health checks on those services.",
+      "speaker_name": "Nina Kowalski",
+      "sentimentType": "negative",
+      "speaker_id": 4,
+      "time": 153.4,
+      "endTime": 160.0,
+      "averageConfidence": 0.97,
+      "index": 14
+    },
+    {
+      "sentence": "The health checks were pinging the node endpoint, which was still technically responding \u2014 it just wasn't processing anything. So the check was returning healthy even though the service was completely stuck.",
+      "speaker_name": "Tyler Washington",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 160.9,
+      "endTime": 172.4,
+      "averageConfidence": 0.92,
+      "index": 15
+    },
+    {
+      "sentence": "Oh, that's \u2014 okay, so the health check was essentially useless in this scenario.",
+      "speaker_name": "Nina Kowalski",
+      "sentimentType": "negative",
+      "speaker_id": 4,
+      "time": 172.8,
+      "endTime": 178.1,
+      "averageConfidence": 0.89,
+      "index": 16
+    },
+    {
+      "sentence": "Pretty much, yeah. It was a liveness check, not a readiness check. Which is a gap we clearly need to fix.",
+      "speaker_name": "Tyler Washington",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 179.0,
+      "endTime": 186.5,
+      "averageConfidence": 0.89,
+      "index": 17
+    },
+    {
+      "sentence": "Okay so we've got at least three things here \u2014 the single point of failure in ingestion, no circuit breaker pattern, and inadequate health checking. Is that a fair summary so far?",
+      "speaker_name": "Sofia Petrov",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 187.8,
+      "endTime": 199.2,
+      "averageConfidence": 0.94,
+      "index": 18
+    },
+    {
+      "sentence": "Yeah, that's how I'd characterize it. And I think the fix for the ingestion layer specifically is redundant processing nodes \u2014 at minimum two, probably three, with active load balancing.",
+      "speaker_name": "Mike Romano",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 200.4,
+      "endTime": 210.8,
+      "averageConfidence": 0.9,
+      "index": 19
+    },
+    {
+      "sentence": "And the circuit breaker \u2014 like, how complicated is that to implement? I don't want us to say 'we'll implement a circuit breaker' and then that also ends up sitting in the backlog for a year.",
+      "speaker_name": "Ananya Sharma",
+      "sentimentType": "negative",
+      "speaker_id": 2,
+      "time": 211.9,
+      "endTime": 224.4,
+      "averageConfidence": 0.91,
+      "index": 20
+    },
+    {
+      "sentence": "It's not trivial but it's also not like a three-month project. I think we could have a working implementation in two, maybe two and a half weeks if we actually focus on it.",
+      "speaker_name": "Mike Romano",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 225.5,
+      "endTime": 237.4,
+      "averageConfidence": 0.93,
+      "index": 21
+    },
+    {
+      "sentence": "I want that estimate in writing honestly, because I've heard 'two weeks' before and then it becomes six.",
+      "speaker_name": "Nina Kowalski",
+      "sentimentType": "negative",
+      "speaker_id": 4,
+      "time": 238.2,
+      "endTime": 244.6,
+      "averageConfidence": 0.9,
+      "index": 22
+    },
+    {
+      "sentence": "That's fair, Nina, that's fair. I'll put together a proper scope doc today.",
+      "speaker_name": "Mike Romano",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 246.1,
+      "endTime": 251.1,
+      "averageConfidence": 0.91,
+      "index": 23
+    },
+    {
+      "sentence": "What about the communication side of this? Like, customers were in the dark for hours. Do we know how that was handled?",
+      "speaker_name": "Tyler Washington",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 251.8,
+      "endTime": 259.3,
+      "averageConfidence": 0.96,
+      "index": 24
+    },
+    {
+      "sentence": "That's \u2014 yeah, that's a whole other conversation, but I will say the status page update was way too slow. That's something that needs to be escalated separately.",
+      "speaker_name": "Sofia Petrov",
+      "sentimentType": "negative",
+      "speaker_id": 0,
+      "time": 260.5,
+      "endTime": 270.6,
+      "averageConfidence": 0.94,
+      "index": 25
+    },
+    {
+      "sentence": "Agreed. And from a QA perspective, I'm also really bothered by the fact that we didn't have a test scenario for this kind of failure. Like, do we even have chaos engineering coverage on the ingestion pipeline?",
+      "speaker_name": "Nina Kowalski",
+      "sentimentType": "negative",
+      "speaker_id": 4,
+      "time": 271.8,
+      "endTime": 285.1,
+      "averageConfidence": 0.88,
+      "index": 26
+    },
+    {
+      "sentence": "We don't. Not really. We have some basic load testing but nothing that simulates a node going unresponsive.",
+      "speaker_name": "Ananya Sharma",
+      "sentimentType": "negative",
+      "speaker_id": 2,
+      "time": 286.6,
+      "endTime": 293.1,
+      "averageConfidence": 0.9,
+      "index": 27
+    },
+    {
+      "sentence": "Yeah, that needs to change. Like, we should be deliberately killing nodes in staging on a regular basis to validate that the system handles it.",
+      "speaker_name": "Tyler Washington",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 294.4,
+      "endTime": 303.2,
+      "averageConfidence": 0.92,
+      "index": 28
+    },
+    {
+      "sentence": "One hundred percent. I'm going to push for that as part of the remediation plan. It won't just be 'fix the code' \u2014 it needs to be 'build the testing practice too.'",
+      "speaker_name": "Sofia Petrov",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 303.5,
+      "endTime": 315.1,
+      "averageConfidence": 0.96,
+      "index": 29
+    },
+    {
+      "sentence": "Good. And honestly, uh, I think we need to be really transparent in the post-mortem doc about the fact that this risk was known and deprioritized. I don't think we should soften that.",
+      "speaker_name": "Ananya Sharma",
+      "sentimentType": "negative",
+      "speaker_id": 2,
+      "time": 315.6,
+      "endTime": 327.6,
+      "averageConfidence": 0.97,
+      "index": 30
+    },
+    {
+      "sentence": "I agree with that. If we're going to learn from this, we have to be honest about the decision-making chain that got us here, not just the technical failure.",
+      "speaker_name": "Sofia Petrov",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 328.4,
+      "endTime": 338.6,
+      "averageConfidence": 0.92,
+      "index": 31
+    },
+    {
+      "sentence": "Yeah. It's uncomfortable but it's the right call.",
+      "speaker_name": "Mike Romano",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 339.2,
+      "endTime": 342.3,
+      "averageConfidence": 0.93,
+      "index": 32
+    },
+    {
+      "sentence": "Okay, so action items \u2014 Mike is doing the scope doc for the circuit breaker and redundant nodes, Ananya and Tyler are looking at the health check improvements, and Nina, can you start scoping out what a chaos testing framework would look like for the pipeline?",
+      "speaker_name": "Sofia Petrov",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 343.4,
+      "endTime": 359.5,
+      "averageConfidence": 0.9,
+      "index": 33
+    },
+    {
+      "sentence": "Yeah, I can do that. I'll probably want to pull in Tyler for part of it.",
+      "speaker_name": "Nina Kowalski",
+      "sentimentType": "neutral",
+      "speaker_id": 4,
+      "time": 361.0,
+      "endTime": 366.6,
+      "averageConfidence": 0.95,
+      "index": 34
+    },
+    {
+      "sentence": "Works for me.",
+      "speaker_name": "Tyler Washington",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 367.9,
+      "endTime": 369.4,
+      "averageConfidence": 0.96,
+      "index": 35
+    },
+    {
+      "sentence": "Alright. This has been a really rough week and I don't think anyone feels great about where we're at, but \u2014 let's make sure this doesn't happen again. I'll circulate the post-mortem draft by end of day tomorrow.",
+      "speaker_name": "Sofia Petrov",
+      "sentimentType": "negative",
+      "speaker_id": 0,
+      "time": 369.8,
+      "endTime": 383.4,
+      "averageConfidence": 0.95,
+      "index": 36
+    },
+    {
+      "sentence": "Thanks everyone.",
+      "speaker_name": "Ananya Sharma",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 384.0,
+      "endTime": 385.5,
+      "averageConfidence": 0.93,
+      "index": 37
+    }
+  ]
+}

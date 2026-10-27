@@ -1,0 +1,21 @@
+{
+  "meetingId": "01KQ4EE836687F95080D92AB",
+  "title": "Detect Team - Sprint Planning",
+  "organizerEmail": "mike.romano@aegiscloud.com",
+  "host": "mike.romano@aegiscloud.com",
+  "startTime": "2026-02-05T14:15:00.000Z",
+  "endTime": "2026-02-05T14:40:36.000Z",
+  "duration": 25.6,
+  "allEmails": [
+    "mike.romano@aegiscloud.com",
+    "ananya.sharma@aegiscloud.com",
+    "chris.lee@aegiscloud.com",
+    "nina.kowalski@aegiscloud.com"
+  ],
+  "invitees": [
+    "mike.romano@aegiscloud.com",
+    "ananya.sharma@aegiscloud.com",
+    "chris.lee@aegiscloud.com",
+    "nina.kowalski@aegiscloud.com"
+  ]
+}

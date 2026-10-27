@@ -1,0 +1,19 @@
+{
+  "meetingId": "01KQBBF753B44DE677670E6D",
+  "title": "Support Case #6147 - Summit Trust Detect Alert Delays",
+  "organizerEmail": "david.kim@aegiscloud.com",
+  "host": "david.kim@aegiscloud.com",
+  "startTime": "2026-04-15T12:30:00.000Z",
+  "endTime": "2026-04-15T12:46:42.000Z",
+  "duration": 16.7,
+  "allEmails": [
+    "david.kim@aegiscloud.com",
+    "a.monroe@summittrust.com",
+    "g.fisk@summittrust.com"
+  ],
+  "invitees": [
+    "david.kim@aegiscloud.com",
+    "a.monroe@summittrust.com",
+    "g.fisk@summittrust.com"
+  ]
+}

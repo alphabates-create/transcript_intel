@@ -1,0 +1,21 @@
+{
+  "meetingId": "01KQ0CAE7F064EC93F0540CA",
+  "title": "Weekly Engineering Standup",
+  "organizerEmail": "chris.lee@aegiscloud.com",
+  "host": "chris.lee@aegiscloud.com",
+  "startTime": "2026-02-16T10:00:00.000Z",
+  "endTime": "2026-02-16T10:29:00.000Z",
+  "duration": 29.0,
+  "allEmails": [
+    "chris.lee@aegiscloud.com",
+    "mike.romano@aegiscloud.com",
+    "tyler.washington@aegiscloud.com",
+    "tom.bradley@aegiscloud.com"
+  ],
+  "invitees": [
+    "chris.lee@aegiscloud.com",
+    "mike.romano@aegiscloud.com",
+    "tyler.washington@aegiscloud.com",
+    "tom.bradley@aegiscloud.com"
+  ]
+}

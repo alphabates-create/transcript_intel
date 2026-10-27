@@ -1,0 +1,38 @@
+[
+  {
+    "participantName": "Tom Bradley",
+    "timestamp": 1773851435000,
+    "type": "Join",
+    "time": 35.0
+  },
+  {
+    "participantName": "Diana Reeves",
+    "timestamp": 1773851435000,
+    "type": "Join",
+    "time": 35.0
+  },
+  {
+    "participantName": "Megan Lawson",
+    "timestamp": 1773851436000,
+    "type": "Join",
+    "time": 36.0
+  },
+  {
+    "participantName": "Tom Bradley",
+    "timestamp": 1773852678000,
+    "type": "Leave",
+    "time": 1278.0
+  },
+  {
+    "participantName": "Diana Reeves",
+    "timestamp": 1773852671000,
+    "type": "Leave",
+    "time": 1271.0
+  },
+  {
+    "participantName": "Megan Lawson",
+    "timestamp": 1773852679000,
+    "type": "Leave",
+    "time": 1279.0
+  }
+]

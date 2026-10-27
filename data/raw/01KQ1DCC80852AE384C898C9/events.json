@@ -1,0 +1,38 @@
+[
+  {
+    "participantName": "Maria Santos",
+    "timestamp": 1773936008000,
+    "type": "Join",
+    "time": 8.0
+  },
+  {
+    "participantName": "Brianna Foster",
+    "timestamp": 1773936041000,
+    "type": "Join",
+    "time": 41.0
+  },
+  {
+    "participantName": "Leo Marquez",
+    "timestamp": 1773936059000,
+    "type": "Join",
+    "time": 59.0
+  },
+  {
+    "participantName": "Maria Santos",
+    "timestamp": 1773938700000,
+    "type": "Leave",
+    "time": 2700.0
+  },
+  {
+    "participantName": "Brianna Foster",
+    "timestamp": 1773938681000,
+    "type": "Leave",
+    "time": 2681.0
+  },
+  {
+    "participantName": "Leo Marquez",
+    "timestamp": 1773938685000,
+    "type": "Leave",
+    "time": 2685.0
+  }
+]

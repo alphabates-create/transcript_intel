@@ -1,0 +1,242 @@
+[
+  {
+    "speakerName": "Raj Kapoor",
+    "timestamp": 5.4,
+    "endTimeTs": 9.7
+  },
+  {
+    "speakerName": "Ravi Gupta",
+    "timestamp": 10.1,
+    "endTimeTs": 11.6
+  },
+  {
+    "speakerName": "Sofia Petrov",
+    "timestamp": 12.5,
+    "endTimeTs": 17.6
+  },
+  {
+    "speakerName": "Raj Kapoor",
+    "timestamp": 18.0,
+    "endTimeTs": 35.2
+  },
+  {
+    "speakerName": "Ravi Gupta",
+    "timestamp": 35.6,
+    "endTimeTs": 39.3
+  },
+  {
+    "speakerName": "Raj Kapoor",
+    "timestamp": 40.2,
+    "endTimeTs": 41.9
+  },
+  {
+    "speakerName": "Ravi Gupta",
+    "timestamp": 43.2,
+    "endTimeTs": 59.6
+  },
+  {
+    "speakerName": "Sofia Petrov",
+    "timestamp": 60.2,
+    "endTimeTs": 73.2
+  },
+  {
+    "speakerName": "Ravi Gupta",
+    "timestamp": 74.5,
+    "endTimeTs": 76.0
+  },
+  {
+    "speakerName": "Raj Kapoor",
+    "timestamp": 77.1,
+    "endTimeTs": 83.4
+  },
+  {
+    "speakerName": "Ravi Gupta",
+    "timestamp": 84.5,
+    "endTimeTs": 103.3
+  },
+  {
+    "speakerName": "Raj Kapoor",
+    "timestamp": 103.8,
+    "endTimeTs": 109.4
+  },
+  {
+    "speakerName": "Sofia Petrov",
+    "timestamp": 110.7,
+    "endTimeTs": 133.8
+  },
+  {
+    "speakerName": "Raj Kapoor",
+    "timestamp": 134.3,
+    "endTimeTs": 137.7
+  },
+  {
+    "speakerName": "Sofia Petrov",
+    "timestamp": 138.9,
+    "endTimeTs": 152.0
+  },
+  {
+    "speakerName": "Raj Kapoor",
+    "timestamp": 152.3,
+    "endTimeTs": 156.9
+  },
+  {
+    "speakerName": "Sofia Petrov",
+    "timestamp": 157.4,
+    "endTimeTs": 177.4
+  },
+  {
+    "speakerName": "Raj Kapoor",
+    "timestamp": 178.1,
+    "endTimeTs": 181.6
+  },
+  {
+    "speakerName": "Sofia Petrov",
+    "timestamp": 183.0,
+    "endTimeTs": 195.8
+  },
+  {
+    "speakerName": "Raj Kapoor",
+    "timestamp": 196.5,
+    "endTimeTs": 199.7
+  },
+  {
+    "speakerName": "Ravi Gupta",
+    "timestamp": 200.6,
+    "endTimeTs": 211.2
+  },
+  {
+    "speakerName": "Sofia Petrov",
+    "timestamp": 212.3,
+    "endTimeTs": 217.3
+  },
+  {
+    "speakerName": "Ravi Gupta",
+    "timestamp": 218.3,
+    "endTimeTs": 219.8
+  },
+  {
+    "speakerName": "Raj Kapoor",
+    "timestamp": 220.7,
+    "endTimeTs": 237.2
+  },
+  {
+    "speakerName": "Ravi Gupta",
+    "timestamp": 237.9,
+    "endTimeTs": 256.0
+  },
+  {
+    "speakerName": "Sofia Petrov",
+    "timestamp": 256.6,
+    "endTimeTs": 261.4
+  },
+  {
+    "speakerName": "Raj Kapoor",
+    "timestamp": 262.1,
+    "endTimeTs": 264.8
+  },
+  {
+    "speakerName": "Ravi Gupta",
+    "timestamp": 266.2,
+    "endTimeTs": 280.0
+  },
+  {
+    "speakerName": "Sofia Petrov",
+    "timestamp": 280.7,
+    "endTimeTs": 286.3
+  },
+  {
+    "speakerName": "Raj Kapoor",
+    "timestamp": 287.2,
+    "endTimeTs": 299.8
+  },
+  {
+    "speakerName": "Sofia Petrov",
+    "timestamp": 300.6,
+    "endTimeTs": 313.1
+  },
+  {
+    "speakerName": "Raj Kapoor",
+    "timestamp": 314.5,
+    "endTimeTs": 318.7
+  },
+  {
+    "speakerName": "Sofia Petrov",
+    "timestamp": 319.3,
+    "endTimeTs": 329.8
+  },
+  {
+    "speakerName": "Raj Kapoor",
+    "timestamp": 330.8,
+    "endTimeTs": 348.2
+  },
+  {
+    "speakerName": "Ravi Gupta",
+    "timestamp": 349.2,
+    "endTimeTs": 351.6
+  },
+  {
+    "speakerName": "Raj Kapoor",
+    "timestamp": 353.0,
+    "endTimeTs": 361.6
+  },
+  {
+    "speakerName": "Sofia Petrov",
+    "timestamp": 362.8,
+    "endTimeTs": 381.6
+  },
+  {
+    "speakerName": "Ravi Gupta",
+    "timestamp": 382.7,
+    "endTimeTs": 394.8
+  },
+  {
+    "speakerName": "Sofia Petrov",
+    "timestamp": 395.7,
+    "endTimeTs": 405.3
+  },
+  {
+    "speakerName": "Raj Kapoor",
+    "timestamp": 406.2,
+    "endTimeTs": 410.6
+  },
+  {
+    "speakerName": "Ravi Gupta",
+    "timestamp": 411.2,
+    "endTimeTs": 421.0
+  },
+  {
+    "speakerName": "Sofia Petrov",
+    "timestamp": 422.5,
+    "endTimeTs": 433.6
+  },
+  {
+    "speakerName": "Raj Kapoor",
+    "timestamp": 435.0,
+    "endTimeTs": 444.5
+  },
+  {
+    "speakerName": "Ravi Gupta",
+    "timestamp": 446.0,
+    "endTimeTs": 449.8
+  },
+  {
+    "speakerName": "Raj Kapoor",
+    "timestamp": 450.7,
+    "endTimeTs": 455.4
+  },
+  {
+    "speakerName": "Sofia Petrov",
+    "timestamp": 456.2,
+    "endTimeTs": 457.7
+  },
+  {
+    "speakerName": "Ravi Gupta",
+    "timestamp": 458.6,
+    "endTimeTs": 460.1
+  },
+  {
+    "speakerName": "Raj Kapoor",
+    "timestamp": 460.6,
+    "endTimeTs": 481.2
+  }
+]

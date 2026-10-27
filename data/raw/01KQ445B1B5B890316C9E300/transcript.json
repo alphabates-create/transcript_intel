@@ -1,0 +1,484 @@
+{
+  "data": [
+    {
+      "sentence": "Alright, I think we've got everyone now \u2014 Ravi, Sofia, good morning.",
+      "speaker_name": "Raj Kapoor",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 5.4,
+      "endTime": 9.7,
+      "averageConfidence": 0.91,
+      "index": 0
+    },
+    {
+      "sentence": "Morning, Raj.",
+      "speaker_name": "Ravi Gupta",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 10.1,
+      "endTime": 11.6,
+      "averageConfidence": 0.95,
+      "index": 1
+    },
+    {
+      "sentence": "Hey, good morning. Sorry, I was just finishing up a Slack thread \u2014 I'm here.",
+      "speaker_name": "Sofia Petrov",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 12.5,
+      "endTime": 17.6,
+      "averageConfidence": 0.93,
+      "index": 2
+    },
+    {
+      "sentence": "No worries. Okay so, usual format \u2014 let's do quick status updates, then I want to spend the bulk of the time on the post-mortem follow-ups from the Detect outage and also figure out where we are with the Comply v2 rollout now that we're ten days post-launch.",
+      "speaker_name": "Raj Kapoor",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 18.0,
+      "endTime": 35.2,
+      "averageConfidence": 0.93,
+      "index": 3
+    },
+    {
+      "sentence": "Works for me. You want me to go first?",
+      "speaker_name": "Ravi Gupta",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 35.6,
+      "endTime": 39.3,
+      "averageConfidence": 0.9,
+      "index": 4
+    },
+    {
+      "sentence": "Yeah, go ahead Ravi.",
+      "speaker_name": "Raj Kapoor",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 40.2,
+      "endTime": 41.9,
+      "averageConfidence": 0.91,
+      "index": 5
+    },
+    {
+      "sentence": "Okay, so on my end this week \u2014 I finished deploying the second set of redundant processing nodes for Detect. That's been merged and it's running in production as of, uh, Tuesday morning. The circuit breaker pattern implementation is still in review, Sofia has eyes on it.",
+      "speaker_name": "Ravi Gupta",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 43.2,
+      "endTime": 59.6,
+      "averageConfidence": 0.89,
+      "index": 6
+    },
+    {
+      "sentence": "Yeah I was going through that PR yesterday. I have a couple of comments, nothing blocking, but I do want to talk through one part of the failover logic before we merge it. I'll get to that.",
+      "speaker_name": "Sofia Petrov",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 60.2,
+      "endTime": 73.2,
+      "averageConfidence": 0.95,
+      "index": 7
+    },
+    {
+      "sentence": "Sure, yeah, let's do that.",
+      "speaker_name": "Ravi Gupta",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 74.5,
+      "endTime": 76.0,
+      "averageConfidence": 0.96,
+      "index": 8
+    },
+    {
+      "sentence": "Good. And the nodes themselves, Ravi \u2014 any issues in production so far? Any anomalies in the monitoring?",
+      "speaker_name": "Raj Kapoor",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 77.1,
+      "endTime": 83.4,
+      "averageConfidence": 0.96,
+      "index": 9
+    },
+    {
+      "sentence": "Nothing significant. There was a brief latency spike Wednesday evening, like a 200ms uptick on the ingestion side, but it self-resolved within about four minutes. I don't think it's related to the new nodes, looked more like a downstream dependency thing. I've got it in the log if you want to review it.",
+      "speaker_name": "Ravi Gupta",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 84.5,
+      "endTime": 103.3,
+      "averageConfidence": 0.94,
+      "index": 10
+    },
+    {
+      "sentence": "Okay, let's keep an eye on it but yeah doesn't sound alarming. Sofia, your update?",
+      "speaker_name": "Raj Kapoor",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 103.8,
+      "endTime": 109.4,
+      "averageConfidence": 0.94,
+      "index": 11
+    },
+    {
+      "sentence": "Sure. So I've been split this week between the circuit breaker review and the Comply v2 stuff. On Comply \u2014 we had three customers hit errors with the on-demand SOC 2 report generation, specifically around large tenant datasets. Like, if you've got a tenant with over, um, I think it was around 50,000 audit log entries in the window, the report generation was timing out.",
+      "speaker_name": "Sofia Petrov",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 110.7,
+      "endTime": 133.8,
+      "averageConfidence": 0.93,
+      "index": 12
+    },
+    {
+      "sentence": "How many customers is that affecting? Like, is this widespread?",
+      "speaker_name": "Raj Kapoor",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 134.3,
+      "endTime": 137.7,
+      "averageConfidence": 0.92,
+      "index": 13
+    },
+    {
+      "sentence": "So far it's three confirmed, but honestly I'd expect more to surface as more customers actually try to generate reports. It's not a niche edge case \u2014 any mid-to-large enterprise customer is going to be in that range.",
+      "speaker_name": "Sofia Petrov",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 138.9,
+      "endTime": 152.0,
+      "averageConfidence": 0.89,
+      "index": 14
+    },
+    {
+      "sentence": "Yeah that's... that's not great. Do we have a fix in progress?",
+      "speaker_name": "Raj Kapoor",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 152.3,
+      "endTime": 156.9,
+      "averageConfidence": 0.94,
+      "index": 15
+    },
+    {
+      "sentence": "I have a fix drafted. Basically we need to paginate the audit log query and process it in chunks rather than pulling the full dataset at once. It's not a complicated change but I want to make sure we test it properly across all four frameworks \u2014 SOC 2, PCI, HIPAA, ISO \u2014 before we push it.",
+      "speaker_name": "Sofia Petrov",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 157.4,
+      "endTime": 177.4,
+      "averageConfidence": 0.92,
+      "index": 16
+    },
+    {
+      "sentence": "How long are we talking to get that out?",
+      "speaker_name": "Raj Kapoor",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 178.1,
+      "endTime": 181.6,
+      "averageConfidence": 0.91,
+      "index": 17
+    },
+    {
+      "sentence": "Realistically? If I get uninterrupted time today and tomorrow, I can have a PR up by end of day tomorrow, and then assuming review and QA goes smoothly we're looking at early next week for production.",
+      "speaker_name": "Sofia Petrov",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 183.0,
+      "endTime": 195.8,
+      "averageConfidence": 0.91,
+      "index": 18
+    },
+    {
+      "sentence": "Okay. Can Ravi help with QA on that?",
+      "speaker_name": "Raj Kapoor",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 196.5,
+      "endTime": 199.7,
+      "averageConfidence": 0.91,
+      "index": 19
+    },
+    {
+      "sentence": "Uh, yeah, I can do that. I'd just need \u2014 Sofia, can you set up a test tenant with a large dataset so I'm not generating fake data manually?",
+      "speaker_name": "Ravi Gupta",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 200.6,
+      "endTime": 211.2,
+      "averageConfidence": 0.94,
+      "index": 20
+    },
+    {
+      "sentence": "Yeah I already have one in staging, I'll share the credentials with you.",
+      "speaker_name": "Sofia Petrov",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 212.3,
+      "endTime": 217.3,
+      "averageConfidence": 0.94,
+      "index": 21
+    },
+    {
+      "sentence": "Perfect.",
+      "speaker_name": "Ravi Gupta",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 218.3,
+      "endTime": 219.8,
+      "averageConfidence": 0.89,
+      "index": 22
+    },
+    {
+      "sentence": "Alright, good. I want that prioritized. Now, let's go back to the Detect post-mortem follow-ups because I know we've been chipping away at those for a month now and I want to make sure we're not letting things slip. Ravi, where are we on the full list?",
+      "speaker_name": "Raj Kapoor",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 220.7,
+      "endTime": 237.2,
+      "averageConfidence": 0.93,
+      "index": 23
+    },
+    {
+      "sentence": "So from the original post-mortem action items \u2014 the redundant nodes are done, as I mentioned. The alerting threshold adjustments are done, we pushed those in week one. The runbook update is... mostly done, I think there are two sections Sofia was supposed to fill in on the detection pipeline side.",
+      "speaker_name": "Ravi Gupta",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 237.9,
+      "endTime": 256.0,
+      "averageConfidence": 0.9,
+      "index": 24
+    },
+    {
+      "sentence": "Yeah, that's on me. I haven't gotten to it. I'll do it this week.",
+      "speaker_name": "Sofia Petrov",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 256.6,
+      "endTime": 261.4,
+      "averageConfidence": 0.93,
+      "index": 25
+    },
+    {
+      "sentence": "Okay, that's the runbook. What else is outstanding?",
+      "speaker_name": "Raj Kapoor",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 262.1,
+      "endTime": 264.8,
+      "averageConfidence": 0.96,
+      "index": 26
+    },
+    {
+      "sentence": "The load testing suite. We said we were going to build out a proper synthetic load test to simulate cascading failure scenarios so we can catch this kind of thing before it hits production. That one hasn't been started.",
+      "speaker_name": "Ravi Gupta",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 266.2,
+      "endTime": 280.0,
+      "averageConfidence": 0.91,
+      "index": 27
+    },
+    {
+      "sentence": "Yeah, that's a bigger lift. I mean, it's important but it's not a one-day thing.",
+      "speaker_name": "Sofia Petrov",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 280.7,
+      "endTime": 286.3,
+      "averageConfidence": 0.92,
+      "index": 28
+    },
+    {
+      "sentence": "I know it's not, but we committed to it in the post-mortem document and I don't want it to become one of those things that just... never happens. Can we put a realistic timeline on it?",
+      "speaker_name": "Raj Kapoor",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 287.2,
+      "endTime": 299.8,
+      "averageConfidence": 0.94,
+      "index": 29
+    },
+    {
+      "sentence": "I mean, if we're being honest, with the Comply bug work and the circuit breaker PR, I don't think either of us has bandwidth to start that before, um, end of April at the earliest.",
+      "speaker_name": "Sofia Petrov",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 300.6,
+      "endTime": 313.1,
+      "averageConfidence": 0.89,
+      "index": 30
+    },
+    {
+      "sentence": "End of April to start, or end of April to finish?",
+      "speaker_name": "Raj Kapoor",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 314.5,
+      "endTime": 318.7,
+      "averageConfidence": 0.94,
+      "index": 31
+    },
+    {
+      "sentence": "To start. A full load testing suite for the event ingestion pipeline \u2014 even a basic one \u2014 I'd estimate two weeks of actual work once we get into it.",
+      "speaker_name": "Sofia Petrov",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 319.3,
+      "endTime": 329.8,
+      "averageConfidence": 0.91,
+      "index": 32
+    },
+    {
+      "sentence": "Okay. Let's say we target starting that the week of April 28th, and we plan for a two-week sprint on it. That puts us at mid-May, which I think is acceptable given the other priorities. But I want it on the roadmap formally, not just as a verbal commitment.",
+      "speaker_name": "Raj Kapoor",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 330.8,
+      "endTime": 348.2,
+      "averageConfidence": 0.9,
+      "index": 33
+    },
+    {
+      "sentence": "I'll add it to Jira today.",
+      "speaker_name": "Ravi Gupta",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 349.2,
+      "endTime": 351.6,
+      "averageConfidence": 0.94,
+      "index": 34
+    },
+    {
+      "sentence": "Good. Now \u2014 Sofia, you mentioned wanting to talk through something about the circuit breaker PR. Let's do that before we run out of time.",
+      "speaker_name": "Raj Kapoor",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 353.0,
+      "endTime": 361.6,
+      "averageConfidence": 0.95,
+      "index": 35
+    },
+    {
+      "sentence": "Right, yeah. So the way Ravi has the failover logic set up, when the circuit breaker opens it routes traffic to the secondary node immediately. My concern is there's no health check before the reroute \u2014 so if the secondary node happens to also be degraded, we're just... blindly routing to a bad node.",
+      "speaker_name": "Sofia Petrov",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 362.8,
+      "endTime": 381.6,
+      "averageConfidence": 0.92,
+      "index": 36
+    },
+    {
+      "sentence": "I mean, the assumption was the secondary is always healthy because it's not under load, but yeah, I can see the issue. You're saying we should run a quick health probe before committing the reroute?",
+      "speaker_name": "Ravi Gupta",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 382.7,
+      "endTime": 394.8,
+      "averageConfidence": 0.9,
+      "index": 37
+    },
+    {
+      "sentence": "Exactly. Even just a lightweight ping with a 500ms timeout \u2014 if it fails, we surface the alert and don't silently fail over to a bad node.",
+      "speaker_name": "Sofia Petrov",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 395.7,
+      "endTime": 405.3,
+      "averageConfidence": 0.89,
+      "index": 38
+    },
+    {
+      "sentence": "That's a reasonable concern. Ravi, how much work is that to add?",
+      "speaker_name": "Raj Kapoor",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 406.2,
+      "endTime": 410.6,
+      "averageConfidence": 0.97,
+      "index": 39
+    },
+    {
+      "sentence": "Honestly not a lot. Maybe a few hours. I don't want to hold up the whole PR for it, could I add it as a follow-up ticket?",
+      "speaker_name": "Ravi Gupta",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 411.2,
+      "endTime": 421.0,
+      "averageConfidence": 0.88,
+      "index": 40
+    },
+    {
+      "sentence": "I'd rather have it in the same PR, to be honest. It's a safety thing and it's directly part of the circuit breaker behavior. I don't love shipping the pattern without it.",
+      "speaker_name": "Sofia Petrov",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 422.5,
+      "endTime": 433.6,
+      "averageConfidence": 0.96,
+      "index": 41
+    },
+    {
+      "sentence": "I agree with Sofia on this one. It's a few hours of work, let's just do it right. Update the PR and ping Sofia when it's ready.",
+      "speaker_name": "Raj Kapoor",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 435.0,
+      "endTime": 444.5,
+      "averageConfidence": 0.93,
+      "index": 42
+    },
+    {
+      "sentence": "Yeah, fair enough. I'll have it updated by end of day.",
+      "speaker_name": "Ravi Gupta",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 446.0,
+      "endTime": 449.8,
+      "averageConfidence": 0.9,
+      "index": 43
+    },
+    {
+      "sentence": "Perfect. Okay, I think we're at about time. Any other blockers before we wrap?",
+      "speaker_name": "Raj Kapoor",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 450.7,
+      "endTime": 455.4,
+      "averageConfidence": 0.97,
+      "index": 44
+    },
+    {
+      "sentence": "Nothing from me.",
+      "speaker_name": "Sofia Petrov",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 456.2,
+      "endTime": 457.7,
+      "averageConfidence": 0.91,
+      "index": 45
+    },
+    {
+      "sentence": "Same. I'm good.",
+      "speaker_name": "Ravi Gupta",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 458.6,
+      "endTime": 460.1,
+      "averageConfidence": 0.91,
+      "index": 46
+    },
+    {
+      "sentence": "Alright. To summarize \u2014 Comply timeout fix is Sofia's priority, Ravi assists with QA. Circuit breaker PR gets the health check added today, then Sofia reviews and we merge. Runbook gets finished this week. And load testing goes on the roadmap for April 28th start. I'll send a recap in Slack. Good work, everyone \u2014 talk next week.",
+      "speaker_name": "Raj Kapoor",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 460.6,
+      "endTime": 481.2,
+      "averageConfidence": 0.96,
+      "index": 47
+    }
+  ]
+}

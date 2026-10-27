@@ -1,0 +1,21 @@
+{
+  "meetingId": "01KQ68FB3E9E60C4477CDAB4",
+  "title": "Comply v2 - GA Deployment Plan",
+  "organizerEmail": "ananya.sharma@aegiscloud.com",
+  "host": "ananya.sharma@aegiscloud.com",
+  "startTime": "2026-04-01T17:45:00.000Z",
+  "endTime": "2026-04-01T18:14:30.000Z",
+  "duration": 29.5,
+  "allEmails": [
+    "ananya.sharma@aegiscloud.com",
+    "ravi.gupta@aegiscloud.com",
+    "mike.romano@aegiscloud.com",
+    "nina.kowalski@aegiscloud.com"
+  ],
+  "invitees": [
+    "ananya.sharma@aegiscloud.com",
+    "ravi.gupta@aegiscloud.com",
+    "mike.romano@aegiscloud.com",
+    "nina.kowalski@aegiscloud.com"
+  ]
+}

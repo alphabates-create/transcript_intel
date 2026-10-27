@@ -1,0 +1,50 @@
+[
+  {
+    "participantName": "Tyler Washington",
+    "timestamp": 1776677404000,
+    "type": "Join",
+    "time": 4.0
+  },
+  {
+    "participantName": "Ravi Gupta",
+    "timestamp": 1776677412000,
+    "type": "Join",
+    "time": 12.0
+  },
+  {
+    "participantName": "Nina Kowalski",
+    "timestamp": 1776677438000,
+    "type": "Join",
+    "time": 38.0
+  },
+  {
+    "participantName": "Diana Reeves",
+    "timestamp": 1776677445000,
+    "type": "Join",
+    "time": 45.0
+  },
+  {
+    "participantName": "Ravi Gupta",
+    "timestamp": 1776679822000,
+    "type": "Leave",
+    "time": 2422.0
+  },
+  {
+    "participantName": "Nina Kowalski",
+    "timestamp": 1776679800000,
+    "type": "Leave",
+    "time": 2400.0
+  },
+  {
+    "participantName": "Diana Reeves",
+    "timestamp": 1776679821000,
+    "type": "Leave",
+    "time": 2421.0
+  },
+  {
+    "participantName": "Tyler Washington",
+    "timestamp": 1776679816000,
+    "type": "Leave",
+    "time": 2416.0
+  }
+]

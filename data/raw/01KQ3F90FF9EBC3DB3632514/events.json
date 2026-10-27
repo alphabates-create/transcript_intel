@@ -1,0 +1,50 @@
+[
+  {
+    "participantName": "Tyler Washington",
+    "timestamp": 1774713623000,
+    "type": "Join",
+    "time": 23.0
+  },
+  {
+    "participantName": "Sofia Petrov",
+    "timestamp": 1774713626000,
+    "type": "Join",
+    "time": 26.0
+  },
+  {
+    "participantName": "Mike Romano",
+    "timestamp": 1774713641000,
+    "type": "Join",
+    "time": 41.0
+  },
+  {
+    "participantName": "Nina Kowalski",
+    "timestamp": 1774713650000,
+    "type": "Join",
+    "time": 50.0
+  },
+  {
+    "participantName": "Nina Kowalski",
+    "timestamp": 1774715151000,
+    "type": "Leave",
+    "time": 1551.0
+  },
+  {
+    "participantName": "Sofia Petrov",
+    "timestamp": 1774715154000,
+    "type": "Leave",
+    "time": 1554.0
+  },
+  {
+    "participantName": "Tyler Washington",
+    "timestamp": 1774715148000,
+    "type": "Leave",
+    "time": 1548.0
+  },
+  {
+    "participantName": "Mike Romano",
+    "timestamp": 1774715156000,
+    "type": "Leave",
+    "time": 1556.0
+  }
+]

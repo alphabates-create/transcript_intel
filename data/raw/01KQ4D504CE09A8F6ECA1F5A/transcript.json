@@ -1,0 +1,434 @@
+{
+  "data": [
+    {
+      "sentence": "Alright, I think everyone's on \u2014 Hannah, Nina, can you both hear me okay?",
+      "speaker_name": "Ananya Sharma",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 6.7,
+      "endTime": 12.0,
+      "averageConfidence": 0.91,
+      "index": 0
+    },
+    {
+      "sentence": "Yep, loud and clear.",
+      "speaker_name": "Hannah Liu",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 12.7,
+      "endTime": 14.2,
+      "averageConfidence": 0.94,
+      "index": 1
+    },
+    {
+      "sentence": "Same here, I'm good.",
+      "speaker_name": "Nina Kowalski",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 15.6,
+      "endTime": 17.2,
+      "averageConfidence": 0.92,
+      "index": 2
+    },
+    {
+      "sentence": "Okay great. So, um, I think the main thing we wanted to get through today is the Identity roadmap for Q2, specifically around the MFA expansion and then the SSO connector work. Hannah, do you want to kind of set the stage?",
+      "speaker_name": "Ananya Sharma",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 18.0,
+      "endTime": 32.9,
+      "averageConfidence": 0.89,
+      "index": 3
+    },
+    {
+      "sentence": "Yeah, for sure. So, at a high level, the ask from leadership is that we have a clearer story around Aegis Identity by end of Q2. Right now the feedback we're getting from sales is that the IAM side feels a little thin compared to what SentinelShield is putting out there. So the focus areas are \u2014 one, the MFA policy engine, and two, the SSO connector library, we want to expand that significantly.",
+      "speaker_name": "Hannah Liu",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 34.2,
+      "endTime": 60.2,
+      "averageConfidence": 0.92,
+      "index": 4
+    },
+    {
+      "sentence": "Right, and I think the SSO connector piece is actually the more tractable one in the near term. We already have the SAML 2.0 foundation in place, so adding connectors for, say, Okta, Azure AD, that's \u2014 it's work but it's not like, greenfield work.",
+      "speaker_name": "Ananya Sharma",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 61.4,
+      "endTime": 77.4,
+      "averageConfidence": 0.9,
+      "index": 5
+    },
+    {
+      "sentence": "How many connectors are we talking about? Because from a QA standpoint, each one is basically its own test surface.",
+      "speaker_name": "Nina Kowalski",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 77.8,
+      "endTime": 84.7,
+      "averageConfidence": 0.89,
+      "index": 6
+    },
+    {
+      "sentence": "Yeah, that's a fair point. I think we were penciling in something like six to eight new connectors by end of Q2. But I want to hear what's realistic from Ananya's side before we commit to that number publicly.",
+      "speaker_name": "Hannah Liu",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 85.4,
+      "endTime": 99.1,
+      "averageConfidence": 0.93,
+      "index": 7
+    },
+    {
+      "sentence": "Six to eight is... doable, but it depends a lot on how we scope the testing cycles. Like if Nina's team needs, what, two weeks per connector for full regression?",
+      "speaker_name": "Ananya Sharma",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 100.6,
+      "endTime": 111.3,
+      "averageConfidence": 0.96,
+      "index": 8
+    },
+    {
+      "sentence": "It's not quite that bad. For a connector where the underlying SAML flow is already validated, we can probably get that down to, I'd say, a week of focused testing if we have good test environments set up. The problem is historically we've had to wait on engineering to provision those environments and that's where time gets lost.",
+      "speaker_name": "Nina Kowalski",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 112.5,
+      "endTime": 133.2,
+      "averageConfidence": 0.89,
+      "index": 9
+    },
+    {
+      "sentence": "Okay yeah, that's a real bottleneck. I actually put a ticket in \u2014 I want to say like two sprints ago \u2014 to get a dedicated staging tenant for Identity testing and it's still sitting in the infrastructure queue.",
+      "speaker_name": "Ananya Sharma",
+      "sentimentType": "negative",
+      "speaker_id": 0,
+      "time": 133.5,
+      "endTime": 147.1,
+      "averageConfidence": 0.96,
+      "index": 10
+    },
+    {
+      "sentence": "I didn't know that was still open. Do you know who's blocking it?",
+      "speaker_name": "Hannah Liu",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 148.1,
+      "endTime": 152.9,
+      "averageConfidence": 0.88,
+      "index": 11
+    },
+    {
+      "sentence": "It's not really blocked, it just hasn't been prioritized. I think the infra team has been heads down on the Detect pipeline work so everything else kind of got deprioritized.",
+      "speaker_name": "Ananya Sharma",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 153.4,
+      "endTime": 163.9,
+      "averageConfidence": 0.97,
+      "index": 12
+    },
+    {
+      "sentence": "Okay, I can follow up with the infra lead on that. That actually needs to happen regardless of what we decide today, so let me just take that as an action item.",
+      "speaker_name": "Hannah Liu",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 165.0,
+      "endTime": 176.0,
+      "averageConfidence": 0.96,
+      "index": 13
+    },
+    {
+      "sentence": "That would be great, yeah.",
+      "speaker_name": "Nina Kowalski",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 177.4,
+      "endTime": 179.6,
+      "averageConfidence": 0.92,
+      "index": 14
+    },
+    {
+      "sentence": "So, going back to MFA \u2014 Ananya, what's the current state of the policy engine? I know we had some design discussions back in December but I feel like things shifted after the holidays.",
+      "speaker_name": "Hannah Liu",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 180.3,
+      "endTime": 192.3,
+      "averageConfidence": 0.89,
+      "index": 15
+    },
+    {
+      "sentence": "Yeah, so the design did shift a bit. The original plan was to build a rules-based engine where admins could define MFA requirements per user group and per application. That's still the core of it. What changed is we're now also looking at adding a risk-signal layer, so the system can factor in things like login location, device fingerprint, time of day \u2014 and then either require step-up auth or flag it for review.",
+      "speaker_name": "Ananya Sharma",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 193.5,
+      "endTime": 219.8,
+      "averageConfidence": 0.93,
+      "index": 16
+    },
+    {
+      "sentence": "Okay, that's \u2014 I mean, that's a bigger scope than what I had in my head. Is that all in scope for Q2 or is the risk-signal piece more of a later phase?",
+      "speaker_name": "Hannah Liu",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 221.2,
+      "endTime": 232.9,
+      "averageConfidence": 0.88,
+      "index": 17
+    },
+    {
+      "sentence": "Honestly I think we should phase it. The core rules engine, that's Q2. The risk-signal layer I'd push to Q3 at the earliest. It requires integrating with some telemetry pipelines that aren't fully built out yet.",
+      "speaker_name": "Ananya Sharma",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 234.4,
+      "endTime": 247.3,
+      "averageConfidence": 0.92,
+      "index": 18
+    },
+    {
+      "sentence": "That makes sense to me. From a QA perspective, testing adaptive MFA is significantly more complex \u2014 you basically need to simulate all these different environmental conditions. So keeping that separate is probably the right call.",
+      "speaker_name": "Nina Kowalski",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 248.0,
+      "endTime": 260.7,
+      "averageConfidence": 0.96,
+      "index": 19
+    },
+    {
+      "sentence": "Agreed. And honestly from a product narrative standpoint, we can still tell a strong story with the rules-based engine. Being able to say you can set granular MFA policies per role, per app, that's already differentiated from what CyberNova offers right now.",
+      "speaker_name": "Hannah Liu",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 261.5,
+      "endTime": 276.1,
+      "averageConfidence": 0.89,
+      "index": 20
+    },
+    {
+      "sentence": "Yeah I think that's right. CyberNova's IAM is pretty much all-or-nothing on MFA from what I've seen.",
+      "speaker_name": "Ananya Sharma",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 277.0,
+      "endTime": 282.8,
+      "averageConfidence": 0.96,
+      "index": 21
+    },
+    {
+      "sentence": "Okay so let's try to nail down some rough timelines. If we're targeting the rules engine for Q2, what does that look like sprint by sprint? I know it's early but even a rough shape would help me with planning.",
+      "speaker_name": "Hannah Liu",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 284.0,
+      "endTime": 298.5,
+      "averageConfidence": 0.96,
+      "index": 22
+    },
+    {
+      "sentence": "So, rough shape \u2014 I'd say February and into early March is design finalization and we start building out the policy schema, the data model. Mid-March through April is core implementation. And then ideally late April we're handing off to Nina's team for testing, which gives us... a May release window if everything goes smoothly.",
+      "speaker_name": "Ananya Sharma",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 298.9,
+      "endTime": 318.3,
+      "averageConfidence": 0.94,
+      "index": 23
+    },
+    {
+      "sentence": "May is tight but not impossible. The thing I'd flag is that late April hand-off only works if the spec is really locked before we start testing. Last time, and I don't want to relitigate this, but last time we got a build that was still in flux and we wasted like a week and a half.",
+      "speaker_name": "Nina Kowalski",
+      "sentimentType": "negative",
+      "speaker_id": 2,
+      "time": 319.0,
+      "endTime": 339.0,
+      "averageConfidence": 0.93,
+      "index": 24
+    },
+    {
+      "sentence": "No that's a totally fair callout, and I take ownership of that \u2014 the spec on the last feature wasn't clean enough when it went to QA. What I'd suggest is we set a hard cutoff, like spec is locked two weeks before the hand-off date, and if it's not locked, we don't hand off.",
+      "speaker_name": "Ananya Sharma",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 339.8,
+      "endTime": 359.2,
+      "averageConfidence": 0.89,
+      "index": 25
+    },
+    {
+      "sentence": "I'm supportive of that. And from my side, I'll make sure the acceptance criteria are written into the spec from the beginning so Nina's team isn't guessing at what done looks like.",
+      "speaker_name": "Hannah Liu",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 360.7,
+      "endTime": 371.8,
+      "averageConfidence": 0.93,
+      "index": 26
+    },
+    {
+      "sentence": "That would genuinely help a lot. If we have acceptance criteria upfront, we can start building test cases in parallel with development instead of waiting.",
+      "speaker_name": "Nina Kowalski",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 372.5,
+      "endTime": 381.7,
+      "averageConfidence": 0.96,
+      "index": 27
+    },
+    {
+      "sentence": "Good, let's make that the standard going forward for Identity work. Okay, so \u2014 SSO connectors. Do we want to talk about prioritization? Like which connectors do we tackle first?",
+      "speaker_name": "Hannah Liu",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 382.7,
+      "endTime": 393.2,
+      "averageConfidence": 0.91,
+      "index": 28
+    },
+    {
+      "sentence": "Yeah, so I've been looking at this. Based on what sales has been logging in the CRM, Okta is by far the most requested. After that it's Azure AD, then Google Workspace. Everything else is pretty scattered \u2014 Ping Identity comes up occasionally, Duo, a few others.",
+      "speaker_name": "Hannah Liu",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 393.9,
+      "endTime": 410.2,
+      "averageConfidence": 0.95,
+      "index": 29
+    },
+    {
+      "sentence": "Okay so Okta, Azure AD, Google Workspace as the first three. That actually makes sense from an engineering standpoint too because those three have the most mature and well-documented APIs, so we're less likely to hit weird edge cases.",
+      "speaker_name": "Ananya Sharma",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 410.7,
+      "endTime": 424.6,
+      "averageConfidence": 0.9,
+      "index": 30
+    },
+    {
+      "sentence": "From a testing standpoint I'll need access to sandbox environments for all three. Okta I'm pretty sure we have a dev account already. Azure AD and Google Workspace I'd need to confirm.",
+      "speaker_name": "Nina Kowalski",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 426.1,
+      "endTime": 437.4,
+      "averageConfidence": 0.94,
+      "index": 31
+    },
+    {
+      "sentence": "We definitely have the Okta dev account. Azure AD \u2014 I think we have one through our internal Nextera agreement but I'd have to check with IT. Google Workspace I'm not sure about.",
+      "speaker_name": "Ananya Sharma",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 438.4,
+      "endTime": 449.7,
+      "averageConfidence": 0.89,
+      "index": 32
+    },
+    {
+      "sentence": "Can you both just check and send me what you find? I'd rather know now if there's a gap so we can sort it out before it becomes a blocker in March.",
+      "speaker_name": "Hannah Liu",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 450.4,
+      "endTime": 461.5,
+      "averageConfidence": 0.96,
+      "index": 33
+    },
+    {
+      "sentence": "Yeah I'll check on the Azure one this week.",
+      "speaker_name": "Ananya Sharma",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 462.3,
+      "endTime": 465.4,
+      "averageConfidence": 0.97,
+      "index": 34
+    },
+    {
+      "sentence": "Same, I'll figure out the Okta account situation and confirm it's still active.",
+      "speaker_name": "Nina Kowalski",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 466.8,
+      "endTime": 471.7,
+      "averageConfidence": 0.94,
+      "index": 35
+    },
+    {
+      "sentence": "Great. Okay I think we're in decent shape on the high-level plan. Let me just recap what I've got \u2014 MFA policy rules engine is the Q2 priority, spec locked mid-April, hand-off to QA late April, targeting May GA. SSO connectors, starting with Okta, Azure AD, Google Workspace. And I'm following up on the infra staging environment ticket. Does that sound right to everyone?",
+      "speaker_name": "Hannah Liu",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 473.1,
+      "endTime": 495.3,
+      "averageConfidence": 0.96,
+      "index": 36
+    },
+    {
+      "sentence": "That covers it from my side. The one thing I'd add is we should probably schedule a mid-point check-in, like sometime in March, just to make sure we're on track before things get too far along.",
+      "speaker_name": "Ananya Sharma",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 495.8,
+      "endTime": 508.7,
+      "averageConfidence": 0.96,
+      "index": 37
+    },
+    {
+      "sentence": "Agreed. I'll put something on the calendar for mid-March \u2014 same group, probably thirty minutes.",
+      "speaker_name": "Hannah Liu",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 509.1,
+      "endTime": 514.8,
+      "averageConfidence": 0.95,
+      "index": 38
+    },
+    {
+      "sentence": "Works for me.",
+      "speaker_name": "Nina Kowalski",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 515.7,
+      "endTime": 517.2,
+      "averageConfidence": 0.88,
+      "index": 39
+    },
+    {
+      "sentence": "Alright, I think that's everything. Thanks both, this was a useful sync.",
+      "speaker_name": "Hannah Liu",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 518.5,
+      "endTime": 522.6,
+      "averageConfidence": 0.93,
+      "index": 40
+    },
+    {
+      "sentence": "Yeah, good to get on the same page. Talk soon.",
+      "speaker_name": "Ananya Sharma",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 524.0,
+      "endTime": 527.8,
+      "averageConfidence": 0.95,
+      "index": 41
+    },
+    {
+      "sentence": "Thanks everyone, bye.",
+      "speaker_name": "Nina Kowalski",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 528.7,
+      "endTime": 530.2,
+      "averageConfidence": 0.94,
+      "index": 42
+    }
+  ]
+}

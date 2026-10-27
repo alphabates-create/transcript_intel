@@ -1,0 +1,19 @@
+{
+  "meetingId": "01KQ2B4878EC7B3EE5547007",
+  "title": "Aegis / Stratos Cloud - Audit Preparation",
+  "organizerEmail": "daniel.okafor@aegiscloud.com",
+  "host": "daniel.okafor@aegiscloud.com",
+  "startTime": "2026-03-06T13:30:00.000Z",
+  "endTime": "2026-03-06T13:53:18.000Z",
+  "duration": 23.3,
+  "allEmails": [
+    "daniel.okafor@aegiscloud.com",
+    "james.mitchell@aegiscloud.com",
+    "d.rowe@stratoscloud.io"
+  ],
+  "invitees": [
+    "daniel.okafor@aegiscloud.com",
+    "james.mitchell@aegiscloud.com",
+    "d.rowe@stratoscloud.io"
+  ]
+}

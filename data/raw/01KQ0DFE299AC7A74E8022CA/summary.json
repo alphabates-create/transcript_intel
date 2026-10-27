@@ -1,0 +1,46 @@
+{
+  "summary": "Daniel Okafor and solutions architect Kevin O'Brien met with Thomas Hargrove of Redwood to introduce Comply v2 and discuss support for their ISO 27001 certification journey. Thomas shared that Redwood is in early stages of ISO prep, with a formal audit targeted for Q1 2027, and highlighted pain points around evidence collection and continuous monitoring. Kevin walked through Comply v2's on-demand reporting engine, which maps live environment data to Annex A controls and supports multi-framework coverage including HIPAA and SOC 2. The team agreed on a clear set of next steps: activating Comply v2 on Redwood's tenant, running a baseline report, and scheduling a technical working session with Thomas and his security analyst Priya.",
+  "actionItems": [
+    "Kevin O'Brien: Send calendar invite for technical working session in two weeks, including Thomas and Priya",
+    "Daniel Okafor: Activate Comply v2 module on Redwood's tenant and complete configuration review",
+    "Kevin O'Brien: Send prep document explaining what to expect from the baseline ISO 27001 readiness report",
+    "Thomas Hargrove: Have Priya prepared to join the technical working session after baseline report is run"
+  ],
+  "topics": [
+    "iso 27001",
+    "compliance reporting",
+    "onboarding",
+    "healthcare",
+    "multi-framework coverage",
+    "audit preparation"
+  ],
+  "overallSentiment": "very-positive",
+  "sentimentScore": 4.8,
+  "keyMoments": [
+    {
+      "time": 38.0,
+      "text": "Thomas reveals his CISO has been pressuring him about ISO 27001 since January, establishing urgency for the engagement",
+      "type": "concern",
+      "speaker": "Thomas Hargrove"
+    },
+    {
+      "time": 210.0,
+      "text": "Kevin demonstrates that Comply v2 maps live environment data to specific ISO 27001 Annex A controls, generating auditor-ready reports on demand",
+      "type": "positive_pivot",
+      "speaker": "Kevin O'Brien"
+    },
+    {
+      "time": 310.0,
+      "text": "Thomas confirms the multi-framework coverage was a specific ask during renewal discussions, validating that the product delivered on a key promise",
+      "type": "praise",
+      "speaker": "Thomas Hargrove"
+    },
+    {
+      "time": 540.0,
+      "text": "Thomas reflects that Aegis's integrated platform approach was the deciding factor in their vendor selection and confirms it is playing out as expected",
+      "type": "praise",
+      "speaker": "Thomas Hargrove"
+    }
+  ],
+  "meetingId": "01KQ0DFE299AC7A74E8022CA"
+}

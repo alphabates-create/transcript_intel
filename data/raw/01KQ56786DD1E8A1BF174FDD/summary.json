@@ -1,0 +1,46 @@
+{
+  "summary": "Forge Industries (VP of IT Gerald Hutchins and Security Manager Dana Moretti) contacted support to inquire about early access to Comply v2, driven by the need for multi-framework compliance reporting across SOC 2, HIPAA, and PCI DSS. Senior support engineer Elena Vasquez and CSM David Kim informed them that Comply v2 is already in final QA and will GA on April 7th \u2014 just four days away \u2014 covering all three of their required frameworks plus ISO 27001. The team discussed automatic tenant upgrades, a migration assistant for control mapping, inline evidence collection, and an upcoming customer webinar on April 10th. Dana also raised a feature request around custom control labeling with internal policy numbers, which Elena agreed to investigate and formally log with the product team.",
+  "actionItems": [
+    "David Kim: Send Forge Industries team the April 10th v2 customer webinar invite, including Dana's two compliance analysts",
+    "Dana Moretti: Email David Kim with compliance analysts' contact details to be added to webinar invite",
+    "Elena Vasquez: Follow up in writing with specifics on custom control labeling and metadata field support in Comply v2",
+    "Elena Vasquez: Log custom internal policy cross-referencing as a formal feature request with the product team and flag Forge Industries as a reference customer candidate"
+  ],
+  "topics": [
+    "compliance reporting",
+    "product release",
+    "multi-framework support",
+    "feature request",
+    "upgrade migration",
+    "hipaa"
+  ],
+  "overallSentiment": "very-positive",
+  "sentimentScore": 4.8,
+  "keyMoments": [
+    {
+      "time": 142.0,
+      "text": "Elena reveals Comply v2 GA launch is only four days away on April 7th, far sooner than the customer expected",
+      "type": "positive_pivot",
+      "speaker": "Elena Vasquez"
+    },
+    {
+      "time": 198.0,
+      "text": "Dana discloses Forge was considering a separate point solution for HIPAA, signaling potential churn risk that v2 now resolves",
+      "type": "churn_signal",
+      "speaker": "Dana Moretti"
+    },
+    {
+      "time": 312.0,
+      "text": "David highlights inline evidence collection in v2, which Dana confirms would save her team significant manual audit prep hours",
+      "type": "praise",
+      "speaker": "David Kim"
+    },
+    {
+      "time": 498.0,
+      "text": "Dana requests custom control labeling with internal policy numbers; Elena flags this as a potential feature gap and commits to investigating and logging a formal product request",
+      "type": "feature_gap",
+      "speaker": "Dana Moretti"
+    }
+  ],
+  "meetingId": "01KQ56786DD1E8A1BF174FDD"
+}

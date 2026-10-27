@@ -1,0 +1,38 @@
+[
+  {
+    "participantName": "Priya Patel",
+    "timestamp": 1776861008000,
+    "type": "Join",
+    "time": 8.0
+  },
+  {
+    "participantName": "David Kim",
+    "timestamp": 1776861014000,
+    "type": "Join",
+    "time": 14.0
+  },
+  {
+    "participantName": "Damien Rowe",
+    "timestamp": 1776861047000,
+    "type": "Join",
+    "time": 47.0
+  },
+  {
+    "participantName": "David Kim",
+    "timestamp": 1776861756000,
+    "type": "Leave",
+    "time": 756.0
+  },
+  {
+    "participantName": "Priya Patel",
+    "timestamp": 1776861743000,
+    "type": "Leave",
+    "time": 743.0
+  },
+  {
+    "participantName": "Damien Rowe",
+    "timestamp": 1776861743000,
+    "type": "Leave",
+    "time": 743.0
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "participantName": "David Kim",
+    "timestamp": 1776256204000,
+    "type": "Join",
+    "time": 4.0
+  },
+  {
+    "participantName": "Alicia Monroe",
+    "timestamp": 1776256224000,
+    "type": "Join",
+    "time": 24.0
+  },
+  {
+    "participantName": "Gregory Fisk",
+    "timestamp": 1776256240000,
+    "type": "Join",
+    "time": 40.0
+  },
+  {
+    "participantName": "David Kim",
+    "timestamp": 1776257177000,
+    "type": "Leave",
+    "time": 977.0
+  },
+  {
+    "participantName": "Alicia Monroe",
+    "timestamp": 1776257195000,
+    "type": "Leave",
+    "time": 995.0
+  },
+  {
+    "participantName": "Gregory Fisk",
+    "timestamp": 1776257181000,
+    "type": "Leave",
+    "time": 981.0
+  }
+]

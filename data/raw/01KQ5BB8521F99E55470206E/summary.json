@@ -1,0 +1,46 @@
+{
+  "summary": "The team held a sprint planning meeting to review carryover items and commit to work for the upcoming sprint. Nina flagged two edge cases in DETECT-219 related to wildcard regex matching that Tyler needs to fix before the ticket can be closed. Ananya raised an architectural concern about a single-node ingestion pipeline and proposed a design spike to address redundancy and failover, which Ravi agreed to scope collaboratively. The team settled on 13 story points for the sprint, including carryover, QA work, the design spike, and the alert deduplication ticket DETECT-231, intentionally leaving buffer after overcommitting last sprint.",
+  "actionItems": [
+    "Tyler Washington: Review Nina's repro steps for the wildcard regex edge case in DETECT-219 and apply fix today",
+    "Nina Kowalski: Send Tyler the repro steps for the DETECT-219 wildcard matching issue after the call",
+    "Ananya Sharma and Ravi Gupta: Block time Wednesday afternoon to assess ingestion node redundancy and return with a rough scope estimate",
+    "Sofia Petrov: Track sprint commitments at 13 points and monitor for mid-sprint adjustments if DETECT-231 testing surface expands"
+  ],
+  "topics": [
+    "sprint planning",
+    "bug fix",
+    "architecture",
+    "ingestion pipeline",
+    "alert deduplication",
+    "qa"
+  ],
+  "overallSentiment": "positive",
+  "sentimentScore": 4.1,
+  "keyMoments": [
+    {
+      "time": 112.0,
+      "text": "Nina identifies two unresolved edge cases in DETECT-219 related to wildcard regex matching on the custom rule engine",
+      "type": "technical_issue",
+      "speaker": "Nina Kowalski"
+    },
+    {
+      "time": 285.0,
+      "text": "Ananya raises a reliability concern about the single ingestion node becoming a blind spot under projected Q2 load",
+      "type": "concern",
+      "speaker": "Ananya Sharma"
+    },
+    {
+      "time": 420.0,
+      "text": "Team agrees to a design spike on ingestion redundancy with Ananya and Ravi meeting Wednesday to scope the work",
+      "type": "action_item",
+      "speaker": "Sofia Petrov"
+    },
+    {
+      "time": 620.0,
+      "text": "Tyler advocates for leaving sprint buffer after the team overcommitted last sprint, and Sofia agrees to hold at 13 points",
+      "type": "positive_pivot",
+      "speaker": "Tyler Washington"
+    }
+  ],
+  "meetingId": "01KQ5BB8521F99E55470206E"
+}

@@ -1,0 +1,46 @@
+{
+  "summary": "Rachel Torres (CSM) met with Sandra Keating (customer in insurance/financial services) to discuss Detect product roadmap and feature requests. Sandra raised two primary feature gaps: granular alerting thresholds by entity type with custom behavioral baselines, and in-product pipeline health visibility following a six-hour outage in March. Rachel shared upcoming roadmap items including native LogVault integration and a threat intelligence correlation layer, and the call closed with a discussion of Comply v2's new SOC 2 on-demand reporting feature, with a demo planned for Sandra and her compliance lead Marcus.",
+  "actionItems": [
+    "Rachel Torres: Log formal feature requests for entity grouping with custom behavioral baselines and in-product pipeline health status with proactive degradation alerts",
+    "Rachel Torres: Send Sandra confirmed threat intel feed list for correlation layer (including FS-ISAC status) and LogVault native connector timeline details",
+    "Rachel Torres: Schedule Comply v2 demo with Sandra and Marcus during the week of April 20th",
+    "Rachel Torres: Connect Sandra with product team to provide direct context on entity grouping and custom baseline requirements"
+  ],
+  "topics": [
+    "feature requests",
+    "alert fatigue",
+    "incident review",
+    "compliance reporting",
+    "product roadmap",
+    "siem integration"
+  ],
+  "overallSentiment": "mixed-positive",
+  "sentimentScore": 3.6,
+  "keyMoments": [
+    {
+      "time": 312.0,
+      "text": "Sandra describes alert fatigue caused by one-size-fits-all thresholds, noting SOC team is overwhelmed by false positives and unable to focus on real threats",
+      "type": "concern",
+      "speaker": "Sandra Keating"
+    },
+    {
+      "time": 598.0,
+      "text": "Sandra raises the March six-hour outage and its regulatory implications, noting her team only discovered the issue because alert volume dropped to zero",
+      "type": "churn_signal",
+      "speaker": "Sandra Keating"
+    },
+    {
+      "time": 782.0,
+      "text": "Rachel acknowledges the lack of in-product pipeline health visibility as a product gap and commits to logging it as a formal feature request",
+      "type": "feature_gap",
+      "speaker": "Rachel Torres"
+    },
+    {
+      "time": 1124.0,
+      "text": "Sandra reacts positively to Comply v2's on-demand SOC 2 reporting, noting it could save significant pain ahead of their upcoming renewal",
+      "type": "positive_pivot",
+      "speaker": "Sandra Keating"
+    }
+  ],
+  "meetingId": "01KQ8D9A06510DD623EFB1A6"
+}

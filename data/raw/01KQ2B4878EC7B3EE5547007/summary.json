@@ -1,0 +1,46 @@
+{
+  "summary": "Daniel Okafor and James Mitchell from Aegis met with Damien Rowe from Stratos to discuss using Aegis Comply to streamline their compliance preparation ahead of a Q2 (May) audit. Damien explained that their current process is highly manual, requiring engineers to spend weeks pulling evidence across spreadsheets for SOC 2 and ISO 27001 compliance. The Aegis team walked through how Comply continuously maps cloud infrastructure to compliance frameworks and generates audit-ready evidence, noting integration with their existing Aegis Detect product. The call ended positively with agreement to schedule a tailored demo for Damien's engineering and security team.",
+  "actionItems": [
+    "Daniel Okafor: Send Damien a scheduling link for the demo within the week",
+    "Daniel Okafor: Prepare a one-pager on SOC 2 and ISO 27001 framework mapping to share with Damien's team ahead of the demo",
+    "Damien Rowe: Add Head of Security Priya and a senior DevOps engineer to the demo invite",
+    "James Mitchell: Ensure all pre-demo materials are sent to Damien the same day as the call"
+  ],
+  "topics": [
+    "compliance automation",
+    "soc 2",
+    "iso 27001",
+    "audit preparation",
+    "product demo",
+    "platform integration"
+  ],
+  "overallSentiment": "very-positive",
+  "sentimentScore": 4.7,
+  "keyMoments": [
+    {
+      "time": 95.0,
+      "text": "Damien describes a painful, fully manual compliance process costing significant engineering time",
+      "type": "concern",
+      "speaker": "Damien Rowe"
+    },
+    {
+      "time": 310.0,
+      "text": "Damien reacts very positively to continuous evidence collection, calling it 'genuinely huge'",
+      "type": "positive_pivot",
+      "speaker": "Damien Rowe"
+    },
+    {
+      "time": 430.0,
+      "text": "James reveals that on-demand reporting is not yet available but is coming in an upcoming release",
+      "type": "feature_gap",
+      "speaker": "James Mitchell"
+    },
+    {
+      "time": 680.0,
+      "text": "Damien confirms existing use of Aegis Detect and asks about integration with Comply, leading to a strong platform cohesion pitch",
+      "type": "positive_pivot",
+      "speaker": "Damien Rowe"
+    }
+  ],
+  "meetingId": "01KQ2B4878EC7B3EE5547007"
+}

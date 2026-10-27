@@ -1,0 +1,534 @@
+{
+  "data": [
+    {
+      "sentence": "Alright, I think we've got everyone. Diana, Chris, can you both hear me okay?",
+      "speaker_name": "Tyler Washington",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 6.5,
+      "endTime": 11.4,
+      "averageConfidence": 0.91,
+      "index": 0
+    },
+    {
+      "sentence": "Yeah, I'm good. Just pulled up the incident doc so I can follow along.",
+      "speaker_name": "Diana Reeves",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 12.7,
+      "endTime": 18.0,
+      "averageConfidence": 0.92,
+      "index": 1
+    },
+    {
+      "sentence": "Same here. Let me get my screen share ready in case we need to walk through the architecture diagram.",
+      "speaker_name": "Chris Lee",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 19.4,
+      "endTime": 26.5,
+      "averageConfidence": 0.89,
+      "index": 2
+    },
+    {
+      "sentence": "Perfect. So, uh, today's agenda \u2014 this is officially the 30-day post-incident review for the Detect outage that happened March 10th through the 18th. We want to cover what happened, where we landed with the fixes, and then Diana, I know you have some customer impact stuff you want to walk through.",
+      "speaker_name": "Tyler Washington",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 27.3,
+      "endTime": 45.8,
+      "averageConfidence": 0.97,
+      "index": 3
+    },
+    {
+      "sentence": "Yeah, exactly. And I want to make sure we have time at the end to talk about messaging, because I'm still getting questions from a few accounts and I need to know what I can and can't say.",
+      "speaker_name": "Diana Reeves",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 46.6,
+      "endTime": 60.3,
+      "averageConfidence": 0.91,
+      "index": 4
+    },
+    {
+      "sentence": "Totally fair, we'll get there. Tyler, do you want to just do a quick recap of the root cause first for the record?",
+      "speaker_name": "Chris Lee",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 61.5,
+      "endTime": 70.0,
+      "averageConfidence": 0.91,
+      "index": 5
+    },
+    {
+      "sentence": "Sure, yeah. So the short version \u2014 the event processing pipeline had a single point of failure in the event ingestion layer. What happened was we had a cascading failure that started around 11 PM on the 10th and by about 5 AM on the 11th we had essentially zero threat monitoring visibility for customers on the Detect module. Six hours of complete blindness.",
+      "speaker_name": "Tyler Washington",
+      "sentimentType": "negative",
+      "speaker_id": 0,
+      "time": 70.4,
+      "endTime": 92.9,
+      "averageConfidence": 0.96,
+      "index": 6
+    },
+    {
+      "sentence": "And just to be clear for this review, this wasn't a security breach, right? Like the data itself was fine, it was just the monitoring layer that went down.",
+      "speaker_name": "Diana Reeves",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 94.2,
+      "endTime": 104.1,
+      "averageConfidence": 0.9,
+      "index": 7
+    },
+    {
+      "sentence": "Correct, yes. No data loss, no unauthorized access. The pipeline that processes incoming threat events just stopped processing. So events were queuing but nothing was being analyzed or alerted on.",
+      "speaker_name": "Tyler Washington",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 105.6,
+      "endTime": 115.8,
+      "averageConfidence": 0.9,
+      "index": 8
+    },
+    {
+      "sentence": "Right, and that distinction actually matters a lot for how some of our customers interpreted it initially. A few of them \u2014 I'll get into this later \u2014 a few of them thought their environments had been compromised because they stopped seeing alerts.",
+      "speaker_name": "Diana Reeves",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 116.6,
+      "endTime": 131.6,
+      "averageConfidence": 0.89,
+      "index": 9
+    },
+    {
+      "sentence": "Yeah, that was... that was a comms problem as much as a technical problem, honestly.",
+      "speaker_name": "Chris Lee",
+      "sentimentType": "negative",
+      "speaker_id": 2,
+      "time": 132.5,
+      "endTime": 138.1,
+      "averageConfidence": 0.9,
+      "index": 10
+    },
+    {
+      "sentence": "We can talk about that. Let me just finish the technical recap and then Diana you can take us through the customer side. So, um, root cause confirmed as the single ingestion node \u2014 no redundancy, no failover. When that node got overloaded due to a spike in event volume from one of our larger tenants, it effectively took down the whole pipeline.",
+      "speaker_name": "Tyler Washington",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 139.4,
+      "endTime": 161.3,
+      "averageConfidence": 0.92,
+      "index": 11
+    },
+    {
+      "sentence": "And that's fixed now? Like what did we actually ship?",
+      "speaker_name": "Diana Reeves",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 162.3,
+      "endTime": 165.9,
+      "averageConfidence": 0.92,
+      "index": 12
+    },
+    {
+      "sentence": "So we shipped two things. First was redundant processing nodes \u2014 we now have three ingestion nodes running in parallel with automatic failover. If one goes down, the other two absorb the load. Second thing was implementing the circuit breaker pattern, which basically means if we detect that a downstream component is failing, the system stops trying to push work to it and routes around it instead of just hammering it until everything collapses.",
+      "speaker_name": "Tyler Washington",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 167.2,
+      "endTime": 193.3,
+      "averageConfidence": 0.89,
+      "index": 13
+    },
+    {
+      "sentence": "When did those go live?",
+      "speaker_name": "Chris Lee",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 194.0,
+      "endTime": 196.3,
+      "averageConfidence": 0.93,
+      "index": 14
+    },
+    {
+      "sentence": "The redundant nodes were deployed March 24th. Circuit breaker pattern was fully validated and in production as of, uh, March 29th I believe.",
+      "speaker_name": "Tyler Washington",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 197.4,
+      "endTime": 205.3,
+      "averageConfidence": 0.92,
+      "index": 15
+    },
+    {
+      "sentence": "And we've had no recurrence since then, right? Like the 30-day window has been clean?",
+      "speaker_name": "Chris Lee",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 206.2,
+      "endTime": 211.3,
+      "averageConfidence": 0.97,
+      "index": 16
+    },
+    {
+      "sentence": "Yeah, clean. We had one minor hiccup on March 31st where latency spiked briefly but the circuit breaker caught it and we never lost visibility. Customers didn't see anything.",
+      "speaker_name": "Tyler Washington",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 212.2,
+      "endTime": 222.6,
+      "averageConfidence": 0.91,
+      "index": 17
+    },
+    {
+      "sentence": "Okay. Good. That's actually \u2014 I didn't know about the March 31st thing. Was that documented somewhere?",
+      "speaker_name": "Diana Reeves",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 223.3,
+      "endTime": 229.4,
+      "averageConfidence": 0.93,
+      "index": 18
+    },
+    {
+      "sentence": "It's in the internal runbook notes. Probably should have looped you in on that one just as an FYI even though it was a non-event from a customer perspective.",
+      "speaker_name": "Chris Lee",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 230.4,
+      "endTime": 240.7,
+      "averageConfidence": 0.91,
+      "index": 19
+    },
+    {
+      "sentence": "Yeah, I'd appreciate that going forward. Even if it's just a Slack message saying hey, we had a blip, circuit breaker fired, all good. Just so I'm not getting caught flat-footed if a customer asks.",
+      "speaker_name": "Diana Reeves",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 241.4,
+      "endTime": 253.9,
+      "averageConfidence": 0.93,
+      "index": 20
+    },
+    {
+      "sentence": "Noted, that's a fair ask. We'll add that to the on-call runbook \u2014 any circuit breaker activation gets a heads up to Customer Success.",
+      "speaker_name": "Chris Lee",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 254.4,
+      "endTime": 262.9,
+      "averageConfidence": 0.91,
+      "index": 21
+    },
+    {
+      "sentence": "Thank you. Okay so \u2014 customer impact. Let me pull up my notes here. So we had... forty-seven accounts on Detect that were affected. Of those, eleven filed formal support tickets during the outage window. Three accounts requested executive briefings afterward.",
+      "speaker_name": "Diana Reeves",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 263.2,
+      "endTime": 277.4,
+      "averageConfidence": 0.94,
+      "index": 22
+    },
+    {
+      "sentence": "Executive briefings \u2014 were those with our execs or their execs or both?",
+      "speaker_name": "Tyler Washington",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 278.9,
+      "endTime": 283.8,
+      "averageConfidence": 0.94,
+      "index": 23
+    },
+    {
+      "sentence": "Both, in two cases. One of them was just their CISO wanting to talk to me directly, which was fine. That conversation went okay \u2014 they were frustrated but they understood once I explained what actually happened and what the fix looked like.",
+      "speaker_name": "Diana Reeves",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 285.2,
+      "endTime": 300.7,
+      "averageConfidence": 0.91,
+      "index": 24
+    },
+    {
+      "sentence": "What about the other two?",
+      "speaker_name": "Chris Lee",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 301.6,
+      "endTime": 303.3,
+      "averageConfidence": 0.94,
+      "index": 25
+    },
+    {
+      "sentence": "One was Meridian Financial \u2014 they're a large account, been with us about two years. Their VP of IT Security was pretty unhappy. They had an internal compliance audit scheduled for March 15th and the fact that they couldn't show continuous monitoring coverage for those six hours was a problem for them. Like a real problem, not just a perception problem.",
+      "speaker_name": "Diana Reeves",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 304.5,
+      "endTime": 326.3,
+      "averageConfidence": 0.95,
+      "index": 26
+    },
+    {
+      "sentence": "That's... yeah, that's rough. Is that audit risk still open for them?",
+      "speaker_name": "Tyler Washington",
+      "sentimentType": "negative",
+      "speaker_id": 0,
+      "time": 327.8,
+      "endTime": 332.1,
+      "averageConfidence": 0.94,
+      "index": 27
+    },
+    {
+      "sentence": "We provided them with a formal incident report and a letter from our CTO explaining the nature of the outage and the remediation steps. Their auditors apparently accepted it as a documented exception. So it's closed but it left a bad taste.",
+      "speaker_name": "Diana Reeves",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 333.5,
+      "endTime": 348.4,
+      "averageConfidence": 0.9,
+      "index": 28
+    },
+    {
+      "sentence": "And what's their renewal situation? Do we know?",
+      "speaker_name": "Chris Lee",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 349.7,
+      "endTime": 352.6,
+      "averageConfidence": 0.91,
+      "index": 29
+    },
+    {
+      "sentence": "They're up in August. I'm watching it closely. They haven't said anything explicitly threatening but I'm not comfortable with where the relationship is right now. We need a good next few months.",
+      "speaker_name": "Diana Reeves",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 354.0,
+      "endTime": 365.6,
+      "averageConfidence": 0.89,
+      "index": 30
+    },
+    {
+      "sentence": "Is there anything engineering can do to help with that? Like, would it help if we could offer them some kind of enhanced monitoring visibility or a preview of upcoming Detect improvements?",
+      "speaker_name": "Tyler Washington",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 366.4,
+      "endTime": 377.5,
+      "averageConfidence": 0.92,
+      "index": 31
+    },
+    {
+      "sentence": "Actually, yeah, that might be worth exploring. We're planning to roll out the expanded event telemetry dashboard in Q2 anyway \u2014 could we get Meridian into a beta or an early access program?",
+      "speaker_name": "Diana Reeves",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 378.5,
+      "endTime": 390.4,
+      "averageConfidence": 0.95,
+      "index": 32
+    },
+    {
+      "sentence": "I'd have to check with product on timeline but I don't see why not. Chris, thoughts?",
+      "speaker_name": "Tyler Washington",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 391.9,
+      "endTime": 397.2,
+      "averageConfidence": 0.9,
+      "index": 33
+    },
+    {
+      "sentence": "I think it's doable. The dashboard work is about 60% done. We could have something meaningful to show by mid-May. I'd rather not promise anything before I talk to Priya about the scope but conceptually I'm supportive.",
+      "speaker_name": "Chris Lee",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 398.0,
+      "endTime": 411.3,
+      "averageConfidence": 0.91,
+      "index": 34
+    },
+    {
+      "sentence": "Okay, let's flag that as a follow-up action. Who owns that conversation with Priya?",
+      "speaker_name": "Diana Reeves",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 412.4,
+      "endTime": 417.6,
+      "averageConfidence": 0.9,
+      "index": 35
+    },
+    {
+      "sentence": "I'll take it. I'll ping her today and loop you in on the thread, Diana.",
+      "speaker_name": "Chris Lee",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 418.5,
+      "endTime": 423.5,
+      "averageConfidence": 0.94,
+      "index": 36
+    },
+    {
+      "sentence": "Great. So the third executive account \u2014 that was actually a smaller one, Treswick Healthcare. They were more worried about the regulatory angle, specifically HIPAA. They use Detect as part of their security monitoring for covered systems. Same situation \u2014 the gap in monitoring coverage was a documentation headache for them.",
+      "speaker_name": "Diana Reeves",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 424.2,
+      "endTime": 442.2,
+      "averageConfidence": 0.97,
+      "index": 37
+    },
+    {
+      "sentence": "Did we pull the Comply team into that conversation at all? Because, um, actually \u2014 today's kind of a relevant day for this. Comply v2 just went GA this morning, right?",
+      "speaker_name": "Tyler Washington",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 443.4,
+      "endTime": 454.4,
+      "averageConfidence": 0.96,
+      "index": 38
+    },
+    {
+      "sentence": "Ha, yeah it did. And actually that's kind of relevant because Comply v2 has the on-demand HIPAA reporting. If Treswick was running Comply they could pull an audit trail report that would show, you know, here's exactly what happened and here's the documented gap. That's actually more defensible than us writing a manual letter.",
+      "speaker_name": "Chris Lee",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 455.0,
+      "endTime": 473.8,
+      "averageConfidence": 0.9,
+      "index": 39
+    },
+    {
+      "sentence": "Are they on Comply currently?",
+      "speaker_name": "Diana Reeves",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 475.1,
+      "endTime": 477.3,
+      "averageConfidence": 0.91,
+      "index": 40
+    },
+    {
+      "sentence": "I don't know off the top of my head. I'd have to check. But if they're not, this might be a moment to have that conversation with them.",
+      "speaker_name": "Tyler Washington",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 478.3,
+      "endTime": 487.8,
+      "averageConfidence": 0.93,
+      "index": 41
+    },
+    {
+      "sentence": "Yeah, I'll look into their contract. That's actually a good angle \u2014 turning a service recovery situation into a broader platform conversation. I like that.",
+      "speaker_name": "Diana Reeves",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 489.2,
+      "endTime": 498.1,
+      "averageConfidence": 0.91,
+      "index": 42
+    },
+    {
+      "sentence": "Okay, so to wrap up on the action items \u2014 Tyler owns the technical documentation for the 30-day review, Chris is going to talk to Priya about the Meridian early access thing, and Diana you're going to check on Treswick's Comply status. Anything else we're missing?",
+      "speaker_name": "Chris Lee",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 498.6,
+      "endTime": 515.0,
+      "averageConfidence": 0.91,
+      "index": 43
+    },
+    {
+      "sentence": "I want to make sure we have a finalized customer-facing summary of the incident and the resolution. Something I can point people to if they ask. Right now I'm working from my own notes and the internal doc, but I'd like something I can actually share.",
+      "speaker_name": "Diana Reeves",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 516.3,
+      "endTime": 532.3,
+      "averageConfidence": 0.88,
+      "index": 44
+    },
+    {
+      "sentence": "Tyler, can you take a pass at drafting that? You've got the technical detail. Keep it non-technical enough for a customer to read but specific enough that it's credible.",
+      "speaker_name": "Chris Lee",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 533.0,
+      "endTime": 543.3,
+      "averageConfidence": 0.91,
+      "index": 45
+    },
+    {
+      "sentence": "Yeah, I can do that. I'll have a draft to you both by end of week. Diana, do you want to review before it goes anywhere?",
+      "speaker_name": "Tyler Washington",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 544.1,
+      "endTime": 553.5,
+      "averageConfidence": 0.92,
+      "index": 46
+    },
+    {
+      "sentence": "Definitely. Send it to me first, I'll give you feedback on the tone and then we can finalize. I don't need it to go through legal unless Chris thinks it needs to.",
+      "speaker_name": "Diana Reeves",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 555.0,
+      "endTime": 566.2,
+      "averageConfidence": 0.92,
+      "index": 47
+    },
+    {
+      "sentence": "Given that we already sent the formal letter to Meridian I think a general summary doc is probably fine without legal review, but maybe just a quick sanity check with Jared in Legal just to be safe. It's like a 15-minute thing.",
+      "speaker_name": "Chris Lee",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 566.7,
+      "endTime": 581.4,
+      "averageConfidence": 0.92,
+      "index": 48
+    },
+    {
+      "sentence": "Fair enough. I'll add that to the list. Alright, I think we've covered the main bases. Is there anything else before we wrap?",
+      "speaker_name": "Diana Reeves",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 582.8,
+      "endTime": 590.7,
+      "averageConfidence": 0.91,
+      "index": 49
+    },
+    {
+      "sentence": "One thing I want to say \u2014 and I know this review is kind of focused on the aftermath \u2014 but I do think the actual technical response once we identified the root cause was solid. The team moved fast. I don't want that to get lost in all the... you know, the justified frustration about the outage itself.",
+      "speaker_name": "Tyler Washington",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 591.7,
+      "endTime": 612.6,
+      "averageConfidence": 0.88,
+      "index": 50
+    },
+    {
+      "sentence": "Agreed. And I'll say that to customers too. The way the fix was communicated and deployed \u2014 that part went well. It's really the initial detection and the comms in the first two hours that I think we need to be better at next time.",
+      "speaker_name": "Diana Reeves",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 613.2,
+      "endTime": 628.7,
+      "averageConfidence": 0.92,
+      "index": 51
+    },
+    {
+      "sentence": "We're working on an improved alerting runbook for that. Should have it done by end of April. Alright, I'll send the meeting notes out this afternoon. Thanks everyone.",
+      "speaker_name": "Chris Lee",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 629.4,
+      "endTime": 639.0,
+      "averageConfidence": 0.91,
+      "index": 52
+    }
+  ]
+}

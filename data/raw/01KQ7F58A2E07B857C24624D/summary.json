@@ -1,0 +1,46 @@
+{
+  "summary": "Jordan Whitfield and Tom Bradley conducted a competitive landscape review in preparation for an upcoming product review meeting. They discussed four key competitors: SentinelShield (threatening Detect with a strong SIEM integration story), VaultEdge (a growing threat to Protect and potentially Comply), CyberNova (aggressive pricing in Identity for mid-market), and Fortiguard Pro (a legacy incumbent). The most pressing concern identified was a gap in the LogVault connector experience compared to SentinelShield, which Jordan plans to surface as a risk item for leadership at next week's review. Jordan agreed to update and share the competitive deck before EOD the following day.",
+  "actionItems": [
+    "Jordan Whitfield: Clean up the competitive deck, add a summary slide with the competitive matrix, and share before EOD tomorrow",
+    "Tom Bradley: Review the updated deck thoroughly before the product review meeting next week",
+    "Jordan Whitfield: Frame the LogVault connector gap as a risk item for leadership visibility in the product review",
+    "Tom Bradley: Assess engineering bandwidth feasibility around improving the LogVault connector configuration experience"
+  ],
+  "topics": [
+    "competitive analysis",
+    "product gaps",
+    "siem integration",
+    "compliance features",
+    "pricing pressure",
+    "roadmap prioritization"
+  ],
+  "overallSentiment": "mixed-positive",
+  "sentimentScore": 3.4,
+  "keyMoments": [
+    {
+      "time": 78.0,
+      "text": "Jordan flags SentinelShield appearing more frequently in deal cycles, identified as the most immediate competitive threat in Detect",
+      "type": "concern",
+      "speaker": "Jordan Whitfield"
+    },
+    {
+      "time": 175.0,
+      "text": "Jordan highlights a meaningful perception gap between SentinelShield's polished three-click SIEM setup and the company's six-page configuration guide for the LogVault connector",
+      "type": "feature_gap",
+      "speaker": "Jordan Whitfield"
+    },
+    {
+      "time": 390.0,
+      "text": "Tom notes that upcoming on-demand reporting capabilities in Comply will be a significant differentiator against VaultEdge's emerging compliance play",
+      "type": "positive_pivot",
+      "speaker": "Tom Bradley"
+    },
+    {
+      "time": 620.0,
+      "text": "Tom pushes back on committing to LogVault connector improvements due to constrained engineering bandwidth, but agrees to surface the gap as a leadership-level risk in the review",
+      "type": "action_item",
+      "speaker": "Tom Bradley"
+    }
+  ],
+  "meetingId": "01KQ7F58A2E07B857C24624D"
+}

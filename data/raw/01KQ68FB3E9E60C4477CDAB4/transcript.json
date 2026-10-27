@@ -1,0 +1,394 @@
+{
+  "data": [
+    {
+      "sentence": "Alright, I think everyone's on \u2014 can you guys hear me okay?",
+      "speaker_name": "Ananya Sharma",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 5.4,
+      "endTime": 9.7,
+      "averageConfidence": 0.96,
+      "index": 0
+    },
+    {
+      "sentence": "Yeah, loud and clear.",
+      "speaker_name": "Ravi Gupta",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 10.5,
+      "endTime": 12.4,
+      "averageConfidence": 0.92,
+      "index": 1
+    },
+    {
+      "sentence": "Good here. Hey Ananya, hey Ravi.",
+      "speaker_name": "Mike Romano",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 13.7,
+      "endTime": 15.7,
+      "averageConfidence": 0.96,
+      "index": 2
+    },
+    {
+      "sentence": "Hi everyone! Sorry I'm like thirty seconds late, had a Slack thread that just would not die.",
+      "speaker_name": "Nina Kowalski",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 16.4,
+      "endTime": 22.6,
+      "averageConfidence": 0.92,
+      "index": 3
+    },
+    {
+      "sentence": "Ha, no worries at all. Okay so \u2014 April 7th is six days away, which honestly feels very real now, and I wanted to get the four of us together to go through the GA deployment plan for Comply v2 and make sure we're all aligned on the rollout sequence.",
+      "speaker_name": "Ananya Sharma",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 24.0,
+      "endTime": 42.0,
+      "averageConfidence": 0.9,
+      "index": 4
+    },
+    {
+      "sentence": "Yeah, and I have to say, I'm actually pretty excited about this one. Like the on-demand reporting piece especially \u2014 I think customers are going to love that.",
+      "speaker_name": "Mike Romano",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 42.3,
+      "endTime": 52.2,
+      "averageConfidence": 0.97,
+      "index": 5
+    },
+    {
+      "sentence": "Same, I've been saying for months that the old scheduled-only model was a pain point, so yeah, really glad we're shipping this.",
+      "speaker_name": "Ravi Gupta",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 52.7,
+      "endTime": 60.7,
+      "averageConfidence": 0.94,
+      "index": 6
+    },
+    {
+      "sentence": "Okay so let me just share my screen real quick and pull up the deployment runbook I've been putting together... okay, can everyone see that?",
+      "speaker_name": "Ananya Sharma",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 61.9,
+      "endTime": 70.8,
+      "averageConfidence": 0.89,
+      "index": 7
+    },
+    {
+      "sentence": "Yep, got it.",
+      "speaker_name": "Nina Kowalski",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 72.1,
+      "endTime": 73.6,
+      "averageConfidence": 0.95,
+      "index": 8
+    },
+    {
+      "sentence": "Perfect. So the plan right now is to do the actual infrastructure changes on the night of April 6th \u2014 like a late evening deploy, probably around 10 PM Eastern \u2014 and then flip the feature flag to GA on the morning of the 7th. Ravi, does that sequence still work for you on the infra side?",
+      "speaker_name": "Ananya Sharma",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 74.2,
+      "endTime": 94.4,
+      "averageConfidence": 0.93,
+      "index": 9
+    },
+    {
+      "sentence": "Yeah, it does. I've already got the Terraform configs updated for the new reporting service nodes, and I ran a full dry-run in staging yesterday and it looked clean. I'm feeling good about the 10 PM window. We'll have, um, about a three hour buffer before any early morning traffic picks up.",
+      "speaker_name": "Ravi Gupta",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 95.3,
+      "endTime": 113.8,
+      "averageConfidence": 0.94,
+      "index": 10
+    },
+    {
+      "sentence": "Oh that's great news that the dry-run went well. Did you run into anything weird at all, or was it pretty smooth?",
+      "speaker_name": "Ananya Sharma",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 114.8,
+      "endTime": 122.2,
+      "averageConfidence": 0.89,
+      "index": 11
+    },
+    {
+      "sentence": "Mostly smooth, honestly. There was one thing \u2014 the new SOC 2 report generation was taking like 8 seconds on first call, which is a little longer than I'd expect, but I think that's just cold start on the Lambda, not a real issue. I'll add a warm-up ping to the pre-deploy checklist.",
+      "speaker_name": "Ravi Gupta",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 122.6,
+      "endTime": 140.9,
+      "averageConfidence": 0.96,
+      "index": 12
+    },
+    {
+      "sentence": "Oh good catch on the Lambda warm-up, yeah. Mike, did you have any concerns on the application side? I know you've been doing code review on the multi-framework stuff.",
+      "speaker_name": "Ananya Sharma",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 142.3,
+      "endTime": 152.4,
+      "averageConfidence": 0.96,
+      "index": 13
+    },
+    {
+      "sentence": "Yeah so, I finished the review on the HIPAA and ISO 27001 report generators this morning and honestly the code is in really good shape. Priya did a great job on those. My only thing \u2014 and this is more of a minor nit \u2014 is the PCI DSS report has some hardcoded version strings that I'd like to see pulled into config, but it's not a blocker by any means.",
+      "speaker_name": "Mike Romano",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 152.8,
+      "endTime": 177.6,
+      "averageConfidence": 0.97,
+      "index": 14
+    },
+    {
+      "sentence": "Is that something we can get into a follow-up ticket and not hold up the GA?",
+      "speaker_name": "Ananya Sharma",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 178.8,
+      "endTime": 184.4,
+      "averageConfidence": 0.94,
+      "index": 15
+    },
+    {
+      "sentence": "Definitely, yeah, I already filed it. It can live as a v2.0.1 cleanup item. I wouldn't block launch over it.",
+      "speaker_name": "Mike Romano",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 184.8,
+      "endTime": 191.7,
+      "averageConfidence": 0.92,
+      "index": 16
+    },
+    {
+      "sentence": "Perfect. Nina, okay \u2014 I really want to hear from you because you've been heads-down in QA for the past week and a half. Where are we on test coverage and are there any open issues you're nervous about?",
+      "speaker_name": "Ananya Sharma",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 193.1,
+      "endTime": 206.7,
+      "averageConfidence": 0.91,
+      "index": 17
+    },
+    {
+      "sentence": "Okay so, good news overall. We finished the full regression suite yesterday and everything passed. The on-demand report generation \u2014 all four frameworks, SOC 2, PCI DSS, HIPAA, ISO 27001 \u2014 tested across the three tenant sizes we defined, small, medium, enterprise, and all of them are generating correctly. The PDF rendering looks great, the data mapping to controls is accurate, we verified that manually.",
+      "speaker_name": "Nina Kowalski",
+      "sentimentType": "positive",
+      "speaker_id": 3,
+      "time": 207.2,
+      "endTime": 230.3,
+      "averageConfidence": 0.96,
+      "index": 18
+    },
+    {
+      "sentence": "That is music to my ears, Nina, honestly.",
+      "speaker_name": "Ananya Sharma",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 230.8,
+      "endTime": 233.4,
+      "averageConfidence": 0.96,
+      "index": 19
+    },
+    {
+      "sentence": "Ha, right? So the one area I'd flag \u2014 not necessarily a blocker but something I want us to have eyes on post-launch \u2014 is the concurrent report generation. When we hammered it with 50 simultaneous requests in the load test, we did see some queue latency creep up. Like, reports were still completing, but the p99 latency was around 22 seconds, which is above our SLO target of 15.",
+      "speaker_name": "Nina Kowalski",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 233.9,
+      "endTime": 258.4,
+      "averageConfidence": 0.94,
+      "index": 20
+    },
+    {
+      "sentence": "Okay, 22 seconds at 50 concurrent \u2014 do we think that's a realistic scenario for day one? I mean, we're not flipping this on for all customers simultaneously, right?",
+      "speaker_name": "Mike Romano",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 259.4,
+      "endTime": 269.8,
+      "averageConfidence": 0.96,
+      "index": 21
+    },
+    {
+      "sentence": "No, exactly. We're doing a phased flag rollout \u2014 tier one customers first, which is maybe, what, a few hundred orgs, and then expanding over the following week. So I think the risk of hitting 50 concurrent on day one is pretty low.",
+      "speaker_name": "Ananya Sharma",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 270.4,
+      "endTime": 285.4,
+      "averageConfidence": 0.97,
+      "index": 22
+    },
+    {
+      "sentence": "Right, and honestly I agree it's low risk for launch. I just wanted it on the radar so we're not surprised if we see it in the MetricFlow dashboards. I'll set up a specific alert for queue depth on the reporting service so we can catch it early if it starts trending up.",
+      "speaker_name": "Nina Kowalski",
+      "sentimentType": "positive",
+      "speaker_id": 3,
+      "time": 285.8,
+      "endTime": 304.8,
+      "averageConfidence": 0.88,
+      "index": 23
+    },
+    {
+      "sentence": "That's exactly the right call, yeah. Ravi, can you work with Nina on that alert configuration before the 6th?",
+      "speaker_name": "Ananya Sharma",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 305.2,
+      "endTime": 312.3,
+      "averageConfidence": 0.92,
+      "index": 24
+    },
+    {
+      "sentence": "Absolutely, we can knock that out tomorrow morning. I'll ping you Nina.",
+      "speaker_name": "Ravi Gupta",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 313.1,
+      "endTime": 317.7,
+      "averageConfidence": 0.97,
+      "index": 25
+    },
+    {
+      "sentence": "Perfect. And actually, since we're on the topic of observability \u2014 and this is maybe a bit of a sore subject but I think it's worth saying out loud \u2014 after the Detect outage in March, I want to make sure we're not shipping Comply v2 with any single points of failure in the pipeline. Ravi, can you talk through the redundancy story?",
+      "speaker_name": "Ananya Sharma",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 318.7,
+      "endTime": 340.7,
+      "averageConfidence": 0.93,
+      "index": 26
+    },
+    {
+      "sentence": "Yeah, no, totally fair to bring up, and honestly the Detect situation kind of informed a lot of how we architected the reporting pipeline. So the event ingestion layer has redundant processing nodes \u2014 we're running three \u2014 and we've implemented the circuit breaker pattern on the report request handler so if one downstream service starts degrading, it fails gracefully instead of cascading. It's a very different story from what happened with Detect.",
+      "speaker_name": "Ravi Gupta",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 341.5,
+      "endTime": 367.1,
+      "averageConfidence": 0.92,
+      "index": 27
+    },
+    {
+      "sentence": "Yeah, and to Ravi's point, the architecture review we did back in February specifically called out those failure modes and I think the team addressed them really thoroughly. I feel a lot better about the resilience story on this one.",
+      "speaker_name": "Mike Romano",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 367.5,
+      "endTime": 381.7,
+      "averageConfidence": 0.91,
+      "index": 28
+    },
+    {
+      "sentence": "Same. Okay, good. Let's talk about rollback \u2014 Ravi, what's the rollback plan if something goes sideways on the night of the 6th or morning of the 7th?",
+      "speaker_name": "Ananya Sharma",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 382.4,
+      "endTime": 392.0,
+      "averageConfidence": 0.9,
+      "index": 29
+    },
+    {
+      "sentence": "So rollback is clean. The feature flag means we can instantly revert to v1 behavior without redeploying anything \u2014 just flip the flag back. The infrastructure changes are additive, not replacing anything, so the v1 reporting service stays running in parallel until we're confident. We can decommission that after, uh, I was thinking two weeks post-GA.",
+      "speaker_name": "Ravi Gupta",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 392.7,
+      "endTime": 412.5,
+      "averageConfidence": 0.96,
+      "index": 30
+    },
+    {
+      "sentence": "Two weeks sounds right to me. Nina, does that give you enough time to catch any issues that might only surface under real customer traffic?",
+      "speaker_name": "Ananya Sharma",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 413.6,
+      "endTime": 422.2,
+      "averageConfidence": 0.97,
+      "index": 31
+    },
+    {
+      "sentence": "Yeah, two weeks is good. Most of the edge cases we'd be worried about would show up in the first week honestly. I'm comfortable with that.",
+      "speaker_name": "Nina Kowalski",
+      "sentimentType": "positive",
+      "speaker_id": 3,
+      "time": 423.6,
+      "endTime": 432.6,
+      "averageConfidence": 0.91,
+      "index": 32
+    },
+    {
+      "sentence": "Awesome. Okay, I think we're in really solid shape here. I'll update the runbook today with the alert config action item and the warm-up ping note, and I'll send it around for a final review by EOD Thursday. Does anyone have anything else they want to flag before we wrap up?",
+      "speaker_name": "Ananya Sharma",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 433.6,
+      "endTime": 451.8,
+      "averageConfidence": 0.91,
+      "index": 33
+    },
+    {
+      "sentence": "Nothing from me. I'm honestly just pumped to ship this. It's been a long road.",
+      "speaker_name": "Mike Romano",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 453.0,
+      "endTime": 458.8,
+      "averageConfidence": 0.94,
+      "index": 34
+    },
+    {
+      "sentence": "Same, I'm really proud of what the team put together. This is going to be a good one.",
+      "speaker_name": "Ravi Gupta",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 459.7,
+      "endTime": 466.1,
+      "averageConfidence": 0.91,
+      "index": 35
+    },
+    {
+      "sentence": "Agreed. Okay, let's do it. Thanks everyone \u2014 I'll see you in Slack, and Ravi and Nina, I'll let you two coordinate on those alerts. Good call today!",
+      "speaker_name": "Ananya Sharma",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 467.6,
+      "endTime": 477.3,
+      "averageConfidence": 0.97,
+      "index": 36
+    },
+    {
+      "sentence": "Thanks Ananya, talk soon!",
+      "speaker_name": "Nina Kowalski",
+      "sentimentType": "positive",
+      "speaker_id": 3,
+      "time": 478.3,
+      "endTime": 480.1,
+      "averageConfidence": 0.91,
+      "index": 37
+    },
+    {
+      "sentence": "Bye everyone.",
+      "speaker_name": "Mike Romano",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 480.4,
+      "endTime": 481.9,
+      "averageConfidence": 0.94,
+      "index": 38
+    }
+  ]
+}

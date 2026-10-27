@@ -1,0 +1,46 @@
+{
+  "summary": "Raj Kapoor convened a meeting with Tyler, Ravi, Brian, and Mike to prepare for an upcoming SOC 2 Type II audit with a 90-day observation period starting March 1st. The team reviewed key control areas including access control, change management, incident tracking, monitoring, vendor management, and employee security training. Several gaps were identified, including a broken Zendesk-PagerDuty integration, inconsistent hotfix documentation, alert fatigue in the monitoring system, and incomplete security training completions. Action items were assigned to each team member with tight deadlines before the observation window opens.",
+  "actionItems": [
+    "Ravi Gupta: Complete log retention inventory by Wednesday and build a CI/CD hard gate requiring ticket references for all production deployments before March 1st",
+    "Mike Romano: Investigate and fix the broken Zendesk-PagerDuty integration and compile a vendor compliance documentation inventory",
+    "Tyler Washington: Pull LMS security training completion report today, follow up with legal on BAAs for vendors touching customer data, and organize access review records",
+    "Raj Kapoor: Send calendar invite for alert tuning session (Tuesday or Wednesday) and set up a shared tracker for all action items with a check-in planned for next Friday"
+  ],
+  "topics": [
+    "soc 2 audit",
+    "access control",
+    "change management",
+    "incident tracking",
+    "vendor management",
+    "security training"
+  ],
+  "overallSentiment": "mixed-positive",
+  "sentimentScore": 3.4,
+  "keyMoments": [
+    {
+      "time": 180.0,
+      "text": "Tyler flags that the hotfix process has been bypassed, with engineers pushing directly to production and backdating documentation \u2014 a likely audit finding.",
+      "type": "concern",
+      "speaker": "Tyler Washington"
+    },
+    {
+      "time": 310.0,
+      "text": "Brian reveals the Zendesk to PagerDuty integration only works 60% of the time, creating a gap in end-to-end incident traceability for auditors.",
+      "type": "technical_issue",
+      "speaker": "Brian Cho"
+    },
+    {
+      "time": 430.0,
+      "text": "Ravi raises alert fatigue as a risk, noting that unacknowledged alerts could raise red flags with auditors about the effectiveness of threat monitoring.",
+      "type": "feature_gap",
+      "speaker": "Ravi Gupta"
+    },
+    {
+      "time": 620.0,
+      "text": "Raj summarizes all assigned action items with owners and deadlines, and proposes a Friday check-in with a shared tracker to maintain accountability.",
+      "type": "action_item",
+      "speaker": "Raj Kapoor"
+    }
+  ],
+  "meetingId": "01KQ1267C6AA7D9B3125FEC8"
+}

@@ -1,0 +1,19 @@
+{
+  "meetingId": "01KQ85D10E82A26A8F754FB8",
+  "title": "Aegis / Bridgeport Health - Compliance Review",
+  "organizerEmail": "maria.santos@aegiscloud.com",
+  "host": "maria.santos@aegiscloud.com",
+  "startTime": "2026-02-13T11:00:00.000Z",
+  "endTime": "2026-02-13T11:33:24.000Z",
+  "duration": 33.4,
+  "allEmails": [
+    "maria.santos@aegiscloud.com",
+    "kevin.obrien@aegiscloud.com",
+    "e.park@bridgeporthealth.com"
+  ],
+  "invitees": [
+    "maria.santos@aegiscloud.com",
+    "kevin.obrien@aegiscloud.com",
+    "e.park@bridgeporthealth.com"
+  ]
+}

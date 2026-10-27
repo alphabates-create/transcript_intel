@@ -1,0 +1,50 @@
+[
+  {
+    "participantName": "Evelyn Park",
+    "timestamp": 1776951014000,
+    "type": "Join",
+    "time": 14.0
+  },
+  {
+    "participantName": "Kevin O'Brien",
+    "timestamp": 1776951018000,
+    "type": "Join",
+    "time": 18.0
+  },
+  {
+    "participantName": "James Mitchell",
+    "timestamp": 1776951043000,
+    "type": "Join",
+    "time": 43.0
+  },
+  {
+    "participantName": "Ravi Gupta",
+    "timestamp": 1776951053000,
+    "type": "Join",
+    "time": 53.0
+  },
+  {
+    "participantName": "James Mitchell",
+    "timestamp": 1776953354000,
+    "type": "Leave",
+    "time": 2354.0
+  },
+  {
+    "participantName": "Kevin O'Brien",
+    "timestamp": 1776953354000,
+    "type": "Leave",
+    "time": 2354.0
+  },
+  {
+    "participantName": "Ravi Gupta",
+    "timestamp": 1776953365000,
+    "type": "Leave",
+    "time": 2365.0
+  },
+  {
+    "participantName": "Evelyn Park",
+    "timestamp": 1776953346000,
+    "type": "Leave",
+    "time": 2346.0
+  }
+]

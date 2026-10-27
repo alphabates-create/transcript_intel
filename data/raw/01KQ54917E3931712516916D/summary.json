@@ -1,0 +1,46 @@
+{
+  "summary": "Kevin O'Brien demoed Comply v2 to Keith Donovan of Nimbus ahead of its April 7th general availability launch. The demo highlighted on-demand multi-framework compliance reporting (SOC 2, PCI DSS, HIPAA, ISO 27001), cross-module data integration with Protect and Detect, and auditor-ready PDF output. Keith expressed strong enthusiasm, particularly around PCI DSS reporting given Nimbus's new financial services partnership. They aligned on a timeline to get Nimbus live on v2 by April 21st, with Keith's security engineering lead Priya handling the technical onboarding.",
+  "actionItems": [
+    "Keith Donovan: Have Priya (security engineering lead) email Kevin to coordinate technical onboarding details",
+    "Kevin O'Brien: Send recap email and onboarding guide to Keith this afternoon",
+    "Kevin O'Brien: Reserve Nimbus a spot in the April 7th first-wave rollout and intro onboarding specialist to Priya",
+    "Keith Donovan: Share call recording with head of security engineering regarding multi-framework reporting capabilities"
+  ],
+  "topics": [
+    "compliance reporting",
+    "product demo",
+    "onboarding",
+    "pci dss",
+    "multi-framework support",
+    "upgrade rollout"
+  ],
+  "overallSentiment": "very-positive",
+  "sentimentScore": 4.8,
+  "keyMoments": [
+    {
+      "time": 142.0,
+      "text": "Keith describes his team spending three days pulling data for their last SOC 2 audit, immediately validating the pain point Comply v2 addresses",
+      "type": "concern",
+      "speaker": "Keith Donovan"
+    },
+    {
+      "time": 310.0,
+      "text": "Keith realizes Comply v2 renders his security engineering lead's three-month custom internal tool project unnecessary",
+      "type": "positive_pivot",
+      "speaker": "Keith Donovan"
+    },
+    {
+      "time": 530.0,
+      "text": "Kevin proactively discloses the Detect outage from March 10-18 and explains the infrastructure fixes implemented",
+      "type": "technical_issue",
+      "speaker": "Kevin O'Brien"
+    },
+    {
+      "time": 720.0,
+      "text": "Keith commits to the first-wave April 7th rollout, motivated by PCI DSS reporting needs and an upcoming CFO board conversation",
+      "type": "action_item",
+      "speaker": "Keith Donovan"
+    }
+  ],
+  "meetingId": "01KQ54917E3931712516916D"
+}

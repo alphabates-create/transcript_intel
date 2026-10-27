@@ -1,0 +1,26 @@
+[
+  {
+    "participantName": "Sarah Chen",
+    "timestamp": 1774533600000,
+    "type": "Join",
+    "time": 0.0
+  },
+  {
+    "participantName": "Jason Hoffman",
+    "timestamp": 1774533627000,
+    "type": "Join",
+    "time": 27.0
+  },
+  {
+    "participantName": "Sarah Chen",
+    "timestamp": 1774534756000,
+    "type": "Leave",
+    "time": 1156.0
+  },
+  {
+    "participantName": "Jason Hoffman",
+    "timestamp": 1774534749000,
+    "type": "Leave",
+    "time": 1149.0
+  }
+]

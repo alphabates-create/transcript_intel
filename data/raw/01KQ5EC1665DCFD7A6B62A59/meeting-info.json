@@ -1,0 +1,19 @@
+{
+  "meetingId": "01KQ5EC1665DCFD7A6B62A59",
+  "title": "Support Case #8749 - Coastal Living Co SAML Certificate Rotation Bug",
+  "organizerEmail": "marcus.williams@aegiscloud.com",
+  "host": "marcus.williams@aegiscloud.com",
+  "startTime": "2026-03-29T15:15:00.000Z",
+  "endTime": "2026-03-29T15:25:06.000Z",
+  "duration": 10.1,
+  "allEmails": [
+    "marcus.williams@aegiscloud.com",
+    "elena.vasquez@aegiscloud.com",
+    "v.cruz@coastalliving.com"
+  ],
+  "invitees": [
+    "marcus.williams@aegiscloud.com",
+    "elena.vasquez@aegiscloud.com",
+    "v.cruz@coastalliving.com"
+  ]
+}

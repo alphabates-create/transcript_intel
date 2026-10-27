@@ -1,0 +1,46 @@
+{
+  "summary": "The team held a sprint 22 retrospective covering the period of March 14-27 for the Identity team. The Detect outage on the 10th impacted sprint capacity, causing two tickets (MFA enforcement policy UI and SSO session timeout configuration) to slip into sprint 23. Completed work included SCIM provisioning bug fixes, SSO metadata refresh refactor, and partial IAM role hierarchy implementation. The team identified estimation issues with the SSO refactor, a test environment credential delay, and an upcoming Comply v2 integration as key concerns heading into sprint 23.",
+  "actionItems": [
+    "Nina Kowalski: Update the grooming template to include a checklist item for certificate rotation scenarios",
+    "Sofia Petrov: Schedule a design session for the IAM role hierarchy inheritance logic for early next week (Tuesday)",
+    "Mike Romano: Follow up after Monday's meeting with the Comply team to scope the audit log attribution integration work for sprint 23",
+    "Nina Kowalski: Send out retro notes by end of day and ensure test environment credentials are refreshed as part of sprint kickoff going forward"
+  ],
+  "topics": [
+    "sprint retrospective",
+    "identity management",
+    "sprint planning",
+    "estimation",
+    "scim provisioning",
+    "comply integration"
+  ],
+  "overallSentiment": "mixed-positive",
+  "sentimentScore": 3.4,
+  "keyMoments": [
+    {
+      "time": 45.0,
+      "text": "Sofia raises that the Detect outage directly impacted sprint 22 capacity, causing two tickets to be deprioritized",
+      "type": "concern",
+      "speaker": "Sofia Petrov"
+    },
+    {
+      "time": 340.0,
+      "text": "Sofia identifies the IAM role hierarchy inheritance logic for nested conflicting role groups as a complex, unresolved technical problem needing design review",
+      "type": "technical_issue",
+      "speaker": "Sofia Petrov"
+    },
+    {
+      "time": 620.0,
+      "text": "Tyler flags that SSO refactor story point estimates were significantly underestimated, with undiscovered edge cases around certificate rotation",
+      "type": "feature_gap",
+      "speaker": "Tyler Washington"
+    },
+    {
+      "time": 820.0,
+      "text": "Mike raises the Comply v2 integration launching April 7th as a significant upcoming lift without a fully scoped ticket, risking sprint 23 planning",
+      "type": "concern",
+      "speaker": "Mike Romano"
+    }
+  ],
+  "meetingId": "01KQ3F90FF9EBC3DB3632514"
+}

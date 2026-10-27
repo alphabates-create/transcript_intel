@@ -1,0 +1,38 @@
+[
+  {
+    "participantName": "Maria Santos",
+    "timestamp": 1770980424000,
+    "type": "Join",
+    "time": 24.0
+  },
+  {
+    "participantName": "Evelyn Park",
+    "timestamp": 1770980434000,
+    "type": "Join",
+    "time": 34.0
+  },
+  {
+    "participantName": "Kevin O'Brien",
+    "timestamp": 1770980440000,
+    "type": "Join",
+    "time": 40.0
+  },
+  {
+    "participantName": "Maria Santos",
+    "timestamp": 1770982378000,
+    "type": "Leave",
+    "time": 1978.0
+  },
+  {
+    "participantName": "Kevin O'Brien",
+    "timestamp": 1770982399000,
+    "type": "Leave",
+    "time": 1999.0
+  },
+  {
+    "participantName": "Evelyn Park",
+    "timestamp": 1770982386000,
+    "type": "Leave",
+    "time": 1986.0
+  }
+]

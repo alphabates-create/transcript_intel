@@ -1,0 +1,46 @@
+{
+  "summary": "Michelle Tan and Dominic Flores from Silverline Brands contacted Aegis Cloud Security support regarding a billing discrepancy on their Comply v2 upgrade. They were overbilled $255 because the proration calculation started from April 1st instead of the upgrade activation date of April 7th. David Kim confirmed the error, arranged a $255 credit to be applied on the May 1st invoice, and agreed to escalate the issue to the billing systems team as it may affect other customers who upgraded on launch day. The call also covered confirmation that all four compliance frameworks and unlimited on-demand reporting are included under the v2 license.",
+  "actionItems": [
+    "David Kim: Issue a $255 billing credit to Silverline Brands account to be applied on the May 1st invoice",
+    "David Kim: Attach proration calculation breakdown to support case 7570 for the customer's finance team",
+    "David Kim: Escalate proration miscalculation to billing systems team for a broader review of all April 7th v2 upgrades",
+    "David Kim: Send email summary through the case portal to the customer within the hour"
+  ],
+  "topics": [
+    "billing discrepancy",
+    "proration error",
+    "license upgrade",
+    "compliance reporting",
+    "credit request",
+    "product features"
+  ],
+  "overallSentiment": "mixed-positive",
+  "sentimentScore": 3.9,
+  "keyMoments": [
+    {
+      "time": 95.0,
+      "text": "Michelle explains the billing discrepancy: they were charged a full month instead of a prorated amount after upgrading to Comply v2 on April 7th.",
+      "type": "concern",
+      "speaker": "Michelle Tan"
+    },
+    {
+      "time": 285.0,
+      "text": "David confirms the proration error, identifying the system calculated from April 1st instead of April 7th, and agrees the overbilled amount is $255.",
+      "type": "technical_issue",
+      "speaker": "David Kim"
+    },
+    {
+      "time": 480.0,
+      "text": "David proactively flags the issue for escalation to the billing systems team, noting other customers who upgraded on launch day may be affected.",
+      "type": "action_item",
+      "speaker": "David Kim"
+    },
+    {
+      "time": 590.0,
+      "text": "Michelle shares positive feedback on the on-demand SOC 2 reporting feature in Comply v2, noting it is working well after their first report run.",
+      "type": "praise",
+      "speaker": "Michelle Tan"
+    }
+  ],
+  "meetingId": "01KQB632F1ADC378C42F2C03"
+}

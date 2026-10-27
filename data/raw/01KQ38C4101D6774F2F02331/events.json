@@ -1,0 +1,50 @@
+[
+  {
+    "participantName": "Ananya Sharma",
+    "timestamp": 1773148506000,
+    "type": "Join",
+    "time": 6.0
+  },
+  {
+    "participantName": "Tom Bradley",
+    "timestamp": 1773148512000,
+    "type": "Join",
+    "time": 12.0
+  },
+  {
+    "participantName": "Brian Cho",
+    "timestamp": 1773148530000,
+    "type": "Join",
+    "time": 30.0
+  },
+  {
+    "participantName": "Sofia Petrov",
+    "timestamp": 1773148534000,
+    "type": "Join",
+    "time": 34.0
+  },
+  {
+    "participantName": "Brian Cho",
+    "timestamp": 1773150276000,
+    "type": "Leave",
+    "time": 1776.0
+  },
+  {
+    "participantName": "Tom Bradley",
+    "timestamp": 1773150288000,
+    "type": "Leave",
+    "time": 1788.0
+  },
+  {
+    "participantName": "Ananya Sharma",
+    "timestamp": 1773150275000,
+    "type": "Leave",
+    "time": 1775.0
+  },
+  {
+    "participantName": "Sofia Petrov",
+    "timestamp": 1773150279000,
+    "type": "Leave",
+    "time": 1779.0
+  }
+]

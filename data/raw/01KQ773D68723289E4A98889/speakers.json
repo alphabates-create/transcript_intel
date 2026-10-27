@@ -1,0 +1,217 @@
+[
+  {
+    "speakerName": "Sarah Chen",
+    "timestamp": 7.7,
+    "endTimeTs": 18.8
+  },
+  {
+    "speakerName": "Marcus Williams",
+    "timestamp": 19.4,
+    "endTimeTs": 22.3
+  },
+  {
+    "speakerName": "Kendra Wallace",
+    "timestamp": 22.6,
+    "endTimeTs": 33.8
+  },
+  {
+    "speakerName": "Sarah Chen",
+    "timestamp": 34.7,
+    "endTimeTs": 43.6
+  },
+  {
+    "speakerName": "Marcus Williams",
+    "timestamp": 44.5,
+    "endTimeTs": 52.4
+  },
+  {
+    "speakerName": "Kendra Wallace",
+    "timestamp": 52.9,
+    "endTimeTs": 64.8
+  },
+  {
+    "speakerName": "Marcus Williams",
+    "timestamp": 65.4,
+    "endTimeTs": 72.1
+  },
+  {
+    "speakerName": "Kendra Wallace",
+    "timestamp": 73.0,
+    "endTimeTs": 81.4
+  },
+  {
+    "speakerName": "Sarah Chen",
+    "timestamp": 82.6,
+    "endTimeTs": 90.6
+  },
+  {
+    "speakerName": "Kendra Wallace",
+    "timestamp": 92.1,
+    "endTimeTs": 94.5
+  },
+  {
+    "speakerName": "Marcus Williams",
+    "timestamp": 95.7,
+    "endTimeTs": 97.5
+  },
+  {
+    "speakerName": "Sarah Chen",
+    "timestamp": 98.4,
+    "endTimeTs": 112.0
+  },
+  {
+    "speakerName": "Kendra Wallace",
+    "timestamp": 113.2,
+    "endTimeTs": 131.0
+  },
+  {
+    "speakerName": "Marcus Williams",
+    "timestamp": 132.0,
+    "endTimeTs": 141.3
+  },
+  {
+    "speakerName": "Kendra Wallace",
+    "timestamp": 142.3,
+    "endTimeTs": 150.6
+  },
+  {
+    "speakerName": "Sarah Chen",
+    "timestamp": 151.7,
+    "endTimeTs": 162.3
+  },
+  {
+    "speakerName": "Marcus Williams",
+    "timestamp": 162.7,
+    "endTimeTs": 173.2
+  },
+  {
+    "speakerName": "Kendra Wallace",
+    "timestamp": 173.6,
+    "endTimeTs": 181.0
+  },
+  {
+    "speakerName": "Sarah Chen",
+    "timestamp": 182.2,
+    "endTimeTs": 188.9
+  },
+  {
+    "speakerName": "Marcus Williams",
+    "timestamp": 190.1,
+    "endTimeTs": 206.4
+  },
+  {
+    "speakerName": "Kendra Wallace",
+    "timestamp": 206.9,
+    "endTimeTs": 220.8
+  },
+  {
+    "speakerName": "Sarah Chen",
+    "timestamp": 221.7,
+    "endTimeTs": 231.7
+  },
+  {
+    "speakerName": "Marcus Williams",
+    "timestamp": 233.1,
+    "endTimeTs": 240.1
+  },
+  {
+    "speakerName": "Kendra Wallace",
+    "timestamp": 241.3,
+    "endTimeTs": 242.8
+  },
+  {
+    "speakerName": "Sarah Chen",
+    "timestamp": 244.0,
+    "endTimeTs": 256.1
+  },
+  {
+    "speakerName": "Kendra Wallace",
+    "timestamp": 256.7,
+    "endTimeTs": 266.4
+  },
+  {
+    "speakerName": "Sarah Chen",
+    "timestamp": 267.8,
+    "endTimeTs": 281.1
+  },
+  {
+    "speakerName": "Kendra Wallace",
+    "timestamp": 281.6,
+    "endTimeTs": 285.8
+  },
+  {
+    "speakerName": "Marcus Williams",
+    "timestamp": 286.5,
+    "endTimeTs": 302.6
+  },
+  {
+    "speakerName": "Sarah Chen",
+    "timestamp": 303.2,
+    "endTimeTs": 319.5
+  },
+  {
+    "speakerName": "Kendra Wallace",
+    "timestamp": 320.3,
+    "endTimeTs": 342.3
+  },
+  {
+    "speakerName": "Marcus Williams",
+    "timestamp": 343.8,
+    "endTimeTs": 366.5
+  },
+  {
+    "speakerName": "Sarah Chen",
+    "timestamp": 367.1,
+    "endTimeTs": 377.6
+  },
+  {
+    "speakerName": "Kendra Wallace",
+    "timestamp": 378.4,
+    "endTimeTs": 385.5
+  },
+  {
+    "speakerName": "Marcus Williams",
+    "timestamp": 386.0,
+    "endTimeTs": 397.7
+  },
+  {
+    "speakerName": "Kendra Wallace",
+    "timestamp": 398.8,
+    "endTimeTs": 409.9
+  },
+  {
+    "speakerName": "Marcus Williams",
+    "timestamp": 410.9,
+    "endTimeTs": 425.5
+  },
+  {
+    "speakerName": "Kendra Wallace",
+    "timestamp": 426.4,
+    "endTimeTs": 437.7
+  },
+  {
+    "speakerName": "Sarah Chen",
+    "timestamp": 438.5,
+    "endTimeTs": 451.9
+  },
+  {
+    "speakerName": "Kendra Wallace",
+    "timestamp": 453.1,
+    "endTimeTs": 461.7
+  },
+  {
+    "speakerName": "Marcus Williams",
+    "timestamp": 463.1,
+    "endTimeTs": 474.0
+  },
+  {
+    "speakerName": "Sarah Chen",
+    "timestamp": 475.4,
+    "endTimeTs": 481.9
+  },
+  {
+    "speakerName": "Kendra Wallace",
+    "timestamp": 483.4,
+    "endTimeTs": 484.9
+  }
+]

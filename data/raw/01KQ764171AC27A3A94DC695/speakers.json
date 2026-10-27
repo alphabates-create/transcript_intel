@@ -1,0 +1,267 @@
+[
+  {
+    "speakerName": "Tyler Washington",
+    "timestamp": 6.5,
+    "endTimeTs": 11.4
+  },
+  {
+    "speakerName": "Diana Reeves",
+    "timestamp": 12.7,
+    "endTimeTs": 18.0
+  },
+  {
+    "speakerName": "Chris Lee",
+    "timestamp": 19.4,
+    "endTimeTs": 26.5
+  },
+  {
+    "speakerName": "Tyler Washington",
+    "timestamp": 27.3,
+    "endTimeTs": 45.8
+  },
+  {
+    "speakerName": "Diana Reeves",
+    "timestamp": 46.6,
+    "endTimeTs": 60.3
+  },
+  {
+    "speakerName": "Chris Lee",
+    "timestamp": 61.5,
+    "endTimeTs": 70.0
+  },
+  {
+    "speakerName": "Tyler Washington",
+    "timestamp": 70.4,
+    "endTimeTs": 92.9
+  },
+  {
+    "speakerName": "Diana Reeves",
+    "timestamp": 94.2,
+    "endTimeTs": 104.1
+  },
+  {
+    "speakerName": "Tyler Washington",
+    "timestamp": 105.6,
+    "endTimeTs": 115.8
+  },
+  {
+    "speakerName": "Diana Reeves",
+    "timestamp": 116.6,
+    "endTimeTs": 131.6
+  },
+  {
+    "speakerName": "Chris Lee",
+    "timestamp": 132.5,
+    "endTimeTs": 138.1
+  },
+  {
+    "speakerName": "Tyler Washington",
+    "timestamp": 139.4,
+    "endTimeTs": 161.3
+  },
+  {
+    "speakerName": "Diana Reeves",
+    "timestamp": 162.3,
+    "endTimeTs": 165.9
+  },
+  {
+    "speakerName": "Tyler Washington",
+    "timestamp": 167.2,
+    "endTimeTs": 193.3
+  },
+  {
+    "speakerName": "Chris Lee",
+    "timestamp": 194.0,
+    "endTimeTs": 196.3
+  },
+  {
+    "speakerName": "Tyler Washington",
+    "timestamp": 197.4,
+    "endTimeTs": 205.3
+  },
+  {
+    "speakerName": "Chris Lee",
+    "timestamp": 206.2,
+    "endTimeTs": 211.3
+  },
+  {
+    "speakerName": "Tyler Washington",
+    "timestamp": 212.2,
+    "endTimeTs": 222.6
+  },
+  {
+    "speakerName": "Diana Reeves",
+    "timestamp": 223.3,
+    "endTimeTs": 229.4
+  },
+  {
+    "speakerName": "Chris Lee",
+    "timestamp": 230.4,
+    "endTimeTs": 240.7
+  },
+  {
+    "speakerName": "Diana Reeves",
+    "timestamp": 241.4,
+    "endTimeTs": 253.9
+  },
+  {
+    "speakerName": "Chris Lee",
+    "timestamp": 254.4,
+    "endTimeTs": 262.9
+  },
+  {
+    "speakerName": "Diana Reeves",
+    "timestamp": 263.2,
+    "endTimeTs": 277.4
+  },
+  {
+    "speakerName": "Tyler Washington",
+    "timestamp": 278.9,
+    "endTimeTs": 283.8
+  },
+  {
+    "speakerName": "Diana Reeves",
+    "timestamp": 285.2,
+    "endTimeTs": 300.7
+  },
+  {
+    "speakerName": "Chris Lee",
+    "timestamp": 301.6,
+    "endTimeTs": 303.3
+  },
+  {
+    "speakerName": "Diana Reeves",
+    "timestamp": 304.5,
+    "endTimeTs": 326.3
+  },
+  {
+    "speakerName": "Tyler Washington",
+    "timestamp": 327.8,
+    "endTimeTs": 332.1
+  },
+  {
+    "speakerName": "Diana Reeves",
+    "timestamp": 333.5,
+    "endTimeTs": 348.4
+  },
+  {
+    "speakerName": "Chris Lee",
+    "timestamp": 349.7,
+    "endTimeTs": 352.6
+  },
+  {
+    "speakerName": "Diana Reeves",
+    "timestamp": 354.0,
+    "endTimeTs": 365.6
+  },
+  {
+    "speakerName": "Tyler Washington",
+    "timestamp": 366.4,
+    "endTimeTs": 377.5
+  },
+  {
+    "speakerName": "Diana Reeves",
+    "timestamp": 378.5,
+    "endTimeTs": 390.4
+  },
+  {
+    "speakerName": "Tyler Washington",
+    "timestamp": 391.9,
+    "endTimeTs": 397.2
+  },
+  {
+    "speakerName": "Chris Lee",
+    "timestamp": 398.0,
+    "endTimeTs": 411.3
+  },
+  {
+    "speakerName": "Diana Reeves",
+    "timestamp": 412.4,
+    "endTimeTs": 417.6
+  },
+  {
+    "speakerName": "Chris Lee",
+    "timestamp": 418.5,
+    "endTimeTs": 423.5
+  },
+  {
+    "speakerName": "Diana Reeves",
+    "timestamp": 424.2,
+    "endTimeTs": 442.2
+  },
+  {
+    "speakerName": "Tyler Washington",
+    "timestamp": 443.4,
+    "endTimeTs": 454.4
+  },
+  {
+    "speakerName": "Chris Lee",
+    "timestamp": 455.0,
+    "endTimeTs": 473.8
+  },
+  {
+    "speakerName": "Diana Reeves",
+    "timestamp": 475.1,
+    "endTimeTs": 477.3
+  },
+  {
+    "speakerName": "Tyler Washington",
+    "timestamp": 478.3,
+    "endTimeTs": 487.8
+  },
+  {
+    "speakerName": "Diana Reeves",
+    "timestamp": 489.2,
+    "endTimeTs": 498.1
+  },
+  {
+    "speakerName": "Chris Lee",
+    "timestamp": 498.6,
+    "endTimeTs": 515.0
+  },
+  {
+    "speakerName": "Diana Reeves",
+    "timestamp": 516.3,
+    "endTimeTs": 532.3
+  },
+  {
+    "speakerName": "Chris Lee",
+    "timestamp": 533.0,
+    "endTimeTs": 543.3
+  },
+  {
+    "speakerName": "Tyler Washington",
+    "timestamp": 544.1,
+    "endTimeTs": 553.5
+  },
+  {
+    "speakerName": "Diana Reeves",
+    "timestamp": 555.0,
+    "endTimeTs": 566.2
+  },
+  {
+    "speakerName": "Chris Lee",
+    "timestamp": 566.7,
+    "endTimeTs": 581.4
+  },
+  {
+    "speakerName": "Diana Reeves",
+    "timestamp": 582.8,
+    "endTimeTs": 590.7
+  },
+  {
+    "speakerName": "Tyler Washington",
+    "timestamp": 591.7,
+    "endTimeTs": 612.6
+  },
+  {
+    "speakerName": "Diana Reeves",
+    "timestamp": 613.2,
+    "endTimeTs": 628.7
+  },
+  {
+    "speakerName": "Chris Lee",
+    "timestamp": 629.4,
+    "endTimeTs": 639.0
+  }
+]

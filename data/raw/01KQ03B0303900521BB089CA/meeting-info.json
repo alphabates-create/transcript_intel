@@ -1,0 +1,19 @@
+{
+  "meetingId": "01KQ03B0303900521BB089CA",
+  "title": "Detect Outage - Remediation Plan Review",
+  "organizerEmail": "megan.lawson@aegiscloud.com",
+  "host": "megan.lawson@aegiscloud.com",
+  "startTime": "2026-03-16T09:30:00.000Z",
+  "endTime": "2026-03-16T10:05:12.000Z",
+  "duration": 35.2,
+  "allEmails": [
+    "megan.lawson@aegiscloud.com",
+    "raj.kapoor@aegiscloud.com",
+    "brian.cho@aegiscloud.com"
+  ],
+  "invitees": [
+    "megan.lawson@aegiscloud.com",
+    "raj.kapoor@aegiscloud.com",
+    "brian.cho@aegiscloud.com"
+  ]
+}

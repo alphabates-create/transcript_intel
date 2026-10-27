@@ -1,0 +1,46 @@
+{
+  "summary": "James Mitchell (AE) and Kendra Wallace (Brightpath) held an onboarding planning call for the Aegis Detect deployment across Brightpath's CloudPrime and Azure environments. They discussed deployment sequencing, timeline (roughly one month end-to-end), and the importance of completing the rollout before Brightpath's spring peak season in late March. Key integrations with PagerDuty and LogVault were confirmed as natively supported, and the system's seven-day observation/baseline mode was highlighted as a solution to Kendra's alert fatigue concerns. A December reliability incident was raised by Kendra and addressed transparently by James, who agreed to share the post-incident report.",
+  "actionItems": [
+    "James Mitchell: Send post-incident report, IAM permissions template, and onboarding portal credentials to Kendra by end of day",
+    "James Mitchell: Loop in onboarding team to schedule kickoff session with Marcus Okonkwo, targeting early next week",
+    "Kendra Wallace: Send Marcus Okonkwo's contact information to James and notify Marcus to expect outreach from the onboarding team",
+    "Kendra Wallace: Check with Marcus on VPC Flow Log configuration coverage across all production environments"
+  ],
+  "topics": [
+    "onboarding",
+    "deployment planning",
+    "alert fatigue",
+    "reliability incident",
+    "cloud infrastructure",
+    "integrations"
+  ],
+  "overallSentiment": "mixed-positive",
+  "sentimentScore": 3.9,
+  "keyMoments": [
+    {
+      "time": 180.0,
+      "text": "Kendra confirms spring peak season deadline in late March, creating urgency for the deployment timeline",
+      "type": "concern",
+      "speaker": "Kendra Wallace"
+    },
+    {
+      "time": 620.0,
+      "text": "Kendra learns about Aegis Detect's seven-day observation/baseline mode, relieving concerns about alert fatigue for her small security team",
+      "type": "positive_pivot",
+      "speaker": "Kendra Wallace"
+    },
+    {
+      "time": 890.0,
+      "text": "Kendra raises the December reliability incident she read about on community forums, introducing a potential trust and churn risk",
+      "type": "churn_signal",
+      "speaker": "Kendra Wallace"
+    },
+    {
+      "time": 1020.0,
+      "text": "James addresses the December event ingestion outage transparently, explains architectural remediation, and offers to share the post-incident report",
+      "type": "technical_issue",
+      "speaker": "James Mitchell"
+    }
+  ],
+  "meetingId": "01KQ77F2867FC54E13A8C495"
+}

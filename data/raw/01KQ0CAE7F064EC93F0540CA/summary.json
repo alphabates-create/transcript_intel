@@ -1,0 +1,46 @@
+{
+  "summary": "The engineering team held a sprint status check-in covering the Detect pipeline reliability work and the upcoming Comply v2 launch. Mike Romano reported being 60% through the event ingestion refactor, with the end-of-March deadline assessed at roughly 60-40 odds due to uncertainty around Kafka configuration and redundant node setup. Tyler Washington completed alert deduplication work and will assist by spiking on the Kafka investigation to help reduce risk. Tom Bradley will communicate to product that the March target stands but carries acknowledged technical uncertainty, while Chris Lee continues weekly syncs with Priya's team on the Comply v2 April launch.",
+  "actionItems": [
+    "Tyler Washington: Carve out time this week to investigate and document Kafka configuration interactions with the redundant node setup to provide clearer inputs for Mike",
+    "Mike Romano: Finalize and clean up the retry logic PR, targeting ready-for-review status by Wednesday",
+    "Chris Lee: Review Mike's retry logic PR on Thursday and update the sprint board to reflect Tyler's merged deduplication tickets",
+    "Tom Bradley: Communicate to product that end-of-March is still the target for Detect reliability work but flag active technical uncertainty being worked down"
+  ],
+  "topics": [
+    "pipeline reliability",
+    "kafka configuration",
+    "sprint planning",
+    "comply v2 launch",
+    "resource allocation",
+    "timeline risk"
+  ],
+  "overallSentiment": "mixed-positive",
+  "sentimentScore": 3.6,
+  "keyMoments": [
+    {
+      "time": 180.0,
+      "text": "Mike honestly assessed end-of-March deadline as 60-40, flagging uncertainty around Kafka and redundant node setup rather than sandbagging",
+      "type": "concern",
+      "speaker": "Mike Romano"
+    },
+    {
+      "time": 210.0,
+      "text": "Tom Bradley acknowledged the transparency positively and asked what it would take to improve the odds",
+      "type": "positive_pivot",
+      "speaker": "Tom Bradley"
+    },
+    {
+      "time": 300.0,
+      "text": "Tyler Washington agreed to spike on the Kafka investigation to reduce Mike's uncertainty and improve timeline confidence",
+      "type": "action_item",
+      "speaker": "Tyler Washington"
+    },
+    {
+      "time": 390.0,
+      "text": "Chris Lee confirmed low exposure risk on Comply v2 resource bleed-over, noting Priya's team is tracking well with ISO 27001 mapping as the last item",
+      "type": "positive_pivot",
+      "speaker": "Chris Lee"
+    }
+  ],
+  "meetingId": "01KQ0CAE7F064EC93F0540CA"
+}

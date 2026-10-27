@@ -1,0 +1,26 @@
+[
+  {
+    "participantName": "Dominic Flores",
+    "timestamp": 1775229320000,
+    "type": "Join",
+    "time": 20.0
+  },
+  {
+    "participantName": "Kevin O'Brien",
+    "timestamp": 1775229321000,
+    "type": "Join",
+    "time": 21.0
+  },
+  {
+    "participantName": "Kevin O'Brien",
+    "timestamp": 1775232292000,
+    "type": "Leave",
+    "time": 2992.0
+  },
+  {
+    "participantName": "Dominic Flores",
+    "timestamp": 1775232311000,
+    "type": "Leave",
+    "time": 3011.0
+  }
+]

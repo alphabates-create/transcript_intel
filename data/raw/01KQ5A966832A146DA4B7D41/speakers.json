@@ -1,0 +1,237 @@
+[
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 6.6,
+    "endTimeTs": 14.4
+  },
+  {
+    "speakerName": "Alicia Monroe",
+    "timestamp": 15.8,
+    "endTimeTs": 30.0
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 30.9,
+    "endTimeTs": 45.9
+  },
+  {
+    "speakerName": "Alicia Monroe",
+    "timestamp": 46.7,
+    "endTimeTs": 65.7
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 66.9,
+    "endTimeTs": 77.1
+  },
+  {
+    "speakerName": "Alicia Monroe",
+    "timestamp": 77.8,
+    "endTimeTs": 84.3
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 85.4,
+    "endTimeTs": 93.2
+  },
+  {
+    "speakerName": "Alicia Monroe",
+    "timestamp": 94.1,
+    "endTimeTs": 114.5
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 115.7,
+    "endTimeTs": 118.8
+  },
+  {
+    "speakerName": "Alicia Monroe",
+    "timestamp": 119.9,
+    "endTimeTs": 143.3
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 144.7,
+    "endTimeTs": 155.5
+  },
+  {
+    "speakerName": "Alicia Monroe",
+    "timestamp": 156.4,
+    "endTimeTs": 169.3
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 170.2,
+    "endTimeTs": 184.4
+  },
+  {
+    "speakerName": "Alicia Monroe",
+    "timestamp": 185.2,
+    "endTimeTs": 207.5
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 208.7,
+    "endTimeTs": 224.7
+  },
+  {
+    "speakerName": "Alicia Monroe",
+    "timestamp": 226.1,
+    "endTimeTs": 238.2
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 238.8,
+    "endTimeTs": 256.3
+  },
+  {
+    "speakerName": "Alicia Monroe",
+    "timestamp": 256.8,
+    "endTimeTs": 270.3
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 270.7,
+    "endTimeTs": 287.5
+  },
+  {
+    "speakerName": "Alicia Monroe",
+    "timestamp": 288.4,
+    "endTimeTs": 301.4
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 302.3,
+    "endTimeTs": 310.4
+  },
+  {
+    "speakerName": "Alicia Monroe",
+    "timestamp": 311.3,
+    "endTimeTs": 335.2
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 335.8,
+    "endTimeTs": 343.9
+  },
+  {
+    "speakerName": "Alicia Monroe",
+    "timestamp": 344.5,
+    "endTimeTs": 355.4
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 356.1,
+    "endTimeTs": 379.3
+  },
+  {
+    "speakerName": "Alicia Monroe",
+    "timestamp": 379.7,
+    "endTimeTs": 397.1
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 397.5,
+    "endTimeTs": 411.7
+  },
+  {
+    "speakerName": "Alicia Monroe",
+    "timestamp": 412.4,
+    "endTimeTs": 429.8
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 431.0,
+    "endTimeTs": 449.9
+  },
+  {
+    "speakerName": "Alicia Monroe",
+    "timestamp": 450.4,
+    "endTimeTs": 468.8
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 470.1,
+    "endTimeTs": 488.4
+  },
+  {
+    "speakerName": "Alicia Monroe",
+    "timestamp": 489.1,
+    "endTimeTs": 509.6
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 510.4,
+    "endTimeTs": 527.3
+  },
+  {
+    "speakerName": "Alicia Monroe",
+    "timestamp": 528.5,
+    "endTimeTs": 543.7
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 544.7,
+    "endTimeTs": 563.8
+  },
+  {
+    "speakerName": "Alicia Monroe",
+    "timestamp": 565.1,
+    "endTimeTs": 587.1
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 587.6,
+    "endTimeTs": 600.7
+  },
+  {
+    "speakerName": "Alicia Monroe",
+    "timestamp": 601.7,
+    "endTimeTs": 605.6
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 606.3,
+    "endTimeTs": 630.8
+  },
+  {
+    "speakerName": "Alicia Monroe",
+    "timestamp": 631.6,
+    "endTimeTs": 644.6
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 645.4,
+    "endTimeTs": 665.1
+  },
+  {
+    "speakerName": "Alicia Monroe",
+    "timestamp": 665.6,
+    "endTimeTs": 675.7
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 676.8,
+    "endTimeTs": 705.1
+  },
+  {
+    "speakerName": "Alicia Monroe",
+    "timestamp": 705.8,
+    "endTimeTs": 723.7
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 724.9,
+    "endTimeTs": 739.5
+  },
+  {
+    "speakerName": "Alicia Monroe",
+    "timestamp": 740.1,
+    "endTimeTs": 749.7
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 750.1,
+    "endTimeTs": 757.2
+  }
+]

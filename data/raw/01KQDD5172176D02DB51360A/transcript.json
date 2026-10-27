@@ -1,0 +1,394 @@
+{
+  "data": [
+    {
+      "sentence": "Hi, this is Priya Patel from Aegis Cloud Security support, am I speaking with Dr. Cheng?",
+      "speaker_name": "Priya Patel",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 7.6,
+      "endTime": 12.9,
+      "averageConfidence": 0.96,
+      "index": 0
+    },
+    {
+      "sentence": "Yes, this is Linda Cheng, and I have to say I'm \u2014 I'm really frustrated right now, we've been dealing with this API issue for going on three days and it is actively impacting our backup workflows.",
+      "speaker_name": "Dr. Linda Cheng",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 13.3,
+      "endTime": 26.8,
+      "averageConfidence": 0.95,
+      "index": 1
+    },
+    {
+      "sentence": "I completely understand, Dr. Cheng, and I sincerely apologize for the disruption \u2014 I've pulled up your support case, number 3286, and I want to make sure we get to the bottom of this today.",
+      "speaker_name": "Priya Patel",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 27.2,
+      "endTime": 39.3,
+      "averageConfidence": 0.92,
+      "index": 2
+    },
+    {
+      "sentence": "Three days, Priya. We're a healthcare organization, we have patient data, we have regulatory obligations \u2014 this isn't a minor inconvenience, this is a serious problem.",
+      "speaker_name": "Dr. Linda Cheng",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 40.4,
+      "endTime": 49.2,
+      "averageConfidence": 0.94,
+      "index": 3
+    },
+    {
+      "sentence": "Absolutely, and I take that very seriously, I do. Can you walk me through what you're seeing on your end? The case notes mention an API integration error with Aegis Protect but I want to hear it directly from you.",
+      "speaker_name": "Priya Patel",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 49.9,
+      "endTime": 64.0,
+      "averageConfidence": 0.94,
+      "index": 4
+    },
+    {
+      "sentence": "So we have our EHR system \u2014 it's a custom-built platform \u2014 integrated with Aegis Protect through your REST API, and starting Sunday we started getting 503 errors on the backup initiation endpoint. Specifically the... um, it's the /v2/backup/jobs/create endpoint.",
+      "speaker_name": "Dr. Linda Cheng",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 65.5,
+      "endTime": 79.9,
+      "averageConfidence": 0.93,
+      "index": 5
+    },
+    {
+      "sentence": "Okay, the /v2/backup/jobs/create endpoint, got it. And are these errors consistent or intermittent? Like are they happening on every call or\u2014",
+      "speaker_name": "Priya Patel",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 80.8,
+      "endTime": 88.3,
+      "averageConfidence": 0.94,
+      "index": 6
+    },
+    {
+      "sentence": "Every single call. One hundred percent failure rate since Sunday morning, approximately 6 AM our time, which is Pacific. We have zero successful backup jobs since then.",
+      "speaker_name": "Dr. Linda Cheng",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 88.9,
+      "endTime": 98.3,
+      "averageConfidence": 0.89,
+      "index": 7
+    },
+    {
+      "sentence": "Zero successful jobs in three days, okay, that's \u2014 yeah, that's significant. And are you seeing anything in the response body with the 503? Any error message or is it just the status code?",
+      "speaker_name": "Priya Patel",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 98.9,
+      "endTime": 111.3,
+      "averageConfidence": 0.94,
+      "index": 8
+    },
+    {
+      "sentence": "We get a very unhelpful message that says 'service temporarily unavailable, please retry' \u2014 which we have been retrying, with exponential backoff as your documentation specifies, and it hasn't made a difference.",
+      "speaker_name": "Dr. Linda Cheng",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 112.5,
+      "endTime": 123.4,
+      "averageConfidence": 0.91,
+      "index": 9
+    },
+    {
+      "sentence": "Right, right. And the retry behavior \u2014 are you using our SDK or are you making direct HTTP calls?",
+      "speaker_name": "Priya Patel",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 123.9,
+      "endTime": 130.3,
+      "averageConfidence": 0.89,
+      "index": 10
+    },
+    {
+      "sentence": "Direct HTTP calls, our dev team built a custom integration because your SDK didn't support some of the authentication patterns we needed for our environment.",
+      "speaker_name": "Dr. Linda Cheng",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 131.0,
+      "endTime": 139.7,
+      "averageConfidence": 0.9,
+      "index": 11
+    },
+    {
+      "sentence": "Okay, and what authentication method are you using? Bearer token, API key, or\u2014",
+      "speaker_name": "Priya Patel",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 140.6,
+      "endTime": 145.1,
+      "averageConfidence": 0.9,
+      "index": 12
+    },
+    {
+      "sentence": "Bearer token, OAuth 2.0 client credentials flow. And before you ask \u2014 yes, the tokens are valid, yes they're being refreshed properly, we're not hitting any 401s or 403s, the 503s start immediately after auth succeeds.",
+      "speaker_name": "Dr. Linda Cheng",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 146.3,
+      "endTime": 158.7,
+      "averageConfidence": 0.91,
+      "index": 13
+    },
+    {
+      "sentence": "That's \u2014 that's actually really helpful context, thank you. So authentication is working fine, it's specifically the job creation call that's failing. Okay. Can I ask, do you have a request ID from any of the failed calls? That would help me trace it on our backend.",
+      "speaker_name": "Priya Patel",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 159.7,
+      "endTime": 176.4,
+      "averageConfidence": 0.93,
+      "index": 14
+    },
+    {
+      "sentence": "I have several. I'll read you one \u2014 it's X-Request-ID: ae7f2c-b339-48d1-9cf2-7744d0a8e312. My team logged about two hundred of them over the past three days.",
+      "speaker_name": "Dr. Linda Cheng",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 177.3,
+      "endTime": 185.6,
+      "averageConfidence": 0.92,
+      "index": 15
+    },
+    {
+      "sentence": "Perfect, let me pull that up... okay, I'm in our trace logs now. Give me just a second here.",
+      "speaker_name": "Priya Patel",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 186.7,
+      "endTime": 193.6,
+      "averageConfidence": 0.92,
+      "index": 16
+    },
+    {
+      "sentence": "And while you're doing that, I want to raise something else \u2014 we noticed that when we try to manually trigger backups through the Aegis Protect web console, those also fail. So this doesn't seem like it's purely an API integration issue on our side, this looks like something is broken on your end.",
+      "speaker_name": "Dr. Linda Cheng",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 194.9,
+      "endTime": 213.8,
+      "averageConfidence": 0.89,
+      "index": 17
+    },
+    {
+      "sentence": "Oh, that's \u2014 that's a really important data point, the console failures too. That does shift the picture significantly. Okay so I'm looking at this request ID and I can see... hm. Okay. So it looks like the job is hitting our backup orchestration service and it's timing out before it can queue. Let me see what's upstream from that.",
+      "speaker_name": "Priya Patel",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 214.7,
+      "endTime": 236.2,
+      "averageConfidence": 0.91,
+      "index": 18
+    },
+    {
+      "sentence": "What does that mean in plain English? Because I need to understand whether this is something my team caused or something on Aegis's end, because right now my CTO position \u2014 I'm the one responsible for data integrity and I need to give my board an explanation.",
+      "speaker_name": "Dr. Linda Cheng",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 237.7,
+      "endTime": 254.6,
+      "averageConfidence": 0.92,
+      "index": 19
+    },
+    {
+      "sentence": "I understand, and I want to be transparent with you. What I'm seeing in the logs is that the backup orchestration layer is rejecting job submissions, and it's not a client-side error \u2014 this is happening at our infrastructure level. This is not something your team did wrong.",
+      "speaker_name": "Priya Patel",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 255.7,
+      "endTime": 272.5,
+      "averageConfidence": 0.96,
+      "index": 20
+    },
+    {
+      "sentence": "Okay, so Aegis broke something. And it took three days and a support call for someone to tell me that.",
+      "speaker_name": "Dr. Linda Cheng",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 274.0,
+      "endTime": 280.7,
+      "averageConfidence": 0.91,
+      "index": 21
+    },
+    {
+      "sentence": "Dr. Cheng, I \u2014 I hear you, and that is a fair criticism. We should have proactive alerting that catches this for affected customers and reaches out. I'm going to escalate this right now to our Protect infrastructure team while we're on this call.",
+      "speaker_name": "Priya Patel",
+      "sentimentType": "negative",
+      "speaker_id": 0,
+      "time": 281.5,
+      "endTime": 296.8,
+      "averageConfidence": 0.88,
+      "index": 22
+    },
+    {
+      "sentence": "Good. And in the meantime, what are my options? Because we have a \u2014 we have a compliance window coming up, we need to demonstrate backup continuity for our HIPAA audit, and right now I cannot do that.",
+      "speaker_name": "Dr. Linda Cheng",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 298.0,
+      "endTime": 311.6,
+      "averageConfidence": 0.88,
+      "index": 23
+    },
+    {
+      "sentence": "So there are a couple of things we can do right now. First, I can have our team manually trigger backup snapshots on your behalf from our admin side, which would bypass the orchestration layer that's having the issue. That's not a long-term solution but it would get your data protected while we work on the fix.",
+      "speaker_name": "Priya Patel",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 312.4,
+      "endTime": 332.8,
+      "averageConfidence": 0.97,
+      "index": 24
+    },
+    {
+      "sentence": "Okay. How quickly can that happen?",
+      "speaker_name": "Dr. Linda Cheng",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 334.0,
+      "endTime": 336.5,
+      "averageConfidence": 0.95,
+      "index": 25
+    },
+    {
+      "sentence": "I can get that initiated within the next hour \u2014 I'll coordinate with our Protect ops team directly. Second thing \u2014 I want to make sure we document everything for your audit purposes, so I'll send you a written incident summary that you can use to demonstrate to your HIPAA auditors that there was a platform-level issue and what mitigation steps were taken.",
+      "speaker_name": "Priya Patel",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 337.7,
+      "endTime": 360.2,
+      "averageConfidence": 0.9,
+      "index": 26
+    },
+    {
+      "sentence": "That \u2014 okay, that's actually helpful. A written incident summary, that I can work with. But I want a timeline on when the actual fix is going to be deployed because we cannot operate indefinitely with manual backups being triggered by your team.",
+      "speaker_name": "Dr. Linda Cheng",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 361.4,
+      "endTime": 376.8,
+      "averageConfidence": 0.9,
+      "index": 27
+    },
+    {
+      "sentence": "Absolutely, that's a completely reasonable ask. I'm going to be honest with you \u2014 I don't have that answer right now because I need the infrastructure team to assess the root cause, but I will have a timeline for you within four hours, and I will personally follow up via email and phone call.",
+      "speaker_name": "Priya Patel",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 377.4,
+      "endTime": 396.2,
+      "averageConfidence": 0.95,
+      "index": 28
+    },
+    {
+      "sentence": "Four hours. Okay. And I want to be clear \u2014 I'm not just frustrated about the technical issue, I'm frustrated about the communication. Three days of radio silence from Aegis is not acceptable for a healthcare customer. We are handling protected health information.",
+      "speaker_name": "Dr. Linda Cheng",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 397.4,
+      "endTime": 412.7,
+      "averageConfidence": 0.89,
+      "index": 29
+    },
+    {
+      "sentence": "You're completely right, and I'm not going to make excuses for that. The lack of proactive communication on our end was a failure, and I'm going to make sure that's fed back to our leadership and that you receive a formal apology along with that incident report.",
+      "speaker_name": "Priya Patel",
+      "sentimentType": "negative",
+      "speaker_id": 0,
+      "time": 413.1,
+      "endTime": 429.8,
+      "averageConfidence": 0.95,
+      "index": 30
+    },
+    {
+      "sentence": "I appreciate you saying that. And look \u2014 I don't want to tear apart the whole relationship with Aegis, we've had a good experience overall with Protect up until this point, but this is serious and I need to see it treated seriously.",
+      "speaker_name": "Dr. Linda Cheng",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 430.1,
+      "endTime": 444.9,
+      "averageConfidence": 0.89,
+      "index": 31
+    },
+    {
+      "sentence": "And it will be, I promise you that. Can I also ask \u2014 are any other modules affected? Are you seeing anything unusual with Identity or anything else on the platform?",
+      "speaker_name": "Priya Patel",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 445.6,
+      "endTime": 456.9,
+      "averageConfidence": 0.92,
+      "index": 32
+    },
+    {
+      "sentence": "No, just Protect. Identity and SSO seem to be working fine, it's specifically the backup functionality.",
+      "speaker_name": "Dr. Linda Cheng",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 457.6,
+      "endTime": 463.1,
+      "averageConfidence": 0.96,
+      "index": 33
+    },
+    {
+      "sentence": "Okay, good \u2014 that actually helps narrow down the scope. Alright, so to recap what we're doing: I'm escalating to Protect infrastructure right now, we'll initiate manual backup snapshots for your environment within the hour, I'll send you a written incident summary by end of day, and I'll follow up with a root cause and fix timeline within four hours. Does that all sound right?",
+      "speaker_name": "Priya Patel",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 464.3,
+      "endTime": 487.1,
+      "averageConfidence": 0.9,
+      "index": 34
+    },
+    {
+      "sentence": "Yes, that covers it. And Priya \u2014 I want your direct contact information, not the general support queue. If something changes or if I need to escalate further, I need to be able to reach you directly.",
+      "speaker_name": "Dr. Linda Cheng",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 488.0,
+      "endTime": 500.7,
+      "averageConfidence": 0.96,
+      "index": 35
+    },
+    {
+      "sentence": "Of course. I'll include my direct email and my direct line in the confirmation email I'm sending you in the next few minutes. And Dr. Cheng, I am sorry \u2014 genuinely \u2014 for the disruption this has caused. We're going to make this right.",
+      "speaker_name": "Priya Patel",
+      "sentimentType": "negative",
+      "speaker_id": 0,
+      "time": 502.1,
+      "endTime": 518.0,
+      "averageConfidence": 0.96,
+      "index": 36
+    },
+    {
+      "sentence": "I'm going to hold you to that. Thank you for finally getting some clarity on this, I'll be waiting for your follow-up.",
+      "speaker_name": "Dr. Linda Cheng",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 518.7,
+      "endTime": 526.7,
+      "averageConfidence": 0.89,
+      "index": 37
+    },
+    {
+      "sentence": "Absolutely. Talk soon, Dr. Cheng.",
+      "speaker_name": "Priya Patel",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 527.6,
+      "endTime": 529.6,
+      "averageConfidence": 0.94,
+      "index": 38
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "participantName": "Catherine Page",
+    "timestamp": 1776174345000,
+    "type": "Join",
+    "time": 45.0
+  },
+  {
+    "participantName": "Russell Tang",
+    "timestamp": 1776174356000,
+    "type": "Join",
+    "time": 56.0
+  },
+  {
+    "participantName": "Maria Santos",
+    "timestamp": 1776174360000,
+    "type": "Join",
+    "time": 60.0
+  },
+  {
+    "participantName": "Maria Santos",
+    "timestamp": 1776176317000,
+    "type": "Leave",
+    "time": 2017.0
+  },
+  {
+    "participantName": "Catherine Page",
+    "timestamp": 1776176326000,
+    "type": "Leave",
+    "time": 2026.0
+  },
+  {
+    "participantName": "Russell Tang",
+    "timestamp": 1776176311000,
+    "type": "Leave",
+    "time": 2011.0
+  }
+]

@@ -1,0 +1,46 @@
+{
+  "summary": "Alicia Monroe (Risk Manager) and Gregory Fisk (IT Director) from Summit Trust contacted Aegis Cloud Security support regarding threat alert delays of 20-45 minutes in their Detect platform, which is critical given their financial services regulatory obligations. David Kim identified the root cause as Summit Trust's tenant being placed on an overloaded processing node cluster during post-outage infrastructure remediation in March. Additionally, it was revealed that Summit Trust had never been notified of a significant platform outage in March (March 10-18) involving six hours of reduced visibility, which raised serious compliance concerns. David submitted an emergency rebalance request during the call and committed to delivering a formal incident summary document by end of business the following day.",
+  "actionItems": [
+    "David Kim: Submit emergency infrastructure rebalance request (IR-8842) to migrate Summit Trust tenant to a less-loaded node cluster and monitor completion",
+    "David Kim: Deliver formal written incident summary covering the March outage, latency root cause, and resolution to Alicia, Gregory, and their account manager by EOB tomorrow",
+    "David Kim: Escalate the March outage communication failure as a separate internal escalation item and loop in the account manager for upcoming QBR",
+    "David Kim: Include documentation on setting up a synthetic LogVault-based latency monitoring workaround in the follow-up email, and flag native latency alerting as a product feedback gap"
+  ],
+  "topics": [
+    "alert latency",
+    "incident communication failure",
+    "platform outage",
+    "regulatory compliance",
+    "infrastructure rebalancing",
+    "product gap"
+  ],
+  "overallSentiment": "mixed-negative",
+  "sentimentScore": 2.4,
+  "keyMoments": [
+    {
+      "time": 95.0,
+      "text": "Alicia reveals that 20-45 minute alert delays are unacceptable given Summit Trust's financial services regulatory obligations",
+      "type": "concern",
+      "speaker": "Alicia Monroe"
+    },
+    {
+      "time": 310.0,
+      "text": "Alicia and Gregory express shock and frustration upon learning about the March 10-18 platform outage for the first time, raising compliance documentation concerns",
+      "type": "churn_signal",
+      "speaker": "Alicia Monroe"
+    },
+    {
+      "time": 620.0,
+      "text": "David identifies that Summit Trust's tenant is on an overloaded processing node cluster resulting from post-outage infrastructure redistribution, confirming Aegis caused the latency issue",
+      "type": "technical_issue",
+      "speaker": "David Kim"
+    },
+    {
+      "time": 890.0,
+      "text": "Gregory requests a native latency alerting feature; David acknowledges it as a product gap and proposes a LogVault-based synthetic monitoring workaround",
+      "type": "feature_gap",
+      "speaker": "Gregory Fisk"
+    }
+  ],
+  "meetingId": "01KQBBF753B44DE677670E6D"
+}

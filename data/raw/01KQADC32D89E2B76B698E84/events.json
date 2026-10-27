@@ -1,0 +1,50 @@
+[
+  {
+    "participantName": "Elena Vasquez",
+    "timestamp": 1771074001000,
+    "type": "Join",
+    "time": 1.0
+  },
+  {
+    "participantName": "Andre Coleman",
+    "timestamp": 1771074019000,
+    "type": "Join",
+    "time": 19.0
+  },
+  {
+    "participantName": "Sarah Chen",
+    "timestamp": 1771074023000,
+    "type": "Join",
+    "time": 23.0
+  },
+  {
+    "participantName": "Stephanie Blair",
+    "timestamp": 1771074023000,
+    "type": "Join",
+    "time": 23.0
+  },
+  {
+    "participantName": "Sarah Chen",
+    "timestamp": 1771075441000,
+    "type": "Leave",
+    "time": 1441.0
+  },
+  {
+    "participantName": "Elena Vasquez",
+    "timestamp": 1771075416000,
+    "type": "Leave",
+    "time": 1416.0
+  },
+  {
+    "participantName": "Stephanie Blair",
+    "timestamp": 1771075440000,
+    "type": "Leave",
+    "time": 1440.0
+  },
+  {
+    "participantName": "Andre Coleman",
+    "timestamp": 1771075436000,
+    "type": "Leave",
+    "time": 1436.0
+  }
+]

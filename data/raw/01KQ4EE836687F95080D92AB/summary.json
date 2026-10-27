@@ -1,0 +1,46 @@
+{
+  "summary": "The team held a sprint twelve planning meeting that began with a quick retrospective on sprint eleven, where seven of nine tickets were completed. Key carry-overs include alert deduplication and a pipeline latency investigation that revealed a significant single point of failure in the event ingestion layer. The team agreed on primary sprint twelve commitments: deduplication carry-over, pipeline architecture remediation, and a CI gate improvement, with detection rule versioning pushed to a stretch goal or sprint thirteen. Capacity constraints and QA bandwidth were key factors in scoping decisions.",
+  "actionItems": [
+    "Chris Lee: Share the rough detection rule versioning spec doc with the team after the call",
+    "Ananya Sharma: Draft pipeline architecture sub-tasks today and share in the team channel for review before the board is finalized",
+    "Chris Lee: Update the sprint board and send a summary to the team channel",
+    "Nina Kowalski: Create a chore ticket for CI gating to prevent unvalidated config merges"
+  ],
+  "topics": [
+    "sprint planning",
+    "pipeline architecture",
+    "single point of failure",
+    "ci/cd improvement",
+    "capacity planning",
+    "sprint retrospective"
+  ],
+  "overallSentiment": "mixed-positive",
+  "sentimentScore": 3.6,
+  "keyMoments": [
+    {
+      "time": 148.0,
+      "text": "Ananya flags a deeper architectural issue in the event ingestion layer, identifying a single point of failure with no redundancy or circuit breaker.",
+      "type": "technical_issue",
+      "speaker": "Ananya Sharma"
+    },
+    {
+      "time": 95.0,
+      "text": "Nina raises that a regression in alert severity scoring was caught on day nine of the sprint, noting that CI gating should replace manual discipline for config changes.",
+      "type": "feature_gap",
+      "speaker": "Nina Kowalski"
+    },
+    {
+      "time": 312.0,
+      "text": "Chris proposes scoping rule versioning as a stretch goal to set realistic expectations with product, a practical prioritization decision endorsed by the team.",
+      "type": "positive_pivot",
+      "speaker": "Chris Lee"
+    },
+    {
+      "time": 420.0,
+      "text": "Team reaches alignment on sprint twelve commitments: dedup carry-over, pipeline architecture work, and CI gate improvement, with rule versioning deferred.",
+      "type": "action_item",
+      "speaker": "Chris Lee"
+    }
+  ],
+  "meetingId": "01KQ4EE836687F95080D92AB"
+}

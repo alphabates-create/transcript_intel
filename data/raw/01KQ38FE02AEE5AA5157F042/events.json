@@ -1,0 +1,26 @@
+[
+  {
+    "participantName": "Marcus Williams",
+    "timestamp": 1775661336000,
+    "type": "Join",
+    "time": 36.0
+  },
+  {
+    "participantName": "Oliver Grant",
+    "timestamp": 1775661342000,
+    "type": "Join",
+    "time": 42.0
+  },
+  {
+    "participantName": "Marcus Williams",
+    "timestamp": 1775662131000,
+    "type": "Leave",
+    "time": 831.0
+  },
+  {
+    "participantName": "Oliver Grant",
+    "timestamp": 1775662142000,
+    "type": "Leave",
+    "time": 842.0
+  }
+]

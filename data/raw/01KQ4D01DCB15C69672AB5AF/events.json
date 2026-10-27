@@ -1,0 +1,62 @@
+[
+  {
+    "participantName": "Ajay Mehta",
+    "timestamp": 1775571313000,
+    "type": "Join",
+    "time": 13.0
+  },
+  {
+    "participantName": "Aisha Johnson",
+    "timestamp": 1775571322000,
+    "type": "Join",
+    "time": 22.0
+  },
+  {
+    "participantName": "Natalie Simmons",
+    "timestamp": 1775571332000,
+    "type": "Join",
+    "time": 32.0
+  },
+  {
+    "participantName": "Mike Romano",
+    "timestamp": 1775571334000,
+    "type": "Join",
+    "time": 34.0
+  },
+  {
+    "participantName": "Kevin O'Brien",
+    "timestamp": 1775571338000,
+    "type": "Join",
+    "time": 38.0
+  },
+  {
+    "participantName": "Aisha Johnson",
+    "timestamp": 1775573846000,
+    "type": "Leave",
+    "time": 2546.0
+  },
+  {
+    "participantName": "Kevin O'Brien",
+    "timestamp": 1775573865000,
+    "type": "Leave",
+    "time": 2565.0
+  },
+  {
+    "participantName": "Mike Romano",
+    "timestamp": 1775573847000,
+    "type": "Leave",
+    "time": 2547.0
+  },
+  {
+    "participantName": "Natalie Simmons",
+    "timestamp": 1775573842000,
+    "type": "Leave",
+    "time": 2542.0
+  },
+  {
+    "participantName": "Ajay Mehta",
+    "timestamp": 1775573867000,
+    "type": "Leave",
+    "time": 2567.0
+  }
+]

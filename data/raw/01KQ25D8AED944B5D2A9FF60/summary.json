@@ -1,0 +1,46 @@
+{
+  "summary": "Jason Hoffman from Meridian contacted Aegis support (Sarah Chen) regarding the lack of granular file-level restore capabilities in Aegis Protect. An analyst had accidentally overwritten config files on an EBS-backed EC2 trading platform, requiring a two-hour manual workaround involving spinning up a temporary instance to retrieve the files. Sarah confirmed that file-level restore is not currently supported and documented a formal feature request covering granular file-level restore from EBS snapshots, restore-to-alternate-path functionality, and a file metadata preview capability. The case will be logged, Jason's colleague Marcus Webb will be added, and the CSM will be looped in for follow-up.",
+  "actionItems": [
+    "Sarah Chen: Submit formal feature request (Case 1514) for granular file-level restore from EBS snapshots, alternate path restore, and file metadata preview into the Protect product feedback system",
+    "Sarah Chen: Add Marcus Webb to Case 1514 documentation and loop in Meridian's CSM for ongoing updates",
+    "Jason Hoffman: Monitor portal for case documentation update expected within the hour",
+    "Sarah Chen: Ensure CSM provides Jason with roadmap updates on the feature request to avoid it going untracked"
+  ],
+  "topics": [
+    "feature request",
+    "granular restore",
+    "backup and recovery",
+    "rto compliance",
+    "aws ebs",
+    "workaround"
+  ],
+  "overallSentiment": "mixed-positive",
+  "sentimentScore": 3.4,
+  "keyMoments": [
+    {
+      "time": 145.0,
+      "text": "Sarah confirms that granular file-level restore is not currently supported in Aegis Protect, validating Jason's suspicion",
+      "type": "feature_gap",
+      "speaker": "Sarah Chen"
+    },
+    {
+      "time": 310.0,
+      "text": "Jason describes the two-hour manual workaround required to restore a handful of config files, highlighting significant operational pain",
+      "type": "concern",
+      "speaker": "Jason Hoffman"
+    },
+    {
+      "time": 400.0,
+      "text": "Jason states his trading platform has a 15-minute RTO for file-level restores, making the current workaround operationally unacceptable",
+      "type": "churn_signal",
+      "speaker": "Jason Hoffman"
+    },
+    {
+      "time": 680.0,
+      "text": "Jason thanks Sarah for being transparent about product limitations rather than making vague promises, expressing appreciation for the honest conversation",
+      "type": "praise",
+      "speaker": "Jason Hoffman"
+    }
+  ],
+  "meetingId": "01KQ25D8AED944B5D2A9FF60"
+}

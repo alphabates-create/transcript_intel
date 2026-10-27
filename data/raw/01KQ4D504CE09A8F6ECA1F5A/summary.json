@@ -1,0 +1,46 @@
+{
+  "summary": "Ananya Sharma, Hannah Liu, and Nina Kowalski held a planning sync focused on the Aegis Identity Q2 roadmap. The team aligned on two primary workstreams: an MFA policy rules engine and an expanded SSO connector library, with the risk-signal/adaptive MFA layer pushed to Q3 due to scope and technical dependencies. They established a rough timeline targeting a May GA for the MFA rules engine and prioritized Okta, Azure AD, and Google Workspace as the first SSO connectors. Key process improvements were agreed upon, including locking specs two weeks before QA hand-off and including acceptance criteria upfront to enable parallel test case development.",
+  "actionItems": [
+    "Hannah Liu: Follow up with the infra lead to prioritize the dedicated Identity staging tenant ticket",
+    "Ananya Sharma: Check on Azure AD sandbox account availability through the internal Nextera agreement",
+    "Nina Kowalski: Confirm the Okta dev account is still active and available for QA testing",
+    "Hannah Liu: Schedule a mid-March check-in for the same group to review progress against the Q2 plan"
+  ],
+  "topics": [
+    "identity roadmap",
+    "mfa policy engine",
+    "sso connectors",
+    "qa process",
+    "sprint planning",
+    "infrastructure bottleneck"
+  ],
+  "overallSentiment": "mixed-positive",
+  "sentimentScore": 3.8,
+  "keyMoments": [
+    {
+      "time": 142.0,
+      "text": "Nina flags that provisioning test environments is a recurring bottleneck causing time loss in QA cycles",
+      "type": "concern",
+      "speaker": "Nina Kowalski"
+    },
+    {
+      "time": 198.0,
+      "text": "Hannah takes ownership of escalating the stalled infrastructure staging tenant ticket as an immediate action item",
+      "type": "action_item",
+      "speaker": "Hannah Liu"
+    },
+    {
+      "time": 487.0,
+      "text": "Nina raises that a prior hand-off of an in-flux build wasted a week and a half; Ananya acknowledges ownership and proposes a hard spec-lock policy two weeks before hand-off",
+      "type": "technical_issue",
+      "speaker": "Nina Kowalski"
+    },
+    {
+      "time": 534.0,
+      "text": "Team agrees to include acceptance criteria in specs from the start, enabling QA to build test cases in parallel with development going forward",
+      "type": "positive_pivot",
+      "speaker": "Hannah Liu"
+    }
+  ],
+  "meetingId": "01KQ4D504CE09A8F6ECA1F5A"
+}

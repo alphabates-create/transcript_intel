@@ -1,0 +1,207 @@
+[
+  {
+    "speakerName": "David Kim",
+    "timestamp": 3.5,
+    "endTimeTs": 12.0
+  },
+  {
+    "speakerName": "Alicia Monroe",
+    "timestamp": 12.9,
+    "endTimeTs": 20.7
+  },
+  {
+    "speakerName": "David Kim",
+    "timestamp": 21.3,
+    "endTimeTs": 33.2
+  },
+  {
+    "speakerName": "Alicia Monroe",
+    "timestamp": 33.7,
+    "endTimeTs": 53.0
+  },
+  {
+    "speakerName": "Gregory Fisk",
+    "timestamp": 54.0,
+    "endTimeTs": 74.7
+  },
+  {
+    "speakerName": "David Kim",
+    "timestamp": 75.8,
+    "endTimeTs": 85.9
+  },
+  {
+    "speakerName": "Gregory Fisk",
+    "timestamp": 86.6,
+    "endTimeTs": 103.6
+  },
+  {
+    "speakerName": "David Kim",
+    "timestamp": 104.2,
+    "endTimeTs": 124.6
+  },
+  {
+    "speakerName": "Alicia Monroe",
+    "timestamp": 125.3,
+    "endTimeTs": 129.8
+  },
+  {
+    "speakerName": "Gregory Fisk",
+    "timestamp": 131.0,
+    "endTimeTs": 140.0
+  },
+  {
+    "speakerName": "David Kim",
+    "timestamp": 140.9,
+    "endTimeTs": 162.4
+  },
+  {
+    "speakerName": "Alicia Monroe",
+    "timestamp": 163.0,
+    "endTimeTs": 174.5
+  },
+  {
+    "speakerName": "Gregory Fisk",
+    "timestamp": 175.7,
+    "endTimeTs": 194.3
+  },
+  {
+    "speakerName": "David Kim",
+    "timestamp": 195.4,
+    "endTimeTs": 221.3
+  },
+  {
+    "speakerName": "Gregory Fisk",
+    "timestamp": 222.5,
+    "endTimeTs": 231.1
+  },
+  {
+    "speakerName": "David Kim",
+    "timestamp": 231.9,
+    "endTimeTs": 249.8
+  },
+  {
+    "speakerName": "Gregory Fisk",
+    "timestamp": 251.0,
+    "endTimeTs": 257.8
+  },
+  {
+    "speakerName": "David Kim",
+    "timestamp": 259.3,
+    "endTimeTs": 267.1
+  },
+  {
+    "speakerName": "Gregory Fisk",
+    "timestamp": 267.6,
+    "endTimeTs": 286.2
+  },
+  {
+    "speakerName": "David Kim",
+    "timestamp": 286.5,
+    "endTimeTs": 303.5
+  },
+  {
+    "speakerName": "Alicia Monroe",
+    "timestamp": 303.8,
+    "endTimeTs": 309.9
+  },
+  {
+    "speakerName": "David Kim",
+    "timestamp": 310.9,
+    "endTimeTs": 339.2
+  },
+  {
+    "speakerName": "Alicia Monroe",
+    "timestamp": 340.2,
+    "endTimeTs": 346.9
+  },
+  {
+    "speakerName": "David Kim",
+    "timestamp": 347.9,
+    "endTimeTs": 364.2
+  },
+  {
+    "speakerName": "Gregory Fisk",
+    "timestamp": 365.3,
+    "endTimeTs": 370.5
+  },
+  {
+    "speakerName": "David Kim",
+    "timestamp": 370.9,
+    "endTimeTs": 388.5
+  },
+  {
+    "speakerName": "Gregory Fisk",
+    "timestamp": 389.0,
+    "endTimeTs": 393.7
+  },
+  {
+    "speakerName": "David Kim",
+    "timestamp": 394.3,
+    "endTimeTs": 416.1
+  },
+  {
+    "speakerName": "Alicia Monroe",
+    "timestamp": 417.6,
+    "endTimeTs": 420.8
+  },
+  {
+    "speakerName": "Gregory Fisk",
+    "timestamp": 421.5,
+    "endTimeTs": 441.6
+  },
+  {
+    "speakerName": "David Kim",
+    "timestamp": 442.8,
+    "endTimeTs": 458.3
+  },
+  {
+    "speakerName": "Alicia Monroe",
+    "timestamp": 459.0,
+    "endTimeTs": 472.7
+  },
+  {
+    "speakerName": "David Kim",
+    "timestamp": 473.4,
+    "endTimeTs": 492.9
+  },
+  {
+    "speakerName": "Alicia Monroe",
+    "timestamp": 494.0,
+    "endTimeTs": 513.3
+  },
+  {
+    "speakerName": "David Kim",
+    "timestamp": 514.3,
+    "endTimeTs": 532.9
+  },
+  {
+    "speakerName": "Gregory Fisk",
+    "timestamp": 533.3,
+    "endTimeTs": 550.0
+  },
+  {
+    "speakerName": "David Kim",
+    "timestamp": 551.5,
+    "endTimeTs": 579.9
+  },
+  {
+    "speakerName": "Gregory Fisk",
+    "timestamp": 581.3,
+    "endTimeTs": 586.7
+  },
+  {
+    "speakerName": "David Kim",
+    "timestamp": 587.8,
+    "endTimeTs": 608.3
+  },
+  {
+    "speakerName": "Alicia Monroe",
+    "timestamp": 609.5,
+    "endTimeTs": 617.3
+  },
+  {
+    "speakerName": "David Kim",
+    "timestamp": 618.2,
+    "endTimeTs": 625.0
+  }
+]

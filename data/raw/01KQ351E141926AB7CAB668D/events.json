@@ -1,0 +1,26 @@
+[
+  {
+    "participantName": "Maria Santos",
+    "timestamp": 1773317728000,
+    "type": "Join",
+    "time": 28.0
+  },
+  {
+    "participantName": "Grace Yoon",
+    "timestamp": 1773317744000,
+    "type": "Join",
+    "time": 44.0
+  },
+  {
+    "participantName": "Maria Santos",
+    "timestamp": 1773320573000,
+    "type": "Leave",
+    "time": 2873.0
+  },
+  {
+    "participantName": "Grace Yoon",
+    "timestamp": 1773320586000,
+    "type": "Leave",
+    "time": 2886.0
+  }
+]

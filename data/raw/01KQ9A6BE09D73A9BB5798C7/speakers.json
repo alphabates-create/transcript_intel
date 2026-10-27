@@ -1,0 +1,182 @@
+[
+  {
+    "speakerName": "David Kim",
+    "timestamp": 3.5,
+    "endTimeTs": 9.7
+  },
+  {
+    "speakerName": "Keith Donovan",
+    "timestamp": 11.0,
+    "endTimeTs": 14.5
+  },
+  {
+    "speakerName": "David Kim",
+    "timestamp": 15.7,
+    "endTimeTs": 25.9
+  },
+  {
+    "speakerName": "Keith Donovan",
+    "timestamp": 26.4,
+    "endTimeTs": 41.9
+  },
+  {
+    "speakerName": "David Kim",
+    "timestamp": 42.7,
+    "endTimeTs": 51.8
+  },
+  {
+    "speakerName": "Keith Donovan",
+    "timestamp": 52.9,
+    "endTimeTs": 79.7
+  },
+  {
+    "speakerName": "David Kim",
+    "timestamp": 81.1,
+    "endTimeTs": 84.6
+  },
+  {
+    "speakerName": "Keith Donovan",
+    "timestamp": 85.1,
+    "endTimeTs": 94.8
+  },
+  {
+    "speakerName": "David Kim",
+    "timestamp": 96.1,
+    "endTimeTs": 108.8
+  },
+  {
+    "speakerName": "Keith Donovan",
+    "timestamp": 109.8,
+    "endTimeTs": 122.2
+  },
+  {
+    "speakerName": "David Kim",
+    "timestamp": 122.9,
+    "endTimeTs": 136.2
+  },
+  {
+    "speakerName": "Keith Donovan",
+    "timestamp": 137.5,
+    "endTimeTs": 143.3
+  },
+  {
+    "speakerName": "David Kim",
+    "timestamp": 144.3,
+    "endTimeTs": 170.7
+  },
+  {
+    "speakerName": "Keith Donovan",
+    "timestamp": 171.2,
+    "endTimeTs": 187.6
+  },
+  {
+    "speakerName": "David Kim",
+    "timestamp": 188.0,
+    "endTimeTs": 210.7
+  },
+  {
+    "speakerName": "Keith Donovan",
+    "timestamp": 212.0,
+    "endTimeTs": 220.7
+  },
+  {
+    "speakerName": "David Kim",
+    "timestamp": 222.0,
+    "endTimeTs": 244.1
+  },
+  {
+    "speakerName": "Keith Donovan",
+    "timestamp": 245.1,
+    "endTimeTs": 260.6
+  },
+  {
+    "speakerName": "David Kim",
+    "timestamp": 262.0,
+    "endTimeTs": 276.6
+  },
+  {
+    "speakerName": "Keith Donovan",
+    "timestamp": 277.1,
+    "endTimeTs": 290.4
+  },
+  {
+    "speakerName": "David Kim",
+    "timestamp": 291.1,
+    "endTimeTs": 315.3
+  },
+  {
+    "speakerName": "Keith Donovan",
+    "timestamp": 316.3,
+    "endTimeTs": 319.9
+  },
+  {
+    "speakerName": "David Kim",
+    "timestamp": 321.0,
+    "endTimeTs": 338.8
+  },
+  {
+    "speakerName": "Keith Donovan",
+    "timestamp": 339.3,
+    "endTimeTs": 352.3
+  },
+  {
+    "speakerName": "David Kim",
+    "timestamp": 353.0,
+    "endTimeTs": 362.8
+  },
+  {
+    "speakerName": "Keith Donovan",
+    "timestamp": 363.8,
+    "endTimeTs": 386.6
+  },
+  {
+    "speakerName": "David Kim",
+    "timestamp": 387.1,
+    "endTimeTs": 391.9
+  },
+  {
+    "speakerName": "Keith Donovan",
+    "timestamp": 392.5,
+    "endTimeTs": 400.6
+  },
+  {
+    "speakerName": "David Kim",
+    "timestamp": 401.5,
+    "endTimeTs": 428.0
+  },
+  {
+    "speakerName": "Keith Donovan",
+    "timestamp": 428.5,
+    "endTimeTs": 430.8
+  },
+  {
+    "speakerName": "David Kim",
+    "timestamp": 432.0,
+    "endTimeTs": 457.0
+  },
+  {
+    "speakerName": "Keith Donovan",
+    "timestamp": 457.4,
+    "endTimeTs": 468.4
+  },
+  {
+    "speakerName": "David Kim",
+    "timestamp": 468.7,
+    "endTimeTs": 480.8
+  },
+  {
+    "speakerName": "Keith Donovan",
+    "timestamp": 481.3,
+    "endTimeTs": 483.4
+  },
+  {
+    "speakerName": "David Kim",
+    "timestamp": 483.7,
+    "endTimeTs": 494.4
+  },
+  {
+    "speakerName": "Keith Donovan",
+    "timestamp": 495.1,
+    "endTimeTs": 496.6
+  }
+]

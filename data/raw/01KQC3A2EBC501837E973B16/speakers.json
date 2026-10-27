@@ -1,0 +1,212 @@
+[
+  {
+    "speakerName": "James Mitchell",
+    "timestamp": 4.6,
+    "endTimeTs": 10.1
+  },
+  {
+    "speakerName": "Victor Zheng",
+    "timestamp": 10.5,
+    "endTimeTs": 15.2
+  },
+  {
+    "speakerName": "Olivia Strand",
+    "timestamp": 16.2,
+    "endTimeTs": 24.6
+  },
+  {
+    "speakerName": "James Mitchell",
+    "timestamp": 25.8,
+    "endTimeTs": 38.8
+  },
+  {
+    "speakerName": "Ananya Sharma",
+    "timestamp": 39.5,
+    "endTimeTs": 52.5
+  },
+  {
+    "speakerName": "Victor Zheng",
+    "timestamp": 53.0,
+    "endTimeTs": 59.2
+  },
+  {
+    "speakerName": "Ananya Sharma",
+    "timestamp": 60.5,
+    "endTimeTs": 75.6
+  },
+  {
+    "speakerName": "Victor Zheng",
+    "timestamp": 77.1,
+    "endTimeTs": 92.5
+  },
+  {
+    "speakerName": "Ananya Sharma",
+    "timestamp": 94.0,
+    "endTimeTs": 103.7
+  },
+  {
+    "speakerName": "Victor Zheng",
+    "timestamp": 104.6,
+    "endTimeTs": 117.6
+  },
+  {
+    "speakerName": "Ananya Sharma",
+    "timestamp": 117.9,
+    "endTimeTs": 132.8
+  },
+  {
+    "speakerName": "Victor Zheng",
+    "timestamp": 133.1,
+    "endTimeTs": 141.9
+  },
+  {
+    "speakerName": "Olivia Strand",
+    "timestamp": 142.4,
+    "endTimeTs": 152.3
+  },
+  {
+    "speakerName": "James Mitchell",
+    "timestamp": 153.1,
+    "endTimeTs": 165.5
+  },
+  {
+    "speakerName": "Victor Zheng",
+    "timestamp": 166.7,
+    "endTimeTs": 178.3
+  },
+  {
+    "speakerName": "Ananya Sharma",
+    "timestamp": 178.8,
+    "endTimeTs": 196.5
+  },
+  {
+    "speakerName": "Victor Zheng",
+    "timestamp": 197.5,
+    "endTimeTs": 206.5
+  },
+  {
+    "speakerName": "Ananya Sharma",
+    "timestamp": 207.3,
+    "endTimeTs": 223.8
+  },
+  {
+    "speakerName": "Victor Zheng",
+    "timestamp": 224.3,
+    "endTimeTs": 227.0
+  },
+  {
+    "speakerName": "Ananya Sharma",
+    "timestamp": 227.4,
+    "endTimeTs": 244.8
+  },
+  {
+    "speakerName": "Victor Zheng",
+    "timestamp": 246.3,
+    "endTimeTs": 256.9
+  },
+  {
+    "speakerName": "Ananya Sharma",
+    "timestamp": 258.2,
+    "endTimeTs": 275.8
+  },
+  {
+    "speakerName": "Olivia Strand",
+    "timestamp": 276.9,
+    "endTimeTs": 283.1
+  },
+  {
+    "speakerName": "Victor Zheng",
+    "timestamp": 283.9,
+    "endTimeTs": 291.6
+  },
+  {
+    "speakerName": "Ananya Sharma",
+    "timestamp": 292.4,
+    "endTimeTs": 307.1
+  },
+  {
+    "speakerName": "Olivia Strand",
+    "timestamp": 307.4,
+    "endTimeTs": 315.1
+  },
+  {
+    "speakerName": "Ananya Sharma",
+    "timestamp": 316.2,
+    "endTimeTs": 331.7
+  },
+  {
+    "speakerName": "Victor Zheng",
+    "timestamp": 332.7,
+    "endTimeTs": 340.5
+  },
+  {
+    "speakerName": "Ananya Sharma",
+    "timestamp": 341.3,
+    "endTimeTs": 362.5
+  },
+  {
+    "speakerName": "Olivia Strand",
+    "timestamp": 364.0,
+    "endTimeTs": 367.4
+  },
+  {
+    "speakerName": "Victor Zheng",
+    "timestamp": 368.3,
+    "endTimeTs": 374.2
+  },
+  {
+    "speakerName": "Ananya Sharma",
+    "timestamp": 374.9,
+    "endTimeTs": 390.0
+  },
+  {
+    "speakerName": "Victor Zheng",
+    "timestamp": 391.1,
+    "endTimeTs": 396.9
+  },
+  {
+    "speakerName": "Ananya Sharma",
+    "timestamp": 398.0,
+    "endTimeTs": 411.9
+  },
+  {
+    "speakerName": "Victor Zheng",
+    "timestamp": 412.8,
+    "endTimeTs": 419.7
+  },
+  {
+    "speakerName": "Olivia Strand",
+    "timestamp": 421.0,
+    "endTimeTs": 434.0
+  },
+  {
+    "speakerName": "Ananya Sharma",
+    "timestamp": 434.9,
+    "endTimeTs": 452.6
+  },
+  {
+    "speakerName": "Olivia Strand",
+    "timestamp": 453.3,
+    "endTimeTs": 459.0
+  },
+  {
+    "speakerName": "Victor Zheng",
+    "timestamp": 459.6,
+    "endTimeTs": 470.4
+  },
+  {
+    "speakerName": "James Mitchell",
+    "timestamp": 471.4,
+    "endTimeTs": 488.2
+  },
+  {
+    "speakerName": "Victor Zheng",
+    "timestamp": 488.8,
+    "endTimeTs": 498.8
+  },
+  {
+    "speakerName": "Ananya Sharma",
+    "timestamp": 499.8,
+    "endTimeTs": 510.5
+  }
+]

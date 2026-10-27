@@ -1,0 +1,38 @@
+[
+  {
+    "participantName": "Elena Vasquez",
+    "timestamp": 1773397809000,
+    "type": "Join",
+    "time": 9.0
+  },
+  {
+    "participantName": "Mark Ellison",
+    "timestamp": 1773397827000,
+    "type": "Join",
+    "time": 27.0
+  },
+  {
+    "participantName": "Sarah Chen",
+    "timestamp": 1773397845000,
+    "type": "Join",
+    "time": 45.0
+  },
+  {
+    "participantName": "Elena Vasquez",
+    "timestamp": 1773398831000,
+    "type": "Leave",
+    "time": 1031.0
+  },
+  {
+    "participantName": "Sarah Chen",
+    "timestamp": 1773398844000,
+    "type": "Leave",
+    "time": 1044.0
+  },
+  {
+    "participantName": "Mark Ellison",
+    "timestamp": 1773398854000,
+    "type": "Leave",
+    "time": 1054.0
+  }
+]

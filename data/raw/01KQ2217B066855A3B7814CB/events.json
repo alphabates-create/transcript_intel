@@ -1,0 +1,50 @@
+[
+  {
+    "participantName": "Suki Nakamura",
+    "timestamp": 1773488702000,
+    "type": "Join",
+    "time": 2.0
+  },
+  {
+    "participantName": "Ravi Gupta",
+    "timestamp": 1773488705000,
+    "type": "Join",
+    "time": 5.0
+  },
+  {
+    "participantName": "Lisa Park",
+    "timestamp": 1773488719000,
+    "type": "Join",
+    "time": 19.0
+  },
+  {
+    "participantName": "Rachel Torres",
+    "timestamp": 1773488756000,
+    "type": "Join",
+    "time": 56.0
+  },
+  {
+    "participantName": "Rachel Torres",
+    "timestamp": 1773491287000,
+    "type": "Leave",
+    "time": 2587.0
+  },
+  {
+    "participantName": "Lisa Park",
+    "timestamp": 1773491294000,
+    "type": "Leave",
+    "time": 2594.0
+  },
+  {
+    "participantName": "Ravi Gupta",
+    "timestamp": 1773491292000,
+    "type": "Leave",
+    "time": 2592.0
+  },
+  {
+    "participantName": "Suki Nakamura",
+    "timestamp": 1773491281000,
+    "type": "Leave",
+    "time": 2581.0
+  }
+]

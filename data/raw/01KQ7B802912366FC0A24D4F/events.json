@@ -1,0 +1,62 @@
+[
+  {
+    "participantName": "Ravi Gupta",
+    "timestamp": 1777203901000,
+    "type": "Join",
+    "time": 1.0
+  },
+  {
+    "participantName": "Hannah Liu",
+    "timestamp": 1777203932000,
+    "type": "Join",
+    "time": 32.0
+  },
+  {
+    "participantName": "Nina Kowalski",
+    "timestamp": 1777203946000,
+    "type": "Join",
+    "time": 46.0
+  },
+  {
+    "participantName": "Ananya Sharma",
+    "timestamp": 1777203955000,
+    "type": "Join",
+    "time": 55.0
+  },
+  {
+    "participantName": "Alex Reyes",
+    "timestamp": 1777203960000,
+    "type": "Join",
+    "time": 60.0
+  },
+  {
+    "participantName": "Ravi Gupta",
+    "timestamp": 1777206803000,
+    "type": "Leave",
+    "time": 2903.0
+  },
+  {
+    "participantName": "Hannah Liu",
+    "timestamp": 1777206804000,
+    "type": "Leave",
+    "time": 2904.0
+  },
+  {
+    "participantName": "Ananya Sharma",
+    "timestamp": 1777206808000,
+    "type": "Leave",
+    "time": 2908.0
+  },
+  {
+    "participantName": "Alex Reyes",
+    "timestamp": 1777206803000,
+    "type": "Leave",
+    "time": 2903.0
+  },
+  {
+    "participantName": "Nina Kowalski",
+    "timestamp": 1777206819000,
+    "type": "Leave",
+    "time": 2919.0
+  }
+]

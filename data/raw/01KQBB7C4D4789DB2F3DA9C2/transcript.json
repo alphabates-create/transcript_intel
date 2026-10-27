@@ -1,0 +1,454 @@
+{
+  "data": [
+    {
+      "sentence": "Hi, good afternoon, this is Sarah Chen from Aegis Cloud Security support, I have Dr. Cheng and Mr. Burke on the line from Vanta Health Systems, and my colleague Priya Patel is joining as well \u2014 Priya, you there?",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 7.7,
+      "endTime": 21.5,
+      "averageConfidence": 0.89,
+      "index": 0
+    },
+    {
+      "sentence": "Yeah, I'm here, hi everyone.",
+      "speaker_name": "Priya Patel",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 22.0,
+      "endTime": 23.6,
+      "averageConfidence": 0.89,
+      "index": 1
+    },
+    {
+      "sentence": "Hello, yes, Dr. Linda Cheng here, and Raymond is with me as well.",
+      "speaker_name": "Dr. Linda Cheng",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 24.9,
+      "endTime": 29.7,
+      "averageConfidence": 0.96,
+      "index": 2
+    },
+    {
+      "sentence": "Raymond Burke, yeah, hi, thanks for getting us on quickly.",
+      "speaker_name": "Raymond Burke",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 31.0,
+      "endTime": 34.3,
+      "averageConfidence": 0.95,
+      "index": 3
+    },
+    {
+      "sentence": "Of course, so I've had a chance to look at your case notes, Support Case 1750, and I understand you're seeing issues with your SIEM connector in Aegis Detect \u2014 can you walk us through what you're experiencing from your end?",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 35.0,
+      "endTime": 49.1,
+      "averageConfidence": 0.89,
+      "index": 4
+    },
+    {
+      "sentence": "Sure, Raymond, do you want to take this one since you've been dealing with it directly?",
+      "speaker_name": "Dr. Linda Cheng",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 49.9,
+      "endTime": 55.8,
+      "averageConfidence": 0.95,
+      "index": 5
+    },
+    {
+      "sentence": "Yeah, absolutely \u2014 so, um, we integrated Aegis Detect with our LogVault SIEM environment about six weeks ago, and for the first couple of weeks it was working fine, events were flowing through, we were getting alerts, everything looked good \u2014 but starting around, I want to say February 8th or 9th, we started noticing significant gaps in event data reaching LogVault.",
+      "speaker_name": "Raymond Burke",
+      "sentimentType": "negative",
+      "speaker_id": 3,
+      "time": 57.1,
+      "endTime": 78.6,
+      "averageConfidence": 0.92,
+      "index": 6
+    },
+    {
+      "sentence": "And when you say gaps, are we talking about partial data loss or like, complete windows of missing events?",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 79.4,
+      "endTime": 86.3,
+      "averageConfidence": 0.92,
+      "index": 7
+    },
+    {
+      "sentence": "Both, honestly \u2014 there are periods where we're getting maybe 20 or 30 percent of the expected event volume, and then there are windows, sometimes 45 minutes to an hour, where we get absolutely nothing into LogVault.",
+      "speaker_name": "Raymond Burke",
+      "sentimentType": "negative",
+      "speaker_id": 3,
+      "time": 86.9,
+      "endTime": 99.8,
+      "averageConfidence": 0.92,
+      "index": 8
+    },
+    {
+      "sentence": "I want to underscore something here \u2014 we are a healthcare organization, we're dealing with PHI, we have HIPAA obligations, and having blind spots in our threat monitoring is not, it's not acceptable from a compliance and security posture standpoint, this is genuinely concerning to us.",
+      "speaker_name": "Dr. Linda Cheng",
+      "sentimentType": "negative",
+      "speaker_id": 2,
+      "time": 101.0,
+      "endTime": 117.2,
+      "averageConfidence": 0.95,
+      "index": 9
+    },
+    {
+      "sentence": "Dr. Cheng, I completely understand, and I want to be transparent with you \u2014 that concern is absolutely valid and we're taking this seriously, which is why Priya joined me on this call.",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 117.9,
+      "endTime": 129.5,
+      "averageConfidence": 0.91,
+      "index": 10
+    },
+    {
+      "sentence": "Yeah, and I want to add \u2014 we've escalated this internally on our side as well, so you have our full attention on this, I promise.",
+      "speaker_name": "Priya Patel",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 130.8,
+      "endTime": 140.4,
+      "averageConfidence": 0.92,
+      "index": 11
+    },
+    {
+      "sentence": "I appreciate that, but I have to be honest with you, we've been sitting on this issue for almost ten days now, we submitted the case on the 9th, we've had two email exchanges, and this is the first time we're actually talking to someone \u2014 that response time is not what we were sold on when we signed up for the enterprise tier.",
+      "speaker_name": "Dr. Linda Cheng",
+      "sentimentType": "negative",
+      "speaker_id": 2,
+      "time": 141.8,
+      "endTime": 164.2,
+      "averageConfidence": 0.93,
+      "index": 12
+    },
+    {
+      "sentence": "That's \u2014 yeah, that's a fair point and I'm not going to make excuses for that, the delay in getting to a live call was not acceptable and I'm sorry for that, let's use this time to actually dig in and get you some answers.",
+      "speaker_name": "Priya Patel",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 164.9,
+      "endTime": 181.2,
+      "averageConfidence": 0.95,
+      "index": 13
+    },
+    {
+      "sentence": "Thank you \u2014 okay, so Raymond, can you tell me which version of the Aegis Detect SIEM connector you're running, and what your connector configuration looks like in terms of the forwarding mode?",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 182.4,
+      "endTime": 193.8,
+      "averageConfidence": 0.94,
+      "index": 14
+    },
+    {
+      "sentence": "Yeah, give me one second, I have the config pulled up \u2014 okay, so we're on connector version 3.4.1, and we're using the push-based forwarding mode, not pull, and the endpoint is pointing to our LogVault HEC endpoint on port 8088.",
+      "speaker_name": "Raymond Burke",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 194.4,
+      "endTime": 209.1,
+      "averageConfidence": 0.89,
+      "index": 15
+    },
+    {
+      "sentence": "Okay, and are you using TLS on that HEC connection?",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 210.1,
+      "endTime": 214.0,
+      "averageConfidence": 0.91,
+      "index": 16
+    },
+    {
+      "sentence": "Yes, TLS 1.2, with a self-signed cert \u2014 and look, I already know what you're going to say about the self-signed cert, but we verified the cert pinning configuration in the connector, that's not the issue.",
+      "speaker_name": "Raymond Burke",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 215.3,
+      "endTime": 228.2,
+      "averageConfidence": 0.96,
+      "index": 17
+    },
+    {
+      "sentence": "Okay, fair enough, I wasn't going to go straight there actually \u2014 um, what I'm more interested in is, are you seeing any errors or backpressure indicators in the connector logs on the Aegis side, like, do you have access to the connector diagnostic logs and if so what are they showing around those gap windows?",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 228.8,
+      "endTime": 248.3,
+      "averageConfidence": 0.97,
+      "index": 18
+    },
+    {
+      "sentence": "We do have the logs, yeah, and I actually exported them before this call \u2014 what we're seeing is a lot of, um, connection timeout errors to the HEC endpoint, and then the connector seems to just... drop the buffer instead of retrying, which is \u2014 that seems like a bug to me, honestly.",
+      "speaker_name": "Raymond Burke",
+      "sentimentType": "negative",
+      "speaker_id": 3,
+      "time": 249.1,
+      "endTime": 267.9,
+      "averageConfidence": 0.91,
+      "index": 19
+    },
+    {
+      "sentence": "Connection timeouts dropping the buffer instead of queuing for retry \u2014 okay, Sarah, I think I know what this might be.",
+      "speaker_name": "Priya Patel",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 268.7,
+      "endTime": 275.8,
+      "averageConfidence": 0.93,
+      "index": 20
+    },
+    {
+      "sentence": "Yeah, I think I'm landing in the same place \u2014 Raymond, can you confirm, is your LogVault HEC endpoint behind a load balancer, and do you have any rate limiting or connection throttling configured on that endpoint?",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 276.1,
+      "endTime": 289.0,
+      "averageConfidence": 0.91,
+      "index": 21
+    },
+    {
+      "sentence": "Yes to the load balancer \u2014 we have an F5 in front of it, and I think, yeah, there is a connection rate limit set, I'd have to check the exact number but I believe it's something like 50 concurrent connections.",
+      "speaker_name": "Raymond Burke",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 290.5,
+      "endTime": 304.5,
+      "averageConfidence": 0.96,
+      "index": 22
+    },
+    {
+      "sentence": "Okay so here's what I think is happening \u2014 in connector version 3.4.1, there's a known issue where if the HEC endpoint returns a connection timeout, specifically due to upstream throttling from something like an F5, the connector's retry logic doesn't kick in correctly, it treats the timeout as a terminal error rather than a transient one, and it flushes the buffer.",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 306.0,
+      "endTime": 327.9,
+      "averageConfidence": 0.89,
+      "index": 23
+    },
+    {
+      "sentence": "So we're losing events \u2014 not just delayed, actually losing them.",
+      "speaker_name": "Raymond Burke",
+      "sentimentType": "negative",
+      "speaker_id": 3,
+      "time": 329.1,
+      "endTime": 332.9,
+      "averageConfidence": 0.94,
+      "index": 24
+    },
+    {
+      "sentence": "In those specific timeout scenarios, yes, the events in that buffer window would be dropped \u2014 I want to be straightforward with you about that.",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "negative",
+      "speaker_id": 0,
+      "time": 334.2,
+      "endTime": 342.8,
+      "averageConfidence": 0.92,
+      "index": 25
+    },
+    {
+      "sentence": "That is \u2014 okay, that's a significant problem, and I have to say, if this is a known issue in 3.4.1, why were we not notified proactively, why did we have to discover this ourselves after ten days of degraded monitoring?",
+      "speaker_name": "Dr. Linda Cheng",
+      "sentimentType": "negative",
+      "speaker_id": 2,
+      "time": 343.9,
+      "endTime": 358.0,
+      "averageConfidence": 0.9,
+      "index": 26
+    },
+    {
+      "sentence": "That's a completely legitimate question and honestly I don't have a good answer for why you weren't notified, and I'm going to flag that internally as a process failure on our part \u2014 customers on affected versions should have been alerted.",
+      "speaker_name": "Priya Patel",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 358.4,
+      "endTime": 373.1,
+      "averageConfidence": 0.95,
+      "index": 27
+    },
+    {
+      "sentence": "I mean, look, I'm not trying to be difficult here, we chose Aegis Detect specifically because of the reliability promises around healthcare environments, and right now I'm sitting here wondering if we made the right call.",
+      "speaker_name": "Dr. Linda Cheng",
+      "sentimentType": "negative",
+      "speaker_id": 2,
+      "time": 374.0,
+      "endTime": 386.8,
+      "averageConfidence": 0.91,
+      "index": 28
+    },
+    {
+      "sentence": "I hear you, and I understand why you're feeling that way \u2014 what I can tell you is that connector version 3.5.0 has a fix for exactly this retry behavior, it was released on February 3rd, and upgrading to that version should resolve the buffer drop issue.",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 387.2,
+      "endTime": 403.6,
+      "averageConfidence": 0.92,
+      "index": 29
+    },
+    {
+      "sentence": "And the upgrade process \u2014 how disruptive is that, because we can't just, you know, take down our SIEM connector in the middle of the day, we need to plan for that.",
+      "speaker_name": "Raymond Burke",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 403.9,
+      "endTime": 415.5,
+      "averageConfidence": 0.89,
+      "index": 30
+    },
+    {
+      "sentence": "The connector upgrade itself is typically a rolling restart, it usually takes about 3 to 5 minutes and the interruption to event flow is minimal \u2014 we're talking a very brief gap, not anything close to what you're experiencing now \u2014 but I'd strongly recommend doing it during a lower-traffic window just to be safe.",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 416.3,
+      "endTime": 436.0,
+      "averageConfidence": 0.88,
+      "index": 31
+    },
+    {
+      "sentence": "Okay, and is there anything we can do right now, like today, to reduce the event loss while we plan the upgrade, because we're still in a degraded state.",
+      "speaker_name": "Raymond Burke",
+      "sentimentType": "negative",
+      "speaker_id": 3,
+      "time": 437.0,
+      "endTime": 447.3,
+      "averageConfidence": 0.89,
+      "index": 32
+    },
+    {
+      "sentence": "Yes \u2014 there are two things you can do immediately: first, if you can increase the connection rate limit on your F5 to something like 100 or 150 concurrent connections, that'll reduce the frequency of the timeouts triggering the bug, and second, you can actually adjust a parameter in the connector config called retry_on_timeout and set it to true, that's not the full fix but it'll enable some retry behavior even on the older version.",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 447.9,
+      "endTime": 474.2,
+      "averageConfidence": 0.9,
+      "index": 33
+    },
+    {
+      "sentence": "Wait, there's a retry_on_timeout parameter that we can set manually \u2014 is that documented anywhere, because I did not see that in the connector documentation.",
+      "speaker_name": "Raymond Burke",
+      "sentimentType": "negative",
+      "speaker_id": 3,
+      "time": 475.2,
+      "endTime": 484.0,
+      "averageConfidence": 0.89,
+      "index": 34
+    },
+    {
+      "sentence": "Uh... honestly, it's a configuration parameter that was added in a patch but the docs weren't updated at the same time \u2014 which is, yeah, I know, that's not great, and I'll flag that for our documentation team as well.",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "negative",
+      "speaker_id": 0,
+      "time": 485.1,
+      "endTime": 499.6,
+      "averageConfidence": 0.93,
+      "index": 35
+    },
+    {
+      "sentence": "Undocumented parameters, delayed support response, proactive notification failures \u2014 I'm keeping a list here, and I do want to have a broader conversation with our account team about the support experience, but let's finish resolving the immediate issue first.",
+      "speaker_name": "Dr. Linda Cheng",
+      "sentimentType": "negative",
+      "speaker_id": 2,
+      "time": 499.9,
+      "endTime": 513.7,
+      "averageConfidence": 0.93,
+      "index": 36
+    },
+    {
+      "sentence": "Understood, and I think that conversation is absolutely warranted \u2014 I'll personally make sure your account executive knows to reach out to you this week.",
+      "speaker_name": "Priya Patel",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 515.2,
+      "endTime": 524.0,
+      "averageConfidence": 0.94,
+      "index": 37
+    },
+    {
+      "sentence": "Okay \u2014 Raymond, I'm going to send you an email right after this call with the exact config syntax for the retry_on_timeout parameter, the steps for upgrading to 3.5.0, and the recommended F5 connection limit settings \u2014 does that work?",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 524.8,
+      "endTime": 539.3,
+      "averageConfidence": 0.88,
+      "index": 38
+    },
+    {
+      "sentence": "Yes, that works, and can you also include whatever documentation exists on that parameter, even if it's just internal notes, because I want to understand the full behavior before I push any config changes to production.",
+      "speaker_name": "Raymond Burke",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 539.9,
+      "endTime": 552.8,
+      "averageConfidence": 0.95,
+      "index": 39
+    },
+    {
+      "sentence": "Absolutely, I'll include everything I have \u2014 and I'd also recommend we schedule a follow-up call for after you've done the upgrade to 3.5.0, just to verify the event flow is healthy and you're not seeing any more gaps.",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 553.6,
+      "endTime": 567.4,
+      "averageConfidence": 0.95,
+      "index": 40
+    },
+    {
+      "sentence": "Yeah, let's do that \u2014 and Sarah, Priya, I want to say I appreciate that you actually dug in and found something today, that's more progress than we've made in ten days of emails, I just \u2014 the overall experience getting here has been frustrating.",
+      "speaker_name": "Dr. Linda Cheng",
+      "sentimentType": "negative",
+      "speaker_id": 2,
+      "time": 568.6,
+      "endTime": 584.3,
+      "averageConfidence": 0.93,
+      "index": 41
+    },
+    {
+      "sentence": "I completely understand, and your frustration is warranted \u2014 we'll do better, and we're going to make sure this gets fully resolved for you.",
+      "speaker_name": "Priya Patel",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 584.7,
+      "endTime": 593.4,
+      "averageConfidence": 0.95,
+      "index": 42
+    },
+    {
+      "sentence": "Alright \u2014 thank you both, we'll apply the interim config change today and plan the upgrade for this weekend, and we'll expect that follow-up email shortly.",
+      "speaker_name": "Raymond Burke",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 594.0,
+      "endTime": 603.1,
+      "averageConfidence": 0.94,
+      "index": 43
+    },
+    {
+      "sentence": "You'll have it within the hour \u2014 thank you Dr. Cheng, Raymond, we'll talk soon.",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 604.3,
+      "endTime": 609.9,
+      "averageConfidence": 0.95,
+      "index": 44
+    }
+  ]
+}

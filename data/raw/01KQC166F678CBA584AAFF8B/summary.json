@@ -1,0 +1,52 @@
+{
+  "summary": "Derek Owens from a wealth management firm contacted Aegis Cloud Security support regarding persistent policy sync delays and provisioning issues in Aegis Identity, some taking 4-5 hours to propagate. Support engineer Sarah Chen investigated the tenant logs and identified a sync worker queue backup issue on a shared cluster tier, potentially related to remediation work done after a mid-March Detect incident. Sarah offered two immediate actions: escalating the case to P1 for engineering review and migrating Derek's tenant to a dedicated sync worker to alleviate the delays. Derek expressed frustration over the 5-day response gap and raised concerns about renewal given the support experience.",
+  "actionItems": [
+    "Sarah Chen: Submit provisioning request to move CWG-04471 from shared to dedicated sync worker tier and send email confirmation within the hour",
+    "Sarah Chen: Escalate case to P1 and engage backend engineering team for root cause investigation with 48-hour SLA",
+    "Sarah Chen: Follow up personally with Derek on Wednesday with engineering root cause determination and remediation plan",
+    "Sarah Chen: Flag Derek's negative support experience to his account team ahead of renewal conversations"
+  ],
+  "topics": [
+    "provisioning sync delay",
+    "identity policy propagation",
+    "shared cluster performance",
+    "support response time",
+    "renewal risk",
+    "compliance requirements"
+  ],
+  "overallSentiment": "mixed-negative",
+  "sentimentScore": 2.4,
+  "keyMoments": [
+    {
+      "time": 95,
+      "text": "Derek describes a provisioning failure that left a new analyst without core system access until the next morning, emphasizing the compliance risk in a financial services environment.",
+      "type": "concern",
+      "speaker": "Derek Owens"
+    },
+    {
+      "time": 310,
+      "text": "Derek warns that delayed access could result in audit findings, stressing zero-tolerance compliance obligations as a wealth management firm.",
+      "type": "concern",
+      "speaker": "Derek Owens"
+    },
+    {
+      "time": 370,
+      "text": "Derek expresses frustration over a five-day gap with no human response on a Priority 2 case, describing it as going into a black hole.",
+      "type": "churn_signal",
+      "speaker": "Derek Owens"
+    },
+    {
+      "time": 620,
+      "text": "Sarah offers to escalate to P1 immediately and migrate the tenant to a dedicated sync worker to restore normal sync times as a short-term fix.",
+      "type": "positive_pivot",
+      "speaker": "Sarah Chen"
+    },
+    {
+      "time": 890,
+      "text": "Derek states he likes the platform overall but that slow support response makes him nervous about upcoming renewal conversations.",
+      "type": "churn_signal",
+      "speaker": "Derek Owens"
+    }
+  ],
+  "meetingId": "01KQC166F678CBA584AAFF8B"
+}

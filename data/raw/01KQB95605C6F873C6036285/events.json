@@ -1,0 +1,38 @@
+[
+  {
+    "participantName": "Maria Santos",
+    "timestamp": 1775733315000,
+    "type": "Join",
+    "time": 15.0
+  },
+  {
+    "participantName": "Gerald Hutchins",
+    "timestamp": 1775733342000,
+    "type": "Join",
+    "time": 42.0
+  },
+  {
+    "participantName": "Ananya Sharma",
+    "timestamp": 1775733347000,
+    "type": "Join",
+    "time": 47.0
+  },
+  {
+    "participantName": "Maria Santos",
+    "timestamp": 1775734734000,
+    "type": "Leave",
+    "time": 1434.0
+  },
+  {
+    "participantName": "Ananya Sharma",
+    "timestamp": 1775734735000,
+    "type": "Leave",
+    "time": 1435.0
+  },
+  {
+    "participantName": "Gerald Hutchins",
+    "timestamp": 1775734738000,
+    "type": "Leave",
+    "time": 1438.0
+  }
+]

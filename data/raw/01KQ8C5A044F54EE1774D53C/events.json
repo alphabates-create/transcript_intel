@@ -1,0 +1,38 @@
+[
+  {
+    "participantName": "Kevin O'Brien",
+    "timestamp": 1773747914000,
+    "type": "Join",
+    "time": 14.0
+  },
+  {
+    "participantName": "Maria Santos",
+    "timestamp": 1773747924000,
+    "type": "Join",
+    "time": 24.0
+  },
+  {
+    "participantName": "Charles Ng",
+    "timestamp": 1773747957000,
+    "type": "Join",
+    "time": 57.0
+  },
+  {
+    "participantName": "Maria Santos",
+    "timestamp": 1773750036000,
+    "type": "Leave",
+    "time": 2136.0
+  },
+  {
+    "participantName": "Kevin O'Brien",
+    "timestamp": 1773750038000,
+    "type": "Leave",
+    "time": 2138.0
+  },
+  {
+    "participantName": "Charles Ng",
+    "timestamp": 1773750031000,
+    "type": "Leave",
+    "time": 2131.0
+  }
+]

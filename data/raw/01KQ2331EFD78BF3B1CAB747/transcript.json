@@ -1,0 +1,554 @@
+{
+  "data": [
+    {
+      "sentence": "Okay, I think everyone's on now \u2014 Diana, can you hear us okay?",
+      "speaker_name": "Lisa Park",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 5.2,
+      "endTime": 9.7,
+      "averageConfidence": 0.94,
+      "index": 0
+    },
+    {
+      "sentence": "Yeah, I'm here. Sorry, I was just \u2014 I had another call running over. Let's get into it.",
+      "speaker_name": "Diana Reeves",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 10.7,
+      "endTime": 17.1,
+      "averageConfidence": 0.94,
+      "index": 1
+    },
+    {
+      "sentence": "No worries. So, um, I wanted to get us all together because the inbound volume from customers this morning has been... it's been a lot.",
+      "speaker_name": "Lisa Park",
+      "sentimentType": "negative",
+      "speaker_id": 0,
+      "time": 18.4,
+      "endTime": 26.9,
+      "averageConfidence": 0.96,
+      "index": 2
+    },
+    {
+      "sentence": "Yeah, same on the support side. We've had \u2014 Priya, you want to give the numbers?",
+      "speaker_name": "Aisha Johnson",
+      "sentimentType": "negative",
+      "speaker_id": 2,
+      "time": 28.2,
+      "endTime": 34.0,
+      "averageConfidence": 0.97,
+      "index": 3
+    },
+    {
+      "sentence": "Sure. So as of about thirty minutes ago we had logged forty-seven inbound tickets directly related to the Detect outage. That's just tickets \u2014 that doesn't count the calls, the Slack pings through shared channels, emails going directly to AMs.",
+      "speaker_name": "Priya Patel",
+      "sentimentType": "negative",
+      "speaker_id": 3,
+      "time": 35.2,
+      "endTime": 49.2,
+      "averageConfidence": 0.95,
+      "index": 4
+    },
+    {
+      "sentence": "Forty-seven. Okay. And what's the breakdown in terms of severity? Like, are these mostly tier-one enterprise accounts or\u2014",
+      "speaker_name": "Diana Reeves",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 50.4,
+      "endTime": 56.6,
+      "averageConfidence": 0.9,
+      "index": 5
+    },
+    {
+      "sentence": "It's across the board honestly. We've got mid-market, we've got enterprise, we've got a couple of SMB accounts who honestly probably shouldn't even be running Detect as a primary monitoring layer but that's a whole other conversation.",
+      "speaker_name": "Priya Patel",
+      "sentimentType": "negative",
+      "speaker_id": 3,
+      "time": 57.3,
+      "endTime": 70.2,
+      "averageConfidence": 0.97,
+      "index": 6
+    },
+    {
+      "sentence": "Right, right. What about our top ten accounts? I need to know specifically about those.",
+      "speaker_name": "Diana Reeves",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 70.8,
+      "endTime": 75.9,
+      "averageConfidence": 0.96,
+      "index": 7
+    },
+    {
+      "sentence": "So I can speak to a few of those. I've already had calls this morning with Meridian Financial and Talcott Health. Meridian is... they're not happy. Their security team was essentially flying blind for six hours overnight and they're asking really hard questions about whether we have redundancy built into the pipeline.",
+      "speaker_name": "Lisa Park",
+      "sentimentType": "negative",
+      "speaker_id": 0,
+      "time": 77.0,
+      "endTime": 95.0,
+      "averageConfidence": 0.92,
+      "index": 8
+    },
+    {
+      "sentence": "And what did you tell them?",
+      "speaker_name": "Diana Reeves",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 96.0,
+      "endTime": 98.5,
+      "averageConfidence": 0.95,
+      "index": 9
+    },
+    {
+      "sentence": "I told them I was getting answers and that I'd follow up by end of day. I didn't want to \u2014 I mean, I don't have the technical details yet, I didn't want to say something wrong.",
+      "speaker_name": "Lisa Park",
+      "sentimentType": "negative",
+      "speaker_id": 0,
+      "time": 99.7,
+      "endTime": 112.4,
+      "averageConfidence": 0.91,
+      "index": 10
+    },
+    {
+      "sentence": "That was the right call, Lisa. Okay, so \u2014 does engineering have a root cause yet? Because I am not going to be able to go to these customers without something concrete.",
+      "speaker_name": "Diana Reeves",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 113.9,
+      "endTime": 125.3,
+      "averageConfidence": 0.97,
+      "index": 11
+    },
+    {
+      "sentence": "We got a preliminary RCA this morning. The short version is there was a single point of failure in the event ingestion pipeline \u2014 basically one component went down and it cascaded. No circuit breaker, no fallback. It just... everything fell over.",
+      "speaker_name": "Priya Patel",
+      "sentimentType": "negative",
+      "speaker_id": 3,
+      "time": 126.8,
+      "endTime": 141.9,
+      "averageConfidence": 0.93,
+      "index": 12
+    },
+    {
+      "sentence": "Okay so \u2014 and I say this with all due respect to the engineering team \u2014 how does that happen? How do we ship something into production for a security monitoring product with a single point of failure in the ingestion layer? That's... that's not okay.",
+      "speaker_name": "Diana Reeves",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 142.6,
+      "endTime": 158.6,
+      "averageConfidence": 0.89,
+      "index": 13
+    },
+    {
+      "sentence": "I mean, I don't disagree, and I don't want to throw anyone under the bus on this call, but yeah, that's a question that needs to get answered. Apparently the redundancy was on the roadmap but hadn't been prioritized.",
+      "speaker_name": "Priya Patel",
+      "sentimentType": "negative",
+      "speaker_id": 3,
+      "time": 159.3,
+      "endTime": 172.7,
+      "averageConfidence": 0.93,
+      "index": 14
+    },
+    {
+      "sentence": "It was on the roadmap. That's what we're going to tell customers? It was on the roadmap?",
+      "speaker_name": "Aisha Johnson",
+      "sentimentType": "negative",
+      "speaker_id": 2,
+      "time": 173.1,
+      "endTime": 178.8,
+      "averageConfidence": 0.93,
+      "index": 15
+    },
+    {
+      "sentence": "No, obviously not. I'm just \u2014 I'm giving you the internal context. We need to separate what we're saying internally from what we're communicating externally.",
+      "speaker_name": "Priya Patel",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 179.3,
+      "endTime": 188.5,
+      "averageConfidence": 0.92,
+      "index": 16
+    },
+    {
+      "sentence": "Agreed. Let's focus on what the customer-facing message is. Aisha, you handle Fortex and Brightline \u2014 have you talked to them yet?",
+      "speaker_name": "Diana Reeves",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 189.5,
+      "endTime": 197.4,
+      "averageConfidence": 0.89,
+      "index": 17
+    },
+    {
+      "sentence": "Fortex I spoke to about an hour ago. Their CISO was on the call and she was \u2014 I mean, she was professional but she made it very clear that they're evaluating their options. She mentioned SentinelShield by name.",
+      "speaker_name": "Aisha Johnson",
+      "sentimentType": "negative",
+      "speaker_id": 2,
+      "time": 197.9,
+      "endTime": 211.8,
+      "averageConfidence": 0.92,
+      "index": 18
+    },
+    {
+      "sentence": "Of course she did.",
+      "speaker_name": "Lisa Park",
+      "sentimentType": "negative",
+      "speaker_id": 0,
+      "time": 213.1,
+      "endTime": 214.9,
+      "averageConfidence": 0.89,
+      "index": 19
+    },
+    {
+      "sentence": "Yeah. And honestly I didn't have a great answer for her because she asked specifically \u2014 she said, 'Was there any alerting to your team during those six hours?' And the answer is no, there wasn't. We didn't catch it ourselves, a customer flagged it.",
+      "speaker_name": "Aisha Johnson",
+      "sentimentType": "negative",
+      "speaker_id": 2,
+      "time": 216.4,
+      "endTime": 232.1,
+      "averageConfidence": 0.93,
+      "index": 20
+    },
+    {
+      "sentence": "Wait \u2014 a customer flagged the outage to us? Is that confirmed?",
+      "speaker_name": "Diana Reeves",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 232.6,
+      "endTime": 236.9,
+      "averageConfidence": 0.95,
+      "index": 21
+    },
+    {
+      "sentence": "That's my understanding, yes. One of our customers noticed their dashboard wasn't updating and opened a ticket around, I think it was 2 AM? And that's what triggered the internal escalation.",
+      "speaker_name": "Priya Patel",
+      "sentimentType": "negative",
+      "speaker_id": 3,
+      "time": 238.1,
+      "endTime": 249.4,
+      "averageConfidence": 0.92,
+      "index": 22
+    },
+    {
+      "sentence": "This is \u2014 okay. This is a significant problem beyond just the outage itself. We have a monitoring product and we didn't monitor ourselves. I need to understand how our internal alerting failed before I can get on a call with any of these customers.",
+      "speaker_name": "Diana Reeves",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 250.8,
+      "endTime": 266.5,
+      "averageConfidence": 0.92,
+      "index": 23
+    },
+    {
+      "sentence": "I've already raised that with the engineering lead. They're including it in the RCA. It sounds like the health checks were tied to the same pipeline that failed, so when the pipeline went down, the health checks stopped firing too.",
+      "speaker_name": "Priya Patel",
+      "sentimentType": "negative",
+      "speaker_id": 3,
+      "time": 267.5,
+      "endTime": 281.2,
+      "averageConfidence": 0.89,
+      "index": 24
+    },
+    {
+      "sentence": "Okay so the thing that was supposed to tell us something was wrong... was the thing that broke. That's \u2014 yeah. Okay.",
+      "speaker_name": "Diana Reeves",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 281.9,
+      "endTime": 290.0,
+      "averageConfidence": 0.95,
+      "index": 25
+    },
+    {
+      "sentence": "It's bad. I'm not going to sugarcoat it. It's a bad look.",
+      "speaker_name": "Lisa Park",
+      "sentimentType": "negative",
+      "speaker_id": 0,
+      "time": 291.0,
+      "endTime": 295.3,
+      "averageConfidence": 0.9,
+      "index": 26
+    },
+    {
+      "sentence": "What's the fix timeline? Like when can we tell customers this won't happen again?",
+      "speaker_name": "Aisha Johnson",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 296.4,
+      "endTime": 301.7,
+      "averageConfidence": 0.96,
+      "index": 27
+    },
+    {
+      "sentence": "Engineering is talking about redundant processing nodes and implementing a circuit breaker pattern. The estimate right now is \u2014 and this is preliminary \u2014 somewhere around two to three weeks for the full fix to be in prod.",
+      "speaker_name": "Priya Patel",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 303.1,
+      "endTime": 316.7,
+      "averageConfidence": 0.9,
+      "index": 28
+    },
+    {
+      "sentence": "Two to three weeks. Okay. Are customers going to accept that?",
+      "speaker_name": "Aisha Johnson",
+      "sentimentType": "negative",
+      "speaker_id": 2,
+      "time": 317.7,
+      "endTime": 321.3,
+      "averageConfidence": 0.89,
+      "index": 29
+    },
+    {
+      "sentence": "Some will, some won't. Meridian is already asking about SLAs. Their contract has a 99.9% uptime SLA and six hours down is \u2014 that's not compliant. We're probably looking at credits.",
+      "speaker_name": "Lisa Park",
+      "sentimentType": "negative",
+      "speaker_id": 0,
+      "time": 322.0,
+      "endTime": 333.0,
+      "averageConfidence": 0.88,
+      "index": 30
+    },
+    {
+      "sentence": "Yeah, I figured. Have you looped in legal and finance on the SLA exposure?",
+      "speaker_name": "Diana Reeves",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 334.4,
+      "endTime": 339.1,
+      "averageConfidence": 0.89,
+      "index": 31
+    },
+    {
+      "sentence": "Not yet. I wanted to do this call first but that's my next step.",
+      "speaker_name": "Lisa Park",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 339.8,
+      "endTime": 345.1,
+      "averageConfidence": 0.94,
+      "index": 32
+    },
+    {
+      "sentence": "Do that today, please. And I want a full list of every customer who has a contractual uptime SLA on Detect \u2014 not just our top accounts, all of them \u2014 by end of business. Can someone own that?",
+      "speaker_name": "Diana Reeves",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 346.5,
+      "endTime": 360.0,
+      "averageConfidence": 0.97,
+      "index": 33
+    },
+    {
+      "sentence": "I can pull that from Salesforce. I'll have it by 4 PM.",
+      "speaker_name": "Aisha Johnson",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 360.5,
+      "endTime": 364.6,
+      "averageConfidence": 0.95,
+      "index": 34
+    },
+    {
+      "sentence": "Thank you. Now \u2014 communication. We need to get something out. What's gone out so far?",
+      "speaker_name": "Diana Reeves",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 366.0,
+      "endTime": 371.4,
+      "averageConfidence": 0.96,
+      "index": 35
+    },
+    {
+      "sentence": "We sent a status page update when we detected the issue \u2014 well, when the customer flagged it \u2014 and then an 'all clear' when service was restored. That's it. No proactive outreach, no executive communication. Nothing.",
+      "speaker_name": "Priya Patel",
+      "sentimentType": "negative",
+      "speaker_id": 3,
+      "time": 372.7,
+      "endTime": 385.5,
+      "averageConfidence": 0.88,
+      "index": 36
+    },
+    {
+      "sentence": "That's not good enough. We need a formal incident communication to go out today. Not from support, from leadership. I'll draft something but I need the technical details from Priya's team and I need it in the next two hours.",
+      "speaker_name": "Diana Reeves",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 386.9,
+      "endTime": 401.3,
+      "averageConfidence": 0.9,
+      "index": 37
+    },
+    {
+      "sentence": "I'll get you what we have. I'll flag that some of it is still being finalized but I can give you the confirmed facts.",
+      "speaker_name": "Priya Patel",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 402.6,
+      "endTime": 410.8,
+      "averageConfidence": 0.9,
+      "index": 38
+    },
+    {
+      "sentence": "That works. Only confirmed facts go in the communication \u2014 I don't want us committing to timelines or causes we haven't fully validated.",
+      "speaker_name": "Diana Reeves",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 411.6,
+      "endTime": 419.9,
+      "averageConfidence": 0.89,
+      "index": 39
+    },
+    {
+      "sentence": "One thing I want to flag \u2014 a few customers have already started asking about Comply and whether this affects their audit readiness. Like, they're conflating the Detect outage with the broader platform. We should probably address that proactively.",
+      "speaker_name": "Aisha Johnson",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 421.0,
+      "endTime": 435.1,
+      "averageConfidence": 0.93,
+      "index": 40
+    },
+    {
+      "sentence": "Good point. Comply was not affected, right? Detect and Comply are on completely separate infrastructure?",
+      "speaker_name": "Diana Reeves",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 436.0,
+      "endTime": 441.3,
+      "averageConfidence": 0.9,
+      "index": 41
+    },
+    {
+      "sentence": "Correct, they're fully separate. Comply v2 is still on track for the April launch. The Detect outage had zero impact on that.",
+      "speaker_name": "Priya Patel",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 441.8,
+      "endTime": 450.0,
+      "averageConfidence": 0.91,
+      "index": 42
+    },
+    {
+      "sentence": "Okay good. Make sure your AMs are communicating that clearly. The last thing we need is customers thinking the whole platform is unstable.",
+      "speaker_name": "Diana Reeves",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 451.2,
+      "endTime": 459.7,
+      "averageConfidence": 0.9,
+      "index": 43
+    },
+    {
+      "sentence": "Agreed. I'll put together some talking points and get them to Lisa and Aisha before end of day.",
+      "speaker_name": "Priya Patel",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 460.5,
+      "endTime": 466.6,
+      "averageConfidence": 0.92,
+      "index": 44
+    },
+    {
+      "sentence": "That'd be really helpful, thank you Priya. I have like \u2014 I have six customer calls this afternoon and I need something concrete I can actually say.",
+      "speaker_name": "Lisa Park",
+      "sentimentType": "negative",
+      "speaker_id": 0,
+      "time": 467.5,
+      "endTime": 477.1,
+      "averageConfidence": 0.88,
+      "index": 45
+    },
+    {
+      "sentence": "Okay. Let's talk about escalation risk. Aisha, you mentioned Fortex is evaluating alternatives. Are there other accounts we should be worried about from a churn standpoint?",
+      "speaker_name": "Diana Reeves",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 478.5,
+      "endTime": 487.6,
+      "averageConfidence": 0.97,
+      "index": 46
+    },
+    {
+      "sentence": "I'd flag Brightline \u2014 they're up for renewal in May and the relationship has already been a little rocky. And there's a mid-market account, Kestrel Tech, their CEO is apparently very active on LinkedIn and I wouldn't be surprised if we see something public.",
+      "speaker_name": "Aisha Johnson",
+      "sentimentType": "negative",
+      "speaker_id": 2,
+      "time": 488.4,
+      "endTime": 503.6,
+      "averageConfidence": 0.91,
+      "index": 47
+    },
+    {
+      "sentence": "Oh great. That's all we need. Okay \u2014 I'm going to personally reach out to the Fortex CISO and the Brightline account today. Lisa, I'll need the contact info for whoever you've been talking to at Meridian.",
+      "speaker_name": "Diana Reeves",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 504.3,
+      "endTime": 517.0,
+      "averageConfidence": 0.94,
+      "index": 48
+    },
+    {
+      "sentence": "I'll send it over right after this call.",
+      "speaker_name": "Lisa Park",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 518.5,
+      "endTime": 521.1,
+      "averageConfidence": 0.94,
+      "index": 49
+    },
+    {
+      "sentence": "Alright. Let's wrap up with action items. Priya \u2014 RCA details to Diana by noon. Aisha \u2014 SLA exposure list by 4 PM. Lisa \u2014 loop in legal and finance, send Diana the Meridian contact. Everyone \u2014 review and circulate talking points once Priya has them ready. Does that capture it?",
+      "speaker_name": "Diana Reeves",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 522.3,
+      "endTime": 540.5,
+      "averageConfidence": 0.88,
+      "index": 50
+    },
+    {
+      "sentence": "Yeah, that covers it on my end.",
+      "speaker_name": "Priya Patel",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 541.8,
+      "endTime": 544.8,
+      "averageConfidence": 0.96,
+      "index": 51
+    },
+    {
+      "sentence": "Same. I'll ping you all if anything escalates before end of day.",
+      "speaker_name": "Aisha Johnson",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 545.9,
+      "endTime": 549.9,
+      "averageConfidence": 0.9,
+      "index": 52
+    },
+    {
+      "sentence": "Please do. And guys \u2014 I know this is a tough day. Let's just stay on top of it and make sure our customers feel like we're being straight with them. That's really all we can do right now.",
+      "speaker_name": "Diana Reeves",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 551.2,
+      "endTime": 564.5,
+      "averageConfidence": 0.89,
+      "index": 53
+    },
+    {
+      "sentence": "Agreed. Thanks everyone.",
+      "speaker_name": "Lisa Park",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 565.5,
+      "endTime": 567.0,
+      "averageConfidence": 0.93,
+      "index": 54
+    }
+  ]
+}

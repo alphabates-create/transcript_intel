@@ -1,0 +1,17 @@
+{
+  "meetingId": "01KQDD5172176D02DB51360A",
+  "title": "Support Case #3286 - Vanta Health Systems API Integration Error",
+  "organizerEmail": "priya.patel@aegiscloud.com",
+  "host": "priya.patel@aegiscloud.com",
+  "startTime": "2026-02-03T10:00:00.000Z",
+  "endTime": "2026-02-03T10:21:00.000Z",
+  "duration": 21.0,
+  "allEmails": [
+    "priya.patel@aegiscloud.com",
+    "l.cheng@vantahealth.com"
+  ],
+  "invitees": [
+    "priya.patel@aegiscloud.com",
+    "l.cheng@vantahealth.com"
+  ]
+}

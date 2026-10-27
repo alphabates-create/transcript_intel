@@ -1,0 +1,247 @@
+[
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 5.2,
+    "endTimeTs": 13.3
+  },
+  {
+    "speakerName": "Keith Donovan",
+    "timestamp": 14.4,
+    "endTimeTs": 25.5
+  },
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 26.6,
+    "endTimeTs": 38.0
+  },
+  {
+    "speakerName": "Keith Donovan",
+    "timestamp": 38.9,
+    "endTimeTs": 56.1
+  },
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 56.9,
+    "endTimeTs": 79.5
+  },
+  {
+    "speakerName": "Keith Donovan",
+    "timestamp": 80.9,
+    "endTimeTs": 98.1
+  },
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 98.4,
+    "endTimeTs": 112.1
+  },
+  {
+    "speakerName": "Keith Donovan",
+    "timestamp": 113.2,
+    "endTimeTs": 118.9
+  },
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 119.4,
+    "endTimeTs": 136.4
+  },
+  {
+    "speakerName": "Keith Donovan",
+    "timestamp": 137.6,
+    "endTimeTs": 149.9
+  },
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 151.2,
+    "endTimeTs": 163.6
+  },
+  {
+    "speakerName": "Keith Donovan",
+    "timestamp": 164.7,
+    "endTimeTs": 171.7
+  },
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 172.5,
+    "endTimeTs": 186.7
+  },
+  {
+    "speakerName": "Keith Donovan",
+    "timestamp": 187.3,
+    "endTimeTs": 192.1
+  },
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 192.4,
+    "endTimeTs": 212.6
+  },
+  {
+    "speakerName": "Keith Donovan",
+    "timestamp": 213.7,
+    "endTimeTs": 229.3
+  },
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 229.6,
+    "endTimeTs": 242.6
+  },
+  {
+    "speakerName": "Keith Donovan",
+    "timestamp": 243.8,
+    "endTimeTs": 246.1
+  },
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 247.2,
+    "endTimeTs": 269.0
+  },
+  {
+    "speakerName": "Keith Donovan",
+    "timestamp": 270.0,
+    "endTimeTs": 283.4
+  },
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 284.1,
+    "endTimeTs": 297.8
+  },
+  {
+    "speakerName": "Keith Donovan",
+    "timestamp": 299.2,
+    "endTimeTs": 312.0
+  },
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 312.5,
+    "endTimeTs": 334.8
+  },
+  {
+    "speakerName": "Keith Donovan",
+    "timestamp": 336.2,
+    "endTimeTs": 352.1
+  },
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 352.4,
+    "endTimeTs": 366.8
+  },
+  {
+    "speakerName": "Keith Donovan",
+    "timestamp": 367.7,
+    "endTimeTs": 369.2
+  },
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 370.4,
+    "endTimeTs": 393.2
+  },
+  {
+    "speakerName": "Keith Donovan",
+    "timestamp": 394.4,
+    "endTimeTs": 408.3
+  },
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 409.1,
+    "endTimeTs": 423.9
+  },
+  {
+    "speakerName": "Keith Donovan",
+    "timestamp": 424.4,
+    "endTimeTs": 432.7
+  },
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 433.4,
+    "endTimeTs": 453.9
+  },
+  {
+    "speakerName": "Keith Donovan",
+    "timestamp": 455.1,
+    "endTimeTs": 463.2
+  },
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 464.6,
+    "endTimeTs": 491.5
+  },
+  {
+    "speakerName": "Keith Donovan",
+    "timestamp": 492.7,
+    "endTimeTs": 512.7
+  },
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 513.5,
+    "endTimeTs": 531.6
+  },
+  {
+    "speakerName": "Keith Donovan",
+    "timestamp": 532.2,
+    "endTimeTs": 540.2
+  },
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 540.8,
+    "endTimeTs": 563.9
+  },
+  {
+    "speakerName": "Keith Donovan",
+    "timestamp": 565.4,
+    "endTimeTs": 575.5
+  },
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 576.0,
+    "endTimeTs": 590.2
+  },
+  {
+    "speakerName": "Keith Donovan",
+    "timestamp": 590.7,
+    "endTimeTs": 600.6
+  },
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 601.5,
+    "endTimeTs": 620.5
+  },
+  {
+    "speakerName": "Keith Donovan",
+    "timestamp": 622.0,
+    "endTimeTs": 638.6
+  },
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 639.1,
+    "endTimeTs": 660.8
+  },
+  {
+    "speakerName": "Keith Donovan",
+    "timestamp": 661.3,
+    "endTimeTs": 676.0
+  },
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 676.9,
+    "endTimeTs": 696.0
+  },
+  {
+    "speakerName": "Keith Donovan",
+    "timestamp": 696.8,
+    "endTimeTs": 709.7
+  },
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 710.7,
+    "endTimeTs": 722.8
+  },
+  {
+    "speakerName": "Keith Donovan",
+    "timestamp": 724.1,
+    "endTimeTs": 728.8
+  },
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 729.5,
+    "endTimeTs": 731.4
+  }
+]

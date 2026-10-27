@@ -1,0 +1,414 @@
+{
+  "data": [
+    {
+      "sentence": "Thank you for holding, this is Elena Vasquez from Aegis Cloud Security senior support, I have your case pulled up here \u2014 am I speaking with Grace?",
+      "speaker_name": "Elena Vasquez",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 6.4,
+      "endTime": 15.8,
+      "averageConfidence": 0.89,
+      "index": 0
+    },
+    {
+      "sentence": "Yes, Grace Yoon, and I also have Frank Delaney on the line, he's our VP of IT \u2014 Frank, you there?",
+      "speaker_name": "Grace Yoon",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 16.3,
+      "endTime": 23.7,
+      "averageConfidence": 0.91,
+      "index": 1
+    },
+    {
+      "sentence": "Yeah I'm here. Elena, I'll be honest with you, I don't have a lot of patience left on this one.",
+      "speaker_name": "Frank Delaney",
+      "sentimentType": "negative",
+      "speaker_id": 2,
+      "time": 24.2,
+      "endTime": 31.3,
+      "averageConfidence": 0.92,
+      "index": 2
+    },
+    {
+      "sentence": "I completely understand, Frank, and I appreciate you both jumping on. I want to make sure we get to the bottom of this as quickly as possible. Can you walk me through what you're seeing on your end right now?",
+      "speaker_name": "Elena Vasquez",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 32.3,
+      "endTime": 46.4,
+      "averageConfidence": 0.96,
+      "index": 3
+    },
+    {
+      "sentence": "What we're seeing? What we're seeing is nothing, Elena. That's the whole problem. Our Detect dashboard has been showing no events, no alerts, nothing since \u2014 Grace, when did it start?",
+      "speaker_name": "Frank Delaney",
+      "sentimentType": "negative",
+      "speaker_id": 2,
+      "time": 47.4,
+      "endTime": 58.7,
+      "averageConfidence": 0.9,
+      "index": 4
+    },
+    {
+      "sentence": "We first noticed it around 6 AM this morning, March 15th. The event feed just... stopped. No incoming threat events, the monitoring panel looks completely dark. And we are a pharmaceutical company, we are subject to HIPAA, we have patient data, and we have zero visibility into our threat landscape right now.",
+      "speaker_name": "Grace Yoon",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 59.2,
+      "endTime": 77.3,
+      "averageConfidence": 0.96,
+      "index": 5
+    },
+    {
+      "sentence": "Right, so I do need to be upfront with you both \u2014 and I want to apologize because you absolutely should have received direct communication about this already. Aegis Detect is currently experiencing a platform-wide outage affecting the event processing pipeline. This is not isolated to Northstar, it's impacting multiple customers.",
+      "speaker_name": "Elena Vasquez",
+      "sentimentType": "negative",
+      "speaker_id": 0,
+      "time": 77.8,
+      "endTime": 95.9,
+      "averageConfidence": 0.97,
+      "index": 6
+    },
+    {
+      "sentence": "A platform-wide outage. So this isn't something on our end.",
+      "speaker_name": "Grace Yoon",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 97.2,
+      "endTime": 100.8,
+      "averageConfidence": 0.91,
+      "index": 7
+    },
+    {
+      "sentence": "No, it is not on your end at all. The root cause is on Aegis's infrastructure side, specifically the event ingestion pipeline.",
+      "speaker_name": "Elena Vasquez",
+      "sentimentType": "negative",
+      "speaker_id": 0,
+      "time": 101.3,
+      "endTime": 109.2,
+      "averageConfidence": 0.92,
+      "index": 8
+    },
+    {
+      "sentence": "Okay so let me \u2014 let me just make sure I understand this correctly. We are paying for a security monitoring product. In healthcare. With HIPAA obligations. And your infrastructure just... fails? And nobody called us? Nobody sent an email? Grace found out because she happened to check the dashboard this morning?",
+      "speaker_name": "Frank Delaney",
+      "sentimentType": "negative",
+      "speaker_id": 2,
+      "time": 110.3,
+      "endTime": 128.6,
+      "averageConfidence": 0.92,
+      "index": 9
+    },
+    {
+      "sentence": "Frank, you are absolutely right to be angry about that. The communication failure on our part is inexcusable and I'm not going to try to defend it. I've already flagged your account as priority escalation and our incident communications team is aware that enterprise healthcare customers were not notified in a timely manner.",
+      "speaker_name": "Elena Vasquez",
+      "sentimentType": "negative",
+      "speaker_id": 0,
+      "time": 129.7,
+      "endTime": 148.1,
+      "averageConfidence": 0.95,
+      "index": 10
+    },
+    {
+      "sentence": "How long has this been going on? Because if it started at 6 AM that's already \u2014 it's almost 10 now.",
+      "speaker_name": "Grace Yoon",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 149.1,
+      "endTime": 156.3,
+      "averageConfidence": 0.9,
+      "index": 11
+    },
+    {
+      "sentence": "The outage actually began earlier than that, around midnight Pacific. So we're looking at roughly... yes, approximately nine to ten hours at this point with no event processing.",
+      "speaker_name": "Elena Vasquez",
+      "sentimentType": "negative",
+      "speaker_id": 0,
+      "time": 156.6,
+      "endTime": 166.4,
+      "averageConfidence": 0.93,
+      "index": 12
+    },
+    {
+      "sentence": "Nine hours. Nine hours of no threat monitoring. Elena, do you understand what that means for us? We are in the middle of a SOC 2 audit cycle. We have to demonstrate continuous monitoring. If there's a gap like this \u2014 a nine hour gap \u2014 that is a finding. That could affect our audit outcome.",
+      "speaker_name": "Grace Yoon",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 167.6,
+      "endTime": 187.5,
+      "averageConfidence": 0.93,
+      "index": 13
+    },
+    {
+      "sentence": "I hear you Grace and I want to address the audit concern directly because that's really important. Our engineering team is aware of the compliance implications and we will be providing detailed incident documentation that you can use as part of your audit record \u2014 timestamps, root cause, remediation steps, the whole thing.",
+      "speaker_name": "Elena Vasquez",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 188.4,
+      "endTime": 207.1,
+      "averageConfidence": 0.93,
+      "index": 14
+    },
+    {
+      "sentence": "That's \u2014 okay that's something but it doesn't fix the nine hour gap in our logs.",
+      "speaker_name": "Grace Yoon",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 207.7,
+      "endTime": 213.8,
+      "averageConfidence": 0.95,
+      "index": 15
+    },
+    {
+      "sentence": "What's the ETA on resolution? Give me a number.",
+      "speaker_name": "Frank Delaney",
+      "sentimentType": "negative",
+      "speaker_id": 2,
+      "time": 214.8,
+      "endTime": 218.2,
+      "averageConfidence": 0.9,
+      "index": 16
+    },
+    {
+      "sentence": "Our engineering team's current estimate is two to four hours for full event processing restoration. I want to be transparent that estimate has already slipped once this morning, so I don't want to give you a hard guarantee, but that is the latest from the incident team as of about thirty minutes ago.",
+      "speaker_name": "Elena Vasquez",
+      "sentimentType": "negative",
+      "speaker_id": 0,
+      "time": 219.1,
+      "endTime": 237.7,
+      "averageConfidence": 0.94,
+      "index": 17
+    },
+    {
+      "sentence": "It's slipped once already. Fantastic. Frank, I told you this morning, I told you we should have had a redundancy conversation with them months ago.",
+      "speaker_name": "Grace Yoon",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 238.9,
+      "endTime": 247.5,
+      "averageConfidence": 0.88,
+      "index": 18
+    },
+    {
+      "sentence": "Yeah. Yeah you did. Elena, I'm going to be very direct with you. We have been with Aegis for two and a half years. We expanded our contract last fall to include Protect and Identity on top of Detect. We are not a small account. And I am sitting here right now looking at alternatives. SentinelShield, CyberNova \u2014 I've had calls with both of them in the last six months.",
+      "speaker_name": "Frank Delaney",
+      "sentimentType": "negative",
+      "speaker_id": 2,
+      "time": 248.8,
+      "endTime": 273.3,
+      "averageConfidence": 0.89,
+      "index": 19
+    },
+    {
+      "sentence": "Frank, I hear that, and I'm not going to try to talk you out of that evaluation during a live outage \u2014 that wouldn't be appropriate. What I can tell you is that I am personally committed to making sure your account gets the attention it needs starting right now. I'm going to stay on this with you until we have resolution.",
+      "speaker_name": "Elena Vasquez",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 274.6,
+      "endTime": 296.7,
+      "averageConfidence": 0.95,
+      "index": 20
+    },
+    {
+      "sentence": "What does that actually mean practically? What are you doing right now for us?",
+      "speaker_name": "Grace Yoon",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 297.1,
+      "endTime": 301.9,
+      "averageConfidence": 0.94,
+      "index": 21
+    },
+    {
+      "sentence": "Right now I have your ticket flagged as P1 executive escalation, I've looped in your account team so your CSM is aware, and I am actively in the incident bridge with our engineering team. I can provide you both a direct update every thirty minutes via email or I can keep you on a separate bridge line \u2014 whichever is more useful for you.",
+      "speaker_name": "Elena Vasquez",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 303.1,
+      "endTime": 325.9,
+      "averageConfidence": 0.92,
+      "index": 22
+    },
+    {
+      "sentence": "Email updates every thirty minutes, fine. But Grace and I also need to know \u2014 is there any interim workaround? Any way to get even partial visibility into what's happening in our environment while the pipeline is down?",
+      "speaker_name": "Frank Delaney",
+      "sentimentType": "negative",
+      "speaker_id": 2,
+      "time": 326.9,
+      "endTime": 340.4,
+      "averageConfidence": 0.95,
+      "index": 23
+    },
+    {
+      "sentence": "So the event display in the dashboard is fully dependent on the processing pipeline, there's no way to surface raw events independently right now. What I can tell you is that the agents on your endpoints are still collecting data locally \u2014 none of that telemetry is being lost, it's queued. When the pipeline comes back online it will backfill. So you won't have a permanent gap in your data, just a delay in visibility.",
+      "speaker_name": "Elena Vasquez",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 341.6,
+      "endTime": 368.2,
+      "averageConfidence": 0.93,
+      "index": 24
+    },
+    {
+      "sentence": "Okay that's \u2014 that's actually something I didn't know. So the data is there, it's just not being processed yet.",
+      "speaker_name": "Grace Yoon",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 369.2,
+      "endTime": 376.4,
+      "averageConfidence": 0.97,
+      "index": 25
+    },
+    {
+      "sentence": "Correct. The telemetry is queued and will be backfilled. I can confirm that in writing as part of the incident documentation.",
+      "speaker_name": "Elena Vasquez",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 376.9,
+      "endTime": 384.2,
+      "averageConfidence": 0.97,
+      "index": 26
+    },
+    {
+      "sentence": "That helps for the audit log argument but it still doesn't help us right now if there's an active threat in our environment that nobody is catching.",
+      "speaker_name": "Grace Yoon",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 385.2,
+      "endTime": 394.7,
+      "averageConfidence": 0.95,
+      "index": 27
+    },
+    {
+      "sentence": "That's a fair point and I'm not going to pretend otherwise. The honest answer is that for the duration of this outage, real-time alerting is not functioning. If you have a separate SIEM or any other network monitoring in place those would be your fallback right now.",
+      "speaker_name": "Elena Vasquez",
+      "sentimentType": "negative",
+      "speaker_id": 0,
+      "time": 396.1,
+      "endTime": 412.4,
+      "averageConfidence": 0.92,
+      "index": 28
+    },
+    {
+      "sentence": "We have a basic SIEM but we deprioritized tuning it because we were relying on Detect. Which now feels like a mistake.",
+      "speaker_name": "Grace Yoon",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 413.6,
+      "endTime": 421.0,
+      "averageConfidence": 0.94,
+      "index": 29
+    },
+    {
+      "sentence": "I understand. After this incident is resolved I want to make sure we schedule a proper architecture review with your team \u2014 redundancy, failover posture, how Detect fits into your broader stack. That conversation is overdue and that's on us.",
+      "speaker_name": "Elena Vasquez",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 421.6,
+      "endTime": 435.9,
+      "averageConfidence": 0.89,
+      "index": 30
+    },
+    {
+      "sentence": "Elena, I want to ask you point blank \u2014 is this a systemic infrastructure problem with Aegis or is this a one-time incident? Because if your event ingestion has a single point of failure baked into the architecture, I need to know that.",
+      "speaker_name": "Frank Delaney",
+      "sentimentType": "negative",
+      "speaker_id": 2,
+      "time": 436.4,
+      "endTime": 451.4,
+      "averageConfidence": 0.96,
+      "index": 31
+    },
+    {
+      "sentence": "Frank, I'm going to be straight with you. The root cause does involve a single point of failure in the event ingestion layer. That is what engineering has identified. I am not going to tell you this is a one-time freak occurrence \u2014 the architecture had a vulnerability and it failed. The remediation plan includes redundant processing nodes and changes to the ingestion architecture, but I can't promise you that work is already done.",
+      "speaker_name": "Elena Vasquez",
+      "sentimentType": "negative",
+      "speaker_id": 0,
+      "time": 452.0,
+      "endTime": 477.9,
+      "averageConfidence": 0.94,
+      "index": 32
+    },
+    {
+      "sentence": "I appreciate the honesty. I do. But Frank, you're hearing this right \u2014 single point of failure in a security product.",
+      "speaker_name": "Grace Yoon",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 478.4,
+      "endTime": 485.9,
+      "averageConfidence": 0.89,
+      "index": 33
+    },
+    {
+      "sentence": "Yeah. Elena, I want a call with your VP of Engineering and our CSM within 48 hours of this incident being resolved. Not a support ticket, not an email chain \u2014 a call. With someone who can speak to the architectural remediation roadmap.",
+      "speaker_name": "Frank Delaney",
+      "sentimentType": "negative",
+      "speaker_id": 2,
+      "time": 486.7,
+      "endTime": 502.0,
+      "averageConfidence": 0.92,
+      "index": 34
+    },
+    {
+      "sentence": "That is a completely reasonable request and I will personally make sure that is scheduled. I'm documenting that right now in your case. You'll have a confirmation from your CSM before end of business today.",
+      "speaker_name": "Elena Vasquez",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 503.3,
+      "endTime": 515.8,
+      "averageConfidence": 0.96,
+      "index": 35
+    },
+    {
+      "sentence": "Alright. Thirty minute email updates, incident documentation for the audit, and that executive call within 48 hours of resolution. If we don't see movement on the pipeline in the next two hours we're going to have a much harder conversation.",
+      "speaker_name": "Frank Delaney",
+      "sentimentType": "negative",
+      "speaker_id": 2,
+      "time": 516.9,
+      "endTime": 531.0,
+      "averageConfidence": 0.93,
+      "index": 36
+    },
+    {
+      "sentence": "Understood. I have all of that noted and I'm on it. Grace, is there anything else you need from me right now before I get back into the incident bridge?",
+      "speaker_name": "Elena Vasquez",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 531.9,
+      "endTime": 542.8,
+      "averageConfidence": 0.89,
+      "index": 37
+    },
+    {
+      "sentence": "Just \u2014 please make sure the incident documentation explicitly covers the compliance gap. I need it to be detailed enough to present to an auditor. Timeline, what failed, what data was preserved. All of it.",
+      "speaker_name": "Grace Yoon",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 544.1,
+      "endTime": 556.8,
+      "averageConfidence": 0.94,
+      "index": 38
+    },
+    {
+      "sentence": "Absolutely. I'll make sure the documentation is audit-ready. You have my direct line \u2014 if anything changes on your end or you need to reach me before the next update, do not hesitate. I'm so sorry we're in this situation and I'm going to do everything I can to get you through it.",
+      "speaker_name": "Elena Vasquez",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 557.9,
+      "endTime": 576.8,
+      "averageConfidence": 0.92,
+      "index": 39
+    },
+    {
+      "sentence": "Okay. Thank you Elena. We'll be watching our inbox.",
+      "speaker_name": "Grace Yoon",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 578.1,
+      "endTime": 581.7,
+      "averageConfidence": 0.92,
+      "index": 40
+    }
+  ]
+}

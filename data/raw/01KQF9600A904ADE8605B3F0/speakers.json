@@ -1,0 +1,197 @@
+[
+  {
+    "speakerName": "Chris Lee",
+    "timestamp": 7.6,
+    "endTimeTs": 11.5
+  },
+  {
+    "speakerName": "Tyler Washington",
+    "timestamp": 11.9,
+    "endTimeTs": 15.6
+  },
+  {
+    "speakerName": "Ravi Gupta",
+    "timestamp": 16.0,
+    "endTimeTs": 21.5
+  },
+  {
+    "speakerName": "Chris Lee",
+    "timestamp": 22.5,
+    "endTimeTs": 37.3
+  },
+  {
+    "speakerName": "Tyler Washington",
+    "timestamp": 38.0,
+    "endTimeTs": 44.4
+  },
+  {
+    "speakerName": "Ravi Gupta",
+    "timestamp": 45.9,
+    "endTimeTs": 54.0
+  },
+  {
+    "speakerName": "Chris Lee",
+    "timestamp": 54.9,
+    "endTimeTs": 70.1
+  },
+  {
+    "speakerName": "Tyler Washington",
+    "timestamp": 70.7,
+    "endTimeTs": 81.8
+  },
+  {
+    "speakerName": "Ravi Gupta",
+    "timestamp": 82.4,
+    "endTimeTs": 93.4
+  },
+  {
+    "speakerName": "Chris Lee",
+    "timestamp": 94.6,
+    "endTimeTs": 100.0
+  },
+  {
+    "speakerName": "Tyler Washington",
+    "timestamp": 100.5,
+    "endTimeTs": 111.8
+  },
+  {
+    "speakerName": "Ravi Gupta",
+    "timestamp": 112.5,
+    "endTimeTs": 124.0
+  },
+  {
+    "speakerName": "Chris Lee",
+    "timestamp": 124.8,
+    "endTimeTs": 130.8
+  },
+  {
+    "speakerName": "Tyler Washington",
+    "timestamp": 131.9,
+    "endTimeTs": 140.8
+  },
+  {
+    "speakerName": "Ravi Gupta",
+    "timestamp": 141.9,
+    "endTimeTs": 147.7
+  },
+  {
+    "speakerName": "Chris Lee",
+    "timestamp": 148.6,
+    "endTimeTs": 164.3
+  },
+  {
+    "speakerName": "Tyler Washington",
+    "timestamp": 165.3,
+    "endTimeTs": 176.8
+  },
+  {
+    "speakerName": "Ravi Gupta",
+    "timestamp": 178.1,
+    "endTimeTs": 185.8
+  },
+  {
+    "speakerName": "Chris Lee",
+    "timestamp": 186.7,
+    "endTimeTs": 199.4
+  },
+  {
+    "speakerName": "Tyler Washington",
+    "timestamp": 200.9,
+    "endTimeTs": 211.5
+  },
+  {
+    "speakerName": "Ravi Gupta",
+    "timestamp": 212.7,
+    "endTimeTs": 216.8
+  },
+  {
+    "speakerName": "Chris Lee",
+    "timestamp": 218.3,
+    "endTimeTs": 226.1
+  },
+  {
+    "speakerName": "Ravi Gupta",
+    "timestamp": 226.9,
+    "endTimeTs": 243.3
+  },
+  {
+    "speakerName": "Tyler Washington",
+    "timestamp": 244.4,
+    "endTimeTs": 256.0
+  },
+  {
+    "speakerName": "Chris Lee",
+    "timestamp": 256.8,
+    "endTimeTs": 258.9
+  },
+  {
+    "speakerName": "Tyler Washington",
+    "timestamp": 260.1,
+    "endTimeTs": 272.5
+  },
+  {
+    "speakerName": "Ravi Gupta",
+    "timestamp": 273.7,
+    "endTimeTs": 279.7
+  },
+  {
+    "speakerName": "Tyler Washington",
+    "timestamp": 280.9,
+    "endTimeTs": 286.9
+  },
+  {
+    "speakerName": "Chris Lee",
+    "timestamp": 287.4,
+    "endTimeTs": 299.9
+  },
+  {
+    "speakerName": "Tyler Washington",
+    "timestamp": 301.1,
+    "endTimeTs": 304.2
+  },
+  {
+    "speakerName": "Chris Lee",
+    "timestamp": 304.6,
+    "endTimeTs": 316.0
+  },
+  {
+    "speakerName": "Ravi Gupta",
+    "timestamp": 316.4,
+    "endTimeTs": 332.2
+  },
+  {
+    "speakerName": "Tyler Washington",
+    "timestamp": 332.9,
+    "endTimeTs": 344.9
+  },
+  {
+    "speakerName": "Chris Lee",
+    "timestamp": 345.6,
+    "endTimeTs": 356.7
+  },
+  {
+    "speakerName": "Ravi Gupta",
+    "timestamp": 357.9,
+    "endTimeTs": 362.5
+  },
+  {
+    "speakerName": "Chris Lee",
+    "timestamp": 363.4,
+    "endTimeTs": 372.6
+  },
+  {
+    "speakerName": "Tyler Washington",
+    "timestamp": 374.0,
+    "endTimeTs": 382.6
+  },
+  {
+    "speakerName": "Chris Lee",
+    "timestamp": 383.2,
+    "endTimeTs": 389.9
+  },
+  {
+    "speakerName": "Ravi Gupta",
+    "timestamp": 390.7,
+    "endTimeTs": 392.4
+  }
+]

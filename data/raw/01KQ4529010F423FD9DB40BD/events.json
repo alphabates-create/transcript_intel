@@ -1,0 +1,50 @@
+[
+  {
+    "participantName": "Kevin O'Brien",
+    "timestamp": 1777034702000,
+    "type": "Join",
+    "time": 2.0
+  },
+  {
+    "participantName": "Brian Cho",
+    "timestamp": 1777034710000,
+    "type": "Join",
+    "time": 10.0
+  },
+  {
+    "participantName": "Maria Santos",
+    "timestamp": 1777034719000,
+    "type": "Join",
+    "time": 19.0
+  },
+  {
+    "participantName": "Raj Kapoor",
+    "timestamp": 1777034757000,
+    "type": "Join",
+    "time": 57.0
+  },
+  {
+    "participantName": "Kevin O'Brien",
+    "timestamp": 1777035680000,
+    "type": "Leave",
+    "time": 980.0
+  },
+  {
+    "participantName": "Brian Cho",
+    "timestamp": 1777035687000,
+    "type": "Leave",
+    "time": 987.0
+  },
+  {
+    "participantName": "Raj Kapoor",
+    "timestamp": 1777035689000,
+    "type": "Leave",
+    "time": 989.0
+  },
+  {
+    "participantName": "Maria Santos",
+    "timestamp": 1777035672000,
+    "type": "Leave",
+    "time": 972.0
+  }
+]

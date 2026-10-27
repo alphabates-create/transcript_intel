@@ -1,0 +1,46 @@
+{
+  "summary": "Suki Nakamura from a financial services firm expressed serious concern over a six-hour threat monitoring outage on Monday that left her security team blind during ongoing regulatory audit conversations. Ravi Gupta acknowledged a known architectural single point of failure in Aegis Detect's event processing pipeline and outlined remediation steps including redundant nodes and a circuit breaker pattern targeted for end-of-month deployment. Suki disclosed that her CISO has initiated a formal vendor review and that the company is actively evaluating competitor SentinelShield. The call concluded with concrete commitments: Ravi will send an infrastructure audit summary by Monday, the technical fix will ship by end of March, and a follow-up check-in call is scheduled for two weeks out.",
+  "actionItems": [
+    "Ravi Gupta: Send redacted infrastructure audit summary to Suki by end of day Monday",
+    "Ravi Gupta: Complete production deployment of circuit breaker fix and redundant processing nodes by end of March",
+    "Rachel Torres: Schedule a follow-up check-in call with Suki in two weeks to review interim monitoring status",
+    "Lisa Park: Follow up with Suki on Comply compliance narrative features after the Detect issues are resolved"
+  ],
+  "topics": [
+    "outage",
+    "churn risk",
+    "infrastructure reliability",
+    "compliance",
+    "vendor review",
+    "incident communication"
+  ],
+  "overallSentiment": "mixed-negative",
+  "sentimentScore": 2.4,
+  "keyMoments": [
+    {
+      "time": 78.0,
+      "text": "Suki describes a six-hour monitoring blackout as a serious risk event, noting she had to explain the failure to her CISO during active regulatory audit conversations.",
+      "type": "concern",
+      "speaker": "Suki Nakamura"
+    },
+    {
+      "time": 310.0,
+      "text": "Suki reveals her CISO has initiated a formal vendor review and that they are actively evaluating SentinelShield following the outage.",
+      "type": "churn_signal",
+      "speaker": "Suki Nakamura"
+    },
+    {
+      "time": 445.0,
+      "text": "Ravi admits the single point of failure was a known architectural limitation that had not been prioritized, calling it a design gap and taking ownership on behalf of the team.",
+      "type": "technical_issue",
+      "speaker": "Ravi Gupta"
+    },
+    {
+      "time": 510.0,
+      "text": "Ravi offers to share a redacted full infrastructure audit summary for Suki to bring to her CISO, which Suki responds to positively as substantive evidence she can use internally.",
+      "type": "positive_pivot",
+      "speaker": "Ravi Gupta"
+    }
+  ],
+  "meetingId": "01KQ2217B066855A3B7814CB"
+}

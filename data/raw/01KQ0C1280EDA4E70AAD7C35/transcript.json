@@ -1,0 +1,394 @@
+{
+  "data": [
+    {
+      "sentence": "Thank you for calling Aegis Cloud Security support, this is Sarah Chen, how can I help you today?",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 7.0,
+      "endTime": 13.3,
+      "averageConfidence": 0.88,
+      "index": 0
+    },
+    {
+      "sentence": "Hi Sarah, yeah this is Gregory Fisk, I'm the IT Director over at Summit Trust, I have a support case open \u2014 case number 9279 \u2014 regarding a billing question.",
+      "speaker_name": "Gregory Fisk",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 14.6,
+      "endTime": 25.2,
+      "averageConfidence": 0.94,
+      "index": 1
+    },
+    {
+      "sentence": "Great, let me pull that up right now, Gregory \u2014 and thanks for the case number, that helps a lot.",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 26.0,
+      "endTime": 33.3,
+      "averageConfidence": 0.95,
+      "index": 2
+    },
+    {
+      "sentence": "Sure, no problem.",
+      "speaker_name": "Gregory Fisk",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 34.3,
+      "endTime": 35.8,
+      "averageConfidence": 0.9,
+      "index": 3
+    },
+    {
+      "sentence": "Okay, I'm seeing case 9279 here, Summit Trust, billing inquiry submitted... looks like February 4th. So can you walk me through what you're seeing on your end?",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 36.2,
+      "endTime": 45.4,
+      "averageConfidence": 0.93,
+      "index": 4
+    },
+    {
+      "sentence": "Yeah so, uh, we received our January invoice last week and there's a line item on there that doesn't quite match what we expected based on our contract. It's showing a charge for \u2014 let me pull this up \u2014 okay, it's showing a charge for 1,400 seats under Aegis Identity, but we only have 1,200 licensed users.",
+      "speaker_name": "Gregory Fisk",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 46.7,
+      "endTime": 67.5,
+      "averageConfidence": 0.89,
+      "index": 5
+    },
+    {
+      "sentence": "Okay, so a discrepancy of 200 seats on the Aegis Identity module. Got it. And just to confirm \u2014 was this your January invoice, so the billing period would have been January 1st through January 31st?",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 68.0,
+      "endTime": 81.0,
+      "averageConfidence": 0.91,
+      "index": 6
+    },
+    {
+      "sentence": "That's correct, yeah, January billing period.",
+      "speaker_name": "Gregory Fisk",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 82.4,
+      "endTime": 84.5,
+      "averageConfidence": 0.97,
+      "index": 7
+    },
+    {
+      "sentence": "Alright. And do you have the invoice number handy, or should I just work from the account?",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 85.0,
+      "endTime": 90.9,
+      "averageConfidence": 0.89,
+      "index": 8
+    },
+    {
+      "sentence": "Um, give me just a second... yeah, it's INV-2026-00847.",
+      "speaker_name": "Gregory Fisk",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 91.8,
+      "endTime": 95.3,
+      "averageConfidence": 0.92,
+      "index": 9
+    },
+    {
+      "sentence": "Perfect, INV-2026-00847, let me bring that up... okay, I can see the invoice. And yeah, I can see the Identity module line item \u2014 1,400 seats at the per-seat rate. Let me cross-reference this against your contract terms and your provisioned seat count.",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 95.8,
+      "endTime": 111.1,
+      "averageConfidence": 0.97,
+      "index": 10
+    },
+    {
+      "sentence": "Right, and I mean, our contract was renewed in October, I believe, and at that time we explicitly set the seat count at 1,200. So I'm not sure where the 1,400 is coming from.",
+      "speaker_name": "Gregory Fisk",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 112.3,
+      "endTime": 124.2,
+      "averageConfidence": 0.89,
+      "index": 11
+    },
+    {
+      "sentence": "Yeah, that's a fair question. Let me look at the contract record... okay so I'm seeing the renewal executed October 14th, 2025, and the contracted seat count for Aegis Identity is listed as 1,200 seats. So you're correct there.",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 125.4,
+      "endTime": 139.1,
+      "averageConfidence": 0.92,
+      "index": 12
+    },
+    {
+      "sentence": "Right, so where's the 1,400 coming from? Is there some kind of overage charge? Because we weren't notified of any overage.",
+      "speaker_name": "Gregory Fisk",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 139.5,
+      "endTime": 146.9,
+      "averageConfidence": 0.88,
+      "index": 13
+    },
+    {
+      "sentence": "That's actually a good point and let me dig into the usage data for January. Our billing system will sometimes pick up peak concurrent provisioned users during the billing cycle, and if that number exceeded your contracted seat count at any point, it can trigger overage billing depending on how your contract is structured.",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 148.3,
+      "endTime": 167.2,
+      "averageConfidence": 0.97,
+      "index": 14
+    },
+    {
+      "sentence": "Hmm. I wasn't aware that was how it worked. We haven't had 1,400 active users \u2014 I mean our headcount isn't even close to that.",
+      "speaker_name": "Gregory Fisk",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 168.0,
+      "endTime": 177.2,
+      "averageConfidence": 0.94,
+      "index": 15
+    },
+    {
+      "sentence": "Understood, and that's worth looking at more closely. So I'm pulling up the provisioning logs for your account for January... okay so what I'm seeing here is interesting \u2014 there were 1,400 user accounts in a provisioned state within the Aegis Identity system during January, but let me look at whether those were all active or if some were in, like, a pending or deprovisioned queue.",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 177.6,
+      "endTime": 200.8,
+      "averageConfidence": 0.91,
+      "index": 16
+    },
+    {
+      "sentence": "Yeah, we did do a migration in December where we were onboarding users from a legacy system, and I know there were some test accounts created during that process. Could those still be showing as provisioned?",
+      "speaker_name": "Gregory Fisk",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 202.3,
+      "endTime": 214.9,
+      "averageConfidence": 0.89,
+      "index": 17
+    },
+    {
+      "sentence": "That could very well explain it. If test accounts or staging accounts were created and not explicitly deprovisioned, the system would count those against your seat total. Do you know approximately how many test accounts were created during that migration?",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 215.5,
+      "endTime": 229.8,
+      "averageConfidence": 0.94,
+      "index": 18
+    },
+    {
+      "sentence": "I'd have to check with my team but, uh, off the top of my head I'm thinking maybe 150 to 200 accounts, something in that range. We were testing SSO integrations with a few internal apps.",
+      "speaker_name": "Gregory Fisk",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 230.7,
+      "endTime": 243.5,
+      "averageConfidence": 0.88,
+      "index": 19
+    },
+    {
+      "sentence": "Okay, so that does line up with the discrepancy \u2014 1,200 contracted plus roughly 200 test accounts would get you to the 1,400 that was billed. The system doesn't differentiate between test and production users unless they're tagged and excluded explicitly, which is something we'd typically walk customers through during a migration engagement.",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 244.5,
+      "endTime": 263.4,
+      "averageConfidence": 0.89,
+      "index": 20
+    },
+    {
+      "sentence": "Right, well, that's \u2014 I mean, that's a process thing we probably should have caught on our end too, so I'm not going to sit here and say it's entirely on Aegis. But the question now is what do we do about the invoice.",
+      "speaker_name": "Gregory Fisk",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 264.0,
+      "endTime": 279.5,
+      "averageConfidence": 0.95,
+      "index": 21
+    },
+    {
+      "sentence": "Absolutely, and that's a reasonable question. So what I can do from a support side is document the root cause here \u2014 essentially the overage was driven by non-production test accounts that weren't deprovisioned post-migration \u2014 and submit a billing adjustment request to our finance team. That goes to them with my notes and they review it.",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 279.9,
+      "endTime": 299.7,
+      "averageConfidence": 0.96,
+      "index": 22
+    },
+    {
+      "sentence": "Okay. And what's the typical turnaround on something like that?",
+      "speaker_name": "Gregory Fisk",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 300.3,
+      "endTime": 303.7,
+      "averageConfidence": 0.96,
+      "index": 23
+    },
+    {
+      "sentence": "Usually 5 to 7 business days for the review, and then if a credit or adjustment is approved it would appear on your next billing cycle. I can't guarantee the outcome of the review, but given that the overage appears to be tied to test accounts from a migration, it's a scenario our billing team has handled before.",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 304.2,
+      "endTime": 324.2,
+      "averageConfidence": 0.89,
+      "index": 24
+    },
+    {
+      "sentence": "That's fine. I'd appreciate you submitting that. And \u2014 sorry, one more thing \u2014 those test accounts, I need to get those cleaned up regardless. Is there a way to bulk deprovision them, or does someone have to go in and do it one by one?",
+      "speaker_name": "Gregory Fisk",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 325.6,
+      "endTime": 341.5,
+      "averageConfidence": 0.9,
+      "index": 25
+    },
+    {
+      "sentence": "Yeah, there's a bulk deprovision option in the Aegis Identity admin console \u2014 if you go to User Management and then Provisioning, you can filter by account status, creation date, and there's also a tag-based filter if any of those test accounts were tagged during setup. You can select multiple accounts and deprovision them in one action.",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 342.1,
+      "endTime": 362.2,
+      "averageConfidence": 0.88,
+      "index": 26
+    },
+    {
+      "sentence": "Okay good, that's helpful. I'll have my team take care of that this week. We definitely don't want to have the same issue on the February invoice.",
+      "speaker_name": "Gregory Fisk",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 362.6,
+      "endTime": 372.4,
+      "averageConfidence": 0.91,
+      "index": 27
+    },
+    {
+      "sentence": "That makes sense, and I'd actually recommend doing it sooner rather than later so that the February billing period doesn't pick up the elevated seat count again. If you want, I can send you a quick knowledge base article that walks through the bulk deprovision steps \u2014 sometimes it's easier to have that written out.",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 372.9,
+      "endTime": 392.0,
+      "averageConfidence": 0.95,
+      "index": 28
+    },
+    {
+      "sentence": "Yeah, that would be useful, if you could send that to the email on the case that'd be great.",
+      "speaker_name": "Gregory Fisk",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 392.4,
+      "endTime": 399.2,
+      "averageConfidence": 0.92,
+      "index": 29
+    },
+    {
+      "sentence": "Will do. I'll send that along with a summary of what we discussed today and the billing adjustment request reference number once I've submitted it. Should all come through within the next hour or so.",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 400.4,
+      "endTime": 412.9,
+      "averageConfidence": 0.89,
+      "index": 30
+    },
+    {
+      "sentence": "Perfect. And just \u2014 out of curiosity \u2014 going forward, is there a way to get some kind of alert or notification if our seat count gets close to the contracted limit? Because I'd rather know proactively than find out on an invoice.",
+      "speaker_name": "Gregory Fisk",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 413.8,
+      "endTime": 429.0,
+      "averageConfidence": 0.88,
+      "index": 31
+    },
+    {
+      "sentence": "That's actually a really good question. There are usage threshold alerts you can configure in the admin console \u2014 under Account Settings, Billing and Usage, you can set a threshold, say 90% of your contracted seat count, and you'll get an email notification when you hit it. That's probably worth setting up.",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 430.4,
+      "endTime": 449.0,
+      "averageConfidence": 0.93,
+      "index": 32
+    },
+    {
+      "sentence": "Yeah, I'll definitely look into that. I don't think we have that configured right now.",
+      "speaker_name": "Gregory Fisk",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 450.3,
+      "endTime": 455.6,
+      "averageConfidence": 0.89,
+      "index": 33
+    },
+    {
+      "sentence": "I'll include a note about that in the follow-up email as well, just so you have the steps. Is there anything else I can help you with on this call today?",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 457.1,
+      "endTime": 468.0,
+      "averageConfidence": 0.94,
+      "index": 34
+    },
+    {
+      "sentence": "No, I think that covers it. I appreciate you walking through all of this \u2014 it's helpful to understand what actually happened rather than just having a number on a bill that doesn't make sense.",
+      "speaker_name": "Gregory Fisk",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 468.8,
+      "endTime": 481.1,
+      "averageConfidence": 0.89,
+      "index": 35
+    },
+    {
+      "sentence": "Of course, that's what we're here for. I'll get everything documented and submitted, and you should hear back from the billing team within that 5 to 7 business day window. If you have any other questions in the meantime, feel free to reply to the case email and it'll come back to me.",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 482.5,
+      "endTime": 500.8,
+      "averageConfidence": 0.89,
+      "index": 36
+    },
+    {
+      "sentence": "Sounds good. Thanks Sarah.",
+      "speaker_name": "Gregory Fisk",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 501.9,
+      "endTime": 503.4,
+      "averageConfidence": 0.93,
+      "index": 37
+    },
+    {
+      "sentence": "Thank you Gregory, have a good rest of your day.",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 504.4,
+      "endTime": 507.9,
+      "averageConfidence": 0.93,
+      "index": 38
+    }
+  ]
+}

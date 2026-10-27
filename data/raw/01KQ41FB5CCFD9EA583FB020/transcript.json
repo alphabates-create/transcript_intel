@@ -1,0 +1,784 @@
+{
+  "data": [
+    {
+      "sentence": "Alright, I think we've got everyone on now \u2014 Patricia, Michael, can you both hear us okay?",
+      "speaker_name": "Lisa Park",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 6.4,
+      "endTime": 12.9,
+      "averageConfidence": 0.94,
+      "index": 0
+    },
+    {
+      "sentence": "Yep, coming through fine on my end.",
+      "speaker_name": "Patricia Dunn",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 14.2,
+      "endTime": 16.9,
+      "averageConfidence": 0.92,
+      "index": 1
+    },
+    {
+      "sentence": "Good here as well.",
+      "speaker_name": "Michael Russo",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 18.2,
+      "endTime": 20.0,
+      "averageConfidence": 0.89,
+      "index": 2
+    },
+    {
+      "sentence": "Perfect, great. So, um, welcome everyone \u2014 this is our threat detection tuning session for Harborview Banking. I'm Lisa Park, account manager on the Aegis side, and I've got Kevin O'Brien with me today, he's our solutions architect who's going to be doing most of the heavy lifting on the technical side of things.",
+      "speaker_name": "Lisa Park",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 20.4,
+      "endTime": 39.0,
+      "averageConfidence": 0.94,
+      "index": 3
+    },
+    {
+      "sentence": "Hey everyone, Kevin here. Looking forward to getting into the weeds on the Detect configuration with you all today.",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "positive",
+      "speaker_id": 3,
+      "time": 39.8,
+      "endTime": 46.2,
+      "averageConfidence": 0.97,
+      "index": 4
+    },
+    {
+      "sentence": "Thanks for having us. I'm Patricia Dunn, VP of Security here at Harborview. And I've got Michael Russo on with me, he's our compliance officer \u2014 we brought him in because a lot of what we're trying to tune around has some compliance implications that we want to make sure we're capturing.",
+      "speaker_name": "Patricia Dunn",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 47.0,
+      "endTime": 65.4,
+      "averageConfidence": 0.9,
+      "index": 5
+    },
+    {
+      "sentence": "That makes a lot of sense, actually. Good thinking bringing Michael in. We find that the compliance angle and the detection angle overlap more than people expect, especially in financial services.",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 66.8,
+      "endTime": 77.6,
+      "averageConfidence": 0.89,
+      "index": 6
+    },
+    {
+      "sentence": "Yeah, exactly. That's kind of been our experience too over the years. You get siloed and then you're doing double the work.",
+      "speaker_name": "Michael Russo",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 78.8,
+      "endTime": 86.3,
+      "averageConfidence": 0.94,
+      "index": 7
+    },
+    {
+      "sentence": "Totally. So, um, before we jump in \u2014 Kevin, do you want to just set the agenda for today real quick so Patricia and Michael know what to expect?",
+      "speaker_name": "Lisa Park",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 87.5,
+      "endTime": 97.5,
+      "averageConfidence": 0.97,
+      "index": 8
+    },
+    {
+      "sentence": "Sure, yeah. So the plan for today is \u2014 we want to walk through your current Aegis Detect configuration, understand what alert thresholds you have set, talk about any false positive pain points you're running into, and then start mapping out what a tuned detection profile looks like for a financial services environment like yours. We'll also touch on your event source integrations, because that's usually where a lot of the noise comes from in the early onboarding phase.",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 98.1,
+      "endTime": 125.8,
+      "averageConfidence": 0.89,
+      "index": 9
+    },
+    {
+      "sentence": "That sounds right to us. The false positive issue is honestly top of mind right now. Our SOC team is getting fatigued \u2014 they're seeing a ton of alerts that aren't actionable and it's starting to affect response times on the stuff that actually matters.",
+      "speaker_name": "Patricia Dunn",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 127.0,
+      "endTime": 142.5,
+      "averageConfidence": 0.92,
+      "index": 10
+    },
+    {
+      "sentence": "Yeah, that's a really common pattern we see, especially in the first sixty to ninety days of a Detect deployment. The out-of-the-box sensitivity settings are intentionally broad \u2014 we'd rather you see too much than miss something \u2014 but you're right that it creates alert fatigue if we don't tune it down based on your specific environment.",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 143.4,
+      "endTime": 163.2,
+      "averageConfidence": 0.94,
+      "index": 11
+    },
+    {
+      "sentence": "How long have you been live on Detect at this point, Patricia? I want to make sure I'm thinking about the right baseline.",
+      "speaker_name": "Lisa Park",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 163.5,
+      "endTime": 171.7,
+      "averageConfidence": 0.96,
+      "index": 12
+    },
+    {
+      "sentence": "We went live, uh, about seven weeks ago. So mid-January, roughly.",
+      "speaker_name": "Patricia Dunn",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 172.6,
+      "endTime": 176.2,
+      "averageConfidence": 0.88,
+      "index": 13
+    },
+    {
+      "sentence": "Okay, seven weeks, got it. So you're past the initial noise spike but still well within the range where tuning is going to make a big difference. Kevin, does that track with what you're seeing in the tenant config?",
+      "speaker_name": "Lisa Park",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 176.8,
+      "endTime": 190.3,
+      "averageConfidence": 0.93,
+      "index": 14
+    },
+    {
+      "sentence": "Yeah, let me \u2014 I'm pulling up the Harborview tenant right now. Give me one second. Okay, so I can see your event sources \u2014 looks like you've got your CloudPrime CloudTrail integrated, Azure AD sign-in logs, and your on-prem SIEM feed coming in. Is that the full picture or are there other sources we haven't connected yet?",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 190.7,
+      "endTime": 211.2,
+      "averageConfidence": 0.94,
+      "index": 15
+    },
+    {
+      "sentence": "That's the primary set, yes. We do have a Irongate firewall log feed that we were hoping to get in there as well, but we haven't prioritized it yet. It's been on the list.",
+      "speaker_name": "Patricia Dunn",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 211.7,
+      "endTime": 223.7,
+      "averageConfidence": 0.95,
+      "index": 16
+    },
+    {
+      "sentence": "Okay, noted. The firewall logs will actually help a lot with context enrichment, so that's worth getting on the roadmap sooner rather than later. But let's not get sidetracked \u2014 we can come back to that.",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 224.2,
+      "endTime": 236.7,
+      "averageConfidence": 0.91,
+      "index": 17
+    },
+    {
+      "sentence": "Agreed. So on the false positives \u2014 can you give me some examples of the alert types that are generating the most noise? Like, is it lateral movement rules, authentication anomalies, data exfil detections \u2014 what's hitting your team hardest?",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 237.7,
+      "endTime": 252.1,
+      "averageConfidence": 0.94,
+      "index": 18
+    },
+    {
+      "sentence": "It's predominantly the authentication anomaly rules. We have a large number of staff who work across multiple time zones \u2014 we've got teams in New York, Chicago, and then we have some offshore ops in Manila \u2014 and Detect keeps flagging logins from different geographic locations as suspicious. Which, you know, it's technically doing its job, but it's not... it's not calibrated to our reality.",
+      "speaker_name": "Patricia Dunn",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 253.3,
+      "endTime": 276.2,
+      "averageConfidence": 0.95,
+      "index": 19
+    },
+    {
+      "sentence": "Right, and from a compliance standpoint, every one of those false positive alerts has to be reviewed and documented. So it's not just a SOC fatigue issue, it's actually creating a paper trail of noise that we have to manage through as well.",
+      "speaker_name": "Michael Russo",
+      "sentimentType": "negative",
+      "speaker_id": 2,
+      "time": 276.5,
+      "endTime": 291.9,
+      "averageConfidence": 0.94,
+      "index": 20
+    },
+    {
+      "sentence": "Yeah, that's a really good point, Michael. We don't always hear that framing but it makes total sense in a regulated environment. Okay, so on the geo-anomaly detection \u2014 Kevin, walk them through how we'd handle that.",
+      "speaker_name": "Lisa Park",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 292.8,
+      "endTime": 306.3,
+      "averageConfidence": 0.95,
+      "index": 21
+    },
+    {
+      "sentence": "Sure. So within Detect, there are a couple of levers here. The first is what we call trusted location profiles \u2014 you can define named network zones or geographic regions that are considered baseline for your organization. So if you tag New York, Chicago, and Manila as your standard operating locations, any authentication from those areas will be weighted differently in the risk scoring engine. It won't suppress the alert entirely, but it drops the severity from high to low or informational depending on the context.",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 306.8,
+      "endTime": 336.6,
+      "averageConfidence": 0.96,
+      "index": 22
+    },
+    {
+      "sentence": "And how granular can you get with that? Like, is it country-level, city-level, IP range?",
+      "speaker_name": "Patricia Dunn",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 337.7,
+      "endTime": 343.4,
+      "averageConfidence": 0.92,
+      "index": 23
+    },
+    {
+      "sentence": "You can do all three, actually. Country and region is the coarser option, but you can also define IP ranges or CIDR blocks if you want to be more precise. For something like your Manila ops center where you probably have a known IP range, that's usually the cleanest approach.",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 344.7,
+      "endTime": 362.5,
+      "averageConfidence": 0.94,
+      "index": 24
+    },
+    {
+      "sentence": "That's good to know. We do have static IPs for that office so we can definitely provide those.",
+      "speaker_name": "Patricia Dunn",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 363.0,
+      "endTime": 369.1,
+      "averageConfidence": 0.97,
+      "index": 25
+    },
+    {
+      "sentence": "Perfect. I'll note that down \u2014 we'll want to get those into the configuration as part of the tuning work. Now, the second lever is user behavior baselines. Detect builds a behavioral model for each user over time, and the longer you're on the platform, the smarter those baselines get. At seven weeks you're starting to accumulate meaningful data, but some of your frequent travelers or remote workers might need manual anchoring to suppress the noise while the model matures.",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 370.4,
+      "endTime": 398.5,
+      "averageConfidence": 0.92,
+      "index": 26
+    },
+    {
+      "sentence": "Manual anchoring \u2014 what does that look like operationally? Is that something my team does in the UI or does it require a support ticket?",
+      "speaker_name": "Patricia Dunn",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 399.4,
+      "endTime": 408.4,
+      "averageConfidence": 0.92,
+      "index": 27
+    },
+    {
+      "sentence": "It's self-service in the UI, which is nice. There's a user profile section in the Detect console where you can flag a user as, essentially, a high-mobility user, and you can also manually mark specific past events as expected behavior. That feeds back into the model and accelerates the learning for that individual.",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 409.1,
+      "endTime": 427.8,
+      "averageConfidence": 0.91,
+      "index": 28
+    },
+    {
+      "sentence": "Okay, that's manageable. We probably have, I don't know, twenty-five to thirty users that would fit that profile across the organization.",
+      "speaker_name": "Patricia Dunn",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 428.7,
+      "endTime": 435.9,
+      "averageConfidence": 0.89,
+      "index": 29
+    },
+    {
+      "sentence": "That's a very doable number. We can actually help you with a bulk update approach if you want \u2014 rather than going one by one. I can put together a template after this call.",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 437.1,
+      "endTime": 449.1,
+      "averageConfidence": 0.92,
+      "index": 30
+    },
+    {
+      "sentence": "That would be helpful, yeah.",
+      "speaker_name": "Patricia Dunn",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 449.9,
+      "endTime": 451.9,
+      "averageConfidence": 0.96,
+      "index": 31
+    },
+    {
+      "sentence": "Kevin, while we're on this topic \u2014 can we also talk a little bit about the detection rules themselves? Michael, I know you had some specific rule categories you wanted to make sure we had coverage on.",
+      "speaker_name": "Lisa Park",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 453.0,
+      "endTime": 465.9,
+      "averageConfidence": 0.97,
+      "index": 32
+    },
+    {
+      "sentence": "Right, yeah. So from a compliance perspective \u2014 we're subject to FFIEC guidelines, we have SOX obligations, and we're working toward a GLBA compliance review later this year. There are specific threat patterns that our auditors want to see monitoring controls for \u2014 things like privileged account misuse, unauthorized data access, and after-hours activity on sensitive systems. I want to make sure those aren't getting buried in the noise.",
+      "speaker_name": "Michael Russo",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 466.7,
+      "endTime": 490.8,
+      "averageConfidence": 0.96,
+      "index": 33
+    },
+    {
+      "sentence": "All of those are covered in the Detect rule library, and actually a few of them have pre-built financial services rule packs that are designed specifically for FFIEC and similar frameworks. Kevin, are those enabled in the Harborview tenant?",
+      "speaker_name": "Lisa Park",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 492.2,
+      "endTime": 506.2,
+      "averageConfidence": 0.91,
+      "index": 34
+    },
+    {
+      "sentence": "Let me check. So I'm looking at the active rule sets... it looks like the standard financial services pack is enabled, but the privileged access monitoring rules are set to monitor-only mode, not alert mode. That might be why your SOC hasn't been seeing them as prominently \u2014 they're collecting data but not generating actionable alerts.",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 507.6,
+      "endTime": 526.9,
+      "averageConfidence": 0.94,
+      "index": 35
+    },
+    {
+      "sentence": "That should probably be flipped, right? For our auditors, we need to demonstrate that there's an active alerting control, not just passive monitoring.",
+      "speaker_name": "Michael Russo",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 528.0,
+      "endTime": 536.1,
+      "averageConfidence": 0.94,
+      "index": 36
+    },
+    {
+      "sentence": "Agreed. Yeah, we can flip that to alert mode today if you want \u2014 I can walk you through it or just do it on my end with your sign-off.",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 537.0,
+      "endTime": 547.3,
+      "averageConfidence": 0.94,
+      "index": 37
+    },
+    {
+      "sentence": "Let's do it on your end during this call, that's fine with me. Patricia, any objection?",
+      "speaker_name": "Michael Russo",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 548.1,
+      "endTime": 554.2,
+      "averageConfidence": 0.96,
+      "index": 38
+    },
+    {
+      "sentence": "No, go ahead. Just make sure we document what changed and when for the audit trail.",
+      "speaker_name": "Patricia Dunn",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 555.3,
+      "endTime": 560.8,
+      "averageConfidence": 0.9,
+      "index": 39
+    },
+    {
+      "sentence": "Already noted. I'll include that in the session summary I send over. So I'm enabling alert mode on the privileged access monitoring ruleset now. You'll start seeing those come through in your alert queue \u2014 I'd expect an initial burst over the next twenty-four hours as it catches up, and then it should normalize.",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 561.5,
+      "endTime": 580.3,
+      "averageConfidence": 0.92,
+      "index": 40
+    },
+    {
+      "sentence": "Okay, good to know. I'll give our SOC team a heads up so they're not blindsided.",
+      "speaker_name": "Patricia Dunn",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 581.6,
+      "endTime": 587.1,
+      "averageConfidence": 0.92,
+      "index": 41
+    },
+    {
+      "sentence": "Smart. And on the after-hours activity monitoring \u2014 do you have a defined business hours window in the system? Because that's what the rule uses to determine what counts as after-hours.",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 587.9,
+      "endTime": 599.0,
+      "averageConfidence": 0.93,
+      "index": 42
+    },
+    {
+      "sentence": "I actually don't know if we configured that. Is that something that would have been set during the initial onboarding?",
+      "speaker_name": "Patricia Dunn",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 600.3,
+      "endTime": 607.6,
+      "averageConfidence": 0.96,
+      "index": 43
+    },
+    {
+      "sentence": "It should have been, but it's one of those things that sometimes gets skipped. Let me check. Yeah, I'm seeing the business hours window is currently set to default, which is nine to five Eastern. Is that accurate for you or do you need a wider window?",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 608.8,
+      "endTime": 625.3,
+      "averageConfidence": 0.97,
+      "index": 44
+    },
+    {
+      "sentence": "It's more complicated than that because of the Manila team. Their working hours are, um, essentially our overnight hours. So if we use a static nine to five window we're going to be generating alerts on all of their normal activity.",
+      "speaker_name": "Patricia Dunn",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 626.4,
+      "endTime": 641.2,
+      "averageConfidence": 0.89,
+      "index": 45
+    },
+    {
+      "sentence": "Right, okay. So the way to handle that is with what we call work schedule profiles \u2014 you can create multiple profiles tied to user groups, so the Manila users have a different expected hours window than your New York and Chicago staff. The rule engine applies the right profile per user when evaluating after-hours activity.",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 642.1,
+      "endTime": 661.8,
+      "averageConfidence": 0.92,
+      "index": 46
+    },
+    {
+      "sentence": "Oh, that's \u2014 yeah, that's actually exactly what we'd need. I assumed it was going to be more of a global setting.",
+      "speaker_name": "Patricia Dunn",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 662.2,
+      "endTime": 669.8,
+      "averageConfidence": 0.88,
+      "index": 47
+    },
+    {
+      "sentence": "It's a common assumption. The flexibility is there, it's just not always surfaced well during onboarding. That's something we're working on improving.",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 671.2,
+      "endTime": 679.2,
+      "averageConfidence": 0.92,
+      "index": 48
+    },
+    {
+      "sentence": "From a compliance standpoint, will those profiles be documented in the configuration export? I need to be able to show auditors what the policy is and how it's applied.",
+      "speaker_name": "Michael Russo",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 680.5,
+      "endTime": 690.4,
+      "averageConfidence": 0.93,
+      "index": 49
+    },
+    {
+      "sentence": "Yes, the configuration export includes work schedule profiles with user group mappings and all effective dates. It's exportable as a PDF or CSV. And that actually ties into Aegis Comply as well, when you get to that module \u2014 those configurations feed directly into the compliance reporting layer.",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 690.9,
+      "endTime": 707.7,
+      "averageConfidence": 0.94,
+      "index": 50
+    },
+    {
+      "sentence": "We're not on Comply yet \u2014 that's something we're evaluating for later in the year. But it's good to know those things are connected.",
+      "speaker_name": "Michael Russo",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 708.3,
+      "endTime": 717.1,
+      "averageConfidence": 0.93,
+      "index": 51
+    },
+    {
+      "sentence": "Yeah, Lisa can speak to that more when the time comes, but the integration is pretty seamless. It's one of the reasons the modules are designed to work together.",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 718.1,
+      "endTime": 728.4,
+      "averageConfidence": 0.91,
+      "index": 52
+    },
+    {
+      "sentence": "We'll definitely circle back on Comply when the time is right. Okay, let's keep moving \u2014 Kevin, do you want to touch on the alert routing and escalation configuration? Patricia, I know that was another area you flagged in your pre-call notes.",
+      "speaker_name": "Lisa Park",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 729.3,
+      "endTime": 744.0,
+      "averageConfidence": 0.93,
+      "index": 53
+    },
+    {
+      "sentence": "Yeah, that's on our list. Right now everything is routing to a single shared SOC inbox and it's becoming unmanageable. We need to be able to tier the alerts \u2014 critical things need to go directly to specific individuals, not just the shared queue.",
+      "speaker_name": "Patricia Dunn",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 745.0,
+      "endTime": 760.7,
+      "averageConfidence": 0.88,
+      "index": 54
+    },
+    {
+      "sentence": "Okay, so alert routing in Detect is handled through notification policies. You can create severity-based routing rules \u2014 so critical alerts go to a specific email or PagerDuty integration, high alerts go somewhere else, and medium and low stay in the shared queue. You can also route by alert category \u2014 so data exfil alerts might go to one person, authentication alerts to another.",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 761.7,
+      "endTime": 784.4,
+      "averageConfidence": 0.96,
+      "index": 55
+    },
+    {
+      "sentence": "We do have PagerDuty. Is that integration straightforward to set up?",
+      "speaker_name": "Patricia Dunn",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 785.9,
+      "endTime": 789.5,
+      "averageConfidence": 0.96,
+      "index": 56
+    },
+    {
+      "sentence": "Very straightforward. It's a native integration \u2014 you just drop in your PagerDuty API key and map your Detect severity levels to your PagerDuty service and escalation policy. Takes about fifteen minutes if you have the API key handy.",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 790.3,
+      "endTime": 804.0,
+      "averageConfidence": 0.9,
+      "index": 57
+    },
+    {
+      "sentence": "I can get that from our team. That would make a big difference \u2014 right now our on-call engineer doesn't find out about critical events until someone spots it in the shared inbox, which is... not ideal.",
+      "speaker_name": "Patricia Dunn",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 804.4,
+      "endTime": 817.6,
+      "averageConfidence": 0.96,
+      "index": 58
+    },
+    {
+      "sentence": "Yeah, that's definitely a gap we want to close quickly. Kevin, can you add that to the action items for this session?",
+      "speaker_name": "Lisa Park",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 818.8,
+      "endTime": 826.3,
+      "averageConfidence": 0.91,
+      "index": 59
+    },
+    {
+      "sentence": "Already on it. So to summarize the action items so far \u2014 we're setting up trusted location profiles with the Manila IP range and the US office locations, enabling alert mode on privileged access monitoring which I've already done, setting up work schedule profiles for the Manila team, and getting the PagerDuty integration configured. Is there anything else on your list, Patricia?",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 827.1,
+      "endTime": 848.9,
+      "averageConfidence": 0.93,
+      "index": 60
+    },
+    {
+      "sentence": "I think there was one more thing \u2014 the data retention settings. Our auditors require that we retain security event logs for at least twelve months. I want to make sure Detect is configured for that.",
+      "speaker_name": "Patricia Dunn",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 850.1,
+      "endTime": 862.8,
+      "averageConfidence": 0.93,
+      "index": 61
+    },
+    {
+      "sentence": "Good catch. What's your current retention setting, Kevin?",
+      "speaker_name": "Lisa Park",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 863.7,
+      "endTime": 866.6,
+      "averageConfidence": 0.89,
+      "index": 62
+    },
+    {
+      "sentence": "Let me look. Current setting is ninety days. So yeah, that needs to be updated. For financial services accounts we typically recommend at least twelve months, and some organizations go to twenty-four. There may be a storage implication depending on your event volume \u2014 I can run a quick estimate after the call.",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 867.6,
+      "endTime": 885.9,
+      "averageConfidence": 0.93,
+      "index": 63
+    },
+    {
+      "sentence": "Twelve months is our minimum requirement. If there's a cost implication I'd want to understand that before we change it, so yes please run that estimate.",
+      "speaker_name": "Patricia Dunn",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 886.5,
+      "endTime": 895.6,
+      "averageConfidence": 0.95,
+      "index": 64
+    },
+    {
+      "sentence": "Will do. I'll include it in the follow-up email. It might be straightforward depending on your tier \u2014 you may already have it covered.",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 896.7,
+      "endTime": 905.0,
+      "averageConfidence": 0.93,
+      "index": 65
+    },
+    {
+      "sentence": "Okay. And from a compliance standpoint \u2014 same question as before \u2014 is that retention setting visible in the configuration export?",
+      "speaker_name": "Michael Russo",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 905.4,
+      "endTime": 912.6,
+      "averageConfidence": 0.95,
+      "index": 66
+    },
+    {
+      "sentence": "Yes, it is. It's in the data management policy section of the export. And there's also an effective date stamp so auditors can see when the policy was set.",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 913.3,
+      "endTime": 923.6,
+      "averageConfidence": 0.94,
+      "index": 67
+    },
+    {
+      "sentence": "Good. That's important for us.",
+      "speaker_name": "Michael Russo",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 924.8,
+      "endTime": 926.6,
+      "averageConfidence": 0.97,
+      "index": 68
+    },
+    {
+      "sentence": "Alright, I think we've covered a lot of ground today. I want to make sure we're aligned on next steps before we wrap. Kevin, do you want to walk through what you're going to send over?",
+      "speaker_name": "Lisa Park",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 927.4,
+      "endTime": 940.0,
+      "averageConfidence": 0.9,
+      "index": 69
+    },
+    {
+      "sentence": "Sure. So I'll send a session summary with all the changes made today \u2014 which is just the privileged access monitoring ruleset flip \u2014 and all the pending action items. I'll include the storage estimate for the twelve-month retention setting, the template for the bulk high-mobility user update, and step-by-step instructions for the PagerDuty integration. For the trusted location profiles and work schedule profiles, we should probably schedule a follow-up working session to get those configured properly \u2014 I'd want your Manila IT contact on that call if possible.",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 940.4,
+      "endTime": 971.4,
+      "averageConfidence": 0.89,
+      "index": 70
+    },
+    {
+      "sentence": "I can coordinate that. We'd probably need about a week to get the right people together. So maybe something the week of March sixteenth?",
+      "speaker_name": "Patricia Dunn",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 972.1,
+      "endTime": 980.8,
+      "averageConfidence": 0.89,
+      "index": 71
+    },
+    {
+      "sentence": "That works for me. Lisa, can you send a calendar invite once we confirm times with Patricia's team?",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 982.1,
+      "endTime": 988.2,
+      "averageConfidence": 0.88,
+      "index": 72
+    },
+    {
+      "sentence": "Absolutely, I'll reach out to you directly, Patricia, to find a time that works. And in the meantime if anything comes up or your team runs into issues with any of the things we discussed today, please just reach out \u2014 you've got my email and Kevin is looped in on the account.",
+      "speaker_name": "Lisa Park",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 989.2,
+      "endTime": 1008.0,
+      "averageConfidence": 0.93,
+      "index": 73
+    },
+    {
+      "sentence": "Will do. This was a productive session \u2014 we came in with a list of concerns and I feel like we've got a clear path forward on all of them.",
+      "speaker_name": "Patricia Dunn",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 1008.8,
+      "endTime": 1019.3,
+      "averageConfidence": 0.92,
+      "index": 74
+    },
+    {
+      "sentence": "Agreed. Thanks for the time, Kevin, Lisa. We'll be in touch.",
+      "speaker_name": "Michael Russo",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 1019.6,
+      "endTime": 1023.2,
+      "averageConfidence": 0.93,
+      "index": 75
+    },
+    {
+      "sentence": "Thanks both. Talk soon.",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 1023.9,
+      "endTime": 1025.4,
+      "averageConfidence": 0.92,
+      "index": 76
+    },
+    {
+      "sentence": "Thanks everyone, have a good rest of your day.",
+      "speaker_name": "Lisa Park",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 1025.8,
+      "endTime": 1029.2,
+      "averageConfidence": 0.92,
+      "index": 77
+    }
+  ]
+}

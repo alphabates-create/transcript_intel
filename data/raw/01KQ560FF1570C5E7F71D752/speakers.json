@@ -1,0 +1,232 @@
+[
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 5.9,
+    "endTimeTs": 9.4
+  },
+  {
+    "speakerName": "Vanessa Cruz",
+    "timestamp": 10.0,
+    "endTimeTs": 16.1
+  },
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 16.9,
+    "endTimeTs": 27.5
+  },
+  {
+    "speakerName": "Vanessa Cruz",
+    "timestamp": 28.8,
+    "endTimeTs": 43.7
+  },
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 44.1,
+    "endTimeTs": 62.0
+  },
+  {
+    "speakerName": "Vanessa Cruz",
+    "timestamp": 62.8,
+    "endTimeTs": 82.8
+  },
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 83.5,
+    "endTimeTs": 96.0
+  },
+  {
+    "speakerName": "Vanessa Cruz",
+    "timestamp": 97.2,
+    "endTimeTs": 111.6
+  },
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 112.6,
+    "endTimeTs": 132.0
+  },
+  {
+    "speakerName": "Vanessa Cruz",
+    "timestamp": 132.5,
+    "endTimeTs": 145.3
+  },
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 146.5,
+    "endTimeTs": 163.3
+  },
+  {
+    "speakerName": "Vanessa Cruz",
+    "timestamp": 164.6,
+    "endTimeTs": 181.9
+  },
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 182.5,
+    "endTimeTs": 190.1
+  },
+  {
+    "speakerName": "Vanessa Cruz",
+    "timestamp": 190.9,
+    "endTimeTs": 200.9
+  },
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 201.4,
+    "endTimeTs": 215.2
+  },
+  {
+    "speakerName": "Vanessa Cruz",
+    "timestamp": 216.5,
+    "endTimeTs": 230.2
+  },
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 230.8,
+    "endTimeTs": 247.8
+  },
+  {
+    "speakerName": "Vanessa Cruz",
+    "timestamp": 248.1,
+    "endTimeTs": 260.1
+  },
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 261.5,
+    "endTimeTs": 281.7
+  },
+  {
+    "speakerName": "Vanessa Cruz",
+    "timestamp": 283.1,
+    "endTimeTs": 294.8
+  },
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 296.0,
+    "endTimeTs": 313.6
+  },
+  {
+    "speakerName": "Vanessa Cruz",
+    "timestamp": 315.0,
+    "endTimeTs": 330.0
+  },
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 331.0,
+    "endTimeTs": 353.6
+  },
+  {
+    "speakerName": "Vanessa Cruz",
+    "timestamp": 354.8,
+    "endTimeTs": 364.7
+  },
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 365.8,
+    "endTimeTs": 382.6
+  },
+  {
+    "speakerName": "Vanessa Cruz",
+    "timestamp": 383.9,
+    "endTimeTs": 390.9
+  },
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 392.3,
+    "endTimeTs": 408.2
+  },
+  {
+    "speakerName": "Vanessa Cruz",
+    "timestamp": 408.8,
+    "endTimeTs": 416.8
+  },
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 417.4,
+    "endTimeTs": 429.8
+  },
+  {
+    "speakerName": "Vanessa Cruz",
+    "timestamp": 431.2,
+    "endTimeTs": 443.7
+  },
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 444.7,
+    "endTimeTs": 455.0
+  },
+  {
+    "speakerName": "Vanessa Cruz",
+    "timestamp": 456.2,
+    "endTimeTs": 463.8
+  },
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 465.0,
+    "endTimeTs": 484.8
+  },
+  {
+    "speakerName": "Vanessa Cruz",
+    "timestamp": 485.4,
+    "endTimeTs": 493.7
+  },
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 495.1,
+    "endTimeTs": 508.8
+  },
+  {
+    "speakerName": "Vanessa Cruz",
+    "timestamp": 509.4,
+    "endTimeTs": 517.8
+  },
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 518.3,
+    "endTimeTs": 528.6
+  },
+  {
+    "speakerName": "Vanessa Cruz",
+    "timestamp": 529.4,
+    "endTimeTs": 539.2
+  },
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 540.0,
+    "endTimeTs": 555.4
+  },
+  {
+    "speakerName": "Vanessa Cruz",
+    "timestamp": 556.8,
+    "endTimeTs": 567.6
+  },
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 568.6,
+    "endTimeTs": 587.2
+  },
+  {
+    "speakerName": "Vanessa Cruz",
+    "timestamp": 587.8,
+    "endTimeTs": 598.9
+  },
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 600.0,
+    "endTimeTs": 615.1
+  },
+  {
+    "speakerName": "Vanessa Cruz",
+    "timestamp": 616.5,
+    "endTimeTs": 628.9
+  },
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 630.2,
+    "endTimeTs": 639.4
+  },
+  {
+    "speakerName": "Vanessa Cruz",
+    "timestamp": 640.8,
+    "endTimeTs": 644.2
+  }
+]

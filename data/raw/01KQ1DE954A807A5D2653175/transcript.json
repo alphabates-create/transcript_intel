@@ -1,0 +1,464 @@
+{
+  "data": [
+    {
+      "sentence": "Hey Chris, you on?",
+      "speaker_name": "Megan Lawson",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 7.7,
+      "endTime": 9.2,
+      "averageConfidence": 0.93,
+      "index": 0
+    },
+    {
+      "sentence": "Yeah, yeah I'm here. Sorry, just closing out a Slack thread real quick.",
+      "speaker_name": "Chris Lee",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 10.3,
+      "endTime": 14.7,
+      "averageConfidence": 0.9,
+      "index": 1
+    },
+    {
+      "sentence": "No worries. So, okay, let's just dive in. We've got about \u2014 I have a hard stop at two so maybe forty minutes or so.",
+      "speaker_name": "Megan Lawson",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 15.1,
+      "endTime": 23.7,
+      "averageConfidence": 0.91,
+      "index": 2
+    },
+    {
+      "sentence": "Yeah same, that works for me.",
+      "speaker_name": "Chris Lee",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 24.7,
+      "endTime": 26.9,
+      "averageConfidence": 0.95,
+      "index": 3
+    },
+    {
+      "sentence": "Okay. So the main thing I wanted to go through today is just the launch readiness checklist for Comply v2. April 7th is, you know, it's coming up fast and I want to make sure we're actually aligned on where things stand.",
+      "speaker_name": "Megan Lawson",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 28.0,
+      "endTime": 43.0,
+      "averageConfidence": 0.94,
+      "index": 4
+    },
+    {
+      "sentence": "Yeah, agreed. I think overall we're in decent shape but there are a few things I want to flag, um, before we get too deep into the checklist stuff.",
+      "speaker_name": "Chris Lee",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 44.4,
+      "endTime": 54.3,
+      "averageConfidence": 0.89,
+      "index": 5
+    },
+    {
+      "sentence": "Sure, go ahead.",
+      "speaker_name": "Megan Lawson",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 54.9,
+      "endTime": 56.4,
+      "averageConfidence": 0.95,
+      "index": 6
+    },
+    {
+      "sentence": "So the Detect outage last week \u2014 and I know that's kind of a separate workstream \u2014 but it pulled two of my engineers off Comply work for almost four days. Priya and Damon were both on the incident response rotation.",
+      "speaker_name": "Chris Lee",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 57.3,
+      "endTime": 71.4,
+      "averageConfidence": 0.97,
+      "index": 7
+    },
+    {
+      "sentence": "Right, I was aware of that. How much did that actually set you back? Like in real terms.",
+      "speaker_name": "Megan Lawson",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 71.8,
+      "endTime": 78.2,
+      "averageConfidence": 0.94,
+      "index": 8
+    },
+    {
+      "sentence": "It's, uh, it's probably a five to six day slip on the on-demand reporting engine specifically. The SOC 2 and PCI DSS templates are done, those were finished before the outage. But the HIPAA and ISO 27001 report generation \u2014 those are still being validated in staging and we've got some edge cases we're still working through.",
+      "speaker_name": "Chris Lee",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 79.5,
+      "endTime": 99.7,
+      "averageConfidence": 0.96,
+      "index": 9
+    },
+    {
+      "sentence": "Okay so the four frameworks are going to be ready, it's just \u2014 what exactly is the validation issue with HIPAA and ISO?",
+      "speaker_name": "Megan Lawson",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 100.7,
+      "endTime": 108.6,
+      "averageConfidence": 0.96,
+      "index": 10
+    },
+    {
+      "sentence": "It's less a code issue and more a data mapping issue. The way we're pulling control evidence from the customer's environment, for HIPAA specifically, there are like three or four controls where the evidence mapping isn't lining up correctly with the report template. So the output looks weird. It's not wrong necessarily but it's not clean.",
+      "speaker_name": "Chris Lee",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 109.6,
+      "endTime": 129.4,
+      "averageConfidence": 0.93,
+      "index": 11
+    },
+    {
+      "sentence": "When you say not clean, are we talking cosmetic or are we talking inaccurate?",
+      "speaker_name": "Megan Lawson",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 130.5,
+      "endTime": 135.7,
+      "averageConfidence": 0.91,
+      "index": 12
+    },
+    {
+      "sentence": "Cosmetic, mostly. The data is correct, the control mapping is correct, it just, um, the way it renders in the PDF export has some formatting gaps and one section where the evidence summary is truncated.",
+      "speaker_name": "Chris Lee",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 136.8,
+      "endTime": 148.9,
+      "averageConfidence": 0.91,
+      "index": 13
+    },
+    {
+      "sentence": "Okay, that's \u2014 that's manageable. Can we get that resolved by say March 31st?",
+      "speaker_name": "Megan Lawson",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 150.1,
+      "endTime": 155.2,
+      "averageConfidence": 0.91,
+      "index": 14
+    },
+    {
+      "sentence": "That's actually what I wanted to talk through because Priya thinks she can get it done by the 30th, but that's also assuming she doesn't get pulled back into the Detect remediation work. And honestly I don't know what the situation is going to look like next week.",
+      "speaker_name": "Chris Lee",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 156.0,
+      "endTime": 172.9,
+      "averageConfidence": 0.91,
+      "index": 15
+    },
+    {
+      "sentence": "I talked to the Detect team lead on Friday and my understanding is the redundant node work and the circuit breaker implementation should be wrapped up by end of this week. So I don't anticipate any more pulls from your team after that.",
+      "speaker_name": "Megan Lawson",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 173.8,
+      "endTime": 188.9,
+      "averageConfidence": 0.92,
+      "index": 16
+    },
+    {
+      "sentence": "Okay, good. That's, uh, that's helpful to know. I'll confirm that with Priya and make sure she's fully back on Comply starting Monday.",
+      "speaker_name": "Chris Lee",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 189.7,
+      "endTime": 198.0,
+      "averageConfidence": 0.94,
+      "index": 17
+    },
+    {
+      "sentence": "Yeah do that. And loop me in if anything changes because I need to know by the 1st at the latest whether we have a go or a no-go situation with any of the four frameworks.",
+      "speaker_name": "Megan Lawson",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 198.7,
+      "endTime": 211.0,
+      "averageConfidence": 0.9,
+      "index": 18
+    },
+    {
+      "sentence": "Understood. Okay, what else is on the checklist?",
+      "speaker_name": "Chris Lee",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 212.3,
+      "endTime": 214.9,
+      "averageConfidence": 0.95,
+      "index": 19
+    },
+    {
+      "sentence": "So the other big one is the customer-facing documentation. I checked in with the content team yesterday and the HIPAA and ISO 27001 user guides are still in first draft. SOC 2 and PCI DSS are done and reviewed. So there's a dependency there too.",
+      "speaker_name": "Megan Lawson",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 216.3,
+      "endTime": 232.2,
+      "averageConfidence": 0.91,
+      "index": 20
+    },
+    {
+      "sentence": "That's not on my team but yeah, that tracks with what I've been hearing. Is that a blocker for the launch?",
+      "speaker_name": "Chris Lee",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 232.7,
+      "endTime": 239.8,
+      "averageConfidence": 0.97,
+      "index": 21
+    },
+    {
+      "sentence": "It depends. I mean technically we could launch with SOC 2 and PCI DSS fully documented and say HIPAA and ISO 27001 docs are coming within two weeks of GA. But I don't love that from a product narrative standpoint because we've been marketing all four frameworks as day-one capabilities.",
+      "speaker_name": "Megan Lawson",
+      "sentimentType": "negative",
+      "speaker_id": 0,
+      "time": 240.1,
+      "endTime": 257.6,
+      "averageConfidence": 0.93,
+      "index": 22
+    },
+    {
+      "sentence": "Right, and if a customer goes to generate a HIPAA report on day one and then there's no documentation to help them interpret it, that's a support headache.",
+      "speaker_name": "Chris Lee",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 258.3,
+      "endTime": 268.5,
+      "averageConfidence": 0.92,
+      "index": 23
+    },
+    {
+      "sentence": "Exactly. So I'm going to push the content team hard this week. I think the ISO guide is actually closer than they're letting on, that one might just need a round of SME review. The HIPAA one is more complicated because compliance and legal both have to sign off on the language.",
+      "speaker_name": "Megan Lawson",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 269.6,
+      "endTime": 287.9,
+      "averageConfidence": 0.93,
+      "index": 24
+    },
+    {
+      "sentence": "Do you want me to have anyone on my team do a technical review pass on the HIPAA doc? Just to make sure the control descriptions are accurate?",
+      "speaker_name": "Chris Lee",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 289.2,
+      "endTime": 299.3,
+      "averageConfidence": 0.9,
+      "index": 25
+    },
+    {
+      "sentence": "Actually yeah, that would be helpful. Can you give me a name? I'll connect them directly with Aisha on the content team.",
+      "speaker_name": "Megan Lawson",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 299.6,
+      "endTime": 307.4,
+      "averageConfidence": 0.9,
+      "index": 26
+    },
+    {
+      "sentence": "Damon would be the right person for that. He did a lot of the control mapping work on the HIPAA side so he'd be best positioned to review it.",
+      "speaker_name": "Chris Lee",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 307.9,
+      "endTime": 318.0,
+      "averageConfidence": 0.92,
+      "index": 27
+    },
+    {
+      "sentence": "Perfect. I'll send an intro today. Okay, um, what about the API? Where does the on-demand report generation API stand? Because we've got a couple of enterprise customers who want to integrate directly.",
+      "speaker_name": "Megan Lawson",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 319.2,
+      "endTime": 330.9,
+      "averageConfidence": 0.88,
+      "index": 28
+    },
+    {
+      "sentence": "The API is actually in pretty good shape. We finished the endpoint work two weeks ago, it's been in internal testing and we're doing beta access with two customers right now \u2014 NorthBridge Financial is one of them. Feedback has been fine, no major issues. There's a rate limiting question we're still finalizing but that's a configuration decision, not an engineering one.",
+      "speaker_name": "Chris Lee",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 331.9,
+      "endTime": 353.6,
+      "averageConfidence": 0.89,
+      "index": 29
+    },
+    {
+      "sentence": "Okay good. What's the rate limiting question specifically?",
+      "speaker_name": "Megan Lawson",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 355.0,
+      "endTime": 357.8,
+      "averageConfidence": 0.94,
+      "index": 30
+    },
+    {
+      "sentence": "It's basically how many on-demand report generations we allow per customer per day. Right now the default is set at ten but some customers during beta have been asking about higher limits. NorthBridge specifically asked about a hundred per day.",
+      "speaker_name": "Chris Lee",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 359.1,
+      "endTime": 373.6,
+      "averageConfidence": 0.9,
+      "index": 31
+    },
+    {
+      "sentence": "A hundred per day? That's... I mean, what's the infrastructure cost implication on that?",
+      "speaker_name": "Megan Lawson",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 374.3,
+      "endTime": 379.2,
+      "averageConfidence": 0.96,
+      "index": 32
+    },
+    {
+      "sentence": "It's manageable at current scale but if we have, you know, twenty enterprise customers all hitting a hundred per day simultaneously that could be a compute cost issue. I'd want to think about it as a tiered limit \u2014 so like standard tier gets ten, enterprise gets fifty, and then anything above that is a custom contract discussion.",
+      "speaker_name": "Chris Lee",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 379.8,
+      "endTime": 400.1,
+      "averageConfidence": 0.93,
+      "index": 33
+    },
+    {
+      "sentence": "That actually makes sense. I'll take that to the pricing conversation \u2014 we have a sync with the revenue team on Thursday so I'll raise it then. But yeah, don't change the default before I talk to them.",
+      "speaker_name": "Megan Lawson",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 400.6,
+      "endTime": 414.1,
+      "averageConfidence": 0.96,
+      "index": 34
+    },
+    {
+      "sentence": "Yep, no changes on that until you say so.",
+      "speaker_name": "Chris Lee",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 414.7,
+      "endTime": 418.1,
+      "averageConfidence": 0.96,
+      "index": 35
+    },
+    {
+      "sentence": "Okay. What else \u2014 oh, the SSO integration for Comply. Is that still in scope for v2 or did we descope that?",
+      "speaker_name": "Megan Lawson",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 419.2,
+      "endTime": 426.9,
+      "averageConfidence": 0.94,
+      "index": 36
+    },
+    {
+      "sentence": "That got descoped in the February planning cycle. It's on the v2.1 roadmap. Comply v2 will use the standard Aegis Identity authentication, same as the other modules. So it's not SSO-native within Comply specifically but customers who have Identity set up get SSO passthrough through that.",
+      "speaker_name": "Chris Lee",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 428.3,
+      "endTime": 444.8,
+      "averageConfidence": 0.88,
+      "index": 37
+    },
+    {
+      "sentence": "Right, okay, I remember now. I just wanted to make sure we hadn't quietly put it back in scope somewhere. Alright, so let me just summarize where I think we are. Engineering is tracking, HIPAA and ISO 27001 reporting has a formatting issue that Priya's resolving by the 30th, API is solid, documentation is the bigger risk. Does that sound right to you?",
+      "speaker_name": "Megan Lawson",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 445.6,
+      "endTime": 468.0,
+      "averageConfidence": 0.96,
+      "index": 38
+    },
+    {
+      "sentence": "Yeah that's accurate. I'd also add that we still need to do the final performance test on the report generation under load. We have that scheduled for March 28th.",
+      "speaker_name": "Chris Lee",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 468.8,
+      "endTime": 478.8,
+      "averageConfidence": 0.9,
+      "index": 39
+    },
+    {
+      "sentence": "Good, make sure I get the results of that as soon as they're available. And if anything fails on that load test I want to know same day, don't wait for a report.",
+      "speaker_name": "Megan Lawson",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 480.0,
+      "endTime": 491.3,
+      "averageConfidence": 0.88,
+      "index": 40
+    },
+    {
+      "sentence": "Will do. I'll make sure you're on the distribution for the test results.",
+      "speaker_name": "Chris Lee",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 492.4,
+      "endTime": 497.3,
+      "averageConfidence": 0.94,
+      "index": 41
+    },
+    {
+      "sentence": "Okay, I think we're good. Let's plan to do a quick check-in again next Tuesday, maybe thirty minutes, and by then we should know the state of the Priya work and I should have an update from the content team.",
+      "speaker_name": "Megan Lawson",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 497.7,
+      "endTime": 511.5,
+      "averageConfidence": 0.89,
+      "index": 42
+    },
+    {
+      "sentence": "Works for me. I'll send a hold.",
+      "speaker_name": "Chris Lee",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 511.9,
+      "endTime": 514.7,
+      "averageConfidence": 0.93,
+      "index": 43
+    },
+    {
+      "sentence": "Great. Thanks Chris.",
+      "speaker_name": "Megan Lawson",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 515.1,
+      "endTime": 516.6,
+      "averageConfidence": 0.97,
+      "index": 44
+    },
+    {
+      "sentence": "Yeah, talk soon.",
+      "speaker_name": "Chris Lee",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 517.8,
+      "endTime": 519.3,
+      "averageConfidence": 0.91,
+      "index": 45
+    }
+  ]
+}

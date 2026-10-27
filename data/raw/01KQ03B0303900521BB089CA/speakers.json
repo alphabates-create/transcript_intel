@@ -1,0 +1,217 @@
+[
+  {
+    "speakerName": "Megan Lawson",
+    "timestamp": 7.4,
+    "endTimeTs": 12.6
+  },
+  {
+    "speakerName": "Raj Kapoor",
+    "timestamp": 13.4,
+    "endTimeTs": 14.9
+  },
+  {
+    "speakerName": "Brian Cho",
+    "timestamp": 16.2,
+    "endTimeTs": 21.2
+  },
+  {
+    "speakerName": "Megan Lawson",
+    "timestamp": 22.6,
+    "endTimeTs": 41.0
+  },
+  {
+    "speakerName": "Raj Kapoor",
+    "timestamp": 42.3,
+    "endTimeTs": 54.6
+  },
+  {
+    "speakerName": "Megan Lawson",
+    "timestamp": 55.8,
+    "endTimeTs": 57.4
+  },
+  {
+    "speakerName": "Raj Kapoor",
+    "timestamp": 57.9,
+    "endTimeTs": 87.0
+  },
+  {
+    "speakerName": "Brian Cho",
+    "timestamp": 88.3,
+    "endTimeTs": 99.4
+  },
+  {
+    "speakerName": "Megan Lawson",
+    "timestamp": 100.8,
+    "endTimeTs": 103.6
+  },
+  {
+    "speakerName": "Brian Cho",
+    "timestamp": 104.0,
+    "endTimeTs": 118.6
+  },
+  {
+    "speakerName": "Megan Lawson",
+    "timestamp": 119.6,
+    "endTimeTs": 129.4
+  },
+  {
+    "speakerName": "Raj Kapoor",
+    "timestamp": 129.9,
+    "endTimeTs": 148.6
+  },
+  {
+    "speakerName": "Megan Lawson",
+    "timestamp": 149.9,
+    "endTimeTs": 151.8
+  },
+  {
+    "speakerName": "Raj Kapoor",
+    "timestamp": 153.2,
+    "endTimeTs": 170.8
+  },
+  {
+    "speakerName": "Megan Lawson",
+    "timestamp": 172.3,
+    "endTimeTs": 191.6
+  },
+  {
+    "speakerName": "Raj Kapoor",
+    "timestamp": 192.1,
+    "endTimeTs": 210.0
+  },
+  {
+    "speakerName": "Brian Cho",
+    "timestamp": 210.6,
+    "endTimeTs": 217.9
+  },
+  {
+    "speakerName": "Raj Kapoor",
+    "timestamp": 219.3,
+    "endTimeTs": 230.6
+  },
+  {
+    "speakerName": "Brian Cho",
+    "timestamp": 231.0,
+    "endTimeTs": 242.0
+  },
+  {
+    "speakerName": "Raj Kapoor",
+    "timestamp": 243.3,
+    "endTimeTs": 253.8
+  },
+  {
+    "speakerName": "Brian Cho",
+    "timestamp": 255.2,
+    "endTimeTs": 266.4
+  },
+  {
+    "speakerName": "Megan Lawson",
+    "timestamp": 267.5,
+    "endTimeTs": 281.3
+  },
+  {
+    "speakerName": "Brian Cho",
+    "timestamp": 282.6,
+    "endTimeTs": 288.3
+  },
+  {
+    "speakerName": "Megan Lawson",
+    "timestamp": 289.0,
+    "endTimeTs": 300.0
+  },
+  {
+    "speakerName": "Raj Kapoor",
+    "timestamp": 301.1,
+    "endTimeTs": 315.0
+  },
+  {
+    "speakerName": "Megan Lawson",
+    "timestamp": 315.8,
+    "endTimeTs": 324.5
+  },
+  {
+    "speakerName": "Raj Kapoor",
+    "timestamp": 324.8,
+    "endTimeTs": 342.6
+  },
+  {
+    "speakerName": "Megan Lawson",
+    "timestamp": 343.0,
+    "endTimeTs": 358.5
+  },
+  {
+    "speakerName": "Brian Cho",
+    "timestamp": 359.6,
+    "endTimeTs": 371.0
+  },
+  {
+    "speakerName": "Megan Lawson",
+    "timestamp": 372.2,
+    "endTimeTs": 379.3
+  },
+  {
+    "speakerName": "Raj Kapoor",
+    "timestamp": 380.7,
+    "endTimeTs": 394.4
+  },
+  {
+    "speakerName": "Megan Lawson",
+    "timestamp": 395.0,
+    "endTimeTs": 409.3
+  },
+  {
+    "speakerName": "Raj Kapoor",
+    "timestamp": 410.7,
+    "endTimeTs": 426.9
+  },
+  {
+    "speakerName": "Megan Lawson",
+    "timestamp": 427.9,
+    "endTimeTs": 438.3
+  },
+  {
+    "speakerName": "Brian Cho",
+    "timestamp": 439.5,
+    "endTimeTs": 451.7
+  },
+  {
+    "speakerName": "Megan Lawson",
+    "timestamp": 452.1,
+    "endTimeTs": 469.1
+  },
+  {
+    "speakerName": "Raj Kapoor",
+    "timestamp": 470.1,
+    "endTimeTs": 472.2
+  },
+  {
+    "speakerName": "Brian Cho",
+    "timestamp": 473.3,
+    "endTimeTs": 480.1
+  },
+  {
+    "speakerName": "Megan Lawson",
+    "timestamp": 480.9,
+    "endTimeTs": 491.1
+  },
+  {
+    "speakerName": "Raj Kapoor",
+    "timestamp": 491.7,
+    "endTimeTs": 501.1
+  },
+  {
+    "speakerName": "Megan Lawson",
+    "timestamp": 501.7,
+    "endTimeTs": 510.5
+  },
+  {
+    "speakerName": "Raj Kapoor",
+    "timestamp": 511.8,
+    "endTimeTs": 513.3
+  },
+  {
+    "speakerName": "Brian Cho",
+    "timestamp": 513.7,
+    "endTimeTs": 515.4
+  }
+]

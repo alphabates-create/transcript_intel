@@ -1,0 +1,38 @@
+[
+  {
+    "participantName": "Thomas Hargrove",
+    "timestamp": 1777210202000,
+    "type": "Join",
+    "time": 2.0
+  },
+  {
+    "participantName": "Kevin O'Brien",
+    "timestamp": 1777210217000,
+    "type": "Join",
+    "time": 17.0
+  },
+  {
+    "participantName": "Daniel Okafor",
+    "timestamp": 1777210246000,
+    "type": "Join",
+    "time": 46.0
+  },
+  {
+    "participantName": "Kevin O'Brien",
+    "timestamp": 1777211925000,
+    "type": "Leave",
+    "time": 1725.0
+  },
+  {
+    "participantName": "Daniel Okafor",
+    "timestamp": 1777211927000,
+    "type": "Leave",
+    "time": 1727.0
+  },
+  {
+    "participantName": "Thomas Hargrove",
+    "timestamp": 1777211913000,
+    "type": "Leave",
+    "time": 1713.0
+  }
+]

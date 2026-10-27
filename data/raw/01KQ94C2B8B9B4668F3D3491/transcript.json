@@ -1,0 +1,424 @@
+{
+  "data": [
+    {
+      "sentence": "Hi, thanks for joining \u2014 this is Elena Vasquez from Aegis Cloud Security support, and I also have my colleague Sarah Chen on the line with me today.",
+      "speaker_name": "Elena Vasquez",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 4.0,
+      "endTime": 13.7,
+      "averageConfidence": 0.95,
+      "index": 0
+    },
+    {
+      "sentence": "Hi there, yeah, Sarah Chen here as well \u2014 I specialize in the Detect module so Elena looped me in given what we're seeing in your ticket.",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 14.9,
+      "endTime": 24.8,
+      "averageConfidence": 0.93,
+      "index": 1
+    },
+    {
+      "sentence": "Yeah, hi, Mark Ellison here \u2014 Infrastructure Lead at Ridgeline Logistics. Thanks for, uh, getting on a call quickly I guess, though honestly I'm pretty frustrated that we're even here right now.",
+      "speaker_name": "Mark Ellison",
+      "sentimentType": "negative",
+      "speaker_id": 2,
+      "time": 25.5,
+      "endTime": 36.8,
+      "averageConfidence": 0.94,
+      "index": 2
+    },
+    {
+      "sentence": "Totally understandable Mark, and we appreciate you taking the time. Can you walk us through what you're seeing \u2014 just in your own words, even if it overlaps with what's in the ticket?",
+      "speaker_name": "Elena Vasquez",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 38.2,
+      "endTime": 49.8,
+      "averageConfidence": 0.95,
+      "index": 3
+    },
+    {
+      "sentence": "Sure, yeah. So we started noticing \u2014 I want to say it was sometime yesterday morning, March 12th \u2014 that our Detect dashboard was just... not updating. Like the last event we could see was from around 11 PM the night before, March 11th, and then there's just nothing after that.",
+      "speaker_name": "Mark Ellison",
+      "sentimentType": "negative",
+      "speaker_id": 2,
+      "time": 50.6,
+      "endTime": 68.8,
+      "averageConfidence": 0.89,
+      "index": 4
+    },
+    {
+      "sentence": "And this is across all your monitored environments or is it specific to certain agents or regions?",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 69.9,
+      "endTime": 76.2,
+      "averageConfidence": 0.89,
+      "index": 5
+    },
+    {
+      "sentence": "That's \u2014 okay so that's actually a good question. It looks like it's everything. We have agents deployed across our three main data centers \u2014 two in the midwest, one on the east coast \u2014 and none of them are showing any event data. Zero. Like the dashboard is just... frozen.",
+      "speaker_name": "Mark Ellison",
+      "sentimentType": "negative",
+      "speaker_id": 2,
+      "time": 76.9,
+      "endTime": 94.6,
+      "averageConfidence": 0.93,
+      "index": 6
+    },
+    {
+      "sentence": "Right, okay. And are the agents themselves still running? Like if you check the agent status locally, are they active?",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 95.0,
+      "endTime": 102.2,
+      "averageConfidence": 0.97,
+      "index": 7
+    },
+    {
+      "sentence": "Yeah that's what makes this so confusing and frankly alarming. The agents are running fine. We can see them locally, they're processing, but none of that data is actually making it to the dashboard. It's like there's a black hole somewhere between our infrastructure and your platform.",
+      "speaker_name": "Mark Ellison",
+      "sentimentType": "negative",
+      "speaker_id": 2,
+      "time": 103.2,
+      "endTime": 119.6,
+      "averageConfidence": 0.95,
+      "index": 8
+    },
+    {
+      "sentence": "Okay, Mark, I want to be transparent with you \u2014 we are aware of an issue on our end right now with the event processing pipeline in Detect. We started seeing signals on our side around... Sarah, correct me if I'm wrong, but it was late March 11th?",
+      "speaker_name": "Elena Vasquez",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 120.7,
+      "endTime": 137.5,
+      "averageConfidence": 0.93,
+      "index": 9
+    },
+    {
+      "sentence": "Yeah, that's right, late evening March 11th is when our internal monitoring started flagging it. We have engineers actively working on it right now.",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 138.1,
+      "endTime": 146.5,
+      "averageConfidence": 0.93,
+      "index": 10
+    },
+    {
+      "sentence": "Wait \u2014 so this is a platform-level issue? Like this isn't something on my end at all?",
+      "speaker_name": "Mark Ellison",
+      "sentimentType": "negative",
+      "speaker_id": 2,
+      "time": 147.0,
+      "endTime": 153.0,
+      "averageConfidence": 0.91,
+      "index": 11
+    },
+    {
+      "sentence": "Based on what we're seeing, yes \u2014 this appears to be on our side. We're not asking you to do any configuration changes or anything like that.",
+      "speaker_name": "Elena Vasquez",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 154.2,
+      "endTime": 163.6,
+      "averageConfidence": 0.9,
+      "index": 12
+    },
+    {
+      "sentence": "Okay well that's \u2014 I mean that's good to know I guess, but it doesn't make it any less of a serious problem. We're a manufacturing company. We have operational technology networks, we have SCADA systems, we have production floor infrastructure that your platform is supposed to be monitoring for threats. And right now we have literally zero visibility. Do you understand how unacceptable that is?",
+      "speaker_name": "Mark Ellison",
+      "sentimentType": "negative",
+      "speaker_id": 2,
+      "time": 164.0,
+      "endTime": 187.1,
+      "averageConfidence": 0.89,
+      "index": 13
+    },
+    {
+      "sentence": "We absolutely do, Mark, and I want to say we don't take that lightly at all. Especially given your environment \u2014 OT networks are exactly the kind of infrastructure where a monitoring gap is really critical.",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 188.3,
+      "endTime": 200.9,
+      "averageConfidence": 0.89,
+      "index": 14
+    },
+    {
+      "sentence": "And we genuinely apologize for the impact here. Can I ask \u2014 do you have any secondary monitoring tools in place, even basic ones, that your team has been able to lean on in the meantime?",
+      "speaker_name": "Elena Vasquez",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 201.6,
+      "endTime": 214.7,
+      "averageConfidence": 0.95,
+      "index": 15
+    },
+    {
+      "sentence": "We have some basic network monitoring but nothing close to what Detect provides for threat detection specifically. I mean, that's why we pay for your platform. My team has been manually reviewing logs all morning which is... not sustainable.",
+      "speaker_name": "Mark Ellison",
+      "sentimentType": "negative",
+      "speaker_id": 2,
+      "time": 215.5,
+      "endTime": 229.0,
+      "averageConfidence": 0.92,
+      "index": 16
+    },
+    {
+      "sentence": "That's a terrible position to be in and I hear you. Sarah, can you share any more detail on what we know about the root cause at this point?",
+      "speaker_name": "Elena Vasquez",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 229.4,
+      "endTime": 239.7,
+      "averageConfidence": 0.89,
+      "index": 17
+    },
+    {
+      "sentence": "Yeah, so what I can share right now \u2014 and some of this is still being confirmed by the engineering team \u2014 is that it looks like there's a failure in the event ingestion layer. Essentially the pipeline that takes in events from the agents and processes them for the dashboard hit some kind of cascading issue. We're still diagnosing exactly where the breakdown is.",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 240.6,
+      "endTime": 263.1,
+      "averageConfidence": 0.93,
+      "index": 18
+    },
+    {
+      "sentence": "A cascading issue. Okay. So how long has this been going on \u2014 and more importantly when is it going to be fixed? Because we're now going on almost 24 hours of no threat monitoring visibility.",
+      "speaker_name": "Mark Ellison",
+      "sentimentType": "negative",
+      "speaker_id": 2,
+      "time": 264.1,
+      "endTime": 277.0,
+      "averageConfidence": 0.88,
+      "index": 19
+    },
+    {
+      "sentence": "I don't want to give you a hard ETA right now that I'm not confident in, because I'd rather be honest with you than give you a time that slips. What I can tell you is this is the highest priority incident on our side right now.",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 278.3,
+      "endTime": 294.8,
+      "averageConfidence": 0.95,
+      "index": 20
+    },
+    {
+      "sentence": "That's... I mean, that's not really an answer though, is it? I have to go back to my CISO and tell him something. I can't just say 'they're working on it.'",
+      "speaker_name": "Mark Ellison",
+      "sentimentType": "negative",
+      "speaker_id": 2,
+      "time": 296.0,
+      "endTime": 307.0,
+      "averageConfidence": 0.9,
+      "index": 21
+    },
+    {
+      "sentence": "I completely understand that pressure, Mark. Let me see what I can do \u2014 I can escalate internally to get you a more concrete status update within the next two hours. I'll personally make sure that happens. Is email okay for that or would you prefer a direct call?",
+      "speaker_name": "Elena Vasquez",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 308.5,
+      "endTime": 325.8,
+      "averageConfidence": 0.9,
+      "index": 22
+    },
+    {
+      "sentence": "Both. I want something in writing and I want someone to call me. And honestly I'd like this to be flagged as a Sev 1 on your end if it isn't already.",
+      "speaker_name": "Mark Ellison",
+      "sentimentType": "negative",
+      "speaker_id": 2,
+      "time": 326.9,
+      "endTime": 338.0,
+      "averageConfidence": 0.89,
+      "index": 23
+    },
+    {
+      "sentence": "Completely fair. We will make sure this support case is marked as Sev 1 \u2014 I'll do that right now actually while we're on the call.",
+      "speaker_name": "Elena Vasquez",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 338.7,
+      "endTime": 347.6,
+      "averageConfidence": 0.91,
+      "index": 24
+    },
+    {
+      "sentence": "And Mark, just to make sure we have everything we need from your side \u2014 can you confirm the account ID and which specific Detect workspace you're working out of? I want to make sure engineering has eyes on your telemetry specifically.",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 348.2,
+      "endTime": 363.3,
+      "averageConfidence": 0.96,
+      "index": 25
+    },
+    {
+      "sentence": "Yeah it's \u2014 hold on, let me pull it up. Okay, account ID is RLL-4482, and the workspace is ridgeline-prod-detect. There's also a secondary workspace, ridgeline-staging-detect, but I'm less concerned about that one.",
+      "speaker_name": "Mark Ellison",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 364.0,
+      "endTime": 375.8,
+      "averageConfidence": 0.94,
+      "index": 26
+    },
+    {
+      "sentence": "Got it, I'm noting both of those. And just to double check \u2014 you mentioned the last events visible were around 11 PM on March 11th. Is that the timestamp shown in the dashboard or are you also confirming that against your local agent logs?",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 376.7,
+      "endTime": 392.5,
+      "averageConfidence": 0.88,
+      "index": 27
+    },
+    {
+      "sentence": "Both actually. Dashboard shows 11:04 PM as the last event, and when I looked at the agent logs on one of our nodes it was actively generating events well after that. So the agents are definitely sending, something is just not receiving it or processing it on your end.",
+      "speaker_name": "Mark Ellison",
+      "sentimentType": "negative",
+      "speaker_id": 2,
+      "time": 393.0,
+      "endTime": 410.2,
+      "averageConfidence": 0.91,
+      "index": 28
+    },
+    {
+      "sentence": "That's really helpful and consistent with what we're seeing across affected accounts. The agents are healthy, the issue is downstream in the ingestion pipeline.",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 411.5,
+      "endTime": 420.3,
+      "averageConfidence": 0.92,
+      "index": 29
+    },
+    {
+      "sentence": "Great. And when this is fixed \u2014 are we going to get backfilled data? Because if I have a gap of 24 hours or more in my threat monitoring history, that's a compliance issue for us. We need that audit trail to be complete.",
+      "speaker_name": "Mark Ellison",
+      "sentimentType": "negative",
+      "speaker_id": 2,
+      "time": 421.1,
+      "endTime": 436.8,
+      "averageConfidence": 0.93,
+      "index": 30
+    },
+    {
+      "sentence": "That's a really important question and I want to be careful how I answer it. The agents are generating and queuing event data locally \u2014 so the raw data does exist. Whether backfill is feasible depends on how the engineering team resolves the pipeline issue. I'm going to make sure that question is explicitly raised in our internal escalation.",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 437.9,
+      "endTime": 458.5,
+      "averageConfidence": 0.94,
+      "index": 31
+    },
+    {
+      "sentence": "It needs to be more than raised \u2014 it needs to be answered. I don't want a resolution that just fixes the live feed going forward and leaves me with a hole in my historical data.",
+      "speaker_name": "Mark Ellison",
+      "sentimentType": "negative",
+      "speaker_id": 2,
+      "time": 459.5,
+      "endTime": 472.2,
+      "averageConfidence": 0.92,
+      "index": 32
+    },
+    {
+      "sentence": "Noted, and I will make sure that's explicitly called out as a requirement in the escalation. You have my word on that.",
+      "speaker_name": "Elena Vasquez",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 472.7,
+      "endTime": 480.4,
+      "averageConfidence": 0.94,
+      "index": 33
+    },
+    {
+      "sentence": "Okay. I also \u2014 look, I want to ask this because I have to \u2014 is there any indication of what caused this? Like was this a configuration error, was it something that could have been prevented? Because if this is a systemic reliability issue with your platform I need to know that.",
+      "speaker_name": "Mark Ellison",
+      "sentimentType": "negative",
+      "speaker_id": 2,
+      "time": 481.6,
+      "endTime": 500.6,
+      "averageConfidence": 0.91,
+      "index": 34
+    },
+    {
+      "sentence": "I understand why you're asking and I think it's the right question. I don't have a definitive root cause analysis to share right now \u2014 engineering is still actively diagnosing \u2014 but we will provide you with a full incident report once this is resolved. That will include root cause, remediation steps, and what we're doing to prevent recurrence.",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 501.8,
+      "endTime": 522.4,
+      "averageConfidence": 0.91,
+      "index": 35
+    },
+    {
+      "sentence": "I'll hold you to that. I need that in writing. And frankly depending on how long this goes on and what that report says, we're going to have a conversation about SLA credits. This is a significant breach of what we're paying for.",
+      "speaker_name": "Mark Ellison",
+      "sentimentType": "negative",
+      "speaker_id": 2,
+      "time": 523.6,
+      "endTime": 539.1,
+      "averageConfidence": 0.97,
+      "index": 36
+    },
+    {
+      "sentence": "That's a completely reasonable thing to raise and your account team will be the right people to have that conversation with. I'm going to flag this case to your account manager as well so they're in the loop and can proactively reach out.",
+      "speaker_name": "Elena Vasquez",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 539.7,
+      "endTime": 554.6,
+      "averageConfidence": 0.88,
+      "index": 37
+    },
+    {
+      "sentence": "Fine. Yeah. Okay. Is there anything else you need from me right now or... I mean I need to get back to my team.",
+      "speaker_name": "Mark Ellison",
+      "sentimentType": "negative",
+      "speaker_id": 2,
+      "time": 555.8,
+      "endTime": 564.5,
+      "averageConfidence": 0.9,
+      "index": 38
+    },
+    {
+      "sentence": "No, I think we have everything we need. Just to recap \u2014 we're escalating this to Sev 1, I'll have an update to you within two hours via email and a direct callback, and we're specifically flagging the data backfill requirement to engineering. Does that cover everything?",
+      "speaker_name": "Elena Vasquez",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 565.9,
+      "endTime": 582.7,
+      "averageConfidence": 0.89,
+      "index": 39
+    },
+    {
+      "sentence": "Yeah, that covers it for now. I really hope the next call is with better news because this is \u2014 this is not a good situation. My team is stressed, my CISO is asking questions, and we're flying blind on threat monitoring. Just... please fix it.",
+      "speaker_name": "Mark Ellison",
+      "sentimentType": "negative",
+      "speaker_id": 2,
+      "time": 584.0,
+      "endTime": 600.5,
+      "averageConfidence": 0.94,
+      "index": 40
+    },
+    {
+      "sentence": "We hear you Mark, and we're going to do everything we can to get this resolved as quickly as possible. Thank you for your patience and we'll be in touch very soon.",
+      "speaker_name": "Elena Vasquez",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 601.7,
+      "endTime": 612.7,
+      "averageConfidence": 0.9,
+      "index": 41
+    }
+  ]
+}

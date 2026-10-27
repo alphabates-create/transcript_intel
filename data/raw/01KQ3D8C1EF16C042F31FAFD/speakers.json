@@ -1,0 +1,247 @@
+[
+  {
+    "speakerName": "Rachel Torres",
+    "timestamp": 7.7,
+    "endTimeTs": 11.8
+  },
+  {
+    "speakerName": "Isaac Brennan",
+    "timestamp": 12.5,
+    "endTimeTs": 16.7
+  },
+  {
+    "speakerName": "Chris Lee",
+    "timestamp": 17.4,
+    "endTimeTs": 21.3
+  },
+  {
+    "speakerName": "Isaac Brennan",
+    "timestamp": 22.5,
+    "endTimeTs": 29.2
+  },
+  {
+    "speakerName": "Rachel Torres",
+    "timestamp": 29.7,
+    "endTimeTs": 37.0
+  },
+  {
+    "speakerName": "Isaac Brennan",
+    "timestamp": 37.7,
+    "endTimeTs": 47.8
+  },
+  {
+    "speakerName": "Rachel Torres",
+    "timestamp": 48.6,
+    "endTimeTs": 55.5
+  },
+  {
+    "speakerName": "Chris Lee",
+    "timestamp": 56.3,
+    "endTimeTs": 70.5
+  },
+  {
+    "speakerName": "Isaac Brennan",
+    "timestamp": 72.0,
+    "endTimeTs": 89.5
+  },
+  {
+    "speakerName": "Chris Lee",
+    "timestamp": 89.8,
+    "endTimeTs": 94.1
+  },
+  {
+    "speakerName": "Isaac Brennan",
+    "timestamp": 95.4,
+    "endTimeTs": 105.9
+  },
+  {
+    "speakerName": "Rachel Torres",
+    "timestamp": 107.0,
+    "endTimeTs": 111.4
+  },
+  {
+    "speakerName": "Isaac Brennan",
+    "timestamp": 111.8,
+    "endTimeTs": 128.3
+  },
+  {
+    "speakerName": "Chris Lee",
+    "timestamp": 129.7,
+    "endTimeTs": 145.9
+  },
+  {
+    "speakerName": "Isaac Brennan",
+    "timestamp": 147.2,
+    "endTimeTs": 153.5
+  },
+  {
+    "speakerName": "Chris Lee",
+    "timestamp": 154.0,
+    "endTimeTs": 172.3
+  },
+  {
+    "speakerName": "Isaac Brennan",
+    "timestamp": 173.3,
+    "endTimeTs": 185.7
+  },
+  {
+    "speakerName": "Rachel Torres",
+    "timestamp": 186.1,
+    "endTimeTs": 197.3
+  },
+  {
+    "speakerName": "Isaac Brennan",
+    "timestamp": 198.4,
+    "endTimeTs": 207.2
+  },
+  {
+    "speakerName": "Rachel Torres",
+    "timestamp": 207.7,
+    "endTimeTs": 221.8
+  },
+  {
+    "speakerName": "Isaac Brennan",
+    "timestamp": 222.9,
+    "endTimeTs": 224.4
+  },
+  {
+    "speakerName": "Rachel Torres",
+    "timestamp": 225.6,
+    "endTimeTs": 243.9
+  },
+  {
+    "speakerName": "Isaac Brennan",
+    "timestamp": 244.8,
+    "endTimeTs": 250.9
+  },
+  {
+    "speakerName": "Rachel Torres",
+    "timestamp": 252.3,
+    "endTimeTs": 267.3
+  },
+  {
+    "speakerName": "Isaac Brennan",
+    "timestamp": 267.9,
+    "endTimeTs": 278.1
+  },
+  {
+    "speakerName": "Chris Lee",
+    "timestamp": 279.5,
+    "endTimeTs": 294.7
+  },
+  {
+    "speakerName": "Isaac Brennan",
+    "timestamp": 295.6,
+    "endTimeTs": 305.2
+  },
+  {
+    "speakerName": "Rachel Torres",
+    "timestamp": 306.3,
+    "endTimeTs": 318.7
+  },
+  {
+    "speakerName": "Chris Lee",
+    "timestamp": 319.9,
+    "endTimeTs": 339.7
+  },
+  {
+    "speakerName": "Isaac Brennan",
+    "timestamp": 340.5,
+    "endTimeTs": 352.0
+  },
+  {
+    "speakerName": "Chris Lee",
+    "timestamp": 352.7,
+    "endTimeTs": 358.5
+  },
+  {
+    "speakerName": "Isaac Brennan",
+    "timestamp": 359.8,
+    "endTimeTs": 376.8
+  },
+  {
+    "speakerName": "Rachel Torres",
+    "timestamp": 377.3,
+    "endTimeTs": 391.4
+  },
+  {
+    "speakerName": "Isaac Brennan",
+    "timestamp": 392.6,
+    "endTimeTs": 402.7
+  },
+  {
+    "speakerName": "Rachel Torres",
+    "timestamp": 403.1,
+    "endTimeTs": 407.3
+  },
+  {
+    "speakerName": "Isaac Brennan",
+    "timestamp": 408.8,
+    "endTimeTs": 415.8
+  },
+  {
+    "speakerName": "Rachel Torres",
+    "timestamp": 416.2,
+    "endTimeTs": 430.6
+  },
+  {
+    "speakerName": "Isaac Brennan",
+    "timestamp": 432.1,
+    "endTimeTs": 437.7
+  },
+  {
+    "speakerName": "Rachel Torres",
+    "timestamp": 438.8,
+    "endTimeTs": 451.5
+  },
+  {
+    "speakerName": "Isaac Brennan",
+    "timestamp": 452.5,
+    "endTimeTs": 467.6
+  },
+  {
+    "speakerName": "Rachel Torres",
+    "timestamp": 468.5,
+    "endTimeTs": 479.9
+  },
+  {
+    "speakerName": "Isaac Brennan",
+    "timestamp": 481.3,
+    "endTimeTs": 488.1
+  },
+  {
+    "speakerName": "Rachel Torres",
+    "timestamp": 488.9,
+    "endTimeTs": 502.4
+  },
+  {
+    "speakerName": "Isaac Brennan",
+    "timestamp": 503.5,
+    "endTimeTs": 510.7
+  },
+  {
+    "speakerName": "Rachel Torres",
+    "timestamp": 511.8,
+    "endTimeTs": 522.7
+  },
+  {
+    "speakerName": "Isaac Brennan",
+    "timestamp": 523.2,
+    "endTimeTs": 533.3
+  },
+  {
+    "speakerName": "Chris Lee",
+    "timestamp": 534.1,
+    "endTimeTs": 539.8
+  },
+  {
+    "speakerName": "Isaac Brennan",
+    "timestamp": 541.0,
+    "endTimeTs": 547.1
+  },
+  {
+    "speakerName": "Rachel Torres",
+    "timestamp": 547.8,
+    "endTimeTs": 552.9
+  }
+]

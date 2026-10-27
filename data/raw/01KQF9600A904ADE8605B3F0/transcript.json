@@ -1,0 +1,394 @@
+{
+  "data": [
+    {
+      "sentence": "Alright, I think we've got everyone \u2014 Tyler, Ravi, you both here?",
+      "speaker_name": "Chris Lee",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 7.6,
+      "endTime": 11.5,
+      "averageConfidence": 0.96,
+      "index": 0
+    },
+    {
+      "sentence": "Yeah I'm here, just grabbing my coffee real quick.",
+      "speaker_name": "Tyler Washington",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 11.9,
+      "endTime": 15.6,
+      "averageConfidence": 0.95,
+      "index": 1
+    },
+    {
+      "sentence": "Present, yeah, I've got the sprint board pulled up too so we can go through everything.",
+      "speaker_name": "Ravi Gupta",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 16.0,
+      "endTime": 21.5,
+      "averageConfidence": 0.92,
+      "index": 2
+    },
+    {
+      "sentence": "Perfect, okay let's just \u2014 let's just dive in. So, uh, officially this is the retro for the reliability sprint we kicked off after the March outage, and honestly I want to start by just saying \u2014 I think you both crushed it.",
+      "speaker_name": "Chris Lee",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 22.5,
+      "endTime": 37.3,
+      "averageConfidence": 0.94,
+      "index": 3
+    },
+    {
+      "sentence": "Yeah it feels good to finally be on the other side of that honestly, like March was... rough.",
+      "speaker_name": "Tyler Washington",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 38.0,
+      "endTime": 44.4,
+      "averageConfidence": 0.94,
+      "index": 4
+    },
+    {
+      "sentence": "It really was, man. Six hours of no threat visibility \u2014 I don't think I slept great the whole week after that.",
+      "speaker_name": "Ravi Gupta",
+      "sentimentType": "negative",
+      "speaker_id": 2,
+      "time": 45.9,
+      "endTime": 54.0,
+      "averageConfidence": 0.93,
+      "index": 5
+    },
+    {
+      "sentence": "Right, and that's exactly why I wanted to make sure we took the time to actually celebrate what came out of this sprint, because the redundant processing nodes, the circuit breaker implementation \u2014 that's not trivial work, and you both shipped it clean.",
+      "speaker_name": "Chris Lee",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 54.9,
+      "endTime": 70.1,
+      "averageConfidence": 0.94,
+      "index": 6
+    },
+    {
+      "sentence": "The circuit breaker pattern was honestly the piece I was most nervous about, like getting the threshold tuning right without introducing a bunch of false trips \u2014 that took a few iterations.",
+      "speaker_name": "Tyler Washington",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 70.7,
+      "endTime": 81.8,
+      "averageConfidence": 0.89,
+      "index": 7
+    },
+    {
+      "sentence": "Yeah Tyler and I went back and forth on that a lot, I think we went through like three different threshold configs before we landed on something that felt right.",
+      "speaker_name": "Ravi Gupta",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 82.4,
+      "endTime": 93.4,
+      "averageConfidence": 0.94,
+      "index": 8
+    },
+    {
+      "sentence": "And how do you both feel about where it landed? Like are you confident in it?",
+      "speaker_name": "Chris Lee",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 94.6,
+      "endTime": 100.0,
+      "averageConfidence": 0.91,
+      "index": 9
+    },
+    {
+      "sentence": "Yeah, honestly yeah. I ran the load simulation again last Thursday and it held up really well, the breaker tripped when it was supposed to and recovered cleanly. I'm feeling good about it.",
+      "speaker_name": "Tyler Washington",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 100.5,
+      "endTime": 111.8,
+      "averageConfidence": 0.89,
+      "index": 10
+    },
+    {
+      "sentence": "Same, and the redundant nodes are actually performing better than I expected in terms of failover time. We were targeting under thirty seconds and we're consistently hitting like twelve, fourteen seconds in testing.",
+      "speaker_name": "Ravi Gupta",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 112.5,
+      "endTime": 124.0,
+      "averageConfidence": 0.9,
+      "index": 11
+    },
+    {
+      "sentence": "Wait, twelve seconds? That's \u2014 okay that's really good, that's way better than what we scoped out.",
+      "speaker_name": "Chris Lee",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 124.8,
+      "endTime": 130.8,
+      "averageConfidence": 0.9,
+      "index": 12
+    },
+    {
+      "sentence": "Yeah, Ravi deserves credit for that honestly, he made some changes to how the node health checks are structured that I think made a big difference.",
+      "speaker_name": "Tyler Washington",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 131.9,
+      "endTime": 140.8,
+      "averageConfidence": 0.91,
+      "index": 13
+    },
+    {
+      "sentence": "Aw come on, Tyler helped debug the whole handoff logic, like that was a team thing.",
+      "speaker_name": "Ravi Gupta",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 141.9,
+      "endTime": 147.7,
+      "averageConfidence": 0.93,
+      "index": 14
+    },
+    {
+      "sentence": "Okay you two are going to make me tear up over here \u2014 this is great, seriously. Let's talk about what we want to document out of this sprint because I think there are some really learnable patterns here for the rest of the org.",
+      "speaker_name": "Chris Lee",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 148.6,
+      "endTime": 164.3,
+      "averageConfidence": 0.92,
+      "index": 15
+    },
+    {
+      "sentence": "For sure, I mean the single point of failure thing is not unique to Detect, right, like I was looking at some of the Protect team's architecture and I had some... thoughts.",
+      "speaker_name": "Tyler Washington",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 165.3,
+      "endTime": 176.8,
+      "averageConfidence": 0.92,
+      "index": 16
+    },
+    {
+      "sentence": "Ha, yeah I mean we don't want to step on anyone's toes but like \u2014 sharing what we learned is fair game.",
+      "speaker_name": "Ravi Gupta",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 178.1,
+      "endTime": 185.8,
+      "averageConfidence": 0.89,
+      "index": 17
+    },
+    {
+      "sentence": "Yeah I'll set up a knowledge share with the broader engineering group, maybe in a couple weeks once we have our runbook polished up. Tyler, would you be willing to present the circuit breaker stuff?",
+      "speaker_name": "Chris Lee",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 186.7,
+      "endTime": 199.4,
+      "averageConfidence": 0.91,
+      "index": 18
+    },
+    {
+      "sentence": "Yeah absolutely, I could put together a quick deck or \u2014 honestly it might be better as a live walkthrough of the implementation, just so people can ask questions.",
+      "speaker_name": "Tyler Washington",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 200.9,
+      "endTime": 211.5,
+      "averageConfidence": 0.92,
+      "index": 19
+    },
+    {
+      "sentence": "Live walkthrough is better, a hundred percent. People zone out on decks.",
+      "speaker_name": "Ravi Gupta",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 212.7,
+      "endTime": 216.8,
+      "averageConfidence": 0.96,
+      "index": 20
+    },
+    {
+      "sentence": "Agreed, okay let's plan on that. Now \u2014 what about the monitoring gaps we identified? Ravi, I know you had some thoughts there.",
+      "speaker_name": "Chris Lee",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 218.3,
+      "endTime": 226.1,
+      "averageConfidence": 0.91,
+      "index": 21
+    },
+    {
+      "sentence": "Yeah so, one of the things that made March so bad was that we didn't have great alerting on the event ingestion pipeline itself \u2014 like we were monitoring outputs but not really the pipeline health in between, and I think we need to close that gap.",
+      "speaker_name": "Ravi Gupta",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 226.9,
+      "endTime": 243.3,
+      "averageConfidence": 0.88,
+      "index": 22
+    },
+    {
+      "sentence": "That's a hundred percent right, and actually I started sketching out what a pipeline health dashboard could look like, I can share my screen real quick if you want to see it.",
+      "speaker_name": "Tyler Washington",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 244.4,
+      "endTime": 256.0,
+      "averageConfidence": 0.88,
+      "index": 23
+    },
+    {
+      "sentence": "Yeah please, let's see it.",
+      "speaker_name": "Chris Lee",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 256.8,
+      "endTime": 258.9,
+      "averageConfidence": 0.97,
+      "index": 24
+    },
+    {
+      "sentence": "Okay so, um, bear with me, I did this kind of quickly \u2014 but the idea is basically real-time visibility into queue depth, node throughput, and then circuit breaker state all in one view.",
+      "speaker_name": "Tyler Washington",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 260.1,
+      "endTime": 272.5,
+      "averageConfidence": 0.95,
+      "index": 25
+    },
+    {
+      "sentence": "Oh that's clean, I like that. Can we add latency percentiles there too? Like p95, p99?",
+      "speaker_name": "Ravi Gupta",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 273.7,
+      "endTime": 279.7,
+      "averageConfidence": 0.9,
+      "index": 26
+    },
+    {
+      "sentence": "Yeah for sure, that's an easy add. I just didn't want to over-engineer the first draft.",
+      "speaker_name": "Tyler Washington",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 280.9,
+      "endTime": 286.9,
+      "averageConfidence": 0.9,
+      "index": 27
+    },
+    {
+      "sentence": "No this is great Tyler, this is exactly the kind of proactive stuff I want to see. Let's make this a formal item in the next sprint. Can you write it up as a ticket today?",
+      "speaker_name": "Chris Lee",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 287.4,
+      "endTime": 299.9,
+      "averageConfidence": 0.95,
+      "index": 28
+    },
+    {
+      "sentence": "Yeah I'll have it in Jira before EOD.",
+      "speaker_name": "Tyler Washington",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 301.1,
+      "endTime": 304.2,
+      "averageConfidence": 0.89,
+      "index": 29
+    },
+    {
+      "sentence": "Perfect. Okay, last thing \u2014 and I want to get your honest takes on this \u2014 how did the sprint itself feel to run? Like the process, the planning, all of it.",
+      "speaker_name": "Chris Lee",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 304.6,
+      "endTime": 316.0,
+      "averageConfidence": 0.95,
+      "index": 30
+    },
+    {
+      "sentence": "Honestly? One of the better sprints I've had in a while. Like yeah it was stressful because of why we were doing it, but the scope was really clear, we knew what we were trying to fix, and we weren't getting pulled in a million directions.",
+      "speaker_name": "Ravi Gupta",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 316.4,
+      "endTime": 332.2,
+      "averageConfidence": 0.89,
+      "index": 31
+    },
+    {
+      "sentence": "Yeah I'd echo that. Having the explicit reliability focus and not having feature work mixed in \u2014 that made a huge difference for being able to just like, think deeply about the problem.",
+      "speaker_name": "Tyler Washington",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 332.9,
+      "endTime": 344.9,
+      "averageConfidence": 0.92,
+      "index": 32
+    },
+    {
+      "sentence": "That's really good to hear, and honestly it's something I want to push for more regularly \u2014 like maybe a reliability-focused sprint once a quarter even when we're not in crisis mode.",
+      "speaker_name": "Chris Lee",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 345.6,
+      "endTime": 356.7,
+      "averageConfidence": 0.96,
+      "index": 33
+    },
+    {
+      "sentence": "Yes, please. I have been wanting to propose that for a while honestly.",
+      "speaker_name": "Ravi Gupta",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 357.9,
+      "endTime": 362.5,
+      "averageConfidence": 0.9,
+      "index": 34
+    },
+    {
+      "sentence": "Let's make it official then, I'll loop in leadership. Alright, I think that's everything \u2014 great work you two, genuinely. March feels very far away right now.",
+      "speaker_name": "Chris Lee",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 363.4,
+      "endTime": 372.6,
+      "averageConfidence": 0.96,
+      "index": 35
+    },
+    {
+      "sentence": "Agreed, and hey \u2014 the Comply v2 launch went great last week too so like, good vibes all around at Aegis right now.",
+      "speaker_name": "Tyler Washington",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 374.0,
+      "endTime": 382.6,
+      "averageConfidence": 0.96,
+      "index": 36
+    },
+    {
+      "sentence": "Ha, let's keep the momentum going. Thanks everyone, I'll send out the retro notes by end of week.",
+      "speaker_name": "Chris Lee",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 383.2,
+      "endTime": 389.9,
+      "averageConfidence": 0.89,
+      "index": 37
+    },
+    {
+      "sentence": "Sounds good, thanks Chris.",
+      "speaker_name": "Ravi Gupta",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 390.7,
+      "endTime": 392.4,
+      "averageConfidence": 0.94,
+      "index": 38
+    }
+  ]
+}

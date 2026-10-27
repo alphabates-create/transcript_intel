@@ -1,0 +1,38 @@
+[
+  {
+    "participantName": "Brian Cho",
+    "timestamp": 1773653406000,
+    "type": "Join",
+    "time": 6.0
+  },
+  {
+    "participantName": "Raj Kapoor",
+    "timestamp": 1773653417000,
+    "type": "Join",
+    "time": 17.0
+  },
+  {
+    "participantName": "Megan Lawson",
+    "timestamp": 1773653442000,
+    "type": "Join",
+    "time": 42.0
+  },
+  {
+    "participantName": "Megan Lawson",
+    "timestamp": 1773655488000,
+    "type": "Leave",
+    "time": 2088.0
+  },
+  {
+    "participantName": "Raj Kapoor",
+    "timestamp": 1773655486000,
+    "type": "Leave",
+    "time": 2086.0
+  },
+  {
+    "participantName": "Brian Cho",
+    "timestamp": 1773655490000,
+    "type": "Leave",
+    "time": 2090.0
+  }
+]

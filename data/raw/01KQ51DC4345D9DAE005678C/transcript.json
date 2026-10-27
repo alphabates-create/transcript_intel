@@ -1,0 +1,414 @@
+{
+  "data": [
+    {
+      "sentence": "Alright, I think we're all on now \u2014 Thomas, can you hear us okay?",
+      "speaker_name": "Daniel Okafor",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 4.3,
+      "endTime": 9.4,
+      "averageConfidence": 0.9,
+      "index": 0
+    },
+    {
+      "sentence": "Yeah, loud and clear. Good to go.",
+      "speaker_name": "Thomas Hargrove",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 10.0,
+      "endTime": 12.7,
+      "averageConfidence": 0.96,
+      "index": 1
+    },
+    {
+      "sentence": "Great, great. So, Thomas, thanks for making time today \u2014 I know February is always kind of a weird month for healthcare IT, end of quarter planning and all that.",
+      "speaker_name": "Daniel Okafor",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 13.8,
+      "endTime": 24.5,
+      "averageConfidence": 0.91,
+      "index": 2
+    },
+    {
+      "sentence": "Ha, yeah, you could say that. We've got our annual risk assessment coming up in March so the timing is actually... it's fine, this is relevant for us.",
+      "speaker_name": "Thomas Hargrove",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 25.6,
+      "endTime": 35.3,
+      "averageConfidence": 0.9,
+      "index": 3
+    },
+    {
+      "sentence": "Oh good, I'm glad to hear that. And I'll just introduce Lisa here \u2014 she's been on your account for a few months now and she's really the one who flagged that we should get this session on the calendar.",
+      "speaker_name": "Daniel Okafor",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 36.5,
+      "endTime": 50.4,
+      "averageConfidence": 0.88,
+      "index": 4
+    },
+    {
+      "sentence": "Hi Thomas, yeah we've exchanged a few emails but I don't think we've actually spoken live before so it's nice to properly connect.",
+      "speaker_name": "Lisa Park",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 51.3,
+      "endTime": 59.8,
+      "averageConfidence": 0.93,
+      "index": 5
+    },
+    {
+      "sentence": "Same, yeah. Good to put a voice to the name.",
+      "speaker_name": "Thomas Hargrove",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 61.3,
+      "endTime": 65.1,
+      "averageConfidence": 0.95,
+      "index": 6
+    },
+    {
+      "sentence": "So Thomas, the reason we wanted to set this up \u2014 and feel free to just, you know, kind of take it wherever you want \u2014 is we've been collecting feature feedback from customers in the healthcare vertical specifically around Aegis Comply, and your name actually came up a couple times when our team was going through support tickets and conversations.",
+      "speaker_name": "Daniel Okafor",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 66.5,
+      "endTime": 87.8,
+      "averageConfidence": 0.94,
+      "index": 7
+    },
+    {
+      "sentence": "Yeah, no, that makes sense. Our team has been using Comply for, I want to say, about eight months now? And we have some thoughts.",
+      "speaker_name": "Thomas Hargrove",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 88.6,
+      "endTime": 97.6,
+      "averageConfidence": 0.93,
+      "index": 8
+    },
+    {
+      "sentence": "That's exactly what we want to hear \u2014 good, bad, in between. We're not here to pitch anything, this is genuinely a feedback session.",
+      "speaker_name": "Lisa Park",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 98.1,
+      "endTime": 106.9,
+      "averageConfidence": 0.9,
+      "index": 9
+    },
+    {
+      "sentence": "Okay, well \u2014 so the main thing, and this has been a recurring pain point for us, is around HIPAA reporting specifically. The current reporting in Comply is... it's okay, but it's pretty static. Like we can pull the report but there's no real way to drill down into specific control areas without basically exporting everything and doing it manually in Excel.",
+      "speaker_name": "Thomas Hargrove",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 107.3,
+      "endTime": 129.3,
+      "averageConfidence": 0.92,
+      "index": 10
+    },
+    {
+      "sentence": "Right, okay. Can you walk me through what that looks like in practice? Like what's the actual workflow that's breaking down?",
+      "speaker_name": "Lisa Park",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 129.7,
+      "endTime": 137.1,
+      "averageConfidence": 0.97,
+      "index": 11
+    },
+    {
+      "sentence": "Sure. So, when our compliance officer \u2014 her name's Priya \u2014 when she needs to prep for an audit, she's going into Comply, pulling the HIPAA report, and it gives her this flat document basically. But if the auditor comes back and says hey, we want to look specifically at, um, access controls or encryption standards, she has to go back through the whole thing and find those sections manually. There's no way to filter or generate a focused view on a specific control family.",
+      "speaker_name": "Thomas Hargrove",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 138.0,
+      "endTime": 168.2,
+      "averageConfidence": 0.94,
+      "index": 12
+    },
+    {
+      "sentence": "Got it, yeah. So it's more of a navigation and filtering issue within the report output rather than the data itself being wrong.",
+      "speaker_name": "Daniel Okafor",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 168.8,
+      "endTime": 176.8,
+      "averageConfidence": 0.93,
+      "index": 13
+    },
+    {
+      "sentence": "Correct. The data is \u2014 I mean, mostly accurate, we've had a couple discrepancies but nothing major. It's more that the format isn't practical for how audits actually work. Auditors don't look at everything at once, they come in with specific questions.",
+      "speaker_name": "Thomas Hargrove",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 177.4,
+      "endTime": 192.2,
+      "averageConfidence": 0.95,
+      "index": 14
+    },
+    {
+      "sentence": "That's a really useful distinction, thank you. And I want to make sure I'm capturing this right \u2014 is this specific to HIPAA or are you seeing the same issue with any other frameworks you're running reports against?",
+      "speaker_name": "Lisa Park",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 192.8,
+      "endTime": 206.1,
+      "averageConfidence": 0.93,
+      "index": 15
+    },
+    {
+      "sentence": "Honestly we're primarily on HIPAA and SOC 2. SOC 2 has the same problem but HIPAA is where it hurts more because the audits are more frequent and the stakes are higher, obviously.",
+      "speaker_name": "Thomas Hargrove",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 206.8,
+      "endTime": 218.8,
+      "averageConfidence": 0.93,
+      "index": 16
+    },
+    {
+      "sentence": "Makes sense. And I should mention \u2014 and I don't want to get too far ahead of myself here \u2014 but we do have a Comply update in the pipeline and on-demand reporting with more granular control filtering is something that's been discussed internally. I can't give you a hard date today but it's on the roadmap.",
+      "speaker_name": "Daniel Okafor",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 219.2,
+      "endTime": 239.2,
+      "averageConfidence": 0.93,
+      "index": 17
+    },
+    {
+      "sentence": "Okay. I mean, I've heard 'on the roadmap' before so I'll believe it when I see it, but \u2014 that's good to know.",
+      "speaker_name": "Thomas Hargrove",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 240.5,
+      "endTime": 248.8,
+      "averageConfidence": 0.9,
+      "index": 18
+    },
+    {
+      "sentence": "Fair enough, totally fair. We'll follow up with something more concrete once we have it.",
+      "speaker_name": "Daniel Okafor",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 249.4,
+      "endTime": 255.0,
+      "averageConfidence": 0.93,
+      "index": 19
+    },
+    {
+      "sentence": "The other thing I wanted to flag \u2014 and this is maybe more of a workflow request than a feature request \u2014 is around how the reports are shared internally. Right now whoever pulls the report kind of has to manually distribute it. Is there any plan for scheduled report delivery? Like email distribution to specific stakeholders on a cadence?",
+      "speaker_name": "Thomas Hargrove",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 255.6,
+      "endTime": 276.6,
+      "averageConfidence": 0.9,
+      "index": 20
+    },
+    {
+      "sentence": "Scheduled delivery, like automated sends \u2014 yeah, that's something I've actually heard from a few other customers too. Lisa, do you know if that's been formally submitted to product?",
+      "speaker_name": "Daniel Okafor",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 277.8,
+      "endTime": 288.1,
+      "averageConfidence": 0.93,
+      "index": 21
+    },
+    {
+      "sentence": "I believe it has been submitted, yeah. I'll double-check after this call and I can send you what I find, Thomas. It may already be tracking somewhere.",
+      "speaker_name": "Lisa Park",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 289.4,
+      "endTime": 299.1,
+      "averageConfidence": 0.91,
+      "index": 22
+    },
+    {
+      "sentence": "That'd be helpful. Priya has been asking about that specifically \u2014 she wants to be able to set it and forget it basically, have the monthly compliance summary go to our CISO and our legal team without her having to remember to pull and send it.",
+      "speaker_name": "Thomas Hargrove",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 300.6,
+      "endTime": 316.4,
+      "averageConfidence": 0.89,
+      "index": 23
+    },
+    {
+      "sentence": "Yeah, that's a completely reasonable ask. The manual overhead on something like that adds up fast especially when you're already stretched thin.",
+      "speaker_name": "Lisa Park",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 316.7,
+      "endTime": 324.4,
+      "averageConfidence": 0.94,
+      "index": 24
+    },
+    {
+      "sentence": "Exactly. And one more thing \u2014 and this is kind of related \u2014 when we generate a HIPAA report right now, there's no executive summary section. Like, the CISO doesn't want to read thirty pages of controls, she wants a one-page summary of where we stand, what the gaps are, and whether anything has changed since last month. Is that something that's been considered?",
+      "speaker_name": "Thomas Hargrove",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 325.3,
+      "endTime": 347.7,
+      "averageConfidence": 0.9,
+      "index": 25
+    },
+    {
+      "sentence": "An executive summary layer, yeah. That's \u2014 honestly that's a really specific and useful piece of feedback. Is the gap tracking piece important too, like showing delta from a previous report period?",
+      "speaker_name": "Daniel Okafor",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 348.9,
+      "endTime": 359.8,
+      "averageConfidence": 0.89,
+      "index": 26
+    },
+    {
+      "sentence": "Yes, absolutely. That's actually more important than the summary itself in some ways. Right now we have no way to tell from within the tool whether our posture has improved or degraded month over month. We're tracking that manually in a spreadsheet which is... not ideal.",
+      "speaker_name": "Thomas Hargrove",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 360.9,
+      "endTime": 377.1,
+      "averageConfidence": 0.9,
+      "index": 27
+    },
+    {
+      "sentence": "Yeah, I can imagine. Okay \u2014 so to kind of recap what I'm hearing: granular filtering by control family within reports, scheduled automated delivery to stakeholders, an executive summary layer, and period-over-period delta tracking. Did I get that right?",
+      "speaker_name": "Lisa Park",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 378.5,
+      "endTime": 392.3,
+      "averageConfidence": 0.97,
+      "index": 28
+    },
+    {
+      "sentence": "Yeah, that's the list. I'd rank them in that order of priority too if that helps.",
+      "speaker_name": "Thomas Hargrove",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 392.8,
+      "endTime": 398.1,
+      "averageConfidence": 0.91,
+      "index": 29
+    },
+    {
+      "sentence": "Super helpful, yes. Priority ranking is actually really useful for our product team when they're scoping things.",
+      "speaker_name": "Lisa Park",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 399.2,
+      "endTime": 405.4,
+      "averageConfidence": 0.95,
+      "index": 30
+    },
+    {
+      "sentence": "I do want to ask \u2014 are you evaluating any other compliance tools? Just so we have a sense of the landscape from your perspective.",
+      "speaker_name": "Daniel Okafor",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 406.5,
+      "endTime": 415.1,
+      "averageConfidence": 0.9,
+      "index": 31
+    },
+    {
+      "sentence": "We've looked at a couple things. VaultEdge came up in a conversation internally but nothing serious \u2014 we're pretty invested in the Aegis platform at this point and we're not looking to rip and replace. But, you know, if the gaps in Comply don't get addressed, it's a conversation we'd have to have eventually.",
+      "speaker_name": "Thomas Hargrove",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 415.5,
+      "endTime": 434.4,
+      "averageConfidence": 0.89,
+      "index": 32
+    },
+    {
+      "sentence": "Understood, and I appreciate you being direct about that. That's exactly the kind of context that helps us make the case internally for prioritization.",
+      "speaker_name": "Daniel Okafor",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 435.5,
+      "endTime": 443.9,
+      "averageConfidence": 0.95,
+      "index": 33
+    },
+    {
+      "sentence": "I'll also just say \u2014 our experience with the platform overall has been solid. Protect has been reliable for us, Identity is working well. Comply is really the one area where we feel like it's a little behind.",
+      "speaker_name": "Thomas Hargrove",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 445.4,
+      "endTime": 459.0,
+      "averageConfidence": 0.95,
+      "index": 34
+    },
+    {
+      "sentence": "Good to hear on Protect and Identity, and noted on Comply. We'll make sure this feedback gets into the right hands.",
+      "speaker_name": "Lisa Park",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 460.1,
+      "endTime": 467.3,
+      "averageConfidence": 0.9,
+      "index": 35
+    },
+    {
+      "sentence": "So in terms of next steps \u2014 Lisa, can you send Thomas a summary of what we captured today and also follow up on the scheduled delivery question?",
+      "speaker_name": "Daniel Okafor",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 468.6,
+      "endTime": 478.1,
+      "averageConfidence": 0.97,
+      "index": 36
+    },
+    {
+      "sentence": "Yep, I'll send that over by end of this week. Thomas, I'll also loop in our product liaison \u2014 her name is Ren \u2014 who handles the healthcare vertical. She may want to do a brief follow-up call to get a bit more detail on the control filtering use case specifically.",
+      "speaker_name": "Lisa Park",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 478.9,
+      "endTime": 496.6,
+      "averageConfidence": 0.9,
+      "index": 37
+    },
+    {
+      "sentence": "That's fine. Happy to talk to her. As long as it doesn't turn into a sales call \u2014 I've had enough of those this quarter.",
+      "speaker_name": "Thomas Hargrove",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 497.9,
+      "endTime": 506.4,
+      "averageConfidence": 0.9,
+      "index": 38
+    },
+    {
+      "sentence": "Ha \u2014 no, I promise, strictly product. Alright Thomas, really appreciate your time today. This was genuinely useful.",
+      "speaker_name": "Daniel Okafor",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 507.9,
+      "endTime": 514.2,
+      "averageConfidence": 0.89,
+      "index": 39
+    },
+    {
+      "sentence": "Yeah, same. Good conversation. Talk soon.",
+      "speaker_name": "Thomas Hargrove",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 515.3,
+      "endTime": 517.5,
+      "averageConfidence": 0.94,
+      "index": 40
+    }
+  ]
+}

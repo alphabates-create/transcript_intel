@@ -1,0 +1,414 @@
+{
+  "data": [
+    {
+      "sentence": "Thank you for calling Aegis Cloud Security support, this is Marcus Williams, how can I help you today?",
+      "speaker_name": "Marcus Williams",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 7.5,
+      "endTime": 13.7,
+      "averageConfidence": 0.95,
+      "index": 0
+    },
+    {
+      "sentence": "Marcus, hi, this is Julia Tran from Blackridge Investments and I need you to understand right now that this is a critical, critical situation \u2014 we have zero threat visibility, zero, and it has been that way for over three hours.",
+      "speaker_name": "Julia Tran",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 14.2,
+      "endTime": 28.9,
+      "averageConfidence": 0.96,
+      "index": 1
+    },
+    {
+      "sentence": "Okay, Julia, I hear you, I'm pulling up your account right now \u2014 can you give me your account ID or the email on file so I can get in faster?",
+      "speaker_name": "Marcus Williams",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 30.1,
+      "endTime": 41.2,
+      "averageConfidence": 0.92,
+      "index": 2
+    },
+    {
+      "sentence": "It's Blackridge Investments, B-L-A-C-K-R-I-D-G-E, account number BRI-04471, and I also already submitted a ticket, ticket number... uh, I have it here somewhere \u2014 it's AGS-229183.",
+      "speaker_name": "Julia Tran",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 42.3,
+      "endTime": 51.0,
+      "averageConfidence": 0.91,
+      "index": 3
+    },
+    {
+      "sentence": "Got it, pulling up AGS-229183 right now, okay I see the ticket came in about... forty minutes ago, and I can see you've flagged it P1 which is absolutely appropriate, let me just get into your Detect dashboard here.",
+      "speaker_name": "Marcus Williams",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 51.7,
+      "endTime": 65.4,
+      "averageConfidence": 0.91,
+      "index": 4
+    },
+    {
+      "sentence": "Forty minutes ago \u2014 Marcus, I have been trying to get someone on the phone for forty minutes, do you understand what it means for a financial services firm to have no threat monitoring? We are a target, we are constantly a target, and right now we are essentially flying blind.",
+      "speaker_name": "Julia Tran",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 66.5,
+      "endTime": 84.3,
+      "averageConfidence": 0.92,
+      "index": 5
+    },
+    {
+      "sentence": "You're absolutely right and I sincerely apologize for the wait time, that is not acceptable and I'm going to flag that separately, but right now my full focus is on getting your visibility restored \u2014 can you describe exactly what you're seeing on your end? Like, are you getting any events at all or is it completely flat?",
+      "speaker_name": "Marcus Williams",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 85.7,
+      "endTime": 106.3,
+      "averageConfidence": 0.95,
+      "index": 6
+    },
+    {
+      "sentence": "Completely flat. The event feed in Aegis Detect, it just... stopped. No alerts, no events, nothing. The last event we see in the dashboard is timestamped at 7:14 AM this morning and it is now almost 10:30 and I have a team of analysts sitting here staring at a dead screen.",
+      "speaker_name": "Julia Tran",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 107.5,
+      "endTime": 125.3,
+      "averageConfidence": 0.91,
+      "index": 7
+    },
+    {
+      "sentence": "Okay, 7:14 AM, so that's roughly three hours and fifteen minutes of no event ingestion, and this is across all your event sources or is it specific to certain integrations?",
+      "speaker_name": "Marcus Williams",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 125.8,
+      "endTime": 136.1,
+      "averageConfidence": 0.95,
+      "index": 8
+    },
+    {
+      "sentence": "Everything. CloudPrime CloudTrail, our on-prem SIEM feed, our endpoint agents \u2014 all of it. It's not an integration issue, everything on our side is green, logs are generating, I can confirm that, it's something on your end.",
+      "speaker_name": "Julia Tran",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 137.4,
+      "endTime": 150.1,
+      "averageConfidence": 0.93,
+      "index": 9
+    },
+    {
+      "sentence": "Understood, and uh \u2014 I want to be transparent with you, Julia. I'm looking at our internal monitoring right now and I am seeing... okay, yeah, there is a known issue with the Detect event processing pipeline that our engineering team is actively working on.",
+      "speaker_name": "Marcus Williams",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 151.0,
+      "endTime": 167.1,
+      "averageConfidence": 0.9,
+      "index": 10
+    },
+    {
+      "sentence": "A known issue? A KNOWN issue? Why was I not notified? Why did I have to call in and wait forty minutes to find out there is a known issue? This is \u2014 I'm sorry, I'm trying to stay calm here but this is completely unacceptable.",
+      "speaker_name": "Julia Tran",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 167.7,
+      "endTime": 183.7,
+      "averageConfidence": 0.9,
+      "index": 11
+    },
+    {
+      "sentence": "That is a completely fair and valid point and I \u2014 I don't have a good answer for why proactive communication didn't go out sooner and I own that on behalf of Aegis, that should have happened.",
+      "speaker_name": "Marcus Williams",
+      "sentimentType": "negative",
+      "speaker_id": 0,
+      "time": 184.7,
+      "endTime": 197.8,
+      "averageConfidence": 0.91,
+      "index": 12
+    },
+    {
+      "sentence": "So what is the issue exactly? What is wrong with the pipeline? And more importantly when is it going to be fixed because I need a number, I need an ETA right now.",
+      "speaker_name": "Julia Tran",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 199.2,
+      "endTime": 211.1,
+      "averageConfidence": 0.95,
+      "index": 13
+    },
+    {
+      "sentence": "So what I can see from our internal status is that there was a cascading failure in the event ingestion layer \u2014 it looks like a single component went down and it took the rest of the processing queue with it, engineering is working on isolating and restarting the affected nodes.",
+      "speaker_name": "Marcus Williams",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 211.9,
+      "endTime": 230.1,
+      "averageConfidence": 0.95,
+      "index": 14
+    },
+    {
+      "sentence": "A single component took down the whole thing? There's no redundancy? I mean \u2014 are you serious? We are paying for an enterprise security platform and there is a single point of failure in the core monitoring pipeline?",
+      "speaker_name": "Julia Tran",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 230.9,
+      "endTime": 244.2,
+      "averageConfidence": 0.93,
+      "index": 15
+    },
+    {
+      "sentence": "I \u2014 yeah, I understand why that is alarming and frankly it is a legitimate architectural concern that I know our engineering leadership is going to have to answer for, I'm not going to try to spin that.",
+      "speaker_name": "Marcus Williams",
+      "sentimentType": "negative",
+      "speaker_id": 0,
+      "time": 244.7,
+      "endTime": 257.8,
+      "averageConfidence": 0.97,
+      "index": 16
+    },
+    {
+      "sentence": "How long has this been affecting customers? Is it just us or is this broader?",
+      "speaker_name": "Julia Tran",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 259.2,
+      "endTime": 264.9,
+      "averageConfidence": 0.96,
+      "index": 17
+    },
+    {
+      "sentence": "It appears to be affecting multiple customers on the same processing cluster, so no, it's not just Blackridge, but I want to be clear that doesn't make it better \u2014 it actually makes it worse from an impact standpoint.",
+      "speaker_name": "Marcus Williams",
+      "sentimentType": "negative",
+      "speaker_id": 0,
+      "time": 265.9,
+      "endTime": 279.3,
+      "averageConfidence": 0.88,
+      "index": 18
+    },
+    {
+      "sentence": "Multiple customers. Multiple customers with no threat visibility. In financial services. Marcus, I need you to get me an ETA and I need you to escalate this to your highest level right now, like I want to talk to a manager, I want to talk to whoever owns this incident.",
+      "speaker_name": "Julia Tran",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 280.5,
+      "endTime": 297.7,
+      "averageConfidence": 0.94,
+      "index": 19
+    },
+    {
+      "sentence": "Yes, absolutely, I am escalating this to our P1 incident team right now as we speak and I will get you a direct line to our senior incident manager \u2014 I'm also going to stay on this call with you so you're not bounced around.",
+      "speaker_name": "Marcus Williams",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 298.2,
+      "endTime": 313.7,
+      "averageConfidence": 0.9,
+      "index": 20
+    },
+    {
+      "sentence": "Okay, and while we're waiting \u2014 I have to be honest with you, Marcus, and I want you to pass this up the chain \u2014 we have been evaluating SentinelShield for the past couple months as a potential alternative and right now, today, this is making that decision very easy.",
+      "speaker_name": "Julia Tran",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 314.2,
+      "endTime": 331.8,
+      "averageConfidence": 0.94,
+      "index": 21
+    },
+    {
+      "sentence": "I hear you, and I'm not going to try to do a sales pitch right now because that would be tone deaf \u2014 what I will say is that I want us to earn your trust back and that starts with fixing this, right now, today.",
+      "speaker_name": "Marcus Williams",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 332.1,
+      "endTime": 348.7,
+      "averageConfidence": 0.94,
+      "index": 22
+    },
+    {
+      "sentence": "We have a board meeting next week where I have to present on our security posture and I was planning to highlight our Aegis deployment as a strength \u2014 now I'm going to have to explain why we had a multi-hour blind spot in our threat monitoring and that is not a conversation I want to have.",
+      "speaker_name": "Julia Tran",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 350.1,
+      "endTime": 369.7,
+      "averageConfidence": 0.92,
+      "index": 23
+    },
+    {
+      "sentence": "And that is \u2014 look, I'm really sorry you're in that position, and something I can help with is making sure you have a full incident report with timeline, root cause, and remediation steps that you can bring to that board meeting, that's something we can absolutely provide.",
+      "speaker_name": "Marcus Williams",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 370.7,
+      "endTime": 387.2,
+      "averageConfidence": 0.93,
+      "index": 24
+    },
+    {
+      "sentence": "That would be helpful, yes, I'll need that in writing, and I want our account executive looped in too because there are going to be SLA conversations that need to happen.",
+      "speaker_name": "Julia Tran",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 388.4,
+      "endTime": 399.1,
+      "averageConfidence": 0.94,
+      "index": 25
+    },
+    {
+      "sentence": "Completely understood, I'm noting all of that \u2014 formal incident report, AE looped in, SLA review \u2014 all of that is going on the ticket right now.",
+      "speaker_name": "Marcus Williams",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 400.0,
+      "endTime": 409.5,
+      "averageConfidence": 0.9,
+      "index": 26
+    },
+    {
+      "sentence": "And Marcus, in the meantime, what are we supposed to do? Like, what is your recommendation for us right now? Do we have any interim visibility at all?",
+      "speaker_name": "Julia Tran",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 411.0,
+      "endTime": 421.2,
+      "averageConfidence": 0.9,
+      "index": 27
+    },
+    {
+      "sentence": "So in terms of interim steps \u2014 your raw logs are still being generated on your sources, which you mentioned, so your team can monitor those directly as a stopgap, I know that's painful and manual but it's something, and I'd also recommend pulling your last 24-hour threat summary from before the outage to have a baseline.",
+      "speaker_name": "Marcus Williams",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 422.1,
+      "endTime": 442.3,
+      "averageConfidence": 0.91,
+      "index": 28
+    },
+    {
+      "sentence": "Yeah, we're already doing that, we've had two analysts manually reviewing CloudTrail for the last two hours \u2014 that's two people pulled off other work to compensate for your platform being down.",
+      "speaker_name": "Julia Tran",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 442.9,
+      "endTime": 454.4,
+      "averageConfidence": 0.97,
+      "index": 29
+    },
+    {
+      "sentence": "And that operational impact is going to be part of the SLA conversation, I'm documenting it.",
+      "speaker_name": "Marcus Williams",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 454.8,
+      "endTime": 460.5,
+      "averageConfidence": 0.94,
+      "index": 30
+    },
+    {
+      "sentence": "Okay \u2014 do you have any update from engineering yet? Any ETA at all?",
+      "speaker_name": "Julia Tran",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 461.1,
+      "endTime": 465.9,
+      "averageConfidence": 0.89,
+      "index": 31
+    },
+    {
+      "sentence": "I'm checking the internal incident channel right now and... okay, engineering is saying they've isolated the failed node and are in the process of restarting the processing queue, they're estimating restoration within the next two hours, but I want to be careful about that number because they're still in active remediation.",
+      "speaker_name": "Marcus Williams",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 467.2,
+      "endTime": 485.5,
+      "averageConfidence": 0.88,
+      "index": 32
+    },
+    {
+      "sentence": "Two more hours. So potentially five-plus hours total of no threat monitoring. I just \u2014 I want to make sure that is in writing somewhere because that is five hours of SLA breach and I will be referencing that.",
+      "speaker_name": "Julia Tran",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 486.6,
+      "endTime": 500.3,
+      "averageConfidence": 0.92,
+      "index": 33
+    },
+    {
+      "sentence": "It is documented, I'm timestamping everything in the ticket and I'll make sure the incident report captures the full outage window from 7:14 AM through restoration.",
+      "speaker_name": "Marcus Williams",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 501.1,
+      "endTime": 510.4,
+      "averageConfidence": 0.89,
+      "index": 34
+    },
+    {
+      "sentence": "And what happens to events that were supposed to be ingested during the outage window \u2014 are those just lost? Or will they be backfilled?",
+      "speaker_name": "Julia Tran",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 511.5,
+      "endTime": 520.6,
+      "averageConfidence": 0.91,
+      "index": 35
+    },
+    {
+      "sentence": "That is a really important question and I want to get you a definitive answer from engineering rather than guess \u2014 my understanding is that events queued during the outage should be recoverable and backfilled once the pipeline is restored, but I will confirm that explicitly and follow up in writing.",
+      "speaker_name": "Marcus Williams",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 521.7,
+      "endTime": 540.0,
+      "averageConfidence": 0.96,
+      "index": 36
+    },
+    {
+      "sentence": "Okay. Please do that. And Marcus, I need you to call me the moment visibility is restored, not an email, a phone call.",
+      "speaker_name": "Julia Tran",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 541.5,
+      "endTime": 550.0,
+      "averageConfidence": 0.96,
+      "index": 37
+    },
+    {
+      "sentence": "You have my word, I will call you directly the moment we confirm restoration on your account, and I'm going to be monitoring your account specifically \u2014 I'll have your number pulled up and I will call you.",
+      "speaker_name": "Marcus Williams",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 550.6,
+      "endTime": 564.1,
+      "averageConfidence": 0.9,
+      "index": 38
+    },
+    {
+      "sentence": "Alright. I'm going to hold you to that. And Marcus \u2014 just so you know, I genuinely hope Aegis can turn this around because switching vendors is a nightmare and I don't want to do it, but right now I need to see accountability and I need to see real action.",
+      "speaker_name": "Julia Tran",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 565.1,
+      "endTime": 583.4,
+      "averageConfidence": 0.91,
+      "index": 39
+    },
+    {
+      "sentence": "I hear you, Julia, and I promise you that accountability starts right now with this call \u2014 I've got everything documented, escalation is in progress, and you will hear from me the moment there is any update. Thank you for your patience even though I know you're in an incredibly difficult position.",
+      "speaker_name": "Marcus Williams",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 584.5,
+      "endTime": 602.8,
+      "averageConfidence": 0.9,
+      "index": 40
+    }
+  ]
+}

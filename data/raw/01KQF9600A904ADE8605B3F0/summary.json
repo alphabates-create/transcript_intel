@@ -1,0 +1,46 @@
+{
+  "summary": "Chris Lee held a sprint retrospective with Tyler Washington and Ravi Gupta to review the reliability sprint initiated after a major March outage. The team celebrated key achievements including redundant processing nodes and a circuit breaker implementation, with failover times hitting 12-14 seconds against a 30-second target. The team identified monitoring gaps in the event ingestion pipeline and discussed plans for a pipeline health dashboard. Chris proposed formalizing quarterly reliability-focused sprints and organizing a knowledge share with the broader engineering organization.",
+  "actionItems": [
+    "Tyler Washington: Write up the pipeline health dashboard as a formal Jira ticket before EOD",
+    "Chris Lee: Set up a knowledge share session with the broader engineering group in a couple weeks once the runbook is polished",
+    "Tyler Washington: Lead a live walkthrough of the circuit breaker implementation for the engineering knowledge share",
+    "Chris Lee: Loop in leadership to officially establish quarterly reliability-focused sprints"
+  ],
+  "topics": [
+    "sprint retrospective",
+    "reliability engineering",
+    "circuit breaker implementation",
+    "monitoring gaps",
+    "incident response",
+    "knowledge sharing"
+  ],
+  "overallSentiment": "very-positive",
+  "sentimentScore": 4.8,
+  "keyMoments": [
+    {
+      "time": 45.0,
+      "text": "Chris praises the team for shipping the redundant processing nodes and circuit breaker implementation cleanly following the March outage",
+      "type": "praise",
+      "speaker": "Chris Lee"
+    },
+    {
+      "time": 180.0,
+      "text": "Ravi reveals failover times are hitting 12-14 seconds in testing, significantly beating the 30-second target",
+      "type": "positive_pivot",
+      "speaker": "Ravi Gupta"
+    },
+    {
+      "time": 390.0,
+      "text": "Ravi flags that the event ingestion pipeline lacked proper health alerting, which contributed to the severity of the March outage",
+      "type": "feature_gap",
+      "speaker": "Ravi Gupta"
+    },
+    {
+      "time": 540.0,
+      "text": "Chris commits to formalizing quarterly reliability-focused sprints and looping in leadership to make it official",
+      "type": "action_item",
+      "speaker": "Chris Lee"
+    }
+  ],
+  "meetingId": "01KQF9600A904ADE8605B3F0"
+}

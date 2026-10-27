@@ -1,0 +1,46 @@
+{
+  "summary": "Mark Ellison, Infrastructure Lead at Ridgeline Logistics, contacted Aegis Cloud Security support regarding a complete outage of his Detect dashboard that began around 11 PM on March 11th. Elena Vasquez and Sarah Chen confirmed this is a platform-side issue caused by a failure in the event ingestion pipeline affecting multiple accounts. Mark expressed serious concern given that his company's OT networks, SCADA systems, and production floor infrastructure have had zero threat monitoring visibility for nearly 24 hours. The call concluded with commitments to escalate the case to Sev 1, provide a status update within two hours, investigate data backfill options, and loop in the account manager regarding potential SLA credits.",
+  "actionItems": [
+    "Elena Vasquez: Escalate the case to Sev 1 and send a written status update to Mark within two hours, followed by a direct callback",
+    "Elena Vasquez: Flag the case to Mark's account manager to proactively discuss SLA credits",
+    "Sarah Chen: Ensure engineering has visibility into account RLL-4482 workspaces ridgeline-prod-detect and ridgeline-staging-detect, and explicitly raise the data backfill requirement in the internal escalation",
+    "Sarah Chen: Ensure a full written incident report with root cause, remediation steps, and recurrence prevention is delivered to Mark once the issue is resolved"
+  ],
+  "topics": [
+    "platform outage",
+    "event ingestion pipeline",
+    "ot/scada monitoring",
+    "data backfill",
+    "sla credits",
+    "compliance"
+  ],
+  "overallSentiment": "mixed-negative",
+  "sentimentScore": 2.1,
+  "keyMoments": [
+    {
+      "time": 180.0,
+      "text": "Mark reveals that all three data centers across midwest and east coast are showing zero event data, describing it as a 'black hole' between his infrastructure and the platform.",
+      "type": "technical_issue",
+      "speaker": "Mark Ellison"
+    },
+    {
+      "time": 320.0,
+      "text": "Elena confirms the outage is a platform-level issue on Aegis's side, originating from late March 11th, absolving Mark of any configuration responsibility.",
+      "type": "positive_pivot",
+      "speaker": "Elena Vasquez"
+    },
+    {
+      "time": 490.0,
+      "text": "Mark stresses that his OT networks and SCADA systems have had zero threat monitoring visibility for nearly 24 hours and that his team has been manually reviewing logs all morning, calling it unacceptable.",
+      "type": "concern",
+      "speaker": "Mark Ellison"
+    },
+    {
+      "time": 820.0,
+      "text": "Mark explicitly raises the need for SLA credits and states that depending on the incident report, a broader conversation about platform reliability will be necessary.",
+      "type": "churn_signal",
+      "speaker": "Mark Ellison"
+    }
+  ],
+  "meetingId": "01KQ94C2B8B9B4668F3D3491"
+}

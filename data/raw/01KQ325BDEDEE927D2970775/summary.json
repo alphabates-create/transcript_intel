@@ -1,0 +1,46 @@
+{
+  "summary": "Priya Patel from Aegis support contacted Paula Schneider of Ridgeline (a manufacturing/logistics company) regarding a multi-day alert latency issue with the Aegis Detect product. Priya confirmed the problem was caused by a cascading failure in Aegis's event processing pipeline, not anything on the customer's side, and apologized for the lack of proactive communication. Paula expressed concern about the security gap created by hour-long alert delays across their OT and manufacturing environments, and noted potential SLA violations and cyber insurance reporting requirements. Priya committed to a two-hour written update with fix timeline and backfill status, and offered to involve the account manager for remediation and service credit discussions.",
+  "actionItems": [
+    "Priya Patel: Send Paula a written update within two hours covering the fix timeline, event backfill status, and a full incident summary",
+    "Priya Patel: Provide Paula with a direct escalation path including her personal line and the on-call Detect engineering bridge number",
+    "Priya Patel: Loop in Paula's account manager to discuss SLA remediation and service credits once the incident is resolved",
+    "Priya Patel: Confirm with engineering the exact backfill situation for Ridgeline's tenant and report back"
+  ],
+  "topics": [
+    "product outage",
+    "alert latency",
+    "sla breach",
+    "incident communication",
+    "ot security",
+    "service credits"
+  ],
+  "overallSentiment": "mixed-negative",
+  "sentimentScore": 2.4,
+  "keyMoments": [
+    {
+      "time": 95.0,
+      "text": "Paula reveals alerts have been delayed by 45 minutes to an hour since Sunday/Monday, making threat monitoring effectively useless for their OT environment",
+      "type": "concern",
+      "speaker": "Paula Schneider"
+    },
+    {
+      "time": 210.0,
+      "text": "Priya confirms the issue is a cascading failure on Aegis's side and acknowledges the failure to send proactive customer communication",
+      "type": "technical_issue",
+      "speaker": "Priya Patel"
+    },
+    {
+      "time": 370.0,
+      "text": "Paula raises that a four-day coverage gap may need to be reported internally and to their cyber insurance carrier, signaling serious business impact",
+      "type": "churn_signal",
+      "speaker": "Paula Schneider"
+    },
+    {
+      "time": 480.0,
+      "text": "Paula acknowledges she likes the Detect product when it works and appreciates Priya's transparency, providing a slight positive pivot in tone",
+      "type": "positive_pivot",
+      "speaker": "Paula Schneider"
+    }
+  ],
+  "meetingId": "01KQ325BDEDEE927D2970775"
+}

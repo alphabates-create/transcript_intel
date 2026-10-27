@@ -1,0 +1,46 @@
+{
+  "summary": "Megan and Chris conducted a launch readiness review for Comply v2, targeting an April 7th release. A recent Detect outage pulled two engineers off the project for four days, causing a 5-6 day slip on the HIPAA and ISO 27001 reporting engine, which has formatting issues in staging. The API is in good shape with beta customers, but customer-facing documentation for HIPAA and ISO 27001 is still in first draft and poses the biggest launch risk. They aligned on key deadlines, escalation paths, and a follow-up check-in for the following Tuesday.",
+  "actionItems": [
+    "Chris Lee: Confirm Priya is fully back on Comply work starting Monday and report go/no-go status on all four frameworks to Megan by the 1st",
+    "Megan Lawson: Send intro connecting Damon to Aisha on the content team for a technical review of the HIPAA documentation today",
+    "Megan Lawson: Raise tiered API rate limiting proposal with the revenue team in Thursday's pricing sync",
+    "Chris Lee: Ensure Megan is on the distribution list for March 28th load test results and notify her same-day of any failures"
+  ],
+  "topics": [
+    "launch readiness",
+    "compliance reporting",
+    "api rate limiting",
+    "documentation",
+    "incident impact",
+    "hipaa"
+  ],
+  "overallSentiment": "mixed-positive",
+  "sentimentScore": 3.6,
+  "keyMoments": [
+    {
+      "time": 95.0,
+      "text": "Chris flags that the Detect outage pulled two engineers for four days, causing a 5-6 day slip on HIPAA and ISO 27001 report generation",
+      "type": "concern",
+      "speaker": "Chris Lee"
+    },
+    {
+      "time": 310.0,
+      "text": "Megan confirms Detect remediation should wrap up by end of week, relieving resource pressure on the Comply team",
+      "type": "positive_pivot",
+      "speaker": "Megan Lawson"
+    },
+    {
+      "time": 530.0,
+      "text": "Discussion of launching without HIPAA and ISO 27001 documentation on day one, which Megan flags as a support and product narrative risk",
+      "type": "feature_gap",
+      "speaker": "Megan Lawson"
+    },
+    {
+      "time": 780.0,
+      "text": "NorthBridge Financial requesting 100 API calls per day prompts a tiered rate limiting discussion with cost and pricing implications",
+      "type": "pricing_offer",
+      "speaker": "Chris Lee"
+    }
+  ],
+  "meetingId": "01KQ1DE954A807A5D2653175"
+}

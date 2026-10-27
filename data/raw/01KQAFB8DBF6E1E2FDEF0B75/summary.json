@@ -1,0 +1,46 @@
+{
+  "summary": "Aisha Johnson and Sofia Petrov from Aegis Comply met with Nathan Perry from Maplewood to discuss their SOC 2 audit preparation needs ahead of a Q2 auditor engagement. Nathan described a highly manual, time-consuming evidence collection process that consumed three engineer-weeks during their last audit cycle eighteen months ago. The team walked through how Comply automates evidence collection, maps overlapping controls across frameworks like SOC 2, PCI DSS, and ISO 27001, and previewed the upcoming Comply v2 on-demand compliance reporting feature. Nathan expressed strong interest in moving forward and agreed to schedule a demo and technical scoping session with his lead engineer Rachel.",
+  "actionItems": [
+    "Aisha Johnson: Send calendar invite for a 30-minute demo session early next week including Nathan and his lead engineer Rachel",
+    "Aisha Johnson: Send a written summary of the call along with SOC 2 framework mapping resources for Nathan to share internally",
+    "Nathan Perry: Loop in lead engineer Rachel and confirm availability for the demo and follow-up technical scoping call",
+    "Sofia Petrov: Prepare for technical scoping session covering Maplewood's CloudPrime/Azure environment and connector integration requirements"
+  ],
+  "topics": [
+    "soc 2 compliance",
+    "audit preparation",
+    "evidence collection",
+    "multi-framework compliance",
+    "onboarding",
+    "pci dss"
+  ],
+  "overallSentiment": "very-positive",
+  "sentimentScore": 4.8,
+  "keyMoments": [
+    {
+      "time": 95.0,
+      "text": "Nathan describes a painful manual evidence collection process that consumed three engineer-weeks during their last audit, establishing the core pain point driving the conversation.",
+      "type": "concern",
+      "speaker": "Nathan Perry"
+    },
+    {
+      "time": 390.0,
+      "text": "Aisha reveals the upcoming Comply v2 on-demand compliance reporting feature, generating strong excitement from Nathan about generating full SOC 2 reports directly from the dashboard.",
+      "type": "positive_pivot",
+      "speaker": "Aisha Johnson"
+    },
+    {
+      "time": 510.0,
+      "text": "Nathan confirms PCI DSS is actively on Maplewood's radar due to card transaction volume, expanding the potential scope of the engagement beyond SOC 2.",
+      "type": "feature_gap",
+      "speaker": "Nathan Perry"
+    },
+    {
+      "time": 780.0,
+      "text": "Nathan expresses concern about the time investment required from his stretched three-person engineering team for the integration.",
+      "type": "concern",
+      "speaker": "Nathan Perry"
+    }
+  ],
+  "meetingId": "01KQAFB8DBF6E1E2FDEF0B75"
+}

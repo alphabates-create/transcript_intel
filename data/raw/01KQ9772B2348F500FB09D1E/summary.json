@@ -1,0 +1,46 @@
+{
+  "summary": "Vanessa Cruz, VP of Engineering at Coastal Living Co, contacted Aegis Cloud Security support regarding a critical MFA token failure affecting approximately 40-45 users since 7 AM. The issue involves TOTP validation failures (error 4031) for users authenticating through an Okta SSO integration with Aegis Identity. Support agent Elena Vasquez determined the issue is likely on Aegis's end after ruling out client-side clock drift, and escalated it as a P1 business-critical incident. A temporary workaround using email OTP was implemented to unblock the engineering and ops teams while the root cause is investigated.",
+  "actionItems": [
+    "Elena Vasquez: Escalate case 3677 as P1 business-critical to Identity engineering team with active user lockout flag",
+    "Elena Vasquez: Send follow-up email to Vanessa with root cause update by end of business today",
+    "Elena Vasquez: Notify Vanessa's account team to schedule a broader reliability discussion",
+    "Vanessa Cruz: Enable email OTP fallback in Aegis Identity admin console and notify affected users to retry login"
+  ],
+  "topics": [
+    "mfa failure",
+    "totp",
+    "okta sso integration",
+    "p1 escalation",
+    "user lockout",
+    "reliability concern"
+  ],
+  "overallSentiment": "mixed-negative",
+  "sentimentScore": 2.2,
+  "keyMoments": [
+    {
+      "time": 180.0,
+      "text": "Vanessa reveals 40-45 users are locked out of production systems, emphasizing the critical business impact during spring inventory cycle",
+      "type": "churn_signal",
+      "speaker": "Vanessa Cruz"
+    },
+    {
+      "time": 420.0,
+      "text": "Elena acknowledges the issue appears to be on Aegis's end based on 4031 error logs and failed re-enrollment attempts",
+      "type": "technical_issue",
+      "speaker": "Elena Vasquez"
+    },
+    {
+      "time": 600.0,
+      "text": "Elena offers email OTP as a temporary fallback workaround and commits to a P1 escalation with 2-4 hour resolution path",
+      "type": "pricing_offer",
+      "speaker": "Elena Vasquez"
+    },
+    {
+      "time": 870.0,
+      "text": "Vanessa states this is not the first reliability issue and signals intent to have a broader conversation with the account team",
+      "type": "churn_signal",
+      "speaker": "Vanessa Cruz"
+    }
+  ],
+  "meetingId": "01KQ9772B2348F500FB09D1E"
+}

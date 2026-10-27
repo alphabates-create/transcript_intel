@@ -1,0 +1,46 @@
+{
+  "summary": "Rachel Torres (Senior Account Manager) and Sofia Petrov (Senior Engineer) at Aegis held a pre-deployment discovery call with Derek Owens at Crestline to discuss adding the Aegis Identity module to their existing Protect and Detect deployment. Derek's organization has ~340 users on Entra ID with a mixed MFA environment and needs to address privileged access management gaps flagged in a February audit. Sofia outlined a three-phase deployment approach covering directory sync, MFA policy migration, and PAM, with an end-of-July target that is feasible given Crestline's environment. Derek also expressed interest in Aegis Comply v2 as a future add-on, which Rachel noted would benefit from the audit data generated during the Identity deployment.",
+  "actionItems": [
+    "Sofia Petrov: Prepare and send deployment plan document by end of day Monday, including three-phase timeline, Entra ID and ServiceNow integration checklist, MFA phased migration framework, and just-in-time PAM overview",
+    "Rachel Torres: Send calendar invite with options for a kickoff call early next week",
+    "Derek Owens: Share deployment plan document with manager for review before the kickoff call",
+    "Derek Owens: Bring Aegis Comply v2 SOC 2 reporting capabilities to the attention of the Chief Compliance Officer"
+  ],
+  "topics": [
+    "identity deployment",
+    "privileged access management",
+    "mfa migration",
+    "compliance audit",
+    "entra id integration",
+    "compliance reporting"
+  ],
+  "overallSentiment": "very-positive",
+  "sentimentScore": 4.8,
+  "keyMoments": [
+    {
+      "time": 112.0,
+      "text": "Derek reveals audit flagged gaps in privileged access management and MFA coverage, driving urgency for Identity deployment",
+      "type": "concern",
+      "speaker": "Derek Owens"
+    },
+    {
+      "time": 310.0,
+      "text": "Sofia confirms phased MFA rollout is supported, eliminating the need for a disruptive big-bang cutover and alleviating Derek's concern about advisor pushback",
+      "type": "positive_pivot",
+      "speaker": "Sofia Petrov"
+    },
+    {
+      "time": 520.0,
+      "text": "Derek highlights terminated employees retaining admin access too long due to manual offboarding, reinforcing the PAM and automated deprovisioning need",
+      "type": "concern",
+      "speaker": "Derek Owens"
+    },
+    {
+      "time": 780.0,
+      "text": "Derek raises interest in Aegis Comply v2 after seeing the product announcement, opening a potential upsell opportunity",
+      "type": "feature_gap",
+      "speaker": "Derek Owens"
+    }
+  ],
+  "meetingId": "01KQ5AFAE8264DDC0ED2AE7F"
+}

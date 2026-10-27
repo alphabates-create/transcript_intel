@@ -1,0 +1,38 @@
+[
+  {
+    "participantName": "Damien Rowe",
+    "timestamp": 1772803803000,
+    "type": "Join",
+    "time": 3.0
+  },
+  {
+    "participantName": "James Mitchell",
+    "timestamp": 1772803837000,
+    "type": "Join",
+    "time": 37.0
+  },
+  {
+    "participantName": "Daniel Okafor",
+    "timestamp": 1772803855000,
+    "type": "Join",
+    "time": 55.0
+  },
+  {
+    "participantName": "Daniel Okafor",
+    "timestamp": 1772805183000,
+    "type": "Leave",
+    "time": 1383.0
+  },
+  {
+    "participantName": "James Mitchell",
+    "timestamp": 1772805181000,
+    "type": "Leave",
+    "time": 1381.0
+  },
+  {
+    "participantName": "Damien Rowe",
+    "timestamp": 1772805187000,
+    "type": "Leave",
+    "time": 1387.0
+  }
+]

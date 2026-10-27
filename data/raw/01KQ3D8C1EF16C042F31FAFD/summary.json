@@ -1,0 +1,46 @@
+{
+  "summary": "Rachel Torres and Chris Lee held a renewal call with Isaac Brennan of Trailhead, covering fourteen months of experience with Protect and Detect. Isaac acknowledged a mid-March six-hour outage as a concern but praised the thorough post-mortem and the subsequent technical fixes. The team discussed adding Aegis Comply v2 at a promotional rate of $18,500 annually (locked for two years), which Isaac found compelling given upcoming PCI audit cycles. Isaac indicated strong internal support for the renewal and agreed on next steps including a procurement one-pager, contract execution by end of April, and a technical onboarding call post-signing.",
+  "actionItems": [
+    "Rachel Torres: Send Isaac a one-pager with business case and ROI framing around compliance time savings for CFO/procurement by end of week",
+    "Rachel Torres: Loop in contracts team to issue formal renewal documents with target signing before end of April",
+    "Chris Lee: Schedule and lead a technical onboarding call with Isaac's infrastructure team after contract is signed",
+    "Isaac Brennan: Run the renewal proposal through internal procurement and advocate for approval"
+  ],
+  "topics": [
+    "renewal",
+    "compliance",
+    "outage follow-up",
+    "product upsell",
+    "pricing",
+    "pci dss"
+  ],
+  "overallSentiment": "positive",
+  "sentimentScore": 4.5,
+  "keyMoments": [
+    {
+      "time": 95.0,
+      "text": "Isaac raises the mid-March six-hour Detect outage that left his team blind during a promotional weekend",
+      "type": "concern",
+      "speaker": "Isaac Brennan"
+    },
+    {
+      "time": 310.0,
+      "text": "Isaac confirms his team noticed improvements since the redundancy fixes and calls the platform 'rock solid', crediting follow-through for why they're renewing instead of shopping around",
+      "type": "positive_pivot",
+      "speaker": "Isaac Brennan"
+    },
+    {
+      "time": 520.0,
+      "text": "Isaac reacts positively to Aegis Comply v2's on-demand PCI DSS reporting, noting his compliance team spends six weeks in spreadsheets for audits annually",
+      "type": "feature_gap",
+      "speaker": "Isaac Brennan"
+    },
+    {
+      "time": 720.0,
+      "text": "Rachel presents the promotional Comply add-on rate of $18,500 (vs. $22,000 standard) locked for a two-year term; Isaac signals no blockers and commits to advocating internally",
+      "type": "pricing_offer",
+      "speaker": "Rachel Torres"
+    }
+  ],
+  "meetingId": "01KQ3D8C1EF16C042F31FAFD"
+}

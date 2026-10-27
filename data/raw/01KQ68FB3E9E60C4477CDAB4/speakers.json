@@ -1,0 +1,197 @@
+[
+  {
+    "speakerName": "Ananya Sharma",
+    "timestamp": 5.4,
+    "endTimeTs": 9.7
+  },
+  {
+    "speakerName": "Ravi Gupta",
+    "timestamp": 10.5,
+    "endTimeTs": 12.4
+  },
+  {
+    "speakerName": "Mike Romano",
+    "timestamp": 13.7,
+    "endTimeTs": 15.7
+  },
+  {
+    "speakerName": "Nina Kowalski",
+    "timestamp": 16.4,
+    "endTimeTs": 22.6
+  },
+  {
+    "speakerName": "Ananya Sharma",
+    "timestamp": 24.0,
+    "endTimeTs": 42.0
+  },
+  {
+    "speakerName": "Mike Romano",
+    "timestamp": 42.3,
+    "endTimeTs": 52.2
+  },
+  {
+    "speakerName": "Ravi Gupta",
+    "timestamp": 52.7,
+    "endTimeTs": 60.7
+  },
+  {
+    "speakerName": "Ananya Sharma",
+    "timestamp": 61.9,
+    "endTimeTs": 70.8
+  },
+  {
+    "speakerName": "Nina Kowalski",
+    "timestamp": 72.1,
+    "endTimeTs": 73.6
+  },
+  {
+    "speakerName": "Ananya Sharma",
+    "timestamp": 74.2,
+    "endTimeTs": 94.4
+  },
+  {
+    "speakerName": "Ravi Gupta",
+    "timestamp": 95.3,
+    "endTimeTs": 113.8
+  },
+  {
+    "speakerName": "Ananya Sharma",
+    "timestamp": 114.8,
+    "endTimeTs": 122.2
+  },
+  {
+    "speakerName": "Ravi Gupta",
+    "timestamp": 122.6,
+    "endTimeTs": 140.9
+  },
+  {
+    "speakerName": "Ananya Sharma",
+    "timestamp": 142.3,
+    "endTimeTs": 152.4
+  },
+  {
+    "speakerName": "Mike Romano",
+    "timestamp": 152.8,
+    "endTimeTs": 177.6
+  },
+  {
+    "speakerName": "Ananya Sharma",
+    "timestamp": 178.8,
+    "endTimeTs": 184.4
+  },
+  {
+    "speakerName": "Mike Romano",
+    "timestamp": 184.8,
+    "endTimeTs": 191.7
+  },
+  {
+    "speakerName": "Ananya Sharma",
+    "timestamp": 193.1,
+    "endTimeTs": 206.7
+  },
+  {
+    "speakerName": "Nina Kowalski",
+    "timestamp": 207.2,
+    "endTimeTs": 230.3
+  },
+  {
+    "speakerName": "Ananya Sharma",
+    "timestamp": 230.8,
+    "endTimeTs": 233.4
+  },
+  {
+    "speakerName": "Nina Kowalski",
+    "timestamp": 233.9,
+    "endTimeTs": 258.4
+  },
+  {
+    "speakerName": "Mike Romano",
+    "timestamp": 259.4,
+    "endTimeTs": 269.8
+  },
+  {
+    "speakerName": "Ananya Sharma",
+    "timestamp": 270.4,
+    "endTimeTs": 285.4
+  },
+  {
+    "speakerName": "Nina Kowalski",
+    "timestamp": 285.8,
+    "endTimeTs": 304.8
+  },
+  {
+    "speakerName": "Ananya Sharma",
+    "timestamp": 305.2,
+    "endTimeTs": 312.3
+  },
+  {
+    "speakerName": "Ravi Gupta",
+    "timestamp": 313.1,
+    "endTimeTs": 317.7
+  },
+  {
+    "speakerName": "Ananya Sharma",
+    "timestamp": 318.7,
+    "endTimeTs": 340.7
+  },
+  {
+    "speakerName": "Ravi Gupta",
+    "timestamp": 341.5,
+    "endTimeTs": 367.1
+  },
+  {
+    "speakerName": "Mike Romano",
+    "timestamp": 367.5,
+    "endTimeTs": 381.7
+  },
+  {
+    "speakerName": "Ananya Sharma",
+    "timestamp": 382.4,
+    "endTimeTs": 392.0
+  },
+  {
+    "speakerName": "Ravi Gupta",
+    "timestamp": 392.7,
+    "endTimeTs": 412.5
+  },
+  {
+    "speakerName": "Ananya Sharma",
+    "timestamp": 413.6,
+    "endTimeTs": 422.2
+  },
+  {
+    "speakerName": "Nina Kowalski",
+    "timestamp": 423.6,
+    "endTimeTs": 432.6
+  },
+  {
+    "speakerName": "Ananya Sharma",
+    "timestamp": 433.6,
+    "endTimeTs": 451.8
+  },
+  {
+    "speakerName": "Mike Romano",
+    "timestamp": 453.0,
+    "endTimeTs": 458.8
+  },
+  {
+    "speakerName": "Ravi Gupta",
+    "timestamp": 459.7,
+    "endTimeTs": 466.1
+  },
+  {
+    "speakerName": "Ananya Sharma",
+    "timestamp": 467.6,
+    "endTimeTs": 477.3
+  },
+  {
+    "speakerName": "Nina Kowalski",
+    "timestamp": 478.3,
+    "endTimeTs": 480.1
+  },
+  {
+    "speakerName": "Mike Romano",
+    "timestamp": 480.4,
+    "endTimeTs": 481.9
+  }
+]

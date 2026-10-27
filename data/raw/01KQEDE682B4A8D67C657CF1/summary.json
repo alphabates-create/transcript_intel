@@ -1,0 +1,46 @@
+{
+  "summary": "Sarah Chen from Aegis Cloud Security support spoke with Dominic Flores and Michelle Tan (Security Manager) regarding a surge of false positive alerts following the application of agent patch 4.2.1 on Friday night. The patch reset the behavioral detection baseline, causing over 300 false positive alerts on Saturday morning compared to their normal volume of 15-20, resulting in hours of wasted on-call time. Sarah identified the issue as a known problem with the 4.2.1 patch and initiated a baseline restore to the pre-patch profile from March 13th, while also recommending suppression rules for Saturday batch jobs during the relearning period. The customer expressed frustration over two incidents in two weeks and disclosed they are evaluating other vendors at renewal time.",
+  "actionItems": [
+    "Sarah Chen: Send follow-up email with suppression rule recommendations and a written explanation of the incident within one hour",
+    "Sarah Chen: Copy account manager directly on case notes to ensure a follow-up conversation about the broader confidence and stability concerns",
+    "Sarah Chen: Escalate internal feedback about inadequate proactive patch advisory communication to the appropriate team",
+    "Michelle Tan: Monitor alert volumes on back-office server agent group after baseline restore and confirm normalization"
+  ],
+  "topics": [
+    "false positives",
+    "patch management",
+    "behavioral detection",
+    "customer retention risk",
+    "incident communication",
+    "baseline configuration"
+  ],
+  "overallSentiment": "mixed-negative",
+  "sentimentScore": 2.4,
+  "keyMoments": [
+    {
+      "time": 95.0,
+      "text": "Dominic reveals this is the second issue with Aegis Detect in two weeks and flags frustration upfront",
+      "type": "concern",
+      "speaker": "Dominic Flores"
+    },
+    {
+      "time": 310.0,
+      "text": "Sarah confirms the false positive spike is a known issue with patch 4.2.1 that resets behavioral baselines, prompting pushback on lack of proactive notification",
+      "type": "technical_issue",
+      "speaker": "Sarah Chen"
+    },
+    {
+      "time": 530.0,
+      "text": "Dominic discloses they are evaluating other vendors at renewal time due to shaken confidence in the platform",
+      "type": "churn_signal",
+      "speaker": "Dominic Flores"
+    },
+    {
+      "time": 620.0,
+      "text": "Sarah initiates baseline restore to pre-patch profile from March 13th targeting the back-office agent group, with Michelle confirming the tenant ID and staying on the line",
+      "type": "action_item",
+      "speaker": "Sarah Chen"
+    }
+  ],
+  "meetingId": "01KQEDE682B4A8D67C657CF1"
+}

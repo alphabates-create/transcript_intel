@@ -1,0 +1,237 @@
+[
+  {
+    "speakerName": "Megan Lawson",
+    "timestamp": 7.2,
+    "endTimeTs": 12.3
+  },
+  {
+    "speakerName": "Tom Bradley",
+    "timestamp": 13.4,
+    "endTimeTs": 15.2
+  },
+  {
+    "speakerName": "James Mitchell",
+    "timestamp": 16.4,
+    "endTimeTs": 17.9
+  },
+  {
+    "speakerName": "Brian Cho",
+    "timestamp": 19.2,
+    "endTimeTs": 20.7
+  },
+  {
+    "speakerName": "Megan Lawson",
+    "timestamp": 22.1,
+    "endTimeTs": 46.9
+  },
+  {
+    "speakerName": "James Mitchell",
+    "timestamp": 47.6,
+    "endTimeTs": 63.5
+  },
+  {
+    "speakerName": "Megan Lawson",
+    "timestamp": 64.9,
+    "endTimeTs": 72.5
+  },
+  {
+    "speakerName": "Daniel Okafor",
+    "timestamp": 73.4,
+    "endTimeTs": 91.4
+  },
+  {
+    "speakerName": "Tom Bradley",
+    "timestamp": 92.6,
+    "endTimeTs": 101.5
+  },
+  {
+    "speakerName": "James Mitchell",
+    "timestamp": 102.1,
+    "endTimeTs": 122.3
+  },
+  {
+    "speakerName": "Tom Bradley",
+    "timestamp": 123.4,
+    "endTimeTs": 146.7
+  },
+  {
+    "speakerName": "Megan Lawson",
+    "timestamp": 147.7,
+    "endTimeTs": 155.8
+  },
+  {
+    "speakerName": "Tom Bradley",
+    "timestamp": 156.8,
+    "endTimeTs": 170.3
+  },
+  {
+    "speakerName": "Daniel Okafor",
+    "timestamp": 171.2,
+    "endTimeTs": 174.8
+  },
+  {
+    "speakerName": "Megan Lawson",
+    "timestamp": 175.3,
+    "endTimeTs": 183.2
+  },
+  {
+    "speakerName": "Brian Cho",
+    "timestamp": 183.5,
+    "endTimeTs": 218.2
+  },
+  {
+    "speakerName": "Megan Lawson",
+    "timestamp": 218.7,
+    "endTimeTs": 223.4
+  },
+  {
+    "speakerName": "Brian Cho",
+    "timestamp": 224.5,
+    "endTimeTs": 228.8
+  },
+  {
+    "speakerName": "Megan Lawson",
+    "timestamp": 230.0,
+    "endTimeTs": 241.7
+  },
+  {
+    "speakerName": "James Mitchell",
+    "timestamp": 242.8,
+    "endTimeTs": 258.0
+  },
+  {
+    "speakerName": "Daniel Okafor",
+    "timestamp": 258.5,
+    "endTimeTs": 278.3
+  },
+  {
+    "speakerName": "Megan Lawson",
+    "timestamp": 279.4,
+    "endTimeTs": 291.4
+  },
+  {
+    "speakerName": "Daniel Okafor",
+    "timestamp": 292.8,
+    "endTimeTs": 302.8
+  },
+  {
+    "speakerName": "Megan Lawson",
+    "timestamp": 303.7,
+    "endTimeTs": 311.7
+  },
+  {
+    "speakerName": "Tom Bradley",
+    "timestamp": 312.0,
+    "endTimeTs": 335.0
+  },
+  {
+    "speakerName": "Brian Cho",
+    "timestamp": 335.8,
+    "endTimeTs": 353.1
+  },
+  {
+    "speakerName": "Megan Lawson",
+    "timestamp": 354.1,
+    "endTimeTs": 373.6
+  },
+  {
+    "speakerName": "Daniel Okafor",
+    "timestamp": 374.8,
+    "endTimeTs": 392.8
+  },
+  {
+    "speakerName": "James Mitchell",
+    "timestamp": 394.0,
+    "endTimeTs": 405.4
+  },
+  {
+    "speakerName": "Megan Lawson",
+    "timestamp": 406.5,
+    "endTimeTs": 422.8
+  },
+  {
+    "speakerName": "Daniel Okafor",
+    "timestamp": 423.2,
+    "endTimeTs": 430.7
+  },
+  {
+    "speakerName": "Megan Lawson",
+    "timestamp": 432.1,
+    "endTimeTs": 441.9
+  },
+  {
+    "speakerName": "James Mitchell",
+    "timestamp": 443.1,
+    "endTimeTs": 464.8
+  },
+  {
+    "speakerName": "Brian Cho",
+    "timestamp": 465.2,
+    "endTimeTs": 471.4
+  },
+  {
+    "speakerName": "Megan Lawson",
+    "timestamp": 472.7,
+    "endTimeTs": 475.7
+  },
+  {
+    "speakerName": "Tom Bradley",
+    "timestamp": 476.5,
+    "endTimeTs": 486.1
+  },
+  {
+    "speakerName": "Megan Lawson",
+    "timestamp": 487.2,
+    "endTimeTs": 508.5
+  },
+  {
+    "speakerName": "James Mitchell",
+    "timestamp": 509.4,
+    "endTimeTs": 521.5
+  },
+  {
+    "speakerName": "Megan Lawson",
+    "timestamp": 523.0,
+    "endTimeTs": 531.0
+  },
+  {
+    "speakerName": "Daniel Okafor",
+    "timestamp": 531.5,
+    "endTimeTs": 553.3
+  },
+  {
+    "speakerName": "Megan Lawson",
+    "timestamp": 553.6,
+    "endTimeTs": 568.4
+  },
+  {
+    "speakerName": "Brian Cho",
+    "timestamp": 569.8,
+    "endTimeTs": 575.8
+  },
+  {
+    "speakerName": "Megan Lawson",
+    "timestamp": 577.2,
+    "endTimeTs": 596.3
+  },
+  {
+    "speakerName": "Tom Bradley",
+    "timestamp": 596.8,
+    "endTimeTs": 598.3
+  },
+  {
+    "speakerName": "James Mitchell",
+    "timestamp": 599.7,
+    "endTimeTs": 601.2
+  },
+  {
+    "speakerName": "Daniel Okafor",
+    "timestamp": 602.2,
+    "endTimeTs": 603.7
+  },
+  {
+    "speakerName": "Brian Cho",
+    "timestamp": 605.0,
+    "endTimeTs": 606.5
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "participantName": "Nina Kowalski",
+    "timestamp": 1775321112000,
+    "type": "Join",
+    "time": 12.0
+  },
+  {
+    "participantName": "Jordan Whitfield",
+    "timestamp": 1775321114000,
+    "type": "Join",
+    "time": 14.0
+  },
+  {
+    "participantName": "Alex Reyes",
+    "timestamp": 1775321147000,
+    "type": "Join",
+    "time": 47.0
+  },
+  {
+    "participantName": "Alex Reyes",
+    "timestamp": 1775323578000,
+    "type": "Leave",
+    "time": 2478.0
+  },
+  {
+    "participantName": "Nina Kowalski",
+    "timestamp": 1775323591000,
+    "type": "Leave",
+    "time": 2491.0
+  },
+  {
+    "participantName": "Jordan Whitfield",
+    "timestamp": 1775323595000,
+    "type": "Leave",
+    "time": 2495.0
+  }
+]

@@ -1,0 +1,404 @@
+{
+  "data": [
+    {
+      "sentence": "Hi Vanessa! So great to finally connect with you \u2014 I feel like we've been emailing back and forth for weeks now.",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 3.6,
+      "endTime": 11.7,
+      "averageConfidence": 0.92,
+      "index": 0
+    },
+    {
+      "sentence": "I know, right? It's been a lot of scheduling gymnastics but we're here, so let's do this!",
+      "speaker_name": "Vanessa Cruz",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 12.3,
+      "endTime": 18.0,
+      "averageConfidence": 0.96,
+      "index": 1
+    },
+    {
+      "sentence": "Exactly, exactly. Well, welcome officially to Aegis Cloud Security \u2014 I'm really excited to be your CSM throughout this whole onboarding journey and beyond.",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 19.0,
+      "endTime": 27.6,
+      "averageConfidence": 0.94,
+      "index": 2
+    },
+    {
+      "sentence": "Thank you, Maria. Honestly the whole team at Coastal Living is really pumped about this. We've been looking for a solid backup and recovery solution for, gosh, probably close to a year now.",
+      "speaker_name": "Vanessa Cruz",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 28.6,
+      "endTime": 40.0,
+      "averageConfidence": 0.93,
+      "index": 3
+    },
+    {
+      "sentence": "A year! Okay, so you've definitely done your homework then. I'd love to hear a little bit about what that search looked like and what ultimately made you land on Aegis Protect.",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 40.8,
+      "endTime": 51.7,
+      "averageConfidence": 0.9,
+      "index": 4
+    },
+    {
+      "sentence": "Yeah, so we looked at a few options \u2014 VaultEdge was on our shortlist for a while, and we did a pretty deep evaluation of CyberNova too, but honestly their backup restore times were just... not great for our use case.",
+      "speaker_name": "Vanessa Cruz",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 53.1,
+      "endTime": 67.6,
+      "averageConfidence": 0.89,
+      "index": 5
+    },
+    {
+      "sentence": "That's a really common pain point we hear with CyberNova, yeah. Recovery time objectives are huge, especially in retail where downtime during like a peak sales window is just catastrophic.",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 68.9,
+      "endTime": 79.8,
+      "averageConfidence": 0.93,
+      "index": 6
+    },
+    {
+      "sentence": "Exactly, and that was kind of the crux of it for us. We have, you know, seasonal spikes \u2014 obviously Q4 is massive for us, summer collection drops, things like that \u2014 and the idea of a slow recovery during any of those periods just kept me up at night.",
+      "speaker_name": "Vanessa Cruz",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 80.2,
+      "endTime": 98.1,
+      "averageConfidence": 0.91,
+      "index": 7
+    },
+    {
+      "sentence": "Totally understandable. And that's really where Aegis Protect shines \u2014 the near-instant recovery capabilities, the granular restore points. We'll definitely get into all of that today. So before we dive into the technical stuff, can you give me a quick lay of the land in terms of your infrastructure?",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 98.9,
+      "endTime": 116.3,
+      "averageConfidence": 0.9,
+      "index": 8
+    },
+    {
+      "sentence": "Sure, yeah. So we're primarily on CloudPrime \u2014 we have a fairly standard multi-region setup, us-east-1 is our primary, us-west-2 as our secondary. We've got a mix of RDS instances, some S3 buckets obviously, EC2, and then we have a handful of on-prem systems for our warehouse management software that we haven't migrated yet.",
+      "speaker_name": "Vanessa Cruz",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 117.6,
+      "endTime": 136.2,
+      "averageConfidence": 0.91,
+      "index": 9
+    },
+    {
+      "sentence": "Oh perfect, okay. And the on-prem piece \u2014 is that something you're eventually planning to move to cloud or is that staying put for the foreseeable future?",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 136.6,
+      "endTime": 146.5,
+      "averageConfidence": 0.89,
+      "index": 10
+    },
+    {
+      "sentence": "Honestly, probably staying put for at least another 18 months. Our warehouse team is very, uh, let's call it attached to their current setup.",
+      "speaker_name": "Vanessa Cruz",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 148.0,
+      "endTime": 156.7,
+      "averageConfidence": 0.9,
+      "index": 11
+    },
+    {
+      "sentence": "Ha, I totally get that. The good news is Aegis Protect handles hybrid environments really well, so we'll make sure the on-prem systems are covered in your backup policy configuration alongside your cloud resources. It's all manageable from a single pane of glass.",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 157.6,
+      "endTime": 172.8,
+      "averageConfidence": 0.94,
+      "index": 12
+    },
+    {
+      "sentence": "Oh that's great to hear, because one of my concerns going in was fragmentation \u2014 like having one tool for cloud backup and a completely separate thing for on-prem, and then trying to reconcile those two during an incident. That sounds like a nightmare.",
+      "speaker_name": "Vanessa Cruz",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 173.4,
+      "endTime": 188.6,
+      "averageConfidence": 0.92,
+      "index": 13
+    },
+    {
+      "sentence": "Yeah, no, we've heard that horror story from a lot of customers who came from legacy setups. With Aegis Protect you really do get that unified view \u2014 your RPOs and RTOs are configured in one place, your restore jobs are tracked centrally, it's... yeah, it makes a real difference when you're actually in a stressful situation.",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 189.8,
+      "endTime": 209.5,
+      "averageConfidence": 0.91,
+      "index": 14
+    },
+    {
+      "sentence": "That's reassuring. Okay so I guess my next question is \u2014 what does the actual onboarding timeline look like? Because my team is eager, but we also have some competing priorities right now.",
+      "speaker_name": "Vanessa Cruz",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 210.6,
+      "endTime": 222.2,
+      "averageConfidence": 0.96,
+      "index": 15
+    },
+    {
+      "sentence": "Totally, yeah, let me walk you through the typical onboarding journey and then we can customize it to fit your team's bandwidth. So generally for Aegis Protect we're looking at about a four to six week process broken into three phases.",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 223.3,
+      "endTime": 237.5,
+      "averageConfidence": 0.92,
+      "index": 16
+    },
+    {
+      "sentence": "Okay, four to six weeks \u2014 that's actually more reasonable than I was expecting. I was bracing for like a three month implementation.",
+      "speaker_name": "Vanessa Cruz",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 238.0,
+      "endTime": 246.0,
+      "averageConfidence": 0.97,
+      "index": 17
+    },
+    {
+      "sentence": "Oh no, we've really streamlined it. So phase one is your environment discovery and connector setup \u2014 that's usually week one and two. We'll get the Aegis agents deployed, connect to your CloudPrime environment via our integration, configure your on-prem connectors. My team does a lot of the heavy lifting there.",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 246.5,
+      "endTime": 264.4,
+      "averageConfidence": 0.91,
+      "index": 18
+    },
+    {
+      "sentence": "Okay and do we need dedicated resources from our side for that phase or is it mostly just access provisioning?",
+      "speaker_name": "Vanessa Cruz",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 265.2,
+      "endTime": 272.7,
+      "averageConfidence": 0.91,
+      "index": 19
+    },
+    {
+      "sentence": "Mostly access provisioning and then we'll need maybe two to three hours of your infrastructure team's time for a technical walkthrough call \u2014 just so our implementation engineer understands the nuances of your setup. But it shouldn't be super heavy on your team in phase one.",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 273.3,
+      "endTime": 289.8,
+      "averageConfidence": 0.95,
+      "index": 20
+    },
+    {
+      "sentence": "Perfect, that's doable. What about phase two?",
+      "speaker_name": "Vanessa Cruz",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 290.6,
+      "endTime": 293.2,
+      "averageConfidence": 0.9,
+      "index": 21
+    },
+    {
+      "sentence": "Phase two is where we really get into backup policy configuration \u2014 so defining your RPOs, your RTOs, setting up your retention schedules, making sure everything aligns with what your business actually needs. We'll do a lot of collaborative sessions in that phase. And then phase three is testing \u2014 we actually run restore drills together, validate that everything works as expected.",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 294.2,
+      "endTime": 316.2,
+      "averageConfidence": 0.9,
+      "index": 22
+    },
+    {
+      "sentence": "Oh I love that you actually do the restore drills as part of onboarding. I feel like a lot of vendors just say 'you're live, good luck' and then you don't actually test anything until there's a real incident.",
+      "speaker_name": "Vanessa Cruz",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 317.6,
+      "endTime": 331.7,
+      "averageConfidence": 0.92,
+      "index": 23
+    },
+    {
+      "sentence": "Ugh, yes, and that is the worst possible time to find out something isn't configured right. So we are very intentional about that phase. We want you to walk out of onboarding having actually restored something in a test environment so you have that confidence.",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 332.6,
+      "endTime": 348.6,
+      "averageConfidence": 0.93,
+      "index": 24
+    },
+    {
+      "sentence": "That makes me feel so much better. Okay, um, let me think \u2014 what else did I have on my list... oh, retention policies. We have some compliance requirements around data retention, specifically for our customer purchase records. Can Aegis Protect accommodate custom retention windows?",
+      "speaker_name": "Vanessa Cruz",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 350.1,
+      "endTime": 365.9,
+      "averageConfidence": 0.91,
+      "index": 25
+    },
+    {
+      "sentence": "Absolutely, yes. You can configure retention policies at a really granular level \u2014 by data type, by environment, by criticality tier. So if your customer purchase records need to be retained for say seven years for compliance purposes, you can set that independently from your, you know, application log backups which might only need 90 days.",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 367.4,
+      "endTime": 387.0,
+      "averageConfidence": 0.96,
+      "index": 26
+    },
+    {
+      "sentence": "That's exactly what we need. We have PCI DSS requirements around some of our payment data and it gets complicated with different data types having different rules.",
+      "speaker_name": "Vanessa Cruz",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 387.5,
+      "endTime": 396.7,
+      "averageConfidence": 0.94,
+      "index": 27
+    },
+    {
+      "sentence": "Yeah, and actually \u2014 slightly off topic but worth mentioning \u2014 we also have Aegis Comply which handles compliance reporting, and that integrates really nicely with Protect. Something to keep in mind down the road if your compliance reporting burden ever gets heavy.",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 398.0,
+      "endTime": 413.0,
+      "averageConfidence": 0.93,
+      "index": 28
+    },
+    {
+      "sentence": "Oh interesting, I didn't know about that module. I'll have to look into it. But yeah, one thing at a time \u2014 let's get Protect solid first.",
+      "speaker_name": "Vanessa Cruz",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 413.9,
+      "endTime": 423.8,
+      "averageConfidence": 0.88,
+      "index": 29
+    },
+    {
+      "sentence": "Ha, yes, absolutely \u2014 crawl before we run. Okay so I think we've covered a lot of good ground. Let me just do a quick recap of next steps so we're both aligned.",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 424.3,
+      "endTime": 435.8,
+      "averageConfidence": 0.91,
+      "index": 30
+    },
+    {
+      "sentence": "Please, yes. I'm a next-steps person.",
+      "speaker_name": "Vanessa Cruz",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 436.3,
+      "endTime": 438.6,
+      "averageConfidence": 0.95,
+      "index": 31
+    },
+    {
+      "sentence": "Love it. So I'm going to send over a formal onboarding project plan document by end of this week \u2014 it'll have the phase timeline, resource requirements, and the kick-off checklist. From your side, I'll need read-only CloudPrime access provisioned for our implementation engineer, and the contact info for whoever on your infra team will be the main technical point of contact.",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 439.2,
+      "endTime": 460.6,
+      "averageConfidence": 0.96,
+      "index": 32
+    },
+    {
+      "sentence": "That'll be our Senior DevOps engineer, Raj Patel. I'll connect you two over email after this call.",
+      "speaker_name": "Vanessa Cruz",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 461.4,
+      "endTime": 467.6,
+      "averageConfidence": 0.95,
+      "index": 33
+    },
+    {
+      "sentence": "Perfect, Raj, got it. And then we'll schedule that technical discovery call for sometime next week \u2014 does that work with your team's calendar?",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 468.8,
+      "endTime": 477.1,
+      "averageConfidence": 0.94,
+      "index": 34
+    },
+    {
+      "sentence": "Next week works great. I'll give Raj a heads up so he can block some time. He's going to be excited about this \u2014 he's been wanting a better backup solution for ages, honestly he might have more questions for you than I do.",
+      "speaker_name": "Vanessa Cruz",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 478.3,
+      "endTime": 493.9,
+      "averageConfidence": 0.93,
+      "index": 35
+    },
+    {
+      "sentence": "Ha, bring it on! We love the technical deep dives. Okay, I think we're in really great shape. Vanessa, I just want to say again how excited I am to be working with Coastal Living \u2014 this onboarding is going to go smoothly, I can already tell.",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 495.3,
+      "endTime": 511.7,
+      "averageConfidence": 0.93,
+      "index": 36
+    },
+    {
+      "sentence": "I really appreciate that, Maria. And honestly just the way you've walked through everything today has given me so much confidence. I feel like we made the right call choosing Aegis.",
+      "speaker_name": "Vanessa Cruz",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 512.9,
+      "endTime": 523.5,
+      "averageConfidence": 0.95,
+      "index": 37
+    },
+    {
+      "sentence": "That means a lot, truly. Okay, I'll let you get back to your day \u2014 look out for my email with the project plan, and I'll follow up on scheduling that call with you and Raj. Talk soon!",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 523.8,
+      "endTime": 537.1,
+      "averageConfidence": 0.92,
+      "index": 38
+    },
+    {
+      "sentence": "Sounds great, thank you so much Maria. Talk soon!",
+      "speaker_name": "Vanessa Cruz",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 538.4,
+      "endTime": 541.9,
+      "averageConfidence": 0.9,
+      "index": 39
+    }
+  ]
+}

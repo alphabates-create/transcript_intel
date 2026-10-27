@@ -1,0 +1,202 @@
+[
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 3.6,
+    "endTimeTs": 11.7
+  },
+  {
+    "speakerName": "Vanessa Cruz",
+    "timestamp": 12.3,
+    "endTimeTs": 18.0
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 19.0,
+    "endTimeTs": 27.6
+  },
+  {
+    "speakerName": "Vanessa Cruz",
+    "timestamp": 28.6,
+    "endTimeTs": 40.0
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 40.8,
+    "endTimeTs": 51.7
+  },
+  {
+    "speakerName": "Vanessa Cruz",
+    "timestamp": 53.1,
+    "endTimeTs": 67.6
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 68.9,
+    "endTimeTs": 79.8
+  },
+  {
+    "speakerName": "Vanessa Cruz",
+    "timestamp": 80.2,
+    "endTimeTs": 98.1
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 98.9,
+    "endTimeTs": 116.3
+  },
+  {
+    "speakerName": "Vanessa Cruz",
+    "timestamp": 117.6,
+    "endTimeTs": 136.2
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 136.6,
+    "endTimeTs": 146.5
+  },
+  {
+    "speakerName": "Vanessa Cruz",
+    "timestamp": 148.0,
+    "endTimeTs": 156.7
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 157.6,
+    "endTimeTs": 172.8
+  },
+  {
+    "speakerName": "Vanessa Cruz",
+    "timestamp": 173.4,
+    "endTimeTs": 188.6
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 189.8,
+    "endTimeTs": 209.5
+  },
+  {
+    "speakerName": "Vanessa Cruz",
+    "timestamp": 210.6,
+    "endTimeTs": 222.2
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 223.3,
+    "endTimeTs": 237.5
+  },
+  {
+    "speakerName": "Vanessa Cruz",
+    "timestamp": 238.0,
+    "endTimeTs": 246.0
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 246.5,
+    "endTimeTs": 264.4
+  },
+  {
+    "speakerName": "Vanessa Cruz",
+    "timestamp": 265.2,
+    "endTimeTs": 272.7
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 273.3,
+    "endTimeTs": 289.8
+  },
+  {
+    "speakerName": "Vanessa Cruz",
+    "timestamp": 290.6,
+    "endTimeTs": 293.2
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 294.2,
+    "endTimeTs": 316.2
+  },
+  {
+    "speakerName": "Vanessa Cruz",
+    "timestamp": 317.6,
+    "endTimeTs": 331.7
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 332.6,
+    "endTimeTs": 348.6
+  },
+  {
+    "speakerName": "Vanessa Cruz",
+    "timestamp": 350.1,
+    "endTimeTs": 365.9
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 367.4,
+    "endTimeTs": 387.0
+  },
+  {
+    "speakerName": "Vanessa Cruz",
+    "timestamp": 387.5,
+    "endTimeTs": 396.7
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 398.0,
+    "endTimeTs": 413.0
+  },
+  {
+    "speakerName": "Vanessa Cruz",
+    "timestamp": 413.9,
+    "endTimeTs": 423.8
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 424.3,
+    "endTimeTs": 435.8
+  },
+  {
+    "speakerName": "Vanessa Cruz",
+    "timestamp": 436.3,
+    "endTimeTs": 438.6
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 439.2,
+    "endTimeTs": 460.6
+  },
+  {
+    "speakerName": "Vanessa Cruz",
+    "timestamp": 461.4,
+    "endTimeTs": 467.6
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 468.8,
+    "endTimeTs": 477.1
+  },
+  {
+    "speakerName": "Vanessa Cruz",
+    "timestamp": 478.3,
+    "endTimeTs": 493.9
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 495.3,
+    "endTimeTs": 511.7
+  },
+  {
+    "speakerName": "Vanessa Cruz",
+    "timestamp": 512.9,
+    "endTimeTs": 523.5
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 523.8,
+    "endTimeTs": 537.1
+  },
+  {
+    "speakerName": "Vanessa Cruz",
+    "timestamp": 538.4,
+    "endTimeTs": 541.9
+  }
+]

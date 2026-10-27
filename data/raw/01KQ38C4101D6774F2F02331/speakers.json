@@ -1,0 +1,197 @@
+[
+  {
+    "speakerName": "Brian Cho",
+    "timestamp": 6.3,
+    "endTimeTs": 12.4
+  },
+  {
+    "speakerName": "Sofia Petrov",
+    "timestamp": 13.0,
+    "endTimeTs": 16.7
+  },
+  {
+    "speakerName": "Brian Cho",
+    "timestamp": 17.4,
+    "endTimeTs": 23.5
+  },
+  {
+    "speakerName": "Tom Bradley",
+    "timestamp": 24.6,
+    "endTimeTs": 44.2
+  },
+  {
+    "speakerName": "Brian Cho",
+    "timestamp": 44.9,
+    "endTimeTs": 52.2
+  },
+  {
+    "speakerName": "Tom Bradley",
+    "timestamp": 53.0,
+    "endTimeTs": 61.4
+  },
+  {
+    "speakerName": "Ananya Sharma",
+    "timestamp": 61.7,
+    "endTimeTs": 81.1
+  },
+  {
+    "speakerName": "Tom Bradley",
+    "timestamp": 81.4,
+    "endTimeTs": 92.7
+  },
+  {
+    "speakerName": "Brian Cho",
+    "timestamp": 93.9,
+    "endTimeTs": 108.9
+  },
+  {
+    "speakerName": "Tom Bradley",
+    "timestamp": 109.9,
+    "endTimeTs": 117.5
+  },
+  {
+    "speakerName": "Sofia Petrov",
+    "timestamp": 118.6,
+    "endTimeTs": 139.6
+  },
+  {
+    "speakerName": "Brian Cho",
+    "timestamp": 140.0,
+    "endTimeTs": 149.2
+  },
+  {
+    "speakerName": "Tom Bradley",
+    "timestamp": 149.8,
+    "endTimeTs": 158.9
+  },
+  {
+    "speakerName": "Ananya Sharma",
+    "timestamp": 159.9,
+    "endTimeTs": 164.2
+  },
+  {
+    "speakerName": "Tom Bradley",
+    "timestamp": 164.9,
+    "endTimeTs": 178.3
+  },
+  {
+    "speakerName": "Brian Cho",
+    "timestamp": 179.2,
+    "endTimeTs": 185.5
+  },
+  {
+    "speakerName": "Ananya Sharma",
+    "timestamp": 187.0,
+    "endTimeTs": 201.2
+  },
+  {
+    "speakerName": "Brian Cho",
+    "timestamp": 202.1,
+    "endTimeTs": 204.5
+  },
+  {
+    "speakerName": "Sofia Petrov",
+    "timestamp": 205.9,
+    "endTimeTs": 212.3
+  },
+  {
+    "speakerName": "Tom Bradley",
+    "timestamp": 213.2,
+    "endTimeTs": 218.1
+  },
+  {
+    "speakerName": "Brian Cho",
+    "timestamp": 219.2,
+    "endTimeTs": 247.8
+  },
+  {
+    "speakerName": "Tom Bradley",
+    "timestamp": 248.3,
+    "endTimeTs": 253.0
+  },
+  {
+    "speakerName": "Brian Cho",
+    "timestamp": 254.2,
+    "endTimeTs": 269.8
+  },
+  {
+    "speakerName": "Tom Bradley",
+    "timestamp": 270.7,
+    "endTimeTs": 276.5
+  },
+  {
+    "speakerName": "Brian Cho",
+    "timestamp": 276.8,
+    "endTimeTs": 288.1
+  },
+  {
+    "speakerName": "Ananya Sharma",
+    "timestamp": 289.3,
+    "endTimeTs": 295.2
+  },
+  {
+    "speakerName": "Tom Bradley",
+    "timestamp": 295.9,
+    "endTimeTs": 303.5
+  },
+  {
+    "speakerName": "Brian Cho",
+    "timestamp": 304.9,
+    "endTimeTs": 311.5
+  },
+  {
+    "speakerName": "Tom Bradley",
+    "timestamp": 312.9,
+    "endTimeTs": 323.6
+  },
+  {
+    "speakerName": "Sofia Petrov",
+    "timestamp": 324.0,
+    "endTimeTs": 346.8
+  },
+  {
+    "speakerName": "Brian Cho",
+    "timestamp": 347.7,
+    "endTimeTs": 359.2
+  },
+  {
+    "speakerName": "Ananya Sharma",
+    "timestamp": 359.8,
+    "endTimeTs": 370.3
+  },
+  {
+    "speakerName": "Brian Cho",
+    "timestamp": 370.9,
+    "endTimeTs": 379.1
+  },
+  {
+    "speakerName": "Tom Bradley",
+    "timestamp": 380.6,
+    "endTimeTs": 385.8
+  },
+  {
+    "speakerName": "Brian Cho",
+    "timestamp": 387.0,
+    "endTimeTs": 403.5
+  },
+  {
+    "speakerName": "Tom Bradley",
+    "timestamp": 404.9,
+    "endTimeTs": 423.4
+  },
+  {
+    "speakerName": "Ananya Sharma",
+    "timestamp": 423.9,
+    "endTimeTs": 428.4
+  },
+  {
+    "speakerName": "Tom Bradley",
+    "timestamp": 429.3,
+    "endTimeTs": 442.3
+  },
+  {
+    "speakerName": "Brian Cho",
+    "timestamp": 442.7,
+    "endTimeTs": 444.2
+  }
+]

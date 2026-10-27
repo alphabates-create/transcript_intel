@@ -1,0 +1,23 @@
+{
+  "meetingId": "01KQE110900B8A65D80AE694",
+  "title": "Detect Outage - Root Cause Analysis",
+  "organizerEmail": "sofia.petrov@aegiscloud.com",
+  "host": "sofia.petrov@aegiscloud.com",
+  "startTime": "2026-03-14T14:30:00.000Z",
+  "endTime": "2026-03-14T14:45:54.000Z",
+  "duration": 15.9,
+  "allEmails": [
+    "sofia.petrov@aegiscloud.com",
+    "mike.romano@aegiscloud.com",
+    "tyler.washington@aegiscloud.com",
+    "nina.kowalski@aegiscloud.com",
+    "ananya.sharma@aegiscloud.com"
+  ],
+  "invitees": [
+    "sofia.petrov@aegiscloud.com",
+    "mike.romano@aegiscloud.com",
+    "tyler.washington@aegiscloud.com",
+    "nina.kowalski@aegiscloud.com",
+    "ananya.sharma@aegiscloud.com"
+  ]
+}

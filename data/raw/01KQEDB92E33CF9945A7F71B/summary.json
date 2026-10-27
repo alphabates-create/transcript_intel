@@ -1,0 +1,46 @@
+{
+  "summary": "Lauren Bishop, VP of Infrastructure at Cobalt Software, called Aegis Cloud Security support reporting that their Aegis Detect dashboard was completely down with no threat visibility for nearly an hour. David Kim investigated and confirmed a platform-wide cascading failure in the event processing pipeline, escalating it as a P1 incident. Lauren expressed serious frustration that Aegis had not proactively detected or communicated the outage, and disclosed they have been evaluating a competitor product, SentinelShield. David committed to 15-minute email updates, a full root cause analysis, and flagging a service credit conversation to the account team.",
+  "actionItems": [
+    "David Kim: Send Lauren Bishop email updates every 15 minutes until service is restored, and call directly if significant changes occur",
+    "David Kim: Flag service credit request in the incident record and escalate to Lauren's account manager",
+    "David Kim: Ensure Lauren receives a written root cause analysis and documentation of remediation steps from engineering leadership",
+    "David Kim: Notify account team to schedule follow-up conversation with Lauren regarding the incident and retention concerns"
+  ],
+  "topics": [
+    "outage",
+    "platform reliability",
+    "threat monitoring",
+    "churn risk",
+    "incident response",
+    "service credit"
+  ],
+  "overallSentiment": "negative",
+  "sentimentScore": 1.8,
+  "keyMoments": [
+    {
+      "time": 45.0,
+      "text": "Lauren reports Aegis Detect dashboard is completely down with zero threat visibility, emphasizing the critical nature of the outage.",
+      "type": "concern",
+      "speaker": "Lauren Bishop"
+    },
+    {
+      "time": 312.0,
+      "text": "Lauren reveals she has been evaluating competitor SentinelShield for months and states this incident makes switching an easy decision.",
+      "type": "churn_signal",
+      "speaker": "Lauren Bishop"
+    },
+    {
+      "time": 198.0,
+      "text": "Lauren calls out that a customer had to report the outage before Aegis detected it internally, highlighting a fundamental monitoring gap.",
+      "type": "feature_gap",
+      "speaker": "Lauren Bishop"
+    },
+    {
+      "time": 530.0,
+      "text": "Lauren formally demands a service credit conversation, a written root cause analysis, and 15-minute status updates going forward.",
+      "type": "action_item",
+      "speaker": "Lauren Bishop"
+    }
+  ],
+  "meetingId": "01KQEDB92E33CF9945A7F71B"
+}

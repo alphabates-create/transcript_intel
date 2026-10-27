@@ -1,0 +1,38 @@
+[
+  {
+    "participantName": "Tyler Washington",
+    "timestamp": 1775569501000,
+    "type": "Join",
+    "time": 1.0
+  },
+  {
+    "participantName": "Chris Lee",
+    "timestamp": 1775569527000,
+    "type": "Join",
+    "time": 27.0
+  },
+  {
+    "participantName": "Diana Reeves",
+    "timestamp": 1775569540000,
+    "type": "Join",
+    "time": 40.0
+  },
+  {
+    "participantName": "Tyler Washington",
+    "timestamp": 1775572228000,
+    "type": "Leave",
+    "time": 2728.0
+  },
+  {
+    "participantName": "Diana Reeves",
+    "timestamp": 1775572238000,
+    "type": "Leave",
+    "time": 2738.0
+  },
+  {
+    "participantName": "Chris Lee",
+    "timestamp": 1775572236000,
+    "type": "Leave",
+    "time": 2736.0
+  }
+]

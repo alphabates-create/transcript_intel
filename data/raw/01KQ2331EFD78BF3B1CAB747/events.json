@@ -1,0 +1,50 @@
+[
+  {
+    "participantName": "Lisa Park",
+    "timestamp": 1773323113000,
+    "type": "Join",
+    "time": 13.0
+  },
+  {
+    "participantName": "Aisha Johnson",
+    "timestamp": 1773323142000,
+    "type": "Join",
+    "time": 42.0
+  },
+  {
+    "participantName": "Diana Reeves",
+    "timestamp": 1773323147000,
+    "type": "Join",
+    "time": 47.0
+  },
+  {
+    "participantName": "Priya Patel",
+    "timestamp": 1773323155000,
+    "type": "Join",
+    "time": 55.0
+  },
+  {
+    "participantName": "Lisa Park",
+    "timestamp": 1773325971000,
+    "type": "Leave",
+    "time": 2871.0
+  },
+  {
+    "participantName": "Priya Patel",
+    "timestamp": 1773325969000,
+    "type": "Leave",
+    "time": 2869.0
+  },
+  {
+    "participantName": "Diana Reeves",
+    "timestamp": 1773325961000,
+    "type": "Leave",
+    "time": 2861.0
+  },
+  {
+    "participantName": "Aisha Johnson",
+    "timestamp": 1773325967000,
+    "type": "Leave",
+    "time": 2867.0
+  }
+]

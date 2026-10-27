@@ -1,0 +1,414 @@
+{
+  "data": [
+    {
+      "sentence": "Thank you for calling Aegis Cloud Security support, this is David Kim, how can I help you today?",
+      "speaker_name": "David Kim",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 7.7,
+      "endTime": 14.4,
+      "averageConfidence": 0.95,
+      "index": 0
+    },
+    {
+      "sentence": "Hey David, yeah, this is Dominic Flores, IT Director over at Silverline Brands, I've got case number 9856 open, the one about our backup windows?",
+      "speaker_name": "Dominic Flores",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 14.8,
+      "endTime": 23.9,
+      "averageConfidence": 0.92,
+      "index": 1
+    },
+    {
+      "sentence": "Yes, absolutely, I pulled up the case right before you called actually \u2014 so you're seeing backup jobs running well past their scheduled windows, is that right?",
+      "speaker_name": "David Kim",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 25.0,
+      "endTime": 34.9,
+      "averageConfidence": 0.88,
+      "index": 2
+    },
+    {
+      "sentence": "That's the short version, yeah. I mean, look, this has been going on for about two weeks now and it's \u2014 it's becoming a real problem for us, especially with our retail operations. We're a 24/7 environment basically, and when backups are running into business hours it's causing performance degradation on our production systems.",
+      "speaker_name": "Dominic Flores",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 35.6,
+      "endTime": 54.8,
+      "averageConfidence": 0.96,
+      "index": 3
+    },
+    {
+      "sentence": "I completely understand, and I appreciate you flagging this \u2014 two weeks is way too long to be dealing with something like this, so let's dig into it today and figure out what's going on.",
+      "speaker_name": "David Kim",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 56.2,
+      "endTime": 68.4,
+      "averageConfidence": 0.92,
+      "index": 4
+    },
+    {
+      "sentence": "Yeah I mean, I submitted the case on \u2014 I think it was the 4th? And honestly I expected a faster response, I'll be honest with you. We're paying for premium support.",
+      "speaker_name": "Dominic Flores",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 69.5,
+      "endTime": 80.5,
+      "averageConfidence": 0.96,
+      "index": 5
+    },
+    {
+      "sentence": "You're right, and I \u2014 I want to own that, the initial response time on this case wasn't where it should've been and I'm sorry about that. I want to make sure we make good use of this time right now though. Can you walk me through what you're actually seeing? Like, what was the original backup window you had configured?",
+      "speaker_name": "David Kim",
+      "sentimentType": "negative",
+      "speaker_id": 0,
+      "time": 81.8,
+      "endTime": 102.9,
+      "averageConfidence": 0.94,
+      "index": 6
+    },
+    {
+      "sentence": "So we had it set to run from 1 AM to 5 AM, that's our four-hour window, which historically has been plenty. But now these jobs are running until \u2014 I've seen it go to 9, 9:30 in the morning. That's four to five hours of overage and that's right in the middle of when our warehouse and e-commerce teams are ramping up.",
+      "speaker_name": "Dominic Flores",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 103.3,
+      "endTime": 125.4,
+      "averageConfidence": 0.97,
+      "index": 7
+    },
+    {
+      "sentence": "And this started roughly two weeks ago you said, so that would be around March 29th or so?",
+      "speaker_name": "David Kim",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 126.7,
+      "endTime": 132.9,
+      "averageConfidence": 0.91,
+      "index": 8
+    },
+    {
+      "sentence": "Yeah, give or take. March 28th, 29th is when we first noticed it. My team thought maybe it was a one-off thing, like a large data change set or something, but it's been happening every night since.",
+      "speaker_name": "Dominic Flores",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 134.1,
+      "endTime": 147.0,
+      "averageConfidence": 0.92,
+      "index": 9
+    },
+    {
+      "sentence": "Okay, and are all of your backup jobs affected or is it specific workloads \u2014 like, is it just certain VMs, certain datasets, or is this across the board?",
+      "speaker_name": "David Kim",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 147.5,
+      "endTime": 157.7,
+      "averageConfidence": 0.94,
+      "index": 10
+    },
+    {
+      "sentence": "That's a good question. It seems like it's \u2014 it's pretty broad, but the worst offenders are our SQL Server instances. We've got three pretty beefy SQL servers running our e-commerce database and our inventory management system, and those are the ones really blowing past the window. Some of the smaller file server backups are also slow but not as dramatic.",
+      "speaker_name": "Dominic Flores",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 159.0,
+      "endTime": 180.4,
+      "averageConfidence": 0.96,
+      "index": 11
+    },
+    {
+      "sentence": "Got it, so SQL workloads are the primary pain point. And are these incremental backups that are running nightly or are you doing full backups every night?",
+      "speaker_name": "David Kim",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 181.2,
+      "endTime": 190.5,
+      "averageConfidence": 0.95,
+      "index": 12
+    },
+    {
+      "sentence": "Incrementals nightly, fulls on Sunday. And the Sunday fulls are \u2014 I mean those are also taking longer but that's kind of expected, the incrementals are what's really alarming me because they should be fast.",
+      "speaker_name": "Dominic Flores",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 191.0,
+      "endTime": 203.7,
+      "averageConfidence": 0.89,
+      "index": 13
+    },
+    {
+      "sentence": "Right, yeah, incrementals ballooning like that is definitely a red flag. A few things I want to check \u2014 have you seen any significant growth in your data change rate? Like, is there any reason your daily change set might have gotten larger around that time, end of month processing, new application rollouts, anything like that?",
+      "speaker_name": "David Kim",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 205.0,
+      "endTime": 225.1,
+      "averageConfidence": 0.93,
+      "index": 14
+    },
+    {
+      "sentence": "I mean, we did have our spring inventory sync run around that time, but we do that quarterly and it's never caused this before. And even if the change set was bigger it shouldn't be adding four hours, that seems excessive.",
+      "speaker_name": "Dominic Flores",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 225.9,
+      "endTime": 240.3,
+      "averageConfidence": 0.95,
+      "index": 15
+    },
+    {
+      "sentence": "Yeah, no, you're right, a quarterly process shouldn't account for that magnitude of slowdown. I want to pull up your backup job logs from the Aegis Protect console, do you mind if I take a minute to look at those?",
+      "speaker_name": "David Kim",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 241.4,
+      "endTime": 255.6,
+      "averageConfidence": 0.96,
+      "index": 16
+    },
+    {
+      "sentence": "Go ahead, yeah.",
+      "speaker_name": "Dominic Flores",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 256.9,
+      "endTime": 258.4,
+      "averageConfidence": 0.92,
+      "index": 17
+    },
+    {
+      "sentence": "Okay, so I'm looking at your environment here... and yeah, I can see the job durations, oof \u2014 yeah that's significant. Your SQL backup for, looks like it's the instance labeled SQLPROD01, that one's averaging about eight hours over the last ten days. That's uh, that's not good.",
+      "speaker_name": "David Kim",
+      "sentimentType": "negative",
+      "speaker_id": 0,
+      "time": 259.8,
+      "endTime": 276.7,
+      "averageConfidence": 0.92,
+      "index": 18
+    },
+    {
+      "sentence": "Right, exactly! And I keep getting told by my team to just expand the window but that's not a real fix, I shouldn't have to carve out more production hours for backups that used to run in under two hours.",
+      "speaker_name": "Dominic Flores",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 278.0,
+      "endTime": 291.8,
+      "averageConfidence": 0.88,
+      "index": 19
+    },
+    {
+      "sentence": "No, absolutely not, that's a band-aid, not a solution. Let me look at the throughput metrics here... okay so I'm seeing the backup throughput dropped pretty substantially \u2014 it looks like you were averaging around 800 megabytes per second before March 27th and now you're sitting around 180 to 220. That's a massive drop in throughput.",
+      "speaker_name": "David Kim",
+      "sentimentType": "negative",
+      "speaker_id": 0,
+      "time": 292.9,
+      "endTime": 312.9,
+      "averageConfidence": 0.95,
+      "index": 20
+    },
+    {
+      "sentence": "So something changed on your end? Because we didn't change anything on our infrastructure around that time, I specifically asked my team about that.",
+      "speaker_name": "Dominic Flores",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 313.8,
+      "endTime": 322.5,
+      "averageConfidence": 0.97,
+      "index": 21
+    },
+    {
+      "sentence": "I hear you, and I want to be transparent \u2014 so looking at our platform logs, around March 10th through the 18th we had a significant incident with Aegis Detect, our threat monitoring pipeline, and as part of the remediation work we pushed some backend infrastructure updates. Now, Protect and Detect run on separate systems, but some of the underlying network routing configurations were touched as part of that work, and I'm wondering if \u2014 and I need to confirm this with our infrastructure team \u2014 if some of those changes affected the data transfer paths for backup jobs in your region.",
+      "speaker_name": "David Kim",
+      "sentimentType": "negative",
+      "speaker_id": 0,
+      "time": 323.0,
+      "endTime": 359.1,
+      "averageConfidence": 0.94,
+      "index": 22
+    },
+    {
+      "sentence": "Wait, so a problem with a completely different module potentially broke our backups and nobody flagged this to customers? That's \u2014 I mean, I'm sorry David but that's pretty alarming to me.",
+      "speaker_name": "Dominic Flores",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 360.1,
+      "endTime": 371.5,
+      "averageConfidence": 0.95,
+      "index": 23
+    },
+    {
+      "sentence": "I understand your frustration, Dominic, and I'm not going to spin this \u2014 if that's what happened, it shouldn't have happened that way and customers should have been proactively notified. I'm still confirming the root cause but I want to be upfront with you about what I'm seeing rather than tell you nothing.",
+      "speaker_name": "David Kim",
+      "sentimentType": "negative",
+      "speaker_id": 0,
+      "time": 372.3,
+      "endTime": 390.9,
+      "averageConfidence": 0.94,
+      "index": 24
+    },
+    {
+      "sentence": "Okay. I \u2014 I appreciate that, at least. So what are the next steps here? Because I need this fixed before tonight, we cannot have another morning where our warehouse team is fighting with a sluggish inventory system because backups are still running.",
+      "speaker_name": "Dominic Flores",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 392.0,
+      "endTime": 406.9,
+      "averageConfidence": 0.96,
+      "index": 25
+    },
+    {
+      "sentence": "Okay so here's what I can do right now \u2014 I can escalate this internally to our Protect infrastructure team with the throughput data I'm looking at, and I also want to check your backup agent version because I'm seeing you're running 4.1.2, and we released 4.2.0 about three weeks ago which had some improvements to the data transfer compression algorithms. That could help even before we nail down the root cause.",
+      "speaker_name": "David Kim",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 408.2,
+      "endTime": 433.6,
+      "averageConfidence": 0.96,
+      "index": 26
+    },
+    {
+      "sentence": "Why wasn't that update pushed automatically? We're on managed updates.",
+      "speaker_name": "Dominic Flores",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 433.9,
+      "endTime": 437.5,
+      "averageConfidence": 0.92,
+      "index": 27
+    },
+    {
+      "sentence": "That's a fair question \u2014 4.2.0 was staged as an opt-in update rather than automatic because of some compatibility flags for SQL Server environments, which is ironic given your situation. But let me get that queued up for your environment, I'll push it out as a manual deployment through the console and you should see it applied within the hour if you can confirm your agents are reachable.",
+      "speaker_name": "David Kim",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 438.3,
+      "endTime": 462.0,
+      "averageConfidence": 0.91,
+      "index": 28
+    },
+    {
+      "sentence": "They should be, yeah. And that update \u2014 is that going to fix the throughput issue or is that just going to help a little bit?",
+      "speaker_name": "Dominic Flores",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 463.2,
+      "endTime": 472.2,
+      "averageConfidence": 0.93,
+      "index": 29
+    },
+    {
+      "sentence": "Honest answer? It should help, probably meaningfully, but I don't want to promise you it's the full fix until I understand whether there's a network routing issue on our backend. I'm going to get the infra team on this today \u2014 I'm flagging it as a P1 on my end \u2014 and I want to schedule a follow-up call with you tomorrow morning, before your backup window starts, so we can walk through whatever findings we have.",
+      "speaker_name": "David Kim",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 472.9,
+      "endTime": 500.0,
+      "averageConfidence": 0.95,
+      "index": 30
+    },
+    {
+      "sentence": "Tomorrow morning works. And I want someone from your engineering team on that call, not just \u2014 no offense \u2014 not just a support engineer. I need someone who can actually make changes on the backend if needed.",
+      "speaker_name": "Dominic Flores",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 500.7,
+      "endTime": 513.8,
+      "averageConfidence": 0.93,
+      "index": 31
+    },
+    {
+      "sentence": "None taken, I'll make that happen. I'll have a Protect platform engineer on the call. Can we say 10 AM your time? And what timezone are you in?",
+      "speaker_name": "David Kim",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 514.6,
+      "endTime": 524.2,
+      "averageConfidence": 0.91,
+      "index": 32
+    },
+    {
+      "sentence": "We're Central, so 10 AM Central works.",
+      "speaker_name": "Dominic Flores",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 525.1,
+      "endTime": 528.0,
+      "averageConfidence": 0.88,
+      "index": 33
+    },
+    {
+      "sentence": "Perfect, I'll send a calendar invite to the email on your account within the next 30 minutes. And Dominic, one more thing \u2014 is there anything I can set up as a temporary workaround for tonight? For example, I can look at adjusting the backup job priority settings and throttling some of the lower-priority file server jobs so the SQL workloads get more of the available bandwidth during the window.",
+      "speaker_name": "David Kim",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 529.2,
+      "endTime": 553.7,
+      "averageConfidence": 0.93,
+      "index": 34
+    },
+    {
+      "sentence": "Yeah, yeah, let's do that. The SQL servers are the priority, the file servers we can live with being a little slower if it means the SQL jobs finish closer to on time.",
+      "speaker_name": "Dominic Flores",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 554.1,
+      "endTime": 566.0,
+      "averageConfidence": 0.97,
+      "index": 35
+    },
+    {
+      "sentence": "Okay, I'm going to make those priority adjustments now in your policy configuration, and combined with the agent update that should \u2014 hopefully \u2014 get tonight's run into a better place. I'll also set up an alert so if the SQL job duration exceeds six hours I get paged directly, and I'll check in on it tomorrow morning before our call.",
+      "speaker_name": "David Kim",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 567.2,
+      "endTime": 588.8,
+      "averageConfidence": 0.93,
+      "index": 36
+    },
+    {
+      "sentence": "Alright. I mean, look, I'm still frustrated that we're two weeks into this and I'm just now getting real traction, but \u2014 I do appreciate you being straight with me about what you're seeing and not just giving me the runaround. Let's see what tomorrow brings.",
+      "speaker_name": "Dominic Flores",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 590.2,
+      "endTime": 606.5,
+      "averageConfidence": 0.91,
+      "index": 37
+    },
+    {
+      "sentence": "That's fair, Dominic, and I get it. We'll make this right. I'll have that invite and a case update email to you within the half hour, and I'll see you tomorrow at 10 Central with the engineering team.",
+      "speaker_name": "David Kim",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 607.3,
+      "endTime": 621.0,
+      "averageConfidence": 0.96,
+      "index": 38
+    },
+    {
+      "sentence": "Sounds good. Talk to you then.",
+      "speaker_name": "Dominic Flores",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 622.3,
+      "endTime": 624.3,
+      "averageConfidence": 0.93,
+      "index": 39
+    },
+    {
+      "sentence": "Thank you Dominic, talk soon.",
+      "speaker_name": "David Kim",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 625.6,
+      "endTime": 627.6,
+      "averageConfidence": 0.92,
+      "index": 40
+    }
+  ]
+}

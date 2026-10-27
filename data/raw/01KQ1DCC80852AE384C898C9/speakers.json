@@ -1,0 +1,222 @@
+[
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 3.2,
+    "endTimeTs": 8.7
+  },
+  {
+    "speakerName": "Brianna Foster",
+    "timestamp": 9.5,
+    "endTimeTs": 16.7
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 17.2,
+    "endTimeTs": 25.4
+  },
+  {
+    "speakerName": "Brianna Foster",
+    "timestamp": 26.6,
+    "endTimeTs": 38.1
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 39.1,
+    "endTimeTs": 49.4
+  },
+  {
+    "speakerName": "Leo Marquez",
+    "timestamp": 50.3,
+    "endTimeTs": 57.5
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 58.4,
+    "endTimeTs": 66.9
+  },
+  {
+    "speakerName": "Brianna Foster",
+    "timestamp": 67.2,
+    "endTimeTs": 84.5
+  },
+  {
+    "speakerName": "Leo Marquez",
+    "timestamp": 85.9,
+    "endTimeTs": 96.3
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 97.6,
+    "endTimeTs": 111.4
+  },
+  {
+    "speakerName": "Leo Marquez",
+    "timestamp": 111.8,
+    "endTimeTs": 125.4
+  },
+  {
+    "speakerName": "Brianna Foster",
+    "timestamp": 126.4,
+    "endTimeTs": 139.1
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 139.8,
+    "endTimeTs": 161.3
+  },
+  {
+    "speakerName": "Leo Marquez",
+    "timestamp": 162.2,
+    "endTimeTs": 176.0
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 177.4,
+    "endTimeTs": 193.5
+  },
+  {
+    "speakerName": "Brianna Foster",
+    "timestamp": 194.0,
+    "endTimeTs": 198.0
+  },
+  {
+    "speakerName": "Leo Marquez",
+    "timestamp": 199.5,
+    "endTimeTs": 212.2
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 213.6,
+    "endTimeTs": 231.4
+  },
+  {
+    "speakerName": "Brianna Foster",
+    "timestamp": 232.0,
+    "endTimeTs": 235.7
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 237.1,
+    "endTimeTs": 251.2
+  },
+  {
+    "speakerName": "Brianna Foster",
+    "timestamp": 252.6,
+    "endTimeTs": 264.0
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 265.0,
+    "endTimeTs": 270.7
+  },
+  {
+    "speakerName": "Brianna Foster",
+    "timestamp": 271.6,
+    "endTimeTs": 286.6
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 287.3,
+    "endTimeTs": 290.2
+  },
+  {
+    "speakerName": "Leo Marquez",
+    "timestamp": 290.5,
+    "endTimeTs": 303.2
+  },
+  {
+    "speakerName": "Leo Marquez",
+    "timestamp": 303.5,
+    "endTimeTs": 317.0
+  },
+  {
+    "speakerName": "Brianna Foster",
+    "timestamp": 317.4,
+    "endTimeTs": 340.0
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 340.5,
+    "endTimeTs": 361.5
+  },
+  {
+    "speakerName": "Leo Marquez",
+    "timestamp": 362.8,
+    "endTimeTs": 371.2
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 371.7,
+    "endTimeTs": 393.6
+  },
+  {
+    "speakerName": "Leo Marquez",
+    "timestamp": 394.2,
+    "endTimeTs": 404.1
+  },
+  {
+    "speakerName": "Brianna Foster",
+    "timestamp": 405.1,
+    "endTimeTs": 417.3
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 418.8,
+    "endTimeTs": 440.0
+  },
+  {
+    "speakerName": "Brianna Foster",
+    "timestamp": 440.5,
+    "endTimeTs": 448.6
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 449.2,
+    "endTimeTs": 459.6
+  },
+  {
+    "speakerName": "Brianna Foster",
+    "timestamp": 461.1,
+    "endTimeTs": 474.7
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 476.0,
+    "endTimeTs": 493.3
+  },
+  {
+    "speakerName": "Brianna Foster",
+    "timestamp": 494.2,
+    "endTimeTs": 507.3
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 508.5,
+    "endTimeTs": 530.8
+  },
+  {
+    "speakerName": "Brianna Foster",
+    "timestamp": 532.3,
+    "endTimeTs": 539.5
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 540.4,
+    "endTimeTs": 548.2
+  },
+  {
+    "speakerName": "Leo Marquez",
+    "timestamp": 549.6,
+    "endTimeTs": 565.1
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 566.3,
+    "endTimeTs": 581.9
+  },
+  {
+    "speakerName": "Brianna Foster",
+    "timestamp": 582.6,
+    "endTimeTs": 586.6
+  }
+]

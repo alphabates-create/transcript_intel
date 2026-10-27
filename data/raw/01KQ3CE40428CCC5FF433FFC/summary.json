@@ -1,0 +1,46 @@
+{
+  "summary": "Tom Bradley led a post-incident review of the Detect outage from March 10th, which caused approximately six hours of no threat monitoring for customers due to a cascading failure in the event ingestion pipeline caused by a single point of failure. Tom explained the deployed fixes including redundant processing nodes and a circuit breaker pattern, while Megan noted upcoming product improvements including a status indicator and a potential heartbeat alert feature. Diana highlighted customer concerns about lack of visibility, particularly among enterprise and mid-renewal accounts, and the team aligned on next steps for customer communications. Key action items include Tom delivering a formal post-incident report, Megan evaluating roadmap prioritization, and Diana coordinating customer calls.",
+  "actionItems": [
+    "Tom Bradley: Deliver the full technical PIR document (root cause, fix, and prevention measures) to Diana by tomorrow morning",
+    "Diana Reeves: Adapt PIR into customer-facing language and send to affected accounts by end of week, coordinating calls with enterprise and mid-renewal accounts",
+    "Megan Lawson: Review roadmap by end of week to assess feasibility of pulling forward the heartbeat alert feature",
+    "Tom Bradley: Make himself available for technical deep-dive calls with up to three or four enterprise customers flagged by Diana"
+  ],
+  "topics": [
+    "outage post-mortem",
+    "infrastructure reliability",
+    "customer communication",
+    "product visibility",
+    "roadmap prioritization",
+    "renewal risk"
+  ],
+  "overallSentiment": "mixed-negative",
+  "sentimentScore": 2.8,
+  "keyMoments": [
+    {
+      "time": 180.0,
+      "text": "Tom confirms customers had six hours of no threat monitoring alerts due to a single point of failure in the ingestion pipeline",
+      "type": "technical_issue",
+      "speaker": "Tom Bradley"
+    },
+    {
+      "time": 260.0,
+      "text": "Diana flags that customers feel like they're flying blind with Detect and that this incident reinforced that concern",
+      "type": "churn_signal",
+      "speaker": "Diana Reeves"
+    },
+    {
+      "time": 390.0,
+      "text": "Megan introduces the heartbeat alert feature concept, which would proactively notify customers if telemetry stops being received \u2014 Diana responds it would be huge",
+      "type": "feature_gap",
+      "speaker": "Megan Lawson"
+    },
+    {
+      "time": 480.0,
+      "text": "Diana notes that several enterprise accounts mid-renewal will want calls, not just an email, raising renewal risk",
+      "type": "concern",
+      "speaker": "Diana Reeves"
+    }
+  ],
+  "meetingId": "01KQ3CE40428CCC5FF433FFC"
+}

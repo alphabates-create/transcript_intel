@@ -1,0 +1,464 @@
+{
+  "data": [
+    {
+      "sentence": "Hey Vanessa, good morning! Can you hear me okay?",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 5.9,
+      "endTime": 9.4,
+      "averageConfidence": 0.96,
+      "index": 0
+    },
+    {
+      "sentence": "Yes! Hi Kevin, I can hear you perfectly. Good morning \u2014 thanks for making time for this.",
+      "speaker_name": "Vanessa Cruz",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 10.0,
+      "endTime": 16.1,
+      "averageConfidence": 0.92,
+      "index": 1
+    },
+    {
+      "sentence": "Of course, of course. I've been looking forward to this one actually. So, uh, how's everything going at Coastal Living? You guys just wrapped up your spring collection launch, right?",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 16.9,
+      "endTime": 27.5,
+      "averageConfidence": 0.89,
+      "index": 2
+    },
+    {
+      "sentence": "We did, yeah! It went really well actually. Traffic was way up compared to last year, which is great but also... you know, it puts a lot of pressure on the backend systems. So that's kind of part of why we're talking today.",
+      "speaker_name": "Vanessa Cruz",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 28.8,
+      "endTime": 43.7,
+      "averageConfidence": 0.97,
+      "index": 3
+    },
+    {
+      "sentence": "Yeah, absolutely, that makes total sense. More traffic, more data, more things that need to be protected. So let's dig into that. Before I jump into anything, can you just walk me through where you're at right now with your backup and recovery setup? Like what does that look like today?",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 44.1,
+      "endTime": 62.0,
+      "averageConfidence": 0.92,
+      "index": 4
+    },
+    {
+      "sentence": "Sure. So right now we have, um, kind of a patchwork honestly. We've got our e-commerce platform on CloudPrime, we've got some on-prem systems still \u2014 legacy stuff from before my time \u2014 and we've been using a third-party backup tool that... it does the job but it's not really built for what we're doing at scale now.",
+      "speaker_name": "Vanessa Cruz",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 62.8,
+      "endTime": 82.8,
+      "averageConfidence": 0.93,
+      "index": 5
+    },
+    {
+      "sentence": "Got it. And when you say it's not built for scale, is that more of a performance issue, or is it more around visibility \u2014 like you can't see across all your environments from one place?",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 83.5,
+      "endTime": 96.0,
+      "averageConfidence": 0.89,
+      "index": 6
+    },
+    {
+      "sentence": "Both, honestly. The visibility is probably the bigger pain point for me personally. My team is going into like three different dashboards to figure out whether a backup job actually completed successfully. And during peak season that's... that's just not sustainable.",
+      "speaker_name": "Vanessa Cruz",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 97.2,
+      "endTime": 111.6,
+      "averageConfidence": 0.97,
+      "index": 7
+    },
+    {
+      "sentence": "Yeah, that's a really common thing we hear, especially from retail customers. The seasonality angle is huge. And that's actually one of the areas where Aegis Protect really shines \u2014 you get that single pane of glass across your hybrid environment. So whether it's your CloudPrime workloads or your on-prem stuff, it's all in one place.",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 112.6,
+      "endTime": 132.0,
+      "averageConfidence": 0.93,
+      "index": 8
+    },
+    {
+      "sentence": "Yeah, that's what drew me in when I was looking at the documentation. That unified view is \u2014 I mean, that alone would save my team probably a few hours a week during busy periods.",
+      "speaker_name": "Vanessa Cruz",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 132.5,
+      "endTime": 145.3,
+      "averageConfidence": 0.89,
+      "index": 9
+    },
+    {
+      "sentence": "Exactly. And it adds up, right? A few hours a week times however many engineers you have touching this stuff... that's real time back. So, okay, tell me more about the environment. How many workloads are we roughly talking about that you'd want to bring under Protect?",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 146.5,
+      "endTime": 163.3,
+      "averageConfidence": 0.97,
+      "index": 10
+    },
+    {
+      "sentence": "So we've got around... let me think... probably 40 to 50 workloads total. The core e-commerce platform, our inventory management system, we've got a customer data platform that's really critical, and then some internal tools \u2014 HR stuff, finance systems. Those are less urgent but we'd want them covered eventually.",
+      "speaker_name": "Vanessa Cruz",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 164.6,
+      "endTime": 181.9,
+      "averageConfidence": 0.88,
+      "index": 11
+    },
+    {
+      "sentence": "Okay, that's a solid scope. And do you have a sense of total data volume? Rough order of magnitude is fine.",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 182.5,
+      "endTime": 190.1,
+      "averageConfidence": 0.9,
+      "index": 12
+    },
+    {
+      "sentence": "We're probably looking at, um, somewhere around 80 to 100 terabytes across everything. With the customer data platform that's the big one \u2014 that's where most of it lives.",
+      "speaker_name": "Vanessa Cruz",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 190.9,
+      "endTime": 200.9,
+      "averageConfidence": 0.9,
+      "index": 13
+    },
+    {
+      "sentence": "Perfect, yeah that's very much in our sweet spot. And the customer data platform \u2014 is that something where you have specific RTO and RPO requirements? Like from a recovery standpoint, if something went wrong, what does the business need?",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 201.4,
+      "endTime": 215.2,
+      "averageConfidence": 0.92,
+      "index": 14
+    },
+    {
+      "sentence": "Great question. So for the CDP specifically we'd want an RPO of no more than an hour, and RTO... ideally under four hours. That's kind of the threshold where it starts impacting our customer experience in a meaningful way.",
+      "speaker_name": "Vanessa Cruz",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 216.5,
+      "endTime": 230.2,
+      "averageConfidence": 0.96,
+      "index": 15
+    },
+    {
+      "sentence": "That's very achievable with Protect. We can actually get you to sub-one-hour RPO on that with continuous backup enabled \u2014 it's essentially near-real-time snapshotting. And on the recovery side, with our orchestrated recovery workflows, four hours is very conservative, you'd likely be looking at faster than that in practice.",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 230.8,
+      "endTime": 247.8,
+      "averageConfidence": 0.96,
+      "index": 16
+    },
+    {
+      "sentence": "Oh that's \u2014 yeah, that's really good to hear. Because honestly, one of my nightmares is a data loss event during like Black Friday or peak sale periods. We can't be down for hours.",
+      "speaker_name": "Vanessa Cruz",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 248.1,
+      "endTime": 260.1,
+      "averageConfidence": 0.91,
+      "index": 17
+    },
+    {
+      "sentence": "Totally understandable. Retail is one of those industries where a few hours of downtime has a direct, measurable revenue impact. It's not abstract. And that's actually something we can help you model out as part of the onboarding \u2014 we have a business impact analysis template that a lot of customers find really useful for internal stakeholder conversations.",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 261.5,
+      "endTime": 281.7,
+      "averageConfidence": 0.92,
+      "index": 18
+    },
+    {
+      "sentence": "Oh interesting, I'd love that. My CFO always wants to see the numbers tied to risk, so that would be \u2014 yeah, that would actually be really helpful for getting full buy-in internally.",
+      "speaker_name": "Vanessa Cruz",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 283.1,
+      "endTime": 294.8,
+      "averageConfidence": 0.97,
+      "index": 19
+    },
+    {
+      "sentence": "Yeah, I'll make sure to include that in the onboarding package. Okay so let's talk about the onboarding itself. Typically for a deployment of your scope \u2014 hybrid environment, 40 to 50 workloads \u2014 we're looking at a phased approach. We don't just try to flip everything on at once.",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 296.0,
+      "endTime": 313.6,
+      "averageConfidence": 0.93,
+      "index": 20
+    },
+    {
+      "sentence": "Good, because I was going to ask about that. My team has bandwidth constraints right now. We just came off the spring launch so everyone's a little fried, and I don't want to dump a massive migration on them all at once.",
+      "speaker_name": "Vanessa Cruz",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 315.0,
+      "endTime": 330.0,
+      "averageConfidence": 0.96,
+      "index": 21
+    },
+    {
+      "sentence": "Totally, yeah, we take that into account. So typically what we'd do is \u2014 phase one is your tier-one critical workloads, so in your case that's probably the CDP and your e-commerce platform. We'd get those onboarded first, get your team comfortable with the Protect console, and then phase two we roll out the inventory systems and other business-critical stuff. Phase three is everything else.",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 331.0,
+      "endTime": 353.6,
+      "averageConfidence": 0.93,
+      "index": 22
+    },
+    {
+      "sentence": "That structure makes a lot of sense. How long does each phase typically take? And, um, how much of my team's time are we realistically looking at per phase?",
+      "speaker_name": "Vanessa Cruz",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 354.8,
+      "endTime": 364.7,
+      "averageConfidence": 0.95,
+      "index": 23
+    },
+    {
+      "sentence": "So phase one usually runs about two to three weeks. Time commitment from your side is honestly pretty light \u2014 you'd have one or two engineers working with my implementation team, and it's more coordination and validation than heavy lifting. We do most of the configuration work.",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 365.8,
+      "endTime": 382.6,
+      "averageConfidence": 0.95,
+      "index": 24
+    },
+    {
+      "sentence": "Oh that's less than I expected. I think I was bracing for like a months-long project with lots of engineering hours.",
+      "speaker_name": "Vanessa Cruz",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 383.9,
+      "endTime": 390.9,
+      "averageConfidence": 0.96,
+      "index": 25
+    },
+    {
+      "sentence": "Ha, yeah we get that reaction a lot. We've really tried to streamline the implementation process. We've got automation for a lot of the agent deployment, especially on the CloudPrime side \u2014 it connects right into your existing infrastructure without a lot of manual configuration.",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 392.3,
+      "endTime": 408.2,
+      "averageConfidence": 0.95,
+      "index": 26
+    },
+    {
+      "sentence": "That's huge. Honestly that was one of my concerns \u2014 I didn't want my team spending weeks just getting agents installed everywhere.",
+      "speaker_name": "Vanessa Cruz",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 408.8,
+      "endTime": 416.8,
+      "averageConfidence": 0.95,
+      "index": 27
+    },
+    {
+      "sentence": "Right, and with the on-prem piece it's a little more manual but not dramatically so. We've got a connector that works with most legacy environments \u2014 what operating systems are your on-prem servers running?",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 417.4,
+      "endTime": 429.8,
+      "averageConfidence": 0.96,
+      "index": 28
+    },
+    {
+      "sentence": "It's a mix. Mostly Windows Server 2019, and then a couple of older Linux boxes \u2014 I think they're running CentOS 7. I know, I know, that's a legacy concern but we're working on it.",
+      "speaker_name": "Vanessa Cruz",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 431.2,
+      "endTime": 443.7,
+      "averageConfidence": 0.93,
+      "index": 29
+    },
+    {
+      "sentence": "No, that's fine, we support all of that. CentOS 7 is fully supported so no issues there. I'll just make a note so our implementation team is aware going in.",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 444.7,
+      "endTime": 455.0,
+      "averageConfidence": 0.9,
+      "index": 30
+    },
+    {
+      "sentence": "Great. And what about training? Is there like a formal training program for my team, or is it more self-serve documentation?",
+      "speaker_name": "Vanessa Cruz",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 456.2,
+      "endTime": 463.8,
+      "averageConfidence": 0.93,
+      "index": 31
+    },
+    {
+      "sentence": "Both, actually. We have a dedicated onboarding specialist who'll run live sessions with your team \u2014 usually two or three sessions covering the console, backup policy configuration, and recovery workflows. And then we have a full knowledge base and video library they can reference on their own time. Most teams feel pretty confident after those live sessions.",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 465.0,
+      "endTime": 484.8,
+      "averageConfidence": 0.9,
+      "index": 32
+    },
+    {
+      "sentence": "Perfect. My team learns better in live sessions honestly \u2014 they like being able to ask questions in real time. So that's great.",
+      "speaker_name": "Vanessa Cruz",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 485.4,
+      "endTime": 493.7,
+      "averageConfidence": 0.91,
+      "index": 33
+    },
+    {
+      "sentence": "Absolutely. And your onboarding specialist will also be your point of contact for the first 90 days, so if questions come up after the sessions they have someone specific to go to rather than just a generic support queue.",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 495.1,
+      "endTime": 508.8,
+      "averageConfidence": 0.91,
+      "index": 34
+    },
+    {
+      "sentence": "Oh I love that. Nothing worse than getting routed through a support ticket system when you're trying to just get a quick answer.",
+      "speaker_name": "Vanessa Cruz",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 509.4,
+      "endTime": 517.8,
+      "averageConfidence": 0.92,
+      "index": 35
+    },
+    {
+      "sentence": "Exactly, yeah. Okay so I want to also just flag \u2014 you guys are also going to have access to Aegis Comply, right, as part of your package?",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 518.3,
+      "endTime": 528.6,
+      "averageConfidence": 0.91,
+      "index": 36
+    },
+    {
+      "sentence": "Oh yeah, we've been hearing about the v2 launch \u2014 that just went GA recently, right? We haven't dug into it yet but it's on my radar.",
+      "speaker_name": "Vanessa Cruz",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 529.4,
+      "endTime": 539.2,
+      "averageConfidence": 0.97,
+      "index": 37
+    },
+    {
+      "sentence": "Yeah, just launched April 7th actually. And given that you're dealing with customer data at scale \u2014 payment info presumably \u2014 the PCI DSS reporting out of Comply v2 might be worth a separate conversation down the line. Just something to keep in mind.",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 540.0,
+      "endTime": 555.4,
+      "averageConfidence": 0.92,
+      "index": 38
+    },
+    {
+      "sentence": "Definitely, yes. PCI compliance is always a headache for us. Let's put that on the list for a follow-up after we get Protect up and running. One thing at a time.",
+      "speaker_name": "Vanessa Cruz",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 556.8,
+      "endTime": 567.6,
+      "averageConfidence": 0.89,
+      "index": 39
+    },
+    {
+      "sentence": "Agreed, absolutely. Okay so I think the next step is I'll send over a formal onboarding plan document \u2014 it'll outline the three phases, timelines, resource requirements from your team, and I'll include that business impact analysis template I mentioned. Does early next week work for a kickoff call with the implementation team?",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 568.6,
+      "endTime": 587.2,
+      "averageConfidence": 0.94,
+      "index": 40
+    },
+    {
+      "sentence": "Yeah, early next week is great. Tuesday or Wednesday would work best for me. I'll get my two senior engineers looped in \u2014 they're the ones who'll be hands-on with this.",
+      "speaker_name": "Vanessa Cruz",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 587.8,
+      "endTime": 598.9,
+      "averageConfidence": 0.94,
+      "index": 41
+    },
+    {
+      "sentence": "Perfect. I'll send a calendar invite for Wednesday with the implementation lead copied in. Vanessa, I'm really excited about this one \u2014 I think the Protect deployment is going to make a real difference for your team heading into the summer season.",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 600.0,
+      "endTime": 615.1,
+      "averageConfidence": 0.89,
+      "index": 42
+    },
+    {
+      "sentence": "Me too, honestly. This has been one of the more energizing vendor conversations I've had in a while \u2014 you actually answered my questions without just throwing a slide deck at me, so... I appreciate that.",
+      "speaker_name": "Vanessa Cruz",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 616.5,
+      "endTime": 628.9,
+      "averageConfidence": 0.89,
+      "index": 43
+    },
+    {
+      "sentence": "Ha! I'll take that as a win. Alright, I'll get everything over to you by end of day tomorrow. Thanks so much for the time today, Vanessa.",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 630.2,
+      "endTime": 639.4,
+      "averageConfidence": 0.89,
+      "index": 44
+    },
+    {
+      "sentence": "Thank you Kevin. Looking forward to it. Talk soon!",
+      "speaker_name": "Vanessa Cruz",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 640.8,
+      "endTime": 644.2,
+      "averageConfidence": 0.93,
+      "index": 45
+    }
+  ]
+}

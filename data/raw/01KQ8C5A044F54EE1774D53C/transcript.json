@@ -1,0 +1,404 @@
+{
+  "data": [
+    {
+      "sentence": "Alright, I think we're all on now \u2014 Charles, can you hear us okay?",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 6.6,
+      "endTime": 11.9,
+      "averageConfidence": 0.93,
+      "index": 0
+    },
+    {
+      "sentence": "Yeah, I'm here. Audio's fine on my end.",
+      "speaker_name": "Charles Ng",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 12.8,
+      "endTime": 15.5,
+      "averageConfidence": 0.91,
+      "index": 1
+    },
+    {
+      "sentence": "Great. And Kevin just joined too, so we're all set. Charles, thanks for making time \u2014 I know this week has probably been, uh, a lot for your team.",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 16.4,
+      "endTime": 26.5,
+      "averageConfidence": 0.88,
+      "index": 2
+    },
+    {
+      "sentence": "Yeah, 'a lot' is one way to put it, Maria. It's been a rough few days, honestly.",
+      "speaker_name": "Charles Ng",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 27.6,
+      "endTime": 34.0,
+      "averageConfidence": 0.9,
+      "index": 3
+    },
+    {
+      "sentence": "Completely understood. And that's exactly why we wanted to get on a call sooner rather than later \u2014 not just to send an email but actually, you know, sit down and walk through what happened and where we go from here.",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 34.9,
+      "endTime": 49.6,
+      "averageConfidence": 0.92,
+      "index": 4
+    },
+    {
+      "sentence": "Kevin, you want to kick us off with the technical summary?",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 50.3,
+      "endTime": 54.2,
+      "averageConfidence": 0.96,
+      "index": 5
+    },
+    {
+      "sentence": "Sure, yeah. So, Charles, first \u2014 I just want to say I'm sorry. Your team should not have experienced what happened, and I want to be straightforward with you about the root cause. What we had was essentially a single point of failure in our event ingestion pipeline. One component went down and, uh, it cascaded. It took the whole processing layer with it.",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "negative",
+      "speaker_id": 2,
+      "time": 55.4,
+      "endTime": 77.7,
+      "averageConfidence": 0.89,
+      "index": 6
+    },
+    {
+      "sentence": "Right, so for \u2014 what was it, six hours? \u2014 we had zero threat monitoring visibility. None. Our security team was flying blind.",
+      "speaker_name": "Charles Ng",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 78.6,
+      "endTime": 87.0,
+      "averageConfidence": 0.92,
+      "index": 7
+    },
+    {
+      "sentence": "That's correct. Six hours, approximately. And I \u2014 yeah, there's no softening that. That's a significant window.",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "negative",
+      "speaker_id": 2,
+      "time": 88.4,
+      "endTime": 94.5,
+      "averageConfidence": 0.91,
+      "index": 8
+    },
+    {
+      "sentence": "Kevin, can you tell him what the fix looks like? Because I think that's important context.",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 94.8,
+      "endTime": 100.3,
+      "averageConfidence": 0.93,
+      "index": 9
+    },
+    {
+      "sentence": "Yeah, absolutely. So we've already implemented redundant processing nodes \u2014 so there's no longer a single point of failure in that ingestion layer. And we've also put a circuit breaker pattern in place, which means if one node starts degrading, it gets isolated before it can take down the rest of the pipeline. This is already in production as of this morning.",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 101.5,
+      "endTime": 123.5,
+      "averageConfidence": 0.94,
+      "index": 10
+    },
+    {
+      "sentence": "Okay. And I appreciate you explaining that, Kevin, I do. But \u2014 and I want to be honest with you both here \u2014 that doesn't fully address my concern. The concern isn't just what caused it. It's that it happened at all, and that we didn't know it was happening until almost two hours in.",
+      "speaker_name": "Charles Ng",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 124.9,
+      "endTime": 144.5,
+      "averageConfidence": 0.91,
+      "index": 11
+    },
+    {
+      "sentence": "That's a fair point, Charles.",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 145.1,
+      "endTime": 147.1,
+      "averageConfidence": 0.93,
+      "index": 12
+    },
+    {
+      "sentence": "Two hours before we got any notification. My team was the one who flagged it to your support desk. We noticed our dashboards had gone stale before Aegis even sent us an alert. That's \u2014 I mean, that's backwards. A threat monitoring product should be monitoring itself.",
+      "speaker_name": "Charles Ng",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 148.4,
+      "endTime": 164.6,
+      "averageConfidence": 0.95,
+      "index": 13
+    },
+    {
+      "sentence": "You're absolutely right, and that's \u2014 honestly, that's the part that stings the most from our side too. The alerting on the internal failure was not working the way it should have. That's a gap we've identified and it's being addressed alongside the pipeline fix.",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "negative",
+      "speaker_id": 2,
+      "time": 165.4,
+      "endTime": 180.9,
+      "averageConfidence": 0.9,
+      "index": 14
+    },
+    {
+      "sentence": "Charles, can I ask \u2014 and I want to understand the full picture here \u2014 what was the actual impact on Helix during that window? Did anything slip through, or was it more of an exposure risk that you had to manage?",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 181.8,
+      "endTime": 196.9,
+      "averageConfidence": 0.89,
+      "index": 15
+    },
+    {
+      "sentence": "Fortunately \u2014 and I say fortunately with a lot of emphasis there \u2014 nothing slipped through that we've found. But we spent, I don't know, twelve, fifteen person-hours doing a manual review of logs after the fact just to confirm that. My team basically had to do Aegis Detect's job manually for six hours and then audit it afterward. That's not a small thing for us.",
+      "speaker_name": "Charles Ng",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 197.7,
+      "endTime": 220.9,
+      "averageConfidence": 0.89,
+      "index": 16
+    },
+    {
+      "sentence": "Yeah, that's \u2014 yeah. That's a real cost and I don't want to minimize it.",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "negative",
+      "speaker_id": 0,
+      "time": 221.7,
+      "endTime": 226.9,
+      "averageConfidence": 0.9,
+      "index": 17
+    },
+    {
+      "sentence": "And look, I like you guys. I've always liked working with your team. But I have to be transparent \u2014 this isn't happening in a vacuum. We've been having internal conversations about our security stack, and, um, we've been talking to VaultEdge as part of a broader vendor review. I'm not saying that to be threatening, I just \u2014 you should know where we're at.",
+      "speaker_name": "Charles Ng",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 227.4,
+      "endTime": 249.9,
+      "averageConfidence": 0.92,
+      "index": 18
+    },
+    {
+      "sentence": "I appreciate you telling us that, Charles. I really do. Can you tell us a bit more about what's driving that review \u2014 is it primarily this incident, or were there concerns before?",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 251.0,
+      "endTime": 262.7,
+      "averageConfidence": 0.96,
+      "index": 19
+    },
+    {
+      "sentence": "Honestly? It's both. This incident accelerated the conversation, but we've had some lower-level grumbles for a while. The alert noise from Detect has been higher than we'd like \u2014 a lot of false positives that my team has to triage. And the custom rule configuration, it's... it's more cumbersome than it should be for a platform at this price point.",
+      "speaker_name": "Charles Ng",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 264.0,
+      "endTime": 285.1,
+      "averageConfidence": 0.97,
+      "index": 20
+    },
+    {
+      "sentence": "The false positive rate \u2014 is that something you've flagged with support previously, or has it mostly been absorbed internally?",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 286.2,
+      "endTime": 293.4,
+      "averageConfidence": 0.95,
+      "index": 21
+    },
+    {
+      "sentence": "Mostly absorbed internally, which I'll admit is partly on us for not escalating sooner. But there's also an expectation that a product this mature should have better out-of-the-box tuning, you know?",
+      "speaker_name": "Charles Ng",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 294.9,
+      "endTime": 305.8,
+      "averageConfidence": 0.93,
+      "index": 22
+    },
+    {
+      "sentence": "Yeah, that's fair feedback and I want to make sure we capture that properly. On the rule configuration side \u2014 Kevin, is that something we can get eyes on specifically for Helix's environment?",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 306.3,
+      "endTime": 317.9,
+      "averageConfidence": 0.97,
+      "index": 23
+    },
+    {
+      "sentence": "Absolutely. Charles, I'd actually like to set up a separate working session just on the detection tuning \u2014 look at what rules you have configured, where the noise is coming from, and get you to a better baseline. That's something we can do in the next week or two.",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 318.7,
+      "endTime": 336.0,
+      "averageConfidence": 0.94,
+      "index": 24
+    },
+    {
+      "sentence": "I mean, I'm open to that. I just want to make sure it's not a band-aid. Like, if the underlying product has structural issues, tuning sessions aren't going to change my view on the platform.",
+      "speaker_name": "Charles Ng",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 336.9,
+      "endTime": 349.3,
+      "averageConfidence": 0.89,
+      "index": 25
+    },
+    {
+      "sentence": "That's completely reasonable and I hear you. I don't want to oversell a tuning session either. What I'd want to understand better is \u2014 when you're talking to VaultEdge, what is it that they're showing you that's resonating? Because I want to understand if there are genuine capability gaps on our side.",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 349.6,
+      "endTime": 367.9,
+      "averageConfidence": 0.89,
+      "index": 26
+    },
+    {
+      "sentence": "Uh, well \u2014 their detection pipeline architecture, from what they've shown us, is distributed by design. Which, in light of what just happened, is obviously appealing. They've also been talking about their alert correlation engine, which is supposedly a lot better at suppressing redundant alerts. We haven't done a full POC yet so I can't say for sure how it actually performs.",
+      "speaker_name": "Charles Ng",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 369.3,
+      "endTime": 391.4,
+      "averageConfidence": 0.91,
+      "index": 27
+    },
+    {
+      "sentence": "Okay, that's helpful. And just so you know \u2014 the redundant node architecture we've now deployed is functionally similar to what a distributed-by-design approach would give you. I want to make sure you're evaluating the current state, not where we were a week ago.",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 391.9,
+      "endTime": 407.2,
+      "averageConfidence": 0.89,
+      "index": 28
+    },
+    {
+      "sentence": "Kevin, can you \u2014 would it make sense to put together something in writing that documents the architecture changes? Like a proper technical brief that Charles can share with his leadership?",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 408.1,
+      "endTime": 418.9,
+      "averageConfidence": 0.91,
+      "index": 29
+    },
+    {
+      "sentence": "Yeah, I can do that. I can have a technical summary of the remediation and the new architecture ready by end of this week.",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 419.7,
+      "endTime": 427.8,
+      "averageConfidence": 0.95,
+      "index": 30
+    },
+    {
+      "sentence": "That would actually be useful. My CTO is asking questions and right now I'm the one translating the situation upward, so having something formal would help.",
+      "speaker_name": "Charles Ng",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 428.3,
+      "endTime": 437.4,
+      "averageConfidence": 0.91,
+      "index": 31
+    },
+    {
+      "sentence": "Totally, and I'll make it CTO-readable \u2014 high level but technically substantive, not just marketing language.",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 438.8,
+      "endTime": 444.3,
+      "averageConfidence": 0.95,
+      "index": 32
+    },
+    {
+      "sentence": "Charles, I also want to put something on the table \u2014 and I want to be thoughtful about how I say this because I don't want it to feel transactional. But given the impact this caused, I want to talk about what we can do to make this right beyond just the technical fix. I'd like to bring a proposal to you by end of week.",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 444.9,
+      "endTime": 467.7,
+      "averageConfidence": 0.89,
+      "index": 33
+    },
+    {
+      "sentence": "I appreciate that, Maria. I'll be honest, though \u2014 it's going to take more than a service credit to rebuild my confidence here. I need to see that this kind of failure mode is genuinely off the table going forward.",
+      "speaker_name": "Charles Ng",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 468.6,
+      "endTime": 482.4,
+      "averageConfidence": 0.91,
+      "index": 34
+    },
+    {
+      "sentence": "Understood. And I think the combination of the architecture brief from Kevin, the tuning session, and whatever we put together commercially \u2014 I want all of that to come together as a package, not just a check in a box. Can we plan to reconnect next week to go through it together?",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 483.2,
+      "endTime": 501.5,
+      "averageConfidence": 0.91,
+      "index": 35
+    },
+    {
+      "sentence": "Yeah, next week works. I'd say mid-week \u2014 Tuesday or Wednesday. And I'd want my security lead, Priya, on that call as well.",
+      "speaker_name": "Charles Ng",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 502.2,
+      "endTime": 510.6,
+      "averageConfidence": 0.89,
+      "index": 36
+    },
+    {
+      "sentence": "Perfect, we'll get that scheduled. And Charles \u2014 again, I'm sorry. This shouldn't have happened and I want to make sure that when we talk next week, you feel like we've actually addressed the things you've raised today, not just acknowledged them.",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "negative",
+      "speaker_id": 0,
+      "time": 511.9,
+      "endTime": 526.4,
+      "averageConfidence": 0.95,
+      "index": 37
+    },
+    {
+      "sentence": "I hear you. I'll see how next week looks. Thanks for getting on the call today, both of you.",
+      "speaker_name": "Charles Ng",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 527.5,
+      "endTime": 534.4,
+      "averageConfidence": 0.95,
+      "index": 38
+    },
+    {
+      "sentence": "Thanks Charles, talk soon.",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 534.9,
+      "endTime": 536.4,
+      "averageConfidence": 0.94,
+      "index": 39
+    }
+  ]
+}

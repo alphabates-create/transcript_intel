@@ -1,0 +1,21 @@
+{
+  "meetingId": "01KQC3A2EBC501837E973B16",
+  "title": "Aegis / Frostbyte AI - Identity Module Setup",
+  "organizerEmail": "james.mitchell@aegiscloud.com",
+  "host": "james.mitchell@aegiscloud.com",
+  "startTime": "2026-02-19T10:30:00.000Z",
+  "endTime": "2026-02-19T11:02:18.000Z",
+  "duration": 32.3,
+  "allEmails": [
+    "james.mitchell@aegiscloud.com",
+    "ananya.sharma@aegiscloud.com",
+    "v.zheng@frostbyte.ai",
+    "o.strand@frostbyte.ai"
+  ],
+  "invitees": [
+    "james.mitchell@aegiscloud.com",
+    "ananya.sharma@aegiscloud.com",
+    "v.zheng@frostbyte.ai",
+    "o.strand@frostbyte.ai"
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "summary": "Maria Santos met with Catherine Page and Russell Tang to address serious concerns about Aegis following a six-hour monitoring outage in March that affected their manufacturing OT environment, poor communication during the incident, and gaps in compliance reporting functionality. Catherine disclosed that their organization is actively evaluating a competitor, Fortiguard Pro, partly driven by these issues. Maria acknowledged the failures directly, informed the team that Aegis Comply v2 had just launched with improved ISO 27001 reporting, and proposed concrete next steps to rebuild trust. The call ended constructively with the customer open to continuing the relationship provided key commitments are met.",
+  "actionItems": [
+    "Maria Santos: Send RCA documentation for the March outage to Catherine and Russell this week",
+    "Maria Santos: Schedule Comply v2 demo with ISO 27001 focus for Wednesday and send calendar invite today",
+    "Maria Santos: Engage account executive and VP of Customer Success to develop a monitoring-specific SLA and credit structure proposal",
+    "Maria Santos: Set up a technical session with the Aegis OT security specialist tailored to the customer's manufacturing and Siemens PLC environment"
+  ],
+  "topics": [
+    "outage",
+    "compliance reporting",
+    "competitive threat",
+    "ot security",
+    "trust recovery",
+    "sla negotiation"
+  ],
+  "overallSentiment": "mixed-negative",
+  "sentimentScore": 2.6,
+  "keyMoments": [
+    {
+      "time": 95.0,
+      "text": "Catherine reveals they are actively considering leaving Aegis, framing it as a serious internal discussion about fit",
+      "type": "churn_signal",
+      "speaker": "Catherine Page"
+    },
+    {
+      "time": 165.0,
+      "text": "Russell describes the March six-hour monitoring blackout and the failure to be proactively notified, highlighting a critical trust breach",
+      "type": "technical_issue",
+      "speaker": "Russell Tang"
+    },
+    {
+      "time": 540.0,
+      "text": "Maria discloses that Aegis Comply v2 with ISO 27001 support just launched on April 7th, directly addressing a key driver of the competitive evaluation",
+      "type": "positive_pivot",
+      "speaker": "Maria Santos"
+    },
+    {
+      "time": 820.0,
+      "text": "Catherine outlines three specific requirements for rebuilding trust: RCA documentation, a monitoring-specific SLA with credits, and a live Comply v2 demo before the May audit",
+      "type": "action_item",
+      "speaker": "Catherine Page"
+    }
+  ],
+  "meetingId": "01KQ6CAA850EAFDC48B52846"
+}

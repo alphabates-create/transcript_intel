@@ -1,0 +1,414 @@
+{
+  "data": [
+    {
+      "sentence": "Evelyn, hi! Thanks so much for making time today, I know your calendar's been absolutely packed.",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 3.0,
+      "endTime": 9.0,
+      "averageConfidence": 0.93,
+      "index": 0
+    },
+    {
+      "sentence": "Maria, are you kidding? I've been looking forward to this one. We've got a lot to catch up on.",
+      "speaker_name": "Evelyn Park",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 9.6,
+      "endTime": 16.4,
+      "averageConfidence": 0.89,
+      "index": 1
+    },
+    {
+      "sentence": "That's great to hear. And I also have Kevin O'Brien on the line with me today \u2014 he's one of our Solutions Architects, and he's been deep in the weeds on everything Comply-related, so I wanted to bring him in for this one.",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 17.1,
+      "endTime": 32.4,
+      "averageConfidence": 0.93,
+      "index": 2
+    },
+    {
+      "sentence": "Hey Evelyn, really glad to be here. I've been doing a lot of work with healthcare customers lately so hopefully I can add some useful context.",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 33.0,
+      "endTime": 42.3,
+      "averageConfidence": 0.95,
+      "index": 3
+    },
+    {
+      "sentence": "Perfect, love that. Kevin, welcome. And yeah, compliance has just been \u2014 it's been front and center for us this quarter, so the timing of this call is actually really good.",
+      "speaker_name": "Evelyn Park",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 43.2,
+      "endTime": 53.8,
+      "averageConfidence": 0.94,
+      "index": 4
+    },
+    {
+      "sentence": "So maybe let's just start there \u2014 what's been driving the urgency on the compliance side? Is it an upcoming audit, internal pressure, or...?",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 54.3,
+      "endTime": 62.4,
+      "averageConfidence": 0.94,
+      "index": 5
+    },
+    {
+      "sentence": "It's honestly a little bit of everything. We've got a HIPAA audit coming up in Q2, our board has been asking more pointed questions about our security posture, and um, we just onboarded two new hospital systems into our network so the scope of what we're responsible for has expanded significantly.",
+      "speaker_name": "Evelyn Park",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 63.8,
+      "endTime": 82.0,
+      "averageConfidence": 0.96,
+      "index": 6
+    },
+    {
+      "sentence": "That's a lot of moving pieces all at once.",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 82.6,
+      "endTime": 85.5,
+      "averageConfidence": 0.9,
+      "index": 7
+    },
+    {
+      "sentence": "Yeah, it really is. And the honest truth is, our current compliance reporting process is \u2014 it's painful. We're still pulling together spreadsheets, chasing down evidence from like six different teams, and by the time we have a report ready it's already out of date.",
+      "speaker_name": "Evelyn Park",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 86.3,
+      "endTime": 102.3,
+      "averageConfidence": 0.94,
+      "index": 8
+    },
+    {
+      "sentence": "Okay yeah, that's a really common pain point we hear, especially in healthcare orgs at your scale. Can I ask \u2014 are you currently using Aegis Comply at all, or is this more exploratory?",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 103.3,
+      "endTime": 115.4,
+      "averageConfidence": 0.9,
+      "index": 9
+    },
+    {
+      "sentence": "We are using it, we've been on it for about eight months now. We're using it primarily for SOC 2 right now, and it's been \u2014 honestly it's been a night and day difference from what we were doing before. But HIPAA specifically, that's where we feel like there are gaps.",
+      "speaker_name": "Evelyn Park",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 116.7,
+      "endTime": 134.6,
+      "averageConfidence": 0.96,
+      "index": 10
+    },
+    {
+      "sentence": "That makes a lot of sense. So the SOC 2 workflow is working well for you \u2014 that's great to hear. And the HIPAA gap, is that more about the framework mapping itself, or is it the evidence collection, or...?",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 135.6,
+      "endTime": 149.3,
+      "averageConfidence": 0.91,
+      "index": 11
+    },
+    {
+      "sentence": "It's kind of both, if I'm being honest. Like, I can see where controls overlap between SOC 2 and HIPAA in theory, but the platform right now makes me basically treat them as two completely separate workstreams. And that's just \u2014 that's not sustainable for my team.",
+      "speaker_name": "Evelyn Park",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 150.0,
+      "endTime": 166.5,
+      "averageConfidence": 0.92,
+      "index": 12
+    },
+    {
+      "sentence": "Right, right. And that's actually \u2014 Kevin, do you want to jump in here? Because I think what Evelyn's describing is exactly what we've been building toward.",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 166.8,
+      "endTime": 176.4,
+      "averageConfidence": 0.89,
+      "index": 13
+    },
+    {
+      "sentence": "Yeah, absolutely. So Evelyn, this is something we've heard from a lot of customers in healthcare and financial services, and it's something the product team has been heads-down on. Without getting too far ahead of ourselves, what's coming in the Comply v2 roadmap is really designed to address exactly this \u2014 multi-framework support where a single piece of evidence can map across HIPAA, SOC 2, and other frameworks simultaneously.",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 177.1,
+      "endTime": 201.5,
+      "averageConfidence": 0.93,
+      "index": 14
+    },
+    {
+      "sentence": "Oh that's \u2014 okay, tell me more about that. Because if I can collect evidence once and have it satisfy controls across multiple frameworks, that would be... I mean that would be huge for us.",
+      "speaker_name": "Evelyn Park",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 202.1,
+      "endTime": 214.5,
+      "averageConfidence": 0.94,
+      "index": 15
+    },
+    {
+      "sentence": "That's exactly the idea. So instead of your team going to three different places for three different audits, you'd have one unified evidence library and the platform handles the cross-framework mapping for you.",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 215.6,
+      "endTime": 227.0,
+      "averageConfidence": 0.94,
+      "index": 16
+    },
+    {
+      "sentence": "And I know you mentioned the board asking more questions too \u2014 one thing that's really exciting about where Comply is going is the reporting side. Like, being able to generate an on-demand report for a board meeting rather than spending a week pulling it together manually.",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 228.1,
+      "endTime": 245.1,
+      "averageConfidence": 0.94,
+      "index": 17
+    },
+    {
+      "sentence": "Oh gosh, yes. Our last board presentation, I kid you not, my team spent four days on the compliance section alone. Four days. That's time we're not spending on actual security work.",
+      "speaker_name": "Evelyn Park",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 246.0,
+      "endTime": 257.6,
+      "averageConfidence": 0.91,
+      "index": 18
+    },
+    {
+      "sentence": "Yeah that's \u2014 that's a real cost, right? And it's hard to quantify sometimes but when you think about your team's time and attention, it adds up fast.",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 259.1,
+      "endTime": 269.1,
+      "averageConfidence": 0.93,
+      "index": 19
+    },
+    {
+      "sentence": "Totally. And honestly, one of the things I really appreciate about Aegis Comply versus what we looked at with some other vendors \u2014 I think VaultEdge was one \u2014 is that your framework actually integrates with our cloud environment natively. We're not just uploading PDFs and checking boxes.",
+      "speaker_name": "Evelyn Park",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 269.8,
+      "endTime": 287.0,
+      "averageConfidence": 0.89,
+      "index": 20
+    },
+    {
+      "sentence": "That's a really important distinction and I'm glad it's landing that way. The native integration piece is something we've invested in heavily, especially for healthcare customers where you've got such a complex environment \u2014 different EHR systems, cloud workloads, on-prem infrastructure...",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 287.8,
+      "endTime": 302.3,
+      "averageConfidence": 0.94,
+      "index": 21
+    },
+    {
+      "sentence": "Exactly, yeah. We've got Epic, we've got Azure, we've got a couple of legacy on-prem systems that we're slowly migrating, so getting all of that into one compliance view has been... a journey.",
+      "speaker_name": "Evelyn Park",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 303.2,
+      "endTime": 314.8,
+      "averageConfidence": 0.93,
+      "index": 22
+    },
+    {
+      "sentence": "A journey, I love that. Very diplomatic. So, in terms of the HIPAA audit prep \u2014 when is the actual audit, do you know yet?",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 315.4,
+      "endTime": 324.4,
+      "averageConfidence": 0.88,
+      "index": 23
+    },
+    {
+      "sentence": "We're looking at late May, early June. So realistically we have about three months to get our evidence package together and make sure everything is airtight.",
+      "speaker_name": "Evelyn Park",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 325.8,
+      "endTime": 334.7,
+      "averageConfidence": 0.89,
+      "index": 24
+    },
+    {
+      "sentence": "Okay, that's a really workable timeline actually. Kevin, from a technical standpoint, what would you recommend as the near-term focus for Evelyn's team given where they are with Comply today?",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 335.7,
+      "endTime": 346.6,
+      "averageConfidence": 0.97,
+      "index": 25
+    },
+    {
+      "sentence": "Yeah, so a few things come to mind. First, I'd want to do a quick audit of how your current evidence library is structured for SOC 2, because a lot of what you've already built there will translate directly to HIPAA controls \u2014 we just need to make sure the tagging and mapping is set up correctly. Second, there are some HIPAA-specific controls around PHI access logging and audit trails that I'd want to make sure are being captured properly through your Detect integration.",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 347.9,
+      "endTime": 377.3,
+      "averageConfidence": 0.93,
+      "index": 26
+    },
+    {
+      "sentence": "The Detect integration \u2014 yeah, that's been working really well actually. We've got our access logs flowing in and it's been much easier to demonstrate who accessed what and when, which auditors love.",
+      "speaker_name": "Evelyn Park",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 378.0,
+      "endTime": 389.7,
+      "averageConfidence": 0.9,
+      "index": 27
+    },
+    {
+      "sentence": "That's great, that's a really strong foundation. And then honestly, the third thing I'd say is \u2014 let's get you a sandbox look at some of the Comply v2 features before they go GA, just so your team can start thinking about how to reorganize your workflows. Maria, is that something we could arrange?",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 390.1,
+      "endTime": 408.9,
+      "averageConfidence": 0.91,
+      "index": 28
+    },
+    {
+      "sentence": "Absolutely, yeah. Evelyn, I think we could set up a preview session \u2014 we've been doing that with a handful of strategic customers and the feedback has been really positive. Would that be useful for you?",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 410.1,
+      "endTime": 422.8,
+      "averageConfidence": 0.88,
+      "index": 29
+    },
+    {
+      "sentence": "Yes, please. That would be \u2014 yeah, that's exactly what I want. Even just to be able to show my team what's coming so they can see there's a light at the end of the tunnel.",
+      "speaker_name": "Evelyn Park",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 423.5,
+      "endTime": 436.4,
+      "averageConfidence": 0.95,
+      "index": 30
+    },
+    {
+      "sentence": "I love that framing. Okay, so let me think about next steps \u2014 I'll follow up with you on scheduling that Comply v2 preview, and Kevin, can you send over a framework mapping document that shows the SOC 2 to HIPAA control overlap? Something Evelyn's team can actually use as a working guide.",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 437.1,
+      "endTime": 455.8,
+      "averageConfidence": 0.9,
+      "index": 31
+    },
+    {
+      "sentence": "Yeah, for sure. I'll put together a healthcare-specific version of that, pull in some of the PHI-related controls specifically. I'll have it to Maria by end of next week.",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 456.2,
+      "endTime": 466.3,
+      "averageConfidence": 0.94,
+      "index": 32
+    },
+    {
+      "sentence": "That would be incredibly helpful. My compliance lead, she's going to be very happy when I forward that to her.",
+      "speaker_name": "Evelyn Park",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 467.0,
+      "endTime": 474.4,
+      "averageConfidence": 0.94,
+      "index": 33
+    },
+    {
+      "sentence": "And one more thing \u2014 Evelyn, you mentioned PCI earlier, or actually I think it was... wait, no, you didn't mention PCI. Sorry, I was thinking of another customer. Are PCI requirements on your radar at all or is it really just HIPAA and SOC 2?",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 475.7,
+      "endTime": 491.9,
+      "averageConfidence": 0.96,
+      "index": 34
+    },
+    {
+      "sentence": "No, PCI isn't really relevant for us on the clinical side. We do have some billing systems but those go through a third-party processor so we're mostly scoped out. HIPAA and SOC 2 are the big two.",
+      "speaker_name": "Evelyn Park",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 492.9,
+      "endTime": 506.0,
+      "averageConfidence": 0.95,
+      "index": 35
+    },
+    {
+      "sentence": "Got it, good to know. Okay, I think we've covered a lot of ground today. Evelyn, any other questions or concerns you want to make sure we address before we wrap up?",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 506.7,
+      "endTime": 517.9,
+      "averageConfidence": 0.96,
+      "index": 36
+    },
+    {
+      "sentence": "Honestly, no \u2014 I feel really good about where this is heading. I was a little nervous going into this call because Q2 feels like it's sneaking up on me, but talking through it, I think we've got a solid plan. I really appreciate you both making time.",
+      "speaker_name": "Evelyn Park",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 519.1,
+      "endTime": 535.9,
+      "averageConfidence": 0.91,
+      "index": 37
+    },
+    {
+      "sentence": "Of course! That's what we're here for. And Evelyn, seriously, your team has done great work getting to where you are with the platform in eight months. A lot of organizations take much longer to get to this point.",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 537.0,
+      "endTime": 550.8,
+      "averageConfidence": 0.94,
+      "index": 38
+    },
+    {
+      "sentence": "Thank you, that means a lot. Alright, I'll keep an eye out for Kevin's framework doc and the preview session invite. Looking forward to it.",
+      "speaker_name": "Evelyn Park",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 551.4,
+      "endTime": 560.4,
+      "averageConfidence": 0.91,
+      "index": 39
+    },
+    {
+      "sentence": "Perfect. We'll be in touch soon. Thanks everyone, take care!",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 561.8,
+      "endTime": 565.8,
+      "averageConfidence": 0.88,
+      "index": 40
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "summary": "Aisha Johnson and engineer Ananya Sharma met with Julia Tran of Blackridge for a renewal check-in call. Julia expressed strong overall satisfaction with the platform, particularly praising Aegis Protect's performance during a Q4 disaster recovery tabletop exercise and Detect's improved visibility. A January incident involving a Detect event processing pipeline failure was transparently addressed, with Ananya confirming minimal impact to Blackridge's environment and detailing remediation steps. The conversation moved toward renewal expansion, with Julia showing strong interest in adding Aegis Identity and gaining early access to the upcoming Aegis Comply v2 multi-framework reporting feature.",
+  "actionItems": [
+    "Aisha Johnson: Send post-mortem documentation for the January Detect processing incident to Julia today",
+    "Aisha Johnson: Deliver full renewal proposal including all-four-module bundle pricing and Comply v2 early access by end of next week",
+    "Aisha Johnson: Loop in solutions team to draft an Identity deployment scope document for Julia to present to her IT director",
+    "Ananya Sharma: Ensure Blackridge is enrolled in Comply v2 early access live onboarding sessions at launch"
+  ],
+  "topics": [
+    "renewal",
+    "compliance reporting",
+    "incident post-mortem",
+    "product expansion",
+    "identity management",
+    "early access"
+  ],
+  "overallSentiment": "very-positive",
+  "sentimentScore": 4.7,
+  "keyMoments": [
+    {
+      "time": 95.0,
+      "text": "Julia confirms Blackridge is genuinely happy with the platform, noting her CISO is very particular \u2014 a strong positive signal ahead of renewal discussions",
+      "type": "positive_pivot",
+      "speaker": "Julia Tran"
+    },
+    {
+      "time": 370.0,
+      "text": "Ananya transparently discloses the January Detect event processing pipeline incident and explains the root cause and remediation steps taken",
+      "type": "technical_issue",
+      "speaker": "Ananya Sharma"
+    },
+    {
+      "time": 620.0,
+      "text": "Julia expresses immediate excitement about Aegis Comply v2 on-demand multi-framework reporting and asks to be included in early access",
+      "type": "feature_gap",
+      "speaker": "Julia Tran"
+    },
+    {
+      "time": 890.0,
+      "text": "Julia indicates internal momentum is shifting toward adopting Aegis Identity following a third-party audit that flagged their patchwork IAM setup",
+      "type": "action_item",
+      "speaker": "Julia Tran"
+    }
+  ],
+  "meetingId": "01KQFFC0F889AE8CFEE7A00D"
+}

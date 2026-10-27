@@ -1,0 +1,46 @@
+{
+  "summary": "The team held a Q1 win-loss review revealing 34 closed-lost opportunities totaling $2.1M ACV, with SentinelShield (9 losses), VaultEdge (6), and CyberNova (4) as the primary competitors. A significant concern is the March Detect outage continuing to haunt late-stage deals, with at least five deals attributed to reliability concerns stemming from the incident. Additional issues include a lack of competitive collateral against VaultEdge on RTO claims, inconsistent loss note quality limiting pattern recognition, and execution gaps on the Customer Success and Support sides during evaluations. The team agreed on several action items and proposed monthly win-loss reviews going forward.",
+  "actionItems": [
+    "Kevin O'Brien: Create a one-pager on the March Detect outage resolution covering what happened, what was fixed, and why it won't recur",
+    "Brian Cho: Develop a formal competitive brief on VaultEdge focused on Protect and RTO benchmarking",
+    "Raj Kapoor: Speak with VP of Sales about enforcing loss note quality with required fields and minimum character counts",
+    "Maria Santos: Tighten the engagement model for late-stage evaluations to ensure Customer Success stays closer during competitive deals"
+  ],
+  "topics": [
+    "win-loss analysis",
+    "competitive intelligence",
+    "reliability / outage impact",
+    "sales process",
+    "collateral gaps",
+    "q1 review"
+  ],
+  "overallSentiment": "mixed-negative",
+  "sentimentScore": 2.4,
+  "keyMoments": [
+    {
+      "time": 112.0,
+      "text": "Kevin reveals 34 closed-lost deals totaling $2.1M ACV in Q1, with SentinelShield appearing 9 times as a named competitor",
+      "type": "churn_signal",
+      "speaker": "Kevin O'Brien"
+    },
+    {
+      "time": 198.0,
+      "text": "March outage identified as a recurring loss driver, with one prospect quoted as saying 'we can't afford six hours of no threat visibility'",
+      "type": "concern",
+      "speaker": "Kevin O'Brien"
+    },
+    {
+      "time": 310.0,
+      "text": "Team identifies there is no sales-facing one-pager addressing the March outage and its resolution, flagged as a critical collateral gap",
+      "type": "feature_gap",
+      "speaker": "Maria Santos"
+    },
+    {
+      "time": 520.0,
+      "text": "Maria shares that Comply v2 demos are generating strong prospect excitement, with one prospect saying it was the first time they wanted to stay on a compliance demo",
+      "type": "positive_pivot",
+      "speaker": "Maria Santos"
+    }
+  ],
+  "meetingId": "01KQ4529010F423FD9DB40BD"
+}

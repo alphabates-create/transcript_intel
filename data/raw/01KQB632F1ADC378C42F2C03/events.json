@@ -1,0 +1,38 @@
+[
+  {
+    "participantName": "Dominic Flores",
+    "timestamp": 1776503728000,
+    "type": "Join",
+    "time": 28.0
+  },
+  {
+    "participantName": "David Kim",
+    "timestamp": 1776503755000,
+    "type": "Join",
+    "time": 55.0
+  },
+  {
+    "participantName": "Michelle Tan",
+    "timestamp": 1776503755000,
+    "type": "Join",
+    "time": 55.0
+  },
+  {
+    "participantName": "David Kim",
+    "timestamp": 1776504652000,
+    "type": "Leave",
+    "time": 952.0
+  },
+  {
+    "participantName": "Michelle Tan",
+    "timestamp": 1776504671000,
+    "type": "Leave",
+    "time": 971.0
+  },
+  {
+    "participantName": "Dominic Flores",
+    "timestamp": 1776504649000,
+    "type": "Leave",
+    "time": 949.0
+  }
+]

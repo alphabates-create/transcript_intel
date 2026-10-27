@@ -1,0 +1,212 @@
+[
+  {
+    "speakerName": "Elena Vasquez",
+    "timestamp": 4.0,
+    "endTimeTs": 13.7
+  },
+  {
+    "speakerName": "Sarah Chen",
+    "timestamp": 14.9,
+    "endTimeTs": 24.8
+  },
+  {
+    "speakerName": "Mark Ellison",
+    "timestamp": 25.5,
+    "endTimeTs": 36.8
+  },
+  {
+    "speakerName": "Elena Vasquez",
+    "timestamp": 38.2,
+    "endTimeTs": 49.8
+  },
+  {
+    "speakerName": "Mark Ellison",
+    "timestamp": 50.6,
+    "endTimeTs": 68.8
+  },
+  {
+    "speakerName": "Sarah Chen",
+    "timestamp": 69.9,
+    "endTimeTs": 76.2
+  },
+  {
+    "speakerName": "Mark Ellison",
+    "timestamp": 76.9,
+    "endTimeTs": 94.6
+  },
+  {
+    "speakerName": "Sarah Chen",
+    "timestamp": 95.0,
+    "endTimeTs": 102.2
+  },
+  {
+    "speakerName": "Mark Ellison",
+    "timestamp": 103.2,
+    "endTimeTs": 119.6
+  },
+  {
+    "speakerName": "Elena Vasquez",
+    "timestamp": 120.7,
+    "endTimeTs": 137.5
+  },
+  {
+    "speakerName": "Sarah Chen",
+    "timestamp": 138.1,
+    "endTimeTs": 146.5
+  },
+  {
+    "speakerName": "Mark Ellison",
+    "timestamp": 147.0,
+    "endTimeTs": 153.0
+  },
+  {
+    "speakerName": "Elena Vasquez",
+    "timestamp": 154.2,
+    "endTimeTs": 163.6
+  },
+  {
+    "speakerName": "Mark Ellison",
+    "timestamp": 164.0,
+    "endTimeTs": 187.1
+  },
+  {
+    "speakerName": "Sarah Chen",
+    "timestamp": 188.3,
+    "endTimeTs": 200.9
+  },
+  {
+    "speakerName": "Elena Vasquez",
+    "timestamp": 201.6,
+    "endTimeTs": 214.7
+  },
+  {
+    "speakerName": "Mark Ellison",
+    "timestamp": 215.5,
+    "endTimeTs": 229.0
+  },
+  {
+    "speakerName": "Elena Vasquez",
+    "timestamp": 229.4,
+    "endTimeTs": 239.7
+  },
+  {
+    "speakerName": "Sarah Chen",
+    "timestamp": 240.6,
+    "endTimeTs": 263.1
+  },
+  {
+    "speakerName": "Mark Ellison",
+    "timestamp": 264.1,
+    "endTimeTs": 277.0
+  },
+  {
+    "speakerName": "Sarah Chen",
+    "timestamp": 278.3,
+    "endTimeTs": 294.8
+  },
+  {
+    "speakerName": "Mark Ellison",
+    "timestamp": 296.0,
+    "endTimeTs": 307.0
+  },
+  {
+    "speakerName": "Elena Vasquez",
+    "timestamp": 308.5,
+    "endTimeTs": 325.8
+  },
+  {
+    "speakerName": "Mark Ellison",
+    "timestamp": 326.9,
+    "endTimeTs": 338.0
+  },
+  {
+    "speakerName": "Elena Vasquez",
+    "timestamp": 338.7,
+    "endTimeTs": 347.6
+  },
+  {
+    "speakerName": "Sarah Chen",
+    "timestamp": 348.2,
+    "endTimeTs": 363.3
+  },
+  {
+    "speakerName": "Mark Ellison",
+    "timestamp": 364.0,
+    "endTimeTs": 375.8
+  },
+  {
+    "speakerName": "Sarah Chen",
+    "timestamp": 376.7,
+    "endTimeTs": 392.5
+  },
+  {
+    "speakerName": "Mark Ellison",
+    "timestamp": 393.0,
+    "endTimeTs": 410.2
+  },
+  {
+    "speakerName": "Sarah Chen",
+    "timestamp": 411.5,
+    "endTimeTs": 420.3
+  },
+  {
+    "speakerName": "Mark Ellison",
+    "timestamp": 421.1,
+    "endTimeTs": 436.8
+  },
+  {
+    "speakerName": "Sarah Chen",
+    "timestamp": 437.9,
+    "endTimeTs": 458.5
+  },
+  {
+    "speakerName": "Mark Ellison",
+    "timestamp": 459.5,
+    "endTimeTs": 472.2
+  },
+  {
+    "speakerName": "Elena Vasquez",
+    "timestamp": 472.7,
+    "endTimeTs": 480.4
+  },
+  {
+    "speakerName": "Mark Ellison",
+    "timestamp": 481.6,
+    "endTimeTs": 500.6
+  },
+  {
+    "speakerName": "Sarah Chen",
+    "timestamp": 501.8,
+    "endTimeTs": 522.4
+  },
+  {
+    "speakerName": "Mark Ellison",
+    "timestamp": 523.6,
+    "endTimeTs": 539.1
+  },
+  {
+    "speakerName": "Elena Vasquez",
+    "timestamp": 539.7,
+    "endTimeTs": 554.6
+  },
+  {
+    "speakerName": "Mark Ellison",
+    "timestamp": 555.8,
+    "endTimeTs": 564.5
+  },
+  {
+    "speakerName": "Elena Vasquez",
+    "timestamp": 565.9,
+    "endTimeTs": 582.7
+  },
+  {
+    "speakerName": "Mark Ellison",
+    "timestamp": 584.0,
+    "endTimeTs": 600.5
+  },
+  {
+    "speakerName": "Elena Vasquez",
+    "timestamp": 601.7,
+    "endTimeTs": 612.7
+  }
+]

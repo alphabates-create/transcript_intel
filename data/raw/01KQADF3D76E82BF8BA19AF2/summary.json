@@ -1,0 +1,46 @@
+{
+  "summary": "The team held a February wrap-up call covering product, QA, and customer success updates. Comply v2 is tracking toward an April GA with backend milestones met, though QA coverage is slightly behind at 62% versus a 70% target, contingent on two QA resources rotating over from the Detect team in March. A customer loss to competitor VaultEdge and two upsell opportunities totaling ~$240K ARR were discussed on the customer success front. A potential bottleneck in the Detect event ingestion pipeline was elevated as an item needing immediate attention, and March priorities were set including code freeze for Comply v2 and early access briefings for strategic accounts.",
+  "actionItems": [
+    "Megan Lawson: Prepare a write-up on the Detect ingestion layer bottleneck by Tuesday for Raj to assess scope and resource needs",
+    "Megan Lawson: Provide Diana with Comply v2 talking points and a draft feature summary by end of next week for strategic account briefings",
+    "Diana Reeves: Close upsell deals with Brentwood Logistics and TechCore, and set up Comply v2 early access briefings for 3-4 strategic accounts before April launch",
+    "Raj Kapoor: Schedule a meeting with Megan and Lena from engineering leadership to discuss potential Identity roadmap shifts to Q3"
+  ],
+  "topics": [
+    "product launch",
+    "qa coverage",
+    "customer churn",
+    "upsell opportunity",
+    "technical issue",
+    "roadmap planning"
+  ],
+  "overallSentiment": "mixed-positive",
+  "sentimentScore": 3.5,
+  "keyMoments": [
+    {
+      "time": 90.0,
+      "text": "Megan confirms Comply v2 is on track for April GA with all February engineering milestones hit, including multi-framework reporting backend and on-demand report generation pipeline.",
+      "type": "positive_pivot",
+      "speaker": "Megan Lawson"
+    },
+    {
+      "time": 280.0,
+      "text": "Diana reports losing Harrington Financial to competitor VaultEdge, citing lower price and a more mature compliance module.",
+      "type": "churn_signal",
+      "speaker": "Diana Reeves"
+    },
+    {
+      "time": 430.0,
+      "text": "Megan discloses a potential bottleneck in the Detect event ingestion pipeline that has been sitting in the backlog since late January, prompting Raj to escalate it.",
+      "type": "technical_issue",
+      "speaker": "Megan Lawson"
+    },
+    {
+      "time": 560.0,
+      "text": "Diana proposes Comply v2 early access briefings for strategic accounts ahead of the April launch to manage expectations and gather pre-launch testimonials.",
+      "type": "action_item",
+      "speaker": "Diana Reeves"
+    }
+  ],
+  "meetingId": "01KQADF3D76E82BF8BA19AF2"
+}

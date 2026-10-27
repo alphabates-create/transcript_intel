@@ -1,0 +1,202 @@
+[
+  {
+    "speakerName": "Chris Lee",
+    "timestamp": 4.1,
+    "endTimeTs": 8.7
+  },
+  {
+    "speakerName": "Tom Bradley",
+    "timestamp": 10.1,
+    "endTimeTs": 14.5
+  },
+  {
+    "speakerName": "Chris Lee",
+    "timestamp": 15.7,
+    "endTimeTs": 28.4
+  },
+  {
+    "speakerName": "Mike Romano",
+    "timestamp": 28.7,
+    "endTimeTs": 48.1
+  },
+  {
+    "speakerName": "Chris Lee",
+    "timestamp": 48.8,
+    "endTimeTs": 51.8
+  },
+  {
+    "speakerName": "Mike Romano",
+    "timestamp": 52.5,
+    "endTimeTs": 56.0
+  },
+  {
+    "speakerName": "Chris Lee",
+    "timestamp": 56.5,
+    "endTimeTs": 58.1
+  },
+  {
+    "speakerName": "Tyler Washington",
+    "timestamp": 59.3,
+    "endTimeTs": 75.9
+  },
+  {
+    "speakerName": "Chris Lee",
+    "timestamp": 77.1,
+    "endTimeTs": 82.5
+  },
+  {
+    "speakerName": "Tyler Washington",
+    "timestamp": 82.9,
+    "endTimeTs": 96.5
+  },
+  {
+    "speakerName": "Mike Romano",
+    "timestamp": 97.3,
+    "endTimeTs": 102.2
+  },
+  {
+    "speakerName": "Tyler Washington",
+    "timestamp": 103.2,
+    "endTimeTs": 104.7
+  },
+  {
+    "speakerName": "Chris Lee",
+    "timestamp": 106.0,
+    "endTimeTs": 111.8
+  },
+  {
+    "speakerName": "Tom Bradley",
+    "timestamp": 112.4,
+    "endTimeTs": 137.1
+  },
+  {
+    "speakerName": "Chris Lee",
+    "timestamp": 137.4,
+    "endTimeTs": 146.7
+  },
+  {
+    "speakerName": "Mike Romano",
+    "timestamp": 147.3,
+    "endTimeTs": 167.0
+  },
+  {
+    "speakerName": "Tom Bradley",
+    "timestamp": 167.6,
+    "endTimeTs": 173.4
+  },
+  {
+    "speakerName": "Mike Romano",
+    "timestamp": 174.3,
+    "endTimeTs": 183.9
+  },
+  {
+    "speakerName": "Tom Bradley",
+    "timestamp": 184.8,
+    "endTimeTs": 194.3
+  },
+  {
+    "speakerName": "Mike Romano",
+    "timestamp": 195.2,
+    "endTimeTs": 212.0
+  },
+  {
+    "speakerName": "Chris Lee",
+    "timestamp": 213.0,
+    "endTimeTs": 220.9
+  },
+  {
+    "speakerName": "Tyler Washington",
+    "timestamp": 222.4,
+    "endTimeTs": 236.6
+  },
+  {
+    "speakerName": "Mike Romano",
+    "timestamp": 237.3,
+    "endTimeTs": 255.1
+  },
+  {
+    "speakerName": "Chris Lee",
+    "timestamp": 255.8,
+    "endTimeTs": 268.5
+  },
+  {
+    "speakerName": "Tyler Washington",
+    "timestamp": 268.9,
+    "endTimeTs": 270.7
+  },
+  {
+    "speakerName": "Chris Lee",
+    "timestamp": 271.6,
+    "endTimeTs": 278.4
+  },
+  {
+    "speakerName": "Tom Bradley",
+    "timestamp": 279.4,
+    "endTimeTs": 294.4
+  },
+  {
+    "speakerName": "Chris Lee",
+    "timestamp": 295.4,
+    "endTimeTs": 315.7
+  },
+  {
+    "speakerName": "Tom Bradley",
+    "timestamp": 316.3,
+    "endTimeTs": 320.4
+  },
+  {
+    "speakerName": "Chris Lee",
+    "timestamp": 320.9,
+    "endTimeTs": 338.9
+  },
+  {
+    "speakerName": "Tom Bradley",
+    "timestamp": 339.7,
+    "endTimeTs": 348.0
+  },
+  {
+    "speakerName": "Chris Lee",
+    "timestamp": 349.2,
+    "endTimeTs": 366.5
+  },
+  {
+    "speakerName": "Tyler Washington",
+    "timestamp": 367.2,
+    "endTimeTs": 371.0
+  },
+  {
+    "speakerName": "Chris Lee",
+    "timestamp": 372.1,
+    "endTimeTs": 385.8
+  },
+  {
+    "speakerName": "Mike Romano",
+    "timestamp": 387.3,
+    "endTimeTs": 398.3
+  },
+  {
+    "speakerName": "Chris Lee",
+    "timestamp": 399.4,
+    "endTimeTs": 407.8
+  },
+  {
+    "speakerName": "Tom Bradley",
+    "timestamp": 408.3,
+    "endTimeTs": 414.4
+  },
+  {
+    "speakerName": "Chris Lee",
+    "timestamp": 415.2,
+    "endTimeTs": 417.8
+  },
+  {
+    "speakerName": "Mike Romano",
+    "timestamp": 418.6,
+    "endTimeTs": 420.1
+  },
+  {
+    "speakerName": "Tyler Washington",
+    "timestamp": 421.0,
+    "endTimeTs": 422.5
+  }
+]

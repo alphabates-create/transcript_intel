@@ -1,0 +1,504 @@
+{
+  "data": [
+    {
+      "sentence": "Alright, I think we've got everyone on \u2014 Evelyn, can you hear us okay?",
+      "speaker_name": "James Mitchell",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 3.4,
+      "endTime": 8.6,
+      "averageConfidence": 0.95,
+      "index": 0
+    },
+    {
+      "sentence": "Yes, loud and clear. Good morning James, good to see you again \u2014 well, virtually.",
+      "speaker_name": "Evelyn Park",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 9.9,
+      "endTime": 15.3,
+      "averageConfidence": 0.94,
+      "index": 1
+    },
+    {
+      "sentence": "Ha, always virtually these days. Um, so we've also got Kevin O'Brien from our solutions architecture team and Ravi Gupta from DevOps on the line \u2014 I wanted to make sure you had the full crew here for this one.",
+      "speaker_name": "James Mitchell",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 15.6,
+      "endTime": 29.3,
+      "averageConfidence": 0.88,
+      "index": 2
+    },
+    {
+      "sentence": "Hey Evelyn, great to finally put a name to a face \u2014 or I guess a name to a voice.",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 30.7,
+      "endTime": 37.4,
+      "averageConfidence": 0.9,
+      "index": 3
+    },
+    {
+      "sentence": "Same here Kevin. And Ravi, I think we've actually interacted a bit over support tickets, right?",
+      "speaker_name": "Evelyn Park",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 38.1,
+      "endTime": 43.9,
+      "averageConfidence": 0.91,
+      "index": 4
+    },
+    {
+      "sentence": "Yeah, that's right \u2014 a couple of times over the past few months. Good to formally connect.",
+      "speaker_name": "Ravi Gupta",
+      "sentimentType": "positive",
+      "speaker_id": 3,
+      "time": 45.2,
+      "endTime": 51.4,
+      "averageConfidence": 0.93,
+      "index": 5
+    },
+    {
+      "sentence": "Perfect. So, Evelyn, today's really about finalizing the renewal for Bridgeport and making sure you're set up well going into the next contract year. But honestly, I also just wanted to take a step back and hear how things have been feeling from your side before we get into the paperwork side of things.",
+      "speaker_name": "James Mitchell",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 52.8,
+      "endTime": 71.5,
+      "averageConfidence": 0.89,
+      "index": 6
+    },
+    {
+      "sentence": "Yeah, no, I appreciate that approach. I'll be honest \u2014 we've had a big year. Healthcare has just been, uh, relentless in terms of the compliance and threat landscape, so I've been leaning on the platform pretty heavily.",
+      "speaker_name": "Evelyn Park",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 72.2,
+      "endTime": 85.7,
+      "averageConfidence": 0.96,
+      "index": 7
+    },
+    {
+      "sentence": "Totally understandable. Can you tell us a bit about where you feel like Aegis has been delivering for you and \u2014 and equally where you feel like there's been friction?",
+      "speaker_name": "James Mitchell",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 87.0,
+      "endTime": 97.7,
+      "averageConfidence": 0.93,
+      "index": 8
+    },
+    {
+      "sentence": "Sure. So, Protect has been rock solid honestly. Our backup posture is way better than it was eighteen months ago. We had an incident internally \u2014 nothing Aegis-related \u2014 but we did a test restore and it just worked, which was kind of a relief because in my previous org that was always the nightmare scenario.",
+      "speaker_name": "Evelyn Park",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 98.8,
+      "endTime": 118.3,
+      "averageConfidence": 0.92,
+      "index": 9
+    },
+    {
+      "sentence": "That's really good to hear. Those restore validation moments are kind of the ultimate test.",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 119.1,
+      "endTime": 124.3,
+      "averageConfidence": 0.92,
+      "index": 10
+    },
+    {
+      "sentence": "Exactly. And Aegis Identity \u2014 the SSO and MFA rollout \u2014 that was painful to implement, I won't sugarcoat it, but your team was really helpful and now that it's running it's genuinely made a difference. We had a phishing attempt last quarter that didn't go anywhere because of MFA. So, you know, wins are wins.",
+      "speaker_name": "Evelyn Park",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 125.6,
+      "endTime": 144.9,
+      "averageConfidence": 0.94,
+      "index": 11
+    },
+    {
+      "sentence": "That's \u2014 honestly that's the story we love to hear. That's exactly the kind of thing that, um, doesn't always make it back to us but it really matters.",
+      "speaker_name": "James Mitchell",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 146.1,
+      "endTime": 156.3,
+      "averageConfidence": 0.9,
+      "index": 12
+    },
+    {
+      "sentence": "Right. Now \u2014 and I want to be fair here \u2014 Detect was a concern. The outage in March, the what, six hours of no visibility? That was not great. I was getting calls from my board.",
+      "speaker_name": "Evelyn Park",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 157.6,
+      "endTime": 170.7,
+      "averageConfidence": 0.94,
+      "index": 13
+    },
+    {
+      "sentence": "Yeah, and I want to address that head on because I know we've had some back and forth over email but I'd love for Ravi to just kind of walk through what actually happened and what we've done since, if that's okay.",
+      "speaker_name": "James Mitchell",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 172.1,
+      "endTime": 186.5,
+      "averageConfidence": 0.9,
+      "index": 14
+    },
+    {
+      "sentence": "Please, yeah. I'd appreciate hearing it directly.",
+      "speaker_name": "Evelyn Park",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 187.4,
+      "endTime": 190.1,
+      "averageConfidence": 0.91,
+      "index": 15
+    },
+    {
+      "sentence": "Absolutely. So the March 10th incident \u2014 the root cause was essentially a single point of failure in our event ingestion pipeline. We had a cascading failure that propagated across the processing layer and that's what caused the monitoring gap. It lasted about six hours before we had full visibility restored. And I know that six hours in healthcare feels like an eternity.",
+      "speaker_name": "Ravi Gupta",
+      "sentimentType": "negative",
+      "speaker_id": 3,
+      "time": 191.0,
+      "endTime": 213.1,
+      "averageConfidence": 0.95,
+      "index": 16
+    },
+    {
+      "sentence": "It does. It really does.",
+      "speaker_name": "Evelyn Park",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 213.8,
+      "endTime": 215.9,
+      "averageConfidence": 0.91,
+      "index": 17
+    },
+    {
+      "sentence": "So what we've done \u2014 and this is deployed and live now \u2014 we've implemented redundant processing nodes so there's no single failure point in that ingestion path anymore, and we've layered in a circuit breaker pattern so that if one node degrades it isolates before it can cascade. We've also updated our internal alerting thresholds so we're catching these things faster internally.",
+      "speaker_name": "Ravi Gupta",
+      "sentimentType": "positive",
+      "speaker_id": 3,
+      "time": 216.8,
+      "endTime": 239.3,
+      "averageConfidence": 0.94,
+      "index": 18
+    },
+    {
+      "sentence": "And we can get you the full post-incident report \u2014 I know you may have already seen a version of it but we have the final documented version with the architecture changes if you want that for your own internal audit trail.",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 240.5,
+      "endTime": 255.5,
+      "averageConfidence": 0.89,
+      "index": 19
+    },
+    {
+      "sentence": "Yes, actually, that would be helpful. Our compliance team has been asking about it and honestly that brings me to the other thing I wanted to talk about which is Comply v2.",
+      "speaker_name": "Evelyn Park",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 256.0,
+      "endTime": 267.6,
+      "averageConfidence": 0.92,
+      "index": 20
+    },
+    {
+      "sentence": "Oh good, yes \u2014 let's talk about that. It launched earlier this month, April 7th, and I'm really excited about it especially for a healthcare org like yours.",
+      "speaker_name": "James Mitchell",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 268.4,
+      "endTime": 278.4,
+      "averageConfidence": 0.92,
+      "index": 21
+    },
+    {
+      "sentence": "Yeah, so we saw the announcement and I've had my compliance manager poking around in the new interface a bit. The on-demand reporting \u2014 that's huge for us. We do HIPAA audits and we're working toward our SOC 2 Type II and the idea that we can just pull those reports when we need them rather than doing a big manual data gathering exercise every time is... I mean that's going to save us real hours.",
+      "speaker_name": "Evelyn Park",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 278.9,
+      "endTime": 305.3,
+      "averageConfidence": 0.94,
+      "index": 22
+    },
+    {
+      "sentence": "Exactly, and it's not just HIPAA and SOC 2 \u2014 you've got PCI DSS and ISO 27001 in there too, all from the same interface. And the reporting engine pulls directly from your environment data so it's not a static template, it's actually reflecting your current posture.",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 306.1,
+      "endTime": 323.0,
+      "averageConfidence": 0.89,
+      "index": 23
+    },
+    {
+      "sentence": "That's the part that impressed me when I saw the demo. Because we've had tools before where you get a report and then you look at it and you're like, well this is from three weeks ago so what does it actually tell me. So having it be real-time or near real-time is genuinely useful.",
+      "speaker_name": "Evelyn Park",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 324.0,
+      "endTime": 343.3,
+      "averageConfidence": 0.89,
+      "index": 24
+    },
+    {
+      "sentence": "Completely agree. And for a HIPAA audit specifically \u2014 the way the framework mapping works in v2 is a lot more granular. You can drill down to individual controls and see exactly which assets or configurations are tied to each requirement. It makes the auditor conversation so much smoother.",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 343.7,
+      "endTime": 360.6,
+      "averageConfidence": 0.9,
+      "index": 25
+    },
+    {
+      "sentence": "I want to set up a deeper session on Comply v2 with my compliance manager and maybe one of your solutions folks \u2014 Kevin, would that be something you could support?",
+      "speaker_name": "Evelyn Park",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 361.4,
+      "endTime": 372.4,
+      "averageConfidence": 0.91,
+      "index": 26
+    },
+    {
+      "sentence": "Absolutely, yeah, a hundred percent. We can get that on the calendar, probably next week or the week after depending on your team's availability.",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 373.3,
+      "endTime": 381.5,
+      "averageConfidence": 0.91,
+      "index": 27
+    },
+    {
+      "sentence": "Great. Okay so \u2014 James, where are we on the renewal terms? Because I've had finance breathing down my neck a little bit.",
+      "speaker_name": "Evelyn Park",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 382.4,
+      "endTime": 390.4,
+      "averageConfidence": 0.92,
+      "index": 28
+    },
+    {
+      "sentence": "Ha, yeah, let's get into that. So the proposal I sent over last week \u2014 you're renewing all four modules, same seat count, and we've held pricing flat from your current contract. Given the March outage I actually went to bat internally to make sure we weren't asking you to absorb any kind of increase this cycle.",
+      "speaker_name": "James Mitchell",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 391.1,
+      "endTime": 411.1,
+      "averageConfidence": 0.91,
+      "index": 29
+    },
+    {
+      "sentence": "I really appreciate that, James. That gesture did not go unnoticed, I'll say that.",
+      "speaker_name": "Evelyn Park",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 411.9,
+      "endTime": 416.5,
+      "averageConfidence": 0.96,
+      "index": 30
+    },
+    {
+      "sentence": "Of course. And then the one thing I wanted to flag \u2014 we've added the Comply v2 access at no additional cost for the first year as part of the renewal. The upgraded reporting features are included. After year one we'd have a conversation about the tier you're on based on your usage, but we want you to actually get value from it before we talk about any kind of add-on pricing.",
+      "speaker_name": "James Mitchell",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 417.3,
+      "endTime": 442.3,
+      "averageConfidence": 0.9,
+      "index": 31
+    },
+    {
+      "sentence": "That's \u2014 yeah, that's a good structure. I like that. Gives us time to actually stress test it with real audits rather than committing to something sight unseen.",
+      "speaker_name": "Evelyn Park",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 442.9,
+      "endTime": 452.6,
+      "averageConfidence": 0.93,
+      "index": 32
+    },
+    {
+      "sentence": "Exactly. And honestly, I think once your compliance manager gets into it they're going to love it, and then the year two conversation will be easy.",
+      "speaker_name": "James Mitchell",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 453.6,
+      "endTime": 462.5,
+      "averageConfidence": 0.9,
+      "index": 33
+    },
+    {
+      "sentence": "One thing I did want to ask about \u2014 we're growing. We're acquiring a smaller regional clinic probably mid-year and I want to make sure the contract has some flexibility to add seats or expand scope without having to renegotiate the whole thing from scratch.",
+      "speaker_name": "Evelyn Park",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 462.9,
+      "endTime": 478.4,
+      "averageConfidence": 0.96,
+      "index": 34
+    },
+    {
+      "sentence": "Yes, great point. The renewal terms do include an expansion rider \u2014 basically you can add up to twenty percent additional seats at the current per-seat rate without a contract amendment. Anything beyond that we'd do a quick order form but the core terms stay in place.",
+      "speaker_name": "James Mitchell",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 478.8,
+      "endTime": 495.5,
+      "averageConfidence": 0.93,
+      "index": 35
+    },
+    {
+      "sentence": "Twenty percent is probably enough for the near term. The clinic we're acquiring is small. That should cover us.",
+      "speaker_name": "Evelyn Park",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 496.0,
+      "endTime": 502.6,
+      "averageConfidence": 0.94,
+      "index": 36
+    },
+    {
+      "sentence": "Perfect. And Ravi, from an onboarding standpoint if they do expand mid-year, how does that typically look for a new site getting added into an existing Aegis environment?",
+      "speaker_name": "Evelyn Park",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 504.0,
+      "endTime": 513.8,
+      "averageConfidence": 0.9,
+      "index": 37
+    },
+    {
+      "sentence": "Yeah, so for an existing customer it's pretty streamlined \u2014 we're essentially extending your current tenant configuration to the new environment. Agent deployment, policy inheritance, getting them into the Identity setup \u2014 depending on their current IT state it usually takes a few weeks end to end, not months. And we'd have someone assigned to walk your team through it.",
+      "speaker_name": "Ravi Gupta",
+      "sentimentType": "positive",
+      "speaker_id": 3,
+      "time": 514.6,
+      "endTime": 535.9,
+      "averageConfidence": 0.92,
+      "index": 38
+    },
+    {
+      "sentence": "That's reassuring. The last acquisition we did the IT integration was honestly the hardest part and we had a different vendor at the time. It was not fun.",
+      "speaker_name": "Evelyn Park",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 537.1,
+      "endTime": 546.7,
+      "averageConfidence": 0.94,
+      "index": 39
+    },
+    {
+      "sentence": "Well, we'll make sure it goes a lot smoother on our end. We can even do a pre-acquisition readiness check if you want \u2014 just a quick look at their environment before the deal closes so we know what we're walking into.",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 547.2,
+      "endTime": 562.2,
+      "averageConfidence": 0.88,
+      "index": 40
+    },
+    {
+      "sentence": "Oh that's actually a really smart idea. Yes, let's do that. Can you add that to whatever follow-up notes James is keeping?",
+      "speaker_name": "Evelyn Park",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 562.8,
+      "endTime": 570.4,
+      "averageConfidence": 0.94,
+      "index": 41
+    },
+    {
+      "sentence": "Already in there. Okay so to summarize where we are \u2014 renewal of all four modules, flat pricing, Comply v2 included for year one, twenty percent seat expansion rider, post-incident report from Ravi's team, a Comply v2 deep-dive session with your compliance manager and Kevin, and a pre-acquisition readiness check when you get closer to that deal closing. Does that capture everything?",
+      "speaker_name": "James Mitchell",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 571.8,
+      "endTime": 593.8,
+      "averageConfidence": 0.94,
+      "index": 42
+    },
+    {
+      "sentence": "That's a really complete summary actually. Yeah, I think that covers it. I'm \u2014 honestly I came into this call a little bit nervous just because of the March thing, but I feel good about where we are. The Aegis relationship has been positive overall and I think you've handled the hard moments well.",
+      "speaker_name": "Evelyn Park",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 595.1,
+      "endTime": 613.8,
+      "averageConfidence": 0.89,
+      "index": 43
+    },
+    {
+      "sentence": "That means a lot, Evelyn. Genuinely. We take the trust that a healthcare organization puts in a platform like ours really seriously \u2014 there's real stakes here and we don't take that lightly.",
+      "speaker_name": "James Mitchell",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 615.0,
+      "endTime": 626.5,
+      "averageConfidence": 0.97,
+      "index": 44
+    },
+    {
+      "sentence": "Agreed. Alright \u2014 send me the final docs and I'll get them to our legal and finance team. I don't anticipate any drama there. I think we can wrap this up by end of month.",
+      "speaker_name": "Evelyn Park",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 627.3,
+      "endTime": 639.8,
+      "averageConfidence": 0.88,
+      "index": 45
+    },
+    {
+      "sentence": "Perfect. I'll get everything over to you today. And Evelyn \u2014 thank you for the time and for the honest conversation. This is exactly the kind of partnership we want to have.",
+      "speaker_name": "James Mitchell",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 640.6,
+      "endTime": 652.3,
+      "averageConfidence": 0.9,
+      "index": 46
+    },
+    {
+      "sentence": "Same here. Looking forward to year two. Thanks everyone \u2014 Kevin, Ravi, good to meet you properly.",
+      "speaker_name": "Evelyn Park",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 653.6,
+      "endTime": 659.9,
+      "averageConfidence": 0.91,
+      "index": 47
+    },
+    {
+      "sentence": "You too, take care!",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 660.2,
+      "endTime": 661.7,
+      "averageConfidence": 0.96,
+      "index": 48
+    },
+    {
+      "sentence": "Thanks Evelyn, talk soon.",
+      "speaker_name": "Ravi Gupta",
+      "sentimentType": "positive",
+      "speaker_id": 3,
+      "time": 662.0,
+      "endTime": 663.5,
+      "averageConfidence": 0.88,
+      "index": 49
+    }
+  ]
+}

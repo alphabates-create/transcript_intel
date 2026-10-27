@@ -1,0 +1,46 @@
+{
+  "summary": "The team held an April all-hands covering three main topics: a retrospective on the March Detect outage, the Comply v2 launch status, and Q2 roadmap planning. The Detect outage post-mortem revealed a single point of failure in the ingestion layer that caused a six-hour customer-facing blackout, with redundant nodes and a circuit breaker pattern now deployed but a chaos engineering validation still needed. Comply v2 launched on April 7th with multi-framework compliance reporting and is showing early positive adoption, though two open bugs remain around PDF formatting and concurrent report timeouts. For Q2, the team agreed to prioritize reliability and observability work on Detect over new features, deferring pure feature additions to Q3.",
+  "actionItems": [
+    "Ravi Gupta: Scope the chaos engineering staging run for Detect and target mid-May for execution",
+    "Ananya Sharma: Investigate and fix the intermittent timeout bug when queuing more than three simultaneous Comply reports",
+    "Hannah Liu: Assign the PCI DSS PDF formatting bug to a front-end team member",
+    "Hannah Liu: Send out meeting summary with action items and document the Q2 Detect prioritization rationale for leadership"
+  ],
+  "topics": [
+    "outage post-mortem",
+    "product launch",
+    "compliance reporting",
+    "reliability engineering",
+    "roadmap planning",
+    "product bug"
+  ],
+  "overallSentiment": "mixed-positive",
+  "sentimentScore": 3.6,
+  "keyMoments": [
+    {
+      "time": 112.0,
+      "text": "Ravi explains the root cause of the March Detect outage: a single point of failure in the ingestion layer causing a six-hour customer-facing blackout with no alerts or live dashboard data.",
+      "type": "technical_issue",
+      "speaker": "Ravi Gupta"
+    },
+    {
+      "time": 238.0,
+      "text": "Nina requests a chaos engineering end-to-end node failure test be completed before end of May to validate the new circuit breaker fix.",
+      "type": "action_item",
+      "speaker": "Nina Kowalski"
+    },
+    {
+      "time": 390.0,
+      "text": "Alex notes Comply v2 multi-framework support closes a competitive gap against VaultEdge, improving positioning in compliance reporting deals.",
+      "type": "positive_pivot",
+      "speaker": "Alex Reyes"
+    },
+    {
+      "time": 502.0,
+      "text": "Nina flags an intermittent timeout bug when queuing more than three simultaneous reports, recommending it be fixed before marketing pushes the concurrent reporting use case.",
+      "type": "feature_gap",
+      "speaker": "Nina Kowalski"
+    }
+  ],
+  "meetingId": "01KQ7B802912366FC0A24D4F"
+}

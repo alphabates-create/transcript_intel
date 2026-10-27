@@ -1,0 +1,46 @@
+{
+  "summary": "Maria Santos (CSM) met with Alicia Monroe from Summit Trust to address concerns ahead of their upcoming renewal. Alicia raised critical issues with Aegis Identity, including inconsistent MFA enforcement in their loan origination system and internal reporting portal, as well as SSO session timeouts occurring well before the configured 60-minute policy. Alicia also disclosed that her CISO has initiated exploratory conversations with competitor VaultEdge due to concerns that the IAM solution does not feel enterprise-grade, and brought up a six-hour Detect outage earlier in the month that damaged internal trust. Maria acknowledged the support escalation pattern as unacceptable and committed to several concrete follow-up actions to retain the account.",
+  "actionItems": [
+    "Maria Santos: Escalate the open MFA ticket today and provide Alicia with a real status update by end of day",
+    "Maria Santos: Schedule a technical Identity specialist call for next week and deliver a written summary with accountable action items, owners, and timelines afterward",
+    "Maria Santos: Send Alicia a formal post-incident report on the March Detect outage and arrange an engineering briefing for her CISO on the architecture changes",
+    "Maria Santos: Develop a formal remediation plan for all Aegis Identity issues including MFA enforcement, session timeout behavior, and support response quality"
+  ],
+  "topics": [
+    "mfa enforcement",
+    "identity & access management",
+    "churn risk",
+    "support escalation",
+    "outage follow-up",
+    "renewal"
+  ],
+  "overallSentiment": "mixed-negative",
+  "sentimentScore": 2.4,
+  "keyMoments": [
+    {
+      "time": 148.0,
+      "text": "Alicia reveals CISO has warned that failure to demonstrate consistent MFA enforcement by end of Q2 will trigger a platform reassessment",
+      "type": "churn_signal",
+      "speaker": "Alicia Monroe"
+    },
+    {
+      "time": 392.0,
+      "text": "Alicia discloses that her CISO has initiated conversations with competitor VaultEdge, including an upcoming demo, representing an active competitive threat",
+      "type": "churn_signal",
+      "speaker": "Alicia Monroe"
+    },
+    {
+      "time": 274.0,
+      "text": "Alicia notes the Comply module has been performing better than expected and expresses genuine interest in the upcoming Comply v2 release and its PCI DSS reporting capabilities",
+      "type": "positive_pivot",
+      "speaker": "Alicia Monroe"
+    },
+    {
+      "time": 611.0,
+      "text": "Maria commits to a formal remediation plan with specific dates and arranging an engineering-level CISO briefing on the Detect outage architecture fixes, moving beyond slide decks",
+      "type": "action_item",
+      "speaker": "Maria Santos"
+    }
+  ],
+  "meetingId": "01KQ5A966832A146DA4B7D41"
+}

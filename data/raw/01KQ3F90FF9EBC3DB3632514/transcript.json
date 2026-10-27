@@ -1,0 +1,414 @@
+{
+  "data": [
+    {
+      "sentence": "Alright, I think we're all here \u2014 let me just pull up the retro board real quick.",
+      "speaker_name": "Nina Kowalski",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 4.3,
+      "endTime": 10.6,
+      "averageConfidence": 0.96,
+      "index": 0
+    },
+    {
+      "sentence": "Yeah I'm here, just give me one second, my Slack is going crazy right now.",
+      "speaker_name": "Tyler Washington",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 11.3,
+      "endTime": 16.5,
+      "averageConfidence": 0.96,
+      "index": 1
+    },
+    {
+      "sentence": "Same, the Detect outage stuff is still causing a lot of noise even two weeks later.",
+      "speaker_name": "Sofia Petrov",
+      "sentimentType": "negative",
+      "speaker_id": 2,
+      "time": 16.9,
+      "endTime": 22.3,
+      "averageConfidence": 0.88,
+      "index": 2
+    },
+    {
+      "sentence": "Yeah, let's try to stay focused on Identity sprint stuff today though \u2014 we can't let the Detect fallout bleed into every single retro.",
+      "speaker_name": "Mike Romano",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 23.2,
+      "endTime": 31.7,
+      "averageConfidence": 0.88,
+      "index": 3
+    },
+    {
+      "sentence": "Agreed, okay so \u2014 I have the board up. We finished sprint twenty-two, March fourteenth through the twenty-seventh. Let me walk through what we had in scope.",
+      "speaker_name": "Nina Kowalski",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 32.2,
+      "endTime": 41.6,
+      "averageConfidence": 0.94,
+      "index": 4
+    },
+    {
+      "sentence": "Before you do that, can we just acknowledge that the Detect outage on the tenth actually did affect our sprint? Like two of our tickets got deprioritized because engineers were pulled for the all-hands incident response.",
+      "speaker_name": "Sofia Petrov",
+      "sentimentType": "negative",
+      "speaker_id": 2,
+      "time": 42.0,
+      "endTime": 54.4,
+      "averageConfidence": 0.91,
+      "index": 5
+    },
+    {
+      "sentence": "That's fair, yeah. I was pulled in for almost a full day on the fourteenth doing coordination.",
+      "speaker_name": "Mike Romano",
+      "sentimentType": "negative",
+      "speaker_id": 3,
+      "time": 55.2,
+      "endTime": 61.4,
+      "averageConfidence": 0.95,
+      "index": 6
+    },
+    {
+      "sentence": "Okay, let's capture that as a blocker then. I'll add it to the retro notes \u2014 external incident impacted sprint capacity. That's a legit call-out.",
+      "speaker_name": "Nina Kowalski",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 62.3,
+      "endTime": 71.2,
+      "averageConfidence": 0.97,
+      "index": 7
+    },
+    {
+      "sentence": "Yeah and for the record, the two tickets that slipped were the MFA enforcement policy UI work and the SSO session timeout configuration. Both moved to sprint twenty-three.",
+      "speaker_name": "Tyler Washington",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 72.1,
+      "endTime": 82.3,
+      "averageConfidence": 0.88,
+      "index": 8
+    },
+    {
+      "sentence": "Right, okay. So let me just go through what we did complete \u2014 the SCIM provisioning bug fixes, that was four story points. The SSO metadata refresh refactor, that was eight points. And the initial IAM role hierarchy work, that was three points, partially done.",
+      "speaker_name": "Nina Kowalski",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 83.4,
+      "endTime": 98.9,
+      "averageConfidence": 0.96,
+      "index": 9
+    },
+    {
+      "sentence": "The IAM role hierarchy work is like, technically it's partially done but it's more like sixty percent done. The remaining forty percent is the gnarly part.",
+      "speaker_name": "Sofia Petrov",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 99.4,
+      "endTime": 108.4,
+      "averageConfidence": 0.92,
+      "index": 10
+    },
+    {
+      "sentence": "Can you say more about that? What's the gnarly part specifically?",
+      "speaker_name": "Mike Romano",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 108.9,
+      "endTime": 113.2,
+      "averageConfidence": 0.91,
+      "index": 11
+    },
+    {
+      "sentence": "So the inheritance logic for nested role groups \u2014 when you have, like, a role that inherits from two parents that have conflicting permission sets, we don't have a good resolution strategy defined yet. I started prototyping something but it needs design review.",
+      "speaker_name": "Sofia Petrov",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 113.5,
+      "endTime": 129.0,
+      "averageConfidence": 0.9,
+      "index": 12
+    },
+    {
+      "sentence": "Okay, that's actually a bigger conversation. Can we schedule a separate design session for that? I don't want to try to hash it out in retro.",
+      "speaker_name": "Mike Romano",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 129.9,
+      "endTime": 139.2,
+      "averageConfidence": 0.94,
+      "index": 13
+    },
+    {
+      "sentence": "Yeah definitely. I can put something on the calendar for early next week, maybe Tuesday?",
+      "speaker_name": "Sofia Petrov",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 139.9,
+      "endTime": 144.9,
+      "averageConfidence": 0.96,
+      "index": 14
+    },
+    {
+      "sentence": "Tuesday works for me.",
+      "speaker_name": "Tyler Washington",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 145.7,
+      "endTime": 147.3,
+      "averageConfidence": 0.89,
+      "index": 15
+    },
+    {
+      "sentence": "Okay I'll grab time. Back to retro \u2014 what went well this sprint? Anyone want to start?",
+      "speaker_name": "Nina Kowalski",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 148.0,
+      "endTime": 154.1,
+      "averageConfidence": 0.89,
+      "index": 16
+    },
+    {
+      "sentence": "Um, I thought the SCIM work went really smoothly. Tyler, you basically owned that end to end and it was clean.",
+      "speaker_name": "Sofia Petrov",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 154.7,
+      "endTime": 161.8,
+      "averageConfidence": 0.88,
+      "index": 17
+    },
+    {
+      "sentence": "Thanks, yeah I mean the bugs were pretty well-documented so it was mostly just methodical work. Nothing too heroic.",
+      "speaker_name": "Tyler Washington",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 162.8,
+      "endTime": 169.7,
+      "averageConfidence": 0.91,
+      "index": 18
+    },
+    {
+      "sentence": "Still, it shipped on time, no regressions in QA, which \u2014 honestly that's not always the case with provisioning stuff. I want to call that out as a win.",
+      "speaker_name": "Nina Kowalski",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 170.9,
+      "endTime": 180.7,
+      "averageConfidence": 0.94,
+      "index": 19
+    },
+    {
+      "sentence": "Agreed. What else went well... I think our standup cadence was better this sprint. People were actually updating tickets before standup instead of during.",
+      "speaker_name": "Mike Romano",
+      "sentimentType": "positive",
+      "speaker_id": 3,
+      "time": 182.1,
+      "endTime": 190.2,
+      "averageConfidence": 0.89,
+      "index": 20
+    },
+    {
+      "sentence": "Yeah that was a thing we flagged last retro so good to see it actually stick.",
+      "speaker_name": "Nina Kowalski",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 190.5,
+      "endTime": 196.1,
+      "averageConfidence": 0.96,
+      "index": 21
+    },
+    {
+      "sentence": "Okay what didn't go well, or what do we want to improve. I'll just go first \u2014 I think our story point estimates for the SSO refactor were off. We said eight points, it ended up being closer to twelve or thirteen hours of actual work.",
+      "speaker_name": "Tyler Washington",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 197.1,
+      "endTime": 213.5,
+      "averageConfidence": 0.93,
+      "index": 22
+    },
+    {
+      "sentence": "Yeah the metadata refresh logic had a bunch of edge cases around certificate rotation that we didn't scope properly.",
+      "speaker_name": "Sofia Petrov",
+      "sentimentType": "negative",
+      "speaker_id": 2,
+      "time": 213.9,
+      "endTime": 220.2,
+      "averageConfidence": 0.92,
+      "index": 23
+    },
+    {
+      "sentence": "That's an estimation problem or a requirements problem? Like, were the edge cases knowable upfront or did they surface during implementation?",
+      "speaker_name": "Mike Romano",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 221.5,
+      "endTime": 229.0,
+      "averageConfidence": 0.94,
+      "index": 24
+    },
+    {
+      "sentence": "Honestly, a little of both. Some of them we probably should have caught in grooming, but a couple were genuinely discovered mid-implementation.",
+      "speaker_name": "Sofia Petrov",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 229.8,
+      "endTime": 237.5,
+      "averageConfidence": 0.9,
+      "index": 25
+    },
+    {
+      "sentence": "I'd say we should add a checklist item in grooming for cert rotation scenarios specifically. We've been bitten by that in Identity more than once.",
+      "speaker_name": "Mike Romano",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 238.9,
+      "endTime": 247.7,
+      "averageConfidence": 0.97,
+      "index": 26
+    },
+    {
+      "sentence": "That's a good action item. Nina, can you add that to the grooming template?",
+      "speaker_name": "Tyler Washington",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 248.3,
+      "endTime": 253.5,
+      "averageConfidence": 0.96,
+      "index": 27
+    },
+    {
+      "sentence": "On it. Anything else for the what-didn't-go-well section? I also want to flag \u2014 QA had some delays because I didn't get the test environment credentials refreshed before the sprint started. That's on me, I'll make sure to do that as part of sprint kickoff going forward.",
+      "speaker_name": "Nina Kowalski",
+      "sentimentType": "negative",
+      "speaker_id": 0,
+      "time": 254.3,
+      "endTime": 270.8,
+      "averageConfidence": 0.9,
+      "index": 28
+    },
+    {
+      "sentence": "Appreciate you flagging that. It did cause like a day of delay on my end when I was trying to validate the SCIM fixes.",
+      "speaker_name": "Tyler Washington",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 272.2,
+      "endTime": 280.5,
+      "averageConfidence": 0.97,
+      "index": 29
+    },
+    {
+      "sentence": "Yeah, sorry about that. Okay \u2014 let's talk about sprint twenty-three planning. We've got the two slipped tickets coming in, and then what else is queued?",
+      "speaker_name": "Nina Kowalski",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 281.7,
+      "endTime": 290.8,
+      "averageConfidence": 0.89,
+      "index": 30
+    },
+    {
+      "sentence": "We have the Comply v2 integration work \u2014 they're launching April seventh and they need Identity to support some of the audit log attribution for the new compliance reports. That's going to be a significant lift.",
+      "speaker_name": "Mike Romano",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 291.4,
+      "endTime": 304.3,
+      "averageConfidence": 0.91,
+      "index": 31
+    },
+    {
+      "sentence": "How significant are we talking? Like, do we have a ticket sized for that yet?",
+      "speaker_name": "Sofia Petrov",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 305.1,
+      "endTime": 310.1,
+      "averageConfidence": 0.96,
+      "index": 32
+    },
+    {
+      "sentence": "Not yet, I need to sync with the Comply team on the exact API surface they need from us. I'm meeting with them Monday.",
+      "speaker_name": "Mike Romano",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 310.9,
+      "endTime": 319.7,
+      "averageConfidence": 0.89,
+      "index": 33
+    },
+    {
+      "sentence": "So we might be starting sprint twenty-three without a full picture of that work, which is a little uncomfortable.",
+      "speaker_name": "Nina Kowalski",
+      "sentimentType": "negative",
+      "speaker_id": 0,
+      "time": 321.2,
+      "endTime": 328.0,
+      "averageConfidence": 0.92,
+      "index": 34
+    },
+    {
+      "sentence": "Yeah, it's not ideal. I'd say we reserve capacity \u2014 maybe don't over-commit the sprint and leave buffer for the Comply integration once we know what it is.",
+      "speaker_name": "Mike Romano",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 328.6,
+      "endTime": 338.8,
+      "averageConfidence": 0.92,
+      "index": 35
+    },
+    {
+      "sentence": "I can live with that approach. Let's just be explicit about it in the sprint plan so it doesn't look like we're sandbagging.",
+      "speaker_name": "Sofia Petrov",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 339.6,
+      "endTime": 348.1,
+      "averageConfidence": 0.91,
+      "index": 36
+    },
+    {
+      "sentence": "Good call. Alright, I think we've covered the main stuff \u2014 I'll send out the retro notes by end of day. Action items are: Nina updates the grooming template, Sofia schedules the role hierarchy design session, Mike follows up post-Monday on the Comply integration scope. Does that sound right?",
+      "speaker_name": "Nina Kowalski",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 349.0,
+      "endTime": 366.4,
+      "averageConfidence": 0.93,
+      "index": 37
+    },
+    {
+      "sentence": "Yep, that's accurate.",
+      "speaker_name": "Mike Romano",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 366.8,
+      "endTime": 368.3,
+      "averageConfidence": 0.93,
+      "index": 38
+    },
+    {
+      "sentence": "Works for me. Good retro everyone.",
+      "speaker_name": "Tyler Washington",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 369.5,
+      "endTime": 372.1,
+      "averageConfidence": 0.95,
+      "index": 39
+    },
+    {
+      "sentence": "Thanks everyone, talk soon.",
+      "speaker_name": "Sofia Petrov",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 373.2,
+      "endTime": 374.7,
+      "averageConfidence": 0.96,
+      "index": 40
+    }
+  ]
+}

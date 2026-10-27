@@ -1,0 +1,26 @@
+[
+  {
+    "participantName": "David Kim",
+    "timestamp": 1770737404000,
+    "type": "Join",
+    "time": 4.0
+  },
+  {
+    "participantName": "Keith Donovan",
+    "timestamp": 1770737425000,
+    "type": "Join",
+    "time": 25.0
+  },
+  {
+    "participantName": "David Kim",
+    "timestamp": 1770738219000,
+    "type": "Leave",
+    "time": 819.0
+  },
+  {
+    "participantName": "Keith Donovan",
+    "timestamp": 1770738223000,
+    "type": "Leave",
+    "time": 823.0
+  }
+]

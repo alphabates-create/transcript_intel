@@ -1,0 +1,62 @@
+[
+  {
+    "participantName": "Megan Lawson",
+    "timestamp": 1774020602000,
+    "type": "Join",
+    "time": 2.0
+  },
+  {
+    "participantName": "James Mitchell",
+    "timestamp": 1774020634000,
+    "type": "Join",
+    "time": 34.0
+  },
+  {
+    "participantName": "Daniel Okafor",
+    "timestamp": 1774020650000,
+    "type": "Join",
+    "time": 50.0
+  },
+  {
+    "participantName": "Brian Cho",
+    "timestamp": 1774020656000,
+    "type": "Join",
+    "time": 56.0
+  },
+  {
+    "participantName": "Tom Bradley",
+    "timestamp": 1774020659000,
+    "type": "Join",
+    "time": 59.0
+  },
+  {
+    "participantName": "Megan Lawson",
+    "timestamp": 1774022142000,
+    "type": "Leave",
+    "time": 1542.0
+  },
+  {
+    "participantName": "Tom Bradley",
+    "timestamp": 1774022169000,
+    "type": "Leave",
+    "time": 1569.0
+  },
+  {
+    "participantName": "James Mitchell",
+    "timestamp": 1774022147000,
+    "type": "Leave",
+    "time": 1547.0
+  },
+  {
+    "participantName": "Brian Cho",
+    "timestamp": 1774022143000,
+    "type": "Leave",
+    "time": 1543.0
+  },
+  {
+    "participantName": "Daniel Okafor",
+    "timestamp": 1774022163000,
+    "type": "Leave",
+    "time": 1563.0
+  }
+]

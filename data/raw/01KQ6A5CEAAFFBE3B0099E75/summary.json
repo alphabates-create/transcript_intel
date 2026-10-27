@@ -1,0 +1,52 @@
+{
+  "summary": "Harold Jensen, IT Director at Steelpoint Manufacturing, called regarding a 3-day-old unresolved LDAP sync failure with Aegis Identity affecting 200+ employees on a 24/7 manufacturing floor. Marcus Williams diagnosed the root cause as an SSL handshake failure caused by an internal CA-issued certificate renewed during a maintenance window on March 18th that was not trusted by the Aegis connector. The issue was resolved live on the call by uploading the internal CA root certificate into the Aegis Identity TLS Configuration settings. Harold expressed significant frustration over the slow initial support response and broader confidence concerns about Aegis following a prior Detect outage, and Marcus committed to escalating the response time failure and arranging a follow-up call with the account manager.",
+  "actionItems": [
+    "Marcus Williams: Send case summary email within the hour and copy the account manager on all case notes",
+    "Marcus Williams: Escalate response time failure internally and flag Steelpoint account for priority routing on future cases",
+    "Marcus Williams: Coordinate with account manager to schedule a follow-up call with Harold Jensen to address broader experience concerns including the Detect outage",
+    "Marcus Williams: Log product feedback with the Identity team requesting more descriptive SSL/TLS error messaging in the LDAP connector UI"
+  ],
+  "topics": [
+    "ldap sync failure",
+    "ssl certificate",
+    "support response time",
+    "active directory",
+    "product feedback",
+    "churn risk"
+  ],
+  "overallSentiment": "mixed-negative",
+  "sentimentScore": 2.4,
+  "keyMoments": [
+    {
+      "time": 98.0,
+      "text": "Harold mentions leadership is questioning whether they made the right call going with Aegis, citing both this incident and a prior Detect outage",
+      "type": "churn_signal",
+      "speaker": "Harold Jensen"
+    },
+    {
+      "time": 310.0,
+      "text": "Harold points out that basic troubleshooting is only starting three days after the case was filed, expressing frustration at the delayed response",
+      "type": "concern",
+      "speaker": "Harold Jensen"
+    },
+    {
+      "time": 480.0,
+      "text": "Root cause identified: internal CA certificate renewed during maintenance on March 18th is not trusted by the Aegis connector, causing SSL handshake failures",
+      "type": "technical_issue",
+      "speaker": "Marcus Williams"
+    },
+    {
+      "time": 620.0,
+      "text": "Connection test returns successful and sync events begin populating after uploading the internal CA root certificate",
+      "type": "positive_pivot",
+      "speaker": "Harold Jensen"
+    },
+    {
+      "time": 565.0,
+      "text": "Harold raises valid product feedback that the UI should show a specific SSL trust error rather than a generic sync failure message",
+      "type": "feature_gap",
+      "speaker": "Harold Jensen"
+    }
+  ],
+  "meetingId": "01KQ6A5CEAAFFBE3B0099E75"
+}

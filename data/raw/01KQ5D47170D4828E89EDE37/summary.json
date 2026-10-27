@@ -1,0 +1,46 @@
+{
+  "summary": "Elena Vasquez from Aegis Cloud Security support called Dana Moretti of Forge Industries to discuss the recovery and closure of support case 7537 related to a Detect platform outage. The outage began March 10th with approximately six hours of complete threat monitoring visibility loss caused by a single point of failure in the event ingestion layer, followed by degraded performance through March 15th. Aegis implemented architectural fixes including redundant processing nodes and a circuit breaker pattern, with full restoration confirmed March 18th. Dana needs documentation for her CISO, including a data recovery summary for the blind-spot window and a formal post-incident report.",
+  "actionItems": [
+    "Elena Vasquez: Send Forge Industries a data recovery summary detailing what event data was and was not captured during the six-hour outage window, targeting Thursday but no later than Friday",
+    "Elena Vasquez: Share the finalized post-incident report (PIR/RCA) with Dana Moretti once it is out of draft",
+    "Elena Vasquez: Add tenant health confirmation metrics and timestamp to the case notes and keep case open until both documents are received and confirmed",
+    "Dana Moretti: Prepare CISO briefing using the root cause details, timeline, and remediation information provided, incorporating incoming documentation"
+  ],
+  "topics": [
+    "outage recovery",
+    "incident root cause",
+    "threat monitoring",
+    "data integrity",
+    "post-incident report",
+    "architectural remediation"
+  ],
+  "overallSentiment": "mixed-positive",
+  "sentimentScore": 3.4,
+  "keyMoments": [
+    {
+      "time": 152.0,
+      "text": "Dana raises concern about a single point of failure in critical threat monitoring infrastructure, calling it 'not a small thing'",
+      "type": "concern",
+      "speaker": "Dana Moretti"
+    },
+    {
+      "time": 248.0,
+      "text": "Elena confirms real architectural changes \u2014 redundant processing nodes and circuit breaker pattern \u2014 are live, not just a patch",
+      "type": "positive_pivot",
+      "speaker": "Elena Vasquez"
+    },
+    {
+      "time": 370.0,
+      "text": "Elena acknowledges a gap in processed alert history during the outage window, noting raw data fidelity cannot be guaranteed",
+      "type": "technical_issue",
+      "speaker": "Elena Vasquez"
+    },
+    {
+      "time": 620.0,
+      "text": "Elena pulls live tenant metrics confirming Forge Industries is fully healthy \u2014 ingestion normal, latency under 2 seconds, no queue backlog",
+      "type": "praise",
+      "speaker": "Elena Vasquez"
+    }
+  ],
+  "meetingId": "01KQ5D47170D4828E89EDE37"
+}

@@ -1,0 +1,404 @@
+{
+  "data": [
+    {
+      "sentence": "Okay, I think we've got everyone, let me just \u2014 yeah, okay, great. Hi guys, thanks for jumping on.",
+      "speaker_name": "Hannah Liu",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 4.3,
+      "endTime": 11.4,
+      "averageConfidence": 0.95,
+      "index": 0
+    },
+    {
+      "sentence": "Hey Hannah, hey Mike.",
+      "speaker_name": "Ananya Sharma",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 12.8,
+      "endTime": 14.3,
+      "averageConfidence": 0.89,
+      "index": 1
+    },
+    {
+      "sentence": "Hey, good morning. Or good afternoon for you, Ananya, right? You're EST today?",
+      "speaker_name": "Mike Romano",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 15.1,
+      "endTime": 20.0,
+      "averageConfidence": 0.91,
+      "index": 2
+    },
+    {
+      "sentence": "Ha, yeah, I'm in New York this week visiting family so, uh, slightly less jet-lagged than usual.",
+      "speaker_name": "Ananya Sharma",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 21.1,
+      "endTime": 27.2,
+      "averageConfidence": 0.94,
+      "index": 3
+    },
+    {
+      "sentence": "Nice, nice. Okay so \u2014 should we just dive in? I know everyone's got a packed afternoon.",
+      "speaker_name": "Hannah Liu",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 27.8,
+      "endTime": 33.9,
+      "averageConfidence": 0.94,
+      "index": 4
+    },
+    {
+      "sentence": "Yeah let's do it.",
+      "speaker_name": "Mike Romano",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 35.1,
+      "endTime": 36.6,
+      "averageConfidence": 0.92,
+      "index": 5
+    },
+    {
+      "sentence": "Alright, so the purpose of today's call is really to do a proper design review for Comply v2 before we lock the spec. We've got the April GA date on the calendar and I want to make sure engineering is fully unblocked after this call. Um, I also want to talk through the on-demand reporting architecture because there are a few open questions I flagged in the doc.",
+      "speaker_name": "Hannah Liu",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 38.0,
+      "endTime": 62.3,
+      "averageConfidence": 0.91,
+      "index": 6
+    },
+    {
+      "sentence": "Yeah I saw those, I've been thinking about them actually. The one around report generation latency is \u2014 I think we have a pretty solid answer for that now.",
+      "speaker_name": "Ananya Sharma",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 63.5,
+      "endTime": 74.0,
+      "averageConfidence": 0.96,
+      "index": 7
+    },
+    {
+      "sentence": "Oh great, yeah, that was the one I was most curious about. Walk us through it?",
+      "speaker_name": "Hannah Liu",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 75.1,
+      "endTime": 80.5,
+      "averageConfidence": 0.88,
+      "index": 8
+    },
+    {
+      "sentence": "Sure, so the concern was basically \u2014 if a customer kicks off, say, a SOC 2 report on demand, how long does that take and is the UX acceptable? And what we landed on is an async generation model where the report job gets queued, the user gets an immediate acknowledgment with a job ID, and then they either poll or we push a notification when it's done.",
+      "speaker_name": "Ananya Sharma",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 81.5,
+      "endTime": 105.1,
+      "averageConfidence": 0.96,
+      "index": 9
+    },
+    {
+      "sentence": "And what's the expected generation time in the P90 case? Like, worst case realistic scenario.",
+      "speaker_name": "Mike Romano",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 105.9,
+      "endTime": 111.4,
+      "averageConfidence": 0.89,
+      "index": 10
+    },
+    {
+      "sentence": "So we benchmarked it against our internal compliance data and for a full SOC 2 Type II report across a twelve-month window, we're looking at roughly... forty-five seconds to two minutes depending on data volume. Which honestly is way better than I expected.",
+      "speaker_name": "Ananya Sharma",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 112.0,
+      "endTime": 127.4,
+      "averageConfidence": 0.91,
+      "index": 11
+    },
+    {
+      "sentence": "Yeah that's \u2014 that's actually really good. I was worried we'd be talking like five, ten minutes and that would've been a harder sell to customers.",
+      "speaker_name": "Hannah Liu",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 128.6,
+      "endTime": 137.5,
+      "averageConfidence": 0.97,
+      "index": 12
+    },
+    {
+      "sentence": "Right, and even at two minutes, you know, with the async pattern the user isn't just sitting there staring at a spinner. They can go do something else and come back. So the perceived wait time is much lower.",
+      "speaker_name": "Ananya Sharma",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 138.9,
+      "endTime": 152.9,
+      "averageConfidence": 0.88,
+      "index": 13
+    },
+    {
+      "sentence": "Okay yeah I love that. Mike, you had some thoughts on the multi-framework support side, right? I remember you sent something in Slack last week.",
+      "speaker_name": "Hannah Liu",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 154.1,
+      "endTime": 162.6,
+      "averageConfidence": 0.9,
+      "index": 14
+    },
+    {
+      "sentence": "Yeah, yeah. So my main concern \u2014 and it's less a concern now, more just a design question \u2014 is how we're handling the control mapping layer when you've got overlapping frameworks. Like SOC 2 and ISO 27001 share a ton of controls conceptually, and I want to make sure we're not duplicating evidence collection or doing redundant data pulls.",
+      "speaker_name": "Mike Romano",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 163.6,
+      "endTime": 184.4,
+      "averageConfidence": 0.9,
+      "index": 15
+    },
+    {
+      "sentence": "That's such a good point actually, and this is one of the things customers are going to care about a lot. Like, nobody wants to re-audit the same thing four times.",
+      "speaker_name": "Hannah Liu",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 185.2,
+      "endTime": 196.1,
+      "averageConfidence": 0.94,
+      "index": 16
+    },
+    {
+      "sentence": "Exactly. So, um, the way we've architected it \u2014 and Mike, you can poke holes in this \u2014 is that we have a unified evidence store underneath, and the framework-specific report generation is basically a different lens or projection on top of that same evidence set. So the control mapping lives in a config layer and the evidence collection is framework-agnostic.",
+      "speaker_name": "Ananya Sharma",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 197.1,
+      "endTime": 218.5,
+      "averageConfidence": 0.9,
+      "index": 17
+    },
+    {
+      "sentence": "Okay, that's \u2014 yeah, that's the right pattern. I was a little worried you were going to say each framework had its own collector but this is much cleaner.",
+      "speaker_name": "Mike Romano",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 219.6,
+      "endTime": 229.7,
+      "averageConfidence": 0.91,
+      "index": 18
+    },
+    {
+      "sentence": "No no, we definitely considered that early on and it was just a nightmare from a maintenance standpoint. Like, the moment a framework updates its control list you'd have to touch four different collectors.",
+      "speaker_name": "Ananya Sharma",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 230.3,
+      "endTime": 242.3,
+      "averageConfidence": 0.92,
+      "index": 19
+    },
+    {
+      "sentence": "Yeah, agreed. And from a PM perspective, that also makes it way easier to add new frameworks down the road, which is kind of a roadmap priority for H2. So that's a win.",
+      "speaker_name": "Hannah Liu",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 243.5,
+      "endTime": 255.1,
+      "averageConfidence": 0.89,
+      "index": 20
+    },
+    {
+      "sentence": "Totally. HIPAA and PCI DSS are the four GA frameworks, right? Those are locked?",
+      "speaker_name": "Mike Romano",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 255.9,
+      "endTime": 260.6,
+      "averageConfidence": 0.95,
+      "index": 21
+    },
+    {
+      "sentence": "Yeah, SOC 2, PCI DSS, HIPAA, and ISO 27001 \u2014 those are the four for v2 launch. We might soft-launch GDPR as a beta flag but I don't want to commit to that in the April release notes yet.",
+      "speaker_name": "Hannah Liu",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 262.0,
+      "endTime": 275.6,
+      "averageConfidence": 0.91,
+      "index": 22
+    },
+    {
+      "sentence": "That's probably wise. GDPR mapping is... complicated. I'd rather do it right than rush it.",
+      "speaker_name": "Ananya Sharma",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 277.0,
+      "endTime": 282.5,
+      "averageConfidence": 0.92,
+      "index": 23
+    },
+    {
+      "sentence": "Completely agree. Okay, um, let's talk about the reporting UI side for a second because I got feedback from the design team this morning and there are a couple of things I want to flag. One is the export formats \u2014 customers really want PDF natively, not just CSV or JSON. Where are we on that?",
+      "speaker_name": "Hannah Liu",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 283.0,
+      "endTime": 302.5,
+      "averageConfidence": 0.94,
+      "index": 24
+    },
+    {
+      "sentence": "PDF is in scope, yeah. We're using a headless rendering approach, basically generate the report as structured HTML and then render to PDF server-side. The output looks really clean actually, I'm pretty happy with how it came together.",
+      "speaker_name": "Mike Romano",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 302.9,
+      "endTime": 316.5,
+      "averageConfidence": 0.92,
+      "index": 25
+    },
+    {
+      "sentence": "Oh that's great to hear. Can you share a sample? I'd love to show something to the field team before launch.",
+      "speaker_name": "Hannah Liu",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 317.7,
+      "endTime": 325.4,
+      "averageConfidence": 0.92,
+      "index": 26
+    },
+    {
+      "sentence": "Yeah for sure, I'll drop a sample in the shared drive today. It's still using placeholder data but the structure is there and it looks pretty polished.",
+      "speaker_name": "Mike Romano",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 326.3,
+      "endTime": 335.7,
+      "averageConfidence": 0.93,
+      "index": 27
+    },
+    {
+      "sentence": "Amazing, thank you. Okay, the other UI thing is around \u2014 so customers want to be able to annotate the report before they share it externally. Like, add a note to explain a gap or an exception. Is that in scope for v2 or are we punting that?",
+      "speaker_name": "Hannah Liu",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 336.3,
+      "endTime": 353.5,
+      "averageConfidence": 0.89,
+      "index": 28
+    },
+    {
+      "sentence": "Hmm. I mean, I think annotations are really valuable but... honest answer, building it properly is not trivial. You'd need to track annotation history, tie it to specific control sections, probably have some kind of approval workflow eventually. What's the customer expectation \u2014 is this like a nice-to-have or is this table-stakes for someone to buy?",
+      "speaker_name": "Ananya Sharma",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 354.8,
+      "endTime": 374.7,
+      "averageConfidence": 0.91,
+      "index": 29
+    },
+    {
+      "sentence": "Honestly? Based on the customer interviews I've done it's more of a nice-to-have for most folks. The main ask is just \u2014 let me export a clean PDF and share it with my auditor. The annotation stuff came up in like two out of eight interviews.",
+      "speaker_name": "Hannah Liu",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 375.3,
+      "endTime": 391.4,
+      "averageConfidence": 0.92,
+      "index": 30
+    },
+    {
+      "sentence": "Yeah, I'd say let's punt that to v2.1 then. Keep April clean and get the core on-demand generation solid. Annotations on top of a shaky foundation would be worse than no annotations at all.",
+      "speaker_name": "Mike Romano",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 392.2,
+      "endTime": 404.6,
+      "averageConfidence": 0.95,
+      "index": 31
+    },
+    {
+      "sentence": "Yeah, agreed, I'll move that to the backlog. Good call. Alright, I think we're in really good shape overall honestly. I'm feeling a lot more confident about the April date after this conversation.",
+      "speaker_name": "Hannah Liu",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 405.2,
+      "endTime": 416.7,
+      "averageConfidence": 0.91,
+      "index": 32
+    },
+    {
+      "sentence": "Same, yeah. The big unknowns feel pretty resolved at this point.",
+      "speaker_name": "Ananya Sharma",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 418.0,
+      "endTime": 421.9,
+      "averageConfidence": 0.89,
+      "index": 33
+    },
+    {
+      "sentence": "I do want to flag one thing before we wrap \u2014 just making sure we have a proper performance testing plan in place before GA. On-demand report generation at scale, like if fifty customers all kick off reports simultaneously, I want to know the queue doesn't fall over.",
+      "speaker_name": "Mike Romano",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 422.9,
+      "endTime": 439.5,
+      "averageConfidence": 0.97,
+      "index": 34
+    },
+    {
+      "sentence": "Yes, a hundred percent, that's on the testing checklist. We've got a load test planned for mid-March. We'll simulate concurrent report jobs and make sure the queue depth and worker scaling behaves well.",
+      "speaker_name": "Ananya Sharma",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 440.6,
+      "endTime": 452.3,
+      "averageConfidence": 0.93,
+      "index": 35
+    },
+    {
+      "sentence": "Perfect. Okay I think that's everything on my list. Anything else from either of you before we let everyone go?",
+      "speaker_name": "Hannah Liu",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 453.0,
+      "endTime": 459.7,
+      "averageConfidence": 0.95,
+      "index": 36
+    },
+    {
+      "sentence": "Nope, I think we're good. Really solid session.",
+      "speaker_name": "Mike Romano",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 460.9,
+      "endTime": 463.5,
+      "averageConfidence": 0.96,
+      "index": 37
+    },
+    {
+      "sentence": "Same, I feel good about where we're landing. Thanks everyone.",
+      "speaker_name": "Ananya Sharma",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 464.6,
+      "endTime": 468.4,
+      "averageConfidence": 0.94,
+      "index": 38
+    },
+    {
+      "sentence": "Great, thanks guys. I'll update the spec doc today with what we agreed and send it around for a final review. Have a good rest of your day!",
+      "speaker_name": "Hannah Liu",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 469.4,
+      "endTime": 479.3,
+      "averageConfidence": 0.9,
+      "index": 39
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "summary": "Daniel Okafor and engineer Mike Romano held an annual review call with Wayne Keller of Atlas Precision ahead of a May renewal. Wayne expressed overall satisfaction with the platform, highlighting the Comply module as the biggest win by significantly reducing his team's audit burden. The March Detect outage was discussed openly, with Wayne acknowledging the strong incident communication and the architectural fixes implemented. The call concluded with alignment on flat renewal pricing, a planned Identity module discovery call with Wayne's IT director, and a follow-up on OT anomaly detection roadmap details.",
+  "actionItems": [
+    "Daniel Okafor: Send formal renewal proposal this week with flat pricing on Protect, Detect, and Comply modules",
+    "Wayne Keller: Introduce Daniel to IT Director Priya Sanjay over email to set up an Aegis Identity discovery call",
+    "Mike Romano: Share the product roadmap deck for Detect and Protect once cleared for external sharing",
+    "Wayne Keller: Pull together notes on unexplained OT plant floor network activity to share with Mike as a use case for upcoming anomaly detection features"
+  ],
+  "topics": [
+    "renewal",
+    "compliance",
+    "incident review",
+    "product roadmap",
+    "identity management",
+    "ot security"
+  ],
+  "overallSentiment": "positive",
+  "sentimentScore": 4.3,
+  "keyMoments": [
+    {
+      "time": 142.0,
+      "text": "Wayne highlights the Comply module as the biggest win, estimating a dramatic reduction in quarterly audit documentation time for his compliance team.",
+      "type": "praise",
+      "speaker": "Wayne Keller"
+    },
+    {
+      "time": 390.0,
+      "text": "Wayne acknowledges the March Detect outage caused stress with his CISO but praises the incident communication and RCA quality, choosing not to hold it against the vendor.",
+      "type": "positive_pivot",
+      "speaker": "Wayne Keller"
+    },
+    {
+      "time": 580.0,
+      "text": "Wayne describes a patchwork IAM environment his IT director has been frustrated with for eight months, signaling an expansion opportunity for Aegis Identity.",
+      "type": "feature_gap",
+      "speaker": "Wayne Keller"
+    },
+    {
+      "time": 710.0,
+      "text": "Daniel confirms flat pricing on all three current modules and offers a non-disruptive add-on amendment structure if Identity is added.",
+      "type": "pricing_offer",
+      "speaker": "Daniel Okafor"
+    }
+  ],
+  "meetingId": "01KQD199788883B6F18C81E8"
+}

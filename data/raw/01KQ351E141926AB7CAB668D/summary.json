@@ -1,0 +1,46 @@
+{
+  "summary": "Grace Yoon (Northstar) called with serious concerns after a six-hour outage of Aegis Detect left her security team with zero threat monitoring visibility in a HIPAA-regulated pharma environment. This was the second reliability incident in eight months, prompting her CISO to request a competitive evaluation against SentinelShield. Maria Santos acknowledged the failures, explained the root cause as a cascading single point of failure in the event ingestion pipeline, and committed to multiple remediation steps. The call ended with Grace conditionally willing to continue but emphasizing the renewal in June is at risk without significant improvement.",
+  "actionItems": [
+    "Maria Santos: Send written confirmation of event data integrity to Grace within the hour",
+    "Maria Santos: Deliver a full post-mortem document (timeline, root cause, remediation, prevention) by end of this week",
+    "Maria Santos: Schedule an executive and VP of Engineering call with Grace and her CISO for early next week (Monday or Tuesday)",
+    "Maria Santos: Initiate a review of Northstar's SLA tier to propose enterprise-level commitments ahead of the June renewal"
+  ],
+  "topics": [
+    "outage",
+    "compliance",
+    "churn risk",
+    "sla review",
+    "incident response",
+    "renewal"
+  ],
+  "overallSentiment": "mixed-negative",
+  "sentimentScore": 2.1,
+  "keyMoments": [
+    {
+      "time": 45.0,
+      "text": "Grace describes 36 hours of zero threat monitoring visibility for her security team in a healthcare environment, expressing deep frustration.",
+      "type": "concern",
+      "speaker": "Grace Yoon"
+    },
+    {
+      "time": 310.0,
+      "text": "Grace reveals her CISO has requested a competitive evaluation and specifically mentioned SentinelShield as an alternative.",
+      "type": "churn_signal",
+      "speaker": "Grace Yoon"
+    },
+    {
+      "time": 530.0,
+      "text": "Grace states the renewal is in June and she does not know if they will renew without substantially better assurances for her CISO.",
+      "type": "churn_signal",
+      "speaker": "Grace Yoon"
+    },
+    {
+      "time": 680.0,
+      "text": "Maria commits to four concrete deliverables: data integrity confirmation today, post-mortem by end of week, engineering call next week, and SLA tier review.",
+      "type": "action_item",
+      "speaker": "Maria Santos"
+    }
+  ],
+  "meetingId": "01KQ351E141926AB7CAB668D"
+}

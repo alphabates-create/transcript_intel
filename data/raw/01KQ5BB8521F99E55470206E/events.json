@@ -1,0 +1,62 @@
+[
+  {
+    "participantName": "Tyler Washington",
+    "timestamp": 1772442937000,
+    "type": "Join",
+    "time": 37.0
+  },
+  {
+    "participantName": "Sofia Petrov",
+    "timestamp": 1772442948000,
+    "type": "Join",
+    "time": 48.0
+  },
+  {
+    "participantName": "Ravi Gupta",
+    "timestamp": 1772442948000,
+    "type": "Join",
+    "time": 48.0
+  },
+  {
+    "participantName": "Ananya Sharma",
+    "timestamp": 1772442950000,
+    "type": "Join",
+    "time": 50.0
+  },
+  {
+    "participantName": "Nina Kowalski",
+    "timestamp": 1772442952000,
+    "type": "Join",
+    "time": 52.0
+  },
+  {
+    "participantName": "Sofia Petrov",
+    "timestamp": 1772444403000,
+    "type": "Leave",
+    "time": 1503.0
+  },
+  {
+    "participantName": "Nina Kowalski",
+    "timestamp": 1772444383000,
+    "type": "Leave",
+    "time": 1483.0
+  },
+  {
+    "participantName": "Tyler Washington",
+    "timestamp": 1772444401000,
+    "type": "Leave",
+    "time": 1501.0
+  },
+  {
+    "participantName": "Ravi Gupta",
+    "timestamp": 1772444395000,
+    "type": "Leave",
+    "time": 1495.0
+  },
+  {
+    "participantName": "Ananya Sharma",
+    "timestamp": 1772444393000,
+    "type": "Leave",
+    "time": 1493.0
+  }
+]

@@ -1,0 +1,46 @@
+{
+  "summary": "The team convened to discuss alarming performance issues in the Protect module, triggered by load testing results showing backup job queue times spiking to 47 minutes at 2x P95 customer scale. Two compounding root causes were identified: a job scheduler not built for concurrent dispatch at current scale, and a synchronous I/O bottleneck in the snapshot deduplication layer. The full scheduler fix is estimated at six to eight weeks, raising concern about an upcoming growth quarter where sales is actively bundling Protect with Comply v2. As interim measures, the team agreed to throttle per-tenant job concurrency, fast-track an async fix for the dedup issue, and have a proactive conversation with sales about slowing Protect onboarding pace.",
+  "actionItems": [
+    "Chris Lee: Set up a conversation with the sales lead this week to discuss thoughtful onboarding pace for Protect over the next six to eight weeks",
+    "Nina Kowalski: Compile a QA summary document including QA-1847 findings, new load test data, and timeline of when issues were flagged, to deliver to Chris by tomorrow morning",
+    "Sofia Petrov: Prototype the async deduplication worker fix and coordinate with Tyler on the scheduler architecture design doc",
+    "Tyler Washington: Annotate load test traces and share with Sofia to support the scheduler architecture design document"
+  ],
+  "topics": [
+    "performance degradation",
+    "architecture scalability",
+    "technical debt",
+    "incident risk",
+    "sales alignment",
+    "backup infrastructure"
+  ],
+  "overallSentiment": "mixed-negative",
+  "sentimentScore": 2.2,
+  "keyMoments": [
+    {
+      "time": 112.0,
+      "text": "Tyler reveals backup job queue times spiked to 47 minutes for a job that should complete in under five minutes during load testing at 2x P95 scale",
+      "type": "technical_issue",
+      "speaker": "Tyler Washington"
+    },
+    {
+      "time": 298.0,
+      "text": "Nina points out she flagged the scheduler concurrency ceiling as high severity in QA-1847 in late February, raising concern that a known risk was deprioritized and has now materialized",
+      "type": "concern",
+      "speaker": "Nina Kowalski"
+    },
+    {
+      "time": 520.0,
+      "text": "Sofia estimates the scheduler refactor will take six to eight weeks minimum, creating a critical timing conflict with the active Protect sales push following Comply v2 launch",
+      "type": "feature_gap",
+      "speaker": "Sofia Petrov"
+    },
+    {
+      "time": 820.0,
+      "text": "Nina raises the uncomfortable question of whether sales should slow down Protect customer commitments now to avoid a customer-impacting failure during a ransomware event or similar scenario",
+      "type": "churn_signal",
+      "speaker": "Nina Kowalski"
+    }
+  ],
+  "meetingId": "01KQD1270E98A7DFC55ADCF8"
+}

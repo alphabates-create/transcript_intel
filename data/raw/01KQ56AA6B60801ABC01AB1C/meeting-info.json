@@ -1,0 +1,21 @@
+{
+  "meetingId": "01KQ56AA6B60801ABC01AB1C",
+  "title": "Support Case #8179 - Clearwater Medical Overage Charges Dispute",
+  "organizerEmail": "sarah.chen@aegiscloud.com",
+  "host": "sarah.chen@aegiscloud.com",
+  "startTime": "2026-04-10T17:30:00.000Z",
+  "endTime": "2026-04-10T17:51:30.000Z",
+  "duration": 21.5,
+  "allEmails": [
+    "sarah.chen@aegiscloud.com",
+    "marcus.williams@aegiscloud.com",
+    "a.mehta@clearwatermed.com",
+    "n.simmons@clearwatermed.com"
+  ],
+  "invitees": [
+    "sarah.chen@aegiscloud.com",
+    "marcus.williams@aegiscloud.com",
+    "a.mehta@clearwatermed.com",
+    "n.simmons@clearwatermed.com"
+  ]
+}

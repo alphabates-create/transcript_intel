@@ -1,0 +1,46 @@
+{
+  "summary": "Aisha Johnson (CSM) met with Stephanie Blair from Nova Retail ahead of their end-of-next-month renewal to assess account health. Stephanie expressed significant frustration stemming from a six-hour Aegis Detect outage on March 10th, ongoing compliance reporting pain in Aegis Comply, dashboard signal-to-noise issues, and a slow support ticket resolution. She disclosed that Nova is actively evaluating competitor SentinelShield, having completed two demos. Aisha acknowledged accountability, outlined technical remediation steps taken post-outage, previewed the upcoming Aegis Comply v2 launch with on-demand compliance reporting, and committed to a set of concrete follow-up actions to help Stephanie rebuild confidence for the renewal.",
+  "actionItems": [
+    "Aisha Johnson: Set up Aegis Comply v2 preview environment for Stephanie and her compliance lead Sarah before the renewal decision",
+    "Aisha Johnson: Pull and personally resolve the unresolved January support ticket regarding Detect alert signal-to-noise from Stephanie's SOC analyst",
+    "Aisha Johnson: Prepare a written summary of Detect remediation steps and updated SLA commitments for Stephanie's CISO",
+    "Aisha Johnson: Loop in account executive to explore commercial flexibility and set up a pricing conversation with Stephanie"
+  ],
+  "topics": [
+    "renewal",
+    "service outage",
+    "compliance reporting",
+    "churn risk",
+    "competitive evaluation",
+    "product feedback"
+  ],
+  "overallSentiment": "mixed-negative",
+  "sentimentScore": 2.6,
+  "keyMoments": [
+    {
+      "time": 68.0,
+      "text": "Stephanie reveals the six-hour Detect outage left Nova with zero threat visibility across 200+ retail locations, calling it a liability and a direct challenge to justify the spend to her CISO.",
+      "type": "churn_signal",
+      "speaker": "Stephanie Blair"
+    },
+    {
+      "time": 380.0,
+      "text": "Stephanie discloses Nova has had two demos with competitor SentinelShield and is close to requesting a formal proposal, citing compelling uptime SLAs.",
+      "type": "churn_signal",
+      "speaker": "Stephanie Blair"
+    },
+    {
+      "time": 490.0,
+      "text": "Aisha reveals Aegis Comply v2 launching April 7th with on-demand PCI DSS, HIPAA, SOC 2, and ISO 27001 reporting, directly addressing Stephanie's major compliance pain point, and offers a preview environment.",
+      "type": "positive_pivot",
+      "speaker": "Aisha Johnson"
+    },
+    {
+      "time": 720.0,
+      "text": "Stephanie acknowledges that alert signal-to-noise concerns were raised with support in January and never satisfactorily resolved, highlighting an ongoing product and support gap.",
+      "type": "feature_gap",
+      "speaker": "Stephanie Blair"
+    }
+  ],
+  "meetingId": "01KQ7FA71CF70FAFEE4B6251"
+}

@@ -1,0 +1,474 @@
+{
+  "data": [
+    {
+      "sentence": "Okay, I think we've got everyone now \u2014 can you all hear me okay?",
+      "speaker_name": "Megan Lawson",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 7.2,
+      "endTime": 12.3,
+      "averageConfidence": 0.96,
+      "index": 0
+    },
+    {
+      "sentence": "Yeah, loud and clear.",
+      "speaker_name": "Tom Bradley",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 13.4,
+      "endTime": 15.2,
+      "averageConfidence": 0.94,
+      "index": 1
+    },
+    {
+      "sentence": "Good here.",
+      "speaker_name": "James Mitchell",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 16.4,
+      "endTime": 17.9,
+      "averageConfidence": 0.9,
+      "index": 2
+    },
+    {
+      "sentence": "Yep, I'm on.",
+      "speaker_name": "Brian Cho",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 19.2,
+      "endTime": 20.7,
+      "averageConfidence": 0.96,
+      "index": 3
+    },
+    {
+      "sentence": "Alright, so \u2014 I want to just dive right in because honestly we don't have a lot of time and there's a lot to cover. The outage last week was bad. I don't think any of us are going to sugarcoat that. Six hours of zero threat monitoring visibility is not something our customers are just going to brush off, and our competitors are absolutely going to use this against us.",
+      "speaker_name": "Megan Lawson",
+      "sentimentType": "negative",
+      "speaker_id": 0,
+      "time": 22.1,
+      "endTime": 46.9,
+      "averageConfidence": 0.97,
+      "index": 4
+    },
+    {
+      "sentence": "Yeah, I've already seen it happening. I had two accounts reach out to me directly asking if we had a formal post-mortem they could share internally, and one of them \u2014 Hartfield Financial \u2014 mentioned that SentinelShield had already been in contact with their procurement team.",
+      "speaker_name": "James Mitchell",
+      "sentimentType": "negative",
+      "speaker_id": 2,
+      "time": 47.6,
+      "endTime": 63.5,
+      "averageConfidence": 0.97,
+      "index": 5
+    },
+    {
+      "sentence": "Of course they have. That's \u2014 I mean, that's exactly what I'd do too if I were them, but still. It's frustrating.",
+      "speaker_name": "Megan Lawson",
+      "sentimentType": "negative",
+      "speaker_id": 0,
+      "time": 64.9,
+      "endTime": 72.5,
+      "averageConfidence": 0.89,
+      "index": 6
+    },
+    {
+      "sentence": "Same thing on my end. I've got a prospect, Clearvale Systems, mid-market, they were this close to signing \u2014 and now their CTO is asking pointed questions about our reliability track record. And I didn't have great answers for him, which is not a position I want to be in.",
+      "speaker_name": "Daniel Okafor",
+      "sentimentType": "negative",
+      "speaker_id": 4,
+      "time": 73.4,
+      "endTime": 91.4,
+      "averageConfidence": 0.93,
+      "index": 7
+    },
+    {
+      "sentence": "And what are the competitors actually saying? Like are they sending specific messaging or is it more just, hey, we heard you had some trouble?",
+      "speaker_name": "Tom Bradley",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 92.6,
+      "endTime": 101.5,
+      "averageConfidence": 0.95,
+      "index": 8
+    },
+    {
+      "sentence": "From what I can gather, SentinelShield is going in with a pretty polished pitch around their multi-region redundancy story. They're positioning it as, um, you know, 'we were built for this, our architecture doesn't have single points of failure' \u2014 which, I mean, honestly Tom, that's landing because it's hitting on exactly what went wrong with us.",
+      "speaker_name": "James Mitchell",
+      "sentimentType": "negative",
+      "speaker_id": 2,
+      "time": 102.1,
+      "endTime": 122.3,
+      "averageConfidence": 0.94,
+      "index": 9
+    },
+    {
+      "sentence": "Look, I'm not going to sit here and pretend the architecture wasn't a problem. It was. The event ingestion pipeline had a clear single point of failure and it cascaded. We know what happened. We've already deployed the redundant processing nodes and the circuit breaker pattern is in place. But yeah \u2014 the damage from a perception standpoint, that's real and it's going to take time.",
+      "speaker_name": "Tom Bradley",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 123.4,
+      "endTime": 146.7,
+      "averageConfidence": 0.97,
+      "index": 10
+    },
+    {
+      "sentence": "How long do you think before we can point to, like, meaningful uptime numbers post-fix? Because that's what customers are going to want.",
+      "speaker_name": "Megan Lawson",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 147.7,
+      "endTime": 155.8,
+      "averageConfidence": 0.88,
+      "index": 11
+    },
+    {
+      "sentence": "I mean, realistically \u2014 we need at least 30, 60 days of clean data before we can say anything with confidence. And even then, some customers are going to want third-party validation, not just us saying we're fine.",
+      "speaker_name": "Tom Bradley",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 156.8,
+      "endTime": 170.3,
+      "averageConfidence": 0.92,
+      "index": 12
+    },
+    {
+      "sentence": "That's a long time in a competitive sales cycle.",
+      "speaker_name": "Daniel Okafor",
+      "sentimentType": "negative",
+      "speaker_id": 4,
+      "time": 171.2,
+      "endTime": 174.8,
+      "averageConfidence": 0.93,
+      "index": 13
+    },
+    {
+      "sentence": "It is. And Brian, what's the support side looking like right now? How many tickets are still open related to the outage?",
+      "speaker_name": "Megan Lawson",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 175.3,
+      "endTime": 183.2,
+      "averageConfidence": 0.91,
+      "index": 14
+    },
+    {
+      "sentence": "So we had \u2014 ugh \u2014 we had a spike of about 340 tickets come in during and immediately after the outage. We've closed most of them, but there are still about 40 open, mostly from customers who want detailed impact reports, like specifically which alerts they missed during the window, what events weren't processed. And a handful of those customers are, uh, pretty heated. I had one escalation yesterday where the customer's security team is claiming they had an actual incident during the outage window and they're saying our lack of visibility may have delayed their response.",
+      "speaker_name": "Brian Cho",
+      "sentimentType": "negative",
+      "speaker_id": 3,
+      "time": 183.5,
+      "endTime": 218.2,
+      "averageConfidence": 0.94,
+      "index": 15
+    },
+    {
+      "sentence": "Oh, that's \u2014 okay, that's a liability issue. Is legal aware of that one?",
+      "speaker_name": "Megan Lawson",
+      "sentimentType": "negative",
+      "speaker_id": 0,
+      "time": 218.7,
+      "endTime": 223.4,
+      "averageConfidence": 0.93,
+      "index": 16
+    },
+    {
+      "sentence": "Yes, I looped them in this morning. We're handling it carefully.",
+      "speaker_name": "Brian Cho",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 224.5,
+      "endTime": 228.8,
+      "averageConfidence": 0.94,
+      "index": 17
+    },
+    {
+      "sentence": "Good. Okay. So, let's talk competitive positioning because that's really why we're on this call. James, Daniel \u2014 what are you hearing beyond SentinelShield? Are VaultEdge or CyberNova showing up in these conversations?",
+      "speaker_name": "Megan Lawson",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 230.0,
+      "endTime": 241.7,
+      "averageConfidence": 0.96,
+      "index": 18
+    },
+    {
+      "sentence": "VaultEdge has come up a couple of times but honestly more in the backup and recovery conversation than detect, which makes sense \u2014 that's their strength. The Hartfield situation is really squarely about Detect, so it's SentinelShield that's the immediate threat there.",
+      "speaker_name": "James Mitchell",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 242.8,
+      "endTime": 258.0,
+      "averageConfidence": 0.92,
+      "index": 19
+    },
+    {
+      "sentence": "Yeah, and for Clearvale, the CTO actually mentioned CyberNova as well \u2014 which surprised me a little. They don't usually show up in the mid-market space at that price point. But apparently CyberNova reached out proactively with some kind of competitive displacement offer. I don't know the specifics but \u2014 the timing is not a coincidence.",
+      "speaker_name": "Daniel Okafor",
+      "sentimentType": "negative",
+      "speaker_id": 4,
+      "time": 258.5,
+      "endTime": 278.3,
+      "averageConfidence": 0.91,
+      "index": 20
+    },
+    {
+      "sentence": "Of course it's not. They've been watching the news feeds. All of them have. And we would do the same thing \u2014 I'm just annoyed we're on the receiving end of it right now.",
+      "speaker_name": "Megan Lawson",
+      "sentimentType": "negative",
+      "speaker_id": 0,
+      "time": 279.4,
+      "endTime": 291.4,
+      "averageConfidence": 0.97,
+      "index": 21
+    },
+    {
+      "sentence": "Can we talk about what our counter-narrative actually is? Because right now I feel like we're reactive and I don't have a clean story to bring back to Clearvale.",
+      "speaker_name": "Daniel Okafor",
+      "sentimentType": "negative",
+      "speaker_id": 4,
+      "time": 292.8,
+      "endTime": 302.8,
+      "averageConfidence": 0.94,
+      "index": 22
+    },
+    {
+      "sentence": "That's fair. Tom, can you give me something concrete that James and Daniel can take into customer conversations? Like what's actually different now?",
+      "speaker_name": "Megan Lawson",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 303.7,
+      "endTime": 311.7,
+      "averageConfidence": 0.93,
+      "index": 23
+    },
+    {
+      "sentence": "Yeah, so \u2014 here's what I can say with confidence. The root cause was identified within a couple of hours of the incident starting. We had the fix scoped within 24 hours. Redundant processing nodes are live, the circuit breaker pattern is deployed, and we've now got automated failover testing on a weekly cadence that we didn't have before. That's real. That's not just spin.",
+      "speaker_name": "Tom Bradley",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 312.0,
+      "endTime": 335.0,
+      "averageConfidence": 0.89,
+      "index": 24
+    },
+    {
+      "sentence": "Okay, that's good. That's something. But I think we also need to be honest with customers that this was a significant failure and we're taking it seriously, rather than just trying to gloss over it with technical jargon. Customers can smell a cover-up story from a mile away.",
+      "speaker_name": "Brian Cho",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 335.8,
+      "endTime": 353.1,
+      "averageConfidence": 0.93,
+      "index": 25
+    },
+    {
+      "sentence": "Completely agree with Brian on that. The transparency piece is actually a differentiator if we do it right. Most vendors try to minimize, and if we lead with a really candid post-mortem \u2014 like genuinely owning what went wrong \u2014 that can actually build trust. It doesn't feel that way right now but it can.",
+      "speaker_name": "Megan Lawson",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 354.1,
+      "endTime": 373.6,
+      "averageConfidence": 0.9,
+      "index": 26
+    },
+    {
+      "sentence": "I hope you're right about that, Megan, but I've got to be honest \u2014 when I'm sitting across from a CTO who's already been called by two competitors, a transparency narrative is a tough sell in that moment. They want to know it won't happen again, and I can't guarantee that.",
+      "speaker_name": "Daniel Okafor",
+      "sentimentType": "negative",
+      "speaker_id": 4,
+      "time": 374.8,
+      "endTime": 392.8,
+      "averageConfidence": 0.9,
+      "index": 27
+    },
+    {
+      "sentence": "Nobody can guarantee that. SentinelShield can't guarantee it either, they've had outages too \u2014 it was, what, eighteen months ago they had that authentication service issue? I think it was over four hours.",
+      "speaker_name": "James Mitchell",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 394.0,
+      "endTime": 405.4,
+      "averageConfidence": 0.92,
+      "index": 28
+    },
+    {
+      "sentence": "Yeah, use that. That's a legitimate point \u2014 every platform has incidents, the question is how you respond and what you've built to prevent recurrence. I'll work with marketing to get some battlecard updates out this week. The current ones are obviously not reflecting any of this.",
+      "speaker_name": "Megan Lawson",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 406.5,
+      "endTime": 422.8,
+      "averageConfidence": 0.97,
+      "index": 29
+    },
+    {
+      "sentence": "The battlecards honestly haven't been updated in like, four months anyway. That's been a frustration for a while. No offense, Megan.",
+      "speaker_name": "Daniel Okafor",
+      "sentimentType": "negative",
+      "speaker_id": 4,
+      "time": 423.2,
+      "endTime": 430.7,
+      "averageConfidence": 0.91,
+      "index": 30
+    },
+    {
+      "sentence": "No, you're \u2014 you're right, and I own that. That's on us. It's something we've deprioritized and this situation is kind of exposing why that was a mistake.",
+      "speaker_name": "Megan Lawson",
+      "sentimentType": "negative",
+      "speaker_id": 0,
+      "time": 432.1,
+      "endTime": 441.9,
+      "averageConfidence": 0.89,
+      "index": 31
+    },
+    {
+      "sentence": "For what it's worth, one thing that might actually help us in the near term \u2014 and this is sort of looking ahead \u2014 is the Comply v2 launch coming up. If we can position the Detect recovery story alongside something forward-looking like the compliance reporting upgrades, it at least shows customers we're shipping and investing, not just in damage control mode.",
+      "speaker_name": "James Mitchell",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 443.1,
+      "endTime": 464.8,
+      "averageConfidence": 0.91,
+      "index": 32
+    },
+    {
+      "sentence": "That's actually a smart angle, James. When does Comply v2 go GA, is it still early April?",
+      "speaker_name": "Brian Cho",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 465.2,
+      "endTime": 471.4,
+      "averageConfidence": 0.92,
+      "index": 33
+    },
+    {
+      "sentence": "April 7th is the date, assuming nothing slips. Tom?",
+      "speaker_name": "Megan Lawson",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 472.7,
+      "endTime": 475.7,
+      "averageConfidence": 0.9,
+      "index": 34
+    },
+    {
+      "sentence": "We're on track. I don't anticipate any delays on that one. The on-demand SOC 2 and HIPAA reporting features are basically done, we're in final QA.",
+      "speaker_name": "Tom Bradley",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 476.5,
+      "endTime": 486.1,
+      "averageConfidence": 0.91,
+      "index": 35
+    },
+    {
+      "sentence": "Okay, good. So let's make sure we're sequencing this right for the accounts that are at risk. We want to get in front of them with the post-mortem and remediation story now, and then have a follow-up touch in early April when Comply v2 drops. That gives us two meaningful reasons to engage rather than just one awkward apology call.",
+      "speaker_name": "Megan Lawson",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 487.2,
+      "endTime": 508.5,
+      "averageConfidence": 0.88,
+      "index": 36
+    },
+    {
+      "sentence": "That makes sense. I'll reach out to Hartfield early next week and see if I can get a call with their CISO. I think going above the procurement level is the right move there.",
+      "speaker_name": "James Mitchell",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 509.4,
+      "endTime": 521.5,
+      "averageConfidence": 0.89,
+      "index": 37
+    },
+    {
+      "sentence": "Yeah, do that. And Daniel, for Clearvale \u2014 do you think the deal is still salvageable or are we in real trouble there?",
+      "speaker_name": "Megan Lawson",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 523.0,
+      "endTime": 531.0,
+      "averageConfidence": 0.97,
+      "index": 38
+    },
+    {
+      "sentence": "Honestly? I think it's 50-50 at this point. The CTO is open to hearing us out but he's clearly been spooked. If we come in with a really strong story and maybe some kind of SLA commitment that's better than what we've offered previously, I think we have a shot. But if we fumble the next conversation, I think we lose it.",
+      "speaker_name": "Daniel Okafor",
+      "sentimentType": "negative",
+      "speaker_id": 4,
+      "time": 531.5,
+      "endTime": 553.3,
+      "averageConfidence": 0.91,
+      "index": 39
+    },
+    {
+      "sentence": "Alright. Let's not fumble it. Brian, can you make sure that anyone from sales who needs a detailed technical summary of the incident and the remediation has it by end of day Monday? Something they can actually share with customers, not just internal-facing.",
+      "speaker_name": "Megan Lawson",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 553.6,
+      "endTime": 568.4,
+      "averageConfidence": 0.93,
+      "index": 40
+    },
+    {
+      "sentence": "Yeah, I'll coordinate with Tom's team and have something ready. I'd say Monday EOD is doable.",
+      "speaker_name": "Brian Cho",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 569.8,
+      "endTime": 575.8,
+      "averageConfidence": 0.9,
+      "index": 41
+    },
+    {
+      "sentence": "Good. Alright, I think we have a plan \u2014 it's not a great situation but we know what we're dealing with. Let's just make sure we're communicating internally as things develop. If anyone hears of more competitive activity from SentinelShield or CyberNova specifically, flag it in Slack immediately, don't wait for the next sync.",
+      "speaker_name": "Megan Lawson",
+      "sentimentType": "negative",
+      "speaker_id": 0,
+      "time": 577.2,
+      "endTime": 596.3,
+      "averageConfidence": 0.9,
+      "index": 42
+    },
+    {
+      "sentence": "Agreed. Thanks everyone.",
+      "speaker_name": "Tom Bradley",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 596.8,
+      "endTime": 598.3,
+      "averageConfidence": 0.96,
+      "index": 43
+    },
+    {
+      "sentence": "Thanks, talk soon.",
+      "speaker_name": "James Mitchell",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 599.7,
+      "endTime": 601.2,
+      "averageConfidence": 0.96,
+      "index": 44
+    },
+    {
+      "sentence": "Yep, thanks.",
+      "speaker_name": "Daniel Okafor",
+      "sentimentType": "neutral",
+      "speaker_id": 4,
+      "time": 602.2,
+      "endTime": 603.7,
+      "averageConfidence": 0.9,
+      "index": 45
+    },
+    {
+      "sentence": "Thanks all.",
+      "speaker_name": "Brian Cho",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 605.0,
+      "endTime": 606.5,
+      "averageConfidence": 0.88,
+      "index": 46
+    }
+  ]
+}

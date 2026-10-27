@@ -1,0 +1,21 @@
+{
+  "meetingId": "01KQ5F364545B542671FF9CE",
+  "title": "Support Case #3546 - Meridian Capital SCIM Provisioning Request",
+  "organizerEmail": "sarah.chen@aegiscloud.com",
+  "host": "sarah.chen@aegiscloud.com",
+  "startTime": "2026-03-07T13:30:00.000Z",
+  "endTime": "2026-03-07T13:51:18.000Z",
+  "duration": 21.3,
+  "allEmails": [
+    "sarah.chen@aegiscloud.com",
+    "marcus.williams@aegiscloud.com",
+    "j.hoffman@meridiancapital.com",
+    "s.nakamura@meridiancapital.com"
+  ],
+  "invitees": [
+    "sarah.chen@aegiscloud.com",
+    "marcus.williams@aegiscloud.com",
+    "j.hoffman@meridiancapital.com",
+    "s.nakamura@meridiancapital.com"
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "summary": "Megan, Raj, and Brian convened on day three of an ongoing outage affecting the Detect product's event processing pipeline. Raj explained that a single point of failure in the event ingestion layer caused a cascading failure, leaving customers with zero threat monitoring visibility for approximately six hours. The remediation plan includes deploying redundant active-active processing nodes (live by end of day) and implementing a circuit breaker pattern (by Wednesday evening), with full tenant visibility restored in a phased rollout by tomorrow morning. The team aligned on communication protocols, retroactive security analysis, and a postmortem timeline.",
+  "actionItems": [
+    "Megan Lawson: Draft updated customer communication explaining the phased rollout and revised timeline within the hour",
+    "Raj Kapoor: Send evening status update to Megan and Brian once the first phase of the redundant node rollout is complete",
+    "Raj Kapoor: Deliver internal retroactive event analysis summary report by Wednesday",
+    "Brian Cho: Prepare affected account breakdown with priority tiers and impact durations for the postmortem by Thursday"
+  ],
+  "topics": [
+    "outage remediation",
+    "incident response",
+    "customer communication",
+    "security monitoring",
+    "postmortem planning",
+    "infrastructure reliability"
+  ],
+  "overallSentiment": "mixed-negative",
+  "sentimentScore": 2.4,
+  "keyMoments": [
+    {
+      "time": 95.0,
+      "text": "Brian reveals 112 open support tickets tied to the outage, with ~30 from priority 1 or 2 accounts and several vocal customers",
+      "type": "churn_signal",
+      "speaker": "Brian Cho"
+    },
+    {
+      "time": 310.0,
+      "text": "Raj confirms customers had zero threat monitoring data for six hours, with events queuing but not processing",
+      "type": "technical_issue",
+      "speaker": "Raj Kapoor"
+    },
+    {
+      "time": 370.0,
+      "text": "Megan raises the critical concern that no affirmative statements can be made to customers about security posture during the outage window",
+      "type": "concern",
+      "speaker": "Megan Lawson"
+    },
+    {
+      "time": 225.0,
+      "text": "Raj pushes back on compressing the timeline, stating he would rather give a conservative estimate and hit it given the existing credibility issue",
+      "type": "positive_pivot",
+      "speaker": "Raj Kapoor"
+    }
+  ],
+  "meetingId": "01KQ03B0303900521BB089CA"
+}

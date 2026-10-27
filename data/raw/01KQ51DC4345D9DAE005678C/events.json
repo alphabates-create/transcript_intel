@@ -1,0 +1,38 @@
+[
+  {
+    "participantName": "Daniel Okafor",
+    "timestamp": 1771766106000,
+    "type": "Join",
+    "time": 6.0
+  },
+  {
+    "participantName": "Thomas Hargrove",
+    "timestamp": 1771766128000,
+    "type": "Join",
+    "time": 28.0
+  },
+  {
+    "participantName": "Lisa Park",
+    "timestamp": 1771766158000,
+    "type": "Join",
+    "time": 58.0
+  },
+  {
+    "participantName": "Daniel Okafor",
+    "timestamp": 1771768496000,
+    "type": "Leave",
+    "time": 2396.0
+  },
+  {
+    "participantName": "Lisa Park",
+    "timestamp": 1771768510000,
+    "type": "Leave",
+    "time": 2410.0
+  },
+  {
+    "participantName": "Thomas Hargrove",
+    "timestamp": 1771768515000,
+    "type": "Leave",
+    "time": 2415.0
+  }
+]

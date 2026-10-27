@@ -1,0 +1,444 @@
+{
+  "data": [
+    {
+      "sentence": "Alright, I think we've got everyone on \u2014 Rachel, Tom, Jordan, Kevin, you're all here?",
+      "speaker_name": "James Mitchell",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 3.9,
+      "endTime": 9.3,
+      "averageConfidence": 0.94,
+      "index": 0
+    },
+    {
+      "sentence": "Yeah, I'm here.",
+      "speaker_name": "Rachel Torres",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 10.5,
+      "endTime": 12.0,
+      "averageConfidence": 0.88,
+      "index": 1
+    },
+    {
+      "sentence": "Present.",
+      "speaker_name": "Tom Bradley",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 13.3,
+      "endTime": 14.8,
+      "averageConfidence": 0.94,
+      "index": 2
+    },
+    {
+      "sentence": "Yep, on.",
+      "speaker_name": "Jordan Whitfield",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 15.9,
+      "endTime": 17.4,
+      "averageConfidence": 0.89,
+      "index": 3
+    },
+    {
+      "sentence": "Here, sorry, just pulling up my notes.",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "neutral",
+      "speaker_id": 4,
+      "time": 18.8,
+      "endTime": 21.1,
+      "averageConfidence": 0.94,
+      "index": 4
+    },
+    {
+      "sentence": "No worries. Okay, so, the reason I called this is \u2014 we've had three deals in the last two weeks where SentinelShield came up pretty aggressively in late-stage conversations, and I want to make sure we're all aligned on how we're positioning against them going forward.",
+      "speaker_name": "James Mitchell",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 21.6,
+      "endTime": 37.4,
+      "averageConfidence": 0.91,
+      "index": 5
+    },
+    {
+      "sentence": "Is this primarily on the Detect side or is it across the board?",
+      "speaker_name": "Rachel Torres",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 38.2,
+      "endTime": 42.5,
+      "averageConfidence": 0.89,
+      "index": 6
+    },
+    {
+      "sentence": "Mostly Detect, honestly. Which is \u2014 and I'll be candid here \u2014 not a surprise given what happened in March.",
+      "speaker_name": "James Mitchell",
+      "sentimentType": "negative",
+      "speaker_id": 0,
+      "time": 43.2,
+      "endTime": 50.2,
+      "averageConfidence": 0.92,
+      "index": 7
+    },
+    {
+      "sentence": "Right, yeah. The outage.",
+      "speaker_name": "Tom Bradley",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 50.6,
+      "endTime": 52.3,
+      "averageConfidence": 0.93,
+      "index": 8
+    },
+    {
+      "sentence": "Exactly. SentinelShield's reps are apparently going into these late-stage conversations with specific talking points about platform reliability, and at least one prospect \u2014 Hartfield Manufacturing \u2014 mentioned it directly. They said something like, 'we heard Aegis had some significant downtime recently.'",
+      "speaker_name": "James Mitchell",
+      "sentimentType": "negative",
+      "speaker_id": 0,
+      "time": 53.5,
+      "endTime": 67.6,
+      "averageConfidence": 0.89,
+      "index": 9
+    },
+    {
+      "sentence": "Okay so they're actively using it. That's, um, that's not entirely surprising but it's still frustrating to hear.",
+      "speaker_name": "Rachel Torres",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 68.1,
+      "endTime": 74.7,
+      "averageConfidence": 0.9,
+      "index": 10
+    },
+    {
+      "sentence": "Tom, can you give us a quick rundown of where we stand on the March incident from a technical remediation standpoint? Because when I'm in front of customers I want to be accurate, I don't want to oversell what we've done.",
+      "speaker_name": "James Mitchell",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 76.1,
+      "endTime": 90.2,
+      "averageConfidence": 0.88,
+      "index": 11
+    },
+    {
+      "sentence": "Sure, yeah. So \u2014 the root cause was a single point of failure in the event ingestion pipeline. When the primary node went down, the failover didn't trigger the way it was supposed to, and that created a cascading failure across the processing layer. Total visibility loss was roughly six hours.",
+      "speaker_name": "Tom Bradley",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 91.3,
+      "endTime": 109.4,
+      "averageConfidence": 0.92,
+      "index": 12
+    },
+    {
+      "sentence": "Six hours is a long time in threat monitoring.",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "negative",
+      "speaker_id": 4,
+      "time": 110.5,
+      "endTime": 113.4,
+      "averageConfidence": 0.97,
+      "index": 13
+    },
+    {
+      "sentence": "It is. I'm not going to sugarcoat it. But \u2014 and this is important \u2014 what we've done since then is we've implemented redundant processing nodes across all three availability zones, and we've added a circuit breaker pattern that will isolate a failing component before it can cascade. So the architecture is fundamentally different now.",
+      "speaker_name": "Tom Bradley",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 114.6,
+      "endTime": 134.3,
+      "averageConfidence": 0.91,
+      "index": 14
+    },
+    {
+      "sentence": "Is that live? Like is that in production right now?",
+      "speaker_name": "Jordan Whitfield",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 134.8,
+      "endTime": 138.3,
+      "averageConfidence": 0.92,
+      "index": 15
+    },
+    {
+      "sentence": "Yes, it went into production \u2014 I want to say March 29th? March 30th. Kevin, you were closer to that, do you remember the exact date?",
+      "speaker_name": "Tom Bradley",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 139.3,
+      "endTime": 148.5,
+      "averageConfidence": 0.88,
+      "index": 16
+    },
+    {
+      "sentence": "March 28th, I think. I can double-check but yeah, it's been in production for a couple weeks now.",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "neutral",
+      "speaker_id": 4,
+      "time": 149.2,
+      "endTime": 155.8,
+      "averageConfidence": 0.89,
+      "index": 17
+    },
+    {
+      "sentence": "Good, okay. So we have a real story to tell there. The question is how do we tell it without it coming across as defensive.",
+      "speaker_name": "James Mitchell",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 156.6,
+      "endTime": 165.2,
+      "averageConfidence": 0.9,
+      "index": 18
+    },
+    {
+      "sentence": "I think the framing matters a lot. There's a difference between 'we had a problem and here's how we fixed it' versus 'yeah we had a thing but it's fine now.' The first one actually builds trust if you deliver it right.",
+      "speaker_name": "Rachel Torres",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 165.5,
+      "endTime": 180.3,
+      "averageConfidence": 0.89,
+      "index": 19
+    },
+    {
+      "sentence": "Agreed. And honestly, the transparency angle could work in our favor. SentinelShield isn't going to talk about their incidents \u2014 and they've had them, I know they had a pretty bad false positive storm in Q4 last year that their customers were not happy about.",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "neutral",
+      "speaker_id": 4,
+      "time": 181.0,
+      "endTime": 197.2,
+      "averageConfidence": 0.95,
+      "index": 20
+    },
+    {
+      "sentence": "Do we have anything documented on that? Like can we point to something?",
+      "speaker_name": "James Mitchell",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 198.1,
+      "endTime": 202.7,
+      "averageConfidence": 0.88,
+      "index": 21
+    },
+    {
+      "sentence": "There were some posts on Reddit and a couple of G2 reviews that mentioned it. Nothing official obviously. I wouldn't lead with it but it's useful context if someone brings up our reliability.",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "neutral",
+      "speaker_id": 4,
+      "time": 203.1,
+      "endTime": 214.9,
+      "averageConfidence": 0.9,
+      "index": 22
+    },
+    {
+      "sentence": "Yeah I'd be careful with that. If we start pointing fingers at competitor incidents based on Reddit posts it could look a little \u2014 I don't know, thin.",
+      "speaker_name": "Rachel Torres",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 215.9,
+      "endTime": 225.7,
+      "averageConfidence": 0.96,
+      "index": 23
+    },
+    {
+      "sentence": "No that's fair, that's a fair point. I'm not saying lead with it, just \u2014 have it in your back pocket.",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "neutral",
+      "speaker_id": 4,
+      "time": 226.5,
+      "endTime": 234.2,
+      "averageConfidence": 0.9,
+      "index": 24
+    },
+    {
+      "sentence": "Okay. Let me shift gears slightly \u2014 Jordan, you've been doing some work on how Comply v2 fits into the competitive picture. Since we literally just launched three days ago, I'm curious what you're seeing.",
+      "speaker_name": "James Mitchell",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 234.8,
+      "endTime": 247.4,
+      "averageConfidence": 0.94,
+      "index": 25
+    },
+    {
+      "sentence": "Yeah, so \u2014 Comply v2 is actually a pretty strong differentiator right now because SentinelShield and VaultEdge both have compliance features but they're more of a bolt-on. Like you can tell they didn't design around compliance workflows from the ground up. What we launched on April 7th \u2014 the on-demand reporting for SOC 2, PCI DSS, HIPAA, ISO 27001 \u2014 that's all native, it's integrated directly with the detection and identity layers.",
+      "speaker_name": "Jordan Whitfield",
+      "sentimentType": "positive",
+      "speaker_id": 3,
+      "time": 248.2,
+      "endTime": 273.5,
+      "averageConfidence": 0.97,
+      "index": 26
+    },
+    {
+      "sentence": "That cross-module integration piece is real. I've been in demos where that's genuinely surprised people.",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "positive",
+      "speaker_id": 4,
+      "time": 274.3,
+      "endTime": 279.8,
+      "averageConfidence": 0.9,
+      "index": 27
+    },
+    {
+      "sentence": "Right, and from a design standpoint the report generation flow \u2014 you can go from selecting a framework to a full exportable report in, um, something like four clicks. That's not an accident, we spent a lot of time on that. CyberNova, for comparison, their compliance workflow requires like three separate configuration steps just to set up a report template.",
+      "speaker_name": "Jordan Whitfield",
+      "sentimentType": "positive",
+      "speaker_id": 3,
+      "time": 281.0,
+      "endTime": 301.8,
+      "averageConfidence": 0.89,
+      "index": 28
+    },
+    {
+      "sentence": "Is the CyberNova comparison something we can use publicly or is that more of an internal thing?",
+      "speaker_name": "Rachel Torres",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 302.6,
+      "endTime": 309.0,
+      "averageConfidence": 0.95,
+      "index": 29
+    },
+    {
+      "sentence": "Internal, at least for now. We don't have it in any sanctioned competitive collateral yet. But I'm working with marketing to get a competitive battlecard updated \u2014 hopefully by end of next week.",
+      "speaker_name": "Jordan Whitfield",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 309.5,
+      "endTime": 321.4,
+      "averageConfidence": 0.94,
+      "index": 30
+    },
+    {
+      "sentence": "That would be really useful. Right now I'm kind of winging it when prospects bring up CyberNova.",
+      "speaker_name": "James Mitchell",
+      "sentimentType": "negative",
+      "speaker_id": 0,
+      "time": 322.0,
+      "endTime": 327.8,
+      "averageConfidence": 0.91,
+      "index": 31
+    },
+    {
+      "sentence": "Okay so let me just capture some action items here. Tom \u2014 is there any chance we can get a one-pager or some kind of technical summary of the March remediation that we can share with prospects? Not a post-mortem, more of a... forward-looking architecture overview?",
+      "speaker_name": "James Mitchell",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 328.8,
+      "endTime": 345.0,
+      "averageConfidence": 0.9,
+      "index": 32
+    },
+    {
+      "sentence": "I can put something together. Give me until end of next week. I'll keep it high-level enough that it's accessible but specific enough that it's credible.",
+      "speaker_name": "Tom Bradley",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 346.1,
+      "endTime": 355.6,
+      "averageConfidence": 0.9,
+      "index": 33
+    },
+    {
+      "sentence": "Perfect. And Rachel, for Hartfield specifically \u2014 do you think there's still a path there or did SentinelShield lock that one up?",
+      "speaker_name": "James Mitchell",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 356.9,
+      "endTime": 364.3,
+      "averageConfidence": 0.95,
+      "index": 34
+    },
+    {
+      "sentence": "I think there's still a path. Their procurement timeline got pushed to May so we have some runway. I'd want to get Kevin in on a technical call with their infrastructure team and lean into the Comply v2 story since they're mid-SOC 2 audit right now.",
+      "speaker_name": "Rachel Torres",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 364.7,
+      "endTime": 381.1,
+      "averageConfidence": 0.97,
+      "index": 35
+    },
+    {
+      "sentence": "Oh that's \u2014 yeah, that's actually a really good angle. If they're mid-audit and we can show them on-demand SOC 2 reporting, that's not abstract, that's an immediate pain point.",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "positive",
+      "speaker_id": 4,
+      "time": 381.7,
+      "endTime": 392.2,
+      "averageConfidence": 0.97,
+      "index": 36
+    },
+    {
+      "sentence": "Exactly. I'll set something up for next week if Kevin you're available.",
+      "speaker_name": "Rachel Torres",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 392.9,
+      "endTime": 397.3,
+      "averageConfidence": 0.92,
+      "index": 37
+    },
+    {
+      "sentence": "Yeah, put something on my calendar, I'll make it work.",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "neutral",
+      "speaker_id": 4,
+      "time": 397.8,
+      "endTime": 401.4,
+      "averageConfidence": 0.97,
+      "index": 38
+    },
+    {
+      "sentence": "Okay, I think that's a solid foundation. Jordan, ping me when the battlecard is closer to done. Tom, I'll watch for that architecture doc. And Rachel and Kevin \u2014 let me know how the Hartfield call goes. Anything else before we drop?",
+      "speaker_name": "James Mitchell",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 402.1,
+      "endTime": 417.1,
+      "averageConfidence": 0.94,
+      "index": 39
+    },
+    {
+      "sentence": "Nothing from me.",
+      "speaker_name": "Tom Bradley",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 417.7,
+      "endTime": 419.2,
+      "averageConfidence": 0.94,
+      "index": 40
+    },
+    {
+      "sentence": "I'm good.",
+      "speaker_name": "Jordan Whitfield",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 420.6,
+      "endTime": 422.1,
+      "averageConfidence": 0.96,
+      "index": 41
+    },
+    {
+      "sentence": "Same. Good call, everyone.",
+      "speaker_name": "Rachel Torres",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 423.5,
+      "endTime": 425.0,
+      "averageConfidence": 0.93,
+      "index": 42
+    },
+    {
+      "sentence": "Alright, thanks all. Talk soon.",
+      "speaker_name": "James Mitchell",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 425.8,
+      "endTime": 427.3,
+      "averageConfidence": 0.9,
+      "index": 43
+    }
+  ]
+}

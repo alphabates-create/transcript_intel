@@ -1,0 +1,374 @@
+{
+  "data": [
+    {
+      "sentence": "Alright, I think we've got everyone on now \u2014 Ananya, Ravi, Sofia, you all can hear me okay?",
+      "speaker_name": "Mike Romano",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 4.9,
+      "endTime": 11.6,
+      "averageConfidence": 0.9,
+      "index": 0
+    },
+    {
+      "sentence": "Yep, loud and clear.",
+      "speaker_name": "Ananya Sharma",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 13.1,
+      "endTime": 14.6,
+      "averageConfidence": 0.93,
+      "index": 1
+    },
+    {
+      "sentence": "Good here.",
+      "speaker_name": "Ravi Gupta",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 15.1,
+      "endTime": 16.6,
+      "averageConfidence": 0.96,
+      "index": 2
+    },
+    {
+      "sentence": "Yeah, I'm here, just had to grab my coffee real quick, sorry.",
+      "speaker_name": "Sofia Petrov",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 18.0,
+      "endTime": 22.3,
+      "averageConfidence": 0.9,
+      "index": 3
+    },
+    {
+      "sentence": "Ha, no worries at all, I literally just poured mine too. Okay so \u2014 quarterly planning for Protect, Q2 is coming up fast, I want to make sure we actually go into it with a solid plan this time and not scrambling like we did in Q4.",
+      "speaker_name": "Mike Romano",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 22.7,
+      "endTime": 39.3,
+      "averageConfidence": 0.92,
+      "index": 4
+    },
+    {
+      "sentence": "Q4 was... yeah, let's not repeat that.",
+      "speaker_name": "Ananya Sharma",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 40.4,
+      "endTime": 43.3,
+      "averageConfidence": 0.9,
+      "index": 5
+    },
+    {
+      "sentence": "Right, exactly. So I shared the doc in the channel this morning \u2014 did everyone get a chance to at least skim it?",
+      "speaker_name": "Mike Romano",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 44.5,
+      "endTime": 52.3,
+      "averageConfidence": 0.88,
+      "index": 6
+    },
+    {
+      "sentence": "I went through most of it, yeah. The incremental backup performance section jumped out at me immediately.",
+      "speaker_name": "Sofia Petrov",
+      "sentimentType": "positive",
+      "speaker_id": 3,
+      "time": 53.3,
+      "endTime": 59.5,
+      "averageConfidence": 0.93,
+      "index": 7
+    },
+    {
+      "sentence": "Same, and honestly I'm really excited about that one. Like the benchmarks we ran in January \u2014 we're seeing like a 30-something percent reduction in backup window times on the test clusters, which is pretty significant.",
+      "speaker_name": "Ananya Sharma",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 60.4,
+      "endTime": 73.0,
+      "averageConfidence": 0.95,
+      "index": 8
+    },
+    {
+      "sentence": "Yeah that's \u2014 that's a big deal for customers with large data sets, right, because that's been one of the top complaints in the feedback we've been getting from the CSM team.",
+      "speaker_name": "Mike Romano",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 73.5,
+      "endTime": 84.9,
+      "averageConfidence": 0.89,
+      "index": 9
+    },
+    {
+      "sentence": "Totally, and I think if we can ship that in Q2 we're in a really good spot heading into the back half of the year. I'd love to see us target like late April for the rollout, give us enough buffer to do proper testing.",
+      "speaker_name": "Ananya Sharma",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 85.9,
+      "endTime": 101.6,
+      "averageConfidence": 0.94,
+      "index": 10
+    },
+    {
+      "sentence": "Late April works for me from an infra standpoint. I've already been thinking about how we'd stage the deployment \u2014 I want to do a canary rollout, maybe start with like ten percent of production traffic, watch it for a week, then ramp.",
+      "speaker_name": "Ravi Gupta",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 102.7,
+      "endTime": 118.0,
+      "averageConfidence": 0.96,
+      "index": 11
+    },
+    {
+      "sentence": "That's exactly the right approach, Ravi, yeah. I don't want to do a big bang release on something like this.",
+      "speaker_name": "Mike Romano",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 118.5,
+      "endTime": 125.3,
+      "averageConfidence": 0.89,
+      "index": 12
+    },
+    {
+      "sentence": "Agreed. And honestly the canary setup we built for the last Protect release was solid, so it shouldn't be a ton of new work to adapt it.",
+      "speaker_name": "Ravi Gupta",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 126.6,
+      "endTime": 136.1,
+      "averageConfidence": 0.91,
+      "index": 13
+    },
+    {
+      "sentence": "Oh good, yeah, that's good to hear. Okay so \u2014 Sofia, I know you had some thoughts on the recovery side of things, the restore flow improvements? Do you want to walk us through where your head's at on that?",
+      "speaker_name": "Mike Romano",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 137.2,
+      "endTime": 151.6,
+      "averageConfidence": 0.96,
+      "index": 14
+    },
+    {
+      "sentence": "Sure, yeah. So basically the restore UX right now is... fine, but it's clunky, especially for partial restores at the file level. Users have to go through like five or six steps to get to what they actually want and we've had a couple of support tickets that are basically just people getting lost in the flow.",
+      "speaker_name": "Sofia Petrov",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 152.3,
+      "endTime": 172.4,
+      "averageConfidence": 0.91,
+      "index": 15
+    },
+    {
+      "sentence": "Ugh, yeah, I've seen those tickets. It's not a great experience.",
+      "speaker_name": "Ananya Sharma",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 173.6,
+      "endTime": 177.7,
+      "averageConfidence": 0.96,
+      "index": 16
+    },
+    {
+      "sentence": "Right, and I think we can cut that down significantly. I've been prototyping a new restore wizard \u2014 I'll share the Figma link in the doc after this \u2014 that basically lets you search for the file or directory you want directly from step one, and it surfaces the most recent backup snapshots automatically. It's a lot more... intuitive.",
+      "speaker_name": "Sofia Petrov",
+      "sentimentType": "positive",
+      "speaker_id": 3,
+      "time": 179.1,
+      "endTime": 199.6,
+      "averageConfidence": 0.94,
+      "index": 17
+    },
+    {
+      "sentence": "Oh I love that. That sounds way better. Like search-first instead of navigate-first.",
+      "speaker_name": "Ananya Sharma",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 201.1,
+      "endTime": 205.6,
+      "averageConfidence": 0.94,
+      "index": 18
+    },
+    {
+      "sentence": "Exactly, yeah. And on the back end it means we need to make sure the file index is being kept more up to date \u2014 Ravi, that's something I wanted to loop you in on because it might have some implications for the pipeline.",
+      "speaker_name": "Sofia Petrov",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 205.9,
+      "endTime": 221.3,
+      "averageConfidence": 0.89,
+      "index": 19
+    },
+    {
+      "sentence": "Yeah for sure, that's doable. If we're doing more frequent index updates I want to make sure we're not creating contention with the backup jobs themselves \u2014 but I think we can schedule around it. Let me take a look at the current pipeline config and I'll post some notes in the thread.",
+      "speaker_name": "Ravi Gupta",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 222.4,
+      "endTime": 240.8,
+      "averageConfidence": 0.89,
+      "index": 20
+    },
+    {
+      "sentence": "Perfect, yeah, let's sync on that separately. Okay, um \u2014 I also want to spend a few minutes talking about the multi-region replication piece because that one's been on the roadmap for a while and I keep getting asked about it by the enterprise sales team.",
+      "speaker_name": "Mike Romano",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 242.1,
+      "endTime": 258.1,
+      "averageConfidence": 0.88,
+      "index": 21
+    },
+    {
+      "sentence": "Ah, yeah. I mean \u2014 I want to be honest, I think multi-region is a Q3 thing realistically, not Q2. There's a lot of complexity there, especially around consistency guarantees when you're replicating across regions with different latency profiles.",
+      "speaker_name": "Ananya Sharma",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 258.6,
+      "endTime": 272.4,
+      "averageConfidence": 0.92,
+      "index": 22
+    },
+    {
+      "sentence": "No that's \u2014 that's fair, I appreciate you saying that because I don't want to overpromise to sales and then have us scrambling. I'd rather set the right expectation now.",
+      "speaker_name": "Mike Romano",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 273.5,
+      "endTime": 284.3,
+      "averageConfidence": 0.96,
+      "index": 23
+    },
+    {
+      "sentence": "Yeah I think Q3 is actually a really achievable target for that if we lay the groundwork in Q2 \u2014 like some of the architectural work we're doing for the incremental backup improvements will actually help with the replication stuff too, so it's not wasted effort.",
+      "speaker_name": "Ananya Sharma",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 285.6,
+      "endTime": 301.6,
+      "averageConfidence": 0.89,
+      "index": 24
+    },
+    {
+      "sentence": "Oh that's a good point, like the work compounds. I like that framing, that's helpful for explaining it to leadership too.",
+      "speaker_name": "Mike Romano",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 302.6,
+      "endTime": 310.0,
+      "averageConfidence": 0.89,
+      "index": 25
+    },
+    {
+      "sentence": "Yeah exactly. And I can write up a short technical brief on it if that would help \u2014 like here's what we're doing in Q2 and here's how it sets us up for multi-region in Q3.",
+      "speaker_name": "Ananya Sharma",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 311.3,
+      "endTime": 324.4,
+      "averageConfidence": 0.96,
+      "index": 26
+    },
+    {
+      "sentence": "That would be amazing, honestly. Yes please. Okay, um, anything else anyone wants to flag before we wrap up? I feel like we actually covered a lot of ground today.",
+      "speaker_name": "Mike Romano",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 324.8,
+      "endTime": 335.1,
+      "averageConfidence": 0.91,
+      "index": 27
+    },
+    {
+      "sentence": "One small thing \u2014 I want to carve out some time in Q2 for tech debt. We've got a few places in the backup scheduler that are... not pretty, and I think it's starting to slow us down when we're adding new features.",
+      "speaker_name": "Ravi Gupta",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 335.5,
+      "endTime": 350.8,
+      "averageConfidence": 0.9,
+      "index": 28
+    },
+    {
+      "sentence": "Yes, a hundred percent. I'll make sure we protect some capacity for that \u2014 no pun intended.",
+      "speaker_name": "Mike Romano",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 351.1,
+      "endTime": 356.7,
+      "averageConfidence": 0.92,
+      "index": 29
+    },
+    {
+      "sentence": "Ha, nice one.",
+      "speaker_name": "Sofia Petrov",
+      "sentimentType": "positive",
+      "speaker_id": 3,
+      "time": 357.8,
+      "endTime": 359.3,
+      "averageConfidence": 0.91,
+      "index": 30
+    },
+    {
+      "sentence": "I'll be here all quarter.",
+      "speaker_name": "Mike Romano",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 360.7,
+      "endTime": 362.7,
+      "averageConfidence": 0.96,
+      "index": 31
+    },
+    {
+      "sentence": "Okay cool, I think this was a really productive session honestly. Way better than last quarter's planning call where we spent like forty minutes arguing about story point estimates.",
+      "speaker_name": "Ananya Sharma",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 364.2,
+      "endTime": 374.6,
+      "averageConfidence": 0.91,
+      "index": 32
+    },
+    {
+      "sentence": "Let's just... never speak of that again. Alright, I'll update the planning doc with everything we talked about today and I'll send a summary to the channel. Thanks everyone, this was great.",
+      "speaker_name": "Mike Romano",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 375.8,
+      "endTime": 387.0,
+      "averageConfidence": 0.91,
+      "index": 33
+    },
+    {
+      "sentence": "Thanks Mike!",
+      "speaker_name": "Sofia Petrov",
+      "sentimentType": "positive",
+      "speaker_id": 3,
+      "time": 387.7,
+      "endTime": 389.2,
+      "averageConfidence": 0.96,
+      "index": 34
+    },
+    {
+      "sentence": "Yeah, good call everyone.",
+      "speaker_name": "Ravi Gupta",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 389.9,
+      "endTime": 391.4,
+      "averageConfidence": 0.97,
+      "index": 35
+    },
+    {
+      "sentence": "Talk soon.",
+      "speaker_name": "Ananya Sharma",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 392.0,
+      "endTime": 393.5,
+      "averageConfidence": 0.89,
+      "index": 36
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "participantName": "Megan Lawson",
+    "timestamp": 1772276401000,
+    "type": "Join",
+    "time": 1.0
+  },
+  {
+    "participantName": "Nina Kowalski",
+    "timestamp": 1772276428000,
+    "type": "Join",
+    "time": 28.0
+  },
+  {
+    "participantName": "Raj Kapoor",
+    "timestamp": 1772276429000,
+    "type": "Join",
+    "time": 29.0
+  },
+  {
+    "participantName": "Diana Reeves",
+    "timestamp": 1772276443000,
+    "type": "Join",
+    "time": 43.0
+  },
+  {
+    "participantName": "Nina Kowalski",
+    "timestamp": 1772277626000,
+    "type": "Leave",
+    "time": 1226.0
+  },
+  {
+    "participantName": "Diana Reeves",
+    "timestamp": 1772277611000,
+    "type": "Leave",
+    "time": 1211.0
+  },
+  {
+    "participantName": "Raj Kapoor",
+    "timestamp": 1772277612000,
+    "type": "Leave",
+    "time": 1212.0
+  },
+  {
+    "participantName": "Megan Lawson",
+    "timestamp": 1772277625000,
+    "type": "Leave",
+    "time": 1225.0
+  }
+]

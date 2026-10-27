@@ -1,0 +1,45 @@
+{
+  "summary": "Rachel Torres and Maria Santos from Aegis met with Wayne Keller of Atlas to discuss the upcoming end-of-March contract renewal and billing concerns. Wayne's finance team flagged overage charges on the Aegis Detect module for January and February, which were caused by the addition of two new production facilities expanding event volume beyond the 500 million monthly cap. Rachel proposed upgrading to a 750 million event tier at an additional $310/month, which would likely be more cost-effective than continued overages. Wayne also expressed interest in exploring the Aegis Comply module for SOC 2 reporting, and both sides agreed on an annual renewal with a mid-March internal target deadline.",
+  "actionItems": [
+    "Rachel Torres: Send a revised pricing summary by end of week comparing the current Detect tier vs. 750M event tier, including Comply module pricing and renewal bundle options",
+    "Maria Santos: Schedule a follow-up check-in with Wayne after the proposal is sent to address any questions",
+    "Wayne Keller: Share the pricing proposal with finance and legal teams by mid-March to allow processing time before contract expiration"
+  ],
+  "topics": [
+    "renewal",
+    "billing dispute",
+    "overage charges",
+    "compliance",
+    "contract negotiation",
+    "product add-on"
+  ],
+  "overallSentiment": "mixed-positive",
+  "sentimentScore": 3.7,
+  "keyMoments": [
+    {
+      "time": 112.0,
+      "text": "Wayne raises billing concern \u2014 finance team flagged overage charges on two invoices they weren't aware were possible under their current tier",
+      "type": "concern",
+      "speaker": "Wayne Keller"
+    },
+    {
+      "time": 285.0,
+      "text": "Maria identifies root cause of overages as the addition of Dayton and Phoenix plants in November, providing a clear explanation for volume increase",
+      "type": "positive_pivot",
+      "speaker": "Maria Santos"
+    },
+    {
+      "time": 370.0,
+      "text": "Rachel presents 750M event tier upgrade at $310/month more, noting it would be cheaper overall than continued overage charges",
+      "type": "pricing_offer",
+      "speaker": "Rachel Torres"
+    },
+    {
+      "time": 480.0,
+      "text": "Wayne asks about SOC 2 compliance reporting, signaling potential expansion opportunity with the Aegis Comply add-on module",
+      "type": "feature_gap",
+      "speaker": "Wayne Keller"
+    }
+  ],
+  "meetingId": "01KQ1DC6CA536DE1B31ED8F5"
+}

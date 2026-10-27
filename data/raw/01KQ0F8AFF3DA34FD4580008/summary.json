@@ -1,0 +1,46 @@
+{
+  "summary": "Lisa Park (CSM) met with Lauren Bishop to discuss the upcoming June renewal, address the March Detect outage, and review the recently released Comply v2. Lauren was candid about internal concerns raised by the six-hour outage and noted that procurement is requiring at least one competitive quote from SentinelShield. The team is planning to expand their cloud workload footprint by about 40 workloads through Q3, which will factor into renewal pricing options. Lisa committed to sending the post-incident review, preparing two renewal proposal options, and scheduling a compliance walkthrough for June.",
+  "actionItems": [
+    "Lisa Park: Send the full post-incident review document for the March Detect outage to Lauren and her team",
+    "Lisa Park: Prepare two renewal proposal options (base tier and expanded workload growth option) by approximately the 24th",
+    "Lisa Park: Schedule a compliance specialist walkthrough for Comply v2 PCI DSS coverage in June",
+    "Lauren Bishop: Share post-incident review with her team and determine whether a solutions architect follow-up session is needed"
+  ],
+  "topics": [
+    "renewal",
+    "outage",
+    "competitive threat",
+    "compliance",
+    "cloud expansion",
+    "pricing"
+  ],
+  "overallSentiment": "mixed-positive",
+  "sentimentScore": 3.4,
+  "keyMoments": [
+    {
+      "time": 90.0,
+      "text": "Lauren flags the March Detect outage as a major concern, noting her security team was flying blind for six hours",
+      "type": "churn_signal",
+      "speaker": "Lauren Bishop"
+    },
+    {
+      "time": 420.0,
+      "text": "Lauren discloses that procurement is requiring a competitive quote from SentinelShield, signaling renewal risk",
+      "type": "churn_signal",
+      "speaker": "Lauren Bishop"
+    },
+    {
+      "time": 540.0,
+      "text": "Lauren responds positively to Comply v2, noting faster SOC 2 report generation and plans to use multi-framework view for PCI",
+      "type": "positive_pivot",
+      "speaker": "Lauren Bishop"
+    },
+    {
+      "time": 620.0,
+      "text": "Lauren agrees to a compliance specialist walkthrough in June ahead of her Q4 PCI audit cycle",
+      "type": "action_item",
+      "speaker": "Lauren Bishop"
+    }
+  ],
+  "meetingId": "01KQ0F8AFF3DA34FD4580008"
+}

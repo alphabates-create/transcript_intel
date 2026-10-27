@@ -1,0 +1,46 @@
+{
+  "summary": "The team held a pre-launch alignment call for the Comply v2 GA deployment scheduled for April 7th. Ravi confirmed infrastructure dry-runs in staging went cleanly, with a minor Lambda cold-start issue to be addressed via a warm-up ping. Nina reported full regression suite passage across all four compliance frameworks and three tenant sizes, flagging a p99 latency concern at 50 concurrent requests that will be monitored via a new MetricFlow alert. The team confirmed a phased rollout plan, a clean feature-flag-based rollback strategy, and agreed to keep the v1 reporting service running in parallel for two weeks post-GA.",
+  "actionItems": [
+    "Ravi Gupta: Add Lambda warm-up ping to the pre-deploy checklist before the April 6th deployment",
+    "Ravi Gupta and Nina Kowalski: Coordinate and configure MetricFlow queue depth alert for the reporting service by April 6th",
+    "Ananya Sharma: Update the deployment runbook with alert config and warm-up ping notes and circulate for final review by EOD Thursday",
+    "Mike Romano: Track PCI DSS hardcoded version strings cleanup as a v2.0.1 ticket post-launch"
+  ],
+  "topics": [
+    "product launch",
+    "compliance reporting",
+    "infrastructure deployment",
+    "qa and testing",
+    "observability and alerting",
+    "rollback planning"
+  ],
+  "overallSentiment": "very-positive",
+  "sentimentScore": 4.7,
+  "keyMoments": [
+    {
+      "time": 312.0,
+      "text": "Nina flagged p99 latency of 22 seconds at 50 concurrent requests, exceeding the 15-second SLO target during load testing",
+      "type": "concern",
+      "speaker": "Nina Kowalski"
+    },
+    {
+      "time": 187.0,
+      "text": "Ravi confirmed staging dry-run was clean and infrastructure is ready, with the Lambda cold-start warm-up as the only minor issue identified",
+      "type": "positive_pivot",
+      "speaker": "Ravi Gupta"
+    },
+    {
+      "time": 455.0,
+      "text": "Ravi detailed the resilience architecture including redundant processing nodes and circuit breaker pattern, directly informed by the March Detect outage",
+      "type": "technical_issue",
+      "speaker": "Ravi Gupta"
+    },
+    {
+      "time": 530.0,
+      "text": "Rollback plan confirmed as instant via feature flag with v1 service running in parallel for two weeks post-GA, giving the team full safety net",
+      "type": "action_item",
+      "speaker": "Ravi Gupta"
+    }
+  ],
+  "meetingId": "01KQ68FB3E9E60C4477CDAB4"
+}

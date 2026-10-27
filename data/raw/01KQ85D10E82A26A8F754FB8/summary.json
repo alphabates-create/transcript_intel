@@ -1,0 +1,45 @@
+{
+  "summary": "Maria Santos and Solutions Architect Kevin O'Brien met with Evelyn Park to discuss her organization's compliance challenges ahead of a HIPAA audit in late May/early June. Evelyn's team has been using Aegis Comply for eight months primarily for SOC 2, but identified gaps in HIPAA support and frustration with treating multiple frameworks as separate workstreams. Kevin outlined near-term technical recommendations including evidence library restructuring and PHI access logging, while previewing the upcoming Comply v2 multi-framework feature that would allow single evidence items to map across HIPAA, SOC 2, and other frameworks simultaneously. The call concluded with plans to schedule a Comply v2 preview session and for Kevin to deliver a SOC 2 to HIPAA control mapping document.",
+  "actionItems": [
+    "Maria Santos: Schedule a Comply v2 preview session for Evelyn's team",
+    "Kevin O'Brien: Prepare and send a healthcare-specific SOC 2 to HIPAA framework mapping document by end of next week",
+    "Kevin O'Brien: Audit Evelyn's current evidence library structure to identify SOC 2 controls that translate to HIPAA and verify PHI access logging setup"
+  ],
+  "topics": [
+    "hipaa audit prep",
+    "multi-framework compliance",
+    "evidence management",
+    "product roadmap",
+    "healthcare",
+    "reporting"
+  ],
+  "overallSentiment": "mixed-positive",
+  "sentimentScore": 4.1,
+  "keyMoments": [
+    {
+      "time": 95.0,
+      "text": "Evelyn describes painful manual compliance reporting process involving spreadsheets and multiple teams, with reports already outdated by the time they are ready",
+      "type": "concern",
+      "speaker": "Evelyn Park"
+    },
+    {
+      "time": 210.0,
+      "text": "Evelyn identifies a feature gap: HIPAA and SOC 2 are treated as completely separate workstreams in the current platform, which is not sustainable for her team",
+      "type": "feature_gap",
+      "speaker": "Evelyn Park"
+    },
+    {
+      "time": 310.0,
+      "text": "Kevin reveals Comply v2 roadmap will support multi-framework evidence mapping, allowing a single piece of evidence to satisfy controls across HIPAA, SOC 2, and other frameworks simultaneously",
+      "type": "positive_pivot",
+      "speaker": "Kevin O'Brien"
+    },
+    {
+      "time": 530.0,
+      "text": "Kevin recommends a sandbox preview of Comply v2 features for Evelyn's team ahead of general availability, which Maria confirms can be arranged as a strategic customer benefit",
+      "type": "action_item",
+      "speaker": "Kevin O'Brien"
+    }
+  ],
+  "meetingId": "01KQ85D10E82A26A8F754FB8"
+}

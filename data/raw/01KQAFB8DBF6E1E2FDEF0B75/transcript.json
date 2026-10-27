@@ -1,0 +1,374 @@
+{
+  "data": [
+    {
+      "sentence": "Hey Nathan! Good to see you on here, how are you doing today?",
+      "speaker_name": "Aisha Johnson",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 3.7,
+      "endTime": 8.2,
+      "averageConfidence": 0.9,
+      "index": 0
+    },
+    {
+      "sentence": "Doing really well, thanks Aisha. Busy as always, you know how it is in retail right now, but yeah, excited for this call actually.",
+      "speaker_name": "Nathan Perry",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 9.0,
+      "endTime": 17.3,
+      "averageConfidence": 0.93,
+      "index": 1
+    },
+    {
+      "sentence": "Ha, I can imagine! I also wanted to introduce you to Sofia Petrov \u2014 she's one of our senior engineers on the Comply side of things, and she's going to be really helpful for what we're walking through today.",
+      "speaker_name": "Aisha Johnson",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 18.4,
+      "endTime": 32.3,
+      "averageConfidence": 0.89,
+      "index": 2
+    },
+    {
+      "sentence": "Hey Nathan, great to meet you. Really looking forward to digging into your SOC 2 prep situation and seeing how we can help.",
+      "speaker_name": "Sofia Petrov",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 33.4,
+      "endTime": 41.8,
+      "averageConfidence": 0.92,
+      "index": 3
+    },
+    {
+      "sentence": "Yeah, likewise Sofia. And honestly, the timing on this couldn't be better for us. We've got an auditor engagement scoped for, uh, Q2 \u2014 so probably May or June \u2014 and we're kind of scrambling to get our evidence collection and reporting story together.",
+      "speaker_name": "Nathan Perry",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 42.4,
+      "endTime": 58.0,
+      "averageConfidence": 0.97,
+      "index": 4
+    },
+    {
+      "sentence": "Perfect, yeah that's exactly why we wanted to get this on the calendar. And May-June is actually a really workable timeline for what we're going to show you. So, Nathan, maybe just to set the stage \u2014 can you give us a quick sense of where Maplewood is right now with SOC 2? Like what's your current process for pulling together audit evidence?",
+      "speaker_name": "Aisha Johnson",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 58.5,
+      "endTime": 81.0,
+      "averageConfidence": 0.96,
+      "index": 5
+    },
+    {
+      "sentence": "Yeah so, honestly? It's pretty manual right now. We've got a shared drive with a bunch of folders, we're pulling logs from like four different places, and the last time we went through this \u2014 it was maybe eighteen months ago \u2014 it basically consumed two of my engineers for almost three weeks. Which, you know, is just not sustainable.",
+      "speaker_name": "Nathan Perry",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 82.1,
+      "endTime": 103.6,
+      "averageConfidence": 0.92,
+      "index": 6
+    },
+    {
+      "sentence": "Three weeks of engineer time, yeah, that's \u2014 that's a really common pain point we hear. And that's actually the exact problem Aegis Comply is built to solve. Sofia, do you want to kind of walk Nathan through how the evidence collection works on our end?",
+      "speaker_name": "Aisha Johnson",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 104.5,
+      "endTime": 120.8,
+      "averageConfidence": 0.88,
+      "index": 7
+    },
+    {
+      "sentence": "Sure, absolutely. So, at a high level, Comply continuously maps your cloud environment against the SOC 2 Trust Service Criteria \u2014 we're talking access controls, availability, change management, incident response, all of that. And rather than your team having to go hunting for evidence when the auditor shows up, the platform is already collecting it in real time and organizing it into a structured evidence library.",
+      "speaker_name": "Sofia Petrov",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 121.3,
+      "endTime": 144.2,
+      "averageConfidence": 0.96,
+      "index": 8
+    },
+    {
+      "sentence": "Okay, so like \u2014 when you say evidence library, is that something I can actually hand to an auditor directly? Or is it more of an internal thing?",
+      "speaker_name": "Nathan Perry",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 144.7,
+      "endTime": 154.9,
+      "averageConfidence": 0.89,
+      "index": 9
+    },
+    {
+      "sentence": "Great question. So right now, you can export the evidence packages and share them externally \u2014 it's formatted in a way that auditors are used to seeing. And actually, um, we have something pretty exciting coming down the pipeline that's going to make that even more turnkey.",
+      "speaker_name": "Sofia Petrov",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 155.8,
+      "endTime": 172.7,
+      "averageConfidence": 0.91,
+      "index": 10
+    },
+    {
+      "sentence": "Yeah, I was going to mention that actually. So we're launching Comply v2 \u2014 it's not out yet but it's coming very soon \u2014 and one of the headline features is on-demand compliance reporting. So instead of exporting a package manually, you can generate a full SOC 2 report on demand, right from the dashboard. It's going to be a big deal.",
+      "speaker_name": "Aisha Johnson",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 173.1,
+      "endTime": 194.6,
+      "averageConfidence": 0.94,
+      "index": 11
+    },
+    {
+      "sentence": "Wait, so like a full report? As in something I could send to an auditor or a customer who's asking for our compliance posture?",
+      "speaker_name": "Nathan Perry",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 195.2,
+      "endTime": 204.1,
+      "averageConfidence": 0.89,
+      "index": 12
+    },
+    {
+      "sentence": "Exactly. And it's not just SOC 2 either \u2014 the v2 launch is going to support multiple frameworks. So PCI DSS, HIPAA, ISO 27001 as well. I know you're focused on SOC 2 right now but given that you're in retail, PCI probably isn't far from your mind either.",
+      "speaker_name": "Aisha Johnson",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 204.9,
+      "endTime": 221.8,
+      "averageConfidence": 0.89,
+      "index": 13
+    },
+    {
+      "sentence": "Oh, PCI is absolutely on our radar. We process a decent volume of card transactions and, uh, yeah, keeping up with that is \u2014 it's a lot. So the fact that those could potentially come from the same platform is really interesting.",
+      "speaker_name": "Nathan Perry",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 222.7,
+      "endTime": 237.2,
+      "averageConfidence": 0.89,
+      "index": 14
+    },
+    {
+      "sentence": "Right, and that's kind of the vision, right? One platform, continuous compliance across your key frameworks, instead of running separate workstreams for each one. Sofia, can you talk a bit about how the framework mapping works when you're dealing with overlapping controls?",
+      "speaker_name": "Aisha Johnson",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 238.1,
+      "endTime": 252.7,
+      "averageConfidence": 0.93,
+      "index": 15
+    },
+    {
+      "sentence": "Yeah so this is actually one of my favorite parts of the product. The control library is built so that overlapping requirements across frameworks are mapped to a single underlying control. So if you have, say, an access review process, that single control can satisfy requirements in SOC 2, PCI DSS, and ISO 27001 simultaneously. You're not duplicating your effort \u2014 the platform does that work for you.",
+      "speaker_name": "Sofia Petrov",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 253.5,
+      "endTime": 277.3,
+      "averageConfidence": 0.96,
+      "index": 16
+    },
+    {
+      "sentence": "That is \u2014 okay, that is actually really smart. Because right now that is a huge headache. We've got separate checklists for everything and there's so much duplication, it's \u2014 yeah, it drives me crazy honestly.",
+      "speaker_name": "Nathan Perry",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 278.5,
+      "endTime": 291.0,
+      "averageConfidence": 0.9,
+      "index": 17
+    },
+    {
+      "sentence": "Yeah totally, we hear that all the time. And look, even before v2 drops, there's a lot Comply can do for you right now in terms of getting your environment mapped and your evidence organized ahead of your Q2 audit. So even if the on-demand reporting isn't live yet when you start, you'd be well set up to take advantage of it once it is.",
+      "speaker_name": "Aisha Johnson",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 291.4,
+      "endTime": 314.1,
+      "averageConfidence": 0.9,
+      "index": 18
+    },
+    {
+      "sentence": "That makes sense. And speaking of getting set up \u2014 what does the onboarding actually look like? Like, how long does it typically take before the platform is, you know, actually doing something useful for us?",
+      "speaker_name": "Nathan Perry",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 314.9,
+      "endTime": 327.9,
+      "averageConfidence": 0.93,
+      "index": 19
+    },
+    {
+      "sentence": "So it depends a little on your environment complexity, but for a retail org of your size we typically see customers go from initial integration to having a meaningful control coverage picture within two to three weeks. The connectors to your cloud infrastructure are the main lift, and then the framework mapping is largely automated from there.",
+      "speaker_name": "Sofia Petrov",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 328.3,
+      "endTime": 348.0,
+      "averageConfidence": 0.9,
+      "index": 20
+    },
+    {
+      "sentence": "Two to three weeks, okay. And is that, uh \u2014 is that with support from your team, or is it more of a self-serve thing?",
+      "speaker_name": "Nathan Perry",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 348.8,
+      "endTime": 357.7,
+      "averageConfidence": 0.91,
+      "index": 21
+    },
+    {
+      "sentence": "Definitely not self-serve, we're very much hands-on during onboarding. You'd have Sofia's team supporting the technical integration, and I'd be your main point of contact for everything on the CS side \u2014 making sure timelines are on track, helping you prioritize which controls to tackle first based on your audit scope. We've done this with a few other retail customers and we know the common pitfalls, so we try to help people avoid them.",
+      "speaker_name": "Aisha Johnson",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 358.2,
+      "endTime": 384.2,
+      "averageConfidence": 0.91,
+      "index": 22
+    },
+    {
+      "sentence": "That's reassuring to hear, yeah. I think my biggest concern honestly is just the time investment from my team's side. Like, I've got three engineers and they're all stretched. So if the integration is \u2014 if it's going to be another big lift I need to think about how to resource it.",
+      "speaker_name": "Nathan Perry",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 384.7,
+      "endTime": 402.9,
+      "averageConfidence": 0.88,
+      "index": 23
+    },
+    {
+      "sentence": "Totally fair concern. I think what I'd say is \u2014 the upfront time investment is real but it's much more contained than what you described for your last audit cycle. And the return on that investment is that your next audit and every audit after that becomes dramatically less painful. Like, we're talking potentially going from three engineer-weeks down to a few days.",
+      "speaker_name": "Aisha Johnson",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 403.6,
+      "endTime": 425.8,
+      "averageConfidence": 0.89,
+      "index": 24
+    },
+    {
+      "sentence": "Yeah, if that's actually the outcome that would be \u2014 that would be massive for us. Honestly, just getting time back for my team to work on actual infrastructure work instead of compliance paperwork is a huge win.",
+      "speaker_name": "Nathan Perry",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 426.4,
+      "endTime": 439.8,
+      "averageConfidence": 0.95,
+      "index": 25
+    },
+    {
+      "sentence": "A hundred percent. And that's exactly the feedback we get from customers after they've been through their first audit cycle on Comply. It just \u2014 it changes the dynamic. Compliance stops being this fire drill and starts being more of an ongoing process.",
+      "speaker_name": "Aisha Johnson",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 440.6,
+      "endTime": 455.5,
+      "averageConfidence": 0.89,
+      "index": 26
+    },
+    {
+      "sentence": "Okay so \u2014 yeah, I think I'm pretty sold on the concept. Can we talk about what next steps would look like? Like, if we wanted to move forward, what's the process from here?",
+      "speaker_name": "Nathan Perry",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 456.2,
+      "endTime": 468.4,
+      "averageConfidence": 0.96,
+      "index": 27
+    },
+    {
+      "sentence": "Yes, absolutely. So what I'd suggest is \u2014 first, let's get a technical scoping session on the calendar with Sofia and whoever on your team would be handling the integration side. That's usually where we get into the specifics of your CloudPrime or Azure setup, whatever you're running, and scope out the connector work.",
+      "speaker_name": "Aisha Johnson",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 469.8,
+      "endTime": 488.9,
+      "averageConfidence": 0.9,
+      "index": 28
+    },
+    {
+      "sentence": "We're primarily CloudPrime, little bit of Azure. Yeah, a scoping call sounds good. I'd probably loop in my lead engineer \u2014 her name's Rachel, she handles most of our cloud infra.",
+      "speaker_name": "Nathan Perry",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 489.9,
+      "endTime": 500.7,
+      "averageConfidence": 0.96,
+      "index": 29
+    },
+    {
+      "sentence": "Perfect, CloudPrime is great, we have very deep coverage there. And yeah, definitely bring Rachel in \u2014 the more technical context we have upfront, the smoother the integration goes. I'd also love to do a short walkthrough of the Comply dashboard with you and Rachel before that scoping call, just so you can see the interface and have a shared mental model going in.",
+      "speaker_name": "Sofia Petrov",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 501.7,
+      "endTime": 523.9,
+      "averageConfidence": 0.92,
+      "index": 30
+    },
+    {
+      "sentence": "Yeah, that actually makes a lot of sense. She'll have questions I probably won't even think to ask, so.",
+      "speaker_name": "Nathan Perry",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 524.8,
+      "endTime": 531.2,
+      "averageConfidence": 0.96,
+      "index": 31
+    },
+    {
+      "sentence": "Ha, exactly! Okay so I'll send over a calendar invite for a thirty-minute demo session \u2014 I'm thinking early next week if that works \u2014 and then we can line up the scoping call from there. And I'll also send you a summary of everything we talked about today along with some resources on the SOC 2 framework mapping so you have something to share internally if needed.",
+      "speaker_name": "Aisha Johnson",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 532.0,
+      "endTime": 555.7,
+      "averageConfidence": 0.9,
+      "index": 32
+    },
+    {
+      "sentence": "That would be super helpful, yeah. I've got a meeting with my director next Friday and it'd be great to have some of that material to reference. He's been asking about our compliance posture for a while so this is \u2014 yeah, good timing.",
+      "speaker_name": "Nathan Perry",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 556.5,
+      "endTime": 572.4,
+      "averageConfidence": 0.96,
+      "index": 33
+    },
+    {
+      "sentence": "Perfect, we'll make sure you have everything you need for that. Nathan, this was a great call \u2014 really excited about working with Maplewood on this.",
+      "speaker_name": "Aisha Johnson",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 573.8,
+      "endTime": 583.3,
+      "averageConfidence": 0.88,
+      "index": 34
+    },
+    {
+      "sentence": "Same, yeah. Really glad we finally got this on the calendar. Looking forward to the demo. Thanks both of you.",
+      "speaker_name": "Nathan Perry",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 584.1,
+      "endTime": 591.6,
+      "averageConfidence": 0.93,
+      "index": 35
+    },
+    {
+      "sentence": "Thanks Nathan, talk soon!",
+      "speaker_name": "Sofia Petrov",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 592.8,
+      "endTime": 594.3,
+      "averageConfidence": 0.95,
+      "index": 36
+    }
+  ]
+}

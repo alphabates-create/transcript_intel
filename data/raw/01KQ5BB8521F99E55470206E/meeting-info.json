@@ -1,0 +1,23 @@
+{
+  "meetingId": "01KQ5BB8521F99E55470206E",
+  "title": "Detect Team - Sprint Planning",
+  "organizerEmail": "sofia.petrov@aegiscloud.com",
+  "host": "sofia.petrov@aegiscloud.com",
+  "startTime": "2026-03-02T09:15:00.000Z",
+  "endTime": "2026-03-02T09:40:06.000Z",
+  "duration": 25.1,
+  "allEmails": [
+    "sofia.petrov@aegiscloud.com",
+    "nina.kowalski@aegiscloud.com",
+    "tyler.washington@aegiscloud.com",
+    "ravi.gupta@aegiscloud.com",
+    "ananya.sharma@aegiscloud.com"
+  ],
+  "invitees": [
+    "sofia.petrov@aegiscloud.com",
+    "nina.kowalski@aegiscloud.com",
+    "tyler.washington@aegiscloud.com",
+    "ravi.gupta@aegiscloud.com",
+    "ananya.sharma@aegiscloud.com"
+  ]
+}

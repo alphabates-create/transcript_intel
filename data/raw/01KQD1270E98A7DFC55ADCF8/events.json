@@ -1,0 +1,50 @@
+[
+  {
+    "participantName": "Nina Kowalski",
+    "timestamp": 1776271515000,
+    "type": "Join",
+    "time": 15.0
+  },
+  {
+    "participantName": "Sofia Petrov",
+    "timestamp": 1776271530000,
+    "type": "Join",
+    "time": 30.0
+  },
+  {
+    "participantName": "Chris Lee",
+    "timestamp": 1776271555000,
+    "type": "Join",
+    "time": 55.0
+  },
+  {
+    "participantName": "Tyler Washington",
+    "timestamp": 1776271558000,
+    "type": "Join",
+    "time": 58.0
+  },
+  {
+    "participantName": "Tyler Washington",
+    "timestamp": 1776272885000,
+    "type": "Leave",
+    "time": 1385.0
+  },
+  {
+    "participantName": "Nina Kowalski",
+    "timestamp": 1776272904000,
+    "type": "Leave",
+    "time": 1404.0
+  },
+  {
+    "participantName": "Chris Lee",
+    "timestamp": 1776272904000,
+    "type": "Leave",
+    "time": 1404.0
+  },
+  {
+    "participantName": "Sofia Petrov",
+    "timestamp": 1776272889000,
+    "type": "Leave",
+    "time": 1389.0
+  }
+]

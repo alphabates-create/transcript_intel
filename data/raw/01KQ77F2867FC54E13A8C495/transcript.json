@@ -1,0 +1,444 @@
+{
+  "data": [
+    {
+      "sentence": "Hey Kendra, thanks for making time today \u2014 I know your schedule's been packed.",
+      "speaker_name": "James Mitchell",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 3.6,
+      "endTime": 8.4,
+      "averageConfidence": 0.95,
+      "index": 0
+    },
+    {
+      "sentence": "Yeah, it has been, but this is an important one so I made sure to block it off. Good to connect, James.",
+      "speaker_name": "Kendra Wallace",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 9.8,
+      "endTime": 17.8,
+      "averageConfidence": 0.92,
+      "index": 1
+    },
+    {
+      "sentence": "Absolutely. So the plan for today \u2014 I wanted to walk through the Aegis Detect deployment for Brightpath, kind of go over the onboarding steps, talk through your environment specifics, and make sure we're set up for a smooth rollout. Does that work for you?",
+      "speaker_name": "James Mitchell",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 19.2,
+      "endTime": 34.9,
+      "averageConfidence": 0.96,
+      "index": 2
+    },
+    {
+      "sentence": "Yeah that works. I've got our infrastructure lead, Marcus, looped in on some of the technical details so I may reference some notes he sent over. He couldn't make the call today unfortunately.",
+      "speaker_name": "Kendra Wallace",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 35.8,
+      "endTime": 47.7,
+      "averageConfidence": 0.9,
+      "index": 3
+    },
+    {
+      "sentence": "No problem at all, happy to follow up directly with Marcus as well after this. So, just to level-set \u2014 Brightpath is running primarily on CloudPrime, correct? With some Azure footprint for certain workloads?",
+      "speaker_name": "James Mitchell",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 49.2,
+      "endTime": 61.4,
+      "averageConfidence": 0.9,
+      "index": 4
+    },
+    {
+      "sentence": "That's right. We're about seventy percent CloudPrime, the rest is Azure. We use Azure mainly for some of our analytics pipelines and a couple of internal tools. Core commerce infrastructure \u2014 storefront, order management, payments \u2014 that's all CloudPrime.",
+      "speaker_name": "Kendra Wallace",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 61.8,
+      "endTime": 75.8,
+      "averageConfidence": 0.9,
+      "index": 5
+    },
+    {
+      "sentence": "Got it, that's helpful context. Aegis Detect handles both environments natively so that's not a concern, but it does affect how we sequence the deployment. Typically we recommend starting with the primary cloud environment first, getting the agents and event collectors stabilized there, and then extending to the secondary.",
+      "speaker_name": "James Mitchell",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 76.8,
+      "endTime": 94.1,
+      "averageConfidence": 0.9,
+      "index": 6
+    },
+    {
+      "sentence": "That makes sense. So CloudPrime first, then we layer in Azure. What's the typical timeline for something like that, for an environment our size?",
+      "speaker_name": "Kendra Wallace",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 94.7,
+      "endTime": 103.3,
+      "averageConfidence": 0.94,
+      "index": 7
+    },
+    {
+      "sentence": "For a mid-market retail footprint like Brightpath's \u2014 and I'm ballparking here based on what you shared in the scoping doc \u2014 you're probably looking at two to three weeks for the initial CloudPrime deployment to get to a stable monitored state. Azure would be an additional week, week and a half maybe.",
+      "speaker_name": "James Mitchell",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 104.1,
+      "endTime": 122.7,
+      "averageConfidence": 0.93,
+      "index": 8
+    },
+    {
+      "sentence": "Okay so roughly a month end to end. That's... that's workable. We were hoping to have something operational before our spring peak season, which starts ramping up in late March.",
+      "speaker_name": "Kendra Wallace",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 123.6,
+      "endTime": 134.4,
+      "averageConfidence": 0.96,
+      "index": 9
+    },
+    {
+      "sentence": "Yeah, and that's actually why I wanted to get this call in this week. If we kick off deployment by end of next week, mid-February, we should be comfortably ahead of that window. You'd have at minimum the CloudPrime side fully operational with time to spare.",
+      "speaker_name": "James Mitchell",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 135.1,
+      "endTime": 151.3,
+      "averageConfidence": 0.9,
+      "index": 10
+    },
+    {
+      "sentence": "Good. That's good. Okay, so what does the actual kickoff involve? What do we need to prepare on our end?",
+      "speaker_name": "Kendra Wallace",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 151.8,
+      "endTime": 158.5,
+      "averageConfidence": 0.88,
+      "index": 11
+    },
+    {
+      "sentence": "So the first thing is IAM permissions \u2014 we'll need read access to your CloudPrime CloudTrail logs, VPC Flow Logs, and if you have GuardDuty enabled we'll want to pull from that as well. Our onboarding team will send over a specific permissions template, it's pretty straightforward, a predefined IAM role with least-privilege scoping.",
+      "speaker_name": "James Mitchell",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 159.7,
+      "endTime": 178.5,
+      "averageConfidence": 0.95,
+      "index": 12
+    },
+    {
+      "sentence": "We do have GuardDuty running, yes. And CloudTrail is enabled across all regions. VPC Flow Logs \u2014 I'd have to check with Marcus on that one, I believe we have them enabled for production VPCs but maybe not all of them.",
+      "speaker_name": "Kendra Wallace",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 179.3,
+      "endTime": 194.2,
+      "averageConfidence": 0.89,
+      "index": 13
+    },
+    {
+      "sentence": "That's fine, we can work with partial coverage initially and expand. It's not a blocker. The other thing we'll need is a point of contact on your infrastructure team for the technical onboarding sessions \u2014 that'd probably be Marcus?",
+      "speaker_name": "James Mitchell",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 195.4,
+      "endTime": 209.5,
+      "averageConfidence": 0.96,
+      "index": 14
+    },
+    {
+      "sentence": "Yeah, Marcus Okonkwo, he's our head of cloud infrastructure. I'll make sure he's looped in. He's very hands-on so honestly once you get him the technical docs he'll probably have it half done before the onboarding call even happens.",
+      "speaker_name": "Kendra Wallace",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 211.0,
+      "endTime": 224.7,
+      "averageConfidence": 0.92,
+      "index": 15
+    },
+    {
+      "sentence": "Ha, I love that type. That makes the process a lot smoother honestly. Okay so \u2014 on the Detect side specifically, I want to make sure we talk about alerting configuration because that's usually where onboarding takes the most time. You can get the data flowing pretty quickly, but tuning the alerts so you're not buried in noise \u2014 that's the art of it.",
+      "speaker_name": "James Mitchell",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 225.4,
+      "endTime": 247.7,
+      "averageConfidence": 0.88,
+      "index": 16
+    },
+    {
+      "sentence": "Yeah, alert fatigue is a real concern for us. Our security team is small \u2014 it's two dedicated security engineers plus myself staying involved. We can't have them chasing false positives all day.",
+      "speaker_name": "Kendra Wallace",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 248.5,
+      "endTime": 260.3,
+      "averageConfidence": 0.91,
+      "index": 17
+    },
+    {
+      "sentence": "Totally understandable, and that's a really common scenario especially in retail where you've got... a lot of legitimate high-volume traffic patterns that can look suspicious if you don't tune for them. Aegis Detect has baseline learning built in \u2014 it runs in observation mode for the first seven days and builds a behavioral baseline before it starts generating production alerts.",
+      "speaker_name": "James Mitchell",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 261.1,
+      "endTime": 282.3,
+      "averageConfidence": 0.93,
+      "index": 18
+    },
+    {
+      "sentence": "Oh, that's actually \u2014 I didn't know that. That's a good feature. So it won't just start firing off alerts the moment it's connected?",
+      "speaker_name": "Kendra Wallace",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 283.5,
+      "endTime": 292.0,
+      "averageConfidence": 0.95,
+      "index": 19
+    },
+    {
+      "sentence": "Right, exactly. You can override that and go straight to active alerting if you want, but for most customers we recommend the observation period. Gives the system time to understand your normal traffic patterns \u2014 your order processing spikes, your batch jobs, whatever recurring patterns you have \u2014 and it significantly reduces that initial false positive noise.",
+      "speaker_name": "James Mitchell",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 293.3,
+      "endTime": 313.4,
+      "averageConfidence": 0.95,
+      "index": 20
+    },
+    {
+      "sentence": "That's going to make my security team much happier. Okay. What about integrations \u2014 we use PagerDuty for incident response, and our logging goes into LogVault. Does Detect play well with those?",
+      "speaker_name": "Kendra Wallace",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 314.2,
+      "endTime": 325.2,
+      "averageConfidence": 0.93,
+      "index": 21
+    },
+    {
+      "sentence": "Both are supported out of the box. PagerDuty integration is pretty much plug and play \u2014 you configure your API key in the Detect settings, map your severity levels to PagerDuty escalation policies, and alerts route through automatically. LogVault is also a native integration, we can push event data and alert context into your existing LogVault indexes.",
+      "speaker_name": "James Mitchell",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 326.7,
+      "endTime": 346.6,
+      "averageConfidence": 0.93,
+      "index": 22
+    },
+    {
+      "sentence": "Perfect. That's \u2014 yeah that's what we needed to hear. We weren't sure if we'd have to do custom work there.",
+      "speaker_name": "Kendra Wallace",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 347.8,
+      "endTime": 355.3,
+      "averageConfidence": 0.88,
+      "index": 23
+    },
+    {
+      "sentence": "Nope, no custom development required for either of those. There's a configuration guide in the onboarding portal that walks through it step by step. Marcus should be able to knock that out without too much trouble.",
+      "speaker_name": "James Mitchell",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 356.3,
+      "endTime": 368.9,
+      "averageConfidence": 0.91,
+      "index": 24
+    },
+    {
+      "sentence": "Good. Um \u2014 okay, I do want to ask about something. I was reading some community forums, I think it was a security subreddit, and someone mentioned there had been some reliability issues with Detect recently? I don't know if that was... accurate or if it was FUD from a competitor or what.",
+      "speaker_name": "Kendra Wallace",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 369.6,
+      "endTime": 388.6,
+      "averageConfidence": 0.92,
+      "index": 25
+    },
+    {
+      "sentence": "Yeah, I appreciate you bringing that up directly. There was an incident \u2014 it was in December, I believe \u2014 an event processing issue that caused some monitoring gaps for a period of time. I'd rather be straightforward about it than have you find out through the grapevine.",
+      "speaker_name": "James Mitchell",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 389.4,
+      "endTime": 406.4,
+      "averageConfidence": 0.93,
+      "index": 26
+    },
+    {
+      "sentence": "What happened exactly?",
+      "speaker_name": "Kendra Wallace",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 406.8,
+      "endTime": 408.3,
+      "averageConfidence": 0.92,
+      "index": 27
+    },
+    {
+      "sentence": "The short version is there was a failure in the event ingestion pipeline \u2014 a cascading failure that resulted in a single point of failure being exposed. Monitoring visibility was interrupted. Our engineering team identified the root cause and the fix that went in was adding redundant processing nodes and implementing a circuit breaker pattern so that kind of cascading failure can't propagate the same way again.",
+      "speaker_name": "James Mitchell",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 409.6,
+      "endTime": 433.3,
+      "averageConfidence": 0.95,
+      "index": 28
+    },
+    {
+      "sentence": "How long was the outage?",
+      "speaker_name": "Kendra Wallace",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 433.7,
+      "endTime": 435.9,
+      "averageConfidence": 0.89,
+      "index": 29
+    },
+    {
+      "sentence": "It was a few hours. I don't want to give you an imprecise number \u2014 I can send you the post-incident report if you want the specifics. We published it internally and shared it with customers.",
+      "speaker_name": "James Mitchell",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 437.1,
+      "endTime": 449.7,
+      "averageConfidence": 0.9,
+      "index": 30
+    },
+    {
+      "sentence": "Yeah, please do send that. I'd want to review it and share it with Marcus and our security team. We need to understand the risk profile before we're fully dependent on this for monitoring.",
+      "speaker_name": "Kendra Wallace",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 450.5,
+      "endTime": 462.6,
+      "averageConfidence": 0.9,
+      "index": 31
+    },
+    {
+      "sentence": "Absolutely, I'll include it in the follow-up email today. And I think it'll give you confidence when you see the remediation steps \u2014 the architecture changes are substantial. It wasn't a patch, it was a real structural fix.",
+      "speaker_name": "James Mitchell",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 463.8,
+      "endTime": 477.1,
+      "averageConfidence": 0.94,
+      "index": 32
+    },
+    {
+      "sentence": "Okay. I appreciate the transparency on that. It would have been more concerning if you'd tried to brush it off.",
+      "speaker_name": "Kendra Wallace",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 477.7,
+      "endTime": 485.1,
+      "averageConfidence": 0.94,
+      "index": 33
+    },
+    {
+      "sentence": "Yeah, no \u2014 that's not how I operate and it's not how Aegis operates. Issues happen, what matters is how you respond to them. Alright, let me also touch on the onboarding support model so you know what to expect. You'll be assigned a dedicated onboarding engineer \u2014 they'll run the technical sessions with Marcus, be available for questions during the deployment, and they stay with you through the first thirty days post go-live.",
+      "speaker_name": "James Mitchell",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 486.4,
+      "endTime": 512.1,
+      "averageConfidence": 0.92,
+      "index": 34
+    },
+    {
+      "sentence": "Is that the same person throughout or does it rotate?",
+      "speaker_name": "Kendra Wallace",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 512.5,
+      "endTime": 516.0,
+      "averageConfidence": 0.91,
+      "index": 35
+    },
+    {
+      "sentence": "Same person throughout the onboarding period, yes. After the thirty days you transition to our standard support team but you'd still have me as your AE point of contact for anything account-level.",
+      "speaker_name": "James Mitchell",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 517.0,
+      "endTime": 528.5,
+      "averageConfidence": 0.97,
+      "index": 36
+    },
+    {
+      "sentence": "That's good. Continuity matters. Okay \u2014 I think I have what I need for today. What are the concrete next steps coming out of this call?",
+      "speaker_name": "Kendra Wallace",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 529.4,
+      "endTime": 538.5,
+      "averageConfidence": 0.95,
+      "index": 37
+    },
+    {
+      "sentence": "From my side \u2014 I'll send the post-incident report, the IAM permissions template, and the onboarding portal credentials this afternoon. I'll also loop in our onboarding team to schedule the kickoff session with Marcus, aiming for early next week. From your side, if you can confirm Marcus as the technical contact and maybe do a quick check on those VPC Flow Log configurations, that'd set us up well.",
+      "speaker_name": "James Mitchell",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 539.3,
+      "endTime": 563.5,
+      "averageConfidence": 0.94,
+      "index": 38
+    },
+    {
+      "sentence": "I can do that. I'll send you Marcus's contact info after this call and I'll let him know to expect outreach. He'll probably want to get on a call with your onboarding engineer before the formal kickoff just to go through architecture questions.",
+      "speaker_name": "Kendra Wallace",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 564.5,
+      "endTime": 579.3,
+      "averageConfidence": 0.9,
+      "index": 39
+    },
+    {
+      "sentence": "Perfect, we can absolutely set that up. I'll make sure the onboarding engineer knows to expect a technically detailed conversation \u2014 in a good way.",
+      "speaker_name": "James Mitchell",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 580.7,
+      "endTime": 589.7,
+      "averageConfidence": 0.91,
+      "index": 40
+    },
+    {
+      "sentence": "Ha. Yeah, Marcus doesn't do surface-level. Alright James, I think this was a good call. Let's get moving on this.",
+      "speaker_name": "Kendra Wallace",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 590.5,
+      "endTime": 597.8,
+      "averageConfidence": 0.94,
+      "index": 41
+    },
+    {
+      "sentence": "Agreed. You'll have everything from me by end of day. Thanks Kendra, talk soon.",
+      "speaker_name": "James Mitchell",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 598.7,
+      "endTime": 603.4,
+      "averageConfidence": 0.9,
+      "index": 42
+    },
+    {
+      "sentence": "Thanks, bye.",
+      "speaker_name": "Kendra Wallace",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 603.8,
+      "endTime": 605.3,
+      "averageConfidence": 0.92,
+      "index": 43
+    }
+  ]
+}

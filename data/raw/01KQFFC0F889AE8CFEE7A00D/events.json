@@ -1,0 +1,38 @@
+[
+  {
+    "participantName": "Ananya Sharma",
+    "timestamp": 1770486304000,
+    "type": "Join",
+    "time": 4.0
+  },
+  {
+    "participantName": "Aisha Johnson",
+    "timestamp": 1770486320000,
+    "type": "Join",
+    "time": 20.0
+  },
+  {
+    "participantName": "Julia Tran",
+    "timestamp": 1770486335000,
+    "type": "Join",
+    "time": 35.0
+  },
+  {
+    "participantName": "Aisha Johnson",
+    "timestamp": 1770489529000,
+    "type": "Leave",
+    "time": 3229.0
+  },
+  {
+    "participantName": "Ananya Sharma",
+    "timestamp": 1770489516000,
+    "type": "Leave",
+    "time": 3216.0
+  },
+  {
+    "participantName": "Julia Tran",
+    "timestamp": 1770489523000,
+    "type": "Leave",
+    "time": 3223.0
+  }
+]

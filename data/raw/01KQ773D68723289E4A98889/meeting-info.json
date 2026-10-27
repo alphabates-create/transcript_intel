@@ -1,0 +1,19 @@
+{
+  "meetingId": "01KQ773D68723289E4A98889",
+  "title": "Support Case #7572 - Brightpath Commerce Invoice Discrepancy",
+  "organizerEmail": "sarah.chen@aegiscloud.com",
+  "host": "sarah.chen@aegiscloud.com",
+  "startTime": "2026-02-27T13:00:00.000Z",
+  "endTime": "2026-02-27T13:12:36.000Z",
+  "duration": 12.6,
+  "allEmails": [
+    "sarah.chen@aegiscloud.com",
+    "marcus.williams@aegiscloud.com",
+    "k.wallace@brightpathcommerce.com"
+  ],
+  "invitees": [
+    "sarah.chen@aegiscloud.com",
+    "marcus.williams@aegiscloud.com",
+    "k.wallace@brightpathcommerce.com"
+  ]
+}

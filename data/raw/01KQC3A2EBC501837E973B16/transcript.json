@@ -1,0 +1,424 @@
+{
+  "data": [
+    {
+      "sentence": "Alright, I think everyone's joined now \u2014 Victor, Olivia, good to see you both again.",
+      "speaker_name": "James Mitchell",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 4.6,
+      "endTime": 10.1,
+      "averageConfidence": 0.9,
+      "index": 0
+    },
+    {
+      "sentence": "Hey James, good to be here. Really excited to finally get this kicked off.",
+      "speaker_name": "Victor Zheng",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 10.5,
+      "endTime": 15.2,
+      "averageConfidence": 0.95,
+      "index": 1
+    },
+    {
+      "sentence": "Same here, yeah. Thanks for making time on a Thursday afternoon, I know you all are heads down on a lot right now.",
+      "speaker_name": "Olivia Strand",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 16.2,
+      "endTime": 24.6,
+      "averageConfidence": 0.94,
+      "index": 2
+    },
+    {
+      "sentence": "Of course, of course. And I want to introduce Ananya Sharma \u2014 she's one of our senior engineers on the Identity side and she's going to be your main technical point of contact through the onboarding process.",
+      "speaker_name": "James Mitchell",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 25.8,
+      "endTime": 38.8,
+      "averageConfidence": 0.94,
+      "index": 3
+    },
+    {
+      "sentence": "Hi everyone! Really happy to be working with you. I've actually looked through the notes from your sales calls and the infrastructure questionnaire you filled out, so I have a decent picture of where you're starting from.",
+      "speaker_name": "Ananya Sharma",
+      "sentimentType": "positive",
+      "speaker_id": 3,
+      "time": 39.5,
+      "endTime": 52.5,
+      "averageConfidence": 0.96,
+      "index": 4
+    },
+    {
+      "sentence": "Oh that's great, yeah that saves us from having to re-explain everything from scratch. We really appreciate that.",
+      "speaker_name": "Victor Zheng",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 53.0,
+      "endTime": 59.2,
+      "averageConfidence": 0.94,
+      "index": 5
+    },
+    {
+      "sentence": "Absolutely, so \u2014 maybe just to set the stage for today, the goal is to walk through your Identity module setup, understand your current IAM landscape, and start mapping out the SSO and MFA configuration. Does that match what you were expecting?",
+      "speaker_name": "Ananya Sharma",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 60.5,
+      "endTime": 75.6,
+      "averageConfidence": 0.94,
+      "index": 6
+    },
+    {
+      "sentence": "Yeah that's exactly right. And honestly, Olivia and I were talking before this call \u2014 the SSO piece is probably our biggest priority right now. We have users spread across like eight different tools and the login experience is just... it's a mess.",
+      "speaker_name": "Victor Zheng",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 77.1,
+      "endTime": 92.5,
+      "averageConfidence": 0.93,
+      "index": 7
+    },
+    {
+      "sentence": "Eight tools, yeah that's \u2014 okay, that's definitely something we can help consolidate. What's your current identity provider situation? Are you on Okta, Azure AD, something homegrown?",
+      "speaker_name": "Ananya Sharma",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 94.0,
+      "endTime": 103.7,
+      "averageConfidence": 0.96,
+      "index": 8
+    },
+    {
+      "sentence": "We're on Okta right now but we've been pretty underwhelmed with it honestly. It does the basics but the MFA policy management is clunky and we've had some issues with our contractors not getting provisioned correctly.",
+      "speaker_name": "Victor Zheng",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 104.6,
+      "endTime": 117.6,
+      "averageConfidence": 0.96,
+      "index": 9
+    },
+    {
+      "sentence": "That contractor provisioning issue is something I hear a lot actually. And Aegis Identity handles that really well \u2014 you can set up conditional access policies that treat contractors differently from full-time staff, different MFA requirements, session timeouts, all of that.",
+      "speaker_name": "Ananya Sharma",
+      "sentimentType": "positive",
+      "speaker_id": 3,
+      "time": 117.9,
+      "endTime": 132.8,
+      "averageConfidence": 0.93,
+      "index": 10
+    },
+    {
+      "sentence": "Oh that's \u2014 yeah, that's exactly the kind of granularity we've been missing. Olivia, that's the thing you mentioned in the board meeting right?",
+      "speaker_name": "Victor Zheng",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 133.1,
+      "endTime": 141.9,
+      "averageConfidence": 0.91,
+      "index": 11
+    },
+    {
+      "sentence": "Yeah exactly. We had a security review last quarter and one of the findings was that our contractor access controls weren't differentiated enough. So this is directly addressing that.",
+      "speaker_name": "Olivia Strand",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 142.4,
+      "endTime": 152.3,
+      "averageConfidence": 0.93,
+      "index": 12
+    },
+    {
+      "sentence": "Perfect, and that's actually a really common driver for this kind of implementation in tech companies especially. You're scaling fast, you're bringing in contractors for specific projects, and the identity perimeter gets blurry really quickly.",
+      "speaker_name": "James Mitchell",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 153.1,
+      "endTime": 165.5,
+      "averageConfidence": 0.92,
+      "index": 13
+    },
+    {
+      "sentence": "Exactly, yeah. Okay so \u2014 Ananya, walk me through what the actual setup process looks like. Like what are we looking at in terms of timeline and what do you need from us?",
+      "speaker_name": "Victor Zheng",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 166.7,
+      "endTime": 178.3,
+      "averageConfidence": 0.9,
+      "index": 14
+    },
+    {
+      "sentence": "Sure, so the first step is connecting Aegis Identity to your existing directory, and since you're on Okta that's actually a pretty smooth path \u2014 we have a native connector. We'd set that up, do a full user sync, and then you'd validate that the user attributes are coming across correctly.",
+      "speaker_name": "Ananya Sharma",
+      "sentimentType": "positive",
+      "speaker_id": 3,
+      "time": 178.8,
+      "endTime": 196.5,
+      "averageConfidence": 0.96,
+      "index": 15
+    },
+    {
+      "sentence": "How long does that sync usually take? We have... I want to say around four hundred users, maybe a few dozen contractors on top of that.",
+      "speaker_name": "Victor Zheng",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 197.5,
+      "endTime": 206.5,
+      "averageConfidence": 0.91,
+      "index": 16
+    },
+    {
+      "sentence": "For that size, the initial sync is usually done in under an hour. It's really the validation step that takes time \u2014 you want to do spot checks, make sure groups are mapping correctly, that kind of thing. I'd budget maybe half a day for that.",
+      "speaker_name": "Ananya Sharma",
+      "sentimentType": "positive",
+      "speaker_id": 3,
+      "time": 207.3,
+      "endTime": 223.8,
+      "averageConfidence": 0.88,
+      "index": 17
+    },
+    {
+      "sentence": "That's much faster than I expected honestly.",
+      "speaker_name": "Victor Zheng",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 224.3,
+      "endTime": 227.0,
+      "averageConfidence": 0.96,
+      "index": 18
+    },
+    {
+      "sentence": "Yeah we've really streamlined it over the last few releases. And then from there we'd move into SSO configuration for your applications. Can you share what those eight tools are? That'll help me flag any that might need custom SAML work versus the ones we have prebuilt connectors for.",
+      "speaker_name": "Ananya Sharma",
+      "sentimentType": "positive",
+      "speaker_id": 3,
+      "time": 227.4,
+      "endTime": 244.8,
+      "averageConfidence": 0.89,
+      "index": 19
+    },
+    {
+      "sentence": "Yeah let me just \u2014 I have a list somewhere. Okay so we've got Slack, GitHub, Jira, Confluence, Figma, MetricFlow, Snowflake, and then our internal admin portal which is custom built.",
+      "speaker_name": "Victor Zheng",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 246.3,
+      "endTime": 256.9,
+      "averageConfidence": 0.96,
+      "index": 20
+    },
+    {
+      "sentence": "Okay great, so the first seven \u2014 all of those have prebuilt connectors in Aegis Identity, so those are basically click-to-configure. The internal admin portal is where we'd need to do a bit more work, but as long as it supports SAML 2.0 or OIDC, we're in good shape.",
+      "speaker_name": "Ananya Sharma",
+      "sentimentType": "positive",
+      "speaker_id": 3,
+      "time": 258.2,
+      "endTime": 275.8,
+      "averageConfidence": 0.96,
+      "index": 21
+    },
+    {
+      "sentence": "It does SAML, yeah. Victor built it so he can speak to that better than I can.",
+      "speaker_name": "Olivia Strand",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 276.9,
+      "endTime": 283.1,
+      "averageConfidence": 0.92,
+      "index": 22
+    },
+    {
+      "sentence": "Yeah it's SAML 2.0, we actually built it with federation in mind so it should be pretty straightforward to hook up.",
+      "speaker_name": "Victor Zheng",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 283.9,
+      "endTime": 291.6,
+      "averageConfidence": 0.9,
+      "index": 23
+    },
+    {
+      "sentence": "Perfect, that's what I was hoping to hear. So realistically you're looking at getting SSO live across all eight apps within the first two weeks of active configuration. The third week we'd layer in the MFA policies and the conditional access rules.",
+      "speaker_name": "Ananya Sharma",
+      "sentimentType": "positive",
+      "speaker_id": 3,
+      "time": 292.4,
+      "endTime": 307.1,
+      "averageConfidence": 0.92,
+      "index": 24
+    },
+    {
+      "sentence": "That timeline is honestly better than what we had penciled in. We were thinking it would be closer to six weeks.",
+      "speaker_name": "Olivia Strand",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 307.4,
+      "endTime": 315.1,
+      "averageConfidence": 0.9,
+      "index": 25
+    },
+    {
+      "sentence": "Ha, well I don't want to overpromise \u2014 some things do take longer than expected, especially if we hit any surprises in the user attribute mapping. But the two to three week mark for a baseline configuration at your scale is pretty typical.",
+      "speaker_name": "Ananya Sharma",
+      "sentimentType": "positive",
+      "speaker_id": 3,
+      "time": 316.2,
+      "endTime": 331.7,
+      "averageConfidence": 0.88,
+      "index": 26
+    },
+    {
+      "sentence": "I appreciate the honesty. So what do you need from us to get started? Like what's the first action item on our side?",
+      "speaker_name": "Victor Zheng",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 332.7,
+      "endTime": 340.5,
+      "averageConfidence": 0.91,
+      "index": 27
+    },
+    {
+      "sentence": "A couple things \u2014 I'll send you an Okta API token request guide, it's basically step by step, shouldn't take more than twenty minutes. And then I'll also send you a user attribute mapping template so you can document which fields in Okta correspond to what we need on the Aegis side. Groups, roles, department codes, that kind of thing.",
+      "speaker_name": "Ananya Sharma",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 341.3,
+      "endTime": 362.5,
+      "averageConfidence": 0.89,
+      "index": 28
+    },
+    {
+      "sentence": "Got it. Victor, can you own those two things?",
+      "speaker_name": "Olivia Strand",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 364.0,
+      "endTime": 367.4,
+      "averageConfidence": 0.96,
+      "index": 29
+    },
+    {
+      "sentence": "Yeah absolutely, I can have both done by end of next week. Does that work Ananya?",
+      "speaker_name": "Victor Zheng",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 368.3,
+      "endTime": 374.2,
+      "averageConfidence": 0.93,
+      "index": 30
+    },
+    {
+      "sentence": "That works great. And once I have those I'll schedule a working session \u2014 probably ninety minutes \u2014 where we actually do the Okta connector setup together. I find it's much easier when we're on a call versus trying to do it async.",
+      "speaker_name": "Ananya Sharma",
+      "sentimentType": "positive",
+      "speaker_id": 3,
+      "time": 374.9,
+      "endTime": 390.0,
+      "averageConfidence": 0.9,
+      "index": 31
+    },
+    {
+      "sentence": "Yeah agreed, I hate doing this kind of thing over email. Too much back and forth.",
+      "speaker_name": "Victor Zheng",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 391.1,
+      "endTime": 396.9,
+      "averageConfidence": 0.94,
+      "index": 32
+    },
+    {
+      "sentence": "One thing I wanted to ask about \u2014 um, the MFA side. Are there specific authentication methods you want to enforce? Like hardware keys, push notifications, TOTP? We have opinions but we also want to match your security posture.",
+      "speaker_name": "Ananya Sharma",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 398.0,
+      "endTime": 411.9,
+      "averageConfidence": 0.93,
+      "index": 33
+    },
+    {
+      "sentence": "That's a great question. Olivia, do you want to speak to that? It came up in the security review.",
+      "speaker_name": "Victor Zheng",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 412.8,
+      "endTime": 419.7,
+      "averageConfidence": 0.93,
+      "index": 34
+    },
+    {
+      "sentence": "Yeah so for full-time employees we want to enforce hardware keys for anything touching production systems, and push-based MFA for everything else. Contractors should have TOTP at minimum \u2014 we're not going to issue hardware keys to contractors.",
+      "speaker_name": "Olivia Strand",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 421.0,
+      "endTime": 434.0,
+      "averageConfidence": 0.96,
+      "index": 35
+    },
+    {
+      "sentence": "That's a really clean policy actually, and Aegis Identity supports exactly that setup. You can tie MFA method requirements to user groups and also to the specific application being accessed. So you could say \u2014 access to Snowflake requires hardware key, full stop, regardless of whether you're on-prem or remote.",
+      "speaker_name": "Ananya Sharma",
+      "sentimentType": "positive",
+      "speaker_id": 3,
+      "time": 434.9,
+      "endTime": 452.6,
+      "averageConfidence": 0.91,
+      "index": 36
+    },
+    {
+      "sentence": "Oh that's \u2014 yeah that's powerful. We couldn't do anything close to that with Okta.",
+      "speaker_name": "Olivia Strand",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 453.3,
+      "endTime": 459.0,
+      "averageConfidence": 0.9,
+      "index": 37
+    },
+    {
+      "sentence": "Alright, I think we've covered a ton of ground today. Really feels like this is going to come together well. James, anything you wanted to add before we wrap up?",
+      "speaker_name": "Victor Zheng",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 459.6,
+      "endTime": 470.4,
+      "averageConfidence": 0.91,
+      "index": 38
+    },
+    {
+      "sentence": "Just that \u2014 yeah, I'm really glad we're at this point. You're in great hands with Ananya, she's done this implementation probably a hundred times and always gets customers live faster than they expect. And as always I'm here if anything comes up on the commercial side.",
+      "speaker_name": "James Mitchell",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 471.4,
+      "endTime": 488.2,
+      "averageConfidence": 0.94,
+      "index": 39
+    },
+    {
+      "sentence": "Perfect. Okay, Ananya we'll get you those items by end of next week and then we'll get that working session on the calendar. Really looking forward to this.",
+      "speaker_name": "Victor Zheng",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 488.8,
+      "endTime": 498.8,
+      "averageConfidence": 0.94,
+      "index": 40
+    },
+    {
+      "sentence": "Same here! I'll send over those guides this afternoon and I'll also drop a shared project doc where we can track all the milestones. Thanks everyone, this was a great kickoff.",
+      "speaker_name": "Ananya Sharma",
+      "sentimentType": "positive",
+      "speaker_id": 3,
+      "time": 499.8,
+      "endTime": 510.5,
+      "averageConfidence": 0.88,
+      "index": 41
+    }
+  ]
+}

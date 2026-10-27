@@ -1,0 +1,217 @@
+[
+  {
+    "speakerName": "Lisa Park",
+    "timestamp": 6.2,
+    "endTimeTs": 8.5
+  },
+  {
+    "speakerName": "Philip Lau",
+    "timestamp": 9.3,
+    "endTimeTs": 15.0
+  },
+  {
+    "speakerName": "Rachel Torres",
+    "timestamp": 15.8,
+    "endTimeTs": 25.3
+  },
+  {
+    "speakerName": "Philip Lau",
+    "timestamp": 26.1,
+    "endTimeTs": 34.6
+  },
+  {
+    "speakerName": "Lisa Park",
+    "timestamp": 35.6,
+    "endTimeTs": 43.0
+  },
+  {
+    "speakerName": "Philip Lau",
+    "timestamp": 43.9,
+    "endTimeTs": 52.1
+  },
+  {
+    "speakerName": "Rachel Torres",
+    "timestamp": 53.2,
+    "endTimeTs": 66.4
+  },
+  {
+    "speakerName": "Philip Lau",
+    "timestamp": 67.7,
+    "endTimeTs": 83.2
+  },
+  {
+    "speakerName": "Lisa Park",
+    "timestamp": 84.0,
+    "endTimeTs": 91.6
+  },
+  {
+    "speakerName": "Philip Lau",
+    "timestamp": 92.0,
+    "endTimeTs": 110.3
+  },
+  {
+    "speakerName": "Rachel Torres",
+    "timestamp": 110.8,
+    "endTimeTs": 118.3
+  },
+  {
+    "speakerName": "Philip Lau",
+    "timestamp": 119.0,
+    "endTimeTs": 132.0
+  },
+  {
+    "speakerName": "Lisa Park",
+    "timestamp": 133.2,
+    "endTimeTs": 139.0
+  },
+  {
+    "speakerName": "Philip Lau",
+    "timestamp": 139.7,
+    "endTimeTs": 153.1
+  },
+  {
+    "speakerName": "Rachel Torres",
+    "timestamp": 154.6,
+    "endTimeTs": 166.5
+  },
+  {
+    "speakerName": "Philip Lau",
+    "timestamp": 167.3,
+    "endTimeTs": 168.8
+  },
+  {
+    "speakerName": "Rachel Torres",
+    "timestamp": 170.1,
+    "endTimeTs": 189.1
+  },
+  {
+    "speakerName": "Philip Lau",
+    "timestamp": 189.9,
+    "endTimeTs": 197.2
+  },
+  {
+    "speakerName": "Lisa Park",
+    "timestamp": 198.1,
+    "endTimeTs": 212.6
+  },
+  {
+    "speakerName": "Philip Lau",
+    "timestamp": 214.0,
+    "endTimeTs": 229.5
+  },
+  {
+    "speakerName": "Rachel Torres",
+    "timestamp": 230.0,
+    "endTimeTs": 242.1
+  },
+  {
+    "speakerName": "Philip Lau",
+    "timestamp": 242.9,
+    "endTimeTs": 250.4
+  },
+  {
+    "speakerName": "Lisa Park",
+    "timestamp": 250.8,
+    "endTimeTs": 260.0
+  },
+  {
+    "speakerName": "Philip Lau",
+    "timestamp": 260.8,
+    "endTimeTs": 270.4
+  },
+  {
+    "speakerName": "Rachel Torres",
+    "timestamp": 271.3,
+    "endTimeTs": 293.6
+  },
+  {
+    "speakerName": "Philip Lau",
+    "timestamp": 294.1,
+    "endTimeTs": 302.0
+  },
+  {
+    "speakerName": "Lisa Park",
+    "timestamp": 302.6,
+    "endTimeTs": 318.0
+  },
+  {
+    "speakerName": "Philip Lau",
+    "timestamp": 319.3,
+    "endTimeTs": 328.3
+  },
+  {
+    "speakerName": "Rachel Torres",
+    "timestamp": 328.8,
+    "endTimeTs": 337.6
+  },
+  {
+    "speakerName": "Philip Lau",
+    "timestamp": 338.8,
+    "endTimeTs": 349.8
+  },
+  {
+    "speakerName": "Lisa Park",
+    "timestamp": 350.4,
+    "endTimeTs": 366.6
+  },
+  {
+    "speakerName": "Philip Lau",
+    "timestamp": 367.3,
+    "endTimeTs": 372.7
+  },
+  {
+    "speakerName": "Rachel Torres",
+    "timestamp": 373.1,
+    "endTimeTs": 390.7
+  },
+  {
+    "speakerName": "Philip Lau",
+    "timestamp": 391.1,
+    "endTimeTs": 407.7
+  },
+  {
+    "speakerName": "Lisa Park",
+    "timestamp": 408.5,
+    "endTimeTs": 419.4
+  },
+  {
+    "speakerName": "Philip Lau",
+    "timestamp": 420.5,
+    "endTimeTs": 433.7
+  },
+  {
+    "speakerName": "Rachel Torres",
+    "timestamp": 434.4,
+    "endTimeTs": 458.7
+  },
+  {
+    "speakerName": "Philip Lau",
+    "timestamp": 459.6,
+    "endTimeTs": 474.1
+  },
+  {
+    "speakerName": "Lisa Park",
+    "timestamp": 475.5,
+    "endTimeTs": 487.5
+  },
+  {
+    "speakerName": "Philip Lau",
+    "timestamp": 488.8,
+    "endTimeTs": 498.9
+  },
+  {
+    "speakerName": "Rachel Torres",
+    "timestamp": 500.2,
+    "endTimeTs": 515.7
+  },
+  {
+    "speakerName": "Philip Lau",
+    "timestamp": 516.7,
+    "endTimeTs": 520.5
+  },
+  {
+    "speakerName": "Lisa Park",
+    "timestamp": 521.1,
+    "endTimeTs": 522.8
+  }
+]

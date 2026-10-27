@@ -1,0 +1,38 @@
+[
+  {
+    "participantName": "Hannah Liu",
+    "timestamp": 1770658207000,
+    "type": "Join",
+    "time": 7.0
+  },
+  {
+    "participantName": "Nina Kowalski",
+    "timestamp": 1770658228000,
+    "type": "Join",
+    "time": 28.0
+  },
+  {
+    "participantName": "Ananya Sharma",
+    "timestamp": 1770658254000,
+    "type": "Join",
+    "time": 54.0
+  },
+  {
+    "participantName": "Ananya Sharma",
+    "timestamp": 1770660536000,
+    "type": "Leave",
+    "time": 2336.0
+  },
+  {
+    "participantName": "Hannah Liu",
+    "timestamp": 1770660551000,
+    "type": "Leave",
+    "time": 2351.0
+  },
+  {
+    "participantName": "Nina Kowalski",
+    "timestamp": 1770660549000,
+    "type": "Leave",
+    "time": 2349.0
+  }
+]

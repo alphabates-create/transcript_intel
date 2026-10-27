@@ -1,0 +1,46 @@
+{
+  "summary": "Maria Santos (CSM at Aegis Cloud Security) held a kickoff onboarding call with Vanessa Cruz from Coastal Living, who recently chose Aegis Protect over competitors CyberNova and VaultEdge primarily due to superior recovery time objectives. Vanessa outlined their infrastructure \u2014 a hybrid CloudPrime multi-region setup plus on-prem warehouse systems \u2014 and Maria walked through the 4-6 week three-phase onboarding process including environment discovery, backup policy configuration, and restore drills. Key topics included custom data retention policies for PCI DSS compliance, hybrid environment support, and the unified management console. The call ended with clear next steps: Maria to send a formal project plan, Vanessa to provision CloudPrime access and connect Maria with their DevOps engineer Raj Patel, and a technical discovery call scheduled for the following week.",
+  "actionItems": [
+    "Maria Santos: Send formal onboarding project plan document (phase timeline, resource requirements, kick-off checklist) by end of week",
+    "Vanessa Cruz: Provision read-only CloudPrime access for Aegis implementation engineer",
+    "Vanessa Cruz: Introduce Maria to Raj Patel (Senior DevOps Engineer) via email after the call",
+    "Maria Santos: Schedule technical discovery call with Vanessa and Raj Patel for next week"
+  ],
+  "topics": [
+    "onboarding",
+    "backup and recovery",
+    "hybrid infrastructure",
+    "pci dss compliance",
+    "data retention",
+    "aws integration"
+  ],
+  "overallSentiment": "very-positive",
+  "sentimentScore": 4.9,
+  "keyMoments": [
+    {
+      "time": 68.0,
+      "text": "Vanessa explains a year-long search for a backup solution and why competitors CyberNova and VaultEdge fell short on recovery time objectives",
+      "type": "positive_pivot",
+      "speaker": "Vanessa Cruz"
+    },
+    {
+      "time": 342.0,
+      "text": "Vanessa expresses concern about fragmentation between cloud and on-prem backup tools, which Aegis Protect's single-pane-of-glass approach directly addresses",
+      "type": "concern",
+      "speaker": "Vanessa Cruz"
+    },
+    {
+      "time": 682.0,
+      "text": "Vanessa praises the inclusion of restore drills in onboarding, noting most vendors skip testing until a real incident occurs",
+      "type": "praise",
+      "speaker": "Vanessa Cruz"
+    },
+    {
+      "time": 812.0,
+      "text": "Vanessa confirms PCI DSS compliance requirements for payment data retention, prompting Maria to introduce the Aegis Comply upsell module",
+      "type": "feature_gap",
+      "speaker": "Vanessa Cruz"
+    }
+  ],
+  "meetingId": "01KQ9BB82FD97C9607D57E90"
+}

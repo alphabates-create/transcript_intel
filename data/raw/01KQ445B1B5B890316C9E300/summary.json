@@ -1,0 +1,46 @@
+{
+  "summary": "Raj facilitated a team standup with Ravi and Sofia covering post-mortem follow-ups from the Detect outage and the Comply v2 rollout status. Sofia identified a critical bug in Comply v2 causing SOC 2 report generation timeouts for enterprise customers with large tenant datasets, with a fix targeting early next week. The team reviewed outstanding Detect post-mortem action items, including a circuit breaker PR that needs a health check added before merging and a load testing suite formally scheduled to begin April 28th. The runbook update was also flagged as incomplete and assigned to Sofia to finish this week.",
+  "actionItems": [
+    "Sofia Petrov: Develop and submit PR for Comply v2 audit log pagination fix by end of day tomorrow, targeting production deployment early next week",
+    "Ravi Gupta: Add health check probe to circuit breaker PR and ping Sofia for review by end of day",
+    "Sofia Petrov: Complete the two outstanding detection pipeline sections of the post-mortem runbook this week",
+    "Ravi Gupta: Add load testing suite to Jira roadmap with April 28th start date and two-week sprint plan"
+  ],
+  "topics": [
+    "post-mortem follow-up",
+    "compliance bug",
+    "circuit breaker",
+    "load testing",
+    "incident response",
+    "runbook"
+  ],
+  "overallSentiment": "mixed-positive",
+  "sentimentScore": 3.5,
+  "keyMoments": [
+    {
+      "time": 182.0,
+      "text": "Sofia identifies a timeout bug in Comply v2 affecting enterprise customers with large tenant datasets across all compliance frameworks, noting it is not an edge case",
+      "type": "technical_issue",
+      "speaker": "Sofia Petrov"
+    },
+    {
+      "time": 420.0,
+      "text": "Load testing suite identified as not yet started despite being a post-mortem commitment; Raj pushes back on letting it slip and formalizes it on the roadmap",
+      "type": "concern",
+      "speaker": "Raj Kapoor"
+    },
+    {
+      "time": 580.0,
+      "text": "Sofia raises a safety concern about the circuit breaker failover logic routing blindly to potentially degraded secondary nodes without a health check",
+      "type": "feature_gap",
+      "speaker": "Sofia Petrov"
+    },
+    {
+      "time": 648.0,
+      "text": "Raj sides with Sofia to include the health check in the current PR rather than deferring it, ensuring the circuit breaker pattern ships correctly",
+      "type": "action_item",
+      "speaker": "Raj Kapoor"
+    }
+  ],
+  "meetingId": "01KQ445B1B5B890316C9E300"
+}

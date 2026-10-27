@@ -1,0 +1,404 @@
+{
+  "data": [
+    {
+      "sentence": "Hi, thanks for calling Aegis Cloud Security support, this is David Kim. Can I get the name of the account holder I'm speaking with today?",
+      "speaker_name": "David Kim",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 3.0,
+      "endTime": 11.7,
+      "averageConfidence": 0.95,
+      "index": 0
+    },
+    {
+      "sentence": "Hi David, yeah, this is Michelle Tan, I'm the Security Manager over at Silverline Brands. I've got our IT Director Dominic Flores on with me as well.",
+      "speaker_name": "Michelle Tan",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 12.8,
+      "endTime": 22.4,
+      "averageConfidence": 0.89,
+      "index": 1
+    },
+    {
+      "sentence": "Hey David, Dominic here.",
+      "speaker_name": "Dominic Flores",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 23.1,
+      "endTime": 25.0,
+      "averageConfidence": 0.95,
+      "index": 2
+    },
+    {
+      "sentence": "Great, hey Michelle, hey Dominic. So I'm pulling up the account now \u2014 this is in reference to support case number 7570, is that right? The Comply v2 license upgrade question?",
+      "speaker_name": "David Kim",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 25.9,
+      "endTime": 37.0,
+      "averageConfidence": 0.9,
+      "index": 3
+    },
+    {
+      "sentence": "Yeah, that's the one. So we submitted the case on, uh, I think Wednesday? And basically the issue is we upgraded to Comply v2 when it launched on the seventh and we're seeing a billing discrepancy that we can't quite figure out.",
+      "speaker_name": "Michelle Tan",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 37.8,
+      "endTime": 52.3,
+      "averageConfidence": 0.96,
+      "index": 4
+    },
+    {
+      "sentence": "Okay, got it. And just to make sure I have the full picture \u2014 you're saying the charge you're seeing doesn't match what you expected from the v2 upgrade pricing?",
+      "speaker_name": "David Kim",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 52.8,
+      "endTime": 63.2,
+      "averageConfidence": 0.9,
+      "index": 5
+    },
+    {
+      "sentence": "Exactly. So, we were on the standard Comply tier, and when the v2 upgrade was announced, the pricing documentation we received said the upgrade would be prorated for the remainder of the billing cycle. But what hit our invoice on, I think it was April 14th, looks like a full month charge.",
+      "speaker_name": "Michelle Tan",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 64.4,
+      "endTime": 82.6,
+      "averageConfidence": 0.88,
+      "index": 6
+    },
+    {
+      "sentence": "Yeah, and I'll just add \u2014 this isn't, like, a massive dollar amount difference, but from an accounting standpoint we need the invoices to match what was agreed, so it's kind of a compliance thing internally for us. No pun intended.",
+      "speaker_name": "Dominic Flores",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 83.8,
+      "endTime": 98.4,
+      "averageConfidence": 0.89,
+      "index": 7
+    },
+    {
+      "sentence": "Ha, right, no pun intended. No, that makes total sense, I understand. Okay so let me pull up the billing records here. Give me just a second.",
+      "speaker_name": "David Kim",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 99.5,
+      "endTime": 109.4,
+      "averageConfidence": 0.93,
+      "index": 8
+    },
+    {
+      "sentence": "Sure, take your time.",
+      "speaker_name": "Michelle Tan",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 110.2,
+      "endTime": 111.7,
+      "averageConfidence": 0.88,
+      "index": 9
+    },
+    {
+      "sentence": "Alright so I'm looking at your account. Silverline Brands, you're on an annual contract, billing cycle runs the first of each month. And I can see the Comply v2 upgrade was activated on April 7th. And then there's an invoice generated on April 14th... okay yeah, I see what you're describing.",
+      "speaker_name": "David Kim",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 113.2,
+      "endTime": 131.3,
+      "averageConfidence": 0.92,
+      "index": 10
+    },
+    {
+      "sentence": "So it does look like a full month was charged?",
+      "speaker_name": "Michelle Tan",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 132.3,
+      "endTime": 135.9,
+      "averageConfidence": 0.95,
+      "index": 11
+    },
+    {
+      "sentence": "It does appear that way on the invoice, yeah. So what I'm seeing is the system generated the differential charge \u2014 so the difference between your standard Comply tier and the v2 tier \u2014 but it looks like it didn't apply the proration correctly. It calculated from April 1st instead of April 7th.",
+      "speaker_name": "David Kim",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 137.3,
+      "endTime": 156.3,
+      "averageConfidence": 0.9,
+      "index": 12
+    },
+    {
+      "sentence": "Right, so we're being charged for six days we hadn't even activated v2 yet.",
+      "speaker_name": "Dominic Flores",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 157.5,
+      "endTime": 162.7,
+      "averageConfidence": 0.94,
+      "index": 13
+    },
+    {
+      "sentence": "That's correct, yeah. So the proration should have started on the 7th, which would be... 24 days out of 30, so the charge should be 80 percent of the monthly differential, not the full amount.",
+      "speaker_name": "David Kim",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 163.1,
+      "endTime": 175.6,
+      "averageConfidence": 0.96,
+      "index": 14
+    },
+    {
+      "sentence": "Yeah, that's what we calculated too. The difference comes out to \u2014 I have it written down here \u2014 it's about $340 that was overbilled.",
+      "speaker_name": "Michelle Tan",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 176.2,
+      "endTime": 185.0,
+      "averageConfidence": 0.94,
+      "index": 15
+    },
+    {
+      "sentence": "Okay, let me verify that against what I'm seeing on my end. So the monthly differential for Comply v2 versus the standard tier on your contract is... $1,275 per month. 80 percent of that would be $1,020, and it looks like you were charged $1,275. So yeah, the overbilled amount would be $255.",
+      "speaker_name": "David Kim",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 186.1,
+      "endTime": 204.5,
+      "averageConfidence": 0.91,
+      "index": 16
+    },
+    {
+      "sentence": "Hmm, we had $340. Let me \u2014 Dominic, do you have the spreadsheet handy?",
+      "speaker_name": "Michelle Tan",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 205.3,
+      "endTime": 210.1,
+      "averageConfidence": 0.89,
+      "index": 17
+    },
+    {
+      "sentence": "Yeah, give me a sec. I'm looking at it... okay so we were calculating 6 days out of 28 days because April has 30 days, so we did... wait, no. Yeah we might have used the wrong number of days. We put 28.",
+      "speaker_name": "Dominic Flores",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 211.4,
+      "endTime": 226.6,
+      "averageConfidence": 0.93,
+      "index": 18
+    },
+    {
+      "sentence": "Yeah that'll do it. Our billing system uses 30 days as the standard month for proration purposes regardless of the actual calendar month, so the correct figure should be $255. I can show you the calculation breakdown if that helps for your records.",
+      "speaker_name": "David Kim",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 228.0,
+      "endTime": 243.4,
+      "averageConfidence": 0.91,
+      "index": 19
+    },
+    {
+      "sentence": "Yeah that would actually be great, if you can send that over via the case that would be helpful for us when we go back to our finance team.",
+      "speaker_name": "Michelle Tan",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 244.4,
+      "endTime": 254.8,
+      "averageConfidence": 0.9,
+      "index": 20
+    },
+    {
+      "sentence": "Absolutely, I'll attach that to case 7570. So the next step here \u2014 I'm going to flag this for our billing team to issue a credit of $255 to your account. That would be applied to your next invoice, which I believe would go out May 1st.",
+      "speaker_name": "David Kim",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 255.8,
+      "endTime": 272.1,
+      "averageConfidence": 0.94,
+      "index": 21
+    },
+    {
+      "sentence": "Okay. And is there any kind of confirmation we'll get on the credit, like a separate notification or will it just show up on the May invoice?",
+      "speaker_name": "Dominic Flores",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 273.2,
+      "endTime": 283.1,
+      "averageConfidence": 0.94,
+      "index": 22
+    },
+    {
+      "sentence": "So typically what happens is you'll get an email confirmation from our billing team within one to two business days acknowledging the credit, and then yes it'll also appear as a line item on your May invoice as a credit applied. You should be able to see both.",
+      "speaker_name": "David Kim",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 283.6,
+      "endTime": 300.9,
+      "averageConfidence": 0.93,
+      "index": 23
+    },
+    {
+      "sentence": "Okay good, that works for us. And just out of curiosity, is this a known issue with the v2 upgrade billing? Like should we expect this to self-correct going forward or...?",
+      "speaker_name": "Michelle Tan",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 301.4,
+      "endTime": 312.4,
+      "averageConfidence": 0.95,
+      "index": 24
+    },
+    {
+      "sentence": "That's a fair question. I'm actually going to make a note in the case to escalate to our billing systems team because if this proration miscalculation happened on your account, it's possible other customers who upgraded on April 7th may have the same issue. So it's worth them taking a look.",
+      "speaker_name": "David Kim",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 313.6,
+      "endTime": 331.6,
+      "averageConfidence": 0.96,
+      "index": 25
+    },
+    {
+      "sentence": "Yeah, that makes sense. We're definitely not the only ones who upgraded on launch day.",
+      "speaker_name": "Dominic Flores",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 332.6,
+      "endTime": 338.1,
+      "averageConfidence": 0.96,
+      "index": 26
+    },
+    {
+      "sentence": "Right, exactly. So I'll flag that internally. And for your account specifically, from May 1st onward you should be on the correct recurring rate for v2, so this should be a one-time correction.",
+      "speaker_name": "David Kim",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 339.2,
+      "endTime": 350.9,
+      "averageConfidence": 0.92,
+      "index": 27
+    },
+    {
+      "sentence": "Okay. And while I have you \u2014 this is a little separate from the billing thing \u2014 but we've been using Comply v2 for a couple of weeks now and the on-demand SOC 2 reporting is working well for us. We ran our first report last week.",
+      "speaker_name": "Michelle Tan",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 352.3,
+      "endTime": 368.4,
+      "averageConfidence": 0.91,
+      "index": 28
+    },
+    {
+      "sentence": "Oh good, glad to hear that. That's one of the bigger additions in v2, so it's good to know it's working well for you.",
+      "speaker_name": "David Kim",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 368.8,
+      "endTime": 377.0,
+      "averageConfidence": 0.9,
+      "index": 29
+    },
+    {
+      "sentence": "Yeah we're a retail company so PCI DSS is obviously important for us and we're going to be running that report soon too. Just wanted to make sure the license covers all four frameworks \u2014 SOC 2, PCI DSS, HIPAA, and ISO 27001.",
+      "speaker_name": "Michelle Tan",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 377.4,
+      "endTime": 392.7,
+      "averageConfidence": 0.94,
+      "index": 30
+    },
+    {
+      "sentence": "Yes, correct \u2014 all four are included under the Comply v2 license. There's no additional charge per framework. So your PCI DSS reports, HIPAA, and ISO 27001 are all available to you at no extra cost.",
+      "speaker_name": "David Kim",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 394.2,
+      "endTime": 406.6,
+      "averageConfidence": 0.95,
+      "index": 31
+    },
+    {
+      "sentence": "Perfect, that's what we thought but good to confirm. Dominic, you wanted to ask something else?",
+      "speaker_name": "Michelle Tan",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 407.0,
+      "endTime": 412.5,
+      "averageConfidence": 0.91,
+      "index": 32
+    },
+    {
+      "sentence": "Yeah, just \u2014 is there a limit on how many reports we can run per month? Or is it truly unlimited on-demand?",
+      "speaker_name": "Dominic Flores",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 413.4,
+      "endTime": 421.2,
+      "averageConfidence": 0.94,
+      "index": 33
+    },
+    {
+      "sentence": "It is unlimited on-demand reporting under the v2 license. There's no cap on report generation. The only thing to be aware of is that very large report exports \u2014 like if you're pulling a full year of audit data \u2014 those can take a few minutes to process, but there's no hard limit on frequency.",
+      "speaker_name": "David Kim",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 422.2,
+      "endTime": 441.6,
+      "averageConfidence": 0.94,
+      "index": 34
+    },
+    {
+      "sentence": "Good to know, thanks. That's all I had.",
+      "speaker_name": "Dominic Flores",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 442.2,
+      "endTime": 445.0,
+      "averageConfidence": 0.95,
+      "index": 35
+    },
+    {
+      "sentence": "Alright, so just to summarize what we're doing \u2014 I'm logging the billing discrepancy, issuing a credit of $255 to your account to be applied on the May 1st invoice, sending a breakdown of the proration calculation to the case for your finance team, and flagging this to the billing systems team for a broader review. Does that cover everything?",
+      "speaker_name": "David Kim",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 445.9,
+      "endTime": 467.2,
+      "averageConfidence": 0.88,
+      "index": 36
+    },
+    {
+      "sentence": "Yes, that covers it. Thanks David, appreciate you walking through it with us.",
+      "speaker_name": "Michelle Tan",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 468.3,
+      "endTime": 472.9,
+      "averageConfidence": 0.95,
+      "index": 37
+    },
+    {
+      "sentence": "Of course, happy to help. You'll get an email summary from me through the case portal within the hour. Have a good rest of your day.",
+      "speaker_name": "David Kim",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 473.7,
+      "endTime": 483.0,
+      "averageConfidence": 0.88,
+      "index": 38
+    },
+    {
+      "sentence": "You too, thanks.",
+      "speaker_name": "Dominic Flores",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 484.5,
+      "endTime": 486.0,
+      "averageConfidence": 0.96,
+      "index": 39
+    }
+  ]
+}

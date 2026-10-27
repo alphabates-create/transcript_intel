@@ -1,0 +1,414 @@
+{
+  "data": [
+    {
+      "sentence": "Alright, I think we've got everyone. Let me just pull up the board real quick.",
+      "speaker_name": "Chris Lee",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 6.6,
+      "endTime": 12.2,
+      "averageConfidence": 0.97,
+      "index": 0
+    },
+    {
+      "sentence": "Yeah I'm here, just give me one sec, I'm closing out some tabs.",
+      "speaker_name": "Ananya Sharma",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 12.8,
+      "endTime": 17.4,
+      "averageConfidence": 0.9,
+      "index": 1
+    },
+    {
+      "sentence": "Mike, you on?",
+      "speaker_name": "Chris Lee",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 18.9,
+      "endTime": 20.4,
+      "averageConfidence": 0.94,
+      "index": 2
+    },
+    {
+      "sentence": "Yep, I'm here. Good to go.",
+      "speaker_name": "Mike Romano",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 21.0,
+      "endTime": 23.0,
+      "averageConfidence": 0.95,
+      "index": 3
+    },
+    {
+      "sentence": "Nina, looks like you just joined too, cool. Okay so let's get started, we've got a lot to get through today for sprint twelve.",
+      "speaker_name": "Chris Lee",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 24.5,
+      "endTime": 32.9,
+      "averageConfidence": 0.88,
+      "index": 4
+    },
+    {
+      "sentence": "Yeah sorry, my previous call ran over a bit.",
+      "speaker_name": "Nina Kowalski",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 33.9,
+      "endTime": 36.9,
+      "averageConfidence": 0.9,
+      "index": 5
+    },
+    {
+      "sentence": "No worries, we just started. So, um, first thing \u2014 I want to do a quick retro on sprint eleven before we get into planning. Just high level, shouldn't take more than five minutes. Anyone want to kick that off?",
+      "speaker_name": "Chris Lee",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 37.6,
+      "endTime": 51.8,
+      "averageConfidence": 0.88,
+      "index": 6
+    },
+    {
+      "sentence": "I can. So sprint eleven, I think we got through about, what, seven of the nine tickets we committed to? The two that slipped were the alert deduplication work and the pipeline latency investigation. The dedup one slipped because the spec changed midway through, and the pipeline thing just... it's bigger than we scoped it.",
+      "speaker_name": "Mike Romano",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 53.0,
+      "endTime": 72.2,
+      "averageConfidence": 0.96,
+      "index": 7
+    },
+    {
+      "sentence": "Yeah the pipeline latency investigation has been sitting in my queue and honestly the more I dig into it the more I think we have a deeper architectural issue with the event ingestion layer. Like it's not just latency, there are some single point of failure concerns I want to flag.",
+      "speaker_name": "Ananya Sharma",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 73.3,
+      "endTime": 91.5,
+      "averageConfidence": 0.88,
+      "index": 8
+    },
+    {
+      "sentence": "Okay yeah, let's put a pin on that, that's actually on the agenda for today. We'll get to it. What about from a QA perspective, Nina, anything notable from eleven?",
+      "speaker_name": "Chris Lee",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 92.4,
+      "endTime": 102.6,
+      "averageConfidence": 0.91,
+      "index": 9
+    },
+    {
+      "sentence": "Uh, a couple things. The test coverage on the new correlation rules was thin, we flagged that but it didn't get addressed before the sprint ended. And there was a regression in the alert severity scoring that we caught late \u2014 like day nine of the sprint, which is not great.",
+      "speaker_name": "Nina Kowalski",
+      "sentimentType": "negative",
+      "speaker_id": 3,
+      "time": 102.9,
+      "endTime": 121.0,
+      "averageConfidence": 0.92,
+      "index": 10
+    },
+    {
+      "sentence": "Yeah that regression was on me, I merged a config change without running the full suite. That won't happen again.",
+      "speaker_name": "Mike Romano",
+      "sentimentType": "negative",
+      "speaker_id": 2,
+      "time": 121.9,
+      "endTime": 129.1,
+      "averageConfidence": 0.96,
+      "index": 11
+    },
+    {
+      "sentence": "I mean, it happens, but we should probably look at whether we can gate that in CI. Like that shouldn't be a manual discipline thing.",
+      "speaker_name": "Nina Kowalski",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 129.5,
+      "endTime": 138.4,
+      "averageConfidence": 0.92,
+      "index": 12
+    },
+    {
+      "sentence": "Agreed, let's add that as a chore ticket for this sprint. Okay, moving on \u2014 let's talk about sprint twelve priorities. Chris, what's coming down from product?",
+      "speaker_name": "Ananya Sharma",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 139.8,
+      "endTime": 149.2,
+      "averageConfidence": 0.9,
+      "index": 13
+    },
+    {
+      "sentence": "So the big ones from product this sprint are: finishing the alert deduplication feature, continuing the pipeline latency work, and there's a new ask around improving detection rule versioning so customers can roll back rule changes. That last one is, uh, medium priority but product wants it in the next two sprints.",
+      "speaker_name": "Chris Lee",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 150.4,
+      "endTime": 168.7,
+      "averageConfidence": 0.9,
+      "index": 14
+    },
+    {
+      "sentence": "The rule versioning thing, do we have a spec for that yet or are we starting from scratch?",
+      "speaker_name": "Mike Romano",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 169.3,
+      "endTime": 176.0,
+      "averageConfidence": 0.9,
+      "index": 15
+    },
+    {
+      "sentence": "There's a rough doc, I'll share it after this call. It's not fully baked but enough to start scoping.",
+      "speaker_name": "Chris Lee",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 177.1,
+      "endTime": 184.0,
+      "averageConfidence": 0.93,
+      "index": 16
+    },
+    {
+      "sentence": "Okay. So my concern is capacity. If we're carrying over two tickets from eleven and adding rule versioning on top of the pipeline work, that's... I don't think we can realistically commit to all of that in one sprint.",
+      "speaker_name": "Ananya Sharma",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 184.5,
+      "endTime": 198.2,
+      "averageConfidence": 0.93,
+      "index": 17
+    },
+    {
+      "sentence": "Yeah I was going to say the same thing. The pipeline work alone, if we're actually doing it right, is probably a twelve to fifteen point story. And that's if we don't find more stuff buried in there.",
+      "speaker_name": "Mike Romano",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 198.9,
+      "endTime": 212.0,
+      "averageConfidence": 0.97,
+      "index": 18
+    },
+    {
+      "sentence": "What's your current estimate on the deduplication carry-over?",
+      "speaker_name": "Chris Lee",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 213.5,
+      "endTime": 216.8,
+      "averageConfidence": 0.96,
+      "index": 19
+    },
+    {
+      "sentence": "I'd say five points. The spec is stable now, it's just implementation and tests.",
+      "speaker_name": "Mike Romano",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 217.1,
+      "endTime": 222.4,
+      "averageConfidence": 0.88,
+      "index": 20
+    },
+    {
+      "sentence": "Okay so if we're looking at roughly five for dedup, twelve to fifteen for pipeline, and then whatever rule versioning scopes out to \u2014 Nina, what does QA bandwidth look like this sprint?",
+      "speaker_name": "Chris Lee",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 223.3,
+      "endTime": 234.7,
+      "averageConfidence": 0.93,
+      "index": 21
+    },
+    {
+      "sentence": "So I have the full two weeks but I'm also trying to finalize the regression suite improvements, which I'd really like to not push again. So I can support testing on the dedup work and probably the pipeline work, but if rule versioning lands mid-sprint I'm going to need a heads up.",
+      "speaker_name": "Nina Kowalski",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 235.2,
+      "endTime": 253.2,
+      "averageConfidence": 0.9,
+      "index": 22
+    },
+    {
+      "sentence": "That's fair. I think the honest thing to do is scope rule versioning as a stretch goal this sprint and make it a primary commitment for sprint thirteen. Product might push back a little but I'd rather set realistic expectations.",
+      "speaker_name": "Chris Lee",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 253.6,
+      "endTime": 267.7,
+      "averageConfidence": 0.94,
+      "index": 23
+    },
+    {
+      "sentence": "I agree with that. And honestly the pipeline work is more important right now. Like if the ingestion layer has the issues Ananya's describing, that's not something we want to defer.",
+      "speaker_name": "Mike Romano",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 269.0,
+      "endTime": 279.6,
+      "averageConfidence": 0.91,
+      "index": 24
+    },
+    {
+      "sentence": "Can you walk us through what you're seeing there, Ananya? Like at least a summary so we can make sure we're scoping it right.",
+      "speaker_name": "Chris Lee",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 280.4,
+      "endTime": 288.6,
+      "averageConfidence": 0.91,
+      "index": 25
+    },
+    {
+      "sentence": "Yeah, so basically the event ingestion pipeline right now has... it's all running through a single processing node with no fallback. If that node goes down or gets overwhelmed, we lose event visibility entirely. There's no circuit breaker, no redundancy. I think we need to add redundant processing nodes and probably implement a circuit breaker pattern to prevent cascading failures.",
+      "speaker_name": "Ananya Sharma",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 289.6,
+      "endTime": 311.1,
+      "averageConfidence": 0.91,
+      "index": 26
+    },
+    {
+      "sentence": "Okay so that's significant. How long has this been the case?",
+      "speaker_name": "Chris Lee",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 312.4,
+      "endTime": 316.7,
+      "averageConfidence": 0.88,
+      "index": 27
+    },
+    {
+      "sentence": "Honestly? Probably since the original implementation. It just wasn't a problem when we had lower event volumes but we're growing and it's becoming a real risk.",
+      "speaker_name": "Ananya Sharma",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 317.4,
+      "endTime": 326.5,
+      "averageConfidence": 0.89,
+      "index": 28
+    },
+    {
+      "sentence": "Alright, yeah that needs to be a primary workstream this sprint. No question. Let's make sure we break that into sub-tasks so it doesn't become one giant blob of work.",
+      "speaker_name": "Chris Lee",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 327.1,
+      "endTime": 337.8,
+      "averageConfidence": 0.9,
+      "index": 29
+    },
+    {
+      "sentence": "I was going to suggest that \u2014 I can draft the sub-tasks today and share them in the team channel so everyone can review before we finalize the board.",
+      "speaker_name": "Ananya Sharma",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 338.2,
+      "endTime": 348.3,
+      "averageConfidence": 0.95,
+      "index": 30
+    },
+    {
+      "sentence": "That'd be great. Okay, so to recap: primary commitments are dedup carry-over, pipeline architecture work, and the CI gate improvement Nina flagged. Stretch goal is starting rule versioning. Does that feel right to everyone?",
+      "speaker_name": "Chris Lee",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 349.5,
+      "endTime": 361.7,
+      "averageConfidence": 0.96,
+      "index": 31
+    },
+    {
+      "sentence": "Works for me.",
+      "speaker_name": "Mike Romano",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 362.9,
+      "endTime": 364.4,
+      "averageConfidence": 0.94,
+      "index": 32
+    },
+    {
+      "sentence": "Yeah, that's a reasonable scope.",
+      "speaker_name": "Nina Kowalski",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 365.4,
+      "endTime": 367.0,
+      "averageConfidence": 0.94,
+      "index": 33
+    },
+    {
+      "sentence": "Fine by me. I'll get those sub-tasks written up.",
+      "speaker_name": "Ananya Sharma",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 368.2,
+      "endTime": 371.8,
+      "averageConfidence": 0.97,
+      "index": 34
+    },
+    {
+      "sentence": "Perfect. Okay, anything else before we wrap? We've got about five minutes left.",
+      "speaker_name": "Chris Lee",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 373.2,
+      "endTime": 377.9,
+      "averageConfidence": 0.94,
+      "index": 35
+    },
+    {
+      "sentence": "Just a quick heads up \u2014 I'm out Thursday afternoon for a dentist appointment, so if there's anything blocking me I'd want to know by Wednesday.",
+      "speaker_name": "Mike Romano",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 379.4,
+      "endTime": 388.8,
+      "averageConfidence": 0.89,
+      "index": 36
+    },
+    {
+      "sentence": "Noted. Anyone else? Okay, I think we're good then. I'll update the board and send a summary to the channel. Standup as usual tomorrow at ten.",
+      "speaker_name": "Chris Lee",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 389.8,
+      "endTime": 399.3,
+      "averageConfidence": 0.93,
+      "index": 37
+    },
+    {
+      "sentence": "Sounds good, thanks everyone.",
+      "speaker_name": "Nina Kowalski",
+      "sentimentType": "positive",
+      "speaker_id": 3,
+      "time": 400.5,
+      "endTime": 402.2,
+      "averageConfidence": 0.91,
+      "index": 38
+    },
+    {
+      "sentence": "Thanks.",
+      "speaker_name": "Ananya Sharma",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 403.1,
+      "endTime": 404.6,
+      "averageConfidence": 0.96,
+      "index": 39
+    },
+    {
+      "sentence": "Yep, talk tomorrow.",
+      "speaker_name": "Mike Romano",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 405.6,
+      "endTime": 407.1,
+      "averageConfidence": 0.97,
+      "index": 40
+    }
+  ]
+}

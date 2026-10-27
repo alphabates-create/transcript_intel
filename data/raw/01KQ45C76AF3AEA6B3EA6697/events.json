@@ -1,0 +1,38 @@
+[
+  {
+    "participantName": "Daniel Okafor",
+    "timestamp": 1774374333000,
+    "type": "Join",
+    "time": 33.0
+  },
+  {
+    "participantName": "Harold Jensen",
+    "timestamp": 1774374339000,
+    "type": "Join",
+    "time": 39.0
+  },
+  {
+    "participantName": "Sofia Petrov",
+    "timestamp": 1774374351000,
+    "type": "Join",
+    "time": 51.0
+  },
+  {
+    "participantName": "Daniel Okafor",
+    "timestamp": 1774376348000,
+    "type": "Leave",
+    "time": 2048.0
+  },
+  {
+    "participantName": "Sofia Petrov",
+    "timestamp": 1774376363000,
+    "type": "Leave",
+    "time": 2063.0
+  },
+  {
+    "participantName": "Harold Jensen",
+    "timestamp": 1774376348000,
+    "type": "Leave",
+    "time": 2048.0
+  }
+]

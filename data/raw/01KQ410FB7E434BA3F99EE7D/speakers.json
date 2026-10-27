@@ -1,0 +1,237 @@
+[
+  {
+    "speakerName": "Aisha Johnson",
+    "timestamp": 4.3,
+    "endTimeTs": 11.4
+  },
+  {
+    "speakerName": "Ryan Caldwell",
+    "timestamp": 12.1,
+    "endTimeTs": 17.1
+  },
+  {
+    "speakerName": "Aisha Johnson",
+    "timestamp": 17.7,
+    "endTimeTs": 27.9
+  },
+  {
+    "speakerName": "Mina Joshi",
+    "timestamp": 29.3,
+    "endTimeTs": 39.5
+  },
+  {
+    "speakerName": "Aisha Johnson",
+    "timestamp": 39.9,
+    "endTimeTs": 60.9
+  },
+  {
+    "speakerName": "Ryan Caldwell",
+    "timestamp": 62.3,
+    "endTimeTs": 72.6
+  },
+  {
+    "speakerName": "Aisha Johnson",
+    "timestamp": 73.7,
+    "endTimeTs": 88.3
+  },
+  {
+    "speakerName": "Ryan Caldwell",
+    "timestamp": 89.1,
+    "endTimeTs": 102.8
+  },
+  {
+    "speakerName": "Mina Joshi",
+    "timestamp": 103.6,
+    "endTimeTs": 116.1
+  },
+  {
+    "speakerName": "Aisha Johnson",
+    "timestamp": 116.5,
+    "endTimeTs": 131.2
+  },
+  {
+    "speakerName": "Ryan Caldwell",
+    "timestamp": 131.9,
+    "endTimeTs": 138.0
+  },
+  {
+    "speakerName": "Ryan Caldwell",
+    "timestamp": 138.5,
+    "endTimeTs": 162.3
+  },
+  {
+    "speakerName": "Mina Joshi",
+    "timestamp": 163.7,
+    "endTimeTs": 182.5
+  },
+  {
+    "speakerName": "Aisha Johnson",
+    "timestamp": 183.9,
+    "endTimeTs": 205.0
+  },
+  {
+    "speakerName": "Ryan Caldwell",
+    "timestamp": 206.0,
+    "endTimeTs": 215.9
+  },
+  {
+    "speakerName": "Aisha Johnson",
+    "timestamp": 216.8,
+    "endTimeTs": 233.0
+  },
+  {
+    "speakerName": "Mina Joshi",
+    "timestamp": 233.7,
+    "endTimeTs": 246.6
+  },
+  {
+    "speakerName": "Aisha Johnson",
+    "timestamp": 248.1,
+    "endTimeTs": 249.6
+  },
+  {
+    "speakerName": "Mina Joshi",
+    "timestamp": 250.3,
+    "endTimeTs": 266.6
+  },
+  {
+    "speakerName": "Aisha Johnson",
+    "timestamp": 267.7,
+    "endTimeTs": 274.1
+  },
+  {
+    "speakerName": "Ryan Caldwell",
+    "timestamp": 275.0,
+    "endTimeTs": 291.7
+  },
+  {
+    "speakerName": "Aisha Johnson",
+    "timestamp": 292.1,
+    "endTimeTs": 306.8
+  },
+  {
+    "speakerName": "Ryan Caldwell",
+    "timestamp": 308.2,
+    "endTimeTs": 311.9
+  },
+  {
+    "speakerName": "Aisha Johnson",
+    "timestamp": 313.0,
+    "endTimeTs": 328.9
+  },
+  {
+    "speakerName": "Ryan Caldwell",
+    "timestamp": 330.4,
+    "endTimeTs": 347.7
+  },
+  {
+    "speakerName": "Aisha Johnson",
+    "timestamp": 348.9,
+    "endTimeTs": 370.5
+  },
+  {
+    "speakerName": "Mina Joshi",
+    "timestamp": 372.0,
+    "endTimeTs": 382.3
+  },
+  {
+    "speakerName": "Aisha Johnson",
+    "timestamp": 383.3,
+    "endTimeTs": 394.8
+  },
+  {
+    "speakerName": "Ryan Caldwell",
+    "timestamp": 395.7,
+    "endTimeTs": 408.9
+  },
+  {
+    "speakerName": "Mina Joshi",
+    "timestamp": 409.9,
+    "endTimeTs": 425.1
+  },
+  {
+    "speakerName": "Aisha Johnson",
+    "timestamp": 426.2,
+    "endTimeTs": 444.3
+  },
+  {
+    "speakerName": "Mina Joshi",
+    "timestamp": 445.8,
+    "endTimeTs": 456.1
+  },
+  {
+    "speakerName": "Aisha Johnson",
+    "timestamp": 457.1,
+    "endTimeTs": 465.9
+  },
+  {
+    "speakerName": "Mina Joshi",
+    "timestamp": 466.3,
+    "endTimeTs": 469.0
+  },
+  {
+    "speakerName": "Ryan Caldwell",
+    "timestamp": 470.3,
+    "endTimeTs": 487.6
+  },
+  {
+    "speakerName": "Aisha Johnson",
+    "timestamp": 488.5,
+    "endTimeTs": 496.0
+  },
+  {
+    "speakerName": "Ryan Caldwell",
+    "timestamp": 496.7,
+    "endTimeTs": 517.8
+  },
+  {
+    "speakerName": "Mina Joshi",
+    "timestamp": 518.5,
+    "endTimeTs": 528.6
+  },
+  {
+    "speakerName": "Aisha Johnson",
+    "timestamp": 529.5,
+    "endTimeTs": 546.0
+  },
+  {
+    "speakerName": "Ryan Caldwell",
+    "timestamp": 547.3,
+    "endTimeTs": 550.8
+  },
+  {
+    "speakerName": "Aisha Johnson",
+    "timestamp": 552.3,
+    "endTimeTs": 575.1
+  },
+  {
+    "speakerName": "Mina Joshi",
+    "timestamp": 575.9,
+    "endTimeTs": 584.6
+  },
+  {
+    "speakerName": "Aisha Johnson",
+    "timestamp": 585.7,
+    "endTimeTs": 594.8
+  },
+  {
+    "speakerName": "Ryan Caldwell",
+    "timestamp": 595.7,
+    "endTimeTs": 609.3
+  },
+  {
+    "speakerName": "Aisha Johnson",
+    "timestamp": 609.7,
+    "endTimeTs": 623.4
+  },
+  {
+    "speakerName": "Ryan Caldwell",
+    "timestamp": 624.8,
+    "endTimeTs": 630.5
+  },
+  {
+    "speakerName": "Aisha Johnson",
+    "timestamp": 632.0,
+    "endTimeTs": 637.9
+  }
+]

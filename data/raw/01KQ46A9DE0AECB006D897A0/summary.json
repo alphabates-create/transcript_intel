@@ -1,0 +1,46 @@
+{
+  "summary": "A critical outage call was held between Tyler (engineering), Diana (customer success/sales), and Marcus (support) regarding a complete failure of the Detect threat monitoring pipeline that began at 2:47 AM. The ingestion layer experienced a cascading failure from a single point of failure, leaving all Detect customers with zero alert visibility. The estimated restoration window is four to eight hours, potentially resulting in up to twelve total hours of downtime. The team aligned on a remediation and communication plan, including thirty-minute customer status updates, direct outreach to at-risk enterprise accounts, and a post-incident architecture review.",
+  "actionItems": [
+    "Diana Reeves: Personally call Crestwood Health and Hartwell Financial account leads within the next hour",
+    "Diana Reeves: Draft first customer communication email template and send to Marcus within fifteen minutes",
+    "Marcus Williams: Own customer comms cadence, coordinate with CSMs, and ensure one centralized voice for all outreach",
+    "Tyler Washington: Feed engineering status updates to Marcus every thirty minutes, starting by 10:30"
+  ],
+  "topics": [
+    "service outage",
+    "incident response",
+    "customer communication",
+    "architecture gap",
+    "churn risk",
+    "sla compliance"
+  ],
+  "overallSentiment": "negative",
+  "sentimentScore": 1.8,
+  "keyMoments": [
+    {
+      "time": 87.0,
+      "text": "Diana confirms all Detect customers have zero event processing and zero alert visibility during the outage",
+      "type": "concern",
+      "speaker": "Diana Reeves"
+    },
+    {
+      "time": 312.0,
+      "text": "Tyler reveals the root cause is a single point of failure in the ingestion layer, prompting sharp pushback from Diana about how it passed architecture review",
+      "type": "technical_issue",
+      "speaker": "Tyler Washington"
+    },
+    {
+      "time": 441.0,
+      "text": "Marcus reports that Crestwood Health is actively evaluating competitor SentinelShield, signaling potential churn",
+      "type": "churn_signal",
+      "speaker": "Marcus Williams"
+    },
+    {
+      "time": 498.0,
+      "text": "Tyler proposes thirty-minute status update emails to all affected customers, and the team aligns on a coordinated comms plan",
+      "type": "positive_pivot",
+      "speaker": "Tyler Washington"
+    }
+  ],
+  "meetingId": "01KQ46A9DE0AECB006D897A0"
+}

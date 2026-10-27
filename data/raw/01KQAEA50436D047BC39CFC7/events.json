@@ -1,0 +1,26 @@
+[
+  {
+    "participantName": "Maria Santos",
+    "timestamp": 1771338638000,
+    "type": "Join",
+    "time": 38.0
+  },
+  {
+    "participantName": "Derek Owens",
+    "timestamp": 1771338649000,
+    "type": "Join",
+    "time": 49.0
+  },
+  {
+    "participantName": "Maria Santos",
+    "timestamp": 1771341496000,
+    "type": "Leave",
+    "time": 2896.0
+  },
+  {
+    "participantName": "Derek Owens",
+    "timestamp": 1771341510000,
+    "type": "Leave",
+    "time": 2910.0
+  }
+]

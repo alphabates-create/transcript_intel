@@ -1,0 +1,287 @@
+[
+  {
+    "speakerName": "Raj Kapoor",
+    "timestamp": 7.1,
+    "endTimeTs": 17.5
+  },
+  {
+    "speakerName": "Tyler Washington",
+    "timestamp": 18.1,
+    "endTimeTs": 19.6
+  },
+  {
+    "speakerName": "Ravi Gupta",
+    "timestamp": 20.0,
+    "endTimeTs": 21.5
+  },
+  {
+    "speakerName": "Brian Cho",
+    "timestamp": 22.4,
+    "endTimeTs": 24.0
+  },
+  {
+    "speakerName": "Mike Romano",
+    "timestamp": 24.7,
+    "endTimeTs": 28.6
+  },
+  {
+    "speakerName": "Raj Kapoor",
+    "timestamp": 29.6,
+    "endTimeTs": 49.8
+  },
+  {
+    "speakerName": "Tyler Washington",
+    "timestamp": 50.7,
+    "endTimeTs": 55.5
+  },
+  {
+    "speakerName": "Raj Kapoor",
+    "timestamp": 56.1,
+    "endTimeTs": 66.7
+  },
+  {
+    "speakerName": "Mike Romano",
+    "timestamp": 67.8,
+    "endTimeTs": 74.9
+  },
+  {
+    "speakerName": "Raj Kapoor",
+    "timestamp": 75.5,
+    "endTimeTs": 89.4
+  },
+  {
+    "speakerName": "Tyler Washington",
+    "timestamp": 90.8,
+    "endTimeTs": 106.7
+  },
+  {
+    "speakerName": "Mike Romano",
+    "timestamp": 107.4,
+    "endTimeTs": 117.7
+  },
+  {
+    "speakerName": "Tyler Washington",
+    "timestamp": 118.6,
+    "endTimeTs": 126.0
+  },
+  {
+    "speakerName": "Ravi Gupta",
+    "timestamp": 126.6,
+    "endTimeTs": 146.0
+  },
+  {
+    "speakerName": "Raj Kapoor",
+    "timestamp": 146.9,
+    "endTimeTs": 154.7
+  },
+  {
+    "speakerName": "Ravi Gupta",
+    "timestamp": 155.7,
+    "endTimeTs": 158.1
+  },
+  {
+    "speakerName": "Raj Kapoor",
+    "timestamp": 159.3,
+    "endTimeTs": 163.0
+  },
+  {
+    "speakerName": "Tyler Washington",
+    "timestamp": 164.2,
+    "endTimeTs": 183.5
+  },
+  {
+    "speakerName": "Mike Romano",
+    "timestamp": 184.3,
+    "endTimeTs": 193.1
+  },
+  {
+    "speakerName": "Tyler Washington",
+    "timestamp": 193.7,
+    "endTimeTs": 201.9
+  },
+  {
+    "speakerName": "Raj Kapoor",
+    "timestamp": 202.3,
+    "endTimeTs": 215.5
+  },
+  {
+    "speakerName": "Ravi Gupta",
+    "timestamp": 216.5,
+    "endTimeTs": 227.2
+  },
+  {
+    "speakerName": "Raj Kapoor",
+    "timestamp": 227.7,
+    "endTimeTs": 243.3
+  },
+  {
+    "speakerName": "Brian Cho",
+    "timestamp": 244.4,
+    "endTimeTs": 267.6
+  },
+  {
+    "speakerName": "Mike Romano",
+    "timestamp": 268.6,
+    "endTimeTs": 274.1
+  },
+  {
+    "speakerName": "Brian Cho",
+    "timestamp": 275.3,
+    "endTimeTs": 285.9
+  },
+  {
+    "speakerName": "Raj Kapoor",
+    "timestamp": 287.2,
+    "endTimeTs": 300.1
+  },
+  {
+    "speakerName": "Brian Cho",
+    "timestamp": 300.9,
+    "endTimeTs": 308.8
+  },
+  {
+    "speakerName": "Raj Kapoor",
+    "timestamp": 309.4,
+    "endTimeTs": 318.1
+  },
+  {
+    "speakerName": "Mike Romano",
+    "timestamp": 318.6,
+    "endTimeTs": 331.2
+  },
+  {
+    "speakerName": "Brian Cho",
+    "timestamp": 332.4,
+    "endTimeTs": 336.4
+  },
+  {
+    "speakerName": "Mike Romano",
+    "timestamp": 337.6,
+    "endTimeTs": 342.3
+  },
+  {
+    "speakerName": "Raj Kapoor",
+    "timestamp": 342.8,
+    "endTimeTs": 354.0
+  },
+  {
+    "speakerName": "Ravi Gupta",
+    "timestamp": 354.5,
+    "endTimeTs": 376.2
+  },
+  {
+    "speakerName": "Tyler Washington",
+    "timestamp": 377.1,
+    "endTimeTs": 388.4
+  },
+  {
+    "speakerName": "Ravi Gupta",
+    "timestamp": 389.1,
+    "endTimeTs": 400.4
+  },
+  {
+    "speakerName": "Raj Kapoor",
+    "timestamp": 401.2,
+    "endTimeTs": 404.6
+  },
+  {
+    "speakerName": "Ravi Gupta",
+    "timestamp": 405.8,
+    "endTimeTs": 413.6
+  },
+  {
+    "speakerName": "Brian Cho",
+    "timestamp": 414.6,
+    "endTimeTs": 419.4
+  },
+  {
+    "speakerName": "Raj Kapoor",
+    "timestamp": 420.8,
+    "endTimeTs": 435.6
+  },
+  {
+    "speakerName": "Tyler Washington",
+    "timestamp": 436.1,
+    "endTimeTs": 444.8
+  },
+  {
+    "speakerName": "Mike Romano",
+    "timestamp": 445.7,
+    "endTimeTs": 458.9
+  },
+  {
+    "speakerName": "Raj Kapoor",
+    "timestamp": 459.6,
+    "endTimeTs": 472.1
+  },
+  {
+    "speakerName": "Tyler Washington",
+    "timestamp": 473.0,
+    "endTimeTs": 478.9
+  },
+  {
+    "speakerName": "Raj Kapoor",
+    "timestamp": 479.3,
+    "endTimeTs": 507.2
+  },
+  {
+    "speakerName": "Ravi Gupta",
+    "timestamp": 507.7,
+    "endTimeTs": 509.3
+  },
+  {
+    "speakerName": "Mike Romano",
+    "timestamp": 510.2,
+    "endTimeTs": 511.7
+  },
+  {
+    "speakerName": "Tyler Washington",
+    "timestamp": 512.2,
+    "endTimeTs": 513.7
+  },
+  {
+    "speakerName": "Brian Cho",
+    "timestamp": 514.1,
+    "endTimeTs": 515.6
+  },
+  {
+    "speakerName": "Raj Kapoor",
+    "timestamp": 516.8,
+    "endTimeTs": 528.0
+  },
+  {
+    "speakerName": "Tyler Washington",
+    "timestamp": 529.3,
+    "endTimeTs": 542.0
+  },
+  {
+    "speakerName": "Mike Romano",
+    "timestamp": 543.0,
+    "endTimeTs": 555.6
+  },
+  {
+    "speakerName": "Raj Kapoor",
+    "timestamp": 556.7,
+    "endTimeTs": 571.1
+  },
+  {
+    "speakerName": "Tyler Washington",
+    "timestamp": 571.4,
+    "endTimeTs": 573.5
+  },
+  {
+    "speakerName": "Raj Kapoor",
+    "timestamp": 573.9,
+    "endTimeTs": 589.1
+  },
+  {
+    "speakerName": "Brian Cho",
+    "timestamp": 590.0,
+    "endTimeTs": 593.4
+  },
+  {
+    "speakerName": "Raj Kapoor",
+    "timestamp": 594.7,
+    "endTimeTs": 599.4
+  }
+]

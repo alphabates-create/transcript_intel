@@ -1,0 +1,26 @@
+[
+  {
+    "participantName": "David Kim",
+    "timestamp": 1771673423000,
+    "type": "Join",
+    "time": 23.0
+  },
+  {
+    "participantName": "Kendra Wallace",
+    "timestamp": 1771673429000,
+    "type": "Join",
+    "time": 29.0
+  },
+  {
+    "participantName": "David Kim",
+    "timestamp": 1771674323000,
+    "type": "Leave",
+    "time": 923.0
+  },
+  {
+    "participantName": "Kendra Wallace",
+    "timestamp": 1771674331000,
+    "type": "Leave",
+    "time": 931.0
+  }
+]

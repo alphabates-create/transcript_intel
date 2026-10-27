@@ -1,0 +1,46 @@
+{
+  "summary": "Kendra Wallace from a retail company contacted Aegis Cloud Security support regarding severely degraded backup performance, with nightly jobs taking 4-6 hours instead of the usual 90 minutes over the past three weeks. David Kim identified a likely root cause: Kendra's environment is running backup agent version 3.4.1, which has a known change block tracking issue that causes over-scanning, while a fix was released in version 3.6.0 in late January. David acknowledged a process gap in that Kendra was not notified about the update. The resolution plan includes upgrading to 3.6.0 and a follow-up call on Monday, with escalation to senior engineering promised if the issue persists.",
+  "actionItems": [
+    "David Kim: Send upgrade instructions to Kendra's inbox within 30 minutes of the call",
+    "Kendra Wallace: Schedule agent upgrade to version 3.6.0 tonight or tomorrow night outside the backup window",
+    "David Kim: Follow up Monday morning to confirm backup performance improvement and keep the case open",
+    "David Kim: Investigate why Kendra's account was not notified about the known issue in version 3.4.x and escalate to senior engineering and account manager if unresolved"
+  ],
+  "topics": [
+    "backup performance",
+    "agent version update",
+    "technical issue",
+    "customer retention",
+    "notification gap",
+    "escalation"
+  ],
+  "overallSentiment": "mixed-negative",
+  "sentimentScore": 2.8,
+  "keyMoments": [
+    {
+      "time": 45.0,
+      "text": "Kendra describes nightly backup jobs taking 4-6 hours, up from under 90 minutes, lasting three weeks with real operational impact on her retail business",
+      "type": "concern",
+      "speaker": "Kendra Wallace"
+    },
+    {
+      "time": 312.0,
+      "text": "David identifies throughput has dropped from 400-500 MB/s to 120-140 MB/s and flags that Kendra is running an outdated agent version 3.4.1 with a known over-scanning bug",
+      "type": "technical_issue",
+      "speaker": "David Kim"
+    },
+    {
+      "time": 420.0,
+      "text": "Kendra expresses frustration that she was not notified about the known issue and the fix already available in version 3.6.0",
+      "type": "churn_signal",
+      "speaker": "Kendra Wallace"
+    },
+    {
+      "time": 540.0,
+      "text": "David commits to sending upgrade instructions within 30 minutes, following up Monday morning, and escalating to senior engineering if the issue is unresolved",
+      "type": "action_item",
+      "speaker": "David Kim"
+    }
+  ],
+  "meetingId": "01KQ1A6B7E81B06F4A13B60D"
+}

@@ -1,0 +1,364 @@
+{
+  "data": [
+    {
+      "sentence": "Hi, this is David Kim calling from Aegis Cloud Security support. Am I speaking with Keith Donovan?",
+      "speaker_name": "David Kim",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 3.5,
+      "endTime": 9.7,
+      "averageConfidence": 0.94,
+      "index": 0
+    },
+    {
+      "sentence": "Yeah, that's me. Hi David, thanks for calling back.",
+      "speaker_name": "Keith Donovan",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 11.0,
+      "endTime": 14.5,
+      "averageConfidence": 0.9,
+      "index": 1
+    },
+    {
+      "sentence": "Of course, absolutely. So I'm calling in reference to support case number 3615. Looks like you submitted a request around custom reporting in Aegis Comply \u2014 is that right?",
+      "speaker_name": "David Kim",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 15.7,
+      "endTime": 25.9,
+      "averageConfidence": 0.91,
+      "index": 2
+    },
+    {
+      "sentence": "Yeah, exactly. So we've been using Comply for a few months now and overall it's been fine, but we've run into a pretty specific need that I don't think the platform currently supports, and I wanted to get some clarity on where things stand.",
+      "speaker_name": "Keith Donovan",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 26.4,
+      "endTime": 41.9,
+      "averageConfidence": 0.89,
+      "index": 3
+    },
+    {
+      "sentence": "Sure, yeah, let's dig into it. Can you walk me through what you're trying to accomplish? Like what does the ideal output look like for you?",
+      "speaker_name": "David Kim",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 42.7,
+      "endTime": 51.8,
+      "averageConfidence": 0.91,
+      "index": 4
+    },
+    {
+      "sentence": "So right now the reports we're pulling out of Comply are pretty much the standard framework reports, right \u2014 you get your SOC 2 summary, your control status, all that. Which is fine. But what we need is the ability to kind of cross-reference controls across multiple frameworks in a single report. So for example, I want to see a control that maps to both SOC 2 and ISO 27001 in the same view, side by side.",
+      "speaker_name": "Keith Donovan",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 52.9,
+      "endTime": 79.7,
+      "averageConfidence": 0.89,
+      "index": 5
+    },
+    {
+      "sentence": "Okay, so a unified cross-framework control mapping report essentially.",
+      "speaker_name": "David Kim",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 81.1,
+      "endTime": 84.6,
+      "averageConfidence": 0.89,
+      "index": 6
+    },
+    {
+      "sentence": "Exactly. And ideally exportable, you know, to PDF or CSV or something we can hand off to our auditors without them having to reconcile two separate documents.",
+      "speaker_name": "Keith Donovan",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 85.1,
+      "endTime": 94.8,
+      "averageConfidence": 0.93,
+      "index": 7
+    },
+    {
+      "sentence": "Got it, that makes sense. So currently in Comply you can run reports per framework, but you're right that there's no native cross-framework report builder in the current version. That's \u2014 yeah, that's a known gap.",
+      "speaker_name": "David Kim",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 96.1,
+      "endTime": 108.8,
+      "averageConfidence": 0.91,
+      "index": 8
+    },
+    {
+      "sentence": "Right, yeah, I kind of figured that was the case. So I guess my question is, is this something that's on the roadmap? And if not, is there a workaround we can use in the meantime?",
+      "speaker_name": "Keith Donovan",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 109.8,
+      "endTime": 122.2,
+      "averageConfidence": 0.94,
+      "index": 9
+    },
+    {
+      "sentence": "Yeah, good question. So let me address the workaround first because that's something I can actually speak to concretely right now. Have you looked at the report export functionality at all? Like the CSV export in particular?",
+      "speaker_name": "David Kim",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 122.9,
+      "endTime": 136.2,
+      "averageConfidence": 0.94,
+      "index": 10
+    },
+    {
+      "sentence": "I've used it a little bit, yeah. I mean we've exported the individual framework reports.",
+      "speaker_name": "Keith Donovan",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 137.5,
+      "endTime": 143.3,
+      "averageConfidence": 0.91,
+      "index": 11
+    },
+    {
+      "sentence": "Okay so, um, when you export the control data as CSV, each row does include a control ID field and the framework it belongs to. So technically if you export your SOC 2 data and your ISO 27001 data separately and then join them on the control ID in Excel or whatever tool you're using, you can build a cross-reference that way. It's not elegant, I'll be honest, but it does give you the data.",
+      "speaker_name": "David Kim",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 144.3,
+      "endTime": 170.7,
+      "averageConfidence": 0.94,
+      "index": 12
+    },
+    {
+      "sentence": "Yeah, I mean, we've actually been doing something like that already. It's just... it's manual, it's error-prone, and frankly for the volume of controls we're managing it takes one of my team members a few hours every quarter. That's the part I'm trying to get rid of.",
+      "speaker_name": "Keith Donovan",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 171.2,
+      "endTime": 187.6,
+      "averageConfidence": 0.96,
+      "index": 13
+    },
+    {
+      "sentence": "Totally understandable, yeah. That's not a scalable process. So on the roadmap question \u2014 I want to be careful not to overpromise here because I'm not on the product side \u2014 but I can tell you that custom report building and cross-framework mapping is something that's been flagged as a feature request by multiple customers. I don't have a timeline I can give you officially.",
+      "speaker_name": "David Kim",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 188.0,
+      "endTime": 210.7,
+      "averageConfidence": 0.93,
+      "index": 14
+    },
+    {
+      "sentence": "Okay. Do you have any sense of like, is this something that's being actively worked on, or is it more in the backlog category?",
+      "speaker_name": "Keith Donovan",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 212.0,
+      "endTime": 220.7,
+      "averageConfidence": 0.97,
+      "index": 15
+    },
+    {
+      "sentence": "Honestly I don't have visibility into the specific prioritization, and I wouldn't want to guess on that. What I can do is make sure this case gets properly escalated to our product team with the specific use case you've described \u2014 the cross-framework mapping, the export requirement, the auditor workflow. That kind of detailed context actually does help when they're doing prioritization.",
+      "speaker_name": "David Kim",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 222.0,
+      "endTime": 244.1,
+      "averageConfidence": 0.94,
+      "index": 16
+    },
+    {
+      "sentence": "Sure, yeah, that'd be helpful. I'd also say, I mean, if there's a beta program or any kind of early access thing for new Comply features, we'd be interested in participating. We have a pretty well-defined compliance program here so we can give solid feedback.",
+      "speaker_name": "Keith Donovan",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 245.1,
+      "endTime": 260.6,
+      "averageConfidence": 0.95,
+      "index": 17
+    },
+    {
+      "sentence": "Yeah, that's worth noting. I'll include that in the escalation as well \u2014 that Nimbus Platform is interested in early access for Comply feature development. We do have beta programs from time to time so it's definitely worth having that on file.",
+      "speaker_name": "David Kim",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 262.0,
+      "endTime": 276.6,
+      "averageConfidence": 0.94,
+      "index": 18
+    },
+    {
+      "sentence": "Great. And just so I understand the process \u2014 when you escalate this, what happens from there? Like will I hear back from someone on the product team directly, or does it just go into a queue somewhere?",
+      "speaker_name": "Keith Donovan",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 277.1,
+      "endTime": 290.4,
+      "averageConfidence": 0.88,
+      "index": 19
+    },
+    {
+      "sentence": "So the way it typically works is I'll document the feature request in our internal system and it gets routed to the product management team. They don't usually reach out directly to customers unless they're doing discovery interviews or beta testing, but your account manager \u2014 I think that's Sarah Chen on your account \u2014 she should be able to give you periodic updates on where things land.",
+      "speaker_name": "David Kim",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 291.1,
+      "endTime": 315.3,
+      "averageConfidence": 0.92,
+      "index": 20
+    },
+    {
+      "sentence": "Okay, yeah, I know Sarah. I'll follow up with her too.",
+      "speaker_name": "Keith Donovan",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 316.3,
+      "endTime": 319.9,
+      "averageConfidence": 0.88,
+      "index": 21
+    },
+    {
+      "sentence": "Good, yeah, that's probably the best channel for that kind of visibility. Um, let me also just confirm \u2014 are there other frameworks besides SOC 2 and ISO 27001 that you'd want included in this cross-framework report? Just want to make sure I'm capturing the full scope of the request.",
+      "speaker_name": "David Kim",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 321.0,
+      "endTime": 338.8,
+      "averageConfidence": 0.92,
+      "index": 22
+    },
+    {
+      "sentence": "Yeah, good question. We're also doing PCI DSS assessments, so ideally PCI would be in there too. Those three \u2014 SOC 2, ISO 27001, PCI DSS \u2014 those are the ones we're actively reporting against right now.",
+      "speaker_name": "Keith Donovan",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 339.3,
+      "endTime": 352.3,
+      "averageConfidence": 0.94,
+      "index": 23
+    },
+    {
+      "sentence": "Got it. SOC 2, ISO 27001, PCI DSS, cross-framework mapping in a single exportable report. I'll make sure all of that is in the feature request documentation.",
+      "speaker_name": "David Kim",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 353.0,
+      "endTime": 362.8,
+      "averageConfidence": 0.89,
+      "index": 24
+    },
+    {
+      "sentence": "Yeah, and I guess the other thing I'd add is just \u2014 the format matters a lot. Like if it's just a flat list of controls, that's okay, but what we really want is something that shows the relationship. Like here's a control, here's how it maps in SOC 2, here's the equivalent in ISO, here's the PCI control it relates to. A matrix format basically.",
+      "speaker_name": "Keith Donovan",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 363.8,
+      "endTime": 386.6,
+      "averageConfidence": 0.94,
+      "index": 25
+    },
+    {
+      "sentence": "A control mapping matrix, yeah. That's a useful distinction, I'll note that specifically.",
+      "speaker_name": "David Kim",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 387.1,
+      "endTime": 391.9,
+      "averageConfidence": 0.94,
+      "index": 26
+    },
+    {
+      "sentence": "Right. Because I've seen some tools that do cross-framework exports but it's just... three separate lists concatenated, which doesn't really solve the problem.",
+      "speaker_name": "Keith Donovan",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 392.5,
+      "endTime": 400.6,
+      "averageConfidence": 0.9,
+      "index": 27
+    },
+    {
+      "sentence": "Yeah, fair point. Okay so I think I have a pretty complete picture of what you're looking for. Let me just recap to make sure I've got it right \u2014 you need a custom report in Aegis Comply that provides a cross-framework control mapping matrix across SOC 2, ISO 27001, and PCI DSS, showing the relationships between equivalent controls, and exportable in PDF or CSV format for use in auditor handoffs. Does that capture it?",
+      "speaker_name": "David Kim",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 401.5,
+      "endTime": 428.0,
+      "averageConfidence": 0.92,
+      "index": 28
+    },
+    {
+      "sentence": "Yeah, that's it exactly. You got it.",
+      "speaker_name": "Keith Donovan",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 428.5,
+      "endTime": 430.8,
+      "averageConfidence": 0.92,
+      "index": 29
+    },
+    {
+      "sentence": "Perfect. So here's what I'll do \u2014 I'll update the case notes with all of this, escalate it as a formal feature request to the product team with the business context and the specific formatting requirements you described, and I'll flag Nimbus Platform as a candidate for early access. Is there anything else related to this case or anything else in Comply that I can help with while I have you?",
+      "speaker_name": "David Kim",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 432.0,
+      "endTime": 457.0,
+      "averageConfidence": 0.92,
+      "index": 30
+    },
+    {
+      "sentence": "Um, not on this particular issue, no. I think that covers it. I guess just... is there a case number I should reference if I want to follow up on this?",
+      "speaker_name": "Keith Donovan",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 457.4,
+      "endTime": 468.4,
+      "averageConfidence": 0.91,
+      "index": 31
+    },
+    {
+      "sentence": "Yeah, it's the same case number \u2014 3615. That'll be the reference for this entire request. And you'll get an email confirmation with the updated case notes once I close out the call documentation today.",
+      "speaker_name": "David Kim",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 468.7,
+      "endTime": 480.8,
+      "averageConfidence": 0.9,
+      "index": 32
+    },
+    {
+      "sentence": "Perfect. Alright, appreciate the help David.",
+      "speaker_name": "Keith Donovan",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 481.3,
+      "endTime": 483.4,
+      "averageConfidence": 0.95,
+      "index": 33
+    },
+    {
+      "sentence": "Of course, happy to help. Good luck with the audit cycles, and hopefully we'll have something more concrete for you on the product side before too long. Have a good one.",
+      "speaker_name": "David Kim",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 483.7,
+      "endTime": 494.4,
+      "averageConfidence": 0.94,
+      "index": 34
+    },
+    {
+      "sentence": "You too, thanks. Bye.",
+      "speaker_name": "Keith Donovan",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 495.1,
+      "endTime": 496.6,
+      "averageConfidence": 0.95,
+      "index": 35
+    }
+  ]
+}

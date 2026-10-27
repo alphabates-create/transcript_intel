@@ -1,0 +1,232 @@
+[
+  {
+    "speakerName": "Megan Lawson",
+    "timestamp": 7.7,
+    "endTimeTs": 9.2
+  },
+  {
+    "speakerName": "Chris Lee",
+    "timestamp": 10.3,
+    "endTimeTs": 14.7
+  },
+  {
+    "speakerName": "Megan Lawson",
+    "timestamp": 15.1,
+    "endTimeTs": 23.7
+  },
+  {
+    "speakerName": "Chris Lee",
+    "timestamp": 24.7,
+    "endTimeTs": 26.9
+  },
+  {
+    "speakerName": "Megan Lawson",
+    "timestamp": 28.0,
+    "endTimeTs": 43.0
+  },
+  {
+    "speakerName": "Chris Lee",
+    "timestamp": 44.4,
+    "endTimeTs": 54.3
+  },
+  {
+    "speakerName": "Megan Lawson",
+    "timestamp": 54.9,
+    "endTimeTs": 56.4
+  },
+  {
+    "speakerName": "Chris Lee",
+    "timestamp": 57.3,
+    "endTimeTs": 71.4
+  },
+  {
+    "speakerName": "Megan Lawson",
+    "timestamp": 71.8,
+    "endTimeTs": 78.2
+  },
+  {
+    "speakerName": "Chris Lee",
+    "timestamp": 79.5,
+    "endTimeTs": 99.7
+  },
+  {
+    "speakerName": "Megan Lawson",
+    "timestamp": 100.7,
+    "endTimeTs": 108.6
+  },
+  {
+    "speakerName": "Chris Lee",
+    "timestamp": 109.6,
+    "endTimeTs": 129.4
+  },
+  {
+    "speakerName": "Megan Lawson",
+    "timestamp": 130.5,
+    "endTimeTs": 135.7
+  },
+  {
+    "speakerName": "Chris Lee",
+    "timestamp": 136.8,
+    "endTimeTs": 148.9
+  },
+  {
+    "speakerName": "Megan Lawson",
+    "timestamp": 150.1,
+    "endTimeTs": 155.2
+  },
+  {
+    "speakerName": "Chris Lee",
+    "timestamp": 156.0,
+    "endTimeTs": 172.9
+  },
+  {
+    "speakerName": "Megan Lawson",
+    "timestamp": 173.8,
+    "endTimeTs": 188.9
+  },
+  {
+    "speakerName": "Chris Lee",
+    "timestamp": 189.7,
+    "endTimeTs": 198.0
+  },
+  {
+    "speakerName": "Megan Lawson",
+    "timestamp": 198.7,
+    "endTimeTs": 211.0
+  },
+  {
+    "speakerName": "Chris Lee",
+    "timestamp": 212.3,
+    "endTimeTs": 214.9
+  },
+  {
+    "speakerName": "Megan Lawson",
+    "timestamp": 216.3,
+    "endTimeTs": 232.2
+  },
+  {
+    "speakerName": "Chris Lee",
+    "timestamp": 232.7,
+    "endTimeTs": 239.8
+  },
+  {
+    "speakerName": "Megan Lawson",
+    "timestamp": 240.1,
+    "endTimeTs": 257.6
+  },
+  {
+    "speakerName": "Chris Lee",
+    "timestamp": 258.3,
+    "endTimeTs": 268.5
+  },
+  {
+    "speakerName": "Megan Lawson",
+    "timestamp": 269.6,
+    "endTimeTs": 287.9
+  },
+  {
+    "speakerName": "Chris Lee",
+    "timestamp": 289.2,
+    "endTimeTs": 299.3
+  },
+  {
+    "speakerName": "Megan Lawson",
+    "timestamp": 299.6,
+    "endTimeTs": 307.4
+  },
+  {
+    "speakerName": "Chris Lee",
+    "timestamp": 307.9,
+    "endTimeTs": 318.0
+  },
+  {
+    "speakerName": "Megan Lawson",
+    "timestamp": 319.2,
+    "endTimeTs": 330.9
+  },
+  {
+    "speakerName": "Chris Lee",
+    "timestamp": 331.9,
+    "endTimeTs": 353.6
+  },
+  {
+    "speakerName": "Megan Lawson",
+    "timestamp": 355.0,
+    "endTimeTs": 357.8
+  },
+  {
+    "speakerName": "Chris Lee",
+    "timestamp": 359.1,
+    "endTimeTs": 373.6
+  },
+  {
+    "speakerName": "Megan Lawson",
+    "timestamp": 374.3,
+    "endTimeTs": 379.2
+  },
+  {
+    "speakerName": "Chris Lee",
+    "timestamp": 379.8,
+    "endTimeTs": 400.1
+  },
+  {
+    "speakerName": "Megan Lawson",
+    "timestamp": 400.6,
+    "endTimeTs": 414.1
+  },
+  {
+    "speakerName": "Chris Lee",
+    "timestamp": 414.7,
+    "endTimeTs": 418.1
+  },
+  {
+    "speakerName": "Megan Lawson",
+    "timestamp": 419.2,
+    "endTimeTs": 426.9
+  },
+  {
+    "speakerName": "Chris Lee",
+    "timestamp": 428.3,
+    "endTimeTs": 444.8
+  },
+  {
+    "speakerName": "Megan Lawson",
+    "timestamp": 445.6,
+    "endTimeTs": 468.0
+  },
+  {
+    "speakerName": "Chris Lee",
+    "timestamp": 468.8,
+    "endTimeTs": 478.8
+  },
+  {
+    "speakerName": "Megan Lawson",
+    "timestamp": 480.0,
+    "endTimeTs": 491.3
+  },
+  {
+    "speakerName": "Chris Lee",
+    "timestamp": 492.4,
+    "endTimeTs": 497.3
+  },
+  {
+    "speakerName": "Megan Lawson",
+    "timestamp": 497.7,
+    "endTimeTs": 511.5
+  },
+  {
+    "speakerName": "Chris Lee",
+    "timestamp": 511.9,
+    "endTimeTs": 514.7
+  },
+  {
+    "speakerName": "Megan Lawson",
+    "timestamp": 515.1,
+    "endTimeTs": 516.6
+  },
+  {
+    "speakerName": "Chris Lee",
+    "timestamp": 517.8,
+    "endTimeTs": 519.3
+  }
+]

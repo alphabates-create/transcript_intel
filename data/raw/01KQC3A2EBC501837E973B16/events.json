@@ -1,0 +1,50 @@
+[
+  {
+    "participantName": "Ananya Sharma",
+    "timestamp": 1771497005000,
+    "type": "Join",
+    "time": 5.0
+  },
+  {
+    "participantName": "Victor Zheng",
+    "timestamp": 1771497008000,
+    "type": "Join",
+    "time": 8.0
+  },
+  {
+    "participantName": "James Mitchell",
+    "timestamp": 1771497031000,
+    "type": "Join",
+    "time": 31.0
+  },
+  {
+    "participantName": "Olivia Strand",
+    "timestamp": 1771497032000,
+    "type": "Join",
+    "time": 32.0
+  },
+  {
+    "participantName": "James Mitchell",
+    "timestamp": 1771498936000,
+    "type": "Leave",
+    "time": 1935.9999999999998
+  },
+  {
+    "participantName": "Ananya Sharma",
+    "timestamp": 1771498911000,
+    "type": "Leave",
+    "time": 1910.9999999999998
+  },
+  {
+    "participantName": "Victor Zheng",
+    "timestamp": 1771498913000,
+    "type": "Leave",
+    "time": 1912.9999999999998
+  },
+  {
+    "participantName": "Olivia Strand",
+    "timestamp": 1771498930000,
+    "type": "Leave",
+    "time": 1929.9999999999998
+  }
+]

@@ -1,0 +1,237 @@
+[
+  {
+    "speakerName": "Chris Lee",
+    "timestamp": 3.9,
+    "endTimeTs": 8.4
+  },
+  {
+    "speakerName": "Nina Kowalski",
+    "timestamp": 8.8,
+    "endTimeTs": 11.0
+  },
+  {
+    "speakerName": "Tyler Washington",
+    "timestamp": 11.9,
+    "endTimeTs": 13.4
+  },
+  {
+    "speakerName": "Sofia Petrov",
+    "timestamp": 14.5,
+    "endTimeTs": 16.0
+  },
+  {
+    "speakerName": "Chris Lee",
+    "timestamp": 16.5,
+    "endTimeTs": 36.7
+  },
+  {
+    "speakerName": "Nina Kowalski",
+    "timestamp": 37.5,
+    "endTimeTs": 47.1
+  },
+  {
+    "speakerName": "Chris Lee",
+    "timestamp": 48.0,
+    "endTimeTs": 64.0
+  },
+  {
+    "speakerName": "Tyler Washington",
+    "timestamp": 64.4,
+    "endTimeTs": 88.9
+  },
+  {
+    "speakerName": "Sofia Petrov",
+    "timestamp": 89.7,
+    "endTimeTs": 92.6
+  },
+  {
+    "speakerName": "Tyler Washington",
+    "timestamp": 93.7,
+    "endTimeTs": 101.7
+  },
+  {
+    "speakerName": "Sofia Petrov",
+    "timestamp": 103.2,
+    "endTimeTs": 108.9
+  },
+  {
+    "speakerName": "Tyler Washington",
+    "timestamp": 109.2,
+    "endTimeTs": 129.2
+  },
+  {
+    "speakerName": "Nina Kowalski",
+    "timestamp": 130.1,
+    "endTimeTs": 141.4
+  },
+  {
+    "speakerName": "Chris Lee",
+    "timestamp": 142.6,
+    "endTimeTs": 157.0
+  },
+  {
+    "speakerName": "Nina Kowalski",
+    "timestamp": 157.9,
+    "endTimeTs": 170.7
+  },
+  {
+    "speakerName": "Chris Lee",
+    "timestamp": 172.2,
+    "endTimeTs": 177.1
+  },
+  {
+    "speakerName": "Sofia Petrov",
+    "timestamp": 178.3,
+    "endTimeTs": 202.3
+  },
+  {
+    "speakerName": "Tyler Washington",
+    "timestamp": 203.1,
+    "endTimeTs": 212.4
+  },
+  {
+    "speakerName": "Sofia Petrov",
+    "timestamp": 213.7,
+    "endTimeTs": 222.5
+  },
+  {
+    "speakerName": "Nina Kowalski",
+    "timestamp": 223.4,
+    "endTimeTs": 228.7
+  },
+  {
+    "speakerName": "Chris Lee",
+    "timestamp": 229.8,
+    "endTimeTs": 239.7
+  },
+  {
+    "speakerName": "Sofia Petrov",
+    "timestamp": 240.8,
+    "endTimeTs": 267.2
+  },
+  {
+    "speakerName": "Chris Lee",
+    "timestamp": 268.4,
+    "endTimeTs": 281.7
+  },
+  {
+    "speakerName": "Tyler Washington",
+    "timestamp": 282.4,
+    "endTimeTs": 292.1
+  },
+  {
+    "speakerName": "Nina Kowalski",
+    "timestamp": 292.8,
+    "endTimeTs": 305.9
+  },
+  {
+    "speakerName": "Chris Lee",
+    "timestamp": 307.2,
+    "endTimeTs": 329.0
+  },
+  {
+    "speakerName": "Tyler Washington",
+    "timestamp": 329.3,
+    "endTimeTs": 340.9
+  },
+  {
+    "speakerName": "Sofia Petrov",
+    "timestamp": 342.3,
+    "endTimeTs": 362.3
+  },
+  {
+    "speakerName": "Nina Kowalski",
+    "timestamp": 362.8,
+    "endTimeTs": 370.4
+  },
+  {
+    "speakerName": "Sofia Petrov",
+    "timestamp": 371.7,
+    "endTimeTs": 376.7
+  },
+  {
+    "speakerName": "Chris Lee",
+    "timestamp": 377.8,
+    "endTimeTs": 391.6
+  },
+  {
+    "speakerName": "Tyler Washington",
+    "timestamp": 392.1,
+    "endTimeTs": 399.5
+  },
+  {
+    "speakerName": "Sofia Petrov",
+    "timestamp": 400.5,
+    "endTimeTs": 418.0
+  },
+  {
+    "speakerName": "Chris Lee",
+    "timestamp": 419.1,
+    "endTimeTs": 424.5
+  },
+  {
+    "speakerName": "Nina Kowalski",
+    "timestamp": 425.6,
+    "endTimeTs": 439.4
+  },
+  {
+    "speakerName": "Chris Lee",
+    "timestamp": 440.3,
+    "endTimeTs": 453.0
+  },
+  {
+    "speakerName": "Nina Kowalski",
+    "timestamp": 453.9,
+    "endTimeTs": 465.0
+  },
+  {
+    "speakerName": "Chris Lee",
+    "timestamp": 466.4,
+    "endTimeTs": 482.2
+  },
+  {
+    "speakerName": "Sofia Petrov",
+    "timestamp": 483.6,
+    "endTimeTs": 495.9
+  },
+  {
+    "speakerName": "Tyler Washington",
+    "timestamp": 496.3,
+    "endTimeTs": 505.9
+  },
+  {
+    "speakerName": "Chris Lee",
+    "timestamp": 507.0,
+    "endTimeTs": 524.3
+  },
+  {
+    "speakerName": "Nina Kowalski",
+    "timestamp": 525.1,
+    "endTimeTs": 535.0
+  },
+  {
+    "speakerName": "Chris Lee",
+    "timestamp": 536.2,
+    "endTimeTs": 554.1
+  },
+  {
+    "speakerName": "Tyler Washington",
+    "timestamp": 555.1,
+    "endTimeTs": 556.6
+  },
+  {
+    "speakerName": "Nina Kowalski",
+    "timestamp": 557.0,
+    "endTimeTs": 558.8
+  },
+  {
+    "speakerName": "Sofia Petrov",
+    "timestamp": 559.2,
+    "endTimeTs": 562.2
+  },
+  {
+    "speakerName": "Chris Lee",
+    "timestamp": 563.3,
+    "endTimeTs": 567.5
+  }
+]

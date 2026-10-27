@@ -1,0 +1,414 @@
+{
+  "data": [
+    {
+      "sentence": "Hi, this is David Kim from Aegis Cloud Security support, I have support case number 6147 open here \u2014 am I speaking with Alicia Monroe?",
+      "speaker_name": "David Kim",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 3.5,
+      "endTime": 12.0,
+      "averageConfidence": 0.9,
+      "index": 0
+    },
+    {
+      "sentence": "Yes, hi David, this is Alicia, and I also have Gregory Fisk our IT Director on the line with me today.",
+      "speaker_name": "Alicia Monroe",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 12.9,
+      "endTime": 20.7,
+      "averageConfidence": 0.96,
+      "index": 1
+    },
+    {
+      "sentence": "Gregory, Alicia, great \u2014 thanks for jumping on. I've reviewed the case notes you submitted, but I'd love to hear it in your own words. What exactly are you seeing with the alert delays?",
+      "speaker_name": "David Kim",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 21.3,
+      "endTime": 33.2,
+      "averageConfidence": 0.94,
+      "index": 2
+    },
+    {
+      "sentence": "Yeah, so \u2014 okay, I'll let Gregory kind of walk through the technical side, but from my perspective as risk manager, the core issue is that we're in financial services, we have regulatory obligations, and our threat alerts are coming in anywhere from 20 to 45 minutes late. That is not acceptable for us.",
+      "speaker_name": "Alicia Monroe",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 33.7,
+      "endTime": 53.0,
+      "averageConfidence": 0.89,
+      "index": 3
+    },
+    {
+      "sentence": "Right, and to add to what Alicia said \u2014 we started noticing this around, I want to say, April 9th or 10th, so just last week. Our SOC team flagged it because they were correlating timestamps on alerts versus when the actual events were logged in our SIEM, and there's a consistent lag. It's not occasional, it's every single alert.",
+      "speaker_name": "Gregory Fisk",
+      "sentimentType": "negative",
+      "speaker_id": 2,
+      "time": 54.0,
+      "endTime": 74.7,
+      "averageConfidence": 0.94,
+      "index": 4
+    },
+    {
+      "sentence": "Every single alert, okay \u2014 and Gregory, when you say you're comparing against your SIEM, what are you using on that side, just so I have the full picture?",
+      "speaker_name": "David Kim",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 75.8,
+      "endTime": 85.9,
+      "averageConfidence": 0.89,
+      "index": 5
+    },
+    {
+      "sentence": "We're running LogVault for our primary SIEM integration, and we have Aegis Detect configured to push alerts via webhook. The events are hitting LogVault with the correct original timestamps, but the Aegis alert notification \u2014 the one our security team acts on \u2014 that's the thing that's delayed.",
+      "speaker_name": "Gregory Fisk",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 86.6,
+      "endTime": 103.6,
+      "averageConfidence": 0.96,
+      "index": 6
+    },
+    {
+      "sentence": "Okay, that's helpful. And \u2014 I do want to be upfront with you both \u2014 you may be aware that we had a significant outage with Detect back in mid-March, the event processing pipeline issue. We addressed that with some architectural changes. I want to make sure what you're seeing now isn't a residual effect of those changes.",
+      "speaker_name": "David Kim",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 104.2,
+      "endTime": 124.6,
+      "averageConfidence": 0.9,
+      "index": 7
+    },
+    {
+      "sentence": "Wait, hold on \u2014 what outage? We weren't notified of any outage.",
+      "speaker_name": "Alicia Monroe",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 125.3,
+      "endTime": 129.8,
+      "averageConfidence": 0.92,
+      "index": 8
+    },
+    {
+      "sentence": "Yeah, I was going to ask the same thing. We had no communication from Aegis about a platform outage affecting Detect. When did this happen?",
+      "speaker_name": "Gregory Fisk",
+      "sentimentType": "negative",
+      "speaker_id": 2,
+      "time": 131.0,
+      "endTime": 140.0,
+      "averageConfidence": 0.91,
+      "index": 9
+    },
+    {
+      "sentence": "So the outage was March 10th through the 18th \u2014 it was a cascading failure in our event ingestion pipeline, approximately six hours of reduced visibility. There were status page updates posted, and there should have been email notifications to primary account contacts. I \u2014 I'm genuinely sorry if that communication didn't reach you, that's something I'm going to flag internally.",
+      "speaker_name": "David Kim",
+      "sentimentType": "negative",
+      "speaker_id": 0,
+      "time": 140.9,
+      "endTime": 162.4,
+      "averageConfidence": 0.91,
+      "index": 10
+    },
+    {
+      "sentence": "David, six hours of no threat monitoring visibility and we're hearing about it right now, on April 15th? That is \u2014 I mean, Gregory, are you as frustrated as I am right now?",
+      "speaker_name": "Alicia Monroe",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 163.0,
+      "endTime": 174.5,
+      "averageConfidence": 0.95,
+      "index": 11
+    },
+    {
+      "sentence": "Very much so. Look David, I don't want to pile on you personally here, you're support, I get it \u2014 but this is a serious gap. We have examiners who ask us whether our security tooling was operational. If we didn't know there was an outage, we can't accurately answer that question.",
+      "speaker_name": "Gregory Fisk",
+      "sentimentType": "negative",
+      "speaker_id": 2,
+      "time": 175.7,
+      "endTime": 194.3,
+      "averageConfidence": 0.95,
+      "index": 12
+    },
+    {
+      "sentence": "That is completely fair, and I hear you both. I'm documenting this specifically \u2014 the communication failure \u2014 as a separate escalation item on top of the technical issue. Your account team needs to follow up on that. But let me stay focused on what's happening right now because the delays you're seeing, the 20 to 45 minutes \u2014 that's a current, active problem and I want to fix it today if I can.",
+      "speaker_name": "David Kim",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 195.4,
+      "endTime": 221.3,
+      "averageConfidence": 0.89,
+      "index": 13
+    },
+    {
+      "sentence": "Okay, yeah \u2014 let's figure out what's going on. I pulled our Detect configuration settings this morning, I can share my screen if that helps.",
+      "speaker_name": "Gregory Fisk",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 222.5,
+      "endTime": 231.1,
+      "averageConfidence": 0.91,
+      "index": 14
+    },
+    {
+      "sentence": "That would be great, but actually let me start by pulling up your tenant on our backend first \u2014 um \u2014 okay, Summit Trust, I'm looking at your Detect configuration now. Gregory, can you tell me what alert priority thresholds you have set? Are you filtering on severity levels at all?",
+      "speaker_name": "David Kim",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 231.9,
+      "endTime": 249.8,
+      "averageConfidence": 0.94,
+      "index": 15
+    },
+    {
+      "sentence": "We're set to receive all severity levels, so critical, high, medium, and low. We didn't want to filter anything out.",
+      "speaker_name": "Gregory Fisk",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 251.0,
+      "endTime": 257.8,
+      "averageConfidence": 0.88,
+      "index": 16
+    },
+    {
+      "sentence": "Okay, so you're ingesting the full volume. And your webhook endpoint \u2014 is that pointing to an internal receiver or a third-party relay?",
+      "speaker_name": "David Kim",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 259.3,
+      "endTime": 267.1,
+      "averageConfidence": 0.96,
+      "index": 17
+    },
+    {
+      "sentence": "It's going to an internal middleware layer we built, it normalizes the payload before it hits LogVault. But again \u2014 the timestamps tell us the delay is happening before the webhook fires, not in our middleware. The event timestamp and the alert-sent timestamp in the Aegis payload itself have a 20-plus minute gap.",
+      "speaker_name": "Gregory Fisk",
+      "sentimentType": "negative",
+      "speaker_id": 2,
+      "time": 267.6,
+      "endTime": 286.2,
+      "averageConfidence": 0.9,
+      "index": 18
+    },
+    {
+      "sentence": "Right, okay \u2014 yeah that's actually really telling. If the delay is baked into the payload itself, that means it's happening on our processing side, not yours. Let me look at... okay, so I'm looking at your event processing queue metrics and \u2014 hm. Yeah, I'm seeing something here.",
+      "speaker_name": "David Kim",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 286.5,
+      "endTime": 303.5,
+      "averageConfidence": 0.91,
+      "index": 19
+    },
+    {
+      "sentence": "What are you seeing? Because honestly at this point I'm just hoping there's a clear answer.",
+      "speaker_name": "Alicia Monroe",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 303.8,
+      "endTime": 309.9,
+      "averageConfidence": 0.93,
+      "index": 20
+    },
+    {
+      "sentence": "So \u2014 and I want to be careful not to over-promise here \u2014 but what I'm seeing is that your tenant is sitting on a processing node cluster that's running significantly higher queue depth than it should be. This is likely connected to the redistribution work we did after the March outage, when we moved to redundant processing nodes. It looks like Summit Trust got placed on a cluster that's, uh, handling a disproportionate share of event volume right now.",
+      "speaker_name": "David Kim",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 310.9,
+      "endTime": 339.2,
+      "averageConfidence": 0.97,
+      "index": 21
+    },
+    {
+      "sentence": "So you fixed your outage problem and accidentally caused our latency problem. Is that what you're telling me?",
+      "speaker_name": "Alicia Monroe",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 340.2,
+      "endTime": 346.9,
+      "averageConfidence": 0.92,
+      "index": 22
+    },
+    {
+      "sentence": "I \u2014 yeah, that's essentially what the data is suggesting. I want to be honest with you rather than dance around it. The remediation work introduced an imbalance in tenant distribution across our processing infrastructure, and Summit Trust appears to be on the short end of that.",
+      "speaker_name": "David Kim",
+      "sentimentType": "negative",
+      "speaker_id": 0,
+      "time": 347.9,
+      "endTime": 364.2,
+      "averageConfidence": 0.95,
+      "index": 23
+    },
+    {
+      "sentence": "Okay. So what do we do about it? What's the fix and what's the timeline?",
+      "speaker_name": "Gregory Fisk",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 365.3,
+      "endTime": 370.5,
+      "averageConfidence": 0.93,
+      "index": 24
+    },
+    {
+      "sentence": "The fix is migrating your tenant to a less-loaded node cluster. I can initiate that request right now as an emergency rebalance \u2014 that goes to our infrastructure team with a priority flag. Typically that kind of migration completes within two to four hours with zero downtime on your end.",
+      "speaker_name": "David Kim",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 370.9,
+      "endTime": 388.5,
+      "averageConfidence": 0.9,
+      "index": 25
+    },
+    {
+      "sentence": "Two to four hours \u2014 okay. And we'd see the latency drop after that?",
+      "speaker_name": "Gregory Fisk",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 389.0,
+      "endTime": 393.7,
+      "averageConfidence": 0.88,
+      "index": 26
+    },
+    {
+      "sentence": "That's what I'd expect, yes. I want to set the expectation that there may be a brief period \u2014 maybe 10, 15 minutes \u2014 during the migration where queue processing pauses momentarily, but you shouldn't see an alert gap, alerts will catch up immediately after. I'll monitor it on my end and I'll send you a direct update when the migration is complete.",
+      "speaker_name": "David Kim",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 394.3,
+      "endTime": 416.1,
+      "averageConfidence": 0.95,
+      "index": 27
+    },
+    {
+      "sentence": "Alright. Gregory, does that make sense technically to you?",
+      "speaker_name": "Alicia Monroe",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 417.6,
+      "endTime": 420.8,
+      "averageConfidence": 0.93,
+      "index": 28
+    },
+    {
+      "sentence": "It does, yeah. David, I'd also ask \u2014 can we get some kind of written summary of what happened? The March outage, the root cause of the latency we're experiencing, and what was done to fix it? Because I need to be able to document this for our risk register and potentially for our next regulatory review.",
+      "speaker_name": "Gregory Fisk",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 421.5,
+      "endTime": 441.6,
+      "averageConfidence": 0.89,
+      "index": 29
+    },
+    {
+      "sentence": "Absolutely, yes. I'll put together a formal incident summary \u2014 it'll cover the March pipeline event, the remediation steps taken, the unintended impact on tenant node distribution, and the resolution we're implementing today. I can have a draft to you by end of business tomorrow.",
+      "speaker_name": "David Kim",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 442.8,
+      "endTime": 458.3,
+      "averageConfidence": 0.95,
+      "index": 30
+    },
+    {
+      "sentence": "That would be really helpful. And I'd like that to go to our account manager as well, not just this support ticket, because we have a QBR coming up and this needs to be part of that conversation.",
+      "speaker_name": "Alicia Monroe",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 459.0,
+      "endTime": 472.7,
+      "averageConfidence": 0.97,
+      "index": 31
+    },
+    {
+      "sentence": "Noted, I'll loop in your account manager explicitly. And Alicia, I just want to \u2014 I want to acknowledge again that the communication piece of this, not being notified about the March outage \u2014 that's a real failure on our side and it shouldn't have happened. That's going to be a separate escalation I document today.",
+      "speaker_name": "David Kim",
+      "sentimentType": "negative",
+      "speaker_id": 0,
+      "time": 473.4,
+      "endTime": 492.9,
+      "averageConfidence": 0.9,
+      "index": 32
+    },
+    {
+      "sentence": "I appreciate you saying that. I'm not \u2014 look, we're not looking to be difficult customers, we're trying to run a secure operation and we rely on Detect to do that. When it's not working right and we don't even know it's not working right, that's when it becomes a real problem for us.",
+      "speaker_name": "Alicia Monroe",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 494.0,
+      "endTime": 513.3,
+      "averageConfidence": 0.9,
+      "index": 33
+    },
+    {
+      "sentence": "No, I completely understand. You're right to be frustrated. Okay \u2014 let me go ahead and submit that emergency rebalance request right now while we're on the call. I'm submitting it as I speak... okay, that's in, ticket reference for the infrastructure team is internal IR-8842, I'll include that in your summary doc.",
+      "speaker_name": "David Kim",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 514.3,
+      "endTime": 532.9,
+      "averageConfidence": 0.89,
+      "index": 34
+    },
+    {
+      "sentence": "Perfect. And David, just one last thing \u2014 is there any way to set up some kind of monitoring alert on our end, or on yours, so that if alert latency creeps above a threshold we know about it proactively? Rather than our SOC team manually catching it?",
+      "speaker_name": "Gregory Fisk",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 533.3,
+      "endTime": 550.0,
+      "averageConfidence": 0.95,
+      "index": 35
+    },
+    {
+      "sentence": "That's a great question and honestly it's something we should have had in place. Right now in Detect there isn't a native self-monitoring latency alert for customers, but \u2014 and I'll flag this as product feedback \u2014 that's a gap. In the short term, I can work with you on setting up a synthetic monitoring check using your existing LogVault infrastructure that compares event timestamps against alert-received timestamps on a schedule. It's a workaround but it'd give you early warning.",
+      "speaker_name": "David Kim",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 551.5,
+      "endTime": 579.9,
+      "averageConfidence": 0.95,
+      "index": 36
+    },
+    {
+      "sentence": "Yeah, let's do that. Can you send us documentation on how to set that up?",
+      "speaker_name": "Gregory Fisk",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 581.3,
+      "endTime": 586.7,
+      "averageConfidence": 0.97,
+      "index": 37
+    },
+    {
+      "sentence": "I will include that in the follow-up email along with the incident summary. Alright \u2014 I think we have a clear path forward here. Rebalance request is submitted, I'll monitor progress, you'll have a written summary by EOB tomorrow, and I'll reach out directly once the migration is confirmed complete. Any other questions before I let you go?",
+      "speaker_name": "David Kim",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 587.8,
+      "endTime": 608.3,
+      "averageConfidence": 0.95,
+      "index": 38
+    },
+    {
+      "sentence": "I think that covers it for now. We'll be watching our alert latency closely and we expect to hear from you.",
+      "speaker_name": "Alicia Monroe",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 609.5,
+      "endTime": 617.3,
+      "averageConfidence": 0.92,
+      "index": 39
+    },
+    {
+      "sentence": "You will. Thank you both for your time, I'm sorry this happened, and we'll get it sorted. Take care.",
+      "speaker_name": "David Kim",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 618.2,
+      "endTime": 625.0,
+      "averageConfidence": 0.89,
+      "index": 40
+    }
+  ]
+}

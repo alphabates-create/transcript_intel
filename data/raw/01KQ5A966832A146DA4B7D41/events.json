@@ -1,0 +1,26 @@
+[
+  {
+    "participantName": "Alicia Monroe",
+    "timestamp": 1774540838000,
+    "type": "Join",
+    "time": 38.0
+  },
+  {
+    "participantName": "Maria Santos",
+    "timestamp": 1774540851000,
+    "type": "Join",
+    "time": 51.0
+  },
+  {
+    "participantName": "Maria Santos",
+    "timestamp": 1774543951000,
+    "type": "Leave",
+    "time": 3151.0
+  },
+  {
+    "participantName": "Alicia Monroe",
+    "timestamp": 1774543961000,
+    "type": "Leave",
+    "time": 3161.0
+  }
+]

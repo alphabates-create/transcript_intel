@@ -1,0 +1,514 @@
+{
+  "data": [
+    {
+      "sentence": "Hey Derek, thanks for making time today \u2014 I know February is always kind of a hectic month for everyone.",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 6.0,
+      "endTime": 12.9,
+      "averageConfidence": 0.95,
+      "index": 0
+    },
+    {
+      "sentence": "Yeah, no kidding, it really is. We've got our internal audit cycle ramping up so, uh, the timing's actually not terrible for this conversation.",
+      "speaker_name": "Derek Owens",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 13.3,
+      "endTime": 21.7,
+      "averageConfidence": 0.94,
+      "index": 1
+    },
+    {
+      "sentence": "Good, that actually works out well for what I wanted to go through today. So the plan is \u2014 and stop me if you want to reorder anything \u2014 I was thinking we'd do a quick look at where you are with the platform overall, talk through the renewal terms, and then get into any open items or concerns you have. Does that work?",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 23.0,
+      "endTime": 45.3,
+      "averageConfidence": 0.96,
+      "index": 2
+    },
+    {
+      "sentence": "Yeah that works. I do have a few things I want to bring up, so maybe just flag me when you're done with your piece and I'll jump in.",
+      "speaker_name": "Derek Owens",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 45.7,
+      "endTime": 55.9,
+      "averageConfidence": 0.91,
+      "index": 3
+    },
+    {
+      "sentence": "Absolutely, sounds good. So, um, let me just pull up your account here. Crestline Wealth, you came on board \u2014 was it March of 2024?",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 57.2,
+      "endTime": 66.0,
+      "averageConfidence": 0.91,
+      "index": 4
+    },
+    {
+      "sentence": "March, yeah. March 2024. We started with Protect and Detect and then added Comply partway through, I think around Q3.",
+      "speaker_name": "Derek Owens",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 66.5,
+      "endTime": 73.3,
+      "averageConfidence": 0.89,
+      "index": 5
+    },
+    {
+      "sentence": "Right, exactly, August of 2024 is when Comply came on. So you're on three modules \u2014 Protect, Detect, and Comply. Identity's still not in scope for you, correct?",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 73.8,
+      "endTime": 83.7,
+      "averageConfidence": 0.96,
+      "index": 6
+    },
+    {
+      "sentence": "Correct. We've got a separate IAM solution we're locked into for another year at least, so Identity's off the table for now.",
+      "speaker_name": "Derek Owens",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 85.0,
+      "endTime": 92.5,
+      "averageConfidence": 0.92,
+      "index": 7
+    },
+    {
+      "sentence": "Understood, yeah. Okay so your current contract runs through, let's see, end of March 2026, so we've got about six weeks before that comes up. I want to make sure we're not scrambling at the last minute on this.",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 93.2,
+      "endTime": 107.3,
+      "averageConfidence": 0.91,
+      "index": 8
+    },
+    {
+      "sentence": "Yeah, six weeks is fine. I mean I need to get sign-off from our CFO so I'd want to have something in front of her by, I don't know, first week of March probably.",
+      "speaker_name": "Derek Owens",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 107.9,
+      "endTime": 120.1,
+      "averageConfidence": 0.97,
+      "index": 9
+    },
+    {
+      "sentence": "Okay, so that gives us \u2014 call it two weeks to finalize terms on our end and get you something you can actually take to her. That's very doable.",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 120.6,
+      "endTime": 130.8,
+      "averageConfidence": 0.9,
+      "index": 10
+    },
+    {
+      "sentence": "That works. And I'll be honest with you, Maria, there's \u2014 it's not like we're shopping around aggressively or anything. We're mostly just, uh, trying to make sure the value story holds up when I present it internally.",
+      "speaker_name": "Derek Owens",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 132.3,
+      "endTime": 145.3,
+      "averageConfidence": 0.96,
+      "index": 11
+    },
+    {
+      "sentence": "No, that's fair, and that's exactly what I want to help you with. So let me walk through usage first and then we can talk numbers. On the Protect side, you're backing up \u2014 I have here roughly 14 terabytes across your primary workloads. Has that grown since we last spoke?",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 146.1,
+      "endTime": 163.8,
+      "averageConfidence": 0.88,
+      "index": 12
+    },
+    {
+      "sentence": "Yeah, it's crept up. I'd say we're probably closer to 17 now, maybe 17 and a half. We brought a few more client data environments under management in Q4.",
+      "speaker_name": "Derek Owens",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 164.4,
+      "endTime": 175.0,
+      "averageConfidence": 0.91,
+      "index": 13
+    },
+    {
+      "sentence": "Okay, that's useful to know because that actually may affect your tier pricing slightly. Not dramatically, but I'll want to make sure the quote reflects the right volume. I don't want to send you something and then have to go back and revise it.",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 176.3,
+      "endTime": 192.1,
+      "averageConfidence": 0.95,
+      "index": 14
+    },
+    {
+      "sentence": "Yeah, please, do it right the first time. Nothing worse than getting a revised quote two days before you were planning to submit.",
+      "speaker_name": "Derek Owens",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 192.5,
+      "endTime": 200.9,
+      "averageConfidence": 0.95,
+      "index": 15
+    },
+    {
+      "sentence": "Agreed, completely. Okay. On Detect \u2014 how would you characterize the day-to-day use? Is your team actively working out of the dashboard or is it more of a background thing?",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 201.2,
+      "endTime": 211.9,
+      "averageConfidence": 0.9,
+      "index": 16
+    },
+    {
+      "sentence": "It's, um, it's somewhere in between honestly. We've got alerts set up and my team responds to those, but we're not sitting in the dashboard all day. It's more reactive than proactive, I guess.",
+      "speaker_name": "Derek Owens",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 212.5,
+      "endTime": 224.3,
+      "averageConfidence": 0.95,
+      "index": 17
+    },
+    {
+      "sentence": "That's actually pretty typical for a team your size. I do want to flag \u2014 and this is relevant to something I'll mention later \u2014 we had an incident with Detect back in, well it hasn't happened yet but I'll just say we've been doing a lot of infrastructure work on the detection pipeline to improve resilience. I want to make sure you're aware of that investment we're making.",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 225.2,
+      "endTime": 249.6,
+      "averageConfidence": 0.89,
+      "index": 18
+    },
+    {
+      "sentence": "Okay, yeah, what kind of infrastructure work? Is there something specific that prompted it?",
+      "speaker_name": "Derek Owens",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 250.3,
+      "endTime": 254.9,
+      "averageConfidence": 0.93,
+      "index": 19
+    },
+    {
+      "sentence": "So, the engineering team has been focused on eliminating single points of failure in the event ingestion layer. Basically making the processing pipeline more fault-tolerant. It's part of a broader reliability initiative we've had running since late last year.",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 256.4,
+      "endTime": 269.8,
+      "averageConfidence": 0.93,
+      "index": 20
+    },
+    {
+      "sentence": "Got it. I mean, reliability in threat monitoring is kind of non-negotiable for us. We're a wealth management firm, we've got SEC oversight, FINRA \u2014 if our threat monitoring goes dark for any period of time that's a real problem.",
+      "speaker_name": "Derek Owens",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 270.8,
+      "endTime": 284.7,
+      "averageConfidence": 0.95,
+      "index": 21
+    },
+    {
+      "sentence": "Absolutely, and I hear you on that. That's exactly why this is a priority for the product team. I can follow up with more specifics on the resilience improvements if that would be helpful to have documented.",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 286.1,
+      "endTime": 299.2,
+      "averageConfidence": 0.91,
+      "index": 22
+    },
+    {
+      "sentence": "Yeah, honestly, if you can send me something in writing \u2014 even a brief technical summary \u2014 that would actually be useful for my internal documentation.",
+      "speaker_name": "Derek Owens",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 299.7,
+      "endTime": 309.3,
+      "averageConfidence": 0.88,
+      "index": 23
+    },
+    {
+      "sentence": "I'll get that over to you. Let me make a note. Okay, so moving to Comply \u2014 this is actually where I'm pretty excited to share some things. How has the team been using it so far?",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 310.2,
+      "endTime": 322.9,
+      "averageConfidence": 0.88,
+      "index": 24
+    },
+    {
+      "sentence": "It's been useful. We primarily use it for SOC 2 evidence collection right now. It's cut down on the manual work my team was doing before, which was, uh, pretty painful honestly.",
+      "speaker_name": "Derek Owens",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 324.3,
+      "endTime": 335.5,
+      "averageConfidence": 0.92,
+      "index": 25
+    },
+    {
+      "sentence": "Good to hear. So one thing that's coming \u2014 and this is still a couple months out \u2014 we have a significant Comply update in the works that's going to add on-demand reporting across multiple frameworks. So not just SOC 2, but PCI DSS, HIPAA, ISO 27001. All reportable on demand rather than having to build it out manually.",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 335.9,
+      "endTime": 356.8,
+      "averageConfidence": 0.94,
+      "index": 26
+    },
+    {
+      "sentence": "Okay, that's actually relevant to us. We're starting to get questions from some of our institutional clients about our compliance posture and having something I can generate quickly rather than spending two weeks pulling it together would be... yeah, that's interesting.",
+      "speaker_name": "Derek Owens",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 358.2,
+      "endTime": 372.8,
+      "averageConfidence": 0.91,
+      "index": 27
+    },
+    {
+      "sentence": "Right, and it's included in your existing Comply subscription, so there's no additional cost for that. Just want to make sure that lands in your value conversation when you're talking to your CFO.",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 373.6,
+      "endTime": 385.1,
+      "averageConfidence": 0.95,
+      "index": 28
+    },
+    {
+      "sentence": "Good point. I'll make a note of that. Do you have a timeline on when that's available?",
+      "speaker_name": "Derek Owens",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 385.6,
+      "endTime": 391.9,
+      "averageConfidence": 0.96,
+      "index": 29
+    },
+    {
+      "sentence": "We're targeting early April. I don't have a hard date I can commit to right now, but Q2 beginning of the quarter is the current target.",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 392.3,
+      "endTime": 401.7,
+      "averageConfidence": 0.89,
+      "index": 30
+    },
+    {
+      "sentence": "Okay, so after our renewal would kick in. That's fine, it's still a near-term benefit.",
+      "speaker_name": "Derek Owens",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 402.7,
+      "endTime": 408.3,
+      "averageConfidence": 0.89,
+      "index": 31
+    },
+    {
+      "sentence": "Exactly. And you'd be on it from day one since you'll be a continuing customer. Okay, so let's talk about the renewal structure. Your current annual contract is \u2014 I have it at $148,000. Given your data volume change and, uh, just the general renewal conversation, we're looking at a modest increase.",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 409.5,
+      "endTime": 427.6,
+      "averageConfidence": 0.95,
+      "index": 32
+    },
+    {
+      "sentence": "What's modest mean? Ballpark.",
+      "speaker_name": "Derek Owens",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 428.7,
+      "endTime": 430.2,
+      "averageConfidence": 0.89,
+      "index": 33
+    },
+    {
+      "sentence": "We're probably looking at somewhere in the $155,000 to $160,000 range depending on how we structure the volume tier for Protect. That's the primary driver \u2014 the data growth you mentioned.",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 431.6,
+      "endTime": 442.9,
+      "averageConfidence": 0.91,
+      "index": 34
+    },
+    {
+      "sentence": "Okay. I mean, that's, what, five to eight percent. It's not outrageous but I'll still need to justify it. What's your flexibility there?",
+      "speaker_name": "Derek Owens",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 443.5,
+      "endTime": 451.4,
+      "averageConfidence": 0.91,
+      "index": 35
+    },
+    {
+      "sentence": "There's always some flexibility, I'm not going to pretend otherwise. If you're willing to go to a two-year term, I can probably bring that number down closer to where you are now. It's the kind of thing where committing longer helps me make the case internally.",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 452.8,
+      "endTime": 469.3,
+      "averageConfidence": 0.92,
+      "index": 36
+    },
+    {
+      "sentence": "Hmm. Two years is doable, I'd just need to make sure my CFO is comfortable with that length of commitment. We've had some, uh, vendor consolidation conversations at the executive level so I want to make sure I'm not locking something in that gets revisited six months from now.",
+      "speaker_name": "Derek Owens",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 470.0,
+      "endTime": 486.9,
+      "averageConfidence": 0.92,
+      "index": 37
+    },
+    {
+      "sentence": "Understood. Maybe the right move is I send you a quote that shows both options side by side \u2014 one year at one price, two year at another \u2014 and that way you've got something concrete to put in front of your CFO and she can see the tradeoff clearly.",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 487.3,
+      "endTime": 505.2,
+      "averageConfidence": 0.91,
+      "index": 38
+    },
+    {
+      "sentence": "Yeah, that actually makes more sense than me trying to explain it verbally. A comparison sheet would help.",
+      "speaker_name": "Derek Owens",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 505.8,
+      "endTime": 512.3,
+      "averageConfidence": 0.92,
+      "index": 39
+    },
+    {
+      "sentence": "Okay, I'll put that together. Let me also ask \u2014 are there any service level things that have come up that I should be aware of? Any support tickets that didn't get resolved to your satisfaction, anything like that?",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 513.2,
+      "endTime": 527.1,
+      "averageConfidence": 0.93,
+      "index": 40
+    },
+    {
+      "sentence": "Nothing major. There was a \u2014 I think it was November, maybe early December \u2014 a ticket around Protect where a scheduled backup job didn't complete and it took a couple days to get a real answer from support. That was a little frustrating but it did eventually get resolved.",
+      "speaker_name": "Derek Owens",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 527.5,
+      "endTime": 544.8,
+      "averageConfidence": 0.92,
+      "index": 41
+    },
+    {
+      "sentence": "Yeah, I'm sorry about that. I'll actually pull that ticket up after the call and just make sure I understand what happened there. A couple days for a backup failure response is too long.",
+      "speaker_name": "Derek Owens",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 545.5,
+      "endTime": 557.5,
+      "averageConfidence": 0.9,
+      "index": 42
+    },
+    {
+      "sentence": "I'm sorry, that was me \u2014 I'll pull that ticket up after the call and make sure I understand what happened. A couple days for something like a backup job failure is longer than it should be. I appreciate you flagging it.",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 558.1,
+      "endTime": 572.6,
+      "averageConfidence": 0.89,
+      "index": 43
+    },
+    {
+      "sentence": "It's fine, it wasn't a crisis in the end, but yeah. Just, you know, visibility into what's happening would have helped during that window.",
+      "speaker_name": "Derek Owens",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 573.5,
+      "endTime": 581.8,
+      "averageConfidence": 0.92,
+      "index": 44
+    },
+    {
+      "sentence": "Totally fair. I'll see if there's anything I can do to make sure you're flagged earlier if something like that comes up again. Okay, I think we've covered the main stuff \u2014 usage, the Comply roadmap, the pricing structure. Any other questions you have before we wrap up?",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 582.9,
+      "endTime": 600.2,
+      "averageConfidence": 0.91,
+      "index": 45
+    },
+    {
+      "sentence": "Not right now. I think if you can get me that comparison quote and the technical write-up on the Detect resilience work, that gives me what I need to have the internal conversation. Let's say, uh, can you have that by end of next week?",
+      "speaker_name": "Derek Owens",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 601.2,
+      "endTime": 617.2,
+      "averageConfidence": 0.94,
+      "index": 46
+    },
+    {
+      "sentence": "End of next week \u2014 so that's February 27th. Yes, I can commit to that. I'll have the quote and the technical summary both over to you by then.",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 617.7,
+      "endTime": 628.1,
+      "averageConfidence": 0.96,
+      "index": 47
+    },
+    {
+      "sentence": "Perfect. And then I'll shoot for getting you a decision or at least a direction by, let's say March 5th. That gives you time to process the order before end of month.",
+      "speaker_name": "Derek Owens",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 629.3,
+      "endTime": 640.3,
+      "averageConfidence": 0.91,
+      "index": 48
+    },
+    {
+      "sentence": "That timeline works great. Derek, I appreciate you being straightforward about the internal dynamics \u2014 that actually helps me put together the right package for you. I'll be in touch before the end of next week.",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 641.3,
+      "endTime": 653.7,
+      "averageConfidence": 0.91,
+      "index": 49
+    },
+    {
+      "sentence": "Sounds good. Thanks Maria. Talk soon.",
+      "speaker_name": "Derek Owens",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 654.5,
+      "endTime": 656.6,
+      "averageConfidence": 0.94,
+      "index": 50
+    }
+  ]
+}

@@ -1,0 +1,364 @@
+{
+  "data": [
+    {
+      "sentence": "Hi, thanks for calling Aegis Cloud Security support, this is Elena Vasquez, I have my colleague David Kim on the line with me as well \u2014 how can we help you today?",
+      "speaker_name": "Elena Vasquez",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 7.9,
+      "endTime": 19.2,
+      "averageConfidence": 0.9,
+      "index": 0
+    },
+    {
+      "sentence": "Yeah, hi, this is Isaac Brennan, I'm the infrastructure lead over at Trailhead Marketplace, and I'm going to be completely honest with you \u2014 I am not happy right now.",
+      "speaker_name": "Isaac Brennan",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 19.9,
+      "endTime": 30.2,
+      "averageConfidence": 0.95,
+      "index": 1
+    },
+    {
+      "sentence": "Of course, Isaac, I completely understand \u2014 can you walk us through what you're seeing?",
+      "speaker_name": "Elena Vasquez",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 31.2,
+      "endTime": 37.0,
+      "averageConfidence": 0.96,
+      "index": 2
+    },
+    {
+      "sentence": "What I'm seeing is nothing. Literally nothing. Our Detect alerts have not fired once since yesterday evening and we are a retail platform, we have thousands of transactions moving through our infrastructure every hour, and the idea that zero threats have been flagged in that window is \u2014 that's not realistic, that's a broken product.",
+      "speaker_name": "Isaac Brennan",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 37.7,
+      "endTime": 57.0,
+      "averageConfidence": 0.91,
+      "index": 3
+    },
+    {
+      "sentence": "Okay, so just to make sure I understand \u2014 you're saying alerts are completely silent, like no notifications at all, or are you seeing events in the dashboard but just no alert triggers?",
+      "speaker_name": "David Kim",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 58.4,
+      "endTime": 69.7,
+      "averageConfidence": 0.96,
+      "index": 4
+    },
+    {
+      "sentence": "Both. The dashboard is \u2014 it's showing stale data. The last event I can see processed in the UI is from, I wrote it down, 6:47 PM yesterday. It's almost 10 AM right now. That's fifteen-plus hours of nothing.",
+      "speaker_name": "Isaac Brennan",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 71.2,
+      "endTime": 84.6,
+      "averageConfidence": 0.89,
+      "index": 5
+    },
+    {
+      "sentence": "Okay, Isaac, I \u2014 I want to be upfront with you, and I'm going to pull up your tenant right now, but I do need to flag something that may be relevant here.",
+      "speaker_name": "Elena Vasquez",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 86.0,
+      "endTime": 98.0,
+      "averageConfidence": 0.89,
+      "index": 6
+    },
+    {
+      "sentence": "What does that mean, may be relevant \u2014 either it's relevant or it isn't.",
+      "speaker_name": "Isaac Brennan",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 98.8,
+      "endTime": 104.2,
+      "averageConfidence": 0.95,
+      "index": 7
+    },
+    {
+      "sentence": "You're right, I'll just say it \u2014 we are currently dealing with a platform-wide issue affecting Aegis Detect's event processing pipeline. It started sometime yesterday evening and our engineering team is actively working on it.",
+      "speaker_name": "Elena Vasquez",
+      "sentimentType": "negative",
+      "speaker_id": 0,
+      "time": 105.5,
+      "endTime": 118.2,
+      "averageConfidence": 0.94,
+      "index": 8
+    },
+    {
+      "sentence": "I'm sorry, a platform-wide issue? As in this is not just us?",
+      "speaker_name": "Isaac Brennan",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 119.1,
+      "endTime": 123.3,
+      "averageConfidence": 0.9,
+      "index": 9
+    },
+    {
+      "sentence": "That's correct, it appears to be broader than just your tenant, yes.",
+      "speaker_name": "Elena Vasquez",
+      "sentimentType": "negative",
+      "speaker_id": 0,
+      "time": 124.1,
+      "endTime": 128.3,
+      "averageConfidence": 0.9,
+      "index": 10
+    },
+    {
+      "sentence": "So why \u2014 why did I have to call in to find this out? Why was there no proactive communication? We have a status page subscription, we have an account manager, I have received zero emails, zero SMS alerts, nothing.",
+      "speaker_name": "Isaac Brennan",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 128.8,
+      "endTime": 143.2,
+      "averageConfidence": 0.88,
+      "index": 11
+    },
+    {
+      "sentence": "That's \u2014 that's a completely fair point and I don't have a good answer for you on the communication side, Isaac, that's something we'll need to escalate separately. I'm really sorry about that.",
+      "speaker_name": "David Kim",
+      "sentimentType": "negative",
+      "speaker_id": 2,
+      "time": 144.4,
+      "endTime": 156.2,
+      "averageConfidence": 0.96,
+      "index": 12
+    },
+    {
+      "sentence": "Do you understand what this means for us? We're a marketplace, we have PCI obligations, we have fraud monitoring that depends on Detect firing in near real-time. If someone has been running a card skimming operation through our checkout since 6 PM yesterday and we had no visibility \u2014 I don't even want to finish that sentence.",
+      "speaker_name": "Isaac Brennan",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 157.2,
+      "endTime": 177.6,
+      "averageConfidence": 0.89,
+      "index": 13
+    },
+    {
+      "sentence": "I hear you, and I want you to know we are taking this seriously. Can you confirm \u2014 are your Aegis Protect backups still running normally? Just want to make sure we understand the full scope of what's affected for you.",
+      "speaker_name": "Elena Vasquez",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 178.2,
+      "endTime": 192.7,
+      "averageConfidence": 0.94,
+      "index": 14
+    },
+    {
+      "sentence": "As far as I can tell, Protect seems fine, Identity seems fine. It's purely Detect that's dead.",
+      "speaker_name": "Isaac Brennan",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 193.6,
+      "endTime": 199.9,
+      "averageConfidence": 0.88,
+      "index": 15
+    },
+    {
+      "sentence": "Okay, that's consistent with what we're seeing on our end. The issue is isolated to the event processing pipeline within Detect.",
+      "speaker_name": "Elena Vasquez",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 200.5,
+      "endTime": 207.9,
+      "averageConfidence": 0.95,
+      "index": 16
+    },
+    {
+      "sentence": "Isolated \u2014 I would not use the word isolated when you've essentially blinded every customer's threat monitoring. What is the ETA on a fix? Give me something concrete.",
+      "speaker_name": "Isaac Brennan",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 208.8,
+      "endTime": 219.0,
+      "averageConfidence": 0.97,
+      "index": 17
+    },
+    {
+      "sentence": "I \u2014 I want to give you a concrete number, I really do. Right now engineering is working through the root cause analysis, we believe it's a cascading failure in the event ingestion layer but I don't have a confirmed resolution time I can commit to right now.",
+      "speaker_name": "David Kim",
+      "sentimentType": "negative",
+      "speaker_id": 2,
+      "time": 219.4,
+      "endTime": 236.1,
+      "averageConfidence": 0.93,
+      "index": 18
+    },
+    {
+      "sentence": "A cascading failure. Great. So this is a fundamental architectural problem, not a config issue, not a quick restart.",
+      "speaker_name": "Isaac Brennan",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 237.5,
+      "endTime": 244.3,
+      "averageConfidence": 0.95,
+      "index": 19
+    },
+    {
+      "sentence": "We're not ready to characterize the full scope of it on this call, but yes, it's not a simple fix. I want to be honest with you rather than give you a two-hour ETA that I can't back up.",
+      "speaker_name": "Elena Vasquez",
+      "sentimentType": "negative",
+      "speaker_id": 0,
+      "time": 245.6,
+      "endTime": 259.1,
+      "averageConfidence": 0.97,
+      "index": 20
+    },
+    {
+      "sentence": "You know, I advocated internally to go with Aegis over SentinelShield. I had my VP breathing down my neck about the price point and I said no, these guys have the better platform, the better support. I'm going to look like an idiot right now.",
+      "speaker_name": "Isaac Brennan",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 260.5,
+      "endTime": 276.3,
+      "averageConfidence": 0.9,
+      "index": 21
+    },
+    {
+      "sentence": "Isaac, I understand, and I \u2014 I genuinely appreciate that you went to bat for us, which is exactly why this situation is unacceptable and I won't try to dress it up as anything else.",
+      "speaker_name": "Elena Vasquez",
+      "sentimentType": "negative",
+      "speaker_id": 0,
+      "time": 277.1,
+      "endTime": 289.5,
+      "averageConfidence": 0.95,
+      "index": 22
+    },
+    {
+      "sentence": "What can you actually do for me right now? Not in two hours, not when engineering gets back to you \u2014 right now, on this call.",
+      "speaker_name": "Isaac Brennan",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 290.5,
+      "endTime": 299.5,
+      "averageConfidence": 0.93,
+      "index": 23
+    },
+    {
+      "sentence": "A few things \u2014 I'm escalating this case to P1 priority immediately and getting your account tagged for direct engineering contact. I'm also going to get your account manager looped in so your leadership gets a direct line for updates, not just status page.",
+      "speaker_name": "Elena Vasquez",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 300.6,
+      "endTime": 315.7,
+      "averageConfidence": 0.94,
+      "index": 24
+    },
+    {
+      "sentence": "And in the meantime we'd strongly recommend reviewing your fraud transaction logs manually through whatever secondary tooling you have, just as a stop-gap until Detect is back up. I know that's not a satisfying answer but \u2014",
+      "speaker_name": "David Kim",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 316.4,
+      "endTime": 329.4,
+      "averageConfidence": 0.94,
+      "index": 25
+    },
+    {
+      "sentence": "Yeah, no kidding it's not a satisfying answer. We're paying for an automated threat detection platform so we don't have to do manual log reviews.",
+      "speaker_name": "Isaac Brennan",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 330.3,
+      "endTime": 339.1,
+      "averageConfidence": 0.9,
+      "index": 26
+    },
+    {
+      "sentence": "You're absolutely right and I'm not suggesting it's equivalent \u2014 it's purely a precautionary measure while the team works the fix.",
+      "speaker_name": "David Kim",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 339.7,
+      "endTime": 347.2,
+      "averageConfidence": 0.9,
+      "index": 27
+    },
+    {
+      "sentence": "I want a full incident report. I want it in writing, I want root cause, I want timeline, I want what you're doing to make sure this never happens again \u2014 and I want it before end of week.",
+      "speaker_name": "Isaac Brennan",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 347.8,
+      "endTime": 361.9,
+      "averageConfidence": 0.92,
+      "index": 28
+    },
+    {
+      "sentence": "That's completely reasonable and I'm documenting that request right now as a formal deliverable tied to this case.",
+      "speaker_name": "Elena Vasquez",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 362.3,
+      "endTime": 368.4,
+      "averageConfidence": 0.92,
+      "index": 29
+    },
+    {
+      "sentence": "And I'll tell you right now \u2014 depending on how this is handled over the next 24 hours, we're going to have a very serious conversation about the future of this contract. My leadership is not going to let this slide.",
+      "speaker_name": "Isaac Brennan",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 369.2,
+      "endTime": 383.6,
+      "averageConfidence": 0.9,
+      "index": 30
+    },
+    {
+      "sentence": "I understand, Isaac. I'm not going to make you promises I can't keep but I can tell you this case is my personal priority right now and I will be your point of contact until this is resolved. You'll hear from me within two hours with an update, even if that update is just where we are in the process.",
+      "speaker_name": "Elena Vasquez",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 384.4,
+      "endTime": 405.4,
+      "averageConfidence": 0.92,
+      "index": 31
+    },
+    {
+      "sentence": "Two hours. I'm holding you to that.",
+      "speaker_name": "Isaac Brennan",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 405.8,
+      "endTime": 408.2,
+      "averageConfidence": 0.95,
+      "index": 32
+    },
+    {
+      "sentence": "Understood. I'm going to grab your direct line and email before we close out \u2014 can you confirm the best way to reach you?",
+      "speaker_name": "Elena Vasquez",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 409.2,
+      "endTime": 417.3,
+      "averageConfidence": 0.93,
+      "index": 33
+    },
+    {
+      "sentence": "Cell is best. It's on the account. And Elena \u2014 I really hope this gets turned around because I don't want to be shopping platforms in the middle of Q2. But I will if I have to.",
+      "speaker_name": "Isaac Brennan",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 418.0,
+      "endTime": 430.7,
+      "averageConfidence": 0.95,
+      "index": 34
+    },
+    {
+      "sentence": "I hear you. We're going to do everything we can. Thank you for calling in, Isaac, I know this wasn't the conversation any of us wanted to have.",
+      "speaker_name": "Elena Vasquez",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 431.1,
+      "endTime": 441.1,
+      "averageConfidence": 0.9,
+      "index": 35
+    }
+  ]
+}

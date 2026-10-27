@@ -1,0 +1,26 @@
+[
+  {
+    "participantName": "Kendra Wallace",
+    "timestamp": 1776871827000,
+    "type": "Join",
+    "time": 27.0
+  },
+  {
+    "participantName": "Aisha Johnson",
+    "timestamp": 1776871846000,
+    "type": "Join",
+    "time": 46.0
+  },
+  {
+    "participantName": "Aisha Johnson",
+    "timestamp": 1776873053000,
+    "type": "Leave",
+    "time": 1253.0
+  },
+  {
+    "participantName": "Kendra Wallace",
+    "timestamp": 1776873055000,
+    "type": "Leave",
+    "time": 1255.0
+  }
+]

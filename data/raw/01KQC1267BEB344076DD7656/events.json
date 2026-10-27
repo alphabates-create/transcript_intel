@@ -1,0 +1,50 @@
+[
+  {
+    "participantName": "Tanya Desai",
+    "timestamp": 1774701002000,
+    "type": "Join",
+    "time": 2.0
+  },
+  {
+    "participantName": "Maria Santos",
+    "timestamp": 1774701011000,
+    "type": "Join",
+    "time": 11.0
+  },
+  {
+    "participantName": "Kevin O'Brien",
+    "timestamp": 1774701013000,
+    "type": "Join",
+    "time": 13.0
+  },
+  {
+    "participantName": "Robert Langston",
+    "timestamp": 1774701045000,
+    "type": "Join",
+    "time": 45.0
+  },
+  {
+    "participantName": "Maria Santos",
+    "timestamp": 1774703090000,
+    "type": "Leave",
+    "time": 2090.0
+  },
+  {
+    "participantName": "Kevin O'Brien",
+    "timestamp": 1774703097000,
+    "type": "Leave",
+    "time": 2097.0
+  },
+  {
+    "participantName": "Robert Langston",
+    "timestamp": 1774703101000,
+    "type": "Leave",
+    "time": 2101.0
+  },
+  {
+    "participantName": "Tanya Desai",
+    "timestamp": 1774703112000,
+    "type": "Leave",
+    "time": 2112.0
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "participantName": "Hannah Liu",
+    "timestamp": 1770903910000,
+    "type": "Join",
+    "time": 10.0
+  },
+  {
+    "participantName": "Mike Romano",
+    "timestamp": 1770903934000,
+    "type": "Join",
+    "time": 34.0
+  },
+  {
+    "participantName": "Ananya Sharma",
+    "timestamp": 1770903953000,
+    "type": "Join",
+    "time": 53.0
+  },
+  {
+    "participantName": "Hannah Liu",
+    "timestamp": 1770905796000,
+    "type": "Leave",
+    "time": 1896.0
+  },
+  {
+    "participantName": "Ananya Sharma",
+    "timestamp": 1770905781000,
+    "type": "Leave",
+    "time": 1881.0
+  },
+  {
+    "participantName": "Mike Romano",
+    "timestamp": 1770905786000,
+    "type": "Leave",
+    "time": 1886.0
+  }
+]

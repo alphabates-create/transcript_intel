@@ -1,0 +1,222 @@
+[
+  {
+    "speakerName": "Daniel Okafor",
+    "timestamp": 3.2,
+    "endTimeTs": 8.3
+  },
+  {
+    "speakerName": "Yuki Tanaka",
+    "timestamp": 8.8,
+    "endTimeTs": 11.8
+  },
+  {
+    "speakerName": "Daniel Okafor",
+    "timestamp": 12.3,
+    "endTimeTs": 18.6
+  },
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 19.6,
+    "endTimeTs": 24.0
+  },
+  {
+    "speakerName": "Yuki Tanaka",
+    "timestamp": 25.2,
+    "endTimeTs": 32.7
+  },
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 33.1,
+    "endTimeTs": 35.8
+  },
+  {
+    "speakerName": "Ananya Sharma",
+    "timestamp": 37.3,
+    "endTimeTs": 47.8
+  },
+  {
+    "speakerName": "Yuki Tanaka",
+    "timestamp": 48.7,
+    "endTimeTs": 56.2
+  },
+  {
+    "speakerName": "Ananya Sharma",
+    "timestamp": 56.5,
+    "endTimeTs": 58.6
+  },
+  {
+    "speakerName": "Daniel Okafor",
+    "timestamp": 59.8,
+    "endTimeTs": 83.3
+  },
+  {
+    "speakerName": "Yuki Tanaka",
+    "timestamp": 83.6,
+    "endTimeTs": 95.8
+  },
+  {
+    "speakerName": "Daniel Okafor",
+    "timestamp": 96.6,
+    "endTimeTs": 105.2
+  },
+  {
+    "speakerName": "Yuki Tanaka",
+    "timestamp": 106.6,
+    "endTimeTs": 121.3
+  },
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 122.2,
+    "endTimeTs": 126.6
+  },
+  {
+    "speakerName": "Yuki Tanaka",
+    "timestamp": 128.0,
+    "endTimeTs": 146.9
+  },
+  {
+    "speakerName": "Ananya Sharma",
+    "timestamp": 148.2,
+    "endTimeTs": 162.4
+  },
+  {
+    "speakerName": "Yuki Tanaka",
+    "timestamp": 163.1,
+    "endTimeTs": 174.4
+  },
+  {
+    "speakerName": "Daniel Okafor",
+    "timestamp": 175.1,
+    "endTimeTs": 185.8
+  },
+  {
+    "speakerName": "Yuki Tanaka",
+    "timestamp": 186.5,
+    "endTimeTs": 205.3
+  },
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 205.9,
+    "endTimeTs": 216.1
+  },
+  {
+    "speakerName": "Yuki Tanaka",
+    "timestamp": 217.1,
+    "endTimeTs": 239.0
+  },
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 240.3,
+    "endTimeTs": 250.9
+  },
+  {
+    "speakerName": "Ananya Sharma",
+    "timestamp": 252.2,
+    "endTimeTs": 265.0
+  },
+  {
+    "speakerName": "Yuki Tanaka",
+    "timestamp": 265.9,
+    "endTimeTs": 272.0
+  },
+  {
+    "speakerName": "Daniel Okafor",
+    "timestamp": 273.3,
+    "endTimeTs": 291.1
+  },
+  {
+    "speakerName": "Yuki Tanaka",
+    "timestamp": 292.1,
+    "endTimeTs": 302.8
+  },
+  {
+    "speakerName": "Ananya Sharma",
+    "timestamp": 303.9,
+    "endTimeTs": 326.1
+  },
+  {
+    "speakerName": "Yuki Tanaka",
+    "timestamp": 327.5,
+    "endTimeTs": 333.6
+  },
+  {
+    "speakerName": "Ananya Sharma",
+    "timestamp": 334.8,
+    "endTimeTs": 348.2
+  },
+  {
+    "speakerName": "Yuki Tanaka",
+    "timestamp": 349.2,
+    "endTimeTs": 363.6
+  },
+  {
+    "speakerName": "Daniel Okafor",
+    "timestamp": 364.5,
+    "endTimeTs": 374.9
+  },
+  {
+    "speakerName": "Yuki Tanaka",
+    "timestamp": 376.3,
+    "endTimeTs": 396.6
+  },
+  {
+    "speakerName": "Daniel Okafor",
+    "timestamp": 397.8,
+    "endTimeTs": 413.8
+  },
+  {
+    "speakerName": "Yuki Tanaka",
+    "timestamp": 414.8,
+    "endTimeTs": 424.0
+  },
+  {
+    "speakerName": "Daniel Okafor",
+    "timestamp": 425.1,
+    "endTimeTs": 445.2
+  },
+  {
+    "speakerName": "Yuki Tanaka",
+    "timestamp": 445.9,
+    "endTimeTs": 468.4
+  },
+  {
+    "speakerName": "Daniel Okafor",
+    "timestamp": 468.8,
+    "endTimeTs": 493.8
+  },
+  {
+    "speakerName": "Yuki Tanaka",
+    "timestamp": 494.2,
+    "endTimeTs": 509.5
+  },
+  {
+    "speakerName": "Daniel Okafor",
+    "timestamp": 510.7,
+    "endTimeTs": 520.3
+  },
+  {
+    "speakerName": "Yuki Tanaka",
+    "timestamp": 521.0,
+    "endTimeTs": 539.9
+  },
+  {
+    "speakerName": "Daniel Okafor",
+    "timestamp": 541.2,
+    "endTimeTs": 567.4
+  },
+  {
+    "speakerName": "Yuki Tanaka",
+    "timestamp": 568.1,
+    "endTimeTs": 574.7
+  },
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 575.2,
+    "endTimeTs": 576.7
+  },
+  {
+    "speakerName": "Ananya Sharma",
+    "timestamp": 577.9,
+    "endTimeTs": 581.2
+  }
+]

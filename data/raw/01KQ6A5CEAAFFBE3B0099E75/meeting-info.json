@@ -1,0 +1,17 @@
+{
+  "meetingId": "01KQ6A5CEAAFFBE3B0099E75",
+  "title": "Support Case #6539 - Steelpoint Manufacturing LDAP Sync Failures",
+  "organizerEmail": "marcus.williams@aegiscloud.com",
+  "host": "marcus.williams@aegiscloud.com",
+  "startTime": "2026-03-22T09:15:00.000Z",
+  "endTime": "2026-03-22T09:35:54.000Z",
+  "duration": 20.9,
+  "allEmails": [
+    "marcus.williams@aegiscloud.com",
+    "h.jensen@steelpointmfg.com"
+  ],
+  "invitees": [
+    "marcus.williams@aegiscloud.com",
+    "h.jensen@steelpointmfg.com"
+  ]
+}

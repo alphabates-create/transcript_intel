@@ -1,0 +1,38 @@
+[
+  {
+    "participantName": "Isaac Brennan",
+    "timestamp": 1775399403000,
+    "type": "Join",
+    "time": 3.0
+  },
+  {
+    "participantName": "Rachel Torres",
+    "timestamp": 1775399444000,
+    "type": "Join",
+    "time": 44.0
+  },
+  {
+    "participantName": "Chris Lee",
+    "timestamp": 1775399447000,
+    "type": "Join",
+    "time": 47.0
+  },
+  {
+    "participantName": "Rachel Torres",
+    "timestamp": 1775402167000,
+    "type": "Leave",
+    "time": 2767.0
+  },
+  {
+    "participantName": "Chris Lee",
+    "timestamp": 1775402169000,
+    "type": "Leave",
+    "time": 2769.0
+  },
+  {
+    "participantName": "Isaac Brennan",
+    "timestamp": 1775402172000,
+    "type": "Leave",
+    "time": 2772.0
+  }
+]

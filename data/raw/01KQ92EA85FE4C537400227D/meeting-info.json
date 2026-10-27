@@ -1,0 +1,17 @@
+{
+  "meetingId": "01KQ92EA85FE4C537400227D",
+  "title": "Support Case #8811 - Blackridge Investments Custom Compliance Template",
+  "organizerEmail": "priya.patel@aegiscloud.com",
+  "host": "priya.patel@aegiscloud.com",
+  "startTime": "2026-04-25T17:15:00.000Z",
+  "endTime": "2026-04-25T17:24:18.000Z",
+  "duration": 9.3,
+  "allEmails": [
+    "priya.patel@aegiscloud.com",
+    "w.beck@blackridgeinvest.com"
+  ],
+  "invitees": [
+    "priya.patel@aegiscloud.com",
+    "w.beck@blackridgeinvest.com"
+  ]
+}

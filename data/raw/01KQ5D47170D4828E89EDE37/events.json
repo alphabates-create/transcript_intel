@@ -1,0 +1,26 @@
+[
+  {
+    "participantName": "Dana Moretti",
+    "timestamp": 1773845147000,
+    "type": "Join",
+    "time": 47.0
+  },
+  {
+    "participantName": "Elena Vasquez",
+    "timestamp": 1773845153000,
+    "type": "Join",
+    "time": 53.0
+  },
+  {
+    "participantName": "Elena Vasquez",
+    "timestamp": 1773846758000,
+    "type": "Leave",
+    "time": 1658.0
+  },
+  {
+    "participantName": "Dana Moretti",
+    "timestamp": 1773846758000,
+    "type": "Leave",
+    "time": 1658.0
+  }
+]

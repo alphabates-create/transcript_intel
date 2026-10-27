@@ -1,0 +1,46 @@
+{
+  "summary": "Gregory Fisk, IT Director at Summit Trust, called regarding a billing discrepancy on his January invoice showing 1,400 seats for Aegis Identity when their contract specifies 1,200 seats. Sarah Chen investigated and traced the overage to approximately 200 test accounts created during a December migration that were never deprovisioned. Sarah agreed to submit a billing adjustment request to the finance team, which will take 5-7 business days to review. Gregory also received guidance on bulk deprovisioning test accounts and setting up usage threshold alerts to prevent recurrence.",
+  "actionItems": [
+    "Sarah Chen: Submit billing adjustment request to finance team for the 200-seat overage on invoice INV-2026-00847 and send reference number to Gregory",
+    "Sarah Chen: Email Gregory the knowledge base article on bulk deprovisioning and include steps for configuring usage threshold alerts",
+    "Gregory Fisk: Have IT team bulk deprovision the ~200 test accounts created during the December migration before the February billing period closes",
+    "Gregory Fisk: Configure usage threshold alerts in the admin console under Account Settings > Billing and Usage"
+  ],
+  "topics": [
+    "billing dispute",
+    "seat overage",
+    "migration cleanup",
+    "identity management",
+    "billing adjustment",
+    "provisioning"
+  ],
+  "overallSentiment": "mixed-positive",
+  "sentimentScore": 3.8,
+  "keyMoments": [
+    {
+      "time": 95.0,
+      "text": "Gregory identifies a 200-seat discrepancy on his January invoice versus his contracted 1,200-seat count",
+      "type": "concern",
+      "speaker": "Gregory Fisk"
+    },
+    {
+      "time": 390.0,
+      "text": "Root cause identified: ~200 undeprovisioned test accounts from December migration are inflating the billed seat count",
+      "type": "technical_issue",
+      "speaker": "Sarah Chen"
+    },
+    {
+      "time": 530.0,
+      "text": "Gregory acknowledges partial responsibility for the oversight and shifts focus constructively to resolving the invoice",
+      "type": "positive_pivot",
+      "speaker": "Gregory Fisk"
+    },
+    {
+      "time": 760.0,
+      "text": "Gregory requests proactive seat-count threshold alerts to avoid discovering overages on future invoices",
+      "type": "feature_gap",
+      "speaker": "Gregory Fisk"
+    }
+  ],
+  "meetingId": "01KQ0C1280EDA4E70AAD7C35"
+}

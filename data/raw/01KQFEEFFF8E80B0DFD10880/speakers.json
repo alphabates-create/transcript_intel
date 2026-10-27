@@ -1,0 +1,222 @@
+[
+  {
+    "speakerName": "Ravi Gupta",
+    "timestamp": 6.9,
+    "endTimeTs": 12.6
+  },
+  {
+    "speakerName": "Nina Kowalski",
+    "timestamp": 13.7,
+    "endTimeTs": 15.5
+  },
+  {
+    "speakerName": "Tyler Washington",
+    "timestamp": 16.5,
+    "endTimeTs": 18.0
+  },
+  {
+    "speakerName": "Diana Reeves",
+    "timestamp": 19.1,
+    "endTimeTs": 23.3
+  },
+  {
+    "speakerName": "Ravi Gupta",
+    "timestamp": 23.9,
+    "endTimeTs": 40.9
+  },
+  {
+    "speakerName": "Nina Kowalski",
+    "timestamp": 41.5,
+    "endTimeTs": 54.1
+  },
+  {
+    "speakerName": "Tyler Washington",
+    "timestamp": 54.6,
+    "endTimeTs": 61.5
+  },
+  {
+    "speakerName": "Diana Reeves",
+    "timestamp": 62.1,
+    "endTimeTs": 73.0
+  },
+  {
+    "speakerName": "Ravi Gupta",
+    "timestamp": 73.5,
+    "endTimeTs": 82.0
+  },
+  {
+    "speakerName": "Nina Kowalski",
+    "timestamp": 82.4,
+    "endTimeTs": 84.0
+  },
+  {
+    "speakerName": "Tyler Washington",
+    "timestamp": 84.6,
+    "endTimeTs": 86.1
+  },
+  {
+    "speakerName": "Ravi Gupta",
+    "timestamp": 87.4,
+    "endTimeTs": 102.2
+  },
+  {
+    "speakerName": "Diana Reeves",
+    "timestamp": 102.7,
+    "endTimeTs": 110.3
+  },
+  {
+    "speakerName": "Ravi Gupta",
+    "timestamp": 110.7,
+    "endTimeTs": 129.9
+  },
+  {
+    "speakerName": "Tyler Washington",
+    "timestamp": 130.9,
+    "endTimeTs": 143.8
+  },
+  {
+    "speakerName": "Nina Kowalski",
+    "timestamp": 144.4,
+    "endTimeTs": 159.9
+  },
+  {
+    "speakerName": "Diana Reeves",
+    "timestamp": 161.1,
+    "endTimeTs": 172.9
+  },
+  {
+    "speakerName": "Ravi Gupta",
+    "timestamp": 173.7,
+    "endTimeTs": 190.1
+  },
+  {
+    "speakerName": "Nina Kowalski",
+    "timestamp": 191.1,
+    "endTimeTs": 200.2
+  },
+  {
+    "speakerName": "Tyler Washington",
+    "timestamp": 201.1,
+    "endTimeTs": 208.9
+  },
+  {
+    "speakerName": "Nina Kowalski",
+    "timestamp": 209.6,
+    "endTimeTs": 214.7
+  },
+  {
+    "speakerName": "Ravi Gupta",
+    "timestamp": 216.0,
+    "endTimeTs": 229.0
+  },
+  {
+    "speakerName": "Diana Reeves",
+    "timestamp": 230.1,
+    "endTimeTs": 242.6
+  },
+  {
+    "speakerName": "Ravi Gupta",
+    "timestamp": 243.4,
+    "endTimeTs": 257.6
+  },
+  {
+    "speakerName": "Diana Reeves",
+    "timestamp": 258.3,
+    "endTimeTs": 270.1
+  },
+  {
+    "speakerName": "Tyler Washington",
+    "timestamp": 270.7,
+    "endTimeTs": 279.7
+  },
+  {
+    "speakerName": "Nina Kowalski",
+    "timestamp": 280.5,
+    "endTimeTs": 297.8
+  },
+  {
+    "speakerName": "Ravi Gupta",
+    "timestamp": 298.4,
+    "endTimeTs": 317.0
+  },
+  {
+    "speakerName": "Nina Kowalski",
+    "timestamp": 318.2,
+    "endTimeTs": 325.2
+  },
+  {
+    "speakerName": "Ravi Gupta",
+    "timestamp": 326.0,
+    "endTimeTs": 332.2
+  },
+  {
+    "speakerName": "Diana Reeves",
+    "timestamp": 333.6,
+    "endTimeTs": 339.1
+  },
+  {
+    "speakerName": "Ravi Gupta",
+    "timestamp": 339.7,
+    "endTimeTs": 354.5
+  },
+  {
+    "speakerName": "Nina Kowalski",
+    "timestamp": 355.4,
+    "endTimeTs": 367.3
+  },
+  {
+    "speakerName": "Tyler Washington",
+    "timestamp": 368.4,
+    "endTimeTs": 373.6
+  },
+  {
+    "speakerName": "Nina Kowalski",
+    "timestamp": 375.0,
+    "endTimeTs": 379.5
+  },
+  {
+    "speakerName": "Ravi Gupta",
+    "timestamp": 380.7,
+    "endTimeTs": 391.6
+  },
+  {
+    "speakerName": "Diana Reeves",
+    "timestamp": 392.0,
+    "endTimeTs": 407.2
+  },
+  {
+    "speakerName": "Ravi Gupta",
+    "timestamp": 407.6,
+    "endTimeTs": 421.6
+  },
+  {
+    "speakerName": "Diana Reeves",
+    "timestamp": 422.3,
+    "endTimeTs": 434.1
+  },
+  {
+    "speakerName": "Nina Kowalski",
+    "timestamp": 435.5,
+    "endTimeTs": 452.3
+  },
+  {
+    "speakerName": "Ravi Gupta",
+    "timestamp": 453.2,
+    "endTimeTs": 469.4
+  },
+  {
+    "speakerName": "Tyler Washington",
+    "timestamp": 469.8,
+    "endTimeTs": 471.3
+  },
+  {
+    "speakerName": "Nina Kowalski",
+    "timestamp": 472.7,
+    "endTimeTs": 476.4
+  },
+  {
+    "speakerName": "Diana Reeves",
+    "timestamp": 477.4,
+    "endTimeTs": 480.6
+  }
+]

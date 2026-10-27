@@ -1,0 +1,187 @@
+[
+  {
+    "speakerName": "Aisha Johnson",
+    "timestamp": 3.7,
+    "endTimeTs": 8.2
+  },
+  {
+    "speakerName": "Nathan Perry",
+    "timestamp": 9.0,
+    "endTimeTs": 17.3
+  },
+  {
+    "speakerName": "Aisha Johnson",
+    "timestamp": 18.4,
+    "endTimeTs": 32.3
+  },
+  {
+    "speakerName": "Sofia Petrov",
+    "timestamp": 33.4,
+    "endTimeTs": 41.8
+  },
+  {
+    "speakerName": "Nathan Perry",
+    "timestamp": 42.4,
+    "endTimeTs": 58.0
+  },
+  {
+    "speakerName": "Aisha Johnson",
+    "timestamp": 58.5,
+    "endTimeTs": 81.0
+  },
+  {
+    "speakerName": "Nathan Perry",
+    "timestamp": 82.1,
+    "endTimeTs": 103.6
+  },
+  {
+    "speakerName": "Aisha Johnson",
+    "timestamp": 104.5,
+    "endTimeTs": 120.8
+  },
+  {
+    "speakerName": "Sofia Petrov",
+    "timestamp": 121.3,
+    "endTimeTs": 144.2
+  },
+  {
+    "speakerName": "Nathan Perry",
+    "timestamp": 144.7,
+    "endTimeTs": 154.9
+  },
+  {
+    "speakerName": "Sofia Petrov",
+    "timestamp": 155.8,
+    "endTimeTs": 172.7
+  },
+  {
+    "speakerName": "Aisha Johnson",
+    "timestamp": 173.1,
+    "endTimeTs": 194.6
+  },
+  {
+    "speakerName": "Nathan Perry",
+    "timestamp": 195.2,
+    "endTimeTs": 204.1
+  },
+  {
+    "speakerName": "Aisha Johnson",
+    "timestamp": 204.9,
+    "endTimeTs": 221.8
+  },
+  {
+    "speakerName": "Nathan Perry",
+    "timestamp": 222.7,
+    "endTimeTs": 237.2
+  },
+  {
+    "speakerName": "Aisha Johnson",
+    "timestamp": 238.1,
+    "endTimeTs": 252.7
+  },
+  {
+    "speakerName": "Sofia Petrov",
+    "timestamp": 253.5,
+    "endTimeTs": 277.3
+  },
+  {
+    "speakerName": "Nathan Perry",
+    "timestamp": 278.5,
+    "endTimeTs": 291.0
+  },
+  {
+    "speakerName": "Aisha Johnson",
+    "timestamp": 291.4,
+    "endTimeTs": 314.1
+  },
+  {
+    "speakerName": "Nathan Perry",
+    "timestamp": 314.9,
+    "endTimeTs": 327.9
+  },
+  {
+    "speakerName": "Sofia Petrov",
+    "timestamp": 328.3,
+    "endTimeTs": 348.0
+  },
+  {
+    "speakerName": "Nathan Perry",
+    "timestamp": 348.8,
+    "endTimeTs": 357.7
+  },
+  {
+    "speakerName": "Aisha Johnson",
+    "timestamp": 358.2,
+    "endTimeTs": 384.2
+  },
+  {
+    "speakerName": "Nathan Perry",
+    "timestamp": 384.7,
+    "endTimeTs": 402.9
+  },
+  {
+    "speakerName": "Aisha Johnson",
+    "timestamp": 403.6,
+    "endTimeTs": 425.8
+  },
+  {
+    "speakerName": "Nathan Perry",
+    "timestamp": 426.4,
+    "endTimeTs": 439.8
+  },
+  {
+    "speakerName": "Aisha Johnson",
+    "timestamp": 440.6,
+    "endTimeTs": 455.5
+  },
+  {
+    "speakerName": "Nathan Perry",
+    "timestamp": 456.2,
+    "endTimeTs": 468.4
+  },
+  {
+    "speakerName": "Aisha Johnson",
+    "timestamp": 469.8,
+    "endTimeTs": 488.9
+  },
+  {
+    "speakerName": "Nathan Perry",
+    "timestamp": 489.9,
+    "endTimeTs": 500.7
+  },
+  {
+    "speakerName": "Sofia Petrov",
+    "timestamp": 501.7,
+    "endTimeTs": 523.9
+  },
+  {
+    "speakerName": "Nathan Perry",
+    "timestamp": 524.8,
+    "endTimeTs": 531.2
+  },
+  {
+    "speakerName": "Aisha Johnson",
+    "timestamp": 532.0,
+    "endTimeTs": 555.7
+  },
+  {
+    "speakerName": "Nathan Perry",
+    "timestamp": 556.5,
+    "endTimeTs": 572.4
+  },
+  {
+    "speakerName": "Aisha Johnson",
+    "timestamp": 573.8,
+    "endTimeTs": 583.3
+  },
+  {
+    "speakerName": "Nathan Perry",
+    "timestamp": 584.1,
+    "endTimeTs": 591.6
+  },
+  {
+    "speakerName": "Sofia Petrov",
+    "timestamp": 592.8,
+    "endTimeTs": 594.3
+  }
+]

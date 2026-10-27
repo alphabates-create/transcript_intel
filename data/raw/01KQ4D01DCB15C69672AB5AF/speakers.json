@@ -1,0 +1,222 @@
+[
+  {
+    "speakerName": "Aisha Johnson",
+    "timestamp": 3.9,
+    "endTimeTs": 11.7
+  },
+  {
+    "speakerName": "Natalie Simmons",
+    "timestamp": 12.5,
+    "endTimeTs": 19.7
+  },
+  {
+    "speakerName": "Natalie Simmons",
+    "timestamp": 21.0,
+    "endTimeTs": 29.5
+  },
+  {
+    "speakerName": "Ajay Mehta",
+    "timestamp": 30.2,
+    "endTimeTs": 40.2
+  },
+  {
+    "speakerName": "Aisha Johnson",
+    "timestamp": 41.4,
+    "endTimeTs": 55.5
+  },
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 56.2,
+    "endTimeTs": 66.5
+  },
+  {
+    "speakerName": "Mike Romano",
+    "timestamp": 67.8,
+    "endTimeTs": 77.1
+  },
+  {
+    "speakerName": "Ajay Mehta",
+    "timestamp": 78.3,
+    "endTimeTs": 81.1
+  },
+  {
+    "speakerName": "Aisha Johnson",
+    "timestamp": 82.4,
+    "endTimeTs": 101.7
+  },
+  {
+    "speakerName": "Natalie Simmons",
+    "timestamp": 102.2,
+    "endTimeTs": 103.9
+  },
+  {
+    "speakerName": "Aisha Johnson",
+    "timestamp": 104.5,
+    "endTimeTs": 118.4
+  },
+  {
+    "speakerName": "Natalie Simmons",
+    "timestamp": 119.6,
+    "endTimeTs": 125.6
+  },
+  {
+    "speakerName": "Aisha Johnson",
+    "timestamp": 126.8,
+    "endTimeTs": 144.2
+  },
+  {
+    "speakerName": "Ajay Mehta",
+    "timestamp": 145.7,
+    "endTimeTs": 157.7
+  },
+  {
+    "speakerName": "Aisha Johnson",
+    "timestamp": 158.5,
+    "endTimeTs": 174.7
+  },
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 175.1,
+    "endTimeTs": 193.1
+  },
+  {
+    "speakerName": "Ajay Mehta",
+    "timestamp": 193.5,
+    "endTimeTs": 207.0
+  },
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 208.0,
+    "endTimeTs": 213.8
+  },
+  {
+    "speakerName": "Aisha Johnson",
+    "timestamp": 214.6,
+    "endTimeTs": 229.6
+  },
+  {
+    "speakerName": "Natalie Simmons",
+    "timestamp": 230.4,
+    "endTimeTs": 248.4
+  },
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 249.5,
+    "endTimeTs": 268.6
+  },
+  {
+    "speakerName": "Mike Romano",
+    "timestamp": 269.9,
+    "endTimeTs": 289.1
+  },
+  {
+    "speakerName": "Natalie Simmons",
+    "timestamp": 290.5,
+    "endTimeTs": 296.0
+  },
+  {
+    "speakerName": "Mike Romano",
+    "timestamp": 297.1,
+    "endTimeTs": 313.7
+  },
+  {
+    "speakerName": "Natalie Simmons",
+    "timestamp": 314.1,
+    "endTimeTs": 319.9
+  },
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 320.8,
+    "endTimeTs": 335.3
+  },
+  {
+    "speakerName": "Aisha Johnson",
+    "timestamp": 336.3,
+    "endTimeTs": 345.3
+  },
+  {
+    "speakerName": "Ajay Mehta",
+    "timestamp": 346.6,
+    "endTimeTs": 362.4
+  },
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 363.5,
+    "endTimeTs": 378.0
+  },
+  {
+    "speakerName": "Ajay Mehta",
+    "timestamp": 378.4,
+    "endTimeTs": 386.2
+  },
+  {
+    "speakerName": "Aisha Johnson",
+    "timestamp": 387.5,
+    "endTimeTs": 399.0
+  },
+  {
+    "speakerName": "Ajay Mehta",
+    "timestamp": 399.3,
+    "endTimeTs": 409.6
+  },
+  {
+    "speakerName": "Natalie Simmons",
+    "timestamp": 410.9,
+    "endTimeTs": 420.5
+  },
+  {
+    "speakerName": "Mike Romano",
+    "timestamp": 421.5,
+    "endTimeTs": 428.1
+  },
+  {
+    "speakerName": "Natalie Simmons",
+    "timestamp": 428.5,
+    "endTimeTs": 434.3
+  },
+  {
+    "speakerName": "Mike Romano",
+    "timestamp": 435.6,
+    "endTimeTs": 453.3
+  },
+  {
+    "speakerName": "Natalie Simmons",
+    "timestamp": 453.8,
+    "endTimeTs": 463.3
+  },
+  {
+    "speakerName": "Mike Romano",
+    "timestamp": 463.7,
+    "endTimeTs": 477.9
+  },
+  {
+    "speakerName": "Natalie Simmons",
+    "timestamp": 478.4,
+    "endTimeTs": 486.9
+  },
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 487.2,
+    "endTimeTs": 496.1
+  },
+  {
+    "speakerName": "Aisha Johnson",
+    "timestamp": 496.8,
+    "endTimeTs": 515.4
+  },
+  {
+    "speakerName": "Natalie Simmons",
+    "timestamp": 516.8,
+    "endTimeTs": 522.4
+  },
+  {
+    "speakerName": "Ajay Mehta",
+    "timestamp": 523.8,
+    "endTimeTs": 536.4
+  },
+  {
+    "speakerName": "Aisha Johnson",
+    "timestamp": 537.5,
+    "endTimeTs": 550.6
+  }
+]

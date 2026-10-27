@@ -1,0 +1,19 @@
+{
+  "meetingId": "01KQB3B16F255B65F39597D0",
+  "title": "Comply v2 - Design Review",
+  "organizerEmail": "hannah.liu@aegiscloud.com",
+  "host": "hannah.liu@aegiscloud.com",
+  "startTime": "2026-02-12T13:45:00.000Z",
+  "endTime": "2026-02-12T14:16:48.000Z",
+  "duration": 31.8,
+  "allEmails": [
+    "hannah.liu@aegiscloud.com",
+    "ananya.sharma@aegiscloud.com",
+    "mike.romano@aegiscloud.com"
+  ],
+  "invitees": [
+    "hannah.liu@aegiscloud.com",
+    "ananya.sharma@aegiscloud.com",
+    "mike.romano@aegiscloud.com"
+  ]
+}

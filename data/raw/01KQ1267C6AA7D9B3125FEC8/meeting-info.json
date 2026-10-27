@@ -1,0 +1,23 @@
+{
+  "meetingId": "01KQ1267C6AA7D9B3125FEC8",
+  "title": "SOC 2 Audit Preparation - Internal",
+  "organizerEmail": "tyler.washington@aegiscloud.com",
+  "host": "tyler.washington@aegiscloud.com",
+  "startTime": "2026-02-26T10:15:00.000Z",
+  "endTime": "2026-02-26T10:51:54.000Z",
+  "duration": 36.9,
+  "allEmails": [
+    "tyler.washington@aegiscloud.com",
+    "raj.kapoor@aegiscloud.com",
+    "ravi.gupta@aegiscloud.com",
+    "brian.cho@aegiscloud.com",
+    "mike.romano@aegiscloud.com"
+  ],
+  "invitees": [
+    "tyler.washington@aegiscloud.com",
+    "raj.kapoor@aegiscloud.com",
+    "ravi.gupta@aegiscloud.com",
+    "brian.cho@aegiscloud.com",
+    "mike.romano@aegiscloud.com"
+  ]
+}

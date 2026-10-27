@@ -1,0 +1,45 @@
+{
+  "summary": "Damien Rowe from Stratos Cloud contacted Aegis Cloud Security support regarding consistent timeout errors when Aegis Detect attempted to push event data to their LogVault HTTP Event Collector endpoint, an issue that had been ongoing since April 18th. David Kim and team lead Priya Patel diagnosed the root cause as a circuit breaker payload threshold introduced in the April 8th remediation build (v4.1.2) being triggered by Stratos's high event volume of 8,000-12,000 events per minute during peak hours. The fix involved switching the LogVault integration from batched to streaming mode to distribute load more evenly, followed by a retroactive backfill of four days of missed event data. Damien expressed serious frustration, noting this was the second major disruption this year and that his team was questioning whether to remain on the Aegis Detect platform.",
+  "actionItems": [
+    "David Kim: Switch Stratos Cloud's LogVault integration to streaming mode and initiate the four-day event data backfill, sending confirmation emails when the job starts and completes",
+    "Priya Patel: Draft and send a detailed incident summary including root cause, timeline, affected data, and remediation steps by end of business tomorrow",
+    "Priya Patel: Schedule a substantive follow-up call with Damien Rowe and the customer success team to review Stratos Cloud's overall Aegis Detect configuration and address platform reliability concerns"
+  ],
+  "topics": [
+    "technical issue",
+    "logvault integration",
+    "data backfill",
+    "circuit breaker",
+    "churn risk",
+    "incident follow-up"
+  ],
+  "overallSentiment": "mixed-negative",
+  "sentimentScore": 2.4,
+  "keyMoments": [
+    {
+      "time": 95.0,
+      "text": "Damien states the timeout issue is consistent, not intermittent, and that nothing changed on his end, implying the fault lies with Aegis.",
+      "type": "concern",
+      "speaker": "Damien Rowe"
+    },
+    {
+      "time": 330.0,
+      "text": "Damien reveals his company was affected by the March pipeline outage and had to explain six hours of monitoring blind spots to leadership.",
+      "type": "concern",
+      "speaker": "Damien Rowe"
+    },
+    {
+      "time": 520.0,
+      "text": "David Kim confirms the circuit breaker introduced in the 4.1.2 remediation build is tripping on Stratos's payload volume, identifying the root cause of the timeout issue.",
+      "type": "technical_issue",
+      "speaker": "David Kim"
+    },
+    {
+      "time": 780.0,
+      "text": "Damien explicitly states his team has been questioning whether Aegis Detect is the right platform, signaling a serious churn risk.",
+      "type": "churn_signal",
+      "speaker": "Damien Rowe"
+    }
+  ],
+  "meetingId": "01KQ56D878454E5783DC6D94"
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "participantName": "Kendra Wallace",
+    "timestamp": 1770801331000,
+    "type": "Join",
+    "time": 31.0
+  },
+  {
+    "participantName": "James Mitchell",
+    "timestamp": 1770801354000,
+    "type": "Join",
+    "time": 54.0
+  },
+  {
+    "participantName": "James Mitchell",
+    "timestamp": 1770804031000,
+    "type": "Leave",
+    "time": 2731.0
+  },
+  {
+    "participantName": "Kendra Wallace",
+    "timestamp": 1770804023000,
+    "type": "Leave",
+    "time": 2723.0
+  }
+]

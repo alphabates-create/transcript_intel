@@ -1,0 +1,484 @@
+{
+  "data": [
+    {
+      "sentence": "Grace, hi, thank you so much for jumping on this call with me today, I know your schedule is absolutely packed right now.",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 7.8,
+      "endTime": 15.6,
+      "averageConfidence": 0.95,
+      "index": 0
+    },
+    {
+      "sentence": "Maria, I'm going to be honest with you, I almost didn't pick up.",
+      "speaker_name": "Grace Yoon",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 16.3,
+      "endTime": 21.1,
+      "averageConfidence": 0.96,
+      "index": 1
+    },
+    {
+      "sentence": "I \u2014 okay, I understand that, and I want you to know I take that seriously.",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 22.5,
+      "endTime": 28.3,
+      "averageConfidence": 0.89,
+      "index": 2
+    },
+    {
+      "sentence": "Do you have any idea what the last thirty-six hours have looked like for my team? We've had zero visibility into our threat monitoring since yesterday morning and I \u2014 I don't even know where to start.",
+      "speaker_name": "Grace Yoon",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 29.1,
+      "endTime": 42.0,
+      "averageConfidence": 0.92,
+      "index": 3
+    },
+    {
+      "sentence": "I know, Grace, and I am so sorry. I've been following the incident updates internally and I wanted to get on a call with you specifically because Northstar is one of our most important customers and I didn't want you to feel like you were just getting a status page update.",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 42.5,
+      "endTime": 60.4,
+      "averageConfidence": 0.93,
+      "index": 4
+    },
+    {
+      "sentence": "A status page update. Yeah, that's... that's exactly what we've been getting. Little green and yellow dots that don't tell me anything useful while my security team is flying blind in a healthcare environment, Maria.",
+      "speaker_name": "Grace Yoon",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 61.0,
+      "endTime": 73.1,
+      "averageConfidence": 0.91,
+      "index": 5
+    },
+    {
+      "sentence": "You're right, that's not acceptable, and I'm not here to defend the communication, I'm here to \u2014 to actually talk through what happened and what we're doing about it.",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 73.9,
+      "endTime": 83.9,
+      "averageConfidence": 0.89,
+      "index": 6
+    },
+    {
+      "sentence": "Okay. So what did happen? Because from where I'm sitting, Aegis Detect just... stopped. Six hours of nothing. No alerts, no event processing, nothing. And we didn't even get a proactive notification from you guys.",
+      "speaker_name": "Grace Yoon",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 84.9,
+      "endTime": 97.3,
+      "averageConfidence": 0.94,
+      "index": 7
+    },
+    {
+      "sentence": "So, the engineering team has identified the root cause \u2014 there was a cascading failure in our event processing pipeline, um, essentially a single point of failure in the event ingestion layer that propagated across the system. It was not a breach, it was not a data loss event, but it did take down the monitoring pipeline.",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 98.7,
+      "endTime": 118.9,
+      "averageConfidence": 0.96,
+      "index": 8
+    },
+    {
+      "sentence": "A single point of failure. In a security platform. That we are paying \u2014 Grace paused \u2014 that we are paying quite a lot of money for, I might add.",
+      "speaker_name": "Grace Yoon",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 120.1,
+      "endTime": 130.7,
+      "averageConfidence": 0.89,
+      "index": 9
+    },
+    {
+      "sentence": "I understand how that sounds, and frankly it should not have been architected that way. I'm not going to sugarcoat it.",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "negative",
+      "speaker_id": 0,
+      "time": 131.8,
+      "endTime": 139.2,
+      "averageConfidence": 0.95,
+      "index": 10
+    },
+    {
+      "sentence": "Do you understand the regulatory exposure we have? We're a pharma company, we operate under HIPAA, we have audit obligations, and for six hours \u2014 six hours \u2014 I had no way to tell you whether something was happening on our network or not. If there had been an incident during that window, I would have no logs, no alerts, no evidence trail from your platform. None.",
+      "speaker_name": "Grace Yoon",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 139.6,
+      "endTime": 163.0,
+      "averageConfidence": 0.94,
+      "index": 11
+    },
+    {
+      "sentence": "Grace, yes, and I want to be clear \u2014 our engineering team has confirmed that the event data itself was not lost, it was queued, and is being backfilled now. So your audit trail should be intact going back through the outage window.",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 164.5,
+      "endTime": 179.4,
+      "averageConfidence": 0.92,
+      "index": 12
+    },
+    {
+      "sentence": "Should be. That's a very comforting phrase.",
+      "speaker_name": "Grace Yoon",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 180.0,
+      "endTime": 182.6,
+      "averageConfidence": 0.96,
+      "index": 13
+    },
+    {
+      "sentence": "I hear the sarcasm and I \u2014 I deserved that. Let me get you a written confirmation of that from our engineering team today, not tomorrow, today.",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 183.6,
+      "endTime": 193.2,
+      "averageConfidence": 0.92,
+      "index": 14
+    },
+    {
+      "sentence": "I'm going to need a lot more than that, Maria. I had my CISO on the phone with me this morning asking me why we're still on Aegis Detect when this is the second time in eight months we've had a reliability issue. Second time.",
+      "speaker_name": "Grace Yoon",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 194.1,
+      "endTime": 209.9,
+      "averageConfidence": 0.95,
+      "index": 15
+    },
+    {
+      "sentence": "I \u2014 wait, can you tell me more about what you're referring to as the first incident? I want to make sure I have the full picture.",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 211.1,
+      "endTime": 220.5,
+      "averageConfidence": 0.95,
+      "index": 16
+    },
+    {
+      "sentence": "August, last year. The alert latency issue where our threat alerts were delayed by up to forty minutes. You remember that? We had a whole call about it.",
+      "speaker_name": "Grace Yoon",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 221.5,
+      "endTime": 231.0,
+      "averageConfidence": 0.92,
+      "index": 17
+    },
+    {
+      "sentence": "Yes, yes I do remember that. And at the time, the team made changes to the alert routing configuration \u2014",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 232.2,
+      "endTime": 239.5,
+      "averageConfidence": 0.88,
+      "index": 18
+    },
+    {
+      "sentence": "And apparently didn't fix the underlying architecture, because here we are. My CISO is now asking me to put together a competitive evaluation. Those were her words. Competitive evaluation. She specifically mentioned SentinelShield.",
+      "speaker_name": "Grace Yoon",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 240.8,
+      "endTime": 252.4,
+      "averageConfidence": 0.91,
+      "index": 19
+    },
+    {
+      "sentence": "Okay. Grace, I \u2014 I appreciate you being direct with me about that, and I'm not going to panic and just throw discounts at you right now because I don't think that's what you need. What I'm hearing is that you need confidence that this won't happen again.",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 253.6,
+      "endTime": 270.7,
+      "averageConfidence": 0.92,
+      "index": 20
+    },
+    {
+      "sentence": "Confidence would be a start, yes. But honestly? I'm past the point of just needing reassurance. I need to see a concrete remediation plan, I need an SLA commitment that actually has teeth, and I need to understand why I should tell my CISO to cancel that evaluation.",
+      "speaker_name": "Grace Yoon",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 271.9,
+      "endTime": 289.0,
+      "averageConfidence": 0.96,
+      "index": 21
+    },
+    {
+      "sentence": "Those are completely fair asks and I'm going to commit to each of them. Can I walk you through what I know the engineering team is putting in place?",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 289.7,
+      "endTime": 300.2,
+      "averageConfidence": 0.89,
+      "index": 22
+    },
+    {
+      "sentence": "Please. Go ahead.",
+      "speaker_name": "Grace Yoon",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 300.8,
+      "endTime": 302.3,
+      "averageConfidence": 0.94,
+      "index": 23
+    },
+    {
+      "sentence": "So the immediate fix that's already been deployed \u2014 and this went in last night \u2014 is redundant processing nodes in the event ingestion layer, so there's no longer a single point of failure there. And they're also implementing what's called a circuit breaker pattern, which basically means if one component starts degrading, it gets isolated before it can cascade.",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 302.9,
+      "endTime": 324.0,
+      "averageConfidence": 0.92,
+      "index": 24
+    },
+    {
+      "sentence": "Okay. And why wasn't that in place before? I mean \u2014 I'm sorry, I don't mean to be harsh, but that sounds like table stakes for a platform that's supposed to be monitoring security threats in real time.",
+      "speaker_name": "Grace Yoon",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 324.3,
+      "endTime": 337.3,
+      "averageConfidence": 0.92,
+      "index": 25
+    },
+    {
+      "sentence": "You're not wrong. And I \u2014 I genuinely don't have a good answer for why that architecture decision was made the way it was. What I can tell you is that it's being corrected, and I want to get you on a call with our VP of Engineering directly so you can ask that question yourself and hear it from the person who's accountable.",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 338.4,
+      "endTime": 360.8,
+      "averageConfidence": 0.95,
+      "index": 26
+    },
+    {
+      "sentence": "Hmm. That's \u2014 actually, yeah, I would want that. I want to hear it from someone technical, not just from a relationship layer.",
+      "speaker_name": "Grace Yoon",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 361.9,
+      "endTime": 370.2,
+      "averageConfidence": 0.95,
+      "index": 27
+    },
+    {
+      "sentence": "Absolutely, I'll make that happen. I'm thinking early next week \u2014 does Monday or Tuesday work for you and your CISO?",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 370.9,
+      "endTime": 378.4,
+      "averageConfidence": 0.97,
+      "index": 28
+    },
+    {
+      "sentence": "I'll have to check with her, but... tentatively, yes. I'll say yes for now.",
+      "speaker_name": "Grace Yoon",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 379.6,
+      "endTime": 384.7,
+      "averageConfidence": 0.89,
+      "index": 29
+    },
+    {
+      "sentence": "Okay, good, I'm putting that in my notes right now. And Grace, on the SLA question \u2014 I want to revisit your current agreement with us because I believe you're on our standard tier, and frankly for an organization of Northstar's size and your compliance requirements, I think we should be looking at what our enterprise SLA commitments look like.",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 386.0,
+      "endTime": 406.8,
+      "averageConfidence": 0.95,
+      "index": 30
+    },
+    {
+      "sentence": "Our renewal is in June, Maria. I'll be very blunt with you \u2014 if I don't have something substantially better to bring to my CISO before that renewal conversation, I don't know that we're going to be renewing.",
+      "speaker_name": "Grace Yoon",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 407.3,
+      "endTime": 420.9,
+      "averageConfidence": 0.88,
+      "index": 31
+    },
+    {
+      "sentence": "I hear you. And I'm not going to pretend June isn't close. It's close. That's why I want to move fast on the engineering call, on the SLA review, and on getting you that written incident report.",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 421.4,
+      "endTime": 434.4,
+      "averageConfidence": 0.9,
+      "index": 32
+    },
+    {
+      "sentence": "What does the incident report look like? Is this going to be a two-paragraph email or are we talking something I can actually hand to a regulator if I need to?",
+      "speaker_name": "Grace Yoon",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 434.9,
+      "endTime": 446.1,
+      "averageConfidence": 0.93,
+      "index": 33
+    },
+    {
+      "sentence": "It'll be a full post-mortem document \u2014 timeline, root cause analysis, impact scope, remediation steps taken, and forward-looking prevention measures. Something you can actually use.",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 447.5,
+      "endTime": 456.0,
+      "averageConfidence": 0.89,
+      "index": 34
+    },
+    {
+      "sentence": "Okay. That's... that's what I need. And I need it by end of week, not end of next week.",
+      "speaker_name": "Grace Yoon",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 457.2,
+      "endTime": 463.9,
+      "averageConfidence": 0.96,
+      "index": 35
+    },
+    {
+      "sentence": "End of week, I'll make it happen. I'll personally follow up with engineering today to make sure that's on track.",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 464.3,
+      "endTime": 471.6,
+      "averageConfidence": 0.92,
+      "index": 36
+    },
+    {
+      "sentence": "I'm also going to need to understand \u2014 and this is something my CISO is going to want to know \u2014 what is your monitoring capability for the platform itself? Like, how did it take six hours for this to be resolved? Were you not watching your own system?",
+      "speaker_name": "Grace Yoon",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 472.4,
+      "endTime": 489.3,
+      "averageConfidence": 0.9,
+      "index": 37
+    },
+    {
+      "sentence": "That is a fair and frankly really important question, and I want to make sure I give you an accurate answer rather than guessing. I'll get that specifically addressed in the post-mortem, the internal detection and response timeline.",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 490.2,
+      "endTime": 503.4,
+      "averageConfidence": 0.92,
+      "index": 38
+    },
+    {
+      "sentence": "Because six hours is a long time. A long time. Something should have been paging someone well before that.",
+      "speaker_name": "Grace Yoon",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 504.7,
+      "endTime": 511.3,
+      "averageConfidence": 0.96,
+      "index": 39
+    },
+    {
+      "sentence": "You're absolutely right, and I share that frustration honestly. Okay \u2014 so let me recap what I'm committing to so we're both clear. Written confirmation of event data integrity today, full post-mortem document by end of this week, executive and engineering call with you and your CISO early next week, and a review of your SLA tier. Does that cover the immediate priorities?",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 511.7,
+      "endTime": 533.8,
+      "averageConfidence": 0.92,
+      "index": 40
+    },
+    {
+      "sentence": "Those are the immediate priorities, yes. But Maria \u2014 I want you to understand where I'm sitting. This isn't just about the outage anymore. It's about whether Aegis Detect is the right platform for us long term. And I'm going to be doing my own due diligence on that regardless of what you put in front of me.",
+      "speaker_name": "Grace Yoon",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 534.6,
+      "endTime": 555.1,
+      "averageConfidence": 0.97,
+      "index": 41
+    },
+    {
+      "sentence": "I would expect nothing less from someone in your role. And I'm not afraid of that evaluation \u2014 I think when you look at total capability, especially when you factor in how Detect integrates with Comply and Identity for your HIPAA obligations, that story is still very strong. But I have to earn that back. I know that.",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 556.3,
+      "endTime": 576.3,
+      "averageConfidence": 0.93,
+      "index": 42
+    },
+    {
+      "sentence": "Yeah. You do. Alright. I need to get back to my team, they're still dealing with the backfill validation and I want to make sure we're not missing anything. Send me that data integrity confirmation as soon as you can.",
+      "speaker_name": "Grace Yoon",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 577.1,
+      "endTime": 591.3,
+      "averageConfidence": 0.96,
+      "index": 43
+    },
+    {
+      "sentence": "You'll have it within the hour. Grace, thank you for staying on the call with me. I know this wasn't easy and I'm going to do everything I can to make this right.",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 592.8,
+      "endTime": 604.7,
+      "averageConfidence": 0.89,
+      "index": 44
+    },
+    {
+      "sentence": "I appreciate that. I really do. Just... don't let me down on the follow-through, okay? That's the part that's going to matter.",
+      "speaker_name": "Grace Yoon",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 605.3,
+      "endTime": 612.7,
+      "averageConfidence": 0.93,
+      "index": 45
+    },
+    {
+      "sentence": "I won't. Talk soon, Grace.",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 613.7,
+      "endTime": 615.4,
+      "averageConfidence": 0.96,
+      "index": 46
+    },
+    {
+      "sentence": "Okay. Bye.",
+      "speaker_name": "Grace Yoon",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 616.4,
+      "endTime": 617.9,
+      "averageConfidence": 0.94,
+      "index": 47
+    }
+  ]
+}

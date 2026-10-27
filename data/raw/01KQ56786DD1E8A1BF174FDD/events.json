@@ -1,0 +1,50 @@
+[
+  {
+    "participantName": "Elena Vasquez",
+    "timestamp": 1775230216000,
+    "type": "Join",
+    "time": 16.0
+  },
+  {
+    "participantName": "Dana Moretti",
+    "timestamp": 1775230218000,
+    "type": "Join",
+    "time": 18.0
+  },
+  {
+    "participantName": "David Kim",
+    "timestamp": 1775230223000,
+    "type": "Join",
+    "time": 23.0
+  },
+  {
+    "participantName": "Gerald Hutchins",
+    "timestamp": 1775230237000,
+    "type": "Join",
+    "time": 37.0
+  },
+  {
+    "participantName": "David Kim",
+    "timestamp": 1775231722000,
+    "type": "Leave",
+    "time": 1522.0
+  },
+  {
+    "participantName": "Elena Vasquez",
+    "timestamp": 1775231709000,
+    "type": "Leave",
+    "time": 1509.0
+  },
+  {
+    "participantName": "Gerald Hutchins",
+    "timestamp": 1775231733000,
+    "type": "Leave",
+    "time": 1533.0
+  },
+  {
+    "participantName": "Dana Moretti",
+    "timestamp": 1775231721000,
+    "type": "Leave",
+    "time": 1521.0
+  }
+]

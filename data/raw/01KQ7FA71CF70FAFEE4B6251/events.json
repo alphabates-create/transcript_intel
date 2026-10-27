@@ -1,0 +1,26 @@
+[
+  {
+    "participantName": "Stephanie Blair",
+    "timestamp": 1774091754000,
+    "type": "Join",
+    "time": 54.0
+  },
+  {
+    "participantName": "Aisha Johnson",
+    "timestamp": 1774091756000,
+    "type": "Join",
+    "time": 56.0
+  },
+  {
+    "participantName": "Aisha Johnson",
+    "timestamp": 1774093682000,
+    "type": "Leave",
+    "time": 1982.0
+  },
+  {
+    "participantName": "Stephanie Blair",
+    "timestamp": 1774093702000,
+    "type": "Leave",
+    "time": 2002.0
+  }
+]

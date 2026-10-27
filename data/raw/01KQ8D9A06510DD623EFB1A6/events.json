@@ -1,0 +1,26 @@
+[
+  {
+    "participantName": "Rachel Torres",
+    "timestamp": 1776344429000,
+    "type": "Join",
+    "time": 29.0
+  },
+  {
+    "participantName": "Sandra Keating",
+    "timestamp": 1776344435000,
+    "type": "Join",
+    "time": 35.0
+  },
+  {
+    "participantName": "Rachel Torres",
+    "timestamp": 1776347252000,
+    "type": "Leave",
+    "time": 2852.0
+  },
+  {
+    "participantName": "Sandra Keating",
+    "timestamp": 1776347248000,
+    "type": "Leave",
+    "time": 2848.0
+  }
+]

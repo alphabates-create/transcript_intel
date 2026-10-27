@@ -1,0 +1,404 @@
+{
+  "data": [
+    {
+      "sentence": "Alright, I think we've got everyone on now \u2014 Tom, you there?",
+      "speaker_name": "Chris Lee",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 4.1,
+      "endTime": 8.7,
+      "averageConfidence": 0.91,
+      "index": 0
+    },
+    {
+      "sentence": "Yeah, I'm here, sorry \u2014 had to jump off another call, go ahead.",
+      "speaker_name": "Tom Bradley",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 10.1,
+      "endTime": 14.5,
+      "averageConfidence": 0.96,
+      "index": 1
+    },
+    {
+      "sentence": "No worries. Okay, so usual format \u2014 let's do a quick status round, then I want to spend some time on the Detect pipeline work and the Comply v2 timeline. Mike, you want to kick us off?",
+      "speaker_name": "Chris Lee",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 15.7,
+      "endTime": 28.4,
+      "averageConfidence": 0.96,
+      "index": 2
+    },
+    {
+      "sentence": "Sure. So on my end, I've been heads down on the event ingestion refactor. We're about sixty percent through the work \u2014 the new queue partitioning is done, and I've got a draft PR up for the retry logic. Still need to wire up the dead letter queue handling and then we can start integration testing.",
+      "speaker_name": "Mike Romano",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 28.7,
+      "endTime": 48.1,
+      "averageConfidence": 0.92,
+      "index": 3
+    },
+    {
+      "sentence": "And that's all under the Detect reliability track, right?",
+      "speaker_name": "Chris Lee",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 48.8,
+      "endTime": 51.8,
+      "averageConfidence": 0.9,
+      "index": 4
+    },
+    {
+      "sentence": "Yeah, exactly. It's all scoped to the pipeline work.",
+      "speaker_name": "Mike Romano",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 52.5,
+      "endTime": 56.0,
+      "averageConfidence": 0.9,
+      "index": 5
+    },
+    {
+      "sentence": "Good. Tyler, how about you?",
+      "speaker_name": "Chris Lee",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 56.5,
+      "endTime": 58.1,
+      "averageConfidence": 0.94,
+      "index": 6
+    },
+    {
+      "sentence": "Um, so I finished up the alert deduplication changes last week \u2014 those are merged. Right now I'm picking up the monitoring dashboard tickets that got bumped from last sprint. There's like three or four of them, they're not huge but they've been sitting there for a while.",
+      "speaker_name": "Tyler Washington",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 59.3,
+      "endTime": 75.9,
+      "averageConfidence": 0.9,
+      "index": 7
+    },
+    {
+      "sentence": "Yeah those have been in the backlog forever, good to finally get to them. Any blockers?",
+      "speaker_name": "Chris Lee",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 77.1,
+      "endTime": 82.5,
+      "averageConfidence": 0.94,
+      "index": 8
+    },
+    {
+      "sentence": "Not right now. I might need some time with Mike later this week to ask a few questions about how the ingestion layer works because some of the dashboard stuff pulls from there, but nothing blocking me today.",
+      "speaker_name": "Tyler Washington",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 82.9,
+      "endTime": 96.5,
+      "averageConfidence": 0.88,
+      "index": 9
+    },
+    {
+      "sentence": "Yeah that's fine, just ping me, we can do a quick thirty minutes.",
+      "speaker_name": "Mike Romano",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 97.3,
+      "endTime": 102.2,
+      "averageConfidence": 0.89,
+      "index": 10
+    },
+    {
+      "sentence": "Cool, thanks.",
+      "speaker_name": "Tyler Washington",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 103.2,
+      "endTime": 104.7,
+      "averageConfidence": 0.9,
+      "index": 11
+    },
+    {
+      "sentence": "Okay, Tom, anything from your side before we get into the weeds on the pipeline stuff?",
+      "speaker_name": "Chris Lee",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 106.0,
+      "endTime": 111.8,
+      "averageConfidence": 0.91,
+      "index": 12
+    },
+    {
+      "sentence": "Yeah, a couple things. One \u2014 I had a conversation with product Friday and they're asking again about the timeline for the Detect reliability work. They want to know if we're still comfortable with end of March. And two \u2014 the Comply v2 launch is tracking for early April, so I want to make sure we haven't over-allocated anyone against Detect to where we can't support any last-minute Comply stuff.",
+      "speaker_name": "Tom Bradley",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 112.4,
+      "endTime": 137.1,
+      "averageConfidence": 0.9,
+      "index": 13
+    },
+    {
+      "sentence": "Right, yeah \u2014 on the end of March question, I think we're okay but it's tight. Mike, do you want to give your honest read on that?",
+      "speaker_name": "Chris Lee",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 137.4,
+      "endTime": 146.7,
+      "averageConfidence": 0.94,
+      "index": 14
+    },
+    {
+      "sentence": "Honestly? End of March for the core pipeline changes is doable, but that's assuming we don't hit anything weird in integration testing. If the testing surfaces issues \u2014 which it might \u2014 we're looking at a week or two of buffer that we don't really have. So I'd call it like... sixty-forty we hit the date.",
+      "speaker_name": "Mike Romano",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 147.3,
+      "endTime": 167.0,
+      "averageConfidence": 0.89,
+      "index": 15
+    },
+    {
+      "sentence": "Okay so not super confident. That's useful to know now rather than in three weeks.",
+      "speaker_name": "Tom Bradley",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 167.6,
+      "endTime": 173.4,
+      "averageConfidence": 0.92,
+      "index": 16
+    },
+    {
+      "sentence": "Yeah, I'd rather flag it now. I don't want to sandbag the estimate but I also don't want to commit to something and then miss it.",
+      "speaker_name": "Mike Romano",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 174.3,
+      "endTime": 183.9,
+      "averageConfidence": 0.9,
+      "index": 17
+    },
+    {
+      "sentence": "I get it. What would it take to move the odds more in our favor? Like is this a resourcing thing or just inherent uncertainty in the work?",
+      "speaker_name": "Tom Bradley",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 184.8,
+      "endTime": 194.3,
+      "averageConfidence": 0.92,
+      "index": 18
+    },
+    {
+      "sentence": "Bit of both, honestly. The dead letter queue piece and the circuit breaker pattern \u2014 those are well-understood, I'm not worried about them. The part I'm less sure about is how the redundant node setup interacts with our current Kafka config. We haven't fully mapped that out yet.",
+      "speaker_name": "Mike Romano",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 195.2,
+      "endTime": 212.0,
+      "averageConfidence": 0.89,
+      "index": 19
+    },
+    {
+      "sentence": "Could Tyler help spike on the Kafka piece? Is that something he could pick up, or is it too deep in your area?",
+      "speaker_name": "Chris Lee",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 213.0,
+      "endTime": 220.9,
+      "averageConfidence": 0.92,
+      "index": 20
+    },
+    {
+      "sentence": "I mean, I could take a look at it. I'm not as familiar with our Kafka setup as Mike is, but I've worked with Kafka before. It might take me a bit to get context but I'm not opposed to it.",
+      "speaker_name": "Tyler Washington",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 222.4,
+      "endTime": 236.6,
+      "averageConfidence": 0.93,
+      "index": 21
+    },
+    {
+      "sentence": "The risk there is the ramp-up time kind of eats into whatever time savings you'd get. But \u2014 if Tyler can do some of the investigation work and document what he finds, that could at least give me clearer inputs so I'm not going in blind. That might actually help.",
+      "speaker_name": "Mike Romano",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 237.3,
+      "endTime": 255.1,
+      "averageConfidence": 0.95,
+      "index": 22
+    },
+    {
+      "sentence": "Okay let's do that. Tyler, can you carve out time this week to start pulling on that thread? Just document what you find, even if it's rough notes \u2014 Mike, you can work off that.",
+      "speaker_name": "Chris Lee",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 255.8,
+      "endTime": 268.5,
+      "averageConfidence": 0.9,
+      "index": 23
+    },
+    {
+      "sentence": "Yeah, works for me.",
+      "speaker_name": "Tyler Washington",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 268.9,
+      "endTime": 270.7,
+      "averageConfidence": 0.9,
+      "index": 24
+    },
+    {
+      "sentence": "Good. Tom, does that give you enough to go back to product with, or do they need a harder commitment?",
+      "speaker_name": "Chris Lee",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 271.6,
+      "endTime": 278.4,
+      "averageConfidence": 0.92,
+      "index": 25
+    },
+    {
+      "sentence": "I'll tell them end of March is still the target but flag that there's some technical uncertainty we're actively working down. I'd rather do that than give them a false sense of confidence. They won't love it but they'll deal with it.",
+      "speaker_name": "Tom Bradley",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 279.4,
+      "endTime": 294.4,
+      "averageConfidence": 0.9,
+      "index": 26
+    },
+    {
+      "sentence": "Yeah, that's the right call. Okay \u2014 on the Comply v2 resource question, I don't think we have a huge exposure there. The team that's been carrying that work is mostly on the platform side. The main thing I'd watch is if QA needs help in late March, early April \u2014 that's where it could bleed over.",
+      "speaker_name": "Chris Lee",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 295.4,
+      "endTime": 315.7,
+      "averageConfidence": 0.91,
+      "index": 27
+    },
+    {
+      "sentence": "Who's the primary contact on that side, is it still Priya's team?",
+      "speaker_name": "Tom Bradley",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 316.3,
+      "endTime": 320.4,
+      "averageConfidence": 0.91,
+      "index": 28
+    },
+    {
+      "sentence": "Yeah, Priya owns it. I've been syncing with her weekly. She hasn't raised any red flags yet \u2014 the on-demand reporting piece is apparently in pretty good shape, and the multi-framework stuff for SOC 2, PCI, HIPAA is mostly done. The ISO 27001 mapping was the last thing to come in.",
+      "speaker_name": "Chris Lee",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 320.9,
+      "endTime": 338.9,
+      "averageConfidence": 0.88,
+      "index": 29
+    },
+    {
+      "sentence": "Okay good. Keep that sync going, and just make sure she knows to flag us early if she needs anything from this team.",
+      "speaker_name": "Tom Bradley",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 339.7,
+      "endTime": 348.0,
+      "averageConfidence": 0.95,
+      "index": 30
+    },
+    {
+      "sentence": "Will do. Alright, anything else on Comply before we move on? ... No? Okay. Let me just do a quick check on the sprint board \u2014 we've got eight tickets in progress, two in review. The two in review are Tyler's dedup changes \u2014 wait, those are merged already.",
+      "speaker_name": "Chris Lee",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 349.2,
+      "endTime": 366.5,
+      "averageConfidence": 0.94,
+      "index": 31
+    },
+    {
+      "sentence": "Yeah they should show as done, I closed them out Friday.",
+      "speaker_name": "Tyler Washington",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 367.2,
+      "endTime": 371.0,
+      "averageConfidence": 0.93,
+      "index": 32
+    },
+    {
+      "sentence": "Board probably just hasn't updated. I'll fix it after this call. Okay so eight in progress, nothing blocking at the moment. Mike, when do you think the PR will be ready for review \u2014 the retry logic one?",
+      "speaker_name": "Chris Lee",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 372.1,
+      "endTime": 385.8,
+      "averageConfidence": 0.89,
+      "index": 33
+    },
+    {
+      "sentence": "Probably Wednesday. It's in draft right now, I want to clean it up a bit before I move it to ready. There's some stuff in there I'm not fully happy with yet.",
+      "speaker_name": "Mike Romano",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 387.3,
+      "endTime": 398.3,
+      "averageConfidence": 0.91,
+      "index": 34
+    },
+    {
+      "sentence": "That's fine. I'll plan to take a look Thursday then. Alright, I think that covers everything \u2014 Tom, anything before we close out?",
+      "speaker_name": "Chris Lee",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 399.4,
+      "endTime": 407.8,
+      "averageConfidence": 0.95,
+      "index": 35
+    },
+    {
+      "sentence": "No, I'm good. Good check-in, appreciate the transparency on the timeline stuff. Keep me posted if anything changes.",
+      "speaker_name": "Tom Bradley",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 408.3,
+      "endTime": 414.4,
+      "averageConfidence": 0.97,
+      "index": 36
+    },
+    {
+      "sentence": "Will do. Alright everyone, have a good week.",
+      "speaker_name": "Chris Lee",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 415.2,
+      "endTime": 417.8,
+      "averageConfidence": 0.9,
+      "index": 37
+    },
+    {
+      "sentence": "Thanks, you too.",
+      "speaker_name": "Mike Romano",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 418.6,
+      "endTime": 420.1,
+      "averageConfidence": 0.95,
+      "index": 38
+    },
+    {
+      "sentence": "Yeah, take it easy.",
+      "speaker_name": "Tyler Washington",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 421.0,
+      "endTime": 422.5,
+      "averageConfidence": 0.91,
+      "index": 39
+    }
+  ]
+}

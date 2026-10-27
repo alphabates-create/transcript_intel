@@ -1,0 +1,21 @@
+{
+  "meetingId": "01KQ4529010F423FD9DB40BD",
+  "title": "Win/Loss Analysis - Q1",
+  "organizerEmail": "kevin.obrien@aegiscloud.com",
+  "host": "kevin.obrien@aegiscloud.com",
+  "startTime": "2026-04-24T12:45:00.000Z",
+  "endTime": "2026-04-24T13:01:30.000Z",
+  "duration": 16.5,
+  "allEmails": [
+    "kevin.obrien@aegiscloud.com",
+    "brian.cho@aegiscloud.com",
+    "raj.kapoor@aegiscloud.com",
+    "maria.santos@aegiscloud.com"
+  ],
+  "invitees": [
+    "kevin.obrien@aegiscloud.com",
+    "brian.cho@aegiscloud.com",
+    "raj.kapoor@aegiscloud.com",
+    "maria.santos@aegiscloud.com"
+  ]
+}

@@ -1,0 +1,364 @@
+{
+  "data": [
+    {
+      "sentence": "Hey Tom, you there? I think you might be on mute.",
+      "speaker_name": "Jordan Whitfield",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 4.6,
+      "endTime": 8.9,
+      "averageConfidence": 0.89,
+      "index": 0
+    },
+    {
+      "sentence": "Oh, yeah sorry, I was \u2014 yeah, I had myself muted. Can you hear me now?",
+      "speaker_name": "Tom Bradley",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 9.9,
+      "endTime": 15.4,
+      "averageConfidence": 0.95,
+      "index": 1
+    },
+    {
+      "sentence": "Yeah, loud and clear. Okay cool, so I figured we should probably carve out some time to actually go through the competitive landscape before the product review next week, because I feel like we've been kind of operating on vibes a little bit.",
+      "speaker_name": "Jordan Whitfield",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 16.5,
+      "endTime": 32.0,
+      "averageConfidence": 0.93,
+      "index": 2
+    },
+    {
+      "sentence": "Yeah no, agreed. I got the deck you sent over this morning. Hadn't had a chance to fully go through it but I did skim the section on SentinelShield. That one stood out to me.",
+      "speaker_name": "Tom Bradley",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 32.8,
+      "endTime": 45.1,
+      "averageConfidence": 0.91,
+      "index": 3
+    },
+    {
+      "sentence": "Right, yeah. So that's kind of where I wanted to start actually, because they've been showing up more in deal cycles lately. I've been hearing that from the sales team \u2014 like Marcus's team specifically flagged them twice in the last month.",
+      "speaker_name": "Jordan Whitfield",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 45.6,
+      "endTime": 60.6,
+      "averageConfidence": 0.96,
+      "index": 4
+    },
+    {
+      "sentence": "Mm. What's the \u2014 what's the pitch they're running? Like what's SentinelShield leading with?",
+      "speaker_name": "Tom Bradley",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 62.1,
+      "endTime": 66.9,
+      "averageConfidence": 0.92,
+      "index": 5
+    },
+    {
+      "sentence": "So from what I've been able to piece together \u2014 and some of this is from public stuff, some of it is from what reps are hearing in calls \u2014 they're leading pretty hard on the SIEM integration story. Like native integrations with LogVault, with Nextera Sentinel, and they're positioning that as kind of a no-rip-and-replace approach.",
+      "speaker_name": "Jordan Whitfield",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 68.0,
+      "endTime": 87.9,
+      "averageConfidence": 0.92,
+      "index": 6
+    },
+    {
+      "sentence": "Okay. And how does that actually compare to what we have in Detect right now?",
+      "speaker_name": "Tom Bradley",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 88.4,
+      "endTime": 94.2,
+      "averageConfidence": 0.94,
+      "index": 7
+    },
+    {
+      "sentence": "Honestly? We're not as strong there. We have the LogVault connector but it's \u2014 it's kind of janky, right? I know the team has been working on it but I don't think it's at parity with what SentinelShield is showing in demos.",
+      "speaker_name": "Jordan Whitfield",
+      "sentimentType": "negative",
+      "speaker_id": 0,
+      "time": 94.5,
+      "endTime": 109.1,
+      "averageConfidence": 0.92,
+      "index": 8
+    },
+    {
+      "sentence": "Yeah I'd push back on calling it janky, but... it's not polished. The connector works, the issue is more around the configuration experience. There's like a lot of manual steps that honestly shouldn't be manual.",
+      "speaker_name": "Tom Bradley",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 109.5,
+      "endTime": 121.5,
+      "averageConfidence": 0.93,
+      "index": 9
+    },
+    {
+      "sentence": "Okay, that's a fair distinction. But from a buyer's perspective, right, if they're seeing a slick demo from SentinelShield where it's like, here's our three-click setup, and then they're talking to us and there's like a six-page config guide... that's a perception gap regardless of whether the underlying tech is actually better.",
+      "speaker_name": "Jordan Whitfield",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 122.5,
+      "endTime": 140.5,
+      "averageConfidence": 0.96,
+      "index": 10
+    },
+    {
+      "sentence": "Sure, yeah. That's fair. I don't disagree with that. We've got it on the roadmap but it's been deprioritized a couple times because of other things that were more urgent.",
+      "speaker_name": "Tom Bradley",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 141.6,
+      "endTime": 152.0,
+      "averageConfidence": 0.9,
+      "index": 11
+    },
+    {
+      "sentence": "Right, okay. So let's \u2014 let's park SentinelShield for a second and talk about VaultEdge, because I think they're a different kind of threat. They're not really going after Detect, they're going after Protect.",
+      "speaker_name": "Jordan Whitfield",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 152.4,
+      "endTime": 164.2,
+      "averageConfidence": 0.92,
+      "index": 12
+    },
+    {
+      "sentence": "Yeah, backup and recovery. What are you seeing from them?",
+      "speaker_name": "Tom Bradley",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 165.6,
+      "endTime": 169.4,
+      "averageConfidence": 0.95,
+      "index": 13
+    },
+    {
+      "sentence": "So VaultEdge is making a lot of noise about their RTO and RPO numbers. They're claiming like sub-fifteen-minute recovery times for enterprise workloads, which, I mean, that's a pretty aggressive claim.",
+      "speaker_name": "Jordan Whitfield",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 170.1,
+      "endTime": 181.4,
+      "averageConfidence": 0.94,
+      "index": 14
+    },
+    {
+      "sentence": "Mm-hmm. Do we know if that's, like, validated anywhere or is that just marketing?",
+      "speaker_name": "Tom Bradley",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 182.4,
+      "endTime": 187.1,
+      "averageConfidence": 0.89,
+      "index": 15
+    },
+    {
+      "sentence": "I mean, it's mostly marketing as far as I can tell. There's one Gartner Peer Insights review that kind of backs it up but it's a single data point. What I think is more interesting is that they're starting to bundle in some compliance reporting features, which starts to get adjacent to what we're doing with Comply.",
+      "speaker_name": "Jordan Whitfield",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 188.1,
+      "endTime": 208.0,
+      "averageConfidence": 0.93,
+      "index": 16
+    },
+    {
+      "sentence": "Oh that's \u2014 yeah, that's worth watching. Like, are they doing real compliance reporting or is it more like checkbox stuff?",
+      "speaker_name": "Tom Bradley",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 208.5,
+      "endTime": 215.6,
+      "averageConfidence": 0.94,
+      "index": 17
+    },
+    {
+      "sentence": "From what I can see it's pretty surface level right now. Like they're doing some basic audit log exports, maybe some pre-built report templates. But it's not \u2014 it doesn't seem like a serious compliance play yet. But the concern is they're moving in that direction.",
+      "speaker_name": "Jordan Whitfield",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 216.6,
+      "endTime": 232.7,
+      "averageConfidence": 0.96,
+      "index": 18
+    },
+    {
+      "sentence": "Right. Well, the good news there is we've got a lot coming with Comply in the next couple months. I don't want to get too deep into roadmap stuff but the on-demand reporting capabilities are going to be a significant step up from what we have today.",
+      "speaker_name": "Tom Bradley",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 233.7,
+      "endTime": 250.3,
+      "averageConfidence": 0.95,
+      "index": 19
+    },
+    {
+      "sentence": "Yeah, I know. And I think that's going to be a strong differentiator. I just want to make sure we're timing the competitive messaging right, because if VaultEdge is building toward this space, we want to be out front before they get there.",
+      "speaker_name": "Jordan Whitfield",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 251.7,
+      "endTime": 267.0,
+      "averageConfidence": 0.9,
+      "index": 20
+    },
+    {
+      "sentence": "Agreed. Okay, what about CyberNova? I feel like I don't have a great read on them.",
+      "speaker_name": "Tom Bradley",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 268.4,
+      "endTime": 273.7,
+      "averageConfidence": 0.9,
+      "index": 21
+    },
+    {
+      "sentence": "Yeah so CyberNova is kind of the interesting one. They're not \u2014 they don't have the brand recognition of SentinelShield, they're smaller. But they've been very aggressive on pricing, like significantly undercutting on Identity specifically. And they've got a decent SSO story.",
+      "speaker_name": "Jordan Whitfield",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 274.3,
+      "endTime": 289.4,
+      "averageConfidence": 0.89,
+      "index": 22
+    },
+    {
+      "sentence": "How are they on MFA? Because that's where we tend to have more depth.",
+      "speaker_name": "Tom Bradley",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 290.4,
+      "endTime": 295.4,
+      "averageConfidence": 0.89,
+      "index": 23
+    },
+    {
+      "sentence": "MFA is where they fall down a bit, from what I can tell. They support the standard stuff \u2014 TOTP, push notifications \u2014 but they don't have the hardware key support or the adaptive authentication policies that we have in Identity. So like, for mid-market it might be a closer call, but for enterprise buyers who care about that stuff, we're still in a good position.",
+      "speaker_name": "Jordan Whitfield",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 295.7,
+      "endTime": 319.3,
+      "averageConfidence": 0.95,
+      "index": 24
+    },
+    {
+      "sentence": "Okay. And then Fortiguard Pro \u2014 I mean, they're a different category of competitor really, aren't they? Like they're so broad.",
+      "speaker_name": "Tom Bradley",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 319.8,
+      "endTime": 327.2,
+      "averageConfidence": 0.91,
+      "index": 25
+    },
+    {
+      "sentence": "Yeah, Fortiguard Pro is more of a legacy incumbent situation. They show up in deals but usually in larger enterprises that already have a relationship with them. The main thing I hear is that customers who are using Fortiguard are often frustrated with the complexity and the cost of professional services to do anything. So our consolidation play works well against them.",
+      "speaker_name": "Jordan Whitfield",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 328.0,
+      "endTime": 350.0,
+      "averageConfidence": 0.92,
+      "index": 26
+    },
+    {
+      "sentence": "Right, the platform story. Yeah. Okay so if I'm summarizing \u2014 SentinelShield is the most immediate threat in Detect, VaultEdge is one to watch in Protect and potentially Comply, CyberNova is a pricing threat in Identity for mid-market, and Fortiguard is the big incumbent we're differentiating against on simplicity.",
+      "speaker_name": "Tom Bradley",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 350.6,
+      "endTime": 368.1,
+      "averageConfidence": 0.91,
+      "index": 27
+    },
+    {
+      "sentence": "Yeah, that's roughly the picture. And I think the thing I want to flag for next week's review is that the LogVault connector thing \u2014 like, the SentinelShield gap \u2014 is probably the most actionable near-term thing we should be thinking about prioritizing.",
+      "speaker_name": "Jordan Whitfield",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 369.2,
+      "endTime": 384.7,
+      "averageConfidence": 0.89,
+      "index": 28
+    },
+    {
+      "sentence": "I hear you on that. I'm going to push back a little though, because engineering bandwidth right now is pretty constrained, and I don't want to make commitments that we can't actually back up with capacity.",
+      "speaker_name": "Tom Bradley",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 385.3,
+      "endTime": 398.1,
+      "averageConfidence": 0.89,
+      "index": 29
+    },
+    {
+      "sentence": "No, that's fair. I'm not asking you to commit to anything today. I just think we need to at least surface it as a risk in the review so that leadership has visibility into the tradeoff.",
+      "speaker_name": "Jordan Whitfield",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 398.7,
+      "endTime": 411.5,
+      "averageConfidence": 0.89,
+      "index": 30
+    },
+    {
+      "sentence": "Yeah, okay. I can get behind that framing. Surface the gap, let the conversation happen at the right level, and then we see what prioritization shakes out.",
+      "speaker_name": "Tom Bradley",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 412.1,
+      "endTime": 421.6,
+      "averageConfidence": 0.94,
+      "index": 31
+    },
+    {
+      "sentence": "Exactly. Okay, I think that's probably enough to work with for now. I'll clean up the deck, add a summary slide with that competitive matrix you basically just articulated, and share it before EOD tomorrow.",
+      "speaker_name": "Jordan Whitfield",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 422.4,
+      "endTime": 434.6,
+      "averageConfidence": 0.96,
+      "index": 32
+    },
+    {
+      "sentence": "Sounds good. Yeah, send it over and I'll take a proper look before the review. Appreciate you pulling this together.",
+      "speaker_name": "Tom Bradley",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 435.0,
+      "endTime": 442.3,
+      "averageConfidence": 0.96,
+      "index": 33
+    },
+    {
+      "sentence": "Yeah of course. Alright, talk soon.",
+      "speaker_name": "Jordan Whitfield",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 442.8,
+      "endTime": 445.3,
+      "averageConfidence": 0.91,
+      "index": 34
+    },
+    {
+      "sentence": "Yep, take care.",
+      "speaker_name": "Tom Bradley",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 446.5,
+      "endTime": 448.0,
+      "averageConfidence": 0.96,
+      "index": 35
+    }
+  ]
+}

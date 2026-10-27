@@ -1,0 +1,46 @@
+{
+  "summary": "Kevin O'Brien from Aegis spoke with Vanessa Cruz at Coastal Living about deploying Aegis Protect for their hybrid backup and recovery environment following a successful spring collection launch. Vanessa described a fragmented backup setup across CloudPrime and on-prem systems totaling 80-100TB across 40-50 workloads, with poor visibility being the primary pain point. Kevin outlined a phased three-part implementation plan, confirmed compatibility with their infrastructure, and discussed RPO/RTO requirements for their critical customer data platform. The call concluded with plans for a kickoff meeting the following Wednesday and next steps around onboarding documentation.",
+  "actionItems": [
+    "Kevin O'Brien: Send formal onboarding plan document including three-phase timeline, resource requirements, and business impact analysis template by end of day tomorrow",
+    "Kevin O'Brien: Send calendar invite for Wednesday kickoff call with implementation lead copied in",
+    "Vanessa Cruz: Loop in two senior engineers for the Wednesday kickoff call",
+    "Vanessa Cruz: Schedule a follow-up conversation about Aegis Comply v2 and PCI DSS reporting after Protect is up and running"
+  ],
+  "topics": [
+    "onboarding",
+    "backup and recovery",
+    "hybrid environment",
+    "data protection",
+    "compliance",
+    "retail seasonality"
+  ],
+  "overallSentiment": "very-positive",
+  "sentimentScore": 4.8,
+  "keyMoments": [
+    {
+      "time": 95.0,
+      "text": "Vanessa identifies fragmented dashboards and lack of unified visibility as her biggest pain point during peak seasons",
+      "type": "feature_gap",
+      "speaker": "Vanessa Cruz"
+    },
+    {
+      "time": 310.0,
+      "text": "Vanessa confirms RPO of one hour and RTO of four hours for the customer data platform, expressing concern about downtime during peak sale events like Black Friday",
+      "type": "concern",
+      "speaker": "Vanessa Cruz"
+    },
+    {
+      "time": 520.0,
+      "text": "Vanessa reacts positively to the phased onboarding approach and lighter-than-expected engineering time commitment",
+      "type": "positive_pivot",
+      "speaker": "Vanessa Cruz"
+    },
+    {
+      "time": 820.0,
+      "text": "Vanessa praises the conversation quality, noting it was one of the more energizing vendor conversations she has had",
+      "type": "praise",
+      "speaker": "Vanessa Cruz"
+    }
+  ],
+  "meetingId": "01KQ560FF1570C5E7F71D752"
+}

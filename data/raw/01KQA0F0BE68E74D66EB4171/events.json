@@ -1,0 +1,62 @@
+[
+  {
+    "participantName": "James Mitchell",
+    "timestamp": 1775820612000,
+    "type": "Join",
+    "time": 12.0
+  },
+  {
+    "participantName": "Kevin O'Brien",
+    "timestamp": 1775820623000,
+    "type": "Join",
+    "time": 23.0
+  },
+  {
+    "participantName": "Rachel Torres",
+    "timestamp": 1775820627000,
+    "type": "Join",
+    "time": 27.0
+  },
+  {
+    "participantName": "Tom Bradley",
+    "timestamp": 1775820647000,
+    "type": "Join",
+    "time": 47.0
+  },
+  {
+    "participantName": "Jordan Whitfield",
+    "timestamp": 1775820656000,
+    "type": "Join",
+    "time": 56.0
+  },
+  {
+    "participantName": "James Mitchell",
+    "timestamp": 1775822656000,
+    "type": "Leave",
+    "time": 2056.0
+  },
+  {
+    "participantName": "Rachel Torres",
+    "timestamp": 1775822650000,
+    "type": "Leave",
+    "time": 2050.0
+  },
+  {
+    "participantName": "Tom Bradley",
+    "timestamp": 1775822645000,
+    "type": "Leave",
+    "time": 2045.0
+  },
+  {
+    "participantName": "Jordan Whitfield",
+    "timestamp": 1775822638000,
+    "type": "Leave",
+    "time": 2038.0
+  },
+  {
+    "participantName": "Kevin O'Brien",
+    "timestamp": 1775822658000,
+    "type": "Leave",
+    "time": 2058.0
+  }
+]

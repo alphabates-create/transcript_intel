@@ -1,0 +1,38 @@
+[
+  {
+    "participantName": "Wayne Keller",
+    "timestamp": 1777380334000,
+    "type": "Join",
+    "time": 34.0
+  },
+  {
+    "participantName": "Daniel Okafor",
+    "timestamp": 1777380354000,
+    "type": "Join",
+    "time": 54.0
+  },
+  {
+    "participantName": "Mike Romano",
+    "timestamp": 1777380360000,
+    "type": "Join",
+    "time": 60.0
+  },
+  {
+    "participantName": "Daniel Okafor",
+    "timestamp": 1777382068000,
+    "type": "Leave",
+    "time": 1768.0
+  },
+  {
+    "participantName": "Mike Romano",
+    "timestamp": 1777382069000,
+    "type": "Leave",
+    "time": 1769.0
+  },
+  {
+    "participantName": "Wayne Keller",
+    "timestamp": 1777382064000,
+    "type": "Leave",
+    "time": 1764.0
+  }
+]

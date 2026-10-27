@@ -1,0 +1,26 @@
+[
+  {
+    "participantName": "David Kim",
+    "timestamp": 1775984406000,
+    "type": "Join",
+    "time": 6.0
+  },
+  {
+    "participantName": "Dominic Flores",
+    "timestamp": 1775984448000,
+    "type": "Join",
+    "time": 48.0
+  },
+  {
+    "participantName": "David Kim",
+    "timestamp": 1775986083000,
+    "type": "Leave",
+    "time": 1683.0
+  },
+  {
+    "participantName": "Dominic Flores",
+    "timestamp": 1775986097000,
+    "type": "Leave",
+    "time": 1697.0
+  }
+]

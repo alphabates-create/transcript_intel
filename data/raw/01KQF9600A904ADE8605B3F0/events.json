@@ -1,0 +1,38 @@
+[
+  {
+    "participantName": "Ravi Gupta",
+    "timestamp": 1777373125000,
+    "type": "Join",
+    "time": 25.0
+  },
+  {
+    "participantName": "Tyler Washington",
+    "timestamp": 1777373143000,
+    "type": "Join",
+    "time": 43.0
+  },
+  {
+    "participantName": "Chris Lee",
+    "timestamp": 1777373154000,
+    "type": "Join",
+    "time": 54.0
+  },
+  {
+    "participantName": "Tyler Washington",
+    "timestamp": 1777374185000,
+    "type": "Leave",
+    "time": 1085.0
+  },
+  {
+    "participantName": "Ravi Gupta",
+    "timestamp": 1777374193000,
+    "type": "Leave",
+    "time": 1093.0
+  },
+  {
+    "participantName": "Chris Lee",
+    "timestamp": 1777374199000,
+    "type": "Leave",
+    "time": 1099.0
+  }
+]

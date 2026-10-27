@@ -1,0 +1,207 @@
+[
+  {
+    "speakerName": "Sarah Chen",
+    "timestamp": 3.1,
+    "endTimeTs": 14.0
+  },
+  {
+    "speakerName": "Jason Hoffman",
+    "timestamp": 15.0,
+    "endTimeTs": 25.6
+  },
+  {
+    "speakerName": "Suki Nakamura",
+    "timestamp": 26.2,
+    "endTimeTs": 29.3
+  },
+  {
+    "speakerName": "Sarah Chen",
+    "timestamp": 29.9,
+    "endTimeTs": 39.8
+  },
+  {
+    "speakerName": "Marcus Williams",
+    "timestamp": 40.5,
+    "endTimeTs": 54.1
+  },
+  {
+    "speakerName": "Jason Hoffman",
+    "timestamp": 55.6,
+    "endTimeTs": 73.5
+  },
+  {
+    "speakerName": "Suki Nakamura",
+    "timestamp": 74.2,
+    "endTimeTs": 88.3
+  },
+  {
+    "speakerName": "Sarah Chen",
+    "timestamp": 88.6,
+    "endTimeTs": 98.2
+  },
+  {
+    "speakerName": "Jason Hoffman",
+    "timestamp": 99.1,
+    "endTimeTs": 111.0
+  },
+  {
+    "speakerName": "Suki Nakamura",
+    "timestamp": 112.3,
+    "endTimeTs": 124.0
+  },
+  {
+    "speakerName": "Sarah Chen",
+    "timestamp": 125.2,
+    "endTimeTs": 132.2
+  },
+  {
+    "speakerName": "Marcus Williams",
+    "timestamp": 133.0,
+    "endTimeTs": 151.3
+  },
+  {
+    "speakerName": "Jason Hoffman",
+    "timestamp": 152.1,
+    "endTimeTs": 163.1
+  },
+  {
+    "speakerName": "Sarah Chen",
+    "timestamp": 164.6,
+    "endTimeTs": 189.3
+  },
+  {
+    "speakerName": "Jason Hoffman",
+    "timestamp": 190.0,
+    "endTimeTs": 196.5
+  },
+  {
+    "speakerName": "Sarah Chen",
+    "timestamp": 196.8,
+    "endTimeTs": 210.3
+  },
+  {
+    "speakerName": "Jason Hoffman",
+    "timestamp": 210.9,
+    "endTimeTs": 213.5
+  },
+  {
+    "speakerName": "Marcus Williams",
+    "timestamp": 214.9,
+    "endTimeTs": 232.6
+  },
+  {
+    "speakerName": "Suki Nakamura",
+    "timestamp": 233.0,
+    "endTimeTs": 237.2
+  },
+  {
+    "speakerName": "Marcus Williams",
+    "timestamp": 237.7,
+    "endTimeTs": 252.5
+  },
+  {
+    "speakerName": "Jason Hoffman",
+    "timestamp": 253.8,
+    "endTimeTs": 259.8
+  },
+  {
+    "speakerName": "Suki Nakamura",
+    "timestamp": 261.1,
+    "endTimeTs": 273.5
+  },
+  {
+    "speakerName": "Sarah Chen",
+    "timestamp": 274.2,
+    "endTimeTs": 295.8
+  },
+  {
+    "speakerName": "Suki Nakamura",
+    "timestamp": 296.2,
+    "endTimeTs": 307.1
+  },
+  {
+    "speakerName": "Sarah Chen",
+    "timestamp": 308.6,
+    "endTimeTs": 318.9
+  },
+  {
+    "speakerName": "Suki Nakamura",
+    "timestamp": 319.9,
+    "endTimeTs": 330.4
+  },
+  {
+    "speakerName": "Sarah Chen",
+    "timestamp": 330.9,
+    "endTimeTs": 340.1
+  },
+  {
+    "speakerName": "Jason Hoffman",
+    "timestamp": 341.4,
+    "endTimeTs": 347.3
+  },
+  {
+    "speakerName": "Marcus Williams",
+    "timestamp": 348.1,
+    "endTimeTs": 371.1
+  },
+  {
+    "speakerName": "Jason Hoffman",
+    "timestamp": 371.9,
+    "endTimeTs": 378.2
+  },
+  {
+    "speakerName": "Sarah Chen",
+    "timestamp": 379.1,
+    "endTimeTs": 396.9
+  },
+  {
+    "speakerName": "Jason Hoffman",
+    "timestamp": 398.0,
+    "endTimeTs": 411.5
+  },
+  {
+    "speakerName": "Sarah Chen",
+    "timestamp": 412.2,
+    "endTimeTs": 422.3
+  },
+  {
+    "speakerName": "Jason Hoffman",
+    "timestamp": 423.6,
+    "endTimeTs": 431.8
+  },
+  {
+    "speakerName": "Marcus Williams",
+    "timestamp": 432.2,
+    "endTimeTs": 451.0
+  },
+  {
+    "speakerName": "Jason Hoffman",
+    "timestamp": 451.6,
+    "endTimeTs": 465.3
+  },
+  {
+    "speakerName": "Sarah Chen",
+    "timestamp": 466.4,
+    "endTimeTs": 478.5
+  },
+  {
+    "speakerName": "Jason Hoffman",
+    "timestamp": 478.8,
+    "endTimeTs": 486.2
+  },
+  {
+    "speakerName": "Suki Nakamura",
+    "timestamp": 486.7,
+    "endTimeTs": 493.6
+  },
+  {
+    "speakerName": "Sarah Chen",
+    "timestamp": 494.6,
+    "endTimeTs": 504.5
+  },
+  {
+    "speakerName": "Jason Hoffman",
+    "timestamp": 505.4,
+    "endTimeTs": 507.0
+  }
+]

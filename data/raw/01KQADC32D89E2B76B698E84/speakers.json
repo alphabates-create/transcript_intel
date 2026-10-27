@@ -1,0 +1,207 @@
+[
+  {
+    "speakerName": "Sarah Chen",
+    "timestamp": 3.2,
+    "endTimeTs": 20.1
+  },
+  {
+    "speakerName": "Stephanie Blair",
+    "timestamp": 21.5,
+    "endTimeTs": 35.6
+  },
+  {
+    "speakerName": "Andre Coleman",
+    "timestamp": 36.6,
+    "endTimeTs": 44.4
+  },
+  {
+    "speakerName": "Elena Vasquez",
+    "timestamp": 44.8,
+    "endTimeTs": 57.4
+  },
+  {
+    "speakerName": "Stephanie Blair",
+    "timestamp": 58.6,
+    "endTimeTs": 63.5
+  },
+  {
+    "speakerName": "Andre Coleman",
+    "timestamp": 64.9,
+    "endTimeTs": 84.9
+  },
+  {
+    "speakerName": "Sarah Chen",
+    "timestamp": 85.5,
+    "endTimeTs": 94.0
+  },
+  {
+    "speakerName": "Stephanie Blair",
+    "timestamp": 94.8,
+    "endTimeTs": 102.5
+  },
+  {
+    "speakerName": "Andre Coleman",
+    "timestamp": 103.2,
+    "endTimeTs": 125.7
+  },
+  {
+    "speakerName": "Elena Vasquez",
+    "timestamp": 126.1,
+    "endTimeTs": 134.6
+  },
+  {
+    "speakerName": "Andre Coleman",
+    "timestamp": 135.3,
+    "endTimeTs": 144.1
+  },
+  {
+    "speakerName": "Elena Vasquez",
+    "timestamp": 145.3,
+    "endTimeTs": 150.8
+  },
+  {
+    "speakerName": "Andre Coleman",
+    "timestamp": 151.3,
+    "endTimeTs": 164.6
+  },
+  {
+    "speakerName": "Sarah Chen",
+    "timestamp": 165.6,
+    "endTimeTs": 188.4
+  },
+  {
+    "speakerName": "Elena Vasquez",
+    "timestamp": 189.3,
+    "endTimeTs": 214.4
+  },
+  {
+    "speakerName": "Stephanie Blair",
+    "timestamp": 215.3,
+    "endTimeTs": 225.2
+  },
+  {
+    "speakerName": "Sarah Chen",
+    "timestamp": 226.3,
+    "endTimeTs": 245.9
+  },
+  {
+    "speakerName": "Stephanie Blair",
+    "timestamp": 247.0,
+    "endTimeTs": 267.0
+  },
+  {
+    "speakerName": "Elena Vasquez",
+    "timestamp": 267.8,
+    "endTimeTs": 288.1
+  },
+  {
+    "speakerName": "Stephanie Blair",
+    "timestamp": 288.4,
+    "endTimeTs": 302.0
+  },
+  {
+    "speakerName": "Andre Coleman",
+    "timestamp": 302.9,
+    "endTimeTs": 317.6
+  },
+  {
+    "speakerName": "Sarah Chen",
+    "timestamp": 318.0,
+    "endTimeTs": 325.4
+  },
+  {
+    "speakerName": "Elena Vasquez",
+    "timestamp": 326.4,
+    "endTimeTs": 352.7
+  },
+  {
+    "speakerName": "Stephanie Blair",
+    "timestamp": 353.7,
+    "endTimeTs": 359.4
+  },
+  {
+    "speakerName": "Andre Coleman",
+    "timestamp": 360.2,
+    "endTimeTs": 370.9
+  },
+  {
+    "speakerName": "Elena Vasquez",
+    "timestamp": 371.6,
+    "endTimeTs": 383.3
+  },
+  {
+    "speakerName": "Andre Coleman",
+    "timestamp": 383.7,
+    "endTimeTs": 389.7
+  },
+  {
+    "speakerName": "Elena Vasquez",
+    "timestamp": 390.4,
+    "endTimeTs": 412.6
+  },
+  {
+    "speakerName": "Stephanie Blair",
+    "timestamp": 413.1,
+    "endTimeTs": 422.2
+  },
+  {
+    "speakerName": "Sarah Chen",
+    "timestamp": 423.1,
+    "endTimeTs": 441.8
+  },
+  {
+    "speakerName": "Stephanie Blair",
+    "timestamp": 442.5,
+    "endTimeTs": 455.9
+  },
+  {
+    "speakerName": "Sarah Chen",
+    "timestamp": 456.6,
+    "endTimeTs": 480.0
+  },
+  {
+    "speakerName": "Stephanie Blair",
+    "timestamp": 481.1,
+    "endTimeTs": 497.3
+  },
+  {
+    "speakerName": "Elena Vasquez",
+    "timestamp": 498.4,
+    "endTimeTs": 515.2
+  },
+  {
+    "speakerName": "Stephanie Blair",
+    "timestamp": 516.2,
+    "endTimeTs": 524.0
+  },
+  {
+    "speakerName": "Sarah Chen",
+    "timestamp": 524.7,
+    "endTimeTs": 542.0
+  },
+  {
+    "speakerName": "Andre Coleman",
+    "timestamp": 542.7,
+    "endTimeTs": 558.0
+  },
+  {
+    "speakerName": "Sarah Chen",
+    "timestamp": 558.8,
+    "endTimeTs": 568.0
+  },
+  {
+    "speakerName": "Stephanie Blair",
+    "timestamp": 568.7,
+    "endTimeTs": 579.2
+  },
+  {
+    "speakerName": "Elena Vasquez",
+    "timestamp": 580.4,
+    "endTimeTs": 591.3
+  },
+  {
+    "speakerName": "Andre Coleman",
+    "timestamp": 592.5,
+    "endTimeTs": 594.0
+  }
+]

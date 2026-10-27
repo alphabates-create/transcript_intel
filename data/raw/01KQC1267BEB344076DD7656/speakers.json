@@ -1,0 +1,212 @@
+[
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 5.9,
+    "endTimeTs": 12.9
+  },
+  {
+    "speakerName": "Robert Langston",
+    "timestamp": 13.6,
+    "endTimeTs": 19.3
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 20.1,
+    "endTimeTs": 37.6
+  },
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 39.0,
+    "endTimeTs": 44.2
+  },
+  {
+    "speakerName": "Tanya Desai",
+    "timestamp": 44.7,
+    "endTimeTs": 50.5
+  },
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 51.8,
+    "endTimeTs": 54.3
+  },
+  {
+    "speakerName": "Robert Langston",
+    "timestamp": 54.9,
+    "endTimeTs": 67.1
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 67.7,
+    "endTimeTs": 78.6
+  },
+  {
+    "speakerName": "Robert Langston",
+    "timestamp": 79.5,
+    "endTimeTs": 91.8
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 92.5,
+    "endTimeTs": 107.2
+  },
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 108.7,
+    "endTimeTs": 125.5
+  },
+  {
+    "speakerName": "Tanya Desai",
+    "timestamp": 126.7,
+    "endTimeTs": 134.5
+  },
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 135.0,
+    "endTimeTs": 156.3
+  },
+  {
+    "speakerName": "Tanya Desai",
+    "timestamp": 157.6,
+    "endTimeTs": 163.4
+  },
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 164.4,
+    "endTimeTs": 183.1
+  },
+  {
+    "speakerName": "Tanya Desai",
+    "timestamp": 184.3,
+    "endTimeTs": 192.9
+  },
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 194.4,
+    "endTimeTs": 213.7
+  },
+  {
+    "speakerName": "Tanya Desai",
+    "timestamp": 214.7,
+    "endTimeTs": 220.6
+  },
+  {
+    "speakerName": "Robert Langston",
+    "timestamp": 221.6,
+    "endTimeTs": 225.9
+  },
+  {
+    "speakerName": "Tanya Desai",
+    "timestamp": 226.2,
+    "endTimeTs": 243.2
+  },
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 244.6,
+    "endTimeTs": 266.0
+  },
+  {
+    "speakerName": "Robert Langston",
+    "timestamp": 267.2,
+    "endTimeTs": 272.9
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 274.2,
+    "endTimeTs": 278.2
+  },
+  {
+    "speakerName": "Robert Langston",
+    "timestamp": 279.3,
+    "endTimeTs": 292.9
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 294.0,
+    "endTimeTs": 302.2
+  },
+  {
+    "speakerName": "Robert Langston",
+    "timestamp": 303.3,
+    "endTimeTs": 315.6
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 316.1,
+    "endTimeTs": 331.3
+  },
+  {
+    "speakerName": "Tanya Desai",
+    "timestamp": 332.4,
+    "endTimeTs": 340.7
+  },
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 342.1,
+    "endTimeTs": 355.1
+  },
+  {
+    "speakerName": "Tanya Desai",
+    "timestamp": 356.3,
+    "endTimeTs": 364.0
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 365.2,
+    "endTimeTs": 384.4
+  },
+  {
+    "speakerName": "Robert Langston",
+    "timestamp": 385.2,
+    "endTimeTs": 402.2
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 402.6,
+    "endTimeTs": 411.9
+  },
+  {
+    "speakerName": "Robert Langston",
+    "timestamp": 413.0,
+    "endTimeTs": 427.3
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 428.1,
+    "endTimeTs": 448.2
+  },
+  {
+    "speakerName": "Robert Langston",
+    "timestamp": 448.8,
+    "endTimeTs": 452.1
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 453.2,
+    "endTimeTs": 464.8
+  },
+  {
+    "speakerName": "Robert Langston",
+    "timestamp": 465.2,
+    "endTimeTs": 469.3
+  },
+  {
+    "speakerName": "Tanya Desai",
+    "timestamp": 470.1,
+    "endTimeTs": 478.1
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 478.6,
+    "endTimeTs": 492.4
+  },
+  {
+    "speakerName": "Robert Langston",
+    "timestamp": 492.9,
+    "endTimeTs": 499.9
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 500.4,
+    "endTimeTs": 501.9
+  }
+]

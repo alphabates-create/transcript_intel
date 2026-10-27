@@ -1,0 +1,404 @@
+{
+  "data": [
+    {
+      "sentence": "Alright, I think we've got everyone, let me just \u2014 yeah, okay, Diana's here, Megan's here, Nina just joined. Good. Let's get started.",
+      "speaker_name": "Raj Kapoor",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 6.5,
+      "endTime": 14.5,
+      "averageConfidence": 0.94,
+      "index": 0
+    },
+    {
+      "sentence": "Sorry I'm a minute late, I was wrapping up something with the support team.",
+      "speaker_name": "Diana Reeves",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 15.4,
+      "endTime": 20.7,
+      "averageConfidence": 0.92,
+      "index": 1
+    },
+    {
+      "sentence": "No worries. So, February wrap \u2014 I want to keep this tight, maybe twenty minutes. Megan, you want to kick us off on the product side?",
+      "speaker_name": "Raj Kapoor",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 21.5,
+      "endTime": 30.4,
+      "averageConfidence": 0.92,
+      "index": 2
+    },
+    {
+      "sentence": "Yeah, sure. So February was actually a pretty solid month for us on the product front. The big thing obviously is Comply v2 \u2014 we are tracking toward the April GA, the engineering team hit all their February milestones, which honestly I was a little worried about going into the month.",
+      "speaker_name": "Megan Lawson",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 31.7,
+      "endTime": 49.3,
+      "averageConfidence": 0.91,
+      "index": 3
+    },
+    {
+      "sentence": "What were the milestones specifically? Just so we're all aligned.",
+      "speaker_name": "Raj Kapoor",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 50.3,
+      "endTime": 53.9,
+      "averageConfidence": 0.95,
+      "index": 4
+    },
+    {
+      "sentence": "So the two big ones were \u2014 finishing the multi-framework reporting backend, so that's the SOC 2, PCI DSS, HIPAA, ISO 27001 support \u2014 all of that is done on the backend side. And then the second was the on-demand report generation pipeline, which went through its first full integration pass.",
+      "speaker_name": "Megan Lawson",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 55.0,
+      "endTime": 72.5,
+      "averageConfidence": 0.91,
+      "index": 5
+    },
+    {
+      "sentence": "Okay, and Nina, from the QA side \u2014 where are we on testing coverage for Comply v2?",
+      "speaker_name": "Raj Kapoor",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 73.2,
+      "endTime": 79.1,
+      "averageConfidence": 0.91,
+      "index": 6
+    },
+    {
+      "sentence": "So we're at about sixty-two percent coverage right now on the new modules. We had planned to be closer to seventy by end of February, so we're a little behind. The on-demand pipeline took longer to instrument than we expected \u2014 there were some async job handling edge cases that needed more test scaffolding.",
+      "speaker_name": "Nina Kowalski",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 80.0,
+      "endTime": 98.6,
+      "averageConfidence": 0.95,
+      "index": 7
+    },
+    {
+      "sentence": "Eight points behind \u2014 is that recoverable by, what's the target before GA, eighty-five percent?",
+      "speaker_name": "Raj Kapoor",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 99.0,
+      "endTime": 104.4,
+      "averageConfidence": 0.9,
+      "index": 8
+    },
+    {
+      "sentence": "Eighty percent is the target. And yeah, I think it's recoverable but it does depend on whether we get the two additional QA resources that were supposed to come over from the Detect team in March.",
+      "speaker_name": "Nina Kowalski",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 105.2,
+      "endTime": 117.9,
+      "averageConfidence": 0.89,
+      "index": 9
+    },
+    {
+      "sentence": "That's still the plan. Marcus and \u2014 is it Priya? \u2014 they're finishing up their current sprint on Detect and then they're supposed to rotate over. I don't see that changing.",
+      "speaker_name": "Raj Kapoor",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 118.4,
+      "endTime": 129.3,
+      "averageConfidence": 0.91,
+      "index": 10
+    },
+    {
+      "sentence": "Okay, good. I just wanted to flag it so it's on the record, not trying to raise a red flag or anything.",
+      "speaker_name": "Nina Kowalski",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 130.7,
+      "endTime": 138.4,
+      "averageConfidence": 0.96,
+      "index": 11
+    },
+    {
+      "sentence": "No, it's good to flag. That's what these calls are for. Diana, what's the customer success angle on February \u2014 anything notable?",
+      "speaker_name": "Raj Kapoor",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 139.5,
+      "endTime": 147.6,
+      "averageConfidence": 0.95,
+      "index": 12
+    },
+    {
+      "sentence": "Yeah, so a couple things. Renewals for the month came in at ninety-one percent, which is in line with our Q1 target. We did lose one account \u2014 Harrington Financial, they went with a competitor.",
+      "speaker_name": "Diana Reeves",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 149.0,
+      "endTime": 161.4,
+      "averageConfidence": 0.91,
+      "index": 13
+    },
+    {
+      "sentence": "Do we know who they went with?",
+      "speaker_name": "Megan Lawson",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 161.8,
+      "endTime": 164.0,
+      "averageConfidence": 0.95,
+      "index": 14
+    },
+    {
+      "sentence": "VaultEdge. They were pretty upfront about it \u2014 their procurement team said VaultEdge came in lower on price and had a compliance module that was, quote, more mature. Which, I mean, that stings a little given what we're about to launch.",
+      "speaker_name": "Diana Reeves",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 165.0,
+      "endTime": 179.7,
+      "averageConfidence": 0.93,
+      "index": 15
+    },
+    {
+      "sentence": "Timing. That's just timing. If Harrington had waited another six weeks they'd have seen Comply v2 and that conversation might've gone differently.",
+      "speaker_name": "Megan Lawson",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 180.1,
+      "endTime": 188.1,
+      "averageConfidence": 0.94,
+      "index": 16
+    },
+    {
+      "sentence": "I know, I know. I'm not blaming anyone, it's just frustrating. The good news is we've already got two upsell conversations going \u2014 one with Brentwood Logistics on adding Identity to their Protect subscription, and another with TechCore on expanding their Detect seat count.",
+      "speaker_name": "Diana Reeves",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 188.8,
+      "endTime": 204.1,
+      "averageConfidence": 0.9,
+      "index": 17
+    },
+    {
+      "sentence": "What's the ARR on those two if they close?",
+      "speaker_name": "Raj Kapoor",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 204.9,
+      "endTime": 208.4,
+      "averageConfidence": 0.95,
+      "index": 18
+    },
+    {
+      "sentence": "Combined, roughly two-forty ARR. Brentwood is the bigger one \u2014 they're a mid-market account but they've got a pretty complex identity environment so we're not underselling.",
+      "speaker_name": "Diana Reeves",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 209.5,
+      "endTime": 218.4,
+      "averageConfidence": 0.97,
+      "index": 19
+    },
+    {
+      "sentence": "Okay. Megan, on the Detect side \u2014 anything from the engineering team I should know about going into March? I know there's been some chatter about the event processing pipeline.",
+      "speaker_name": "Raj Kapoor",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 219.8,
+      "endTime": 230.6,
+      "averageConfidence": 0.97,
+      "index": 20
+    },
+    {
+      "sentence": "Yeah, so \u2014 and this is something I was going to bring up separately but since we're here \u2014 the infrastructure team flagged a potential bottleneck in the ingestion layer. It's not critical right now but it's something they want to address in March before it becomes a problem.",
+      "speaker_name": "Megan Lawson",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 231.6,
+      "endTime": 249.0,
+      "averageConfidence": 0.95,
+      "index": 21
+    },
+    {
+      "sentence": "How long has that been on the radar?",
+      "speaker_name": "Raj Kapoor",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 249.9,
+      "endTime": 253.0,
+      "averageConfidence": 0.93,
+      "index": 22
+    },
+    {
+      "sentence": "Honestly, a few weeks. It got flagged during a load test in late January and it's been sitting in the backlog. I think it should probably get elevated.",
+      "speaker_name": "Megan Lawson",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 253.3,
+      "endTime": 263.0,
+      "averageConfidence": 0.9,
+      "index": 23
+    },
+    {
+      "sentence": "Yeah, let's \u2014 let's not let that sit. Can you get me a write-up by Tuesday? I want to understand the scope before we assign resources to it.",
+      "speaker_name": "Raj Kapoor",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 264.4,
+      "endTime": 274.5,
+      "averageConfidence": 0.93,
+      "index": 24
+    },
+    {
+      "sentence": "Will do.",
+      "speaker_name": "Megan Lawson",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 275.0,
+      "endTime": 276.5,
+      "averageConfidence": 0.9,
+      "index": 25
+    },
+    {
+      "sentence": "Nina, anything from QA on the Detect side? Since you're embedded across both products right now.",
+      "speaker_name": "Raj Kapoor",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 277.3,
+      "endTime": 282.8,
+      "averageConfidence": 0.9,
+      "index": 26
+    },
+    {
+      "sentence": "Nothing that rises to the level of a flag, really. Regression suite has been stable. The one thing I'd say is we've had a few intermittent test failures on the event processing tests specifically \u2014 like, they pass on rerun, which makes them hard to track down. Could be related to what Megan's describing, could be test environment flakiness, we're not sure yet.",
+      "speaker_name": "Nina Kowalski",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 283.1,
+      "endTime": 305.5,
+      "averageConfidence": 0.9,
+      "index": 27
+    },
+    {
+      "sentence": "Okay, that's worth noting. Loop in the infrastructure team on those test failures \u2014 even if it's just for awareness.",
+      "speaker_name": "Raj Kapoor",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 306.6,
+      "endTime": 313.6,
+      "averageConfidence": 0.94,
+      "index": 28
+    },
+    {
+      "sentence": "Already on it, I sent them the logs yesterday.",
+      "speaker_name": "Nina Kowalski",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 314.9,
+      "endTime": 317.8,
+      "averageConfidence": 0.94,
+      "index": 29
+    },
+    {
+      "sentence": "Good. Alright, let's talk March priorities quickly. For product the focus is obviously Comply v2 \u2014 getting to code freeze by the third week of March so Nina's team has enough runway. Agreed, Megan?",
+      "speaker_name": "Raj Kapoor",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 318.4,
+      "endTime": 330.2,
+      "averageConfidence": 0.95,
+      "index": 30
+    },
+    {
+      "sentence": "Agreed. I do want to have a conversation about whether we shift any Identity roadmap items to Q3 to free up eng bandwidth \u2014 I don't want to have that debate on this call, but I flagged it.",
+      "speaker_name": "Megan Lawson",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 331.2,
+      "endTime": 344.7,
+      "averageConfidence": 0.92,
+      "index": 31
+    },
+    {
+      "sentence": "Let's schedule that for next week \u2014 just you and me and maybe Lena from eng leadership. Diana, from your side, March priorities?",
+      "speaker_name": "Raj Kapoor",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 345.5,
+      "endTime": 353.8,
+      "averageConfidence": 0.92,
+      "index": 32
+    },
+    {
+      "sentence": "Close Brentwood and TechCore, obviously. And I want to get a Comply v2 early access briefing set up for at least three or four of our strategic accounts before the April launch \u2014 let them know it's coming, manage expectations, get some pre-launch testimonials if we can.",
+      "speaker_name": "Diana Reeves",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 354.7,
+      "endTime": 371.3,
+      "averageConfidence": 0.91,
+      "index": 33
+    },
+    {
+      "sentence": "I like that. Megan, can you get Diana something she can use for those briefings \u2014 not a full deck, but talking points and maybe a draft feature summary?",
+      "speaker_name": "Raj Kapoor",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 372.0,
+      "endTime": 382.5,
+      "averageConfidence": 0.96,
+      "index": 34
+    },
+    {
+      "sentence": "Yeah, I can get that done by end of next week.",
+      "speaker_name": "Megan Lawson",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 383.0,
+      "endTime": 387.0,
+      "averageConfidence": 0.9,
+      "index": 35
+    },
+    {
+      "sentence": "Perfect. Okay, I think that covers the main stuff. Anyone have anything else before we wrap?",
+      "speaker_name": "Raj Kapoor",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 387.9,
+      "endTime": 393.5,
+      "averageConfidence": 0.94,
+      "index": 36
+    },
+    {
+      "sentence": "Nothing from me.",
+      "speaker_name": "Nina Kowalski",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 394.3,
+      "endTime": 395.8,
+      "averageConfidence": 0.92,
+      "index": 37
+    },
+    {
+      "sentence": "I'm good. Thanks everyone.",
+      "speaker_name": "Diana Reeves",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 396.2,
+      "endTime": 398.1,
+      "averageConfidence": 0.95,
+      "index": 38
+    },
+    {
+      "sentence": "Alright, good call. Let's have a strong March \u2014 a lot riding on the next few weeks. Talk soon.",
+      "speaker_name": "Raj Kapoor",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 398.5,
+      "endTime": 405.2,
+      "averageConfidence": 0.95,
+      "index": 39
+    }
+  ]
+}

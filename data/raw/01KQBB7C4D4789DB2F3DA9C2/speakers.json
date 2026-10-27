@@ -1,0 +1,227 @@
+[
+  {
+    "speakerName": "Sarah Chen",
+    "timestamp": 7.7,
+    "endTimeTs": 21.5
+  },
+  {
+    "speakerName": "Priya Patel",
+    "timestamp": 22.0,
+    "endTimeTs": 23.6
+  },
+  {
+    "speakerName": "Dr. Linda Cheng",
+    "timestamp": 24.9,
+    "endTimeTs": 29.7
+  },
+  {
+    "speakerName": "Raymond Burke",
+    "timestamp": 31.0,
+    "endTimeTs": 34.3
+  },
+  {
+    "speakerName": "Sarah Chen",
+    "timestamp": 35.0,
+    "endTimeTs": 49.1
+  },
+  {
+    "speakerName": "Dr. Linda Cheng",
+    "timestamp": 49.9,
+    "endTimeTs": 55.8
+  },
+  {
+    "speakerName": "Raymond Burke",
+    "timestamp": 57.1,
+    "endTimeTs": 78.6
+  },
+  {
+    "speakerName": "Sarah Chen",
+    "timestamp": 79.4,
+    "endTimeTs": 86.3
+  },
+  {
+    "speakerName": "Raymond Burke",
+    "timestamp": 86.9,
+    "endTimeTs": 99.8
+  },
+  {
+    "speakerName": "Dr. Linda Cheng",
+    "timestamp": 101.0,
+    "endTimeTs": 117.2
+  },
+  {
+    "speakerName": "Sarah Chen",
+    "timestamp": 117.9,
+    "endTimeTs": 129.5
+  },
+  {
+    "speakerName": "Priya Patel",
+    "timestamp": 130.8,
+    "endTimeTs": 140.4
+  },
+  {
+    "speakerName": "Dr. Linda Cheng",
+    "timestamp": 141.8,
+    "endTimeTs": 164.2
+  },
+  {
+    "speakerName": "Priya Patel",
+    "timestamp": 164.9,
+    "endTimeTs": 181.2
+  },
+  {
+    "speakerName": "Sarah Chen",
+    "timestamp": 182.4,
+    "endTimeTs": 193.8
+  },
+  {
+    "speakerName": "Raymond Burke",
+    "timestamp": 194.4,
+    "endTimeTs": 209.1
+  },
+  {
+    "speakerName": "Sarah Chen",
+    "timestamp": 210.1,
+    "endTimeTs": 214.0
+  },
+  {
+    "speakerName": "Raymond Burke",
+    "timestamp": 215.3,
+    "endTimeTs": 228.2
+  },
+  {
+    "speakerName": "Sarah Chen",
+    "timestamp": 228.8,
+    "endTimeTs": 248.3
+  },
+  {
+    "speakerName": "Raymond Burke",
+    "timestamp": 249.1,
+    "endTimeTs": 267.9
+  },
+  {
+    "speakerName": "Priya Patel",
+    "timestamp": 268.7,
+    "endTimeTs": 275.8
+  },
+  {
+    "speakerName": "Sarah Chen",
+    "timestamp": 276.1,
+    "endTimeTs": 289.0
+  },
+  {
+    "speakerName": "Raymond Burke",
+    "timestamp": 290.5,
+    "endTimeTs": 304.5
+  },
+  {
+    "speakerName": "Sarah Chen",
+    "timestamp": 306.0,
+    "endTimeTs": 327.9
+  },
+  {
+    "speakerName": "Raymond Burke",
+    "timestamp": 329.1,
+    "endTimeTs": 332.9
+  },
+  {
+    "speakerName": "Sarah Chen",
+    "timestamp": 334.2,
+    "endTimeTs": 342.8
+  },
+  {
+    "speakerName": "Dr. Linda Cheng",
+    "timestamp": 343.9,
+    "endTimeTs": 358.0
+  },
+  {
+    "speakerName": "Priya Patel",
+    "timestamp": 358.4,
+    "endTimeTs": 373.1
+  },
+  {
+    "speakerName": "Dr. Linda Cheng",
+    "timestamp": 374.0,
+    "endTimeTs": 386.8
+  },
+  {
+    "speakerName": "Sarah Chen",
+    "timestamp": 387.2,
+    "endTimeTs": 403.6
+  },
+  {
+    "speakerName": "Raymond Burke",
+    "timestamp": 403.9,
+    "endTimeTs": 415.5
+  },
+  {
+    "speakerName": "Sarah Chen",
+    "timestamp": 416.3,
+    "endTimeTs": 436.0
+  },
+  {
+    "speakerName": "Raymond Burke",
+    "timestamp": 437.0,
+    "endTimeTs": 447.3
+  },
+  {
+    "speakerName": "Sarah Chen",
+    "timestamp": 447.9,
+    "endTimeTs": 474.2
+  },
+  {
+    "speakerName": "Raymond Burke",
+    "timestamp": 475.2,
+    "endTimeTs": 484.0
+  },
+  {
+    "speakerName": "Sarah Chen",
+    "timestamp": 485.1,
+    "endTimeTs": 499.6
+  },
+  {
+    "speakerName": "Dr. Linda Cheng",
+    "timestamp": 499.9,
+    "endTimeTs": 513.7
+  },
+  {
+    "speakerName": "Priya Patel",
+    "timestamp": 515.2,
+    "endTimeTs": 524.0
+  },
+  {
+    "speakerName": "Sarah Chen",
+    "timestamp": 524.8,
+    "endTimeTs": 539.3
+  },
+  {
+    "speakerName": "Raymond Burke",
+    "timestamp": 539.9,
+    "endTimeTs": 552.8
+  },
+  {
+    "speakerName": "Sarah Chen",
+    "timestamp": 553.6,
+    "endTimeTs": 567.4
+  },
+  {
+    "speakerName": "Dr. Linda Cheng",
+    "timestamp": 568.6,
+    "endTimeTs": 584.3
+  },
+  {
+    "speakerName": "Priya Patel",
+    "timestamp": 584.7,
+    "endTimeTs": 593.4
+  },
+  {
+    "speakerName": "Raymond Burke",
+    "timestamp": 594.0,
+    "endTimeTs": 603.1
+  },
+  {
+    "speakerName": "Sarah Chen",
+    "timestamp": 604.3,
+    "endTimeTs": 609.9
+  }
+]

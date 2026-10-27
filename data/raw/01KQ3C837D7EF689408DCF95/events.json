@@ -1,0 +1,38 @@
+[
+  {
+    "participantName": "Yuki Tanaka",
+    "timestamp": 1772619312000,
+    "type": "Join",
+    "time": 12.0
+  },
+  {
+    "participantName": "Sarah Chen",
+    "timestamp": 1772619338000,
+    "type": "Join",
+    "time": 38.0
+  },
+  {
+    "participantName": "Priya Patel",
+    "timestamp": 1772619343000,
+    "type": "Join",
+    "time": 43.0
+  },
+  {
+    "participantName": "Priya Patel",
+    "timestamp": 1772620428000,
+    "type": "Leave",
+    "time": 1128.0
+  },
+  {
+    "participantName": "Sarah Chen",
+    "timestamp": 1772620428000,
+    "type": "Leave",
+    "time": 1128.0
+  },
+  {
+    "participantName": "Yuki Tanaka",
+    "timestamp": 1772620426000,
+    "type": "Leave",
+    "time": 1126.0
+  }
+]

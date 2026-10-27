@@ -1,0 +1,514 @@
+{
+  "data": [
+    {
+      "sentence": "Alright, I think we've got most people on now \u2014 Hannah, you there?",
+      "speaker_name": "Ravi Gupta",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 3.4,
+      "endTime": 7.7,
+      "averageConfidence": 0.96,
+      "index": 0
+    },
+    {
+      "sentence": "Yeah, I'm here, sorry \u2014 just had another call run long.",
+      "speaker_name": "Hannah Liu",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 8.0,
+      "endTime": 12.2,
+      "averageConfidence": 0.95,
+      "index": 1
+    },
+    {
+      "sentence": "No worries, Ananya and Alex are on, Nina just joined \u2014 okay good, let's just get started.",
+      "speaker_name": "Ravi Gupta",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 13.6,
+      "endTime": 19.6,
+      "averageConfidence": 0.91,
+      "index": 2
+    },
+    {
+      "sentence": "Morning everyone.",
+      "speaker_name": "Nina Kowalski",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 20.2,
+      "endTime": 21.7,
+      "averageConfidence": 0.94,
+      "index": 3
+    },
+    {
+      "sentence": "Hey Nina.",
+      "speaker_name": "Alex Reyes",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 22.1,
+      "endTime": 23.6,
+      "averageConfidence": 0.96,
+      "index": 4
+    },
+    {
+      "sentence": "Okay so, uh, this is the April all-hands update \u2014 I sent the agenda doc around yesterday, hopefully everyone had a chance to at least skim it.",
+      "speaker_name": "Hannah Liu",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 24.5,
+      "endTime": 33.7,
+      "averageConfidence": 0.93,
+      "index": 5
+    },
+    {
+      "sentence": "I looked at it this morning, yeah.",
+      "speaker_name": "Ananya Sharma",
+      "sentimentType": "neutral",
+      "speaker_id": 4,
+      "time": 35.0,
+      "endTime": 37.5,
+      "averageConfidence": 0.91,
+      "index": 6
+    },
+    {
+      "sentence": "Same, I skimmed most of it.",
+      "speaker_name": "Ravi Gupta",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 38.1,
+      "endTime": 40.2,
+      "averageConfidence": 0.89,
+      "index": 7
+    },
+    {
+      "sentence": "Okay great. So I want to cover a few things \u2014 we'll do a quick retrospective on the March Detect outage, then talk about the Comply v2 launch, and then get into Q2 planning for the roadmap. Should take us under an hour.",
+      "speaker_name": "Hannah Liu",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 40.9,
+      "endTime": 56.0,
+      "averageConfidence": 0.97,
+      "index": 8
+    },
+    {
+      "sentence": "Works for me.",
+      "speaker_name": "Nina Kowalski",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 56.9,
+      "endTime": 58.4,
+      "averageConfidence": 0.95,
+      "index": 9
+    },
+    {
+      "sentence": "So starting with Detect \u2014 Ravi, do you want to walk us through where we landed on the post-mortem?",
+      "speaker_name": "Hannah Liu",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 59.5,
+      "endTime": 66.1,
+      "averageConfidence": 0.95,
+      "index": 10
+    },
+    {
+      "sentence": "Sure, yeah. So, uh, for those who maybe weren't as close to it \u2014 the outage ran roughly six hours in mid-March, March 10th through the 18th was the window where we were seeing instability, but the main event was that six-hour gap on the 10th where the event ingestion pipeline just... collapsed.",
+      "speaker_name": "Ravi Gupta",
+      "sentimentType": "negative",
+      "speaker_id": 0,
+      "time": 67.6,
+      "endTime": 86.5,
+      "averageConfidence": 0.9,
+      "index": 11
+    },
+    {
+      "sentence": "Right and that was a cascading failure, not a single point thing \u2014 or, well, it started as a single point of failure and then cascaded, right?",
+      "speaker_name": "Ananya Sharma",
+      "sentimentType": "neutral",
+      "speaker_id": 4,
+      "time": 87.6,
+      "endTime": 97.1,
+      "averageConfidence": 0.88,
+      "index": 12
+    },
+    {
+      "sentence": "Exactly, yeah. The root cause was we had a single point of failure in the ingestion layer \u2014 one node goes down, nothing has a fallback, and then the backpressure just propagates upstream and the whole thing falls over.",
+      "speaker_name": "Ravi Gupta",
+      "sentimentType": "negative",
+      "speaker_id": 0,
+      "time": 98.2,
+      "endTime": 111.6,
+      "averageConfidence": 0.89,
+      "index": 13
+    },
+    {
+      "sentence": "And customers had zero visibility into their threat monitoring for that whole window?",
+      "speaker_name": "Alex Reyes",
+      "sentimentType": "negative",
+      "speaker_id": 3,
+      "time": 113.0,
+      "endTime": 118.0,
+      "averageConfidence": 0.95,
+      "index": 14
+    },
+    {
+      "sentence": "Yeah, effectively. Alerts weren't firing, the dashboard was showing stale data \u2014 it was not great.",
+      "speaker_name": "Ravi Gupta",
+      "sentimentType": "negative",
+      "speaker_id": 0,
+      "time": 118.5,
+      "endTime": 124.0,
+      "averageConfidence": 0.91,
+      "index": 15
+    },
+    {
+      "sentence": "I know customer success had a rough week after that. I got looped into like three customer escalations.",
+      "speaker_name": "Hannah Liu",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 124.7,
+      "endTime": 130.9,
+      "averageConfidence": 0.92,
+      "index": 16
+    },
+    {
+      "sentence": "So what's the fix look like at this point? I know we deployed something but I'm not clear on the details.",
+      "speaker_name": "Nina Kowalski",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 131.8,
+      "endTime": 139.6,
+      "averageConfidence": 0.94,
+      "index": 17
+    },
+    {
+      "sentence": "So we went with redundant processing nodes and we implemented the circuit breaker pattern on the ingestion side. Basically if one node degrades past a threshold, traffic gets rerouted before it can cascade. It's been stable since we pushed that.",
+      "speaker_name": "Ananya Sharma",
+      "sentimentType": "neutral",
+      "speaker_id": 4,
+      "time": 140.7,
+      "endTime": 155.0,
+      "averageConfidence": 0.94,
+      "index": 18
+    },
+    {
+      "sentence": "Has QA validated that path? Like have we actually tested a node failure scenario end to end?",
+      "speaker_name": "Nina Kowalski",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 155.6,
+      "endTime": 162.0,
+      "averageConfidence": 0.91,
+      "index": 19
+    },
+    {
+      "sentence": "We did a tabletop sim, yeah. Not a full live failure test \u2014 that's something I want to get on the schedule actually, a chaos engineering run in staging.",
+      "speaker_name": "Ananya Sharma",
+      "sentimentType": "neutral",
+      "speaker_id": 4,
+      "time": 163.1,
+      "endTime": 173.2,
+      "averageConfidence": 0.88,
+      "index": 20
+    },
+    {
+      "sentence": "I'd like to see that happen before end of May honestly. We should have that validation in place.",
+      "speaker_name": "Nina Kowalski",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 174.0,
+      "endTime": 180.6,
+      "averageConfidence": 0.92,
+      "index": 21
+    },
+    {
+      "sentence": "Agreed. Ravi, can you put together a scope doc for that?",
+      "speaker_name": "Hannah Liu",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 181.9,
+      "endTime": 186.1,
+      "averageConfidence": 0.97,
+      "index": 22
+    },
+    {
+      "sentence": "Yeah I can do that. Probably mid-May for the actual run if we scope it out next week.",
+      "speaker_name": "Ravi Gupta",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 187.0,
+      "endTime": 193.6,
+      "averageConfidence": 0.92,
+      "index": 23
+    },
+    {
+      "sentence": "Okay good, let's track that. Moving on \u2014 Comply v2. Alex, you've been closest to this one from the product side.",
+      "speaker_name": "Hannah Liu",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 194.9,
+      "endTime": 202.6,
+      "averageConfidence": 0.94,
+      "index": 24
+    },
+    {
+      "sentence": "Yeah so, uh, Comply v2 went GA on April 7th \u2014 on-demand reporting is live, we've got SOC 2, PCI DSS, HIPAA, and ISO 27001 all supported. The big differentiator here is the multi-framework support, which is something we've been hearing from customers for... a while.",
+      "speaker_name": "Alex Reyes",
+      "sentimentType": "positive",
+      "speaker_id": 3,
+      "time": 203.8,
+      "endTime": 220.1,
+      "averageConfidence": 0.95,
+      "index": 25
+    },
+    {
+      "sentence": "How's the adoption looking so far? It's been, what, three weeks?",
+      "speaker_name": "Ananya Sharma",
+      "sentimentType": "neutral",
+      "speaker_id": 4,
+      "time": 221.6,
+      "endTime": 225.8,
+      "averageConfidence": 0.96,
+      "index": 26
+    },
+    {
+      "sentence": "Almost three weeks, yeah. Early numbers are decent \u2014 we've had a solid chunk of existing Comply customers generate at least one on-demand report. The ISO 27001 one in particular, that was a gap for us before, and we're seeing uptake there.",
+      "speaker_name": "Alex Reyes",
+      "sentimentType": "positive",
+      "speaker_id": 3,
+      "time": 226.4,
+      "endTime": 240.9,
+      "averageConfidence": 0.89,
+      "index": 27
+    },
+    {
+      "sentence": "What about new logo deals? Has it moved any pipeline?",
+      "speaker_name": "Hannah Liu",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 241.5,
+      "endTime": 245.4,
+      "averageConfidence": 0.88,
+      "index": 28
+    },
+    {
+      "sentence": "Sales is pointing to a couple of deals where it was a factor \u2014 I don't want to overstate it, it's early. But the positioning against, say, VaultEdge on compliance reporting is cleaner now. That was always a weak spot.",
+      "speaker_name": "Alex Reyes",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 246.1,
+      "endTime": 259.9,
+      "averageConfidence": 0.92,
+      "index": 29
+    },
+    {
+      "sentence": "Yeah VaultEdge was beating us on that pretty consistently in competitive deals from what I heard.",
+      "speaker_name": "Ravi Gupta",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 260.8,
+      "endTime": 266.3,
+      "averageConfidence": 0.9,
+      "index": 30
+    },
+    {
+      "sentence": "Okay, any known issues post-launch? Nina, anything from QA's perspective that's still open?",
+      "speaker_name": "Hannah Liu",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 266.9,
+      "endTime": 271.2,
+      "averageConfidence": 0.91,
+      "index": 31
+    },
+    {
+      "sentence": "There are two open items \u2014 one is a formatting inconsistency on the PCI DSS export, it's a PDF rendering thing, not a data accuracy issue, but it looks sloppy. And then there's a minor edge case on the multi-framework run where if you queue more than three reports simultaneously it occasionally times out.",
+      "speaker_name": "Nina Kowalski",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 271.5,
+      "endTime": 290.3,
+      "averageConfidence": 0.91,
+      "index": 32
+    },
+    {
+      "sentence": "Is the timeout one reproducible consistently or is it intermittent?",
+      "speaker_name": "Ananya Sharma",
+      "sentimentType": "neutral",
+      "speaker_id": 4,
+      "time": 291.4,
+      "endTime": 294.7,
+      "averageConfidence": 0.97,
+      "index": 33
+    },
+    {
+      "sentence": "Intermittent, maybe... two out of five tries? It's not consistent but it's frequent enough that we should fix it before we start pushing the concurrent reporting use case in marketing.",
+      "speaker_name": "Nina Kowalski",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 295.9,
+      "endTime": 306.3,
+      "averageConfidence": 0.94,
+      "index": 34
+    },
+    {
+      "sentence": "Okay that's fair. Ananya, can you take the timeout bug? And I'll get the PDF formatting thing assigned to someone on the front-end side.",
+      "speaker_name": "Hannah Liu",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 306.7,
+      "endTime": 315.5,
+      "averageConfidence": 0.9,
+      "index": 35
+    },
+    {
+      "sentence": "Yeah I'll pick it up, I want to look at the queue handling anyway \u2014 there might be a broader issue there.",
+      "speaker_name": "Ananya Sharma",
+      "sentimentType": "neutral",
+      "speaker_id": 4,
+      "time": 316.7,
+      "endTime": 324.4,
+      "averageConfidence": 0.93,
+      "index": 36
+    },
+    {
+      "sentence": "Alright. Let's jump into Q2 planning. So we've got a few things in flight \u2014 Identity module updates, some Detect improvements that were already on the roadmap pre-outage, and then we need to figure out where Protect fits into the next cycle.",
+      "speaker_name": "Hannah Liu",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 325.4,
+      "endTime": 340.5,
+      "averageConfidence": 0.95,
+      "index": 37
+    },
+    {
+      "sentence": "On Detect \u2014 I want to flag that we should be careful about piling too much onto that module right now. The team just went through a really stressful period and we're still stabilizing. I'd rather we scope conservatively.",
+      "speaker_name": "Ravi Gupta",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 341.0,
+      "endTime": 355.0,
+      "averageConfidence": 0.97,
+      "index": 38
+    },
+    {
+      "sentence": "I hear you, and I think that's reasonable, but there are some roadmap items that have been deprioritized twice already \u2014 at some point we're going to have frustrated stakeholders.",
+      "speaker_name": "Alex Reyes",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 355.3,
+      "endTime": 366.0,
+      "averageConfidence": 0.97,
+      "index": 39
+    },
+    {
+      "sentence": "I know, but pushing features at the expense of reliability work seems like the wrong call after what just happened.",
+      "speaker_name": "Ravi Gupta",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 366.6,
+      "endTime": 373.7,
+      "averageConfidence": 0.88,
+      "index": 40
+    },
+    {
+      "sentence": "Can we try to split the difference? Like, identify which Detect items are strictly feature work versus which ones have a reliability or observability angle \u2014 prioritize the latter and hold the pure feature stuff for Q3.",
+      "speaker_name": "Hannah Liu",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 374.3,
+      "endTime": 387.5,
+      "averageConfidence": 0.89,
+      "index": 41
+    },
+    {
+      "sentence": "That actually works for me. I can live with that.",
+      "speaker_name": "Ravi Gupta",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 388.9,
+      "endTime": 392.8,
+      "averageConfidence": 0.92,
+      "index": 42
+    },
+    {
+      "sentence": "Yeah, I think that's a reasonable split. Let's document that logic so when leadership asks why certain items moved we have a rationale.",
+      "speaker_name": "Alex Reyes",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 393.6,
+      "endTime": 402.0,
+      "averageConfidence": 0.96,
+      "index": 43
+    },
+    {
+      "sentence": "Good call. Okay \u2014 I think we've hit the major items. Any other blockers or things people want to flag before we close out?",
+      "speaker_name": "Hannah Liu",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 403.0,
+      "endTime": 411.8,
+      "averageConfidence": 0.9,
+      "index": 44
+    },
+    {
+      "sentence": "Nothing from me.",
+      "speaker_name": "Nina Kowalski",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 412.4,
+      "endTime": 413.9,
+      "averageConfidence": 0.95,
+      "index": 45
+    },
+    {
+      "sentence": "I'm good.",
+      "speaker_name": "Ananya Sharma",
+      "sentimentType": "neutral",
+      "speaker_id": 4,
+      "time": 415.2,
+      "endTime": 416.7,
+      "averageConfidence": 0.92,
+      "index": 46
+    },
+    {
+      "sentence": "Nope, I think we covered it.",
+      "speaker_name": "Alex Reyes",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 417.7,
+      "endTime": 419.5,
+      "averageConfidence": 0.9,
+      "index": 47
+    },
+    {
+      "sentence": "Alright. I'll send out a summary with the action items \u2014 Ravi on the chaos engineering scope, Ananya on the timeout bug, and the Q2 prioritization framework. Thanks everyone.",
+      "speaker_name": "Hannah Liu",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 420.1,
+      "endTime": 430.6,
+      "averageConfidence": 0.88,
+      "index": 48
+    },
+    {
+      "sentence": "Thanks Hannah.",
+      "speaker_name": "Ravi Gupta",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 431.2,
+      "endTime": 432.7,
+      "averageConfidence": 0.95,
+      "index": 49
+    },
+    {
+      "sentence": "Thanks, talk soon.",
+      "speaker_name": "Ananya Sharma",
+      "sentimentType": "neutral",
+      "speaker_id": 4,
+      "time": 433.1,
+      "endTime": 434.6,
+      "averageConfidence": 0.96,
+      "index": 50
+    }
+  ]
+}

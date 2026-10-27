@@ -1,0 +1,46 @@
+{
+  "summary": "Alex Reyes led a pre-launch sync with Nina Kowalski and Jordan Whitfield three days before the Comply v2 launch on April 7th. The team reviewed the final QA checklist, confirming two of three open bugs are resolved, with the remaining Safari/PCI DSS cosmetic issue to be patched via a one-line CSS fix before launch. They discussed proactive messaging around infrastructure independence from the recent Detect outage, confirmed the HIPAA reporting module is fully validated across 40 configurations, and verified that in-app guidance and onboarding flows are complete and in production. Overall sentiment was highly positive, with the team expressing confidence in shipping on schedule.",
+  "actionItems": [
+    "Jordan Whitfield: Submit a one-line CSS fix PR for the Safari flexbox rendering bug in the download modal by end of day",
+    "Nina Kowalski: Verify Jordan's Safari CSS fix once merged, estimated 20-minute test suite run",
+    "Alex Reyes: Incorporate 'dedicated infrastructure' language into the Comply v2 launch announcement copy to proactively address Detect outage concerns",
+    "Alex Reyes: Update the launch checklist in Notion this afternoon and collect sign-offs from all three team members"
+  ],
+  "topics": [
+    "launch readiness",
+    "qa sign-off",
+    "compliance reporting",
+    "safari bug",
+    "hipaa validation",
+    "incident communications"
+  ],
+  "overallSentiment": "very-positive",
+  "sentimentScore": 4.8,
+  "keyMoments": [
+    {
+      "time": 142.0,
+      "text": "Nina confirms two of three open QA bugs are resolved as of that morning, with the third being a minor Safari cosmetic issue recommended for shipping as a known issue",
+      "type": "positive_pivot",
+      "speaker": "Nina Kowalski"
+    },
+    {
+      "time": 198.0,
+      "text": "Jordan identifies the Safari bug as a one-line CSS fix and commits to submitting a PR by end of day, removing any blocker concern",
+      "type": "action_item",
+      "speaker": "Jordan Whitfield"
+    },
+    {
+      "time": 390.0,
+      "text": "Alex flags the risk of customers conflating Comply v2 with the recent Detect outage and proposes proactive infrastructure independence messaging in the launch announcement",
+      "type": "concern",
+      "speaker": "Alex Reyes"
+    },
+    {
+      "time": 490.0,
+      "text": "Nina highlights that the HIPAA reporting module was validated across 40 different customer data configurations, expressing strong confidence in its accuracy",
+      "type": "praise",
+      "speaker": "Nina Kowalski"
+    }
+  ],
+  "meetingId": "01KQCF9872BF130D33B1B5EC"
+}

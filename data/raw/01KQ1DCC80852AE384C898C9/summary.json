@@ -1,0 +1,46 @@
+{
+  "summary": "Maria Santos met with Brianna Foster and Leo Marquez to address a serious six-hour outage on March 10-11 that caused a loss of visibility in Aegis Detect, breaching their 99.5% uptime SLA. The customer expressed eroded confidence in platform reliability and revealed they are actively evaluating a competitor, SentinelShield, which is offering aggressive pricing and a 99.9% SLA. Additional concerns included platform stagnation, upcoming compliance needs (SOC 2, HIPAA), and budget constraints going into renewal. Maria outlined next steps including a renewal proposal with an SLA credit, pricing adjustments, access to the upcoming Comply v2 product, and an engineering call to address Leo's infrastructure concerns.",
+  "actionItems": [
+    "Maria Santos: Send full technical remediation report and coordinate an engineering call with Aegis engineering team for Leo by early next week",
+    "Maria Santos: Deliver a renewal proposal by Thursday including SLA credit, revised pricing, and Comply v2 access bundled in",
+    "Maria Santos: Arrange a demo or early preview of Aegis Comply v2 for Brianna and Leo before renewal closes",
+    "Brianna Foster: Review the renewal proposal and provide feedback with enough time for legal to finalize by first week of April"
+  ],
+  "topics": [
+    "outage",
+    "renewal",
+    "compliance",
+    "competitive evaluation",
+    "pricing",
+    "sla breach"
+  ],
+  "overallSentiment": "mixed-negative",
+  "sentimentScore": 2.4,
+  "keyMoments": [
+    {
+      "time": 105.0,
+      "text": "Brianna describes the six-hour Aegis Detect outage on March 10-11, citing lost visibility, compliance obligations, and the failure to be proactively notified by Aegis.",
+      "type": "concern",
+      "speaker": "Brianna Foster"
+    },
+    {
+      "time": 390.0,
+      "text": "Brianna reveals they have been evaluating competitor SentinelShield, which reached out right after the outage and is offering more aggressive pricing and a 99.9% uptime SLA.",
+      "type": "churn_signal",
+      "speaker": "Brianna Foster"
+    },
+    {
+      "time": 540.0,
+      "text": "Maria discloses that Aegis Comply v2 launching April 7th includes on-demand SOC 2, HIPAA, PCI DSS, and ISO 27001 reporting, directly addressing the customer's upcoming compliance needs.",
+      "type": "positive_pivot",
+      "speaker": "Maria Santos"
+    },
+    {
+      "time": 720.0,
+      "text": "Leo states that the engineering call on infrastructure remediation is the deciding factor for his technical recommendation on whether to stay with Aegis.",
+      "type": "action_item",
+      "speaker": "Leo Marquez"
+    }
+  ],
+  "meetingId": "01KQ1DCC80852AE384C898C9"
+}

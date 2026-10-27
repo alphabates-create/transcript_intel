@@ -1,0 +1,19 @@
+{
+  "meetingId": "01KQ8C5A044F54EE1774D53C",
+  "title": "Aegis / Helix Data - Post-Incident Review",
+  "organizerEmail": "maria.santos@aegiscloud.com",
+  "host": "maria.santos@aegiscloud.com",
+  "startTime": "2026-03-17T11:45:00.000Z",
+  "endTime": "2026-03-17T12:20:48.000Z",
+  "duration": 35.8,
+  "allEmails": [
+    "maria.santos@aegiscloud.com",
+    "kevin.obrien@aegiscloud.com",
+    "c.ng@helixdata.io"
+  ],
+  "invitees": [
+    "maria.santos@aegiscloud.com",
+    "kevin.obrien@aegiscloud.com",
+    "c.ng@helixdata.io"
+  ]
+}

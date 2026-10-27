@@ -1,0 +1,26 @@
+[
+  {
+    "participantName": "Julia Tran",
+    "timestamp": 1773330320000,
+    "type": "Join",
+    "time": 20.0
+  },
+  {
+    "participantName": "Marcus Williams",
+    "timestamp": 1773330354000,
+    "type": "Join",
+    "time": 54.0
+  },
+  {
+    "participantName": "Marcus Williams",
+    "timestamp": 1773331566000,
+    "type": "Leave",
+    "time": 1266.0
+  },
+  {
+    "participantName": "Julia Tran",
+    "timestamp": 1773331536000,
+    "type": "Leave",
+    "time": 1236.0
+  }
+]

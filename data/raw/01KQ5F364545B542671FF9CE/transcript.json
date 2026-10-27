@@ -1,0 +1,414 @@
+{
+  "data": [
+    {
+      "sentence": "Good morning, you've reached Aegis Cloud Security support, this is Sarah Chen, I have Marcus Williams joining me as well on this call \u2014 we're both pulling up support case number 3546.",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 3.1,
+      "endTime": 14.0,
+      "averageConfidence": 0.9,
+      "index": 0
+    },
+    {
+      "sentence": "Morning Sarah, morning Marcus \u2014 yeah, this is Jason Hoffman, I'm the CISO over at Meridian Capital, and I've got Suki Nakamura on the line with me, she's our Compliance Director.",
+      "speaker_name": "Jason Hoffman",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 15.0,
+      "endTime": 25.6,
+      "averageConfidence": 0.94,
+      "index": 1
+    },
+    {
+      "sentence": "Hi everyone, thanks for making time for this.",
+      "speaker_name": "Suki Nakamura",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 26.2,
+      "endTime": 29.3,
+      "averageConfidence": 0.89,
+      "index": 2
+    },
+    {
+      "sentence": "Of course, good to have you both on \u2014 Marcus, do you want to go ahead and confirm the case details while I pull up the Meridian account?",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 29.9,
+      "endTime": 39.8,
+      "averageConfidence": 0.91,
+      "index": 3
+    },
+    {
+      "sentence": "Yeah sure, so case 3546 came in, looks like Tuesday \u2014 the subject line is SCIM provisioning request for Aegis Identity, and the initial description mentions wanting to automate user provisioning and deprovisioning from an external identity provider.",
+      "speaker_name": "Marcus Williams",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 40.5,
+      "endTime": 54.1,
+      "averageConfidence": 0.92,
+      "index": 4
+    },
+    {
+      "sentence": "That's correct, yeah \u2014 so, the short version is we're in the middle of a fairly significant identity infrastructure overhaul, we've been on Okta for a while now and we're looking to tighten up our provisioning workflows, and, uh, right now everything is pretty manual on the Aegis Identity side.",
+      "speaker_name": "Jason Hoffman",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 55.6,
+      "endTime": 73.5,
+      "averageConfidence": 0.96,
+      "index": 5
+    },
+    {
+      "sentence": "And I can jump in here \u2014 from a compliance standpoint we're getting audited more frequently, and the auditors are specifically asking about automated deprovisioning controls, so the manual process is starting to become a real gap for us.",
+      "speaker_name": "Suki Nakamura",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 74.2,
+      "endTime": 88.3,
+      "averageConfidence": 0.95,
+      "index": 6
+    },
+    {
+      "sentence": "Right, yeah, that makes a lot of sense \u2014 so the ask is essentially SCIM 2.0 integration between Okta and Aegis Identity, is that the direction you're heading?",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 88.6,
+      "endTime": 98.2,
+      "averageConfidence": 0.9,
+      "index": 7
+    },
+    {
+      "sentence": "Exactly, SCIM 2.0, yeah \u2014 we want Okta to be the source of truth, so when someone is offboarded in Okta it automatically propagates through to Aegis Identity and their access is revoked.",
+      "speaker_name": "Jason Hoffman",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 99.1,
+      "endTime": 111.0,
+      "averageConfidence": 0.95,
+      "index": 8
+    },
+    {
+      "sentence": "And ideally provisioning too, not just deprovisioning \u2014 when a new hire gets set up in Okta we'd want them to automatically get the right role assignments in Aegis Identity based on group membership.",
+      "speaker_name": "Suki Nakamura",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 112.3,
+      "endTime": 124.0,
+      "averageConfidence": 0.9,
+      "index": 9
+    },
+    {
+      "sentence": "Okay, understood \u2014 so Marcus, can you give them the current state picture on SCIM support in Aegis Identity?",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 125.2,
+      "endTime": 132.2,
+      "averageConfidence": 0.95,
+      "index": 10
+    },
+    {
+      "sentence": "Sure \u2014 so, right now Aegis Identity supports SAML and OIDC for SSO, and we do have some provisioning capabilities, but, uh, native SCIM 2.0 as a full protocol endpoint is not something that's currently in GA \u2014 it's on the roadmap but I don't want to get ahead of ourselves on timeline.",
+      "speaker_name": "Marcus Williams",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 133.0,
+      "endTime": 151.3,
+      "averageConfidence": 0.95,
+      "index": 11
+    },
+    {
+      "sentence": "Yeah, I figured that might be the case, honestly \u2014 do you have any sense of where it sits on the roadmap? Like are we talking Q2, Q3, end of year?",
+      "speaker_name": "Jason Hoffman",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 152.1,
+      "endTime": 163.1,
+      "averageConfidence": 0.92,
+      "index": 12
+    },
+    {
+      "sentence": "So I want to be transparent with you \u2014 we don't give out committed roadmap timelines on support calls, that's really something your account team should loop in on because they can actually have that conversation with product, but what I can say is that SCIM support is something we're actively fielding requests on and this case will definitely be logged as a feature request to contribute to that prioritization.",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 164.6,
+      "endTime": 189.3,
+      "averageConfidence": 0.91,
+      "index": 13
+    },
+    {
+      "sentence": "Fair enough, I appreciate the honesty \u2014 I'd rather hear that than get a date that doesn't hold.",
+      "speaker_name": "Jason Hoffman",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 190.0,
+      "endTime": 196.5,
+      "averageConfidence": 0.96,
+      "index": 14
+    },
+    {
+      "sentence": "Yeah, exactly \u2014 so, in the meantime, let's talk about what options you do have, because there are a couple of things we can look at to close some of that gap while you're waiting on native SCIM.",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 196.8,
+      "endTime": 210.3,
+      "averageConfidence": 0.94,
+      "index": 15
+    },
+    {
+      "sentence": "Yeah that'd be useful, what are you thinking?",
+      "speaker_name": "Jason Hoffman",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 210.9,
+      "endTime": 213.5,
+      "averageConfidence": 0.96,
+      "index": 16
+    },
+    {
+      "sentence": "So the first option is using our REST API for provisioning \u2014 it's documented in the developer portal and Okta actually has a generic API connector that you can configure to hit our user management endpoints, it's not as turnkey as native SCIM but it can handle create, update, deactivate operations.",
+      "speaker_name": "Marcus Williams",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 214.9,
+      "endTime": 232.6,
+      "averageConfidence": 0.94,
+      "index": 17
+    },
+    {
+      "sentence": "Okay, so that would require some custom configuration on the Okta side?",
+      "speaker_name": "Suki Nakamura",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 233.0,
+      "endTime": 237.2,
+      "averageConfidence": 0.9,
+      "index": 18
+    },
+    {
+      "sentence": "Yeah, some \u2014 Okta's Workflows product actually makes it pretty manageable, you'd be defining the API calls and the attribute mappings, it's not trivial but it's also not like a full development project, we've seen customers get something working in a few days.",
+      "speaker_name": "Marcus Williams",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 237.7,
+      "endTime": 252.5,
+      "averageConfidence": 0.88,
+      "index": 19
+    },
+    {
+      "sentence": "That's actually... worth considering, we do have someone on the IAM team who's pretty comfortable with Okta Workflows.",
+      "speaker_name": "Jason Hoffman",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 253.8,
+      "endTime": 259.8,
+      "averageConfidence": 0.92,
+      "index": 20
+    },
+    {
+      "sentence": "And what about the deprovisioning piece specifically \u2014 because that's really the one that's keeping me up at night from a compliance standpoint, we've had instances where access wasn't revoked within our required 24-hour window.",
+      "speaker_name": "Suki Nakamura",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 261.1,
+      "endTime": 273.5,
+      "averageConfidence": 0.89,
+      "index": 21
+    },
+    {
+      "sentence": "Yeah, so deprovisioning via the API is actually pretty reliable \u2014 when Okta triggers a user deactivation event you can configure the workflow to call our deactivate endpoint and it'll suspend the account in Aegis Identity, so they lose access to the platform, lose SSO session, and it gets logged with a timestamp that you'd be able to reference for audit purposes.",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 274.2,
+      "endTime": 295.8,
+      "averageConfidence": 0.94,
+      "index": 22
+    },
+    {
+      "sentence": "And are those logs available in Aegis Comply? Because that's another thing our auditors have been asking about \u2014 they want to see access termination evidence in a reportable format.",
+      "speaker_name": "Suki Nakamura",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 296.2,
+      "endTime": 307.1,
+      "averageConfidence": 0.94,
+      "index": 23
+    },
+    {
+      "sentence": "Yeah, identity events including deprovisioning and access changes do flow into the audit log that's accessible through Aegis Comply \u2014 you can export those or build report views around them.",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 308.6,
+      "endTime": 318.9,
+      "averageConfidence": 0.94,
+      "index": 24
+    },
+    {
+      "sentence": "Okay, that's good to know \u2014 we've actually been meaning to dig deeper into Comply, we're using it but I don't think we're using it to its full potential.",
+      "speaker_name": "Suki Nakamura",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 319.9,
+      "endTime": 330.4,
+      "averageConfidence": 0.9,
+      "index": 25
+    },
+    {
+      "sentence": "We can definitely set up a separate session on that if it would help \u2014 but let's stay focused on the provisioning piece for now.",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 330.9,
+      "endTime": 340.1,
+      "averageConfidence": 0.95,
+      "index": 26
+    },
+    {
+      "sentence": "Yeah agreed \u2014 Marcus, you mentioned there were a couple of options, what's the second one?",
+      "speaker_name": "Jason Hoffman",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 341.4,
+      "endTime": 347.3,
+      "averageConfidence": 0.9,
+      "index": 27
+    },
+    {
+      "sentence": "So the second is a bit more manual but simpler to set up \u2014 we have a CSV-based bulk import and export for user management in Aegis Identity, so you could generate a sync file from Okta on a scheduled basis and push it through, but honestly given your 24-hour deprovisioning requirement that's probably not sufficient, the API route is going to be more appropriate.",
+      "speaker_name": "Marcus Williams",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 348.1,
+      "endTime": 371.1,
+      "averageConfidence": 0.89,
+      "index": 28
+    },
+    {
+      "sentence": "Yeah, no, the CSV thing isn't going to work for us \u2014 we're past that point operationally.",
+      "speaker_name": "Jason Hoffman",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 371.9,
+      "endTime": 378.2,
+      "averageConfidence": 0.92,
+      "index": 29
+    },
+    {
+      "sentence": "Totally fair \u2014 so let's document the API approach as the recommended interim path, and I'll make sure the feature request for native SCIM 2.0 is properly logged with your use case details attached, that way when product is looking at prioritization they have the full context from Meridian Capital specifically.",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 379.1,
+      "endTime": 396.9,
+      "averageConfidence": 0.9,
+      "index": 30
+    },
+    {
+      "sentence": "Appreciate that \u2014 and I do want to flag, we're not the only financial services firm that's going to be running into this, SCIM is kind of table stakes at this point for anyone running a serious IAM program.",
+      "speaker_name": "Jason Hoffman",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 398.0,
+      "endTime": 411.5,
+      "averageConfidence": 0.95,
+      "index": 31
+    },
+    {
+      "sentence": "You're absolutely right and that context is useful, I'll note that in the case as well \u2014 the financial services regulatory pressure around automated deprovisioning is a real driver.",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 412.2,
+      "endTime": 422.3,
+      "averageConfidence": 0.96,
+      "index": 32
+    },
+    {
+      "sentence": "So next steps \u2014 Marcus, can you send over the API documentation links and maybe a sample workflow configuration if we have one?",
+      "speaker_name": "Jason Hoffman",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 423.6,
+      "endTime": 431.8,
+      "averageConfidence": 0.89,
+      "index": 33
+    },
+    {
+      "sentence": "Yeah, I'll pull together the user management API docs, there's also a community post from another customer who did a similar Okta Workflows integration, I'll see if I can dig that up and include it \u2014 no promises on the community post but the official docs I can definitely get over to you today.",
+      "speaker_name": "Marcus Williams",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 432.2,
+      "endTime": 451.0,
+      "averageConfidence": 0.91,
+      "index": 34
+    },
+    {
+      "sentence": "That would be great \u2014 and Sarah, can you make sure our account manager knows to follow up on the roadmap question? I know you said you can't commit to timelines but I'd like to at least have that conversation.",
+      "speaker_name": "Jason Hoffman",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 451.6,
+      "endTime": 465.3,
+      "averageConfidence": 0.91,
+      "index": 35
+    },
+    {
+      "sentence": "Absolutely, I'll flag it in the case notes and send a note to your account team directly so they're aware it's a priority discussion \u2014 they should be reaching out within a day or two.",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 466.4,
+      "endTime": 478.5,
+      "averageConfidence": 0.96,
+      "index": 36
+    },
+    {
+      "sentence": "Perfect \u2014 I think that covers what we needed from this call, anything else Suki before we let them go?",
+      "speaker_name": "Jason Hoffman",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 478.8,
+      "endTime": 486.2,
+      "averageConfidence": 0.94,
+      "index": 37
+    },
+    {
+      "sentence": "No I think we're good, this was helpful \u2014 thank you both for the clear explanation of the options.",
+      "speaker_name": "Suki Nakamura",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 486.7,
+      "endTime": 493.6,
+      "averageConfidence": 0.91,
+      "index": 38
+    },
+    {
+      "sentence": "Of course, thanks for your time Jason, Suki \u2014 we'll get those docs over and update the case, and reach out if anything comes up in the meantime.",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 494.6,
+      "endTime": 504.5,
+      "averageConfidence": 0.93,
+      "index": 39
+    },
+    {
+      "sentence": "Will do, thanks everyone.",
+      "speaker_name": "Jason Hoffman",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 505.4,
+      "endTime": 507.0,
+      "averageConfidence": 0.94,
+      "index": 40
+    }
+  ]
+}

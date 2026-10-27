@@ -1,0 +1,46 @@
+{
+  "summary": "Maria Santos and Solutions Architect Kevin O'Brien met with Robert Langston and Tanya Desai (Security Engineering) to address a six-hour Detect platform outage and discuss contract renewal ahead of end-of-Q2. Kevin explained the root cause as a cascading single point of failure in the event ingestion pipeline and outlined remediation steps including redundant nodes and a circuit breaker pattern. Robert and Tanya outlined clear conditions for renewal justification: a formal written post-mortem, updated SLA language with uptime teeth for Detect, and a configuration review. The call also surfaced an upcoming Comply v2 launch with on-demand compliance reporting relevant to the customer's June PCI audit.",
+  "actionItems": [
+    "Kevin O'Brien: Send technical brief with updated architecture diagrams to Tanya's team within one week",
+    "Maria Santos: Schedule a Detect configuration review with Tanya's security engineering team",
+    "Maria Santos: Deliver a formatted external post-mortem document to Robert by end of next week",
+    "Maria Santos: Obtain initial SLA proposal with updated Detect uptime terms from commercial team within two weeks"
+  ],
+  "topics": [
+    "outage post-mortem",
+    "renewal",
+    "platform reliability",
+    "compliance",
+    "competitive evaluation",
+    "configuration review"
+  ],
+  "overallSentiment": "mixed-negative",
+  "sentimentScore": 2.8,
+  "keyMoments": [
+    {
+      "time": 45.0,
+      "text": "Robert expresses serious concern about a six-hour Detect outage and its risk exposure implications for a financial services firm",
+      "type": "churn_signal",
+      "speaker": "Robert Langston"
+    },
+    {
+      "time": 130.0,
+      "text": "Tanya calls out the single point of failure as a basic architectural problem, directly challenging the platform's engineering credibility",
+      "type": "concern",
+      "speaker": "Tanya Desai"
+    },
+    {
+      "time": 390.0,
+      "text": "Robert discloses the board is asking questions about alternatives and that SentinelShield is being evaluated",
+      "type": "churn_signal",
+      "speaker": "Robert Langston"
+    },
+    {
+      "time": 510.0,
+      "text": "Tanya expresses genuine interest in the Comply v2 on-demand PCI DSS reporting ahead of their June audit, signaling a positive engagement opportunity",
+      "type": "positive_pivot",
+      "speaker": "Tanya Desai"
+    }
+  ],
+  "meetingId": "01KQC1267BEB344076DD7656"
+}

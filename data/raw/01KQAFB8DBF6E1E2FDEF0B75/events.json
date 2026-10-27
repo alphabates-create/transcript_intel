@@ -1,0 +1,38 @@
+[
+  {
+    "participantName": "Nathan Perry",
+    "timestamp": 1772203506000,
+    "type": "Join",
+    "time": 6.0
+  },
+  {
+    "participantName": "Aisha Johnson",
+    "timestamp": 1772203544000,
+    "type": "Join",
+    "time": 44.0
+  },
+  {
+    "participantName": "Sofia Petrov",
+    "timestamp": 1772203552000,
+    "type": "Join",
+    "time": 52.0
+  },
+  {
+    "participantName": "Aisha Johnson",
+    "timestamp": 1772204830000,
+    "type": "Leave",
+    "time": 1330.0
+  },
+  {
+    "participantName": "Sofia Petrov",
+    "timestamp": 1772204829000,
+    "type": "Leave",
+    "time": 1329.0
+  },
+  {
+    "participantName": "Nathan Perry",
+    "timestamp": 1772204837000,
+    "type": "Leave",
+    "time": 1337.0
+  }
+]

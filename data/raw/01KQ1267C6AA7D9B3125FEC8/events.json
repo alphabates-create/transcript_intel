@@ -1,0 +1,62 @@
+[
+  {
+    "participantName": "Mike Romano",
+    "timestamp": 1772100905000,
+    "type": "Join",
+    "time": 5.0
+  },
+  {
+    "participantName": "Raj Kapoor",
+    "timestamp": 1772100924000,
+    "type": "Join",
+    "time": 24.0
+  },
+  {
+    "participantName": "Brian Cho",
+    "timestamp": 1772100943000,
+    "type": "Join",
+    "time": 43.0
+  },
+  {
+    "participantName": "Tyler Washington",
+    "timestamp": 1772100948000,
+    "type": "Join",
+    "time": 48.0
+  },
+  {
+    "participantName": "Ravi Gupta",
+    "timestamp": 1772100955000,
+    "type": "Join",
+    "time": 55.0
+  },
+  {
+    "participantName": "Tyler Washington",
+    "timestamp": 1772103110000,
+    "type": "Leave",
+    "time": 2210.0
+  },
+  {
+    "participantName": "Raj Kapoor",
+    "timestamp": 1772103114000,
+    "type": "Leave",
+    "time": 2214.0
+  },
+  {
+    "participantName": "Ravi Gupta",
+    "timestamp": 1772103104000,
+    "type": "Leave",
+    "time": 2204.0
+  },
+  {
+    "participantName": "Brian Cho",
+    "timestamp": 1772103084000,
+    "type": "Leave",
+    "time": 2184.0
+  },
+  {
+    "participantName": "Mike Romano",
+    "timestamp": 1772103085000,
+    "type": "Leave",
+    "time": 2185.0
+  }
+]

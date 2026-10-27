@@ -1,0 +1,50 @@
+[
+  {
+    "participantName": "Patricia Dunn",
+    "timestamp": 1772724621000,
+    "type": "Join",
+    "time": 21.0
+  },
+  {
+    "participantName": "Michael Russo",
+    "timestamp": 1772724642000,
+    "type": "Join",
+    "time": 42.0
+  },
+  {
+    "participantName": "Lisa Park",
+    "timestamp": 1772724648000,
+    "type": "Join",
+    "time": 48.0
+  },
+  {
+    "participantName": "Kevin O'Brien",
+    "timestamp": 1772724651000,
+    "type": "Join",
+    "time": 51.0
+  },
+  {
+    "participantName": "Kevin O'Brien",
+    "timestamp": 1772726773000,
+    "type": "Leave",
+    "time": 2173.0
+  },
+  {
+    "participantName": "Lisa Park",
+    "timestamp": 1772726759000,
+    "type": "Leave",
+    "time": 2159.0
+  },
+  {
+    "participantName": "Michael Russo",
+    "timestamp": 1772726769000,
+    "type": "Leave",
+    "time": 2169.0
+  },
+  {
+    "participantName": "Patricia Dunn",
+    "timestamp": 1772726767000,
+    "type": "Leave",
+    "time": 2167.0
+  }
+]

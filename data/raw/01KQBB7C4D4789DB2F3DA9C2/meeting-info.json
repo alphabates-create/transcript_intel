@@ -1,0 +1,21 @@
+{
+  "meetingId": "01KQBB7C4D4789DB2F3DA9C2",
+  "title": "Support Case #1750 - Vanta Health Systems SIEM Connector Issue",
+  "organizerEmail": "sarah.chen@aegiscloud.com",
+  "host": "sarah.chen@aegiscloud.com",
+  "startTime": "2026-02-18T12:30:00.000Z",
+  "endTime": "2026-02-18T12:59:42.000Z",
+  "duration": 29.7,
+  "allEmails": [
+    "sarah.chen@aegiscloud.com",
+    "priya.patel@aegiscloud.com",
+    "l.cheng@vantahealth.com",
+    "r.burke@vantahealth.com"
+  ],
+  "invitees": [
+    "sarah.chen@aegiscloud.com",
+    "priya.patel@aegiscloud.com",
+    "l.cheng@vantahealth.com",
+    "r.burke@vantahealth.com"
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "summary": "Daniel Okafor (CSM) met with Paula Schneider from Ridgeline to review their experience with Aegis Identity after eight months on the platform. Paula raised several operational pain points including clunky shared workstation session management, lack of granular session timeout policies by device group, and inflexible MFA policy exceptions for service accounts. Daniel confirmed these items would be escalated internally, including a January support ticket that had gone unanswered, and noted an upcoming RBAC enhancement that may address some of her concerns. The call also touched on a potential SSO integration with a new fleet management platform and a Q3 renewal on the horizon.",
+  "actionItems": [
+    "Daniel Okafor: Track down and escalate the January support ticket regarding shared workstation session management",
+    "Daniel Okafor: Set up a call between Paula and product manager Marcus to discuss session policy granularity roadmap timeline",
+    "Daniel Okafor: Formally log MFA policy exception feature request with operational impact framing and send RBAC preview doc under NDA",
+    "Paula Schneider: Send Translog technical specifications to Daniel once available for SSO compatibility review"
+  ],
+  "topics": [
+    "shared workstation session management",
+    "mfa policy exceptions",
+    "sso integration",
+    "rbac enhancements",
+    "renewal",
+    "feature request"
+  ],
+  "overallSentiment": "mixed-positive",
+  "sentimentScore": 3.4,
+  "keyMoments": [
+    {
+      "time": 182.0,
+      "text": "Paula flags that shared workstation session management is clunky, with unscoped timeouts and residual session data causing unauthorized access incidents",
+      "type": "technical_issue",
+      "speaker": "Paula Schneider"
+    },
+    {
+      "time": 310.0,
+      "text": "Paula notes a support ticket submitted in January has seen no movement, expressing frustration over lack of follow-through",
+      "type": "concern",
+      "speaker": "Paula Schneider"
+    },
+    {
+      "time": 620.0,
+      "text": "Paula requests conditional MFA exclusion model with audit trail for service accounts, citing compliance and operational overhead",
+      "type": "feature_gap",
+      "speaker": "Paula Schneider"
+    },
+    {
+      "time": 890.0,
+      "text": "Paula signals that unresolved shared workstation issues will be a talking point at Q3 renewal if not addressed by summer",
+      "type": "churn_signal",
+      "speaker": "Paula Schneider"
+    }
+  ],
+  "meetingId": "01KQCA6EA8B603EBB6C9FE34"
+}

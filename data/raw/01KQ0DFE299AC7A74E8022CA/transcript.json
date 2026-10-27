@@ -1,0 +1,394 @@
+{
+  "data": [
+    {
+      "sentence": "Hey Thomas, can you hear us okay?",
+      "speaker_name": "Daniel Okafor",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 3.2,
+      "endTime": 6.1,
+      "averageConfidence": 0.89,
+      "index": 0
+    },
+    {
+      "sentence": "Yeah, loud and clear \u2014 good to hear from you guys, it's been a couple weeks.",
+      "speaker_name": "Thomas Hargrove",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 6.5,
+      "endTime": 11.9,
+      "averageConfidence": 0.92,
+      "index": 1
+    },
+    {
+      "sentence": "Good, good \u2014 yeah sorry it took us a bit to get this on the calendar, things have been moving fast on our end with the Comply v2 launch and everything.",
+      "speaker_name": "Daniel Okafor",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 13.4,
+      "endTime": 24.5,
+      "averageConfidence": 0.95,
+      "index": 2
+    },
+    {
+      "sentence": "Actually that's kind of why we're here today, right, so \u2014 Thomas, I also want to introduce Kevin, he's our solutions architect and he's going to be the technical lead on your ISO 27001 prep work.",
+      "speaker_name": "Daniel Okafor",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 26.0,
+      "endTime": 38.9,
+      "averageConfidence": 0.96,
+      "index": 3
+    },
+    {
+      "sentence": "Hey Thomas, great to meet you \u2014 I've been looking forward to this one, Daniel's told me a lot about what Redwood is trying to accomplish this year.",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 39.5,
+      "endTime": 49.1,
+      "averageConfidence": 0.95,
+      "index": 4
+    },
+    {
+      "sentence": "Likewise, yeah, and honestly the timing could not be better because our CISO has been breathing down my neck about ISO 27001 since like January, so \u2014 any help getting a clearer picture of where we stand is going to be huge.",
+      "speaker_name": "Thomas Hargrove",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 50.5,
+      "endTime": 65.2,
+      "averageConfidence": 0.94,
+      "index": 5
+    },
+    {
+      "sentence": "Yeah, absolutely, and I think that's exactly where Comply v2 is going to change the game for you \u2014 um, before we dive in though, Thomas, can you just give Kevin a quick sense of where you are in the ISO journey? Like, have you done a formal gap assessment yet or are you still kind of in the early stages?",
+      "speaker_name": "Daniel Okafor",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 65.6,
+      "endTime": 86.7,
+      "averageConfidence": 0.89,
+      "index": 6
+    },
+    {
+      "sentence": "Yeah so we're \u2014 we're pretty early if I'm being honest. We had an external consultant come in back in February, they did a high-level gap assessment, and the short version is we have a lot of work to do on the information security management side, particularly around evidence collection and demonstrating continuous monitoring, which as a healthcare organization is like, that's a big deal for us.",
+      "speaker_name": "Thomas Hargrove",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 88.0,
+      "endTime": 111.8,
+      "averageConfidence": 0.96,
+      "index": 7
+    },
+    {
+      "sentence": "Right, and that's such a common pain point, especially in healthcare \u2014 the auditors want to see a continuous thread of evidence, not just a snapshot, and that's historically been really painful to pull together manually.",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 112.8,
+      "endTime": 125.9,
+      "averageConfidence": 0.94,
+      "index": 8
+    },
+    {
+      "sentence": "Oh god, yeah, the last time we went through a HIPAA audit my team spent like three weeks just pulling logs and documentation together \u2014 it was a nightmare.",
+      "speaker_name": "Thomas Hargrove",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 126.6,
+      "endTime": 136.7,
+      "averageConfidence": 0.93,
+      "index": 9
+    },
+    {
+      "sentence": "Three weeks, yeah \u2014 that's \u2014 I mean that's not unusual but it's also exactly the kind of thing we built Comply v2 to eliminate, so let's talk about what that actually looks like in practice.",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 138.2,
+      "endTime": 150.7,
+      "averageConfidence": 0.92,
+      "index": 10
+    },
+    {
+      "sentence": "Please, yeah, walk me through it.",
+      "speaker_name": "Thomas Hargrove",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 151.3,
+      "endTime": 153.3,
+      "averageConfidence": 0.89,
+      "index": 11
+    },
+    {
+      "sentence": "So \u2014 okay so the big thing with v2, and this just went GA on April 7th so it's very fresh, is the on-demand reporting engine. You can now generate a full ISO 27001 readiness report at any point, and it maps your current control posture directly to the Annex A controls \u2014 so you're not having to manually cross-reference anything, the platform does that work for you.",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 153.8,
+      "endTime": 178.0,
+      "averageConfidence": 0.9,
+      "index": 12
+    },
+    {
+      "sentence": "Wait, so it's actually mapping to the specific Annex A controls? Like, is that \u2014 is it just a template thing or is it actually pulling live data from our environment?",
+      "speaker_name": "Thomas Hargrove",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 179.2,
+      "endTime": 190.3,
+      "averageConfidence": 0.94,
+      "index": 13
+    },
+    {
+      "sentence": "Live data \u2014 so it's pulling from your Detect telemetry, your Identity configurations, your Protect backup logs, and then surfacing all of that against the control framework. So when an auditor asks you to demonstrate, say, A.12.4 on event logging and monitoring, you can literally generate that section of the report on the spot.",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 191.3,
+      "endTime": 210.1,
+      "averageConfidence": 0.96,
+      "index": 14
+    },
+    {
+      "sentence": "Okay that is \u2014 yeah that is genuinely impressive, I wasn't expecting that level of granularity.",
+      "speaker_name": "Thomas Hargrove",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 211.4,
+      "endTime": 216.9,
+      "averageConfidence": 0.93,
+      "index": 15
+    },
+    {
+      "sentence": "And it's not just ISO either \u2014 you mentioned HIPAA a second ago \u2014 the same report engine covers HIPAA, SOC 2, and PCI DSS as well, so if you ever need to spin up a HIPAA evidence package, it's the same workflow, same interface.",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 217.7,
+      "endTime": 233.2,
+      "averageConfidence": 0.95,
+      "index": 16
+    },
+    {
+      "sentence": "Yeah that multi-framework piece is something we specifically asked for in our renewal discussions, so it's great to see that actually shipped \u2014 Daniel you might remember that conversation.",
+      "speaker_name": "Thomas Hargrove",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 233.8,
+      "endTime": 244.3,
+      "averageConfidence": 0.92,
+      "index": 17
+    },
+    {
+      "sentence": "I do, yeah, I have the notes from that call \u2014 it was definitely on the roadmap and I'm glad we could deliver on it before your audit cycle.",
+      "speaker_name": "Daniel Okafor",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 245.4,
+      "endTime": 255.9,
+      "averageConfidence": 0.92,
+      "index": 18
+    },
+    {
+      "sentence": "So Thomas, one thing I want to make sure we cover \u2014 in terms of your timeline, do you have a target date for the ISO 27001 certification audit? Because that's going to shape how we structure the onboarding to Comply v2.",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 256.9,
+      "endTime": 271.6,
+      "averageConfidence": 0.93,
+      "index": 19
+    },
+    {
+      "sentence": "Our CISO is targeting Q1 2027 for the formal audit, so we have \u2014 you know, roughly eight or nine months, which sounds like a lot but when you factor in the remediation work it's going to go fast.",
+      "speaker_name": "Thomas Hargrove",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 272.6,
+      "endTime": 286.1,
+      "averageConfidence": 0.92,
+      "index": 20
+    },
+    {
+      "sentence": "Eight months is actually a really solid runway for this \u2014 um, what I'd typically recommend for organizations at your stage is we start with a baseline report run in the first two weeks, just to get a concrete picture of where you are against the framework, and then we build a remediation roadmap from those gaps.",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 286.5,
+      "endTime": 306.4,
+      "averageConfidence": 0.89,
+      "index": 21
+    },
+    {
+      "sentence": "Yeah and that baseline report \u2014 is that something Kevin can help us interpret, or is it pretty self-explanatory on the platform?",
+      "speaker_name": "Thomas Hargrove",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 306.8,
+      "endTime": 314.8,
+      "averageConfidence": 0.89,
+      "index": 22
+    },
+    {
+      "sentence": "Both, honestly \u2014 the report is designed to be readable by a non-specialist, we have like a traffic light system for control status, but Kevin and I will absolutely walk through it with you line by line on a follow-up call.",
+      "speaker_name": "Daniel Okafor",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 315.5,
+      "endTime": 329.7,
+      "averageConfidence": 0.91,
+      "index": 23
+    },
+    {
+      "sentence": "Yeah I was going to say \u2014 I'd actually love to do a working session with you and maybe whoever on your team is going to be the compliance lead, we can go through the report together and I can explain what each gap actually means in practical terms, not just the framework language.",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 330.7,
+      "endTime": 349.5,
+      "averageConfidence": 0.96,
+      "index": 24
+    },
+    {
+      "sentence": "That would be \u2014 yeah that would be incredibly helpful, I have a security analyst, her name is Priya, she's been leading the internal ISO prep work and she would get a lot out of that kind of session.",
+      "speaker_name": "Thomas Hargrove",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 351.0,
+      "endTime": 364.5,
+      "averageConfidence": 0.89,
+      "index": 25
+    },
+    {
+      "sentence": "Perfect, let's make sure Priya is on the next call \u2014 I'll send a calendar invite for a technical working session, maybe two weeks out, that gives you time to get Comply v2 activated and run that first report.",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 365.7,
+      "endTime": 379.7,
+      "averageConfidence": 0.89,
+      "index": 26
+    },
+    {
+      "sentence": "That works \u2014 and just so I understand the activation piece, is that something I need to loop in my IT team for, or is it more of a \u2014 like a configuration thing on the Aegis side?",
+      "speaker_name": "Thomas Hargrove",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 381.2,
+      "endTime": 394.6,
+      "averageConfidence": 0.96,
+      "index": 27
+    },
+    {
+      "sentence": "It's pretty lightweight on your end \u2014 since you're already running Detect and Identity, the data connectors are mostly already in place, we just need to enable the Comply v2 module on your tenant and do a quick configuration review to make sure all your data sources are mapped correctly, should take maybe an hour of your team's time.",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 395.9,
+      "endTime": 416.7,
+      "averageConfidence": 0.89,
+      "index": 28
+    },
+    {
+      "sentence": "Oh wow, okay, yeah that's much less overhead than I was anticipating \u2014 I was kind of bracing myself for like a big implementation project.",
+      "speaker_name": "Thomas Hargrove",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 417.5,
+      "endTime": 426.5,
+      "averageConfidence": 0.92,
+      "index": 29
+    },
+    {
+      "sentence": "Yeah that's the benefit of being on the full platform \u2014 you're not starting from scratch, we're just unlocking capabilities that the underlying data already supports.",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 426.9,
+      "endTime": 436.4,
+      "averageConfidence": 0.88,
+      "index": 30
+    },
+    {
+      "sentence": "You know, I'll be honest \u2014 when we were evaluating platforms last year, one of the things that tipped us toward Aegis was exactly that, the idea that everything would be integrated rather than bolted together, and it's good to see that actually playing out in practice.",
+      "speaker_name": "Thomas Hargrove",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 437.1,
+      "endTime": 453.5,
+      "averageConfidence": 0.91,
+      "index": 31
+    },
+    {
+      "sentence": "That means a lot to hear, Thomas \u2014 and we want to make sure it keeps playing out that way through the audit, so Kevin's going to be your dedicated point of contact for all things Comply through this ISO process.",
+      "speaker_name": "Daniel Okafor",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 454.1,
+      "endTime": 468.8,
+      "averageConfidence": 0.93,
+      "index": 32
+    },
+    {
+      "sentence": "Yeah, consider me on speed dial \u2014 seriously, if you or Priya hit questions on the platform or you're not sure how to interpret something in the report, just reach out, that's what I'm here for.",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 469.2,
+      "endTime": 482.1,
+      "averageConfidence": 0.94,
+      "index": 33
+    },
+    {
+      "sentence": "Really appreciate that \u2014 okay so just to make sure I've got the next steps straight: Kevin sends a calendar invite for the technical working session in two weeks, Daniel gets Comply v2 activated on our tenant, and in the meantime we \u2014 or I guess Kevin's team handles the module enablement, and then we run the first baseline report before that working session.",
+      "speaker_name": "Thomas Hargrove",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 483.5,
+      "endTime": 506.3,
+      "averageConfidence": 0.89,
+      "index": 34
+    },
+    {
+      "sentence": "That's exactly it \u2014 I'll also send you a short prep document that explains what to expect from the baseline report so you and Priya aren't going in cold.",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 506.9,
+      "endTime": 517.5,
+      "averageConfidence": 0.94,
+      "index": 35
+    },
+    {
+      "sentence": "Perfect \u2014 honestly this call was really reassuring, I feel like we actually have a path forward now, which is not how I felt last week.",
+      "speaker_name": "Thomas Hargrove",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 518.9,
+      "endTime": 528.3,
+      "averageConfidence": 0.97,
+      "index": 36
+    },
+    {
+      "sentence": "That's exactly what we want to hear \u2014 alright Thomas, we'll let you get back to it, talk soon.",
+      "speaker_name": "Daniel Okafor",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 528.7,
+      "endTime": 535.8,
+      "averageConfidence": 0.94,
+      "index": 37
+    },
+    {
+      "sentence": "Sounds great, thanks guys \u2014 really looking forward to it.",
+      "speaker_name": "Thomas Hargrove",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 536.8,
+      "endTime": 540.0,
+      "averageConfidence": 0.97,
+      "index": 38
+    }
+  ]
+}

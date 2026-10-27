@@ -1,0 +1,21 @@
+{
+  "meetingId": "01KQ38C4101D6774F2F02331",
+  "title": "INCIDENT: Detect Pipeline Failure - War Room",
+  "organizerEmail": "brian.cho@aegiscloud.com",
+  "host": "brian.cho@aegiscloud.com",
+  "startTime": "2026-03-10T13:15:00.000Z",
+  "endTime": "2026-03-10T13:44:54.000Z",
+  "duration": 29.9,
+  "allEmails": [
+    "brian.cho@aegiscloud.com",
+    "tom.bradley@aegiscloud.com",
+    "ananya.sharma@aegiscloud.com",
+    "sofia.petrov@aegiscloud.com"
+  ],
+  "invitees": [
+    "brian.cho@aegiscloud.com",
+    "tom.bradley@aegiscloud.com",
+    "ananya.sharma@aegiscloud.com",
+    "sofia.petrov@aegiscloud.com"
+  ]
+}

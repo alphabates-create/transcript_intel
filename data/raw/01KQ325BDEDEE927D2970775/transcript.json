@@ -1,0 +1,324 @@
+{
+  "data": [
+    {
+      "sentence": "Hi Paula, thanks for jumping on the call, this is Priya Patel from Aegis support \u2014 I'm the team lead on your case, case number 5889.",
+      "speaker_name": "Priya Patel",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 5.2,
+      "endTime": 14.5,
+      "averageConfidence": 0.93,
+      "index": 0
+    },
+    {
+      "sentence": "Yeah, hi Priya. Thanks for getting back to me. I've been waiting on this for \u2014 honestly it's been a couple of days now and we're not in a great spot.",
+      "speaker_name": "Paula Schneider",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 15.5,
+      "endTime": 26.8,
+      "averageConfidence": 0.92,
+      "index": 1
+    },
+    {
+      "sentence": "I completely understand, and I apologize for the delay on our end. I've been reviewing the case notes and I want to make sure I fully understand what you're seeing. Can you walk me through the issue from your perspective?",
+      "speaker_name": "Priya Patel",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 28.2,
+      "endTime": 41.9,
+      "averageConfidence": 0.94,
+      "index": 2
+    },
+    {
+      "sentence": "Sure. So, we're in manufacturing, right, we've got a lot of OT systems, warehouse management, fleet tracking \u2014 a pretty broad attack surface. And we rely heavily on Aegis Detect to give us real-time visibility into what's happening across those environments.",
+      "speaker_name": "Paula Schneider",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 43.3,
+      "endTime": 58.0,
+      "averageConfidence": 0.96,
+      "index": 3
+    },
+    {
+      "sentence": "Right, right.",
+      "speaker_name": "Priya Patel",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 59.1,
+      "endTime": 60.6,
+      "averageConfidence": 0.94,
+      "index": 4
+    },
+    {
+      "sentence": "And starting \u2014 I want to say Monday, maybe Sunday night \u2014 we started noticing that alerts are coming in with a significant lag. Like we're talking 45 minutes, an hour behind real-time. For threat monitoring that's... that's not acceptable. That's basically useless.",
+      "speaker_name": "Paula Schneider",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 61.2,
+      "endTime": 76.0,
+      "averageConfidence": 0.93,
+      "index": 5
+    },
+    {
+      "sentence": "Yeah, I hear you, an hour of latency on threat alerts is \u2014 that's a serious problem. I'm not going to sugarcoat that.",
+      "speaker_name": "Priya Patel",
+      "sentimentType": "negative",
+      "speaker_id": 0,
+      "time": 77.1,
+      "endTime": 85.3,
+      "averageConfidence": 0.97,
+      "index": 6
+    },
+    {
+      "sentence": "And what's frustrating is we didn't get any notification from Aegis about a known issue or anything. I had my team spending two days thinking it was something on our side, misconfiguration, network issue \u2014 we went through all of it.",
+      "speaker_name": "Paula Schneider",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 86.4,
+      "endTime": 100.7,
+      "averageConfidence": 0.89,
+      "index": 7
+    },
+    {
+      "sentence": "That is \u2014 yeah, I'm really sorry about that. And that's actually directly relevant to what I want to talk to you about today. So, I do need to be transparent with you about something.",
+      "speaker_name": "Priya Patel",
+      "sentimentType": "negative",
+      "speaker_id": 0,
+      "time": 102.0,
+      "endTime": 114.0,
+      "averageConfidence": 0.95,
+      "index": 8
+    },
+    {
+      "sentence": "Okay...",
+      "speaker_name": "Paula Schneider",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 114.6,
+      "endTime": 116.1,
+      "averageConfidence": 0.9,
+      "index": 9
+    },
+    {
+      "sentence": "We have been dealing with an incident on our end \u2014 specifically in the Detect event processing pipeline. There was a cascading failure that started affecting event ingestion, and it resulted in significant delays across, um, a subset of our customer environments. Ridgeline is one of them.",
+      "speaker_name": "Priya Patel",
+      "sentimentType": "negative",
+      "speaker_id": 0,
+      "time": 117.2,
+      "endTime": 133.7,
+      "averageConfidence": 0.94,
+      "index": 10
+    },
+    {
+      "sentence": "So this is \u2014 this is an Aegis-side issue. It's not us.",
+      "speaker_name": "Paula Schneider",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 134.5,
+      "endTime": 139.0,
+      "averageConfidence": 0.97,
+      "index": 11
+    },
+    {
+      "sentence": "Correct. This is on our side. And I want to be clear \u2014 you should have received proactive communication about this and you didn't, and that's a failure on our part. I'm genuinely sorry for that.",
+      "speaker_name": "Priya Patel",
+      "sentimentType": "negative",
+      "speaker_id": 0,
+      "time": 139.4,
+      "endTime": 152.1,
+      "averageConfidence": 0.96,
+      "index": 12
+    },
+    {
+      "sentence": "I mean, Priya, I \u2014 okay. I appreciate you being straight with me but this is pretty bad. We're a logistics and manufacturing company, we've got operational technology on the floor, we've got systems that if something gets through undetected because our monitoring is delayed by an hour\u2014",
+      "speaker_name": "Paula Schneider",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 152.8,
+      "endTime": 169.4,
+      "averageConfidence": 0.95,
+      "index": 13
+    },
+    {
+      "sentence": "Absolutely, I understand the stakes. Can I ask \u2014 during this window, do you have any secondary monitoring in place, like a SIEM or anything that's been catching events that Detect was missing?",
+      "speaker_name": "Priya Patel",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 170.7,
+      "endTime": 182.2,
+      "averageConfidence": 0.95,
+      "index": 14
+    },
+    {
+      "sentence": "We have a LogVault instance but it doesn't have the same coverage, especially not on the endpoint side. So no, we don't have full coverage. That's why we pay for Detect.",
+      "speaker_name": "Paula Schneider",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 182.9,
+      "endTime": 193.9,
+      "averageConfidence": 0.89,
+      "index": 15
+    },
+    {
+      "sentence": "Understood. Okay. So let me tell you where we are from a resolution standpoint. The root cause has been identified \u2014 it was essentially a single point of failure in the event ingestion layer. Our engineering team is actively deploying a fix, which includes redundant processing nodes and a circuit breaker pattern to prevent this kind of cascading failure from happening again.",
+      "speaker_name": "Priya Patel",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 194.6,
+      "endTime": 216.6,
+      "averageConfidence": 0.89,
+      "index": 16
+    },
+    {
+      "sentence": "Okay. And when is that fix going out?",
+      "speaker_name": "Paula Schneider",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 217.4,
+      "endTime": 219.9,
+      "averageConfidence": 0.88,
+      "index": 17
+    },
+    {
+      "sentence": "The fix is being rolled out now. I don't have a precise ETA to give you right this minute but we're talking hours, not days. I can commit to getting you a status update within the next two hours with a hard timeline.",
+      "speaker_name": "Priya Patel",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 221.1,
+      "endTime": 236.1,
+      "averageConfidence": 0.95,
+      "index": 18
+    },
+    {
+      "sentence": "Hours. Okay. I mean \u2014 and what about the events that were delayed? Are we going to get backfill on those or are those just gone?",
+      "speaker_name": "Paula Schneider",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 236.5,
+      "endTime": 246.1,
+      "averageConfidence": 0.93,
+      "index": 19
+    },
+    {
+      "sentence": "That's a really important question and I want to give you an accurate answer rather than guess. The events are queued \u2014 they're not lost \u2014 but some of the time-sensitive context on those alerts may be degraded. I need to confirm with our engineering team exactly what the backfill situation looks like for your tenant specifically. Can I get back to you on that in the same two-hour update?",
+      "speaker_name": "Priya Patel",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 247.3,
+      "endTime": 271.9,
+      "averageConfidence": 0.92,
+      "index": 20
+    },
+    {
+      "sentence": "Yeah, I need that answer. Because if we've had a gap in coverage for four days and we don't know what was missed \u2014 that's something I'm going to have to report internally and potentially to our cyber insurance carrier.",
+      "speaker_name": "Paula Schneider",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 272.6,
+      "endTime": 286.7,
+      "averageConfidence": 0.94,
+      "index": 21
+    },
+    {
+      "sentence": "Completely valid. And I'll make sure we give you the full picture so you have what you need for any internal reporting. On that note, would it be helpful if I also looped in your account manager to discuss \u2014 you know, once this is resolved \u2014 what remediation looks like from a business standpoint? Service credits, that kind of conversation.",
+      "speaker_name": "Priya Patel",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 287.9,
+      "endTime": 309.1,
+      "averageConfidence": 0.92,
+      "index": 22
+    },
+    {
+      "sentence": "Yes. I mean, yes, that conversation needs to happen. We're \u2014 look, I'm not trying to be difficult, I actually like the Detect product when it works. But this is a significant breach of the SLA as far as I'm concerned.",
+      "speaker_name": "Paula Schneider",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 310.2,
+      "endTime": 324.9,
+      "averageConfidence": 0.92,
+      "index": 23
+    },
+    {
+      "sentence": "I think that's a fair characterization and I'm not going to push back on that. We'll get your account manager involved and make sure that conversation happens. In the meantime, is there anything else I can do right now \u2014 additional logging access, a direct line to our on-call engineer \u2014 anything that would help you feel more in control of the situation while we're in this window?",
+      "speaker_name": "Priya Patel",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 326.2,
+      "endTime": 350.1,
+      "averageConfidence": 0.9,
+      "index": 24
+    },
+    {
+      "sentence": "Actually yeah \u2014 can you set me up with a direct escalation path? Like if something happens in the next few hours and I need to reach someone, I don't want to go through the general support queue.",
+      "speaker_name": "Paula Schneider",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 350.4,
+      "endTime": 363.6,
+      "averageConfidence": 0.95,
+      "index": 25
+    },
+    {
+      "sentence": "Absolutely. I'm going to give you my direct line right now, and I'll also send you the on-call bridge number for our Detect engineering team. You call either of those and you'll get a response in under ten minutes.",
+      "speaker_name": "Priya Patel",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 364.7,
+      "endTime": 378.6,
+      "averageConfidence": 0.93,
+      "index": 26
+    },
+    {
+      "sentence": "Okay. That's \u2014 that's helpful, thank you.",
+      "speaker_name": "Paula Schneider",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 379.8,
+      "endTime": 382.3,
+      "averageConfidence": 0.89,
+      "index": 27
+    },
+    {
+      "sentence": "And Paula, I want to reiterate \u2014 this situation is not okay, and I'm not treating it as business as usual. You'll have a written update from me in two hours with the fix timeline, the backfill status, and a summary of the incident for your records. Does that work?",
+      "speaker_name": "Priya Patel",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 382.8,
+      "endTime": 400.5,
+      "averageConfidence": 0.97,
+      "index": 28
+    },
+    {
+      "sentence": "Yeah, that works. I'll be watching for it. And Priya \u2014 I do appreciate you being upfront about it being on your end. I've dealt with vendors who will dance around that for a week, so.",
+      "speaker_name": "Paula Schneider",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 401.4,
+      "endTime": 414.0,
+      "averageConfidence": 0.92,
+      "index": 29
+    },
+    {
+      "sentence": "Of course. Transparency is the least we owe you right now. I'll get that email out and we'll talk again soon. Thanks for your time, Paula.",
+      "speaker_name": "Priya Patel",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 414.7,
+      "endTime": 423.6,
+      "averageConfidence": 0.92,
+      "index": 30
+    },
+    {
+      "sentence": "Thanks Priya. Talk soon.",
+      "speaker_name": "Paula Schneider",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 424.4,
+      "endTime": 425.9,
+      "averageConfidence": 0.95,
+      "index": 31
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "summary": "A critical outage call was convened to address a complete failure of the Detect event processing pipeline that began around 9:14 AM Pacific. The ingestion pipeline's single primary node hit a memory ceiling and crashed due to lack of redundancy, a known tech debt issue that had been flagged but not prioritized. The outage went unannounced on the status page for approximately 90 minutes, causing enterprise customers including Harmon Financial and TerraLogix to escalate, with some customers mistakenly fearing a security breach. The team aligned on immediate actions: a stopgap fix involving a secondary node and temporary load balancer, a public customer statement clarifying there was no breach, and a post-mortem timeline, while acknowledging that 30-40% of event data during the outage window may be unrecoverable.",
+  "actionItems": [
+    "Tom Bradley: Draft and publish a customer-facing statement within 15 minutes explicitly clarifying this is not a security breach and providing an honest update on the pipeline failure",
+    "Sofia Petrov: Complete the stopgap fix (secondary ingestion node and temporary load balancer) and document the full failure sequence timeline in Confluence",
+    "Ananya Sharma: Support Sofia on the technical fix and assist with the incident timeline documentation",
+    "Brian Cho: Manage customer communications and escalation triage, including addressing Harmon Financial and TerraLogix, and prepare messaging around partial event data loss"
+  ],
+  "topics": [
+    "outage",
+    "pipeline failure",
+    "customer escalation",
+    "incident response",
+    "data loss",
+    "technical debt"
+  ],
+  "overallSentiment": "negative",
+  "sentimentScore": 1.8,
+  "keyMoments": [
+    {
+      "time": 95,
+      "text": "Tom reveals the monitoring system failed to catch the outage promptly and the status page wasn't updated for 90 minutes after the initial failure",
+      "type": "technical_issue",
+      "speaker": "Tom Bradley"
+    },
+    {
+      "time": 230,
+      "text": "Sofia discloses the single-node ingestion architecture with no redundancy or circuit breaker as the root cause of the cascading failure",
+      "type": "technical_issue",
+      "speaker": "Sofia Petrov"
+    },
+    {
+      "time": 480,
+      "text": "Brian reports enterprise customers are threatening escalation and TerraLogix is asking whether the outage is a security breach",
+      "type": "churn_signal",
+      "speaker": "Brian Cho"
+    },
+    {
+      "time": 710,
+      "text": "Ananya reveals that 30-40% of event data during the outage window may be permanently unrecoverable, flagging a significant data loss concern for regulated-industry customers",
+      "type": "concern",
+      "speaker": "Ananya Sharma"
+    }
+  ],
+  "meetingId": "01KQ38C4101D6774F2F02331"
+}

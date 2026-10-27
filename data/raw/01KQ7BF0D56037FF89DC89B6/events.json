@@ -1,0 +1,38 @@
+[
+  {
+    "participantName": "Elena Vasquez",
+    "timestamp": 1773251113000,
+    "type": "Join",
+    "time": 13.0
+  },
+  {
+    "participantName": "David Kim",
+    "timestamp": 1773251155000,
+    "type": "Join",
+    "time": 55.0
+  },
+  {
+    "participantName": "Isaac Brennan",
+    "timestamp": 1773251158000,
+    "type": "Join",
+    "time": 58.0
+  },
+  {
+    "participantName": "Elena Vasquez",
+    "timestamp": 1773251690000,
+    "type": "Leave",
+    "time": 590.0
+  },
+  {
+    "participantName": "David Kim",
+    "timestamp": 1773251691000,
+    "type": "Leave",
+    "time": 591.0
+  },
+  {
+    "participantName": "Isaac Brennan",
+    "timestamp": 1773251670000,
+    "type": "Leave",
+    "time": 570.0
+  }
+]

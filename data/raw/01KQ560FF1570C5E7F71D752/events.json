@@ -1,0 +1,26 @@
+[
+  {
+    "participantName": "Vanessa Cruz",
+    "timestamp": 1776611728000,
+    "type": "Join",
+    "time": 28.0
+  },
+  {
+    "participantName": "Kevin O'Brien",
+    "timestamp": 1776611740000,
+    "type": "Join",
+    "time": 40.0
+  },
+  {
+    "participantName": "Kevin O'Brien",
+    "timestamp": 1776614426000,
+    "type": "Leave",
+    "time": 2726.0
+  },
+  {
+    "participantName": "Vanessa Cruz",
+    "timestamp": 1776614424000,
+    "type": "Leave",
+    "time": 2724.0
+  }
+]

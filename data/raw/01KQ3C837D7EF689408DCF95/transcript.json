@@ -1,0 +1,384 @@
+{
+  "data": [
+    {
+      "sentence": "Hi, this is Priya from Aegis Cloud Security support, I have Sarah on the line with me as well \u2014 she's one of our senior engineers on the Protect side. Am I speaking with Yuki?",
+      "speaker_name": "Priya Patel",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 6.5,
+      "endTime": 19.1,
+      "averageConfidence": 0.91,
+      "index": 0
+    },
+    {
+      "sentence": "Yeah, hi, Yuki Tanaka here, Security Lead at Pineridge. Thanks for getting back to me, I know I submitted the case like yesterday afternoon so I appreciate the quick turnaround.",
+      "speaker_name": "Yuki Tanaka",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 19.9,
+      "endTime": 30.5,
+      "averageConfidence": 0.9,
+      "index": 1
+    },
+    {
+      "sentence": "Of course, yeah. So we've pulled up Case 2638 \u2014 the CloudPrime S3 backup connector issue. Before Sarah digs in, do you want to just give us a quick rundown of what you're seeing on your end?",
+      "speaker_name": "Priya Patel",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 31.7,
+      "endTime": 44.5,
+      "averageConfidence": 0.95,
+      "index": 2
+    },
+    {
+      "sentence": "Sure, yeah. So basically, we set up the S3 connector in Aegis Protect about three weeks ago, it was working fine initially. But starting around, I want to say, last Thursday or Friday, we started seeing backup jobs failing partway through. They initiate, they run for a bit, and then just... stop. No completion, no error that makes a ton of sense.",
+      "speaker_name": "Yuki Tanaka",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 45.3,
+      "endTime": 67.0,
+      "averageConfidence": 0.9,
+      "index": 3
+    },
+    {
+      "sentence": "Okay, and when you say no error that makes sense \u2014 what is the error message actually showing? Like is it a timeout, a permissions thing, or something else?",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 68.0,
+      "endTime": 78.1,
+      "averageConfidence": 0.93,
+      "index": 4
+    },
+    {
+      "sentence": "It says \u2014 let me actually pull it up \u2014 it says, uh, 'connector write operation terminated, upstream response code 403.' But here's the thing, the IAM permissions haven't changed. Like, nothing on our CloudPrime side changed that week.",
+      "speaker_name": "Yuki Tanaka",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 78.6,
+      "endTime": 92.1,
+      "averageConfidence": 0.96,
+      "index": 5
+    },
+    {
+      "sentence": "Got it, a 403. Yeah that's a good starting point. Sarah, do you want to walk through what that typically maps to in the connector?",
+      "speaker_name": "Priya Patel",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 93.3,
+      "endTime": 101.9,
+      "averageConfidence": 0.9,
+      "index": 6
+    },
+    {
+      "sentence": "Yeah, so a 403 from the S3 connector can actually come from a few different places, it's not always what it looks like on the surface. The first thing I'd want to rule out is whether the IAM role that Aegis Protect is assuming has the right combination of permissions \u2014 specifically s3:PutObject, s3:GetBucketLocation, and then also the bucket policy itself. Sometimes people set up the IAM role correctly but the bucket policy has a deny statement that overrides it.",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 103.1,
+      "endTime": 131.0,
+      "averageConfidence": 0.9,
+      "index": 7
+    },
+    {
+      "sentence": "Okay, so the bucket policy can override the IAM role permissions \u2014 yeah, that's a good call, I can check that. We were pretty careful when we set this up but it's possible something got changed on the bucket side.",
+      "speaker_name": "Yuki Tanaka",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 131.6,
+      "endTime": 146.0,
+      "averageConfidence": 0.91,
+      "index": 8
+    },
+    {
+      "sentence": "Exactly, yeah. And the other thing \u2014 do you happen to know if the S3 bucket has any VPC endpoint policies or SCPs at the organization level? Like CloudPrime Service Control Policies? Those can also silently block writes even when IAM looks clean.",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 147.3,
+      "endTime": 162.7,
+      "averageConfidence": 0.89,
+      "index": 9
+    },
+    {
+      "sentence": "Hmm. SCPs... we do have some org-level policies but I'd have to check with our CloudPrime admin to see if anything changed there. We had a routine policy review around that time actually, now that I think about it.",
+      "speaker_name": "Yuki Tanaka",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 163.1,
+      "endTime": 177.2,
+      "averageConfidence": 0.88,
+      "index": 10
+    },
+    {
+      "sentence": "That's actually really useful context, yeah. That timing aligns with when you started seeing the failures, so it's worth checking whether any of those policy changes could have inadvertently restricted the role Aegis is using.",
+      "speaker_name": "Priya Patel",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 178.1,
+      "endTime": 190.7,
+      "averageConfidence": 0.96,
+      "index": 11
+    },
+    {
+      "sentence": "Yeah, I can loop in our CloudPrime admin after this call. Is there a specific role name or ARN I should reference? I want to make sure they're looking at the right thing.",
+      "speaker_name": "Yuki Tanaka",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 192.2,
+      "endTime": 203.7,
+      "averageConfidence": 0.96,
+      "index": 12
+    },
+    {
+      "sentence": "Yes, so in your Aegis Protect console, if you go to Integrations and then Connector Settings for the S3 connector, you'll see the IAM role ARN that Aegis is using listed under Authentication Details. That's the one your admin should be checking.",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 204.4,
+      "endTime": 219.5,
+      "averageConfidence": 0.9,
+      "index": 13
+    },
+    {
+      "sentence": "Okay, let me \u2014 hold on, I actually have the console open. Integrations... Connector Settings... yeah, okay I see it. The ARN is there, I can copy that out.",
+      "speaker_name": "Yuki Tanaka",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 220.5,
+      "endTime": 230.5,
+      "averageConfidence": 0.93,
+      "index": 14
+    },
+    {
+      "sentence": "Perfect. And while you're in there, can you also check what region the connector is configured to target? The reason I ask is \u2014 we've seen a specific edge case where if the bucket is in one region but the connector config still has the default us-east-1 endpoint, it can cause issues that surface as 403s rather than the more obvious region mismatch error.",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 231.7,
+      "endTime": 254.1,
+      "averageConfidence": 0.89,
+      "index": 15
+    },
+    {
+      "sentence": "Oh interesting. Uh, the bucket is in us-west-2. And the connector says... endpoint is set to s3.amazonaws.com, no region specified explicitly.",
+      "speaker_name": "Yuki Tanaka",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 255.3,
+      "endTime": 262.8,
+      "averageConfidence": 0.96,
+      "index": 16
+    },
+    {
+      "sentence": "Yeah, so that could actually be a contributing factor. The generic s3.amazonaws.com endpoint will route to us-east-1 by default, and depending on your bucket's config \u2014 especially if you have bucket policies that restrict access to specific regions or VPCs \u2014 that cross-region request can get blocked.",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 263.6,
+      "endTime": 279.8,
+      "averageConfidence": 0.96,
+      "index": 17
+    },
+    {
+      "sentence": "So I should change that endpoint to the region-specific one? Like s3.us-west-2.amazonaws.com?",
+      "speaker_name": "Yuki Tanaka",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 280.5,
+      "endTime": 285.0,
+      "averageConfidence": 0.89,
+      "index": 18
+    },
+    {
+      "sentence": "Exactly, yeah, that would be the recommended change. You'd want to update that in the connector settings and then re-test a backup job. It's a pretty quick change to make.",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 285.9,
+      "endTime": 296.5,
+      "averageConfidence": 0.88,
+      "index": 19
+    },
+    {
+      "sentence": "Okay, that makes sense. And should I do that before or after I check the SCP stuff with the CloudPrime admin? Like what order would you tackle these?",
+      "speaker_name": "Yuki Tanaka",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 297.2,
+      "endTime": 307.2,
+      "averageConfidence": 0.89,
+      "index": 20
+    },
+    {
+      "sentence": "I'd actually do the endpoint fix first since you can do that right now without needing anyone else, and then run a test job. If it still fails, then you have a cleaner picture to bring to your CloudPrime admin \u2014 you can rule out the endpoint issue and focus the conversation on the policy side.",
+      "speaker_name": "Priya Patel",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 308.0,
+      "endTime": 327.6,
+      "averageConfidence": 0.9,
+      "index": 21
+    },
+    {
+      "sentence": "That's a good approach, yeah. Okay, I'm going to make that endpoint change now actually, while we're on the call. Bear with me a second.",
+      "speaker_name": "Yuki Tanaka",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 328.9,
+      "endTime": 337.6,
+      "averageConfidence": 0.97,
+      "index": 22
+    },
+    {
+      "sentence": "Take your time.",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 338.2,
+      "endTime": 339.7,
+      "averageConfidence": 0.92,
+      "index": 23
+    },
+    {
+      "sentence": "Alright, updated. Saved. So I'll kick off a test backup \u2014 it's going to take a few minutes to run. I might not know the result before we hang up but at least I know what to look for.",
+      "speaker_name": "Yuki Tanaka",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 340.2,
+      "endTime": 353.9,
+      "averageConfidence": 0.91,
+      "index": 24
+    },
+    {
+      "sentence": "That's totally fine. We'll keep the case open and you can reply directly to the case email with the results. If it still 403s after the endpoint fix, Sarah can pull the connector logs from our side and do a deeper trace.",
+      "speaker_name": "Priya Patel",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 355.1,
+      "endTime": 369.8,
+      "averageConfidence": 0.93,
+      "index": 25
+    },
+    {
+      "sentence": "Yeah, and if you want to share the CloudTrail logs from your CloudPrime account for that time window, that would help a lot too \u2014 it'll show exactly what API call was being made and why it was denied.",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 370.6,
+      "endTime": 384.8,
+      "averageConfidence": 0.95,
+      "index": 26
+    },
+    {
+      "sentence": "Yep, I can pull CloudTrail logs. We have a 30-day retention window so that's no problem. I'll grab the logs from last Thursday through today and attach them to the case.",
+      "speaker_name": "Yuki Tanaka",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 385.9,
+      "endTime": 397.0,
+      "averageConfidence": 0.93,
+      "index": 27
+    },
+    {
+      "sentence": "Perfect, that would be really helpful. Okay, so to summarize where we are \u2014 you're testing the endpoint fix first, and then pending that result, you'll check with your CloudPrime admin about the SCP policy review and share CloudTrail logs with us. Does that all sound right?",
+      "speaker_name": "Priya Patel",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 398.3,
+      "endTime": 415.1,
+      "averageConfidence": 0.95,
+      "index": 28
+    },
+    {
+      "sentence": "Yeah, that's the plan. One other thing \u2014 is there any way to configure Aegis Protect to retry backup jobs automatically if they fail? Right now it seems like it just stops and I have to manually re-trigger it.",
+      "speaker_name": "Yuki Tanaka",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 415.7,
+      "endTime": 429.6,
+      "averageConfidence": 0.88,
+      "index": 29
+    },
+    {
+      "sentence": "Yes, there is actually. In the connector settings, under Advanced Options, there's a Retry Policy section \u2014 you can configure the number of retry attempts and the backoff interval. It's not enabled by default so it might just be turned off in your config.",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 430.5,
+      "endTime": 445.9,
+      "averageConfidence": 0.96,
+      "index": 30
+    },
+    {
+      "sentence": "Oh, I didn't even know that was there. I'll look for that when I'm in the settings. That'll help in the meantime even if the root cause isn't fully resolved yet.",
+      "speaker_name": "Yuki Tanaka",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 446.4,
+      "endTime": 457.4,
+      "averageConfidence": 0.91,
+      "index": 31
+    },
+    {
+      "sentence": "Yeah, definitely. It won't fix the underlying issue but it should reduce the manual overhead while we sort this out.",
+      "speaker_name": "Priya Patel",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 458.4,
+      "endTime": 465.5,
+      "averageConfidence": 0.96,
+      "index": 32
+    },
+    {
+      "sentence": "Alright, I think I have enough to work with. I appreciate you both jumping on this \u2014 Sarah, the region endpoint thing especially, I wouldn't have caught that on my own.",
+      "speaker_name": "Yuki Tanaka",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 466.1,
+      "endTime": 476.6,
+      "averageConfidence": 0.89,
+      "index": 33
+    },
+    {
+      "sentence": "Happy to help. It's one of those things that trips people up because the error message doesn't point directly at it. Hopefully that's the main culprit.",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 477.1,
+      "endTime": 486.0,
+      "averageConfidence": 0.96,
+      "index": 34
+    },
+    {
+      "sentence": "We'll keep an eye on the case and respond as soon as you send over the test results and the CloudTrail logs. Shouldn't be more than a business day turnaround from us.",
+      "speaker_name": "Priya Patel",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 486.6,
+      "endTime": 497.6,
+      "averageConfidence": 0.9,
+      "index": 35
+    },
+    {
+      "sentence": "Works for me. Thanks again, talk soon.",
+      "speaker_name": "Yuki Tanaka",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 498.8,
+      "endTime": 501.3,
+      "averageConfidence": 0.95,
+      "index": 36
+    },
+    {
+      "sentence": "Thanks Yuki, take care.",
+      "speaker_name": "Priya Patel",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 502.2,
+      "endTime": 503.7,
+      "averageConfidence": 0.91,
+      "index": 37
+    }
+  ]
+}

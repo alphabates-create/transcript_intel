@@ -1,0 +1,444 @@
+{
+  "data": [
+    {
+      "sentence": "Paula, hey, thanks for making time today. I know Thursdays are usually pretty packed for you.",
+      "speaker_name": "Daniel Okafor",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 6.5,
+      "endTime": 11.9,
+      "averageConfidence": 0.92,
+      "index": 0
+    },
+    {
+      "sentence": "Yeah, no, it's fine. We had a planning session move to next week so actually the morning opened up a bit. Good timing.",
+      "speaker_name": "Paula Schneider",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 12.8,
+      "endTime": 20.8,
+      "averageConfidence": 0.95,
+      "index": 1
+    },
+    {
+      "sentence": "Perfect. Well I appreciate it. So the agenda I had in mind \u2014 I wanted to walk through where we are on the Identity roadmap, get your input on some of the features we're scoping, and then just make sure we're aligned on what Ridgeline actually needs over the next couple of quarters. Does that work?",
+      "speaker_name": "Daniel Okafor",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 21.4,
+      "endTime": 40.8,
+      "averageConfidence": 0.91,
+      "index": 2
+    },
+    {
+      "sentence": "Yeah that works. I've got a few things on my end I wanted to raise too, so we can weave those in.",
+      "speaker_name": "Paula Schneider",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 41.7,
+      "endTime": 49.4,
+      "averageConfidence": 0.96,
+      "index": 3
+    },
+    {
+      "sentence": "Absolutely, let's do it. So, starting with Aegis Identity \u2014 you've been on the platform, I think it's been about eight months now since you fully deployed the IAM module. How's day-to-day been with it?",
+      "speaker_name": "Daniel Okafor",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 50.4,
+      "endTime": 62.4,
+      "averageConfidence": 0.95,
+      "index": 4
+    },
+    {
+      "sentence": "It's been okay. I mean, the core IAM stuff works fine, provisioning and deprovisioning is faster than what we had before. MFA rollout went smoother than expected honestly, given that we're dealing with, you know, warehouse floor workers who aren't exactly used to that kind of workflow.",
+      "speaker_name": "Paula Schneider",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 63.6,
+      "endTime": 79.8,
+      "averageConfidence": 0.94,
+      "index": 5
+    },
+    {
+      "sentence": "Yeah that's actually a use case we hear a lot from manufacturing customers specifically. The non-desk worker angle is tricky.",
+      "speaker_name": "Daniel Okafor",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 81.2,
+      "endTime": 88.1,
+      "averageConfidence": 0.94,
+      "index": 6
+    },
+    {
+      "sentence": "Right, and we made it work, but it required some customization on our end. Which brings me to one of the things I wanted to flag \u2014 we need better support for shared workstation scenarios. So like, on the floor we have terminals that multiple workers log into across shifts, and right now the session management is kind of clunky. There's no clean handoff.",
+      "speaker_name": "Paula Schneider",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 88.9,
+      "endTime": 111.5,
+      "averageConfidence": 0.94,
+      "index": 7
+    },
+    {
+      "sentence": "Okay, yeah. Can you describe what clunky looks like? Is it a timeout issue, is it a re-auth issue, or...?",
+      "speaker_name": "Daniel Okafor",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 112.9,
+      "endTime": 120.0,
+      "averageConfidence": 0.92,
+      "index": 8
+    },
+    {
+      "sentence": "It's kind of both. So the session timeout is set globally right now, and we can't scope it by device group or location. So a desk employee in corporate gets the same timeout window as a warehouse terminal, which doesn't make sense. And then when worker A logs out and worker B logs in, sometimes the previous session data is still cached and that creates... it creates issues. We've had a couple of incidents where someone had residual access they shouldn't have had.",
+      "speaker_name": "Paula Schneider",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 120.6,
+      "endTime": 149.4,
+      "averageConfidence": 0.96,
+      "index": 9
+    },
+    {
+      "sentence": "Got it. So you're really asking for two things \u2014 granular session timeout policies by device or group, and then cleaner session termination on the shared workstation side.",
+      "speaker_name": "Daniel Okafor",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 150.8,
+      "endTime": 161.1,
+      "averageConfidence": 0.96,
+      "index": 10
+    },
+    {
+      "sentence": "Exactly. And I've submitted a support ticket on this, I think it was back in January, but I haven't seen any movement. I don't know if it got escalated or just, uh, sat somewhere.",
+      "speaker_name": "Paula Schneider",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 161.7,
+      "endTime": 173.9,
+      "averageConfidence": 0.96,
+      "index": 11
+    },
+    {
+      "sentence": "I'll track that down after this call. I want to make sure it's actually in the right queue. And I'll be honest with you, the session policy granularity piece \u2014 that is something our product team has been scoping. It's not in the current release but it's been flagged as a near-term priority. I can't give you a hard date yet but it's actively being looked at.",
+      "speaker_name": "Daniel Okafor",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 174.6,
+      "endTime": 197.9,
+      "averageConfidence": 0.91,
+      "index": 12
+    },
+    {
+      "sentence": "Okay. I mean, near-term is a bit vague but I understand you probably can't commit to a date. Is there any way to get visibility into where it sits on the roadmap? Even just a rough quarter?",
+      "speaker_name": "Paula Schneider",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 198.7,
+      "endTime": 212.0,
+      "averageConfidence": 0.95,
+      "index": 13
+    },
+    {
+      "sentence": "I can set up a call with our product manager for Identity, his name is Marcus. He can give you a more specific picture. I'd rather him speak to it directly than me guess and then you hold me to the wrong timeline.",
+      "speaker_name": "Daniel Okafor",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 213.1,
+      "endTime": 228.0,
+      "averageConfidence": 0.95,
+      "index": 14
+    },
+    {
+      "sentence": "Yeah, that would be useful. I'd rather get it from the source anyway.",
+      "speaker_name": "Paula Schneider",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 228.4,
+      "endTime": 233.1,
+      "averageConfidence": 0.96,
+      "index": 15
+    },
+    {
+      "sentence": "Good, I'll set that up. Okay, the other thing I wanted to cover \u2014 on the SSO side. You're using our SSO integration with, I think it's primarily your ERP and your warehouse management system. Are there other apps you're looking to bring in?",
+      "speaker_name": "Daniel Okafor",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 234.2,
+      "endTime": 249.6,
+      "averageConfidence": 0.96,
+      "index": 16
+    },
+    {
+      "sentence": "Yeah, we're evaluating a new fleet management platform right now. It's called Translog, I don't know if you've heard of it. And the question is whether Aegis Identity can support the SSO integration natively or if we'd have to go custom.",
+      "speaker_name": "Paula Schneider",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 250.4,
+      "endTime": 264.6,
+      "averageConfidence": 0.9,
+      "index": 17
+    },
+    {
+      "sentence": "Translog \u2014 I'm not immediately familiar with that one. Do you know if they support SAML 2.0 or OIDC?",
+      "speaker_name": "Daniel Okafor",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 265.0,
+      "endTime": 271.4,
+      "averageConfidence": 0.95,
+      "index": 18
+    },
+    {
+      "sentence": "I believe they support SAML. I'd have to double-check with their team. We're still mid-evaluation so nothing's been decided but I want to make sure we're not creating an integration problem for ourselves down the road.",
+      "speaker_name": "Paula Schneider",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 272.3,
+      "endTime": 285.0,
+      "averageConfidence": 0.94,
+      "index": 19
+    },
+    {
+      "sentence": "That's the right time to ask the question, honestly. If they're SAML 2.0 compatible, we should be able to handle it natively. I can have our integration team do a quick compatibility check once you have the vendor's technical docs. Just send those over to me.",
+      "speaker_name": "Daniel Okafor",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 285.7,
+      "endTime": 302.1,
+      "averageConfidence": 0.9,
+      "index": 20
+    },
+    {
+      "sentence": "Okay, I can do that once we get further along. Probably another few weeks before we have the full technical spec from them.",
+      "speaker_name": "Paula Schneider",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 303.2,
+      "endTime": 311.3,
+      "averageConfidence": 0.88,
+      "index": 21
+    },
+    {
+      "sentence": "Perfect, no rush. Just keep me looped in.",
+      "speaker_name": "Daniel Okafor",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 312.3,
+      "endTime": 315.0,
+      "averageConfidence": 0.93,
+      "index": 22
+    },
+    {
+      "sentence": "Will do. The other thing \u2014 and this is maybe more of a, uh, feature request in the traditional sense \u2014 we need more flexibility around MFA policy exceptions. Right now it's pretty binary, either MFA is required or it's not. But we have certain service accounts and automated processes where MFA enforcement breaks the workflow, and managing those exceptions is a pain.",
+      "speaker_name": "Paula Schneider",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 315.7,
+      "endTime": 337.5,
+      "averageConfidence": 0.94,
+      "index": 23
+    },
+    {
+      "sentence": "So you're looking for like a conditional exclusion model? Where you can carve out specific account types or identity classes without just turning MFA off globally?",
+      "speaker_name": "Daniel Okafor",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 338.1,
+      "endTime": 347.5,
+      "averageConfidence": 0.89,
+      "index": 24
+    },
+    {
+      "sentence": "Yes. And with some kind of audit trail so I can demonstrate to our auditors that those exclusions are intentional and documented. Not just, you know, someone flipped a switch.",
+      "speaker_name": "Paula Schneider",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 348.6,
+      "endTime": 359.3,
+      "averageConfidence": 0.96,
+      "index": 25
+    },
+    {
+      "sentence": "That's actually a really good point and I think that ties into what we're building for the compliance side too. Um, have you looked at Aegis Comply at all? I know you're primarily on Identity and Protect right now.",
+      "speaker_name": "Daniel Okafor",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 360.1,
+      "endTime": 373.8,
+      "averageConfidence": 0.89,
+      "index": 26
+    },
+    {
+      "sentence": "We've seen the overview but we haven't done anything with it. We handle compliance reporting separately through a third-party tool right now.",
+      "speaker_name": "Paula Schneider",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 375.1,
+      "endTime": 382.7,
+      "averageConfidence": 0.91,
+      "index": 27
+    },
+    {
+      "sentence": "Noted. I'll just say we have some things coming on that front that might be relevant to you, but that's probably a separate conversation. I don't want to sidetrack from Identity today.",
+      "speaker_name": "Daniel Okafor",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 383.7,
+      "endTime": 394.8,
+      "averageConfidence": 0.91,
+      "index": 28
+    },
+    {
+      "sentence": "Sure, we can table that. Okay so back to the MFA exceptions \u2014 is that something that's on the roadmap or is this new information for you?",
+      "speaker_name": "Paula Schneider",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 395.2,
+      "endTime": 404.7,
+      "averageConfidence": 0.96,
+      "index": 29
+    },
+    {
+      "sentence": "Honestly it's something I've heard from a few customers but I want to make sure it's formally captured from Ridgeline specifically. The more customers who articulate the same need, the stronger the case for prioritization. So I'll make sure this is logged as a feature request with your name on it.",
+      "speaker_name": "Daniel Okafor",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 405.4,
+      "endTime": 423.4,
+      "averageConfidence": 0.88,
+      "index": 30
+    },
+    {
+      "sentence": "Yeah, please do. I mean, it's not a blocker right now but it's adding operational overhead and that compounds over time.",
+      "speaker_name": "Paula Schneider",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 423.7,
+      "endTime": 431.2,
+      "averageConfidence": 0.9,
+      "index": 31
+    },
+    {
+      "sentence": "Understood. I want to make sure our product team understands the operational impact, not just the technical ask. So I'll frame it that way when I log it.",
+      "speaker_name": "Daniel Okafor",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 432.3,
+      "endTime": 441.8,
+      "averageConfidence": 0.9,
+      "index": 32
+    },
+    {
+      "sentence": "Good. I think that covers the main things I had. Is there anything on your side \u2014 you mentioned you had things to cover from the roadmap perspective?",
+      "speaker_name": "Paula Schneider",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 442.7,
+      "endTime": 452.9,
+      "averageConfidence": 0.94,
+      "index": 33
+    },
+    {
+      "sentence": "Yeah, a couple of things. One is around role-based access control enhancements \u2014 we're planning to ship more granular RBAC controls in the next release, and I wanted to flag that because I think it touches on some of what you've described. Especially around those shared workstation scenarios, being able to scope roles more tightly at the device level.",
+      "speaker_name": "Daniel Okafor",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 453.2,
+      "endTime": 474.1,
+      "averageConfidence": 0.97,
+      "index": 34
+    },
+    {
+      "sentence": "Okay, that's good to know. Is there documentation on that I can review?",
+      "speaker_name": "Paula Schneider",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 474.6,
+      "endTime": 478.9,
+      "averageConfidence": 0.88,
+      "index": 35
+    },
+    {
+      "sentence": "Not public yet but I can share a preview doc under NDA. I'll send it over after the call.",
+      "speaker_name": "Daniel Okafor",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 479.9,
+      "endTime": 486.7,
+      "averageConfidence": 0.96,
+      "index": 36
+    },
+    {
+      "sentence": "That works. We already have an NDA in place so no issue there.",
+      "speaker_name": "Paula Schneider",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 487.9,
+      "endTime": 492.8,
+      "averageConfidence": 0.9,
+      "index": 37
+    },
+    {
+      "sentence": "Great. And then the other thing I just wanted to touch on quickly \u2014 your renewal is coming up in, I think, Q3. I just want to make sure we're not getting to that conversation cold. If there are things we should be addressing between now and then, I'd rather know early.",
+      "speaker_name": "Daniel Okafor",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 493.7,
+      "endTime": 511.8,
+      "averageConfidence": 0.95,
+      "index": 38
+    },
+    {
+      "sentence": "Honestly the things I've raised today are the main things. If those are moving in the right direction, I don't anticipate any issues at renewal. But I'll say \u2014 the shared workstation thing is probably the most pressing for us operationally. If that's still unresolved by summer, it's going to be a talking point.",
+      "speaker_name": "Paula Schneider",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 513.2,
+      "endTime": 532.0,
+      "averageConfidence": 0.91,
+      "index": 39
+    },
+    {
+      "sentence": "I hear you. I'll make sure that one has the right visibility internally. Okay \u2014 so to recap next steps: I'll track down that support ticket from January, I'll set up the call with Marcus on the product side, I'll log the MFA exception request formally, and I'll send over the RBAC preview doc. Does that cover it?",
+      "speaker_name": "Daniel Okafor",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 533.2,
+      "endTime": 553.6,
+      "averageConfidence": 0.9,
+      "index": 40
+    },
+    {
+      "sentence": "Yeah, that covers it. And I'll send you the Translog technical specs once we have them.",
+      "speaker_name": "Paula Schneider",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 554.1,
+      "endTime": 560.1,
+      "averageConfidence": 0.9,
+      "index": 41
+    },
+    {
+      "sentence": "Perfect. Thanks Paula, this was really useful. I'll get those follow-ups out to you by end of week.",
+      "speaker_name": "Daniel Okafor",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 561.3,
+      "endTime": 567.4,
+      "averageConfidence": 0.88,
+      "index": 42
+    },
+    {
+      "sentence": "Sounds good. Talk soon.",
+      "speaker_name": "Paula Schneider",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 568.7,
+      "endTime": 570.5,
+      "averageConfidence": 0.92,
+      "index": 43
+    }
+  ]
+}

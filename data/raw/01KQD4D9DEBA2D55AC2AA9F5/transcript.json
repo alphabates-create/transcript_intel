@@ -1,0 +1,434 @@
+{
+  "data": [
+    {
+      "sentence": "Hi Philip, can you hear us okay?",
+      "speaker_name": "Lisa Park",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 6.2,
+      "endTime": 8.5,
+      "averageConfidence": 0.96,
+      "index": 0
+    },
+    {
+      "sentence": "Yeah, loud and clear \u2014 hey Lisa, hey Rachel, good to talk to you both.",
+      "speaker_name": "Philip Lau",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 9.3,
+      "endTime": 15.0,
+      "averageConfidence": 0.9,
+      "index": 1
+    },
+    {
+      "sentence": "Great to hear your voice, Philip, it's been a couple months since we've had a proper sit-down, so we're really glad to get this on the calendar.",
+      "speaker_name": "Rachel Torres",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 15.8,
+      "endTime": 25.3,
+      "averageConfidence": 0.93,
+      "index": 2
+    },
+    {
+      "sentence": "Yeah, I know, Q1 has been \u2014 uh, let's just say it's been a lot, you know how it is in healthcare compliance right now.",
+      "speaker_name": "Philip Lau",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 26.1,
+      "endTime": 34.6,
+      "averageConfidence": 0.88,
+      "index": 3
+    },
+    {
+      "sentence": "Oh absolutely, we hear that from a lot of our healthcare customers, the regulatory environment has just been relentless lately.",
+      "speaker_name": "Lisa Park",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 35.6,
+      "endTime": 43.0,
+      "averageConfidence": 0.91,
+      "index": 4
+    },
+    {
+      "sentence": "Exactly, exactly \u2014 but honestly, that's kind of a good segue into why I'm actually pretty optimistic going into this renewal conversation, so.",
+      "speaker_name": "Philip Lau",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 43.9,
+      "endTime": 52.1,
+      "averageConfidence": 0.95,
+      "index": 5
+    },
+    {
+      "sentence": "Oh, we love to hear that \u2014 why don't you tell us a little more about what's been going well from your end, Philip, and then we can walk through what we've been thinking on our side.",
+      "speaker_name": "Rachel Torres",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 53.2,
+      "endTime": 66.4,
+      "averageConfidence": 0.88,
+      "index": 6
+    },
+    {
+      "sentence": "Sure, yeah, so \u2014 look, when we first signed on with Aegis, um, the big sell for us was really Comply and Protect together, right, because HIPAA audit prep was eating my team alive and the backup situation was kind of a mess before.",
+      "speaker_name": "Philip Lau",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 67.7,
+      "endTime": 83.2,
+      "averageConfidence": 0.97,
+      "index": 7
+    },
+    {
+      "sentence": "Right, I remember those early conversations, you were running like three different point solutions and nothing was talking to each other.",
+      "speaker_name": "Lisa Park",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 84.0,
+      "endTime": 91.6,
+      "averageConfidence": 0.96,
+      "index": 8
+    },
+    {
+      "sentence": "Exactly, it was a nightmare honestly, and \u2014 so yeah, the consolidation piece has been huge for us, but what's really stood out has been Aegis Comply, I mean the reporting capabilities have genuinely saved my team probably \u2014 I don't know \u2014 forty, fifty hours a quarter just on audit prep alone.",
+      "speaker_name": "Philip Lau",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 92.0,
+      "endTime": 110.3,
+      "averageConfidence": 0.9,
+      "index": 9
+    },
+    {
+      "sentence": "That's \u2014 that's a significant number, Philip, I'm really glad to hear that's translating into real time savings for your team.",
+      "speaker_name": "Rachel Torres",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 110.8,
+      "endTime": 118.3,
+      "averageConfidence": 0.92,
+      "index": 10
+    },
+    {
+      "sentence": "Yeah and frankly my director of IT keeps asking me to put together a case study because she thinks it's almost too good to be true, so \u2014 I might be calling you on that at some point.",
+      "speaker_name": "Philip Lau",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 119.0,
+      "endTime": 132.0,
+      "averageConfidence": 0.92,
+      "index": 11
+    },
+    {
+      "sentence": "We would absolutely love that, please do, we will make that as easy as possible for you.",
+      "speaker_name": "Lisa Park",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 133.2,
+      "endTime": 139.0,
+      "averageConfidence": 0.97,
+      "index": 12
+    },
+    {
+      "sentence": "Ha, okay, I'm holding you to it \u2014 but yeah so on the compliance side, really happy, and Protect has been solid too, we've run a couple of restore tests and the recovery times have been really strong.",
+      "speaker_name": "Philip Lau",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 139.7,
+      "endTime": 153.1,
+      "averageConfidence": 0.91,
+      "index": 13
+    },
+    {
+      "sentence": "That's great to hear, and speaking of Comply \u2014 I actually want to mention something that's coming up pretty soon that I think is going to be a big deal for your team specifically.",
+      "speaker_name": "Rachel Torres",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 154.6,
+      "endTime": 166.5,
+      "averageConfidence": 0.96,
+      "index": 14
+    },
+    {
+      "sentence": "Oh yeah?",
+      "speaker_name": "Philip Lau",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 167.3,
+      "endTime": 168.8,
+      "averageConfidence": 0.96,
+      "index": 15
+    },
+    {
+      "sentence": "Yeah so we're doing a major launch of Aegis Comply version two next month \u2014 we're looking at early April \u2014 and the headline feature is on-demand compliance reporting across multiple frameworks simultaneously, so HIPAA obviously but also SOC 2, PCI DSS, ISO 27001, all in one place, no more running separate report cycles.",
+      "speaker_name": "Rachel Torres",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 170.1,
+      "endTime": 189.1,
+      "averageConfidence": 0.89,
+      "index": 16
+    },
+    {
+      "sentence": "Wait \u2014 on-demand? Like I can just pull a report whenever I need it, not wait for a scheduled run?",
+      "speaker_name": "Philip Lau",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 189.9,
+      "endTime": 197.2,
+      "averageConfidence": 0.97,
+      "index": 17
+    },
+    {
+      "sentence": "Exactly, on-demand, any time, and the multi-framework piece means if you're doing a SOC 2 audit and your auditors are also asking about HIPAA controls, you can surface both in one view rather than \u2014 you know \u2014 cobbling things together.",
+      "speaker_name": "Lisa Park",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 198.1,
+      "endTime": 212.6,
+      "averageConfidence": 0.94,
+      "index": 18
+    },
+    {
+      "sentence": "Okay that \u2014 that is actually genuinely exciting because we have been going through a SOC 2 Type II process alongside our HIPAA obligations and the overlap between those two audit processes has been \u2014 ugh \u2014 it's been a lot of duplicated effort.",
+      "speaker_name": "Philip Lau",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 214.0,
+      "endTime": 229.5,
+      "averageConfidence": 0.88,
+      "index": 19
+    },
+    {
+      "sentence": "That's exactly the pain point it's designed to solve, so I think you're going to find that really valuable, and as an existing customer you'll be automatically on v2 as part of your current plan.",
+      "speaker_name": "Rachel Torres",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 230.0,
+      "endTime": 242.1,
+      "averageConfidence": 0.89,
+      "index": 20
+    },
+    {
+      "sentence": "Oh great, okay, that's \u2014 that's a nice surprise, I was wondering if that was going to be an upsell conversation.",
+      "speaker_name": "Philip Lau",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 242.9,
+      "endTime": 250.4,
+      "averageConfidence": 0.96,
+      "index": 21
+    },
+    {
+      "sentence": "Ha \u2014 well, we do want to talk about some additional things today but no, Comply v2 is included, that's just an upgrade for existing customers.",
+      "speaker_name": "Lisa Park",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 250.8,
+      "endTime": 260.0,
+      "averageConfidence": 0.97,
+      "index": 22
+    },
+    {
+      "sentence": "Good, good \u2014 okay, so what else did you want to cover, I know you mentioned some add-ons or expansion options when we set this meeting up.",
+      "speaker_name": "Philip Lau",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 260.8,
+      "endTime": 270.4,
+      "averageConfidence": 0.89,
+      "index": 23
+    },
+    {
+      "sentence": "Right, so \u2014 and we don't want to pressure you on any of this, just want to make sure you're aware of what's available \u2014 but we did want to bring up Aegis Detect, because you're not currently on that module and given the threat landscape in healthcare right now, um, it's something a lot of our health system customers have been adding.",
+      "speaker_name": "Rachel Torres",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 271.3,
+      "endTime": 293.6,
+      "averageConfidence": 0.91,
+      "index": 24
+    },
+    {
+      "sentence": "Yeah, I've been curious about Detect actually, our CISO has been asking more questions about threat monitoring capabilities, so \u2014 tell me more.",
+      "speaker_name": "Philip Lau",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 294.1,
+      "endTime": 302.0,
+      "averageConfidence": 0.96,
+      "index": 25
+    },
+    {
+      "sentence": "So Detect is our continuous threat monitoring and detection layer, it integrates directly with your existing Protect and Comply setup, so you're getting a unified view of your security posture \u2014 backup health, compliance status, and active threat signals all in one dashboard.",
+      "speaker_name": "Lisa Park",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 302.6,
+      "endTime": 318.0,
+      "averageConfidence": 0.93,
+      "index": 26
+    },
+    {
+      "sentence": "That unified dashboard piece is something my CISO specifically keeps bringing up, she's tired of logging into four different things to get a complete picture.",
+      "speaker_name": "Philip Lau",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 319.3,
+      "endTime": 328.3,
+      "averageConfidence": 0.97,
+      "index": 27
+    },
+    {
+      "sentence": "Yeah that's \u2014 that's a really common frustration and honestly one of the core value props of the full Aegis platform, everything talking to each other.",
+      "speaker_name": "Rachel Torres",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 328.8,
+      "endTime": 337.6,
+      "averageConfidence": 0.9,
+      "index": 28
+    },
+    {
+      "sentence": "Okay so \u2014 and I ask this with genuine curiosity not skepticism \u2014 how has Detect been performing for your other customers, any issues or hiccups we should know about?",
+      "speaker_name": "Philip Lau",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 338.8,
+      "endTime": 349.8,
+      "averageConfidence": 0.92,
+      "index": 29
+    },
+    {
+      "sentence": "That's \u2014 yeah, that's a totally fair question and I want to be transparent with you, Philip, we actually did experience an incident with the Detect event processing pipeline recently, um, and we're working through some improvements to the architecture to make sure that doesn't happen again.",
+      "speaker_name": "Lisa Park",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 350.4,
+      "endTime": 366.6,
+      "averageConfidence": 0.91,
+      "index": 30
+    },
+    {
+      "sentence": "Okay, can you tell me a little more about that, what kind of incident?",
+      "speaker_name": "Philip Lau",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 367.3,
+      "endTime": 372.7,
+      "averageConfidence": 0.91,
+      "index": 31
+    },
+    {
+      "sentence": "So there was a period where the event ingestion pipeline had a failure that affected monitoring visibility for some customers \u2014 it's been addressed and we've put redundancy measures in place, but I want to be upfront that it happened rather than have you hear about it another way.",
+      "speaker_name": "Rachel Torres",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 373.1,
+      "endTime": 390.7,
+      "averageConfidence": 0.91,
+      "index": 32
+    },
+    {
+      "sentence": "I appreciate that, honestly \u2014 the transparency means a lot, and it sounds like you've got fixes in flight, so \u2014 I'm not going to write off Detect based on one incident, I think we should get a proper demo set up with our CISO in the room.",
+      "speaker_name": "Philip Lau",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 391.1,
+      "endTime": 407.7,
+      "averageConfidence": 0.94,
+      "index": 33
+    },
+    {
+      "sentence": "That would be perfect, we can do a full technical walkthrough and our solutions engineering team can speak directly to the architectural improvements, I think that's the right conversation to have.",
+      "speaker_name": "Lisa Park",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 408.5,
+      "endTime": 419.4,
+      "averageConfidence": 0.9,
+      "index": 34
+    },
+    {
+      "sentence": "Yeah let's do that \u2014 okay so big picture, I'm feeling good about the renewal, I think the value has been clear and the Comply v2 news is genuinely exciting, what does the commercial side look like?",
+      "speaker_name": "Philip Lau",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 420.5,
+      "endTime": 433.7,
+      "averageConfidence": 0.88,
+      "index": 35
+    },
+    {
+      "sentence": "So we want to make this as smooth as possible for you \u2014 your current contract is up at the end of April, and we've put together a renewal proposal that keeps your Protect and Comply licensing at the same rate with a three-year lock, and then we've got a bundle option that folds in Detect at a meaningful discount if you want to explore that after the demo.",
+      "speaker_name": "Rachel Torres",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 434.4,
+      "endTime": 458.7,
+      "averageConfidence": 0.97,
+      "index": 36
+    },
+    {
+      "sentence": "Okay, that's \u2014 that structure makes sense, I like that you're not forcing me to decide on Detect before I've even seen the full pitch, so yeah, let's lock in the core renewal and then do the Detect conversation separately.",
+      "speaker_name": "Philip Lau",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 459.6,
+      "endTime": 474.1,
+      "averageConfidence": 0.95,
+      "index": 37
+    },
+    {
+      "sentence": "Perfect, I'll get the renewal paperwork over to you by end of week and I'll coordinate with our SE team to get that Detect demo scheduled for sometime in the next two or three weeks.",
+      "speaker_name": "Lisa Park",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 475.5,
+      "endTime": 487.5,
+      "averageConfidence": 0.95,
+      "index": 38
+    },
+    {
+      "sentence": "Sounds like a plan \u2014 and genuinely, thanks for being a good partner on this, it makes a difference when the vendor relationship feels collaborative rather than just transactional.",
+      "speaker_name": "Philip Lau",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 488.8,
+      "endTime": 498.9,
+      "averageConfidence": 0.95,
+      "index": 39
+    },
+    {
+      "sentence": "That means a lot to hear, Philip, we really do care about how things are going at Keystone and we want to grow with you as your needs evolve \u2014 alright, let's get those next steps moving and we'll be in touch very soon.",
+      "speaker_name": "Rachel Torres",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 500.2,
+      "endTime": 515.7,
+      "averageConfidence": 0.89,
+      "index": 40
+    },
+    {
+      "sentence": "Perfect, talk soon everyone, have a good rest of your week.",
+      "speaker_name": "Philip Lau",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 516.7,
+      "endTime": 520.5,
+      "averageConfidence": 0.95,
+      "index": 41
+    },
+    {
+      "sentence": "You too, Philip, take care.",
+      "speaker_name": "Lisa Park",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 521.1,
+      "endTime": 522.8,
+      "averageConfidence": 0.9,
+      "index": 42
+    }
+  ]
+}

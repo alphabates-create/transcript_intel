@@ -1,0 +1,414 @@
+{
+  "data": [
+    {
+      "sentence": "Alright, I think we're all here \u2014 let me just pull up my notes real quick.",
+      "speaker_name": "Tom Bradley",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 5.4,
+      "endTime": 11.2,
+      "averageConfidence": 0.93,
+      "index": 0
+    },
+    {
+      "sentence": "Yeah I'm here, go ahead.",
+      "speaker_name": "Diana Reeves",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 12.2,
+      "endTime": 14.3,
+      "averageConfidence": 0.88,
+      "index": 1
+    },
+    {
+      "sentence": "Same, I've got about twenty minutes before my next thing so let's try to be efficient.",
+      "speaker_name": "Megan Lawson",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 15.5,
+      "endTime": 20.8,
+      "averageConfidence": 0.94,
+      "index": 2
+    },
+    {
+      "sentence": "Okay so \u2014 this is the post-incident review for the Detect outage, March 10th through the 18th, well, the outage itself was March 10th, we're just closing it out today.",
+      "speaker_name": "Tom Bradley",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 22.1,
+      "endTime": 32.4,
+      "averageConfidence": 0.97,
+      "index": 3
+    },
+    {
+      "sentence": "Right, and just to frame this \u2014 I had a lot of customer conversations this week, so I want to make sure we're aligned on what we're telling them going forward.",
+      "speaker_name": "Diana Reeves",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 32.8,
+      "endTime": 43.6,
+      "averageConfidence": 0.94,
+      "index": 4
+    },
+    {
+      "sentence": "Totally fair, we'll get there. So let me just walk through the timeline and root cause first, and then we can talk about the fix and the comms piece.",
+      "speaker_name": "Tom Bradley",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 44.6,
+      "endTime": 54.9,
+      "averageConfidence": 0.94,
+      "index": 5
+    },
+    {
+      "sentence": "Sounds good.",
+      "speaker_name": "Megan Lawson",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 56.2,
+      "endTime": 57.7,
+      "averageConfidence": 0.92,
+      "index": 6
+    },
+    {
+      "sentence": "So the incident started around 2:14 AM Pacific on March 10th. The event ingestion pipeline \u2014 this is the core processing layer that pulls in telemetry from customer environments \u2014 it had a cascading failure. Basically one node went down, and because we had a single point of failure in that ingestion layer, the whole pipeline backed up and eventually stopped processing.",
+      "speaker_name": "Tom Bradley",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 58.8,
+      "endTime": 80.5,
+      "averageConfidence": 0.88,
+      "index": 7
+    },
+    {
+      "sentence": "And that's what caused the six-hour window with no visibility?",
+      "speaker_name": "Megan Lawson",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 81.9,
+      "endTime": 85.4,
+      "averageConfidence": 0.95,
+      "index": 8
+    },
+    {
+      "sentence": "Correct. For approximately six hours, customers were not getting threat monitoring alerts. Events were being generated on their end, but we weren't processing them, so nothing was surfacing in the Detect dashboard.",
+      "speaker_name": "Tom Bradley",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 86.7,
+      "endTime": 97.9,
+      "averageConfidence": 0.9,
+      "index": 9
+    },
+    {
+      "sentence": "Six hours is \u2014 I mean, that's a long time for a security product. Some of my customers were pretty upset, understandably.",
+      "speaker_name": "Diana Reeves",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 99.3,
+      "endTime": 106.8,
+      "averageConfidence": 0.91,
+      "index": 10
+    },
+    {
+      "sentence": "I know, and I'm not going to sugarcoat it \u2014 this was a significant failure. The good news is we've done a full root cause analysis and the fix is already deployed.",
+      "speaker_name": "Tom Bradley",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 107.9,
+      "endTime": 119.0,
+      "averageConfidence": 0.88,
+      "index": 11
+    },
+    {
+      "sentence": "Can you explain the fix at a level I can actually relay to customers? Like, not super deep in the weeds but enough that it's credible.",
+      "speaker_name": "Diana Reeves",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 119.8,
+      "endTime": 129.0,
+      "averageConfidence": 0.91,
+      "index": 12
+    },
+    {
+      "sentence": "Yeah, so there are two main things. First, we've added redundant processing nodes to the event ingestion layer. So if one node fails, traffic automatically routes to backup nodes \u2014 no more single point of failure. Second, we've implemented what's called a circuit breaker pattern, which basically means if one part of the pipeline starts to degrade, it isolates that failure instead of letting it cascade through the whole system.",
+      "speaker_name": "Tom Bradley",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 130.3,
+      "endTime": 155.1,
+      "averageConfidence": 0.97,
+      "index": 13
+    },
+    {
+      "sentence": "Okay, that's actually pretty explainable. Redundancy and failure isolation \u2014 I can work with that.",
+      "speaker_name": "Diana Reeves",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 155.8,
+      "endTime": 161.0,
+      "averageConfidence": 0.91,
+      "index": 14
+    },
+    {
+      "sentence": "And just to add to that \u2014 from a product standpoint, we're also looking at adding a visible status indicator in the Detect UI so customers can see in real-time whether the pipeline is healthy. That's not shipped yet but it's on the near-term roadmap.",
+      "speaker_name": "Megan Lawson",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 162.2,
+      "endTime": 178.2,
+      "averageConfidence": 0.95,
+      "index": 15
+    },
+    {
+      "sentence": "When's that realistically landing?",
+      "speaker_name": "Diana Reeves",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 179.3,
+      "endTime": 180.8,
+      "averageConfidence": 0.96,
+      "index": 16
+    },
+    {
+      "sentence": "Uh, we're targeting end of April, but I don't want to over-promise. It depends on a few other things in the queue.",
+      "speaker_name": "Megan Lawson",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 181.8,
+      "endTime": 189.7,
+      "averageConfidence": 0.95,
+      "index": 17
+    },
+    {
+      "sentence": "Can we at least tell customers it's in progress? Because right now they're asking 'how do I even know if Detect is working' and I don't have a great answer.",
+      "speaker_name": "Diana Reeves",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 190.9,
+      "endTime": 201.7,
+      "averageConfidence": 0.92,
+      "index": 18
+    },
+    {
+      "sentence": "Yeah, absolutely tell them it's in progress. That's a real commitment, end of April is the target.",
+      "speaker_name": "Megan Lawson",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 202.2,
+      "endTime": 207.9,
+      "averageConfidence": 0.93,
+      "index": 19
+    },
+    {
+      "sentence": "I do want to flag one thing \u2014 and this is a bit of a sore spot for me \u2014 our alerting on the pipeline health itself was inadequate. We didn't catch this until customers started reaching out. That's not acceptable.",
+      "speaker_name": "Tom Bradley",
+      "sentimentType": "negative",
+      "speaker_id": 0,
+      "time": 208.7,
+      "endTime": 223.3,
+      "averageConfidence": 0.91,
+      "index": 20
+    },
+    {
+      "sentence": "Yeah, how did we find out? Was it a customer ticket?",
+      "speaker_name": "Megan Lawson",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 224.8,
+      "endTime": 228.6,
+      "averageConfidence": 0.89,
+      "index": 21
+    },
+    {
+      "sentence": "It was \u2014 one of Diana's team's accounts, actually. Flagged that they hadn't seen any alerts in a few hours and opened a support ticket.",
+      "speaker_name": "Tom Bradley",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 230.0,
+      "endTime": 238.8,
+      "averageConfidence": 0.94,
+      "index": 22
+    },
+    {
+      "sentence": "Yeah, that was Thornfield Financial. They've got a pretty attentive security team, fortunately.",
+      "speaker_name": "Diana Reeves",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 239.8,
+      "endTime": 244.7,
+      "averageConfidence": 0.96,
+      "index": 23
+    },
+    {
+      "sentence": "So we are adding internal monitoring on the ingestion pipeline itself \u2014 not just the output but the pipeline health metrics. That's already in place as of this week.",
+      "speaker_name": "Tom Bradley",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 245.2,
+      "endTime": 255.5,
+      "averageConfidence": 0.92,
+      "index": 24
+    },
+    {
+      "sentence": "Good. I think one of the things I keep hearing from customers is \u2014 they feel like they're flying blind sometimes with Detect. And this incident kind of reinforced that. I don't say that to be harsh, I just think it's worth naming.",
+      "speaker_name": "Diana Reeves",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 256.2,
+      "endTime": 271.2,
+      "averageConfidence": 0.9,
+      "index": 25
+    },
+    {
+      "sentence": "No, I \u2014 yeah. I hear that. And honestly some of it is a product maturity issue, some of it is infrastructure. Megan, is there anything we can prioritize in the short term to help with that visibility gap beyond the status indicator?",
+      "speaker_name": "Tom Bradley",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 271.7,
+      "endTime": 286.5,
+      "averageConfidence": 0.91,
+      "index": 26
+    },
+    {
+      "sentence": "We've been talking about a heartbeat alert feature \u2014 basically Detect would proactively notify customers if it stops receiving telemetry from their environment for more than, say, fifteen minutes. That would at least give them a signal on their end.",
+      "speaker_name": "Megan Lawson",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 287.0,
+      "endTime": 301.1,
+      "averageConfidence": 0.91,
+      "index": 27
+    },
+    {
+      "sentence": "Oh, that would be huge actually. Can we pull that forward?",
+      "speaker_name": "Diana Reeves",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 302.2,
+      "endTime": 306.2,
+      "averageConfidence": 0.94,
+      "index": 28
+    },
+    {
+      "sentence": "Let me take a look at the roadmap this week. I think there's room to move it up, but I need to see what it bumps. I'll come back to both of you by end of week.",
+      "speaker_name": "Megan Lawson",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 306.7,
+      "endTime": 319.4,
+      "averageConfidence": 0.94,
+      "index": 29
+    },
+    {
+      "sentence": "Okay. And on the customer communication side \u2014 Diana, what's the current state? Did we send a post-incident report to affected accounts?",
+      "speaker_name": "Tom Bradley",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 319.8,
+      "endTime": 327.9,
+      "averageConfidence": 0.96,
+      "index": 30
+    },
+    {
+      "sentence": "We sent an initial communication on March 10th when the incident was resolved, but we have not sent a formal PIR document yet. I've been waiting on the root cause writeup from engineering.",
+      "speaker_name": "Diana Reeves",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 329.0,
+      "endTime": 340.4,
+      "averageConfidence": 0.91,
+      "index": 31
+    },
+    {
+      "sentence": "Yeah that's on me, I'll have that to you by tomorrow morning. Full technical summary, the fix, and what we're doing to prevent recurrence.",
+      "speaker_name": "Tom Bradley",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 341.1,
+      "endTime": 349.3,
+      "averageConfidence": 0.96,
+      "index": 32
+    },
+    {
+      "sentence": "Okay, and then I'll adapt it into customer-facing language and get it out by end of week. Some of our enterprise accounts are going to want a call, not just an email \u2014 particularly the ones who are mid-renewal.",
+      "speaker_name": "Diana Reeves",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 350.1,
+      "endTime": 364.0,
+      "averageConfidence": 0.95,
+      "index": 33
+    },
+    {
+      "sentence": "Do you want me or Tom on any of those calls, or are you handling them with your CSMs?",
+      "speaker_name": "Megan Lawson",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 365.4,
+      "endTime": 372.2,
+      "averageConfidence": 0.91,
+      "index": 34
+    },
+    {
+      "sentence": "Probably Tom for anyone who wants a technical deep-dive. I'll flag the specific accounts and we can coordinate. I don't think it'll be more than three or four.",
+      "speaker_name": "Diana Reeves",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 373.7,
+      "endTime": 383.3,
+      "averageConfidence": 0.9,
+      "index": 35
+    },
+    {
+      "sentence": "Yeah, I'm available for that. Just loop me in with at least a day's notice if you can.",
+      "speaker_name": "Tom Bradley",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 384.6,
+      "endTime": 390.8,
+      "averageConfidence": 0.88,
+      "index": 36
+    },
+    {
+      "sentence": "Will do. Alright, I think I have what I need. Tom \u2014 PIR doc tomorrow, and Megan \u2014 roadmap check by end of week on the heartbeat feature?",
+      "speaker_name": "Diana Reeves",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 392.2,
+      "endTime": 401.9,
+      "averageConfidence": 0.9,
+      "index": 37
+    },
+    {
+      "sentence": "Correct.",
+      "speaker_name": "Tom Bradley",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 403.1,
+      "endTime": 404.6,
+      "averageConfidence": 0.95,
+      "index": 38
+    },
+    {
+      "sentence": "Yep, I've got it.",
+      "speaker_name": "Megan Lawson",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 405.4,
+      "endTime": 406.9,
+      "averageConfidence": 0.97,
+      "index": 39
+    },
+    {
+      "sentence": "Okay, good. Thanks both \u2014 let's close this one out.",
+      "speaker_name": "Diana Reeves",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 407.5,
+      "endTime": 411.4,
+      "averageConfidence": 0.92,
+      "index": 40
+    }
+  ]
+}

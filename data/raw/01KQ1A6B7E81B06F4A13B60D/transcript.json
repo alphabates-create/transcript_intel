@@ -1,0 +1,354 @@
+{
+  "data": [
+    {
+      "sentence": "Hi, is this Kendra? This is David Kim calling from Aegis Cloud Security support, I have case number 6977 pulled up here.",
+      "speaker_name": "David Kim",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 3.2,
+      "endTime": 11.4,
+      "averageConfidence": 0.97,
+      "index": 0
+    },
+    {
+      "sentence": "Yes, hi David, thanks for calling back. I've been waiting on this \u2014 we submitted that ticket two days ago.",
+      "speaker_name": "Kendra Wallace",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 12.3,
+      "endTime": 19.4,
+      "averageConfidence": 0.95,
+      "index": 1
+    },
+    {
+      "sentence": "I completely understand, and I apologize for the delay getting back to you. I want to make sure we get this sorted out today. So you're seeing slow backup performance with Aegis Protect \u2014 can you walk me through what you're experiencing?",
+      "speaker_name": "David Kim",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 20.0,
+      "endTime": 34.6,
+      "averageConfidence": 0.95,
+      "index": 2
+    },
+    {
+      "sentence": "Yeah, so \u2014 I mean, it's been terrible honestly. Our nightly backup jobs are taking, uh, somewhere between four and six hours to complete. They used to finish in under ninety minutes. This started maybe three weeks ago, and it's just... it's not getting better.",
+      "speaker_name": "Kendra Wallace",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 35.3,
+      "endTime": 51.4,
+      "averageConfidence": 0.89,
+      "index": 3
+    },
+    {
+      "sentence": "Four to six hours, okay, that's a significant regression. And this is consistent every night, or are there certain nights where it's worse than others?",
+      "speaker_name": "David Kim",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 52.1,
+      "endTime": 60.9,
+      "averageConfidence": 0.95,
+      "index": 4
+    },
+    {
+      "sentence": "It's pretty much every night. I mean, maybe slightly worse on weekends but honestly it's bad across the board. And look, we're a retail company \u2014 we have a lot of transaction data, inventory records, customer data \u2014 we can't have backup windows bleeding into our morning operations.",
+      "speaker_name": "Kendra Wallace",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 62.2,
+      "endTime": 79.5,
+      "averageConfidence": 0.97,
+      "index": 5
+    },
+    {
+      "sentence": "Right, yeah, that makes total sense and that's a real operational concern. Um, let me ask \u2014 what's the approximate data volume you're backing up each night? Do you have a rough figure?",
+      "speaker_name": "David Kim",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 80.2,
+      "endTime": 91.9,
+      "averageConfidence": 0.96,
+      "index": 6
+    },
+    {
+      "sentence": "It's around, uh, two to two and a half terabytes per night. That hasn't changed dramatically. I mean, we've grown a little but nothing that should cause this kind of slowdown.",
+      "speaker_name": "Kendra Wallace",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 92.8,
+      "endTime": 103.7,
+      "averageConfidence": 0.95,
+      "index": 7
+    },
+    {
+      "sentence": "Got it. And have you made any changes on your end around that time \u2014 network configuration, storage infrastructure, anything like that? Or was this kind of just one day it started being slow?",
+      "speaker_name": "David Kim",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 105.0,
+      "endTime": 116.7,
+      "averageConfidence": 0.95,
+      "index": 8
+    },
+    {
+      "sentence": "Not that I'm aware of. I mean, I had my team look into it and we didn't push any major infrastructure changes around that time. So we're kind of pointing the finger at your platform, honestly.",
+      "speaker_name": "Kendra Wallace",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 117.7,
+      "endTime": 130.4,
+      "averageConfidence": 0.89,
+      "index": 9
+    },
+    {
+      "sentence": "I hear you, and I'm not here to deflect blame \u2014 I want to find the root cause wherever it is. Let me pull up your account and look at the job logs from the last couple weeks here.",
+      "speaker_name": "David Kim",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 131.1,
+      "endTime": 145.0,
+      "averageConfidence": 0.93,
+      "index": 10
+    },
+    {
+      "sentence": "Please do. And while you're at it, I want to flag \u2014 we're running incremental backups, not full backups, so the fact that it's taking this long is extra concerning to me.",
+      "speaker_name": "Kendra Wallace",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 145.7,
+      "endTime": 156.9,
+      "averageConfidence": 0.91,
+      "index": 11
+    },
+    {
+      "sentence": "Yeah, that's a really good point, incremental jobs should absolutely not be taking that long. Okay, I'm in your account now... I can see the job history here. Hmm. Okay so I'm seeing some things.",
+      "speaker_name": "David Kim",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 158.0,
+      "endTime": 170.0,
+      "averageConfidence": 0.91,
+      "index": 12
+    },
+    {
+      "sentence": "What are you seeing? Because my team has been asking me for answers and I don't have any.",
+      "speaker_name": "Kendra Wallace",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 171.3,
+      "endTime": 178.1,
+      "averageConfidence": 0.97,
+      "index": 13
+    },
+    {
+      "sentence": "So I can see that your backup jobs are completing, but the throughput rate has dropped significantly. You're running at roughly 120 to 140 megabytes per second, whereas historically your jobs were running closer to 400 or 500. That's the bottleneck.",
+      "speaker_name": "David Kim",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 178.8,
+      "endTime": 193.6,
+      "averageConfidence": 0.94,
+      "index": 14
+    },
+    {
+      "sentence": "Okay so something changed on your end then. Because we didn't touch anything.",
+      "speaker_name": "Kendra Wallace",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 194.0,
+      "endTime": 198.5,
+      "averageConfidence": 0.94,
+      "index": 15
+    },
+    {
+      "sentence": "It could be a few things \u2014 I want to dig into this more before I point fingers anywhere. One thing I'm noticing is that your backup agent version \u2014 you're running 3.4.1, and we released 3.6.0 back in late January. There were some performance optimizations in that release, specifically around incremental change detection.",
+      "speaker_name": "David Kim",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 199.8,
+      "endTime": 219.1,
+      "averageConfidence": 0.93,
+      "index": 16
+    },
+    {
+      "sentence": "Wait \u2014 so you're saying there might be a performance issue in the version we're running and there's already a fix out?",
+      "speaker_name": "Kendra Wallace",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 219.6,
+      "endTime": 227.6,
+      "averageConfidence": 0.89,
+      "index": 17
+    },
+    {
+      "sentence": "I don't want to say definitively that's the cause yet, but it is worth flagging. There was a known issue in 3.4.x where under certain conditions the change block tracking mechanism could \u2014 um \u2014 essentially over-scan, meaning it's processing more data than it needs to.",
+      "speaker_name": "David Kim",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 228.0,
+      "endTime": 244.4,
+      "averageConfidence": 0.91,
+      "index": 18
+    },
+    {
+      "sentence": "David, that sounds like exactly what's happening. Why weren't we notified about this? This feels like something we should have gotten an email about or... I don't know, something.",
+      "speaker_name": "Kendra Wallace",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 245.1,
+      "endTime": 255.4,
+      "averageConfidence": 0.94,
+      "index": 19
+    },
+    {
+      "sentence": "That's fair feedback and I'm going to note that in the case. Customers on affected versions should have been flagged for that update and I'll look into why that didn't happen for your account. That's a process gap we need to close.",
+      "speaker_name": "David Kim",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 256.5,
+      "endTime": 271.6,
+      "averageConfidence": 0.95,
+      "index": 20
+    },
+    {
+      "sentence": "Yeah, I mean \u2014 look, I like Aegis, we've been customers for over a year and overall we've been happy. But this kind of thing is frustrating. We're a retail business, our data pipeline is critical, and three weeks of bad backups is not something I can just shrug off.",
+      "speaker_name": "Kendra Wallace",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 272.4,
+      "endTime": 290.0,
+      "averageConfidence": 0.92,
+      "index": 21
+    },
+    {
+      "sentence": "Absolutely, and I'm not asking you to shrug it off. Let's focus on getting you fixed first and then I'll make sure the right people on our side hear this feedback. So \u2014 upgrading to 3.6.0, that's the immediate step I'd recommend. Can your team do that tonight?",
+      "speaker_name": "David Kim",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 291.0,
+      "endTime": 308.0,
+      "averageConfidence": 0.89,
+      "index": 22
+    },
+    {
+      "sentence": "We can probably do it tonight or tomorrow night. What's involved in the upgrade? Is there any downtime, any risk?",
+      "speaker_name": "Kendra Wallace",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 308.6,
+      "endTime": 315.9,
+      "averageConfidence": 0.91,
+      "index": 23
+    },
+    {
+      "sentence": "It's a rolling upgrade, so there's minimal impact. The agent restarts but the restart window is typically under two minutes. You'd want to do it outside your backup window obviously, but it shouldn't cause any data issues or anything like that.",
+      "speaker_name": "David Kim",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 316.8,
+      "endTime": 331.3,
+      "averageConfidence": 0.9,
+      "index": 24
+    },
+    {
+      "sentence": "Okay. And what if we do the upgrade and it's still slow? Then what?",
+      "speaker_name": "Kendra Wallace",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 331.9,
+      "endTime": 336.8,
+      "averageConfidence": 0.91,
+      "index": 25
+    },
+    {
+      "sentence": "If you're still seeing the issue after the upgrade, the next thing I'd want to look at is your network egress path \u2014 specifically whether there's any throttling or rate limiting happening between your environment and our ingestion endpoints. I can also set you up with enhanced logging on the next backup run so we get more granular telemetry.",
+      "speaker_name": "David Kim",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 338.3,
+      "endTime": 359.4,
+      "averageConfidence": 0.89,
+      "index": 26
+    },
+    {
+      "sentence": "Okay, that's fine. I mean I'm hopeful the upgrade fixes it but I've been hopeful before with this and it hasn't gotten better on its own.",
+      "speaker_name": "Kendra Wallace",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 360.3,
+      "endTime": 369.8,
+      "averageConfidence": 0.96,
+      "index": 27
+    },
+    {
+      "sentence": "I get it. I don't want to just give you hope and disappear \u2014 here's what I'll do. I'm going to send you the upgrade instructions in writing right after this call, and I'll personally follow up with you on Monday morning to check on how the backup ran. I'll keep this case open until we confirm the performance is back to where it should be.",
+      "speaker_name": "David Kim",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 370.6,
+      "endTime": 393.8,
+      "averageConfidence": 0.94,
+      "index": 28
+    },
+    {
+      "sentence": "Monday morning works. But David, if we're still seeing the same numbers Monday, I need escalation. I can't keep going back to my team with 'we're looking into it.'",
+      "speaker_name": "Kendra Wallace",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 394.2,
+      "endTime": 404.7,
+      "averageConfidence": 0.91,
+      "index": 29
+    },
+    {
+      "sentence": "Completely fair. If the upgrade doesn't resolve it and we don't have a clear answer by Monday, I'll escalate this to our senior engineering team and loop in your account manager. You have my word on that.",
+      "speaker_name": "David Kim",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 405.4,
+      "endTime": 418.1,
+      "averageConfidence": 0.96,
+      "index": 30
+    },
+    {
+      "sentence": "Alright. I'll hold you to that. Go ahead and send me those upgrade instructions and I'll get my team moving on it tonight.",
+      "speaker_name": "Kendra Wallace",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 419.1,
+      "endTime": 427.5,
+      "averageConfidence": 0.96,
+      "index": 31
+    },
+    {
+      "sentence": "Will do. I'll have that in your inbox within the next thirty minutes. And Kendra \u2014 again, I'm sorry this dragged on as long as it did. We'll get it resolved.",
+      "speaker_name": "David Kim",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 428.6,
+      "endTime": 439.7,
+      "averageConfidence": 0.93,
+      "index": 32
+    },
+    {
+      "sentence": "Appreciate it. Talk Monday.",
+      "speaker_name": "Kendra Wallace",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 441.0,
+      "endTime": 442.5,
+      "averageConfidence": 0.89,
+      "index": 33
+    },
+    {
+      "sentence": "Talk Monday. Thanks Kendra, take care.",
+      "speaker_name": "David Kim",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 443.0,
+      "endTime": 445.4,
+      "averageConfidence": 0.93,
+      "index": 34
+    }
+  ]
+}

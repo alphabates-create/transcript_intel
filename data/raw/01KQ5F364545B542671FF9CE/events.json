@@ -1,0 +1,50 @@
+[
+  {
+    "participantName": "Marcus Williams",
+    "timestamp": 1772890206000,
+    "type": "Join",
+    "time": 6.0
+  },
+  {
+    "participantName": "Sarah Chen",
+    "timestamp": 1772890207000,
+    "type": "Join",
+    "time": 7.0
+  },
+  {
+    "participantName": "Jason Hoffman",
+    "timestamp": 1772890233000,
+    "type": "Join",
+    "time": 33.0
+  },
+  {
+    "participantName": "Suki Nakamura",
+    "timestamp": 1772890242000,
+    "type": "Join",
+    "time": 42.0
+  },
+  {
+    "participantName": "Sarah Chen",
+    "timestamp": 1772891476000,
+    "type": "Leave",
+    "time": 1276.0
+  },
+  {
+    "participantName": "Marcus Williams",
+    "timestamp": 1772891477000,
+    "type": "Leave",
+    "time": 1277.0
+  },
+  {
+    "participantName": "Jason Hoffman",
+    "timestamp": 1772891452000,
+    "type": "Leave",
+    "time": 1252.0
+  },
+  {
+    "participantName": "Suki Nakamura",
+    "timestamp": 1772891448000,
+    "type": "Leave",
+    "time": 1248.0
+  }
+]

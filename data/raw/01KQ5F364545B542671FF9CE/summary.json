@@ -1,0 +1,46 @@
+{
+  "summary": "Jason Hoffman (CISO) and Suki Nakamura (Compliance Director) from Meridian Capital contacted Aegis Cloud Security support to discuss SCIM 2.0 integration between Okta and Aegis Identity for automated user provisioning and deprovisioning. Sarah Chen and Marcus Williams confirmed that native SCIM 2.0 is on the roadmap but not yet generally available, and recommended using Aegis's REST API with Okta Workflows as an interim solution. The team agreed this API approach could meet Meridian's 24-hour deprovisioning compliance requirement, with audit logs accessible through Aegis Comply. Next steps include sending API documentation, logging the SCIM feature request with Meridian's specific use case, and looping in the account manager for a roadmap discussion.",
+  "actionItems": [
+    "Marcus Williams: Send user management API documentation and, if available, a sample Okta Workflows integration community post to Jason and Suki today",
+    "Sarah Chen: Log native SCIM 2.0 as a formal feature request with Meridian Capital's financial services compliance use case details attached",
+    "Sarah Chen: Notify Meridian Capital's account manager to follow up on SCIM roadmap timeline within one to two business days",
+    "Suki Nakamura: Schedule a separate session with Aegis to explore fuller usage of Aegis Comply for compliance reporting"
+  ],
+  "topics": [
+    "scim provisioning",
+    "identity management",
+    "compliance",
+    "okta integration",
+    "deprovisioning",
+    "feature request"
+  ],
+  "overallSentiment": "mixed-positive",
+  "sentimentScore": 3.7,
+  "keyMoments": [
+    {
+      "time": 95.0,
+      "text": "Suki flags that manual deprovisioning is becoming a compliance gap as auditors specifically ask about automated deprovisioning controls",
+      "type": "concern",
+      "speaker": "Suki Nakamura"
+    },
+    {
+      "time": 210.0,
+      "text": "Marcus confirms native SCIM 2.0 is not currently in GA, only on the roadmap, without committed timelines",
+      "type": "feature_gap",
+      "speaker": "Marcus Williams"
+    },
+    {
+      "time": 430.0,
+      "text": "Suki reveals there have been instances where access was not revoked within their required 24-hour compliance window, underscoring urgency",
+      "type": "churn_signal",
+      "speaker": "Suki Nakamura"
+    },
+    {
+      "time": 560.0,
+      "text": "Sarah confirms that deprovisioning via the API is reliable and that termination events are logged with timestamps in Aegis Comply for audit purposes, satisfying a key compliance need",
+      "type": "positive_pivot",
+      "speaker": "Sarah Chen"
+    }
+  ],
+  "meetingId": "01KQ5F364545B542671FF9CE"
+}

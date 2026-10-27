@@ -1,0 +1,242 @@
+[
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 7.8,
+    "endTimeTs": 15.6
+  },
+  {
+    "speakerName": "Grace Yoon",
+    "timestamp": 16.3,
+    "endTimeTs": 21.1
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 22.5,
+    "endTimeTs": 28.3
+  },
+  {
+    "speakerName": "Grace Yoon",
+    "timestamp": 29.1,
+    "endTimeTs": 42.0
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 42.5,
+    "endTimeTs": 60.4
+  },
+  {
+    "speakerName": "Grace Yoon",
+    "timestamp": 61.0,
+    "endTimeTs": 73.1
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 73.9,
+    "endTimeTs": 83.9
+  },
+  {
+    "speakerName": "Grace Yoon",
+    "timestamp": 84.9,
+    "endTimeTs": 97.3
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 98.7,
+    "endTimeTs": 118.9
+  },
+  {
+    "speakerName": "Grace Yoon",
+    "timestamp": 120.1,
+    "endTimeTs": 130.7
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 131.8,
+    "endTimeTs": 139.2
+  },
+  {
+    "speakerName": "Grace Yoon",
+    "timestamp": 139.6,
+    "endTimeTs": 163.0
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 164.5,
+    "endTimeTs": 179.4
+  },
+  {
+    "speakerName": "Grace Yoon",
+    "timestamp": 180.0,
+    "endTimeTs": 182.6
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 183.6,
+    "endTimeTs": 193.2
+  },
+  {
+    "speakerName": "Grace Yoon",
+    "timestamp": 194.1,
+    "endTimeTs": 209.9
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 211.1,
+    "endTimeTs": 220.5
+  },
+  {
+    "speakerName": "Grace Yoon",
+    "timestamp": 221.5,
+    "endTimeTs": 231.0
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 232.2,
+    "endTimeTs": 239.5
+  },
+  {
+    "speakerName": "Grace Yoon",
+    "timestamp": 240.8,
+    "endTimeTs": 252.4
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 253.6,
+    "endTimeTs": 270.7
+  },
+  {
+    "speakerName": "Grace Yoon",
+    "timestamp": 271.9,
+    "endTimeTs": 289.0
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 289.7,
+    "endTimeTs": 300.2
+  },
+  {
+    "speakerName": "Grace Yoon",
+    "timestamp": 300.8,
+    "endTimeTs": 302.3
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 302.9,
+    "endTimeTs": 324.0
+  },
+  {
+    "speakerName": "Grace Yoon",
+    "timestamp": 324.3,
+    "endTimeTs": 337.3
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 338.4,
+    "endTimeTs": 360.8
+  },
+  {
+    "speakerName": "Grace Yoon",
+    "timestamp": 361.9,
+    "endTimeTs": 370.2
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 370.9,
+    "endTimeTs": 378.4
+  },
+  {
+    "speakerName": "Grace Yoon",
+    "timestamp": 379.6,
+    "endTimeTs": 384.7
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 386.0,
+    "endTimeTs": 406.8
+  },
+  {
+    "speakerName": "Grace Yoon",
+    "timestamp": 407.3,
+    "endTimeTs": 420.9
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 421.4,
+    "endTimeTs": 434.4
+  },
+  {
+    "speakerName": "Grace Yoon",
+    "timestamp": 434.9,
+    "endTimeTs": 446.1
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 447.5,
+    "endTimeTs": 456.0
+  },
+  {
+    "speakerName": "Grace Yoon",
+    "timestamp": 457.2,
+    "endTimeTs": 463.9
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 464.3,
+    "endTimeTs": 471.6
+  },
+  {
+    "speakerName": "Grace Yoon",
+    "timestamp": 472.4,
+    "endTimeTs": 489.3
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 490.2,
+    "endTimeTs": 503.4
+  },
+  {
+    "speakerName": "Grace Yoon",
+    "timestamp": 504.7,
+    "endTimeTs": 511.3
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 511.7,
+    "endTimeTs": 533.8
+  },
+  {
+    "speakerName": "Grace Yoon",
+    "timestamp": 534.6,
+    "endTimeTs": 555.1
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 556.3,
+    "endTimeTs": 576.3
+  },
+  {
+    "speakerName": "Grace Yoon",
+    "timestamp": 577.1,
+    "endTimeTs": 591.3
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 592.8,
+    "endTimeTs": 604.7
+  },
+  {
+    "speakerName": "Grace Yoon",
+    "timestamp": 605.3,
+    "endTimeTs": 612.7
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 613.7,
+    "endTimeTs": 615.4
+  },
+  {
+    "speakerName": "Grace Yoon",
+    "timestamp": 616.4,
+    "endTimeTs": 617.9
+  }
+]

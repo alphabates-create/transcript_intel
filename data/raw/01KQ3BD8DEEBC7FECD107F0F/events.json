@@ -1,0 +1,50 @@
+[
+  {
+    "participantName": "Lisa Park",
+    "timestamp": 1776780905000,
+    "type": "Join",
+    "time": 5.0
+  },
+  {
+    "participantName": "Maria Santos",
+    "timestamp": 1776780922000,
+    "type": "Join",
+    "time": 22.0
+  },
+  {
+    "participantName": "Warren Beck",
+    "timestamp": 1776780935000,
+    "type": "Join",
+    "time": 35.0
+  },
+  {
+    "participantName": "Julia Tran",
+    "timestamp": 1776780945000,
+    "type": "Join",
+    "time": 45.0
+  },
+  {
+    "participantName": "Lisa Park",
+    "timestamp": 1776783826000,
+    "type": "Leave",
+    "time": 2926.0
+  },
+  {
+    "participantName": "Maria Santos",
+    "timestamp": 1776783837000,
+    "type": "Leave",
+    "time": 2937.0
+  },
+  {
+    "participantName": "Julia Tran",
+    "timestamp": 1776783832000,
+    "type": "Leave",
+    "time": 2932.0
+  },
+  {
+    "participantName": "Warren Beck",
+    "timestamp": 1776783823000,
+    "type": "Leave",
+    "time": 2923.0
+  }
+]

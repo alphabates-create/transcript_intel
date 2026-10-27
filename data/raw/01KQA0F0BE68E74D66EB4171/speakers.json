@@ -1,0 +1,222 @@
+[
+  {
+    "speakerName": "James Mitchell",
+    "timestamp": 3.9,
+    "endTimeTs": 9.3
+  },
+  {
+    "speakerName": "Rachel Torres",
+    "timestamp": 10.5,
+    "endTimeTs": 12.0
+  },
+  {
+    "speakerName": "Tom Bradley",
+    "timestamp": 13.3,
+    "endTimeTs": 14.8
+  },
+  {
+    "speakerName": "Jordan Whitfield",
+    "timestamp": 15.9,
+    "endTimeTs": 17.4
+  },
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 18.8,
+    "endTimeTs": 21.1
+  },
+  {
+    "speakerName": "James Mitchell",
+    "timestamp": 21.6,
+    "endTimeTs": 37.4
+  },
+  {
+    "speakerName": "Rachel Torres",
+    "timestamp": 38.2,
+    "endTimeTs": 42.5
+  },
+  {
+    "speakerName": "James Mitchell",
+    "timestamp": 43.2,
+    "endTimeTs": 50.2
+  },
+  {
+    "speakerName": "Tom Bradley",
+    "timestamp": 50.6,
+    "endTimeTs": 52.3
+  },
+  {
+    "speakerName": "James Mitchell",
+    "timestamp": 53.5,
+    "endTimeTs": 67.6
+  },
+  {
+    "speakerName": "Rachel Torres",
+    "timestamp": 68.1,
+    "endTimeTs": 74.7
+  },
+  {
+    "speakerName": "James Mitchell",
+    "timestamp": 76.1,
+    "endTimeTs": 90.2
+  },
+  {
+    "speakerName": "Tom Bradley",
+    "timestamp": 91.3,
+    "endTimeTs": 109.4
+  },
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 110.5,
+    "endTimeTs": 113.4
+  },
+  {
+    "speakerName": "Tom Bradley",
+    "timestamp": 114.6,
+    "endTimeTs": 134.3
+  },
+  {
+    "speakerName": "Jordan Whitfield",
+    "timestamp": 134.8,
+    "endTimeTs": 138.3
+  },
+  {
+    "speakerName": "Tom Bradley",
+    "timestamp": 139.3,
+    "endTimeTs": 148.5
+  },
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 149.2,
+    "endTimeTs": 155.8
+  },
+  {
+    "speakerName": "James Mitchell",
+    "timestamp": 156.6,
+    "endTimeTs": 165.2
+  },
+  {
+    "speakerName": "Rachel Torres",
+    "timestamp": 165.5,
+    "endTimeTs": 180.3
+  },
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 181.0,
+    "endTimeTs": 197.2
+  },
+  {
+    "speakerName": "James Mitchell",
+    "timestamp": 198.1,
+    "endTimeTs": 202.7
+  },
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 203.1,
+    "endTimeTs": 214.9
+  },
+  {
+    "speakerName": "Rachel Torres",
+    "timestamp": 215.9,
+    "endTimeTs": 225.7
+  },
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 226.5,
+    "endTimeTs": 234.2
+  },
+  {
+    "speakerName": "James Mitchell",
+    "timestamp": 234.8,
+    "endTimeTs": 247.4
+  },
+  {
+    "speakerName": "Jordan Whitfield",
+    "timestamp": 248.2,
+    "endTimeTs": 273.5
+  },
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 274.3,
+    "endTimeTs": 279.8
+  },
+  {
+    "speakerName": "Jordan Whitfield",
+    "timestamp": 281.0,
+    "endTimeTs": 301.8
+  },
+  {
+    "speakerName": "Rachel Torres",
+    "timestamp": 302.6,
+    "endTimeTs": 309.0
+  },
+  {
+    "speakerName": "Jordan Whitfield",
+    "timestamp": 309.5,
+    "endTimeTs": 321.4
+  },
+  {
+    "speakerName": "James Mitchell",
+    "timestamp": 322.0,
+    "endTimeTs": 327.8
+  },
+  {
+    "speakerName": "James Mitchell",
+    "timestamp": 328.8,
+    "endTimeTs": 345.0
+  },
+  {
+    "speakerName": "Tom Bradley",
+    "timestamp": 346.1,
+    "endTimeTs": 355.6
+  },
+  {
+    "speakerName": "James Mitchell",
+    "timestamp": 356.9,
+    "endTimeTs": 364.3
+  },
+  {
+    "speakerName": "Rachel Torres",
+    "timestamp": 364.7,
+    "endTimeTs": 381.1
+  },
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 381.7,
+    "endTimeTs": 392.2
+  },
+  {
+    "speakerName": "Rachel Torres",
+    "timestamp": 392.9,
+    "endTimeTs": 397.3
+  },
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 397.8,
+    "endTimeTs": 401.4
+  },
+  {
+    "speakerName": "James Mitchell",
+    "timestamp": 402.1,
+    "endTimeTs": 417.1
+  },
+  {
+    "speakerName": "Tom Bradley",
+    "timestamp": 417.7,
+    "endTimeTs": 419.2
+  },
+  {
+    "speakerName": "Jordan Whitfield",
+    "timestamp": 420.6,
+    "endTimeTs": 422.1
+  },
+  {
+    "speakerName": "Rachel Torres",
+    "timestamp": 423.5,
+    "endTimeTs": 425.0
+  },
+  {
+    "speakerName": "James Mitchell",
+    "timestamp": 425.8,
+    "endTimeTs": 427.3
+  }
+]

@@ -1,0 +1,434 @@
+{
+  "data": [
+    {
+      "sentence": "Alright, I think we're all on \u2014 Raj, Brian, can you both hear me okay?",
+      "speaker_name": "Megan Lawson",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 7.4,
+      "endTime": 12.6,
+      "averageConfidence": 0.97,
+      "index": 0
+    },
+    {
+      "sentence": "Yeah, I'm here. Audio's good.",
+      "speaker_name": "Raj Kapoor",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 13.4,
+      "endTime": 14.9,
+      "averageConfidence": 0.93,
+      "index": 1
+    },
+    {
+      "sentence": "Yep, I'm on. Give me one sec, I'm just pulling up the incident doc.",
+      "speaker_name": "Brian Cho",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 16.2,
+      "endTime": 21.2,
+      "averageConfidence": 0.97,
+      "index": 2
+    },
+    {
+      "sentence": "Sure, take your time. So, uh, the reason I wanted to get us together today \u2014 obviously we're still in the middle of this, day three of the outage window \u2014 I want to make sure we have a clear remediation plan and that we're all aligned before we send anything else externally.",
+      "speaker_name": "Megan Lawson",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 22.6,
+      "endTime": 41.0,
+      "averageConfidence": 0.9,
+      "index": 3
+    },
+    {
+      "sentence": "Yeah, agreed. I've been heads-down with the engineering team since Saturday and I think we have a pretty solid picture of the root cause at this point. Do you want me to just walk through it?",
+      "speaker_name": "Raj Kapoor",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 42.3,
+      "endTime": 54.6,
+      "averageConfidence": 0.91,
+      "index": 4
+    },
+    {
+      "sentence": "Please, yeah. Go ahead.",
+      "speaker_name": "Megan Lawson",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 55.8,
+      "endTime": 57.4,
+      "averageConfidence": 0.96,
+      "index": 5
+    },
+    {
+      "sentence": "Okay so \u2014 and Brian, let me know if the technical depth here is useful for you or if you want me to translate as I go \u2014 basically what we're looking at is a cascading failure in the event processing pipeline. The short version is we had a single point of failure in the event ingestion layer, and when that node went down, there was no fallback. So events just started backing up and then the whole downstream monitoring stack lost visibility.",
+      "speaker_name": "Raj Kapoor",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 57.9,
+      "endTime": 87.0,
+      "averageConfidence": 0.91,
+      "index": 6
+    },
+    {
+      "sentence": "Yeah no that's \u2014 that's helpful context actually. My team has been getting hammered with tickets since Saturday morning and I want to make sure I understand what I'm telling customers, so.",
+      "speaker_name": "Brian Cho",
+      "sentimentType": "negative",
+      "speaker_id": 2,
+      "time": 88.3,
+      "endTime": 99.4,
+      "averageConfidence": 0.93,
+      "index": 7
+    },
+    {
+      "sentence": "How many tickets are we at now, roughly?",
+      "speaker_name": "Megan Lawson",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 100.8,
+      "endTime": 103.6,
+      "averageConfidence": 0.89,
+      "index": 8
+    },
+    {
+      "sentence": "As of this morning we're at a hundred and twelve open cases specifically tied to the Detect outage. About thirty of those are priority one or two accounts. We've got a handful of customers that are, uh, pretty vocal about it.",
+      "speaker_name": "Brian Cho",
+      "sentimentType": "negative",
+      "speaker_id": 2,
+      "time": 104.0,
+      "endTime": 118.6,
+      "averageConfidence": 0.96,
+      "index": 9
+    },
+    {
+      "sentence": "Okay. That's \u2014 yeah, that tracks with what I've been seeing from the account side. Raj, continuing on the root cause \u2014 what's the fix look like?",
+      "speaker_name": "Megan Lawson",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 119.6,
+      "endTime": 129.4,
+      "averageConfidence": 0.96,
+      "index": 10
+    },
+    {
+      "sentence": "So the fix is two-pronged. The immediate thing we're doing \u2014 and this is already in progress, the team started on it yesterday \u2014 is deploying redundant processing nodes. So instead of relying on a single ingestion point, we're moving to an active-active configuration. That should eliminate the single point of failure entirely.",
+      "speaker_name": "Raj Kapoor",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 129.9,
+      "endTime": 148.6,
+      "averageConfidence": 0.91,
+      "index": 11
+    },
+    {
+      "sentence": "And the second piece?",
+      "speaker_name": "Megan Lawson",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 149.9,
+      "endTime": 151.8,
+      "averageConfidence": 0.91,
+      "index": 12
+    },
+    {
+      "sentence": "The second piece is implementing a circuit breaker pattern on the pipeline. So essentially, if one component starts degrading, the circuit breaker trips before it can take down the whole chain. It's a more resilient architecture overall. We should have had this from the start, honestly, but \u2014 yeah.",
+      "speaker_name": "Raj Kapoor",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 153.2,
+      "endTime": 170.8,
+      "averageConfidence": 0.96,
+      "index": 13
+    },
+    {
+      "sentence": "I appreciate you saying that. I think \u2014 and I want to be candid here \u2014 I think there's going to be a postmortem conversation about how this got built the way it did, but I want to table that for now and focus on the remediation. What's the timeline looking like for full restoration?",
+      "speaker_name": "Megan Lawson",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 172.3,
+      "endTime": 191.6,
+      "averageConfidence": 0.96,
+      "index": 14
+    },
+    {
+      "sentence": "Current estimate is we'll have the redundant nodes live by end of day today. The circuit breaker implementation is a little more involved \u2014 that's probably forty-eight hours from now, so, Wednesday evening at the earliest. But the monitoring visibility issue, the core thing customers are experiencing, that should be resolved today.",
+      "speaker_name": "Raj Kapoor",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 192.1,
+      "endTime": 210.0,
+      "averageConfidence": 0.93,
+      "index": 15
+    },
+    {
+      "sentence": "Okay so when you say resolved today \u2014 are we talking full visibility restored across all tenants, or is it phased?",
+      "speaker_name": "Brian Cho",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 210.6,
+      "endTime": 217.9,
+      "averageConfidence": 0.94,
+      "index": 16
+    },
+    {
+      "sentence": "It'll be phased. We're going to roll it out starting with, uh, our larger enterprise tenants first and then work down. Realistically all tenants should have visibility restored by tomorrow morning.",
+      "speaker_name": "Raj Kapoor",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 219.3,
+      "endTime": 230.6,
+      "averageConfidence": 0.92,
+      "index": 17
+    },
+    {
+      "sentence": "Okay. That's a little frustrating because I've been telling customers we're targeting end of today. Can we \u2014 is there any way to compress that timeline or is tomorrow morning pretty firm?",
+      "speaker_name": "Brian Cho",
+      "sentimentType": "negative",
+      "speaker_id": 2,
+      "time": 231.0,
+      "endTime": 242.0,
+      "averageConfidence": 0.95,
+      "index": 18
+    },
+    {
+      "sentence": "Brian, I get it, but I'd rather give customers a conservative timeline and hit it than promise end of day and miss. We've already got a credibility issue here.",
+      "speaker_name": "Raj Kapoor",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 243.3,
+      "endTime": 253.8,
+      "averageConfidence": 0.9,
+      "index": 19
+    },
+    {
+      "sentence": "Yeah, no, that's fair. That's fair. I just \u2014 I need to go back and update a lot of those tickets and some of these customers are going to push back.",
+      "speaker_name": "Brian Cho",
+      "sentimentType": "negative",
+      "speaker_id": 2,
+      "time": 255.2,
+      "endTime": 266.4,
+      "averageConfidence": 0.92,
+      "index": 20
+    },
+    {
+      "sentence": "I can help draft the updated customer communication if that's useful, Brian. I think we should have something that acknowledges the delay, explains the phased rollout without getting too deep in the weeds technically, and gives them the concrete timeline.",
+      "speaker_name": "Megan Lawson",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 267.5,
+      "endTime": 281.3,
+      "averageConfidence": 0.89,
+      "index": 21
+    },
+    {
+      "sentence": "Yeah, that would actually be really helpful. My team is stretched pretty thin right now.",
+      "speaker_name": "Brian Cho",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 282.6,
+      "endTime": 288.3,
+      "averageConfidence": 0.96,
+      "index": 22
+    },
+    {
+      "sentence": "Raj, on the six hours of no visibility \u2014 I want to make sure I understand this correctly. During that window, customers had zero threat monitoring data? Like nothing was coming through?",
+      "speaker_name": "Megan Lawson",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 289.0,
+      "endTime": 300.0,
+      "averageConfidence": 0.96,
+      "index": 23
+    },
+    {
+      "sentence": "Correct. Events were being ingested at the edge but they were just... queuing up and not processing. So from a customer-facing dashboard perspective, it looked like nothing was happening. No alerts, no detections, nothing. Which is \u2014 yeah, that's bad.",
+      "speaker_name": "Raj Kapoor",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 301.1,
+      "endTime": 315.0,
+      "averageConfidence": 0.94,
+      "index": 24
+    },
+    {
+      "sentence": "And we're confident that there were no actual threats during that window that went undetected? Or is that \u2014 can we even say that?",
+      "speaker_name": "Megan Lawson",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 315.8,
+      "endTime": 324.5,
+      "averageConfidence": 0.89,
+      "index": 25
+    },
+    {
+      "sentence": "That's a really important question and the honest answer is we've been doing retroactive processing of the queued events and so far we haven't identified any threats that were active during that window, but I want to be careful about saying definitively that nothing happened. We're still working through the backlog.",
+      "speaker_name": "Raj Kapoor",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 324.8,
+      "endTime": 342.6,
+      "averageConfidence": 0.94,
+      "index": 26
+    },
+    {
+      "sentence": "Okay so we cannot make any affirmative statements to customers about security posture during that window. Got it. Brian, make sure your team is not \u2014 if anyone's asking that question, the answer is we're doing a full retroactive analysis and we'll communicate findings.",
+      "speaker_name": "Megan Lawson",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 343.0,
+      "endTime": 358.5,
+      "averageConfidence": 0.91,
+      "index": 27
+    },
+    {
+      "sentence": "Understood. Yeah, I'll make sure that's clear in the team briefing. We've had a few customers ask exactly that and I've been kind of hedging, so it's good to have a cleaner answer.",
+      "speaker_name": "Brian Cho",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 359.6,
+      "endTime": 371.0,
+      "averageConfidence": 0.92,
+      "index": 28
+    },
+    {
+      "sentence": "Raj, what's the ETA on completing that retroactive processing? I want to know when we can close the loop on that.",
+      "speaker_name": "Megan Lawson",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 372.2,
+      "endTime": 379.3,
+      "averageConfidence": 0.96,
+      "index": 29
+    },
+    {
+      "sentence": "We're probably looking at another twenty-four hours to fully process and review the backlog. I'll have a summary report by Wednesday that we can share internally, and then we can figure out what we communicate to customers from there.",
+      "speaker_name": "Raj Kapoor",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 380.7,
+      "endTime": 394.4,
+      "averageConfidence": 0.97,
+      "index": 30
+    },
+    {
+      "sentence": "Alright. Let's talk about the postmortem briefly \u2014 not to get into the full discussion, but I want to align on the process. Are we thinking internal postmortem first and then a customer-facing summary, or are we doing those in parallel?",
+      "speaker_name": "Megan Lawson",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 395.0,
+      "endTime": 409.3,
+      "averageConfidence": 0.89,
+      "index": 31
+    },
+    {
+      "sentence": "I'd want to do the internal one first. We need to have our story straight before we put anything external out. I'm thinking we do a full engineering postmortem by end of this week, and then next week we can work on a customer-facing incident report.",
+      "speaker_name": "Raj Kapoor",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 410.7,
+      "endTime": 426.9,
+      "averageConfidence": 0.96,
+      "index": 32
+    },
+    {
+      "sentence": "That timeline works for me. Brian, from a support perspective, is there anything you need for the postmortem process? Like data from the ticket queue or customer impact analysis?",
+      "speaker_name": "Megan Lawson",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 427.9,
+      "endTime": 438.3,
+      "averageConfidence": 0.95,
+      "index": 33
+    },
+    {
+      "sentence": "Yeah, I can pull together a breakdown of affected accounts, priority tiers, how long each was impacted \u2014 that kind of thing. That should be useful for the postmortem. I'll have that ready by Thursday.",
+      "speaker_name": "Brian Cho",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 439.5,
+      "endTime": 451.7,
+      "averageConfidence": 0.97,
+      "index": 34
+    },
+    {
+      "sentence": "Perfect. Okay, so just to summarize where we are \u2014 redundant nodes going live today, circuit breaker implementation by Wednesday, full tenant visibility restored by tomorrow morning, retroactive event analysis complete by Wednesday, internal postmortem end of this week, customer-facing incident report next week. Does that capture it?",
+      "speaker_name": "Megan Lawson",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 452.1,
+      "endTime": 469.1,
+      "averageConfidence": 0.91,
+      "index": 35
+    },
+    {
+      "sentence": "That's accurate from my end.",
+      "speaker_name": "Raj Kapoor",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 470.1,
+      "endTime": 472.2,
+      "averageConfidence": 0.96,
+      "index": 36
+    },
+    {
+      "sentence": "Yeah, that matches what I've got. I'll start updating tickets this afternoon once Megan sends over draft language.",
+      "speaker_name": "Brian Cho",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 473.3,
+      "endTime": 480.1,
+      "averageConfidence": 0.94,
+      "index": 37
+    },
+    {
+      "sentence": "Great. I'll get that to you within the hour, Brian. Raj \u2014 anything else you need from me or from the product side to unblock the engineering work?",
+      "speaker_name": "Megan Lawson",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 480.9,
+      "endTime": 491.1,
+      "averageConfidence": 0.95,
+      "index": 38
+    },
+    {
+      "sentence": "Not right now. The team knows what they're doing. I'll send you both a status update this evening once the first phase of the rollout is done.",
+      "speaker_name": "Raj Kapoor",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 491.7,
+      "endTime": 501.1,
+      "averageConfidence": 0.93,
+      "index": 39
+    },
+    {
+      "sentence": "Sounds good. Thanks both. Let's talk again Wednesday to review where we are on the circuit breaker and the retroactive analysis. I'll send a hold.",
+      "speaker_name": "Megan Lawson",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 501.7,
+      "endTime": 510.5,
+      "averageConfidence": 0.97,
+      "index": 40
+    },
+    {
+      "sentence": "Works for me.",
+      "speaker_name": "Raj Kapoor",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 511.8,
+      "endTime": 513.3,
+      "averageConfidence": 0.95,
+      "index": 41
+    },
+    {
+      "sentence": "Yeah, talk Wednesday. Thanks everyone.",
+      "speaker_name": "Brian Cho",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 513.7,
+      "endTime": 515.4,
+      "averageConfidence": 0.93,
+      "index": 42
+    }
+  ]
+}

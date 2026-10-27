@@ -1,0 +1,252 @@
+[
+  {
+    "speakerName": "James Mitchell",
+    "timestamp": 3.4,
+    "endTimeTs": 8.6
+  },
+  {
+    "speakerName": "Evelyn Park",
+    "timestamp": 9.9,
+    "endTimeTs": 15.3
+  },
+  {
+    "speakerName": "James Mitchell",
+    "timestamp": 15.6,
+    "endTimeTs": 29.3
+  },
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 30.7,
+    "endTimeTs": 37.4
+  },
+  {
+    "speakerName": "Evelyn Park",
+    "timestamp": 38.1,
+    "endTimeTs": 43.9
+  },
+  {
+    "speakerName": "Ravi Gupta",
+    "timestamp": 45.2,
+    "endTimeTs": 51.4
+  },
+  {
+    "speakerName": "James Mitchell",
+    "timestamp": 52.8,
+    "endTimeTs": 71.5
+  },
+  {
+    "speakerName": "Evelyn Park",
+    "timestamp": 72.2,
+    "endTimeTs": 85.7
+  },
+  {
+    "speakerName": "James Mitchell",
+    "timestamp": 87.0,
+    "endTimeTs": 97.7
+  },
+  {
+    "speakerName": "Evelyn Park",
+    "timestamp": 98.8,
+    "endTimeTs": 118.3
+  },
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 119.1,
+    "endTimeTs": 124.3
+  },
+  {
+    "speakerName": "Evelyn Park",
+    "timestamp": 125.6,
+    "endTimeTs": 144.9
+  },
+  {
+    "speakerName": "James Mitchell",
+    "timestamp": 146.1,
+    "endTimeTs": 156.3
+  },
+  {
+    "speakerName": "Evelyn Park",
+    "timestamp": 157.6,
+    "endTimeTs": 170.7
+  },
+  {
+    "speakerName": "James Mitchell",
+    "timestamp": 172.1,
+    "endTimeTs": 186.5
+  },
+  {
+    "speakerName": "Evelyn Park",
+    "timestamp": 187.4,
+    "endTimeTs": 190.1
+  },
+  {
+    "speakerName": "Ravi Gupta",
+    "timestamp": 191.0,
+    "endTimeTs": 213.1
+  },
+  {
+    "speakerName": "Evelyn Park",
+    "timestamp": 213.8,
+    "endTimeTs": 215.9
+  },
+  {
+    "speakerName": "Ravi Gupta",
+    "timestamp": 216.8,
+    "endTimeTs": 239.3
+  },
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 240.5,
+    "endTimeTs": 255.5
+  },
+  {
+    "speakerName": "Evelyn Park",
+    "timestamp": 256.0,
+    "endTimeTs": 267.6
+  },
+  {
+    "speakerName": "James Mitchell",
+    "timestamp": 268.4,
+    "endTimeTs": 278.4
+  },
+  {
+    "speakerName": "Evelyn Park",
+    "timestamp": 278.9,
+    "endTimeTs": 305.3
+  },
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 306.1,
+    "endTimeTs": 323.0
+  },
+  {
+    "speakerName": "Evelyn Park",
+    "timestamp": 324.0,
+    "endTimeTs": 343.3
+  },
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 343.7,
+    "endTimeTs": 360.6
+  },
+  {
+    "speakerName": "Evelyn Park",
+    "timestamp": 361.4,
+    "endTimeTs": 372.4
+  },
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 373.3,
+    "endTimeTs": 381.5
+  },
+  {
+    "speakerName": "Evelyn Park",
+    "timestamp": 382.4,
+    "endTimeTs": 390.4
+  },
+  {
+    "speakerName": "James Mitchell",
+    "timestamp": 391.1,
+    "endTimeTs": 411.1
+  },
+  {
+    "speakerName": "Evelyn Park",
+    "timestamp": 411.9,
+    "endTimeTs": 416.5
+  },
+  {
+    "speakerName": "James Mitchell",
+    "timestamp": 417.3,
+    "endTimeTs": 442.3
+  },
+  {
+    "speakerName": "Evelyn Park",
+    "timestamp": 442.9,
+    "endTimeTs": 452.6
+  },
+  {
+    "speakerName": "James Mitchell",
+    "timestamp": 453.6,
+    "endTimeTs": 462.5
+  },
+  {
+    "speakerName": "Evelyn Park",
+    "timestamp": 462.9,
+    "endTimeTs": 478.4
+  },
+  {
+    "speakerName": "James Mitchell",
+    "timestamp": 478.8,
+    "endTimeTs": 495.5
+  },
+  {
+    "speakerName": "Evelyn Park",
+    "timestamp": 496.0,
+    "endTimeTs": 502.6
+  },
+  {
+    "speakerName": "Evelyn Park",
+    "timestamp": 504.0,
+    "endTimeTs": 513.8
+  },
+  {
+    "speakerName": "Ravi Gupta",
+    "timestamp": 514.6,
+    "endTimeTs": 535.9
+  },
+  {
+    "speakerName": "Evelyn Park",
+    "timestamp": 537.1,
+    "endTimeTs": 546.7
+  },
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 547.2,
+    "endTimeTs": 562.2
+  },
+  {
+    "speakerName": "Evelyn Park",
+    "timestamp": 562.8,
+    "endTimeTs": 570.4
+  },
+  {
+    "speakerName": "James Mitchell",
+    "timestamp": 571.8,
+    "endTimeTs": 593.8
+  },
+  {
+    "speakerName": "Evelyn Park",
+    "timestamp": 595.1,
+    "endTimeTs": 613.8
+  },
+  {
+    "speakerName": "James Mitchell",
+    "timestamp": 615.0,
+    "endTimeTs": 626.5
+  },
+  {
+    "speakerName": "Evelyn Park",
+    "timestamp": 627.3,
+    "endTimeTs": 639.8
+  },
+  {
+    "speakerName": "James Mitchell",
+    "timestamp": 640.6,
+    "endTimeTs": 652.3
+  },
+  {
+    "speakerName": "Evelyn Park",
+    "timestamp": 653.6,
+    "endTimeTs": 659.9
+  },
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 660.2,
+    "endTimeTs": 661.7
+  },
+  {
+    "speakerName": "Ravi Gupta",
+    "timestamp": 662.0,
+    "endTimeTs": 663.5
+  }
+]

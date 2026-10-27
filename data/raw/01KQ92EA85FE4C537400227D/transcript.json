@@ -1,0 +1,364 @@
+{
+  "data": [
+    {
+      "sentence": "Hi Warren, thanks for holding \u2014 this is Priya Patel from the Aegis support team, I'm the team lead on the compliance side of things. How are you doing today?",
+      "speaker_name": "Priya Patel",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 7.2,
+      "endTime": 17.7,
+      "averageConfidence": 0.91,
+      "index": 0
+    },
+    {
+      "sentence": "Priya! Yeah, doing well, doing well. Thanks for jumping on this \u2014 I know it's a bit of an unusual support case, but we're pretty excited about where this could go.",
+      "speaker_name": "Warren Beck",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 18.7,
+      "endTime": 30.0,
+      "averageConfidence": 0.96,
+      "index": 1
+    },
+    {
+      "sentence": "Absolutely, no that's \u2014 unusual is fine, we love those. So I've got the case here, case number 8811, and it looks like you're coming in with a feature request around custom compliance templates in Aegis Comply. Is that the right starting point?",
+      "speaker_name": "Priya Patel",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 31.5,
+      "endTime": 46.7,
+      "averageConfidence": 0.88,
+      "index": 2
+    },
+    {
+      "sentence": "That's exactly it. So, you know, we upgraded to Comply v2 \u2014 gosh, what was it, like mid-April? \u2014 and honestly the on-demand reporting has been phenomenal. The SOC 2 and the PCI DSS reports especially, our audit team is basically over the moon.",
+      "speaker_name": "Warren Beck",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 48.2,
+      "endTime": 64.0,
+      "averageConfidence": 0.88,
+      "index": 3
+    },
+    {
+      "sentence": "Oh that's great to hear, we launched v2 on April 7th so yeah you're right around that mark. And yeah the on-demand piece was a big lift for our engineering team so I'm glad it's landing well.",
+      "speaker_name": "Priya Patel",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 64.4,
+      "endTime": 77.6,
+      "averageConfidence": 0.93,
+      "index": 4
+    },
+    {
+      "sentence": "Yeah it really has. But here's the thing \u2014 we're a financial services firm, right, so on top of the standard frameworks we've got some internal control requirements. Blackridge-specific stuff that our board and our regulators kind of expect us to track. And I'm wondering if there's any way to build a custom template inside Comply that maps to those internal controls.",
+      "speaker_name": "Warren Beck",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 78.3,
+      "endTime": 99.8,
+      "averageConfidence": 0.95,
+      "index": 5
+    },
+    {
+      "sentence": "Right, so like a bespoke framework essentially \u2014 where you define the control categories, the evidence requirements, all of that, rather than using one of the out-of-the-box frameworks we ship with.",
+      "speaker_name": "Priya Patel",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 100.4,
+      "endTime": 111.5,
+      "averageConfidence": 0.96,
+      "index": 6
+    },
+    {
+      "sentence": "Exactly, yeah. We're not trying to replace SOC 2 or anything like that, we still need those. But we want something that can sit alongside them. Like maybe a Blackridge Internal Controls Report \u2014 something I can hand to our board quarterly.",
+      "speaker_name": "Warren Beck",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 112.0,
+      "endTime": 127.1,
+      "averageConfidence": 0.9,
+      "index": 7
+    },
+    {
+      "sentence": "That makes total sense, and honestly Warren this is something we've been hearing from a few of our enterprise customers, particularly on the financial services side. So you're definitely not alone in wanting this.",
+      "speaker_name": "Priya Patel",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 127.6,
+      "endTime": 139.7,
+      "averageConfidence": 0.89,
+      "index": 8
+    },
+    {
+      "sentence": "Oh good, good. So is it \u2014 I mean, is this something that's on the roadmap, or is it more of a, uh, submit-your-feedback-and-we'll-see kind of situation?",
+      "speaker_name": "Warren Beck",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 140.3,
+      "endTime": 150.0,
+      "averageConfidence": 0.88,
+      "index": 9
+    },
+    {
+      "sentence": "So I want to be transparent with you \u2014 it's not in the current GA release of v2, what you have today is the four supported frameworks. But it is something that our product team has been actively scoping. I don't want to give you a hard date because I genuinely don't have one, but it is on the near-term roadmap.",
+      "speaker_name": "Priya Patel",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 151.0,
+      "endTime": 172.6,
+      "averageConfidence": 0.93,
+      "index": 10
+    },
+    {
+      "sentence": "Okay, okay that's actually more encouraging than I expected to be honest.",
+      "speaker_name": "Warren Beck",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 174.1,
+      "endTime": 178.5,
+      "averageConfidence": 0.94,
+      "index": 11
+    },
+    {
+      "sentence": "Ha, well I'll take that! And look, what I can do \u2014 and this is something I'd really encourage \u2014 is I can formally log this as a feature request with the product team and tag it with your account specifically. That kind of direct customer attribution actually does carry weight internally when they're prioritizing.",
+      "speaker_name": "Priya Patel",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 178.9,
+      "endTime": 198.0,
+      "averageConfidence": 0.93,
+      "index": 12
+    },
+    {
+      "sentence": "Yeah, please do that. And if there's any way to like, loop me in with the product team directly \u2014 even just a call \u2014 I'd be happy to walk them through our specific use case. Sometimes I find those conversations go a long way.",
+      "speaker_name": "Warren Beck",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 198.6,
+      "endTime": 214.8,
+      "averageConfidence": 0.94,
+      "index": 13
+    },
+    {
+      "sentence": "A hundred percent, and that's actually something I can set up. We have a customer advisory track where we bring in, um, customers who are willing to provide detailed requirements and potentially participate in early access. You'd be a perfect fit for that honestly.",
+      "speaker_name": "Priya Patel",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 215.5,
+      "endTime": 230.8,
+      "averageConfidence": 0.89,
+      "index": 14
+    },
+    {
+      "sentence": "Early access \u2014 okay yeah, I like where this is going. So would that mean we could potentially get access to a beta version of custom templates before it goes GA?",
+      "speaker_name": "Warren Beck",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 231.5,
+      "endTime": 242.2,
+      "averageConfidence": 0.91,
+      "index": 15
+    },
+    {
+      "sentence": "That's the idea, yeah. Obviously it depends on how the scoping shakes out and your environment, but typically the way our early access program works is we identify a handful of design partners, you get preview builds, you provide feedback, and in exchange you get the feature earlier and you get to shape it. So it's kind of a win-win.",
+      "speaker_name": "Priya Patel",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 243.0,
+      "endTime": 264.3,
+      "averageConfidence": 0.89,
+      "index": 16
+    },
+    {
+      "sentence": "I mean that sounds \u2014 yeah, that sounds excellent. What do I need to do to opt into that?",
+      "speaker_name": "Warren Beck",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 265.4,
+      "endTime": 272.2,
+      "averageConfidence": 0.97,
+      "index": 17
+    },
+    {
+      "sentence": "So I'll send you a follow-up email after this call with a short intake form \u2014 it's not long, maybe ten minutes to fill out. It covers your use case, the types of controls you'd want to define, your reporting cadence, stuff like that. And then I'll flag your account to our product liaison and they'll reach out to schedule that conversation.",
+      "speaker_name": "Priya Patel",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 273.5,
+      "endTime": 295.0,
+      "averageConfidence": 0.95,
+      "index": 18
+    },
+    {
+      "sentence": "Perfect. And in the meantime, is there anything within what we have today that could serve as like a stopgap? Even something manual or a workaround?",
+      "speaker_name": "Warren Beck",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 295.7,
+      "endTime": 305.1,
+      "averageConfidence": 0.9,
+      "index": 19
+    },
+    {
+      "sentence": "Yeah, actually \u2014 so this isn't perfect but there are a couple of things. One is that within the existing framework reports, you can add custom control annotations and notes to individual line items. So if some of your internal controls map partially to SOC 2 criteria you could tag those. It's not a standalone report but it does let you document against those controls.",
+      "speaker_name": "Priya Patel",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 306.1,
+      "endTime": 328.9,
+      "averageConfidence": 0.91,
+      "index": 20
+    },
+    {
+      "sentence": "Oh I didn't know that \u2014 the annotation piece. Where does that live in the UI?",
+      "speaker_name": "Warren Beck",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 330.0,
+      "endTime": 335.7,
+      "averageConfidence": 0.95,
+      "index": 21
+    },
+    {
+      "sentence": "So if you go into a report \u2014 let's say your SOC 2 report \u2014 and you open any individual control item, there's a little edit icon on the right side of the control row. You can add a custom note there, and it actually gets included in the exported PDF. It's subtle but it's there.",
+      "speaker_name": "Priya Patel",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 336.5,
+      "endTime": 356.2,
+      "averageConfidence": 0.94,
+      "index": 22
+    },
+    {
+      "sentence": "Huh. Okay that's \u2014 yeah I'm going to look at that this afternoon actually. That might buy us some time until the custom template feature is available.",
+      "speaker_name": "Warren Beck",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 356.6,
+      "endTime": 365.8,
+      "averageConfidence": 0.95,
+      "index": 23
+    },
+    {
+      "sentence": "Yeah exactly, and the other thing \u2014 if you want to get really creative \u2014 you could export the report data via our API and pipe it into whatever internal reporting tool your board uses. Our Comply v2 API docs have the endpoint for pulling structured control data. Might be worth a look if your team has some dev bandwidth.",
+      "speaker_name": "Priya Patel",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 366.5,
+      "endTime": 387.9,
+      "averageConfidence": 0.95,
+      "index": 24
+    },
+    {
+      "sentence": "We do have an internal data team, yeah. I'll rope them in on that. That could actually be really useful even beyond the compliance reporting \u2014 we pull a lot of our security data into our internal dashboards.",
+      "speaker_name": "Warren Beck",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 388.4,
+      "endTime": 401.9,
+      "averageConfidence": 0.96,
+      "index": 25
+    },
+    {
+      "sentence": "Yeah totally, and once custom templates do ship, you'd presumably be able to pull those through the API too so it's all kind of additive.",
+      "speaker_name": "Priya Patel",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 403.1,
+      "endTime": 412.2,
+      "averageConfidence": 0.95,
+      "index": 26
+    },
+    {
+      "sentence": "Right, right. That's a good point. Okay so \u2014 to summarize where we landed: you're going to log the feature request, send me the intake form for the early access program, and I should look at the annotation feature and potentially the API. Is that right?",
+      "speaker_name": "Warren Beck",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 413.3,
+      "endTime": 429.5,
+      "averageConfidence": 0.9,
+      "index": 27
+    },
+    {
+      "sentence": "That's exactly right, yeah. And I'll also include links to the API docs in that follow-up email so you don't have to go hunting for them.",
+      "speaker_name": "Priya Patel",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 430.8,
+      "endTime": 439.6,
+      "averageConfidence": 0.96,
+      "index": 28
+    },
+    {
+      "sentence": "Awesome. Priya this has been genuinely one of the more productive support calls I've had in a while \u2014 usually I call support expecting to be told no, so, you know, this is a nice change.",
+      "speaker_name": "Warren Beck",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 440.2,
+      "endTime": 452.9,
+      "averageConfidence": 0.89,
+      "index": 29
+    },
+    {
+      "sentence": "Ha! Well I'm really glad. And honestly your use case is compelling \u2014 I think the product team is going to want to hear from you. I'll make sure to flag this as a priority when I write it up.",
+      "speaker_name": "Priya Patel",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 454.0,
+      "endTime": 468.0,
+      "averageConfidence": 0.93,
+      "index": 30
+    },
+    {
+      "sentence": "I appreciate that. And yeah, feel free to have them reach out directly \u2014 my calendar's usually pretty open in the mornings.",
+      "speaker_name": "Warren Beck",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 469.4,
+      "endTime": 477.5,
+      "averageConfidence": 0.93,
+      "index": 31
+    },
+    {
+      "sentence": "Will do, I'll pass that along. Alright Warren, I think we've covered everything on case 8811. I'll get that email out to you within the hour. Is there anything else before I let you go?",
+      "speaker_name": "Priya Patel",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 477.9,
+      "endTime": 490.0,
+      "averageConfidence": 0.88,
+      "index": 32
+    },
+    {
+      "sentence": "Nope, I think we're good. Thanks again Priya, really appreciate it.",
+      "speaker_name": "Warren Beck",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 490.7,
+      "endTime": 494.5,
+      "averageConfidence": 0.97,
+      "index": 33
+    },
+    {
+      "sentence": "Of course, take care Warren. Have a great weekend!",
+      "speaker_name": "Priya Patel",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 495.9,
+      "endTime": 499.3,
+      "averageConfidence": 0.89,
+      "index": 34
+    },
+    {
+      "sentence": "You too, bye!",
+      "speaker_name": "Warren Beck",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 500.5,
+      "endTime": 502.0,
+      "averageConfidence": 0.93,
+      "index": 35
+    }
+  ]
+}

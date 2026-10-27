@@ -1,0 +1,392 @@
+[
+  {
+    "speakerName": "Lisa Park",
+    "timestamp": 6.4,
+    "endTimeTs": 12.9
+  },
+  {
+    "speakerName": "Patricia Dunn",
+    "timestamp": 14.2,
+    "endTimeTs": 16.9
+  },
+  {
+    "speakerName": "Michael Russo",
+    "timestamp": 18.2,
+    "endTimeTs": 20.0
+  },
+  {
+    "speakerName": "Lisa Park",
+    "timestamp": 20.4,
+    "endTimeTs": 39.0
+  },
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 39.8,
+    "endTimeTs": 46.2
+  },
+  {
+    "speakerName": "Patricia Dunn",
+    "timestamp": 47.0,
+    "endTimeTs": 65.4
+  },
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 66.8,
+    "endTimeTs": 77.6
+  },
+  {
+    "speakerName": "Michael Russo",
+    "timestamp": 78.8,
+    "endTimeTs": 86.3
+  },
+  {
+    "speakerName": "Lisa Park",
+    "timestamp": 87.5,
+    "endTimeTs": 97.5
+  },
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 98.1,
+    "endTimeTs": 125.8
+  },
+  {
+    "speakerName": "Patricia Dunn",
+    "timestamp": 127.0,
+    "endTimeTs": 142.5
+  },
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 143.4,
+    "endTimeTs": 163.2
+  },
+  {
+    "speakerName": "Lisa Park",
+    "timestamp": 163.5,
+    "endTimeTs": 171.7
+  },
+  {
+    "speakerName": "Patricia Dunn",
+    "timestamp": 172.6,
+    "endTimeTs": 176.2
+  },
+  {
+    "speakerName": "Lisa Park",
+    "timestamp": 176.8,
+    "endTimeTs": 190.3
+  },
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 190.7,
+    "endTimeTs": 211.2
+  },
+  {
+    "speakerName": "Patricia Dunn",
+    "timestamp": 211.7,
+    "endTimeTs": 223.7
+  },
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 224.2,
+    "endTimeTs": 236.7
+  },
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 237.7,
+    "endTimeTs": 252.1
+  },
+  {
+    "speakerName": "Patricia Dunn",
+    "timestamp": 253.3,
+    "endTimeTs": 276.2
+  },
+  {
+    "speakerName": "Michael Russo",
+    "timestamp": 276.5,
+    "endTimeTs": 291.9
+  },
+  {
+    "speakerName": "Lisa Park",
+    "timestamp": 292.8,
+    "endTimeTs": 306.3
+  },
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 306.8,
+    "endTimeTs": 336.6
+  },
+  {
+    "speakerName": "Patricia Dunn",
+    "timestamp": 337.7,
+    "endTimeTs": 343.4
+  },
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 344.7,
+    "endTimeTs": 362.5
+  },
+  {
+    "speakerName": "Patricia Dunn",
+    "timestamp": 363.0,
+    "endTimeTs": 369.1
+  },
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 370.4,
+    "endTimeTs": 398.5
+  },
+  {
+    "speakerName": "Patricia Dunn",
+    "timestamp": 399.4,
+    "endTimeTs": 408.4
+  },
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 409.1,
+    "endTimeTs": 427.8
+  },
+  {
+    "speakerName": "Patricia Dunn",
+    "timestamp": 428.7,
+    "endTimeTs": 435.9
+  },
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 437.1,
+    "endTimeTs": 449.1
+  },
+  {
+    "speakerName": "Patricia Dunn",
+    "timestamp": 449.9,
+    "endTimeTs": 451.9
+  },
+  {
+    "speakerName": "Lisa Park",
+    "timestamp": 453.0,
+    "endTimeTs": 465.9
+  },
+  {
+    "speakerName": "Michael Russo",
+    "timestamp": 466.7,
+    "endTimeTs": 490.8
+  },
+  {
+    "speakerName": "Lisa Park",
+    "timestamp": 492.2,
+    "endTimeTs": 506.2
+  },
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 507.6,
+    "endTimeTs": 526.9
+  },
+  {
+    "speakerName": "Michael Russo",
+    "timestamp": 528.0,
+    "endTimeTs": 536.1
+  },
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 537.0,
+    "endTimeTs": 547.3
+  },
+  {
+    "speakerName": "Michael Russo",
+    "timestamp": 548.1,
+    "endTimeTs": 554.2
+  },
+  {
+    "speakerName": "Patricia Dunn",
+    "timestamp": 555.3,
+    "endTimeTs": 560.8
+  },
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 561.5,
+    "endTimeTs": 580.3
+  },
+  {
+    "speakerName": "Patricia Dunn",
+    "timestamp": 581.6,
+    "endTimeTs": 587.1
+  },
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 587.9,
+    "endTimeTs": 599.0
+  },
+  {
+    "speakerName": "Patricia Dunn",
+    "timestamp": 600.3,
+    "endTimeTs": 607.6
+  },
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 608.8,
+    "endTimeTs": 625.3
+  },
+  {
+    "speakerName": "Patricia Dunn",
+    "timestamp": 626.4,
+    "endTimeTs": 641.2
+  },
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 642.1,
+    "endTimeTs": 661.8
+  },
+  {
+    "speakerName": "Patricia Dunn",
+    "timestamp": 662.2,
+    "endTimeTs": 669.8
+  },
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 671.2,
+    "endTimeTs": 679.2
+  },
+  {
+    "speakerName": "Michael Russo",
+    "timestamp": 680.5,
+    "endTimeTs": 690.4
+  },
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 690.9,
+    "endTimeTs": 707.7
+  },
+  {
+    "speakerName": "Michael Russo",
+    "timestamp": 708.3,
+    "endTimeTs": 717.1
+  },
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 718.1,
+    "endTimeTs": 728.4
+  },
+  {
+    "speakerName": "Lisa Park",
+    "timestamp": 729.3,
+    "endTimeTs": 744.0
+  },
+  {
+    "speakerName": "Patricia Dunn",
+    "timestamp": 745.0,
+    "endTimeTs": 760.7
+  },
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 761.7,
+    "endTimeTs": 784.4
+  },
+  {
+    "speakerName": "Patricia Dunn",
+    "timestamp": 785.9,
+    "endTimeTs": 789.5
+  },
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 790.3,
+    "endTimeTs": 804.0
+  },
+  {
+    "speakerName": "Patricia Dunn",
+    "timestamp": 804.4,
+    "endTimeTs": 817.6
+  },
+  {
+    "speakerName": "Lisa Park",
+    "timestamp": 818.8,
+    "endTimeTs": 826.3
+  },
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 827.1,
+    "endTimeTs": 848.9
+  },
+  {
+    "speakerName": "Patricia Dunn",
+    "timestamp": 850.1,
+    "endTimeTs": 862.8
+  },
+  {
+    "speakerName": "Lisa Park",
+    "timestamp": 863.7,
+    "endTimeTs": 866.6
+  },
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 867.6,
+    "endTimeTs": 885.9
+  },
+  {
+    "speakerName": "Patricia Dunn",
+    "timestamp": 886.5,
+    "endTimeTs": 895.6
+  },
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 896.7,
+    "endTimeTs": 905.0
+  },
+  {
+    "speakerName": "Michael Russo",
+    "timestamp": 905.4,
+    "endTimeTs": 912.6
+  },
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 913.3,
+    "endTimeTs": 923.6
+  },
+  {
+    "speakerName": "Michael Russo",
+    "timestamp": 924.8,
+    "endTimeTs": 926.6
+  },
+  {
+    "speakerName": "Lisa Park",
+    "timestamp": 927.4,
+    "endTimeTs": 940.0
+  },
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 940.4,
+    "endTimeTs": 971.4
+  },
+  {
+    "speakerName": "Patricia Dunn",
+    "timestamp": 972.1,
+    "endTimeTs": 980.8
+  },
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 982.1,
+    "endTimeTs": 988.2
+  },
+  {
+    "speakerName": "Lisa Park",
+    "timestamp": 989.2,
+    "endTimeTs": 1008.0
+  },
+  {
+    "speakerName": "Patricia Dunn",
+    "timestamp": 1008.8,
+    "endTimeTs": 1019.3
+  },
+  {
+    "speakerName": "Michael Russo",
+    "timestamp": 1019.6,
+    "endTimeTs": 1023.2
+  },
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 1023.9,
+    "endTimeTs": 1025.4
+  },
+  {
+    "speakerName": "Lisa Park",
+    "timestamp": 1025.8,
+    "endTimeTs": 1029.2
+  }
+]

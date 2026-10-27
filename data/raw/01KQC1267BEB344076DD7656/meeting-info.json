@@ -1,0 +1,21 @@
+{
+  "meetingId": "01KQC1267BEB344076DD7656",
+  "title": "Aegis / Ironclad Financial - Account Recovery Check-in",
+  "organizerEmail": "maria.santos@aegiscloud.com",
+  "host": "maria.santos@aegiscloud.com",
+  "startTime": "2026-03-28T12:30:00.000Z",
+  "endTime": "2026-03-28T13:05:18.000Z",
+  "duration": 35.3,
+  "allEmails": [
+    "maria.santos@aegiscloud.com",
+    "kevin.obrien@aegiscloud.com",
+    "r.langston@ironcladfinancial.com",
+    "t.desai@ironcladfinancial.com"
+  ],
+  "invitees": [
+    "maria.santos@aegiscloud.com",
+    "kevin.obrien@aegiscloud.com",
+    "r.langston@ironcladfinancial.com",
+    "t.desai@ironcladfinancial.com"
+  ]
+}

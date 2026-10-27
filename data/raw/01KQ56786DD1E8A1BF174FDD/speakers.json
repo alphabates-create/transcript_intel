@@ -1,0 +1,217 @@
+[
+  {
+    "speakerName": "David Kim",
+    "timestamp": 6.0,
+    "endTimeTs": 11.4
+  },
+  {
+    "speakerName": "Gerald Hutchins",
+    "timestamp": 12.2,
+    "endTimeTs": 14.0
+  },
+  {
+    "speakerName": "Dana Moretti",
+    "timestamp": 14.9,
+    "endTimeTs": 16.6
+  },
+  {
+    "speakerName": "David Kim",
+    "timestamp": 17.0,
+    "endTimeTs": 27.6
+  },
+  {
+    "speakerName": "Elena Vasquez",
+    "timestamp": 28.8,
+    "endTimeTs": 40.6
+  },
+  {
+    "speakerName": "Gerald Hutchins",
+    "timestamp": 41.6,
+    "endTimeTs": 52.9
+  },
+  {
+    "speakerName": "Dana Moretti",
+    "timestamp": 54.3,
+    "endTimeTs": 61.7
+  },
+  {
+    "speakerName": "David Kim",
+    "timestamp": 62.1,
+    "endTimeTs": 78.5
+  },
+  {
+    "speakerName": "Dana Moretti",
+    "timestamp": 79.1,
+    "endTimeTs": 107.1
+  },
+  {
+    "speakerName": "Elena Vasquez",
+    "timestamp": 107.9,
+    "endTimeTs": 112.4
+  },
+  {
+    "speakerName": "Dana Moretti",
+    "timestamp": 112.9,
+    "endTimeTs": 136.1
+  },
+  {
+    "speakerName": "Elena Vasquez",
+    "timestamp": 137.6,
+    "endTimeTs": 144.0
+  },
+  {
+    "speakerName": "Gerald Hutchins",
+    "timestamp": 144.7,
+    "endTimeTs": 146.2
+  },
+  {
+    "speakerName": "Elena Vasquez",
+    "timestamp": 147.5,
+    "endTimeTs": 163.7
+  },
+  {
+    "speakerName": "David Kim",
+    "timestamp": 164.0,
+    "endTimeTs": 173.8
+  },
+  {
+    "speakerName": "Gerald Hutchins",
+    "timestamp": 174.4,
+    "endTimeTs": 178.1
+  },
+  {
+    "speakerName": "Dana Moretti",
+    "timestamp": 178.6,
+    "endTimeTs": 186.1
+  },
+  {
+    "speakerName": "Elena Vasquez",
+    "timestamp": 187.4,
+    "endTimeTs": 201.7
+  },
+  {
+    "speakerName": "Dana Moretti",
+    "timestamp": 202.6,
+    "endTimeTs": 216.7
+  },
+  {
+    "speakerName": "Elena Vasquez",
+    "timestamp": 218.0,
+    "endTimeTs": 236.4
+  },
+  {
+    "speakerName": "Gerald Hutchins",
+    "timestamp": 237.8,
+    "endTimeTs": 246.8
+  },
+  {
+    "speakerName": "Elena Vasquez",
+    "timestamp": 247.5,
+    "endTimeTs": 269.9
+  },
+  {
+    "speakerName": "Gerald Hutchins",
+    "timestamp": 270.8,
+    "endTimeTs": 273.8
+  },
+  {
+    "speakerName": "David Kim",
+    "timestamp": 274.8,
+    "endTimeTs": 291.4
+  },
+  {
+    "speakerName": "Dana Moretti",
+    "timestamp": 291.7,
+    "endTimeTs": 301.6
+  },
+  {
+    "speakerName": "Elena Vasquez",
+    "timestamp": 302.9,
+    "endTimeTs": 308.0
+  },
+  {
+    "speakerName": "Dana Moretti",
+    "timestamp": 308.6,
+    "endTimeTs": 319.9
+  },
+  {
+    "speakerName": "Elena Vasquez",
+    "timestamp": 320.6,
+    "endTimeTs": 347.9
+  },
+  {
+    "speakerName": "Dana Moretti",
+    "timestamp": 348.5,
+    "endTimeTs": 352.5
+  },
+  {
+    "speakerName": "Elena Vasquez",
+    "timestamp": 353.6,
+    "endTimeTs": 365.9
+  },
+  {
+    "speakerName": "David Kim",
+    "timestamp": 366.5,
+    "endTimeTs": 373.9
+  },
+  {
+    "speakerName": "Dana Moretti",
+    "timestamp": 375.2,
+    "endTimeTs": 386.0
+  },
+  {
+    "speakerName": "David Kim",
+    "timestamp": 386.5,
+    "endTimeTs": 391.4
+  },
+  {
+    "speakerName": "Dana Moretti",
+    "timestamp": 392.1,
+    "endTimeTs": 413.8
+  },
+  {
+    "speakerName": "Elena Vasquez",
+    "timestamp": 415.0,
+    "endTimeTs": 435.8
+  },
+  {
+    "speakerName": "Dana Moretti",
+    "timestamp": 437.1,
+    "endTimeTs": 443.7
+  },
+  {
+    "speakerName": "Elena Vasquez",
+    "timestamp": 444.8,
+    "endTimeTs": 459.6
+  },
+  {
+    "speakerName": "Gerald Hutchins",
+    "timestamp": 461.0,
+    "endTimeTs": 468.3
+  },
+  {
+    "speakerName": "Elena Vasquez",
+    "timestamp": 468.8,
+    "endTimeTs": 479.1
+  },
+  {
+    "speakerName": "Gerald Hutchins",
+    "timestamp": 479.7,
+    "endTimeTs": 490.2
+  },
+  {
+    "speakerName": "David Kim",
+    "timestamp": 491.3,
+    "endTimeTs": 506.1
+  },
+  {
+    "speakerName": "Dana Moretti",
+    "timestamp": 507.6,
+    "endTimeTs": 509.9
+  },
+  {
+    "speakerName": "Elena Vasquez",
+    "timestamp": 510.5,
+    "endTimeTs": 512.6
+  }
+]

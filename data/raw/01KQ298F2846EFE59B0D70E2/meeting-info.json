@@ -1,0 +1,23 @@
+{
+  "meetingId": "01KQ298F2846EFE59B0D70E2",
+  "title": "Competitive Threat Assessment - Post Outage",
+  "organizerEmail": "megan.lawson@aegiscloud.com",
+  "host": "megan.lawson@aegiscloud.com",
+  "startTime": "2026-03-20T15:30:00.000Z",
+  "endTime": "2026-03-20T15:56:12.000Z",
+  "duration": 26.2,
+  "allEmails": [
+    "megan.lawson@aegiscloud.com",
+    "tom.bradley@aegiscloud.com",
+    "james.mitchell@aegiscloud.com",
+    "brian.cho@aegiscloud.com",
+    "daniel.okafor@aegiscloud.com"
+  ],
+  "invitees": [
+    "megan.lawson@aegiscloud.com",
+    "tom.bradley@aegiscloud.com",
+    "james.mitchell@aegiscloud.com",
+    "brian.cho@aegiscloud.com",
+    "daniel.okafor@aegiscloud.com"
+  ]
+}

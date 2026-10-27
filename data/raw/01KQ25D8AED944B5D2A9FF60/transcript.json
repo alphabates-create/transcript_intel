@@ -1,0 +1,384 @@
+{
+  "data": [
+    {
+      "sentence": "Hi Jason, thanks for joining \u2014 this is Sarah Chen from Aegis support, I'll be handling case number 1514 for you today.",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 3.1,
+      "endTime": 10.9,
+      "averageConfidence": 0.94,
+      "index": 0
+    },
+    {
+      "sentence": "Hey Sarah, yeah thanks for getting on a call, I appreciate it \u2014 email threads on this kind of thing just go in circles.",
+      "speaker_name": "Jason Hoffman",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 11.6,
+      "endTime": 20.3,
+      "averageConfidence": 0.9,
+      "index": 1
+    },
+    {
+      "sentence": "Totally understand, it's a lot easier to just talk through it directly. So I pulled up the case before hopping on \u2014 looks like you're looking at granular restore capabilities within Aegis Protect, is that the right starting point?",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 21.0,
+      "endTime": 35.0,
+      "averageConfidence": 0.89,
+      "index": 2
+    },
+    {
+      "sentence": "Yeah, exactly. So the short version is \u2014 we had an incident internally, nothing catastrophic, but one of our analysts accidentally overwrote a set of config files in our trading platform environment, and we needed to restore just those specific files, not the whole VM or the whole volume.",
+      "speaker_name": "Jason Hoffman",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 36.4,
+      "endTime": 53.3,
+      "averageConfidence": 0.89,
+      "index": 3
+    },
+    {
+      "sentence": "Okay, got it. And when you went into Protect to try and do that, what did you run into?",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 54.5,
+      "endTime": 60.9,
+      "averageConfidence": 0.91,
+      "index": 4
+    },
+    {
+      "sentence": "So, the restore options we're seeing are basically \u2014 restore the full snapshot, or restore at the volume level. There's no way that I can find to, uh, drill down and say I want this specific directory, or these three files from this snapshot point.",
+      "speaker_name": "Jason Hoffman",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 61.9,
+      "endTime": 77.4,
+      "averageConfidence": 0.94,
+      "index": 5
+    },
+    {
+      "sentence": "Right, yeah, so that's \u2014 that's actually an accurate read of where the product is today. Granular file-level restore, like truly arbitrary path-based restore from within a snapshot, that's not currently a supported workflow in Protect.",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 78.5,
+      "endTime": 91.3,
+      "averageConfidence": 0.91,
+      "index": 6
+    },
+    {
+      "sentence": "Okay. I mean, I kind of suspected that was going to be the answer but I wanted to confirm it rather than assume.",
+      "speaker_name": "Jason Hoffman",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 92.0,
+      "endTime": 100.5,
+      "averageConfidence": 0.92,
+      "index": 7
+    },
+    {
+      "sentence": "No, absolutely right to ask. So let me just \u2014 can I ask a few more questions about the specific scenario so I can make sure I capture this accurately for the feature request ticket?",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 101.7,
+      "endTime": 114.1,
+      "averageConfidence": 0.91,
+      "index": 8
+    },
+    {
+      "sentence": "Sure, go ahead.",
+      "speaker_name": "Jason Hoffman",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 115.0,
+      "endTime": 116.5,
+      "averageConfidence": 0.96,
+      "index": 9
+    },
+    {
+      "sentence": "So the workload in question \u2014 is this an EC2 instance, a VM in a private cloud environment, or something else?",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 117.5,
+      "endTime": 125.0,
+      "averageConfidence": 0.94,
+      "index": 10
+    },
+    {
+      "sentence": "It's EC2, yeah. We're running on CloudPrime, the trading platform environment specifically is in us-east-1. The config files in question are on an EBS volume attached to the instance.",
+      "speaker_name": "Jason Hoffman",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 125.8,
+      "endTime": 136.3,
+      "averageConfidence": 0.95,
+      "index": 11
+    },
+    {
+      "sentence": "Okay, EBS-backed EC2, us-east-1. And the snapshots are being managed through Protect \u2014 so you've got a backup policy applied to that instance?",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 137.0,
+      "endTime": 145.0,
+      "averageConfidence": 0.88,
+      "index": 12
+    },
+    {
+      "sentence": "Correct, we've got an hourly snapshot policy on that environment. So the snapshots exist, they're there, it's just \u2014 we can't get to individual files without restoring the whole volume, which is kind of a nuclear option for what we actually need.",
+      "speaker_name": "Jason Hoffman",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 145.5,
+      "endTime": 160.5,
+      "averageConfidence": 0.96,
+      "index": 13
+    },
+    {
+      "sentence": "Yeah, that makes complete sense. Restoring a full volume just for a handful of config files is a lot of overhead, especially if the instance needs to stay up or there are dependency concerns. In this case, how did you ultimately resolve it \u2014 were you able to get the files back another way?",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 161.5,
+      "endTime": 180.7,
+      "averageConfidence": 0.9,
+      "index": 14
+    },
+    {
+      "sentence": "Yeah, we ended up spinning up a temporary EC2 instance, restoring the volume to that, mounting it, pulling the files manually, and then copying them back. It worked but it was, uh, it was probably a two-hour process for something that should have taken ten minutes.",
+      "speaker_name": "Jason Hoffman",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 181.7,
+      "endTime": 197.7,
+      "averageConfidence": 0.94,
+      "index": 15
+    },
+    {
+      "sentence": "Yeah, that's a pretty painful workaround. I want to be transparent with you \u2014 that manual approach is essentially what the product forces today if you need file-level granularity, and I completely acknowledge that's not a great experience.",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "negative",
+      "speaker_id": 0,
+      "time": 199.0,
+      "endTime": 212.5,
+      "averageConfidence": 0.92,
+      "index": 16
+    },
+    {
+      "sentence": "Right. And look, for a financial services environment, uh, we have pretty strict RTO requirements on certain systems. A two-hour workaround process isn't something I can count on operationally. It kind of worked this time but it's not a repeatable procedure I'd want to rely on.",
+      "speaker_name": "Jason Hoffman",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 212.9,
+      "endTime": 229.0,
+      "averageConfidence": 0.91,
+      "index": 17
+    },
+    {
+      "sentence": "Understood. And that's exactly the kind of context that's valuable to document. Can I ask \u2014 what kind of RTO are you targeting for this class of restore, roughly?",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 229.4,
+      "endTime": 239.5,
+      "averageConfidence": 0.97,
+      "index": 18
+    },
+    {
+      "sentence": "For the trading platform environment specifically, we're targeting fifteen minutes or under for file-level restores. Obviously full system recovery has a different SLA, but for \u2014 you know, config corruption or an accidental overwrite scenario \u2014 fifteen minutes is kind of our threshold.",
+      "speaker_name": "Jason Hoffman",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 240.6,
+      "endTime": 256.0,
+      "averageConfidence": 0.95,
+      "index": 19
+    },
+    {
+      "sentence": "Fifteen minutes, got that. And are we talking about, like, structured file types \u2014 configs, CSVs, that kind of thing \u2014 or do you also need to think about database-level granularity, like individual records or tables?",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 257.1,
+      "endTime": 269.6,
+      "averageConfidence": 0.9,
+      "index": 20
+    },
+    {
+      "sentence": "For now, the ask is really around file-level. Flat files, config files, maybe log archives in some cases. Database granularity is a whole other conversation, we manage that separately through our DBA team with native tooling.",
+      "speaker_name": "Jason Hoffman",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 270.0,
+      "endTime": 282.8,
+      "averageConfidence": 0.95,
+      "index": 21
+    },
+    {
+      "sentence": "Perfect, that actually simplifies things from a scoping standpoint. So I'm going to log this as a formal feature request \u2014 granular file-level restore for EBS-backed workloads, with the ability to browse the snapshot contents and select specific paths or directories for restore. Does that capture what you're looking for?",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 283.5,
+      "endTime": 301.3,
+      "averageConfidence": 0.92,
+      "index": 22
+    },
+    {
+      "sentence": "Yeah, that's the core of it. I'd also add \u2014 the ability to restore to an alternate location would be useful. So not necessarily back to the original path, but maybe restore to a staging directory so we can validate before we overwrite anything in production.",
+      "speaker_name": "Jason Hoffman",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 301.7,
+      "endTime": 317.8,
+      "averageConfidence": 0.92,
+      "index": 23
+    },
+    {
+      "sentence": "Oh, that's a good addition \u2014 restore to alternate path, so you can do a staged recovery rather than directly overwriting in place. I'll include that. Anything else that comes to mind?",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 318.3,
+      "endTime": 329.9,
+      "averageConfidence": 0.91,
+      "index": 24
+    },
+    {
+      "sentence": "Um \u2014 I mean, the ability to preview the file before restoring it would be nice. Like, just a basic metadata view, see the file size, timestamp, confirm it's the right version before you commit. But I'd call that a nice-to-have, not a blocker.",
+      "speaker_name": "Jason Hoffman",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 330.6,
+      "endTime": 346.4,
+      "averageConfidence": 0.93,
+      "index": 25
+    },
+    {
+      "sentence": "Got it, I'll flag that as a secondary ask \u2014 snapshot file browser with metadata preview. That's actually come up on a couple other accounts so it's good to have it documented with your name attached to it.",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 347.6,
+      "endTime": 361.2,
+      "averageConfidence": 0.92,
+      "index": 26
+    },
+    {
+      "sentence": "Sure. And just so I understand the process \u2014 what happens with a feature request like this? Does it just go into a backlog somewhere, or is there some kind of review cycle?",
+      "speaker_name": "Jason Hoffman",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 361.8,
+      "endTime": 373.7,
+      "averageConfidence": 0.88,
+      "index": 27
+    },
+    {
+      "sentence": "So, the way it works is \u2014 I submit this into our product feedback system, it gets triaged by the Protect product team, and they assess it based on request volume, impact, and technical feasibility. High-priority items from enterprise accounts like yours do tend to get escalated for roadmap consideration, but I can't give you a commitment on timeline.",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 374.0,
+      "endTime": 394.6,
+      "averageConfidence": 0.91,
+      "index": 28
+    },
+    {
+      "sentence": "That's fair. I'm not expecting a date, I just want to know it's not going into a black hole.",
+      "speaker_name": "Jason Hoffman",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 395.0,
+      "endTime": 402.1,
+      "averageConfidence": 0.89,
+      "index": 29
+    },
+    {
+      "sentence": "It won't \u2014 you'll have a case number attached to this, and I'll make sure your CSM gets looped in so there's a human who can give you updates on it. Speaking of which, do you want me to copy anyone specific at Meridian on the case documentation?",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 402.6,
+      "endTime": 419.8,
+      "averageConfidence": 0.91,
+      "index": 30
+    },
+    {
+      "sentence": "Yeah, if you could copy Marcus Webb on my team \u2014 he's the one who actually went through the whole workaround process, so he'll want visibility into any updates.",
+      "speaker_name": "Jason Hoffman",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 421.3,
+      "endTime": 432.0,
+      "averageConfidence": 0.94,
+      "index": 31
+    },
+    {
+      "sentence": "Marcus Webb, got it, I'll add him to the case. And just to close the loop \u2014 is there anything else on the immediate side that's blocking you, or is this more of a forward-looking ask at this point?",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 433.3,
+      "endTime": 447.0,
+      "averageConfidence": 0.93,
+      "index": 32
+    },
+    {
+      "sentence": "It's forward-looking. The immediate incident is resolved, we're not down or anything. It's more \u2014 I don't want to be in that situation again and have the same painful workaround be my only option.",
+      "speaker_name": "Jason Hoffman",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 448.1,
+      "endTime": 460.1,
+      "averageConfidence": 0.91,
+      "index": 33
+    },
+    {
+      "sentence": "Completely reasonable. Alright, so to summarize \u2014 I've got the feature request documented: granular file-level restore from EBS snapshots, restore to alternate path support, and file metadata preview as a secondary ask. Case 1514, I'll get Marcus added, and I'll loop in your CSM for follow-up. Does that cover everything?",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 460.4,
+      "endTime": 478.4,
+      "averageConfidence": 0.93,
+      "index": 34
+    },
+    {
+      "sentence": "Yeah, that covers it. Thanks for being straightforward about where the product is today \u2014 I'd rather have an honest answer than get told it's coming soon and then wait a year.",
+      "speaker_name": "Jason Hoffman",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 479.2,
+      "endTime": 490.8,
+      "averageConfidence": 0.94,
+      "index": 35
+    },
+    {
+      "sentence": "Yeah, I think that's the only way to have a useful conversation. Alright, Jason \u2014 I'll get the case updated today and you should see the documentation in your portal within the hour. Thanks for your time.",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 491.8,
+      "endTime": 504.7,
+      "averageConfidence": 0.92,
+      "index": 36
+    },
+    {
+      "sentence": "Sounds good, thanks Sarah.",
+      "speaker_name": "Jason Hoffman",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 505.1,
+      "endTime": 506.6,
+      "averageConfidence": 0.88,
+      "index": 37
+    }
+  ]
+}

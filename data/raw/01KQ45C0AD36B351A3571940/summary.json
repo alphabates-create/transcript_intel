@@ -1,0 +1,46 @@
+{
+  "summary": "Kevin O'Brien demoed Aegis Comply v2 to Dominic Flores of Silverline, with the call timed well ahead of Silverline's PCI DSS renewal audit in six weeks. The key highlights included on-demand compliance reporting (down to ~8 seconds), native support for PCI DSS, SOC 2, HIPAA, and ISO 27001 in one platform, and detailed gap analysis with remediation guidance. Dominic was highly enthusiastic, noting that this addresses real pain points including slow report generation, fragmented tooling, and difficulty communicating gaps to leadership. Next steps include scheduling a hands-on walkthrough with Silverline's compliance lead after the GA release on April 7th.",
+  "actionItems": [
+    "Kevin O'Brien: Send scheduling link today for post-GA hands-on walkthrough with Dominic's compliance lead",
+    "Kevin O'Brien: Send Comply v2 release notes and PCI DSS mapping documentation to Dominic ahead of the walkthrough",
+    "Kevin O'Brien: Flag comparison/diff view feature request to the product team",
+    "Dominic Flores: Loop compliance lead into the scheduling link and share pre-read documentation with her"
+  ],
+  "topics": [
+    "compliance",
+    "pci dss",
+    "product demo",
+    "audit readiness",
+    "feature request",
+    "product integration"
+  ],
+  "overallSentiment": "very-positive",
+  "sentimentScore": 4.8,
+  "keyMoments": [
+    {
+      "time": 97.0,
+      "text": "Dominic identifies slow batch reporting as a historical pain point, validating the core value of v2's on-demand engine",
+      "type": "concern",
+      "speaker": "Dominic Flores"
+    },
+    {
+      "time": 215.0,
+      "text": "Dominic reacts strongly to the 8-9 second report generation time and says he needs to send this to his audit team immediately",
+      "type": "positive_pivot",
+      "speaker": "Dominic Flores"
+    },
+    {
+      "time": 310.0,
+      "text": "Dominic asks about a side-by-side comparison view for reports; Kevin confirms it is on the Q3 roadmap but not yet available",
+      "type": "feature_gap",
+      "speaker": "Dominic Flores"
+    },
+    {
+      "time": 530.0,
+      "text": "Dominic describes the demo as one of the more exciting he has sat through and confirms the features address immediate real needs ahead of their audit",
+      "type": "praise",
+      "speaker": "Dominic Flores"
+    }
+  ],
+  "meetingId": "01KQ45C0AD36B351A3571940"
+}

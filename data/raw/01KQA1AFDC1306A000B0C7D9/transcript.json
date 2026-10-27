@@ -1,0 +1,554 @@
+{
+  "data": [
+    {
+      "sentence": "Good morning Raymond, thanks so much for making time for us today \u2014 I know your calendar's been absolutely packed lately.",
+      "speaker_name": "Lisa Park",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 3.4,
+      "endTime": 11.1,
+      "averageConfidence": 0.92,
+      "index": 0
+    },
+    {
+      "sentence": "Ha, yeah no kidding, it has been a wild couple of weeks but honestly this is one of the calls I was actually looking forward to, so here we are.",
+      "speaker_name": "Raymond Burke",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 12.2,
+      "endTime": 22.6,
+      "averageConfidence": 0.9,
+      "index": 1
+    },
+    {
+      "sentence": "That's great to hear! And Raymond, I don't think you've met Aisha yet \u2014 she's going to be your dedicated Customer Success Manager throughout the onboarding process, so I wanted to bring her in today.",
+      "speaker_name": "Lisa Park",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 23.3,
+      "endTime": 36.1,
+      "averageConfidence": 0.94,
+      "index": 2
+    },
+    {
+      "sentence": "Hi Raymond, really excited to be working with you and the Vanta Health team \u2014 I've done a bit of reading up on your organization and I think we have a lot of good stuff to dig into today.",
+      "speaker_name": "Aisha Johnson",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 36.4,
+      "endTime": 49.9,
+      "averageConfidence": 0.93,
+      "index": 3
+    },
+    {
+      "sentence": "Aisha, great to meet you, and yeah I'm glad to have a dedicated point of contact because honestly that was one of the things that sold us \u2014 knowing we'd have someone in our corner rather than just, you know, opening a ticket and hoping for the best.",
+      "speaker_name": "Raymond Burke",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 50.7,
+      "endTime": 67.7,
+      "averageConfidence": 0.92,
+      "index": 4
+    },
+    {
+      "sentence": "Absolutely, that's exactly the experience we want to build here, and we'll make sure you always have a direct line to me for anything that comes up.",
+      "speaker_name": "Aisha Johnson",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 69.1,
+      "endTime": 78.4,
+      "averageConfidence": 0.9,
+      "index": 5
+    },
+    {
+      "sentence": "So Raymond, just to set the stage for today \u2014 the goal of this workshop is really to dig into your backup strategy, understand your current environment at Vanta Health, and start mapping out how Aegis Protect can fit into what you're already doing, does that sound right to you?",
+      "speaker_name": "Lisa Park",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 79.5,
+      "endTime": 97.4,
+      "averageConfidence": 0.94,
+      "index": 6
+    },
+    {
+      "sentence": "Yeah that's exactly right, and I'll be honest, backup and recovery has been kind of a sore subject for us internally for a while now, so I'm really hoping we can come out of this with a clearer picture of where we're headed.",
+      "speaker_name": "Raymond Burke",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 98.5,
+      "endTime": 113.2,
+      "averageConfidence": 0.91,
+      "index": 7
+    },
+    {
+      "sentence": "Tell me more about that \u2014 what's been the pain point on the backup side specifically?",
+      "speaker_name": "Aisha Johnson",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 114.3,
+      "endTime": 120.2,
+      "averageConfidence": 0.91,
+      "index": 8
+    },
+    {
+      "sentence": "So, um, a big part of it is that we're running a pretty hybrid environment right now \u2014 we've got on-prem systems that are still housing a lot of our legacy EHR data, and then we've been migrating chunks of workloads to CloudPrime over the past eighteen months or so, and the backup story across those two worlds has just been... fragmented, I guess is the word.",
+      "speaker_name": "Raymond Burke",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 121.1,
+      "endTime": 144.8,
+      "averageConfidence": 0.94,
+      "index": 9
+    },
+    {
+      "sentence": "Yeah that's actually one of the most common things we hear from healthcare organizations specifically, because you've got all this legacy clinical data that you can't just lift and shift overnight, and then you're also trying to modernize at the same time.",
+      "speaker_name": "Aisha Johnson",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 146.0,
+      "endTime": 160.8,
+      "averageConfidence": 0.94,
+      "index": 10
+    },
+    {
+      "sentence": "Exactly, and on top of that we've got HIPAA requirements hanging over everything, so every backup decision also has to go through a compliance lens which slows things down even more.",
+      "speaker_name": "Raymond Burke",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 161.4,
+      "endTime": 172.4,
+      "averageConfidence": 0.96,
+      "index": 11
+    },
+    {
+      "sentence": "Right, and that's something Aegis Protect is built to handle \u2014 the encryption at rest and in transit is all HIPAA-aligned out of the box, and we can talk through how that maps to your specific data classification policies if you want to get into that.",
+      "speaker_name": "Lisa Park",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 173.1,
+      "endTime": 189.3,
+      "averageConfidence": 0.91,
+      "index": 12
+    },
+    {
+      "sentence": "Yes, that is something I definitely want to get into, but maybe let me give you a bit more context first on what our environment actually looks like.",
+      "speaker_name": "Raymond Burke",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 190.7,
+      "endTime": 200.3,
+      "averageConfidence": 0.92,
+      "index": 13
+    },
+    {
+      "sentence": "Please, yes, go ahead.",
+      "speaker_name": "Aisha Johnson",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 201.0,
+      "endTime": 202.5,
+      "averageConfidence": 0.94,
+      "index": 14
+    },
+    {
+      "sentence": "So we've got roughly four hundred and fifty virtual machines across our on-prem data centers \u2014 two locations, one in Chicago, one in Denver \u2014 and then we've got a growing CloudPrime footprint, probably around eighty EC2 instances right now with RDS databases, and we're also using some S3 for unstructured data, imaging files mostly, which in healthcare as you can imagine is enormous.",
+      "speaker_name": "Raymond Burke",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 203.3,
+      "endTime": 225.9,
+      "averageConfidence": 0.95,
+      "index": 15
+    },
+    {
+      "sentence": "Yeah, medical imaging data is no joke in terms of volume, are we talking DICOM files primarily?",
+      "speaker_name": "Aisha Johnson",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 226.9,
+      "endTime": 232.7,
+      "averageConfidence": 0.93,
+      "index": 16
+    },
+    {
+      "sentence": "DICOM, yeah, and we've got somewhere in the range of two hundred terabytes of imaging data sitting in S3 right now and it's growing, uh, I want to say we're adding maybe fifteen to twenty terabytes a month at this point.",
+      "speaker_name": "Raymond Burke",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 233.4,
+      "endTime": 248.0,
+      "averageConfidence": 0.95,
+      "index": 17
+    },
+    {
+      "sentence": "Okay, that's really helpful context \u2014 so when you think about recovery objectives, what does your current RTO and RPO look like for your most critical systems, like your EHR for example?",
+      "speaker_name": "Aisha Johnson",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 249.1,
+      "endTime": 260.7,
+      "averageConfidence": 0.95,
+      "index": 18
+    },
+    {
+      "sentence": "So this is actually where it gets a little embarrassing \u2014 our documented RTO for the EHR is four hours, RPO is one hour, but I will tell you candidly that we have never actually tested a full restore at that scale and I have very low confidence that we'd hit those numbers with our current tooling.",
+      "speaker_name": "Raymond Burke",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 261.9,
+      "endTime": 282.1,
+      "averageConfidence": 0.96,
+      "index": 19
+    },
+    {
+      "sentence": "I really appreciate you being upfront about that Raymond because that is honestly more common than people admit, and the good news is that's exactly the kind of thing we can help you get to a place of actual confidence on.",
+      "speaker_name": "Lisa Park",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 282.8,
+      "endTime": 297.3,
+      "averageConfidence": 0.88,
+      "index": 20
+    },
+    {
+      "sentence": "Yeah and that's, that's really what I want \u2014 I want to be able to walk into my CISO's office and say look, we have tested this, we know it works, here's the evidence, rather than just hoping we never have to find out.",
+      "speaker_name": "Raymond Burke",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 298.1,
+      "endTime": 313.5,
+      "averageConfidence": 0.93,
+      "index": 21
+    },
+    {
+      "sentence": "So Aegis Protect has an automated recovery testing feature \u2014 essentially it can spin up isolated sandbox environments and run restore validation on a scheduled basis, and you get reports that show you actual recovery time metrics against your defined objectives, which is something your CISO is going to love.",
+      "speaker_name": "Aisha Johnson",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 314.3,
+      "endTime": 332.2,
+      "averageConfidence": 0.93,
+      "index": 22
+    },
+    {
+      "sentence": "Wait, it actually runs the test automatically? Like I don't have to schedule a maintenance window and have my team babysit it?",
+      "speaker_name": "Raymond Burke",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 333.0,
+      "endTime": 341.1,
+      "averageConfidence": 0.92,
+      "index": 23
+    },
+    {
+      "sentence": "That's right \u2014 you configure the schedule, define the recovery objectives, and the platform handles the orchestration, and then you get a report in your dashboard with pass/fail status and the actual measured RTOs.",
+      "speaker_name": "Aisha Johnson",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 342.5,
+      "endTime": 354.4,
+      "averageConfidence": 0.94,
+      "index": 24
+    },
+    {
+      "sentence": "Okay that is genuinely exciting because our current process for even attempting a restore test is like a whole weekend project that nobody wants to volunteer for.",
+      "speaker_name": "Raymond Burke",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 355.5,
+      "endTime": 365.4,
+      "averageConfidence": 0.9,
+      "index": 25
+    },
+    {
+      "sentence": "Ha, yeah I have heard that from so many customers, the restore test that never happens because it's too painful to run.",
+      "speaker_name": "Lisa Park",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 366.8,
+      "endTime": 374.9,
+      "averageConfidence": 0.92,
+      "index": 26
+    },
+    {
+      "sentence": "Exactly, so let's talk about the hybrid piece because that's maybe my biggest concern \u2014 can Aegis Protect actually manage backups across the on-prem VMware environment and CloudPrime from a single pane of glass?",
+      "speaker_name": "Raymond Burke",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 375.3,
+      "endTime": 387.0,
+      "averageConfidence": 0.89,
+      "index": 27
+    },
+    {
+      "sentence": "Yes, that's a core capability \u2014 there's a lightweight agent that deploys to your on-prem hosts and it feeds into the same Aegis Protect console where you're managing your CloudPrime workloads, so you get unified visibility, unified policy management, and unified reporting all in one place.",
+      "speaker_name": "Aisha Johnson",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 388.5,
+      "endTime": 404.4,
+      "averageConfidence": 0.89,
+      "index": 28
+    },
+    {
+      "sentence": "And for the VMware side specifically, does it do image-level backups or are we talking agent-based on each VM?",
+      "speaker_name": "Raymond Burke",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 404.9,
+      "endTime": 411.3,
+      "averageConfidence": 0.97,
+      "index": 29
+    },
+    {
+      "sentence": "Image-level via the vSphere APIs, so it's agentless on the individual VMs \u2014 the host agent handles the snapshots and change block tracking, which also means your backup windows are significantly shorter because you're only capturing deltas after the initial full.",
+      "speaker_name": "Aisha Johnson",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 411.9,
+      "endTime": 425.9,
+      "averageConfidence": 0.94,
+      "index": 30
+    },
+    {
+      "sentence": "Okay that's good, our current solution requires agents on every VM and it is \u2014 it is a mess, especially when VMs get spun up and someone forgets to install the agent and suddenly that workload has no backup coverage and we don't find out until there's a problem.",
+      "speaker_name": "Raymond Burke",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 426.7,
+      "endTime": 444.3,
+      "averageConfidence": 0.92,
+      "index": 31
+    },
+    {
+      "sentence": "Yeah, the coverage gap problem is real and it's actually something Aegis Protect has built-in alerting for \u2014 if a new VM comes online and isn't associated with a backup policy within a configurable time window, you get an alert, so nothing falls through the cracks.",
+      "speaker_name": "Lisa Park",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 445.2,
+      "endTime": 461.6,
+      "averageConfidence": 0.9,
+      "index": 32
+    },
+    {
+      "sentence": "That alone is worth a lot to me, honestly, because I've had conversations with my team where we realized post-incident that something critical wasn't being backed up and it's just... not a fun conversation.",
+      "speaker_name": "Raymond Burke",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 461.9,
+      "endTime": 473.5,
+      "averageConfidence": 0.96,
+      "index": 33
+    },
+    {
+      "sentence": "Completely understandable, and I think as we get into the implementation planning you're going to find a lot of these workflow gaps just kind of close naturally as part of how the platform is designed.",
+      "speaker_name": "Aisha Johnson",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 474.8,
+      "endTime": 487.2,
+      "averageConfidence": 0.93,
+      "index": 34
+    },
+    {
+      "sentence": "I want to also ask about the retention side \u2014 we have some regulatory requirements around how long certain patient data backups need to be retained, and it varies by data type, so I need something that can handle tiered retention policies.",
+      "speaker_name": "Raymond Burke",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 487.9,
+      "endTime": 502.8,
+      "averageConfidence": 0.92,
+      "index": 35
+    },
+    {
+      "sentence": "Yes, Aegis Protect supports granular retention policies at the workload level, so you can have different retention schedules for different backup sets \u2014 you might have your EHR on a seven year retention for compliance while something like a dev environment is on thirty days, and all of that is managed centrally.",
+      "speaker_name": "Aisha Johnson",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 504.0,
+      "endTime": 522.5,
+      "averageConfidence": 0.93,
+      "index": 36
+    },
+    {
+      "sentence": "Seven years is actually exactly what we need for our clinical records under state regulations, so that's great to hear.",
+      "speaker_name": "Raymond Burke",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 523.4,
+      "endTime": 530.5,
+      "averageConfidence": 0.96,
+      "index": 37
+    },
+    {
+      "sentence": "And all of that archived data is encrypted with keys that you control \u2014 we support bring your own key if your compliance posture requires that level of control.",
+      "speaker_name": "Lisa Park",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 531.5,
+      "endTime": 541.5,
+      "averageConfidence": 0.9,
+      "index": 38
+    },
+    {
+      "sentence": "BYOK support is something our security team is going to ask about for sure, so good to have that in my back pocket.",
+      "speaker_name": "Raymond Burke",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 542.8,
+      "endTime": 550.8,
+      "averageConfidence": 0.96,
+      "index": 39
+    },
+    {
+      "sentence": "Okay so let me just kind of summarize where I think we are and then we can talk about next steps \u2014 Raymond, it sounds like your primary priorities are getting unified backup coverage across hybrid, getting to tested and documented RTOs you can actually stand behind, handling tiered retention for compliance, and making sure the HIPAA encryption requirements are covered, does that feel right?",
+      "speaker_name": "Aisha Johnson",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 551.5,
+      "endTime": 574.1,
+      "averageConfidence": 0.97,
+      "index": 40
+    },
+    {
+      "sentence": "Yeah that's a really good summary, and I'd add one more which is just overall visibility \u2014 I want to know at any given moment what is backed up, when was the last successful backup, what's the status, without having to dig through multiple tools.",
+      "speaker_name": "Raymond Burke",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 574.7,
+      "endTime": 590.6,
+      "averageConfidence": 0.93,
+      "index": 41
+    },
+    {
+      "sentence": "Love that addition, and the Aegis Protect dashboard is very much built around that operational visibility use case, we can actually do a deeper demo of the dashboard UI in our next session if that would be helpful.",
+      "speaker_name": "Lisa Park",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 591.1,
+      "endTime": 604.3,
+      "averageConfidence": 0.94,
+      "index": 42
+    },
+    {
+      "sentence": "Yes, absolutely, and can we also get into the implementation timeline? I want to understand what the rollout looks like and what we need from our side to make it go smoothly.",
+      "speaker_name": "Raymond Burke",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 604.8,
+      "endTime": 616.4,
+      "averageConfidence": 0.89,
+      "index": 43
+    },
+    {
+      "sentence": "Definitely \u2014 what I'll do is put together a proposed implementation plan based on everything we've discussed today, I'm thinking a phased approach where we start with your CloudPrime workloads since those are newer and probably faster to onboard, and then tackle the on-prem VMware environment in phase two, does that logic make sense?",
+      "speaker_name": "Aisha Johnson",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 617.7,
+      "endTime": 636.4,
+      "averageConfidence": 0.93,
+      "index": 44
+    },
+    {
+      "sentence": "Yeah that makes a lot of sense, get some wins under our belt on the cloud side and then work through the more complex on-prem piece.",
+      "speaker_name": "Raymond Burke",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 637.9,
+      "endTime": 647.0,
+      "averageConfidence": 0.9,
+      "index": 45
+    },
+    {
+      "sentence": "Exactly, and I'll also include some pre-work items for your team \u2014 things like network access requirements, vSphere API credentials, IAM roles on the CloudPrime side \u2014 so you're not surprised by any dependencies when we kick off.",
+      "speaker_name": "Aisha Johnson",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 647.7,
+      "endTime": 661.3,
+      "averageConfidence": 0.97,
+      "index": 46
+    },
+    {
+      "sentence": "That is really appreciated, the checklist approach is helpful because I can distribute that to my team and we can start getting stuff lined up in parallel.",
+      "speaker_name": "Raymond Burke",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 662.4,
+      "endTime": 671.7,
+      "averageConfidence": 0.97,
+      "index": 47
+    },
+    {
+      "sentence": "Raymond this has been such a great conversation, I feel like we've got a really solid foundation to build from \u2014 is there anything else you want to make sure we covered before we wrap up?",
+      "speaker_name": "Lisa Park",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 672.5,
+      "endTime": 685.2,
+      "averageConfidence": 0.88,
+      "index": 48
+    },
+    {
+      "sentence": "I think we got what I needed for today, honestly more than I expected \u2014 I'm going to loop in my infrastructure lead for the next session so she can dig into the technical details on the VMware integration side.",
+      "speaker_name": "Raymond Burke",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 685.7,
+      "endTime": 700.1,
+      "averageConfidence": 0.97,
+      "index": 49
+    },
+    {
+      "sentence": "Perfect, yes please bring her in, the more technical context we have the better the implementation plan will be.",
+      "speaker_name": "Aisha Johnson",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 701.4,
+      "endTime": 708.5,
+      "averageConfidence": 0.97,
+      "index": 50
+    },
+    {
+      "sentence": "Alright, I'll get a follow-up invite on the calendar for next week, I'll send over the implementation plan draft and the dashboard demo agenda before then so you and your team can review ahead of time.",
+      "speaker_name": "Lisa Park",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 708.9,
+      "endTime": 721.7,
+      "averageConfidence": 0.94,
+      "index": 51
+    },
+    {
+      "sentence": "Sounds great, I'm really looking forward to it \u2014 thanks Lisa, thanks Aisha, this was a really productive session.",
+      "speaker_name": "Raymond Burke",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 722.6,
+      "endTime": 729.2,
+      "averageConfidence": 0.97,
+      "index": 52
+    },
+    {
+      "sentence": "Thank you Raymond, we're really excited to be working with Vanta Health on this, talk soon!",
+      "speaker_name": "Aisha Johnson",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 730.5,
+      "endTime": 736.5,
+      "averageConfidence": 0.94,
+      "index": 53
+    },
+    {
+      "sentence": "Take care Raymond, we'll be in touch!",
+      "speaker_name": "Lisa Park",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 737.9,
+      "endTime": 740.7,
+      "averageConfidence": 0.96,
+      "index": 54
+    }
+  ]
+}

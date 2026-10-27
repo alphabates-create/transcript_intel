@@ -1,0 +1,21 @@
+{
+  "meetingId": "01KQADF3D76E82BF8BA19AF2",
+  "title": "All Hands - February Wrap",
+  "organizerEmail": "nina.kowalski@aegiscloud.com",
+  "host": "nina.kowalski@aegiscloud.com",
+  "startTime": "2026-02-28T11:00:00.000Z",
+  "endTime": "2026-02-28T11:20:30.000Z",
+  "duration": 20.5,
+  "allEmails": [
+    "nina.kowalski@aegiscloud.com",
+    "diana.reeves@aegiscloud.com",
+    "raj.kapoor@aegiscloud.com",
+    "megan.lawson@aegiscloud.com"
+  ],
+  "invitees": [
+    "nina.kowalski@aegiscloud.com",
+    "diana.reeves@aegiscloud.com",
+    "raj.kapoor@aegiscloud.com",
+    "megan.lawson@aegiscloud.com"
+  ]
+}

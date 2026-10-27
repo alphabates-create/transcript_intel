@@ -1,0 +1,46 @@
+{
+  "summary": "Hannah, Ananya, and Mike held a design review call for Comply v2 ahead of the April GA launch. They aligned on an async report generation model with P90 latency of 45 seconds to 2 minutes, and confirmed a unified evidence store architecture to handle overlapping compliance frameworks (SOC 2, ISO 27001, HIPAA, PCI DSS). PDF export was confirmed in scope using headless rendering, while report annotations were deferred to v2.1. The team expressed strong confidence in the April date, with a load test planned for mid-March to validate queue performance under concurrent usage.",
+  "actionItems": [
+    "Mike Romano: Share a sample PDF report with placeholder data to the shared drive today",
+    "Hannah Liu: Update the spec doc with agreed decisions and send for final review",
+    "Ananya Sharma: Execute mid-March load test simulating concurrent report jobs to validate queue and worker scaling",
+    "Hannah Liu: Move report annotation feature to the v2.1 backlog"
+  ],
+  "topics": [
+    "design review",
+    "compliance reporting",
+    "multi-framework support",
+    "pdf export",
+    "performance testing",
+    "roadmap planning"
+  ],
+  "overallSentiment": "positive",
+  "sentimentScore": 4.4,
+  "keyMoments": [
+    {
+      "time": 95.0,
+      "text": "Ananya explains the async report generation model, resolving a key latency concern with P90 times of 45 seconds to 2 minutes",
+      "type": "positive_pivot",
+      "speaker": "Ananya Sharma"
+    },
+    {
+      "time": 310.0,
+      "text": "Ananya describes the unified evidence store architecture that prevents duplicate evidence collection across overlapping frameworks",
+      "type": "positive_pivot",
+      "speaker": "Ananya Sharma"
+    },
+    {
+      "time": 530.0,
+      "text": "Team decides to punt report annotation feature to v2.1 to keep the April release focused on core on-demand generation",
+      "type": "action_item",
+      "speaker": "Mike Romano"
+    },
+    {
+      "time": 620.0,
+      "text": "Mike flags the need for a performance testing plan to ensure the report generation queue holds up under concurrent load at scale",
+      "type": "concern",
+      "speaker": "Mike Romano"
+    }
+  ],
+  "meetingId": "01KQB3B16F255B65F39597D0"
+}

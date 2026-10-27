@@ -1,0 +1,26 @@
+[
+  {
+    "participantName": "Sarah Chen",
+    "timestamp": 1770369329000,
+    "type": "Join",
+    "time": 29.0
+  },
+  {
+    "participantName": "Gregory Fisk",
+    "timestamp": 1770369332000,
+    "type": "Join",
+    "time": 32.0
+  },
+  {
+    "participantName": "Sarah Chen",
+    "timestamp": 1770370709000,
+    "type": "Leave",
+    "time": 1409.0
+  },
+  {
+    "participantName": "Gregory Fisk",
+    "timestamp": 1770370715000,
+    "type": "Leave",
+    "time": 1415.0
+  }
+]

@@ -1,0 +1,424 @@
+{
+  "data": [
+    {
+      "sentence": "Hi, this is Elena Vasquez from Aegis Cloud Security support, am I speaking with Dana Moretti?",
+      "speaker_name": "Elena Vasquez",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 6.8,
+      "endTime": 12.6,
+      "averageConfidence": 0.91,
+      "index": 0
+    },
+    {
+      "sentence": "Yeah, that's me. Hi Elena, thanks for calling back on this.",
+      "speaker_name": "Dana Moretti",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 13.7,
+      "endTime": 17.6,
+      "averageConfidence": 0.9,
+      "index": 1
+    },
+    {
+      "sentence": "Of course, so I'm calling regarding support case number 7537, the Detect recovery confirmation for Forge Industries \u2014 is this still a good time?",
+      "speaker_name": "Elena Vasquez",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 19.1,
+      "endTime": 27.3,
+      "averageConfidence": 0.89,
+      "index": 2
+    },
+    {
+      "sentence": "Yeah, yeah, now works. I've got about thirty minutes so let's get into it.",
+      "speaker_name": "Dana Moretti",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 28.8,
+      "endTime": 33.8,
+      "averageConfidence": 0.94,
+      "index": 3
+    },
+    {
+      "sentence": "Perfect. So, uh, just to level set, I wanted to walk through with you what happened over the past several days with the Detect platform, confirm the current status from your end, and then just make sure we've covered everything before we close out the case.",
+      "speaker_name": "Elena Vasquez",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 34.2,
+      "endTime": 50.5,
+      "averageConfidence": 0.88,
+      "index": 4
+    },
+    {
+      "sentence": "That works for me. Yeah, I mean, it's been a rough week honestly. We lost visibility for, what, around six hours on \u2014 I think it was the twelfth?",
+      "speaker_name": "Dana Moretti",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 51.1,
+      "endTime": 61.0,
+      "averageConfidence": 0.92,
+      "index": 5
+    },
+    {
+      "sentence": "So the outage actually started on March 10th and the full restoration was confirmed by our team on March 18th, which is today. The most acute period \u2014 the window where event processing was completely down \u2014 that was approximately six hours starting late on the tenth, you're right about the duration.",
+      "speaker_name": "Elena Vasquez",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 61.3,
+      "endTime": 79.5,
+      "averageConfidence": 0.95,
+      "index": 6
+    },
+    {
+      "sentence": "Okay, right, right. The tenth. Yeah, that's when our alerts just stopped coming through entirely. My team flagged it maybe an hour in and then we opened the ticket.",
+      "speaker_name": "Dana Moretti",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 80.4,
+      "endTime": 90.5,
+      "averageConfidence": 0.95,
+      "index": 7
+    },
+    {
+      "sentence": "Yeah, and we received that, we logged it. So let me just walk you through the root cause at a high level, because I want to make sure you have that documented on your end as well.",
+      "speaker_name": "Elena Vasquez",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 91.2,
+      "endTime": 104.6,
+      "averageConfidence": 0.89,
+      "index": 8
+    },
+    {
+      "sentence": "Please, yeah, I need to put something together for my CISO this week so any detail you can give me is helpful.",
+      "speaker_name": "Dana Moretti",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 105.8,
+      "endTime": 113.9,
+      "averageConfidence": 0.92,
+      "index": 9
+    },
+    {
+      "sentence": "Absolutely, so the root cause was a cascading failure in the event processing pipeline. Essentially what happened is there was a single point of failure in our event ingestion layer \u2014 so when that component went down, it took the entire processing pipeline with it, which is why you saw a complete loss of threat monitoring visibility rather than just degraded performance.",
+      "speaker_name": "Elena Vasquez",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 114.6,
+      "endTime": 136.4,
+      "averageConfidence": 0.97,
+      "index": 10
+    },
+    {
+      "sentence": "Right, and that's \u2014 I mean, that's the part that concerns me from an architectural standpoint. Like, a single point of failure in something as critical as threat monitoring, that's... that's not a small thing.",
+      "speaker_name": "Dana Moretti",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 137.0,
+      "endTime": 149.5,
+      "averageConfidence": 0.93,
+      "index": 11
+    },
+    {
+      "sentence": "No, you're right, and I'm not going to minimize that. It's a significant issue and our engineering team has been very direct internally about that as well.",
+      "speaker_name": "Elena Vasquez",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 150.4,
+      "endTime": 159.6,
+      "averageConfidence": 0.9,
+      "index": 12
+    },
+    {
+      "sentence": "Okay. So what did you actually do to fix it? Like, is this a patch or a real architectural change?",
+      "speaker_name": "Dana Moretti",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 160.9,
+      "endTime": 167.7,
+      "averageConfidence": 0.96,
+      "index": 13
+    },
+    {
+      "sentence": "It's a real architectural change, not just a patch. Two things were implemented. First, redundant processing nodes were added to the event ingestion layer \u2014 so there's no longer a single point of failure there, if one node goes down the others pick up the load. And second, a circuit breaker pattern was implemented, so if a component does start to fail, it isolates that failure before it can cascade through the rest of the pipeline.",
+      "speaker_name": "Elena Vasquez",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 168.9,
+      "endTime": 195.8,
+      "averageConfidence": 0.95,
+      "index": 14
+    },
+    {
+      "sentence": "Okay, the circuit breaker pattern, yeah, that makes sense. And those are both live now, as of today?",
+      "speaker_name": "Dana Moretti",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 196.2,
+      "endTime": 202.2,
+      "averageConfidence": 0.88,
+      "index": 15
+    },
+    {
+      "sentence": "Both are live and confirmed in your environment as of this morning, yes.",
+      "speaker_name": "Elena Vasquez",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 203.5,
+      "endTime": 207.8,
+      "averageConfidence": 0.96,
+      "index": 16
+    },
+    {
+      "sentence": "Alright. And in terms of \u2014 okay, so during that six-hour window, we had no visibility. What does that mean for our alert history? Like, are there gaps in our logs, did we lose any event data, or was it captured somewhere and just not processed?",
+      "speaker_name": "Dana Moretti",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 208.6,
+      "endTime": 224.5,
+      "averageConfidence": 0.88,
+      "index": 17
+    },
+    {
+      "sentence": "That's a good question and I want to give you an accurate answer here. Events that arrived during the outage window were queued but the processing queue itself was affected by the failure, so there is a gap in your processed alert history for that window. Raw ingestion data \u2014 some of it was preserved depending on where in the pipeline the failure hit, but I wouldn't rely on full fidelity there. I can get you a specific data recovery summary from our backend team if that's something you need for your documentation.",
+      "speaker_name": "Elena Vasquez",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 226.0,
+      "endTime": 258.9,
+      "averageConfidence": 0.94,
+      "index": 18
+    },
+    {
+      "sentence": "Yeah, I'd actually really appreciate that. Because my CISO is going to ask whether we need to treat that six-hour window as a blind spot from a forensic standpoint, and I need to be able to answer that clearly.",
+      "speaker_name": "Dana Moretti",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 260.0,
+      "endTime": 273.5,
+      "averageConfidence": 0.96,
+      "index": 19
+    },
+    {
+      "sentence": "Understood, yeah. I'll flag that as a follow-up action item on this case and have our backend team put together a summary of what was and wasn't captured during that window. I'll target getting that to you by end of week.",
+      "speaker_name": "Elena Vasquez",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 274.1,
+      "endTime": 288.4,
+      "averageConfidence": 0.93,
+      "index": 20
+    },
+    {
+      "sentence": "End of week works. That's Thursday or Friday?",
+      "speaker_name": "Dana Moretti",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 289.7,
+      "endTime": 292.3,
+      "averageConfidence": 0.88,
+      "index": 21
+    },
+    {
+      "sentence": "Let's say Friday to be safe, but I'll push for Thursday.",
+      "speaker_name": "Elena Vasquez",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 293.4,
+      "endTime": 297.2,
+      "averageConfidence": 0.88,
+      "index": 22
+    },
+    {
+      "sentence": "Okay. And then \u2014 sorry, I'm jumping around a little bit \u2014 what about the monitoring during the recovery period? So after the six-hour outage, were we at full functionality or was there still some degraded state we should know about?",
+      "speaker_name": "Dana Moretti",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 298.1,
+      "endTime": 312.5,
+      "averageConfidence": 0.96,
+      "index": 23
+    },
+    {
+      "sentence": "Yeah, so there was a phased recovery. After the initial outage was resolved, the platform came back up but event processing throughput was running below normal capacity for a period while the redundant nodes were being fully provisioned. That would have been roughly from the eleventh through about the fifteenth. During that window you may have seen some latency in alert delivery, so alerts were coming through but potentially with some delay.",
+      "speaker_name": "Elena Vasquez",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 313.8,
+      "endTime": 339.3,
+      "averageConfidence": 0.89,
+      "index": 24
+    },
+    {
+      "sentence": "Okay, yeah, my team did notice that actually. We had some alerts coming in that were timestamped earlier than when we received them. I wasn't sure if that was a data backfill or just latency.",
+      "speaker_name": "Dana Moretti",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 340.0,
+      "endTime": 352.3,
+      "averageConfidence": 0.91,
+      "index": 25
+    },
+    {
+      "sentence": "Most likely latency during the recovery period, yeah. Some of it may also be backfill as the queue drained, so a mix of both probably. That should have normalized by around the sixteenth.",
+      "speaker_name": "Elena Vasquez",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 353.1,
+      "endTime": 364.9,
+      "averageConfidence": 0.9,
+      "index": 26
+    },
+    {
+      "sentence": "It did, actually. Things looked normal by \u2014 yeah, I'd say by the sixteenth or seventeenth we weren't seeing the timestamp discrepancies anymore.",
+      "speaker_name": "Dana Moretti",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 366.1,
+      "endTime": 374.2,
+      "averageConfidence": 0.97,
+      "index": 27
+    },
+    {
+      "sentence": "Good, that tracks. And as of today you're fully confirmed back to normal alert volumes and processing?",
+      "speaker_name": "Elena Vasquez",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 375.6,
+      "endTime": 381.9,
+      "averageConfidence": 0.93,
+      "index": 28
+    },
+    {
+      "sentence": "Yeah, from what I can see in the dashboard it looks normal. I mean, I'd love some kind of confirmation from your side that our tenant is specifically healthy rather than just going off the UI, if that's possible.",
+      "speaker_name": "Dana Moretti",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 383.1,
+      "endTime": 397.1,
+      "averageConfidence": 0.96,
+      "index": 29
+    },
+    {
+      "sentence": "Absolutely, I can pull your tenant metrics right now actually. Give me just a second.",
+      "speaker_name": "Elena Vasquez",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 397.6,
+      "endTime": 402.5,
+      "averageConfidence": 0.94,
+      "index": 30
+    },
+    {
+      "sentence": "Sure, take your time.",
+      "speaker_name": "Dana Moretti",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 403.5,
+      "endTime": 405.1,
+      "averageConfidence": 0.91,
+      "index": 31
+    },
+    {
+      "sentence": "Okay so I'm looking at the Forge Industries tenant now \u2014 event ingestion rate is at normal baseline for your account, alert processing latency is under two seconds which is within SLA, and I'm not seeing any queue backlog. Everything looks healthy from the backend.",
+      "speaker_name": "Elena Vasquez",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 405.4,
+      "endTime": 421.5,
+      "averageConfidence": 0.95,
+      "index": 32
+    },
+    {
+      "sentence": "Okay, good. That's helpful to have confirmed. Can you include that in the case notes so I have a record of it?",
+      "speaker_name": "Dana Moretti",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 422.3,
+      "endTime": 429.9,
+      "averageConfidence": 0.97,
+      "index": 33
+    },
+    {
+      "sentence": "Already adding it as I speak, yeah. I'll also attach a timestamp to that health confirmation in the case record.",
+      "speaker_name": "Elena Vasquez",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 430.4,
+      "endTime": 437.5,
+      "averageConfidence": 0.97,
+      "index": 34
+    },
+    {
+      "sentence": "Appreciate it. Um \u2014 and I guess the last thing I want to ask, and this is more of a process question, is there going to be any kind of formal post-incident report or RCA document that we'd receive? Because I've seen some vendors do that and it's useful for our own internal reviews.",
+      "speaker_name": "Dana Moretti",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 438.9,
+      "endTime": 457.6,
+      "averageConfidence": 0.88,
+      "index": 35
+    },
+    {
+      "sentence": "Yeah, our team is producing a post-incident report, it's in draft right now. I can make sure that's shared with you once it's finalized. It'll cover the root cause, the timeline, the remediation steps \u2014 essentially everything we discussed today but in a formal written format.",
+      "speaker_name": "Elena Vasquez",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 458.3,
+      "endTime": 474.3,
+      "averageConfidence": 0.92,
+      "index": 36
+    },
+    {
+      "sentence": "That would be great, yeah. Okay, I think that covers everything I had. So to summarize \u2014 you're sending me the data recovery summary by Friday, the PIR report when it's ready, and you've confirmed our tenant is healthy as of today. Does that match what you have?",
+      "speaker_name": "Dana Moretti",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 475.6,
+      "endTime": 492.8,
+      "averageConfidence": 0.95,
+      "index": 37
+    },
+    {
+      "sentence": "That matches exactly. And I'll keep the support case open until you receive both documents and confirm receipt, just so there's no gap there.",
+      "speaker_name": "Elena Vasquez",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 493.6,
+      "endTime": 502.2,
+      "averageConfidence": 0.94,
+      "index": 38
+    },
+    {
+      "sentence": "That works. Alright, I think we're good then. Thanks for being thorough on this, Elena, I appreciate it.",
+      "speaker_name": "Dana Moretti",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 503.1,
+      "endTime": 509.4,
+      "averageConfidence": 0.89,
+      "index": 39
+    },
+    {
+      "sentence": "Of course, and thank you for your patience through the recovery period, Dana. I'll follow up by end of week. Have a good rest of your day.",
+      "speaker_name": "Elena Vasquez",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 510.4,
+      "endTime": 520.1,
+      "averageConfidence": 0.91,
+      "index": 40
+    },
+    {
+      "sentence": "You too, thanks. Bye.",
+      "speaker_name": "Dana Moretti",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 520.6,
+      "endTime": 522.4,
+      "averageConfidence": 0.92,
+      "index": 41
+    }
+  ]
+}

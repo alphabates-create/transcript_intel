@@ -1,0 +1,277 @@
+[
+  {
+    "speakerName": "Lisa Park",
+    "timestamp": 5.2,
+    "endTimeTs": 9.7
+  },
+  {
+    "speakerName": "Diana Reeves",
+    "timestamp": 10.7,
+    "endTimeTs": 17.1
+  },
+  {
+    "speakerName": "Lisa Park",
+    "timestamp": 18.4,
+    "endTimeTs": 26.9
+  },
+  {
+    "speakerName": "Aisha Johnson",
+    "timestamp": 28.2,
+    "endTimeTs": 34.0
+  },
+  {
+    "speakerName": "Priya Patel",
+    "timestamp": 35.2,
+    "endTimeTs": 49.2
+  },
+  {
+    "speakerName": "Diana Reeves",
+    "timestamp": 50.4,
+    "endTimeTs": 56.6
+  },
+  {
+    "speakerName": "Priya Patel",
+    "timestamp": 57.3,
+    "endTimeTs": 70.2
+  },
+  {
+    "speakerName": "Diana Reeves",
+    "timestamp": 70.8,
+    "endTimeTs": 75.9
+  },
+  {
+    "speakerName": "Lisa Park",
+    "timestamp": 77.0,
+    "endTimeTs": 95.0
+  },
+  {
+    "speakerName": "Diana Reeves",
+    "timestamp": 96.0,
+    "endTimeTs": 98.5
+  },
+  {
+    "speakerName": "Lisa Park",
+    "timestamp": 99.7,
+    "endTimeTs": 112.4
+  },
+  {
+    "speakerName": "Diana Reeves",
+    "timestamp": 113.9,
+    "endTimeTs": 125.3
+  },
+  {
+    "speakerName": "Priya Patel",
+    "timestamp": 126.8,
+    "endTimeTs": 141.9
+  },
+  {
+    "speakerName": "Diana Reeves",
+    "timestamp": 142.6,
+    "endTimeTs": 158.6
+  },
+  {
+    "speakerName": "Priya Patel",
+    "timestamp": 159.3,
+    "endTimeTs": 172.7
+  },
+  {
+    "speakerName": "Aisha Johnson",
+    "timestamp": 173.1,
+    "endTimeTs": 178.8
+  },
+  {
+    "speakerName": "Priya Patel",
+    "timestamp": 179.3,
+    "endTimeTs": 188.5
+  },
+  {
+    "speakerName": "Diana Reeves",
+    "timestamp": 189.5,
+    "endTimeTs": 197.4
+  },
+  {
+    "speakerName": "Aisha Johnson",
+    "timestamp": 197.9,
+    "endTimeTs": 211.8
+  },
+  {
+    "speakerName": "Lisa Park",
+    "timestamp": 213.1,
+    "endTimeTs": 214.9
+  },
+  {
+    "speakerName": "Aisha Johnson",
+    "timestamp": 216.4,
+    "endTimeTs": 232.1
+  },
+  {
+    "speakerName": "Diana Reeves",
+    "timestamp": 232.6,
+    "endTimeTs": 236.9
+  },
+  {
+    "speakerName": "Priya Patel",
+    "timestamp": 238.1,
+    "endTimeTs": 249.4
+  },
+  {
+    "speakerName": "Diana Reeves",
+    "timestamp": 250.8,
+    "endTimeTs": 266.5
+  },
+  {
+    "speakerName": "Priya Patel",
+    "timestamp": 267.5,
+    "endTimeTs": 281.2
+  },
+  {
+    "speakerName": "Diana Reeves",
+    "timestamp": 281.9,
+    "endTimeTs": 290.0
+  },
+  {
+    "speakerName": "Lisa Park",
+    "timestamp": 291.0,
+    "endTimeTs": 295.3
+  },
+  {
+    "speakerName": "Aisha Johnson",
+    "timestamp": 296.4,
+    "endTimeTs": 301.7
+  },
+  {
+    "speakerName": "Priya Patel",
+    "timestamp": 303.1,
+    "endTimeTs": 316.7
+  },
+  {
+    "speakerName": "Aisha Johnson",
+    "timestamp": 317.7,
+    "endTimeTs": 321.3
+  },
+  {
+    "speakerName": "Lisa Park",
+    "timestamp": 322.0,
+    "endTimeTs": 333.0
+  },
+  {
+    "speakerName": "Diana Reeves",
+    "timestamp": 334.4,
+    "endTimeTs": 339.1
+  },
+  {
+    "speakerName": "Lisa Park",
+    "timestamp": 339.8,
+    "endTimeTs": 345.1
+  },
+  {
+    "speakerName": "Diana Reeves",
+    "timestamp": 346.5,
+    "endTimeTs": 360.0
+  },
+  {
+    "speakerName": "Aisha Johnson",
+    "timestamp": 360.5,
+    "endTimeTs": 364.6
+  },
+  {
+    "speakerName": "Diana Reeves",
+    "timestamp": 366.0,
+    "endTimeTs": 371.4
+  },
+  {
+    "speakerName": "Priya Patel",
+    "timestamp": 372.7,
+    "endTimeTs": 385.5
+  },
+  {
+    "speakerName": "Diana Reeves",
+    "timestamp": 386.9,
+    "endTimeTs": 401.3
+  },
+  {
+    "speakerName": "Priya Patel",
+    "timestamp": 402.6,
+    "endTimeTs": 410.8
+  },
+  {
+    "speakerName": "Diana Reeves",
+    "timestamp": 411.6,
+    "endTimeTs": 419.9
+  },
+  {
+    "speakerName": "Aisha Johnson",
+    "timestamp": 421.0,
+    "endTimeTs": 435.1
+  },
+  {
+    "speakerName": "Diana Reeves",
+    "timestamp": 436.0,
+    "endTimeTs": 441.3
+  },
+  {
+    "speakerName": "Priya Patel",
+    "timestamp": 441.8,
+    "endTimeTs": 450.0
+  },
+  {
+    "speakerName": "Diana Reeves",
+    "timestamp": 451.2,
+    "endTimeTs": 459.7
+  },
+  {
+    "speakerName": "Priya Patel",
+    "timestamp": 460.5,
+    "endTimeTs": 466.6
+  },
+  {
+    "speakerName": "Lisa Park",
+    "timestamp": 467.5,
+    "endTimeTs": 477.1
+  },
+  {
+    "speakerName": "Diana Reeves",
+    "timestamp": 478.5,
+    "endTimeTs": 487.6
+  },
+  {
+    "speakerName": "Aisha Johnson",
+    "timestamp": 488.4,
+    "endTimeTs": 503.6
+  },
+  {
+    "speakerName": "Diana Reeves",
+    "timestamp": 504.3,
+    "endTimeTs": 517.0
+  },
+  {
+    "speakerName": "Lisa Park",
+    "timestamp": 518.5,
+    "endTimeTs": 521.1
+  },
+  {
+    "speakerName": "Diana Reeves",
+    "timestamp": 522.3,
+    "endTimeTs": 540.5
+  },
+  {
+    "speakerName": "Priya Patel",
+    "timestamp": 541.8,
+    "endTimeTs": 544.8
+  },
+  {
+    "speakerName": "Aisha Johnson",
+    "timestamp": 545.9,
+    "endTimeTs": 549.9
+  },
+  {
+    "speakerName": "Diana Reeves",
+    "timestamp": 551.2,
+    "endTimeTs": 564.5
+  },
+  {
+    "speakerName": "Lisa Park",
+    "timestamp": 565.5,
+    "endTimeTs": 567.0
+  }
+]

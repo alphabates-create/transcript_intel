@@ -1,0 +1,46 @@
+{
+  "summary": "David Kim from Aegis Cloud Security support called Keith Donovan of Nimbus Platform regarding support case 3615, which involves a feature gap in Aegis Comply around custom cross-framework reporting. Keith needs a control mapping matrix that spans SOC 2, ISO 27001, and PCI DSS in a single exportable report for auditor handoffs, which the platform does not currently support natively. David confirmed the gap, explained a manual CSV workaround that Keith's team is already using but finds unsustainable, and committed to escalating a formal feature request to the product team. David also flagged Nimbus Platform as a candidate for early access/beta programs and directed Keith to his account manager Sarah Chen for future roadmap visibility.",
+  "actionItems": [
+    "David Kim: Escalate formal feature request (case 3615) to product team with full business context, cross-framework matrix format requirements, and SOC 2/ISO 27001/PCI DSS scope",
+    "David Kim: Flag Nimbus Platform as a candidate for early access and beta programs in the escalation documentation",
+    "David Kim: Send email confirmation with updated case notes to Keith Donovan after closing call documentation",
+    "Keith Donovan: Follow up with account manager Sarah Chen for periodic roadmap and feature request status updates"
+  ],
+  "topics": [
+    "feature gap",
+    "custom reporting",
+    "compliance frameworks",
+    "product roadmap",
+    "audit workflow",
+    "early access program"
+  ],
+  "overallSentiment": "mixed-positive",
+  "sentimentScore": 3.5,
+  "keyMoments": [
+    {
+      "time": 90.0,
+      "text": "Keith describes the core feature gap: no native cross-framework control mapping report exists in Aegis Comply",
+      "type": "feature_gap",
+      "speaker": "Keith Donovan"
+    },
+    {
+      "time": 285.0,
+      "text": "Keith reveals his team already uses the manual CSV workaround but it takes hours each quarter and is error-prone, signaling process pain and scalability concern",
+      "type": "concern",
+      "speaker": "Keith Donovan"
+    },
+    {
+      "time": 420.0,
+      "text": "Keith expresses interest in participating in a beta or early access program, indicating engagement and willingness to invest in the platform",
+      "type": "positive_pivot",
+      "speaker": "Keith Donovan"
+    },
+    {
+      "time": 660.0,
+      "text": "Keith specifies the need for a true control mapping matrix format showing relationships across SOC 2, ISO 27001, and PCI DSS, not just concatenated lists",
+      "type": "feature_gap",
+      "speaker": "Keith Donovan"
+    }
+  ],
+  "meetingId": "01KQ9A6BE09D73A9BB5798C7"
+}

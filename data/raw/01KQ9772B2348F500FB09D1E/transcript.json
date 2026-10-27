@@ -1,0 +1,424 @@
+{
+  "data": [
+    {
+      "sentence": "Hi, this is Elena Vasquez from Aegis Cloud Security support, am I speaking with Vanessa?",
+      "speaker_name": "Elena Vasquez",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 3.6,
+      "endTime": 9.3,
+      "averageConfidence": 0.92,
+      "index": 0
+    },
+    {
+      "sentence": "Yes, hi Elena, Vanessa Cruz here, VP of Engineering at Coastal Living Co \u2014 thanks for picking this up, I've been waiting on a callback for a bit.",
+      "speaker_name": "Vanessa Cruz",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 9.7,
+      "endTime": 19.8,
+      "averageConfidence": 0.92,
+      "index": 1
+    },
+    {
+      "sentence": "Yeah, I apologize for the delay on that, Vanessa, we've had a higher than normal queue today \u2014 but I've got your case pulled up here, case number 3677, MFA token failures, is that right?",
+      "speaker_name": "Elena Vasquez",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 20.6,
+      "endTime": 32.9,
+      "averageConfidence": 0.89,
+      "index": 2
+    },
+    {
+      "sentence": "That's correct, yes, and honestly it's been \u2014 it's been a pretty rough morning because of this, so I'm really hoping we can get to the bottom of it today.",
+      "speaker_name": "Vanessa Cruz",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 33.9,
+      "endTime": 44.4,
+      "averageConfidence": 0.92,
+      "index": 3
+    },
+    {
+      "sentence": "Absolutely, let's dig in \u2014 can you walk me through what you're seeing, like when did this start and which users are affected?",
+      "speaker_name": "Elena Vasquez",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 44.7,
+      "endTime": 52.9,
+      "averageConfidence": 0.95,
+      "index": 4
+    },
+    {
+      "sentence": "So it started, um, I'd say around 7 AM this morning, and it's not all users \u2014 it seems to be specifically the users who are enrolled in TOTP-based MFA through Aegis Identity, they're getting token validation failures even though the tokens are generating correctly on their authenticator apps.",
+      "speaker_name": "Vanessa Cruz",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 53.4,
+      "endTime": 70.7,
+      "averageConfidence": 0.95,
+      "index": 5
+    },
+    {
+      "sentence": "Okay, TOTP failures, and are these users on a specific SSO integration or are they authenticating directly through the Aegis Identity portal?",
+      "speaker_name": "Elena Vasquez",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 71.7,
+      "endTime": 79.2,
+      "averageConfidence": 0.96,
+      "index": 6
+    },
+    {
+      "sentence": "They're going through our Okta SSO integration that we have set up with Aegis Identity, so the flow is Okta, then it hands off to Aegis Identity for the MFA step.",
+      "speaker_name": "Vanessa Cruz",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 80.1,
+      "endTime": 91.3,
+      "averageConfidence": 0.91,
+      "index": 7
+    },
+    {
+      "sentence": "Got it, and roughly how many users are hitting this \u2014 is it like a handful or is it widespread across your org?",
+      "speaker_name": "Elena Vasquez",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 92.2,
+      "endTime": 100.1,
+      "averageConfidence": 0.9,
+      "index": 8
+    },
+    {
+      "sentence": "It's \u2014 I mean it's significant, we're talking probably 40, maybe 45 users who can't get in right now, and these are people on our engineering and ops teams who need access to production systems, so this is not a minor inconvenience, Elena.",
+      "speaker_name": "Vanessa Cruz",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 101.5,
+      "endTime": 117.0,
+      "averageConfidence": 0.91,
+      "index": 9
+    },
+    {
+      "sentence": "No, I completely understand, that's a critical situation and I'm treating it as such \u2014 let me check a few things on the backend here while we talk.",
+      "speaker_name": "Elena Vasquez",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 117.9,
+      "endTime": 127.5,
+      "averageConfidence": 0.97,
+      "index": 10
+    },
+    {
+      "sentence": "Yeah please do, and I also want to flag that we had users try regenerating their TOTP secrets through the self-service portal and re-enrolling their authenticator apps and it didn't fix anything, same error.",
+      "speaker_name": "Vanessa Cruz",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 128.0,
+      "endTime": 139.9,
+      "averageConfidence": 0.94,
+      "index": 11
+    },
+    {
+      "sentence": "Hmm, okay, that's actually a really useful data point \u2014 if re-enrollment isn't resolving it that does suggest this might not be a user-side clock drift issue, which was my first instinct.",
+      "speaker_name": "Elena Vasquez",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 140.9,
+      "endTime": 151.9,
+      "averageConfidence": 0.93,
+      "index": 12
+    },
+    {
+      "sentence": "Right, and I mean we checked device times, everything looks synced, I had two of my engineers verify that specifically because I knew that would be the first question.",
+      "speaker_name": "Vanessa Cruz",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 152.9,
+      "endTime": 163.3,
+      "averageConfidence": 0.94,
+      "index": 13
+    },
+    {
+      "sentence": "Smart, okay \u2014 I'm pulling up your tenant now and I'm looking at the authentication logs... give me just one second here...",
+      "speaker_name": "Elena Vasquez",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 163.8,
+      "endTime": 171.9,
+      "averageConfidence": 0.96,
+      "index": 14
+    },
+    {
+      "sentence": "Sure, and while you're doing that I just want to say \u2014 we evaluated Aegis Identity specifically because of the reliability promises, we're a retail company, we have tight operational windows, we can't have engineering staff locked out of systems, especially heading into our spring inventory cycle.",
+      "speaker_name": "Vanessa Cruz",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 172.6,
+      "endTime": 188.8,
+      "averageConfidence": 0.89,
+      "index": 15
+    },
+    {
+      "sentence": "That's completely fair and I hear you on that, the timing is terrible \u2014 okay, I'm seeing something in your logs, there are a high volume of TOTP validation attempts all returning a 4031 error code, which is... okay, that's interesting.",
+      "speaker_name": "Elena Vasquez",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 190.1,
+      "endTime": 204.9,
+      "averageConfidence": 0.9,
+      "index": 16
+    },
+    {
+      "sentence": "What does 4031 mean, is that something on your end?",
+      "speaker_name": "Vanessa Cruz",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 206.1,
+      "endTime": 209.5,
+      "averageConfidence": 0.94,
+      "index": 17
+    },
+    {
+      "sentence": "So a 4031 is a token validation window mismatch, but \u2014 and this is the part that's odd \u2014 it's usually caused by a time sync issue on either the client or our validation server, but given that you've already ruled out client-side, I want to check if there's something going on with our validation service configuration for your tenant specifically.",
+      "speaker_name": "Elena Vasquez",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 210.5,
+      "endTime": 231.6,
+      "averageConfidence": 0.93,
+      "index": 18
+    },
+    {
+      "sentence": "So you're saying this could be a bug on Aegis's side?",
+      "speaker_name": "Vanessa Cruz",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 232.9,
+      "endTime": 237.0,
+      "averageConfidence": 0.9,
+      "index": 19
+    },
+    {
+      "sentence": "I \u2014 I don't want to confirm that definitively yet without escalating to our Identity engineering team, but based on what I'm seeing in these logs and the fact that re-enrollment didn't help, it does look like the issue may be on our end, yes.",
+      "speaker_name": "Elena Vasquez",
+      "sentimentType": "negative",
+      "speaker_id": 0,
+      "time": 237.7,
+      "endTime": 253.8,
+      "averageConfidence": 0.92,
+      "index": 20
+    },
+    {
+      "sentence": "Elena, that's \u2014 okay, I appreciate you being honest about that but that is really frustrating to hear, because this is a production impacting issue and my team has been blocked for hours.",
+      "speaker_name": "Vanessa Cruz",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 254.6,
+      "endTime": 266.4,
+      "averageConfidence": 0.92,
+      "index": 21
+    },
+    {
+      "sentence": "I know, and I'm not going to sugarcoat it, this is a problem and we need to fix it \u2014 what I can do right now is flag this as a P1 escalation to our Identity engineering team, and I also want to offer a temporary workaround while we investigate.",
+      "speaker_name": "Elena Vasquez",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 266.8,
+      "endTime": 284.4,
+      "averageConfidence": 0.89,
+      "index": 22
+    },
+    {
+      "sentence": "What kind of workaround are we talking about?",
+      "speaker_name": "Vanessa Cruz",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 285.1,
+      "endTime": 288.3,
+      "averageConfidence": 0.97,
+      "index": 23
+    },
+    {
+      "sentence": "So within Aegis Identity, admins have the ability to temporarily switch affected users to email-based OTP as a fallback method \u2014 it's not ideal, I know, but it would unblock your team immediately while the TOTP validation issue is being investigated.",
+      "speaker_name": "Elena Vasquez",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 289.0,
+      "endTime": 303.3,
+      "averageConfidence": 0.95,
+      "index": 24
+    },
+    {
+      "sentence": "Email OTP... I mean that's less secure and my security team is going to push back on that, but I understand you're trying to help \u2014 how long would this workaround need to be in place?",
+      "speaker_name": "Vanessa Cruz",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 304.1,
+      "endTime": 316.8,
+      "averageConfidence": 0.9,
+      "index": 25
+    },
+    {
+      "sentence": "I honestly can't give you a hard timeline without the engineering team weighing in, but P1 escalations for Identity are supposed to have an initial response within two hours and a resolution path within four \u2014 I will personally stay on this case and keep you updated.",
+      "speaker_name": "Elena Vasquez",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 317.2,
+      "endTime": 333.5,
+      "averageConfidence": 0.89,
+      "index": 26
+    },
+    {
+      "sentence": "Two to four hours \u2014 Elena, my team has already been down for several hours, that's potentially most of the workday for some of these folks.",
+      "speaker_name": "Vanessa Cruz",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 334.3,
+      "endTime": 343.2,
+      "averageConfidence": 0.96,
+      "index": 27
+    },
+    {
+      "sentence": "I know, and I'm sorry \u2014 I'm escalating this right now as we speak, I'm marking it as business critical with active user lockout, that should push it to the front of the engineering queue.",
+      "speaker_name": "Elena Vasquez",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 344.6,
+      "endTime": 356.9,
+      "averageConfidence": 0.96,
+      "index": 28
+    },
+    {
+      "sentence": "Okay, fine \u2014 and can you also tell me, is this affecting other customers or is it just us?",
+      "speaker_name": "Vanessa Cruz",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 358.3,
+      "endTime": 365.3,
+      "averageConfidence": 0.94,
+      "index": 29
+    },
+    {
+      "sentence": "I'm going to be transparent with you \u2014 I don't have visibility into other tenant logs, but I'm not seeing any broader incident reported for Aegis Identity on our internal status board, so right now it looks like it may be specific to your tenant configuration, possibly related to the Okta integration setup.",
+      "speaker_name": "Elena Vasquez",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 366.8,
+      "endTime": 385.2,
+      "averageConfidence": 0.97,
+      "index": 30
+    },
+    {
+      "sentence": "So something in our configuration, but we haven't changed anything on our end \u2014 nothing was touched, no updates, no config changes since last week.",
+      "speaker_name": "Vanessa Cruz",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 385.7,
+      "endTime": 394.5,
+      "averageConfidence": 0.92,
+      "index": 31
+    },
+    {
+      "sentence": "I hear you, and I believe you \u2014 there may have been a backend update or configuration push on our side that affected certain tenant setups, that's something the engineering team will need to confirm.",
+      "speaker_name": "Elena Vasquez",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 395.8,
+      "endTime": 407.9,
+      "averageConfidence": 0.92,
+      "index": 32
+    },
+    {
+      "sentence": "Alright, okay \u2014 so what do I need to do right now, walk me through the email OTP workaround steps so I can at least get my team unblocked.",
+      "speaker_name": "Vanessa Cruz",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 408.6,
+      "endTime": 418.7,
+      "averageConfidence": 0.88,
+      "index": 33
+    },
+    {
+      "sentence": "Sure, so if you go into the Aegis Identity admin console, navigate to Authentication Policies, and then under the MFA methods for your primary user group, you should see an option to enable email OTP as an allowed fallback \u2014 I can stay on the line while you do that.",
+      "speaker_name": "Elena Vasquez",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 419.7,
+      "endTime": 437.1,
+      "averageConfidence": 0.96,
+      "index": 34
+    },
+    {
+      "sentence": "Okay, I'm in the admin console now... Authentication Policies... yeah I see it, I see the MFA methods section.",
+      "speaker_name": "Vanessa Cruz",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 438.1,
+      "endTime": 445.0,
+      "averageConfidence": 0.88,
+      "index": 35
+    },
+    {
+      "sentence": "Great, and you should see a toggle or checkbox for email OTP \u2014 enabling it there should allow affected users to choose it as an alternative at the next login attempt.",
+      "speaker_name": "Elena Vasquez",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 445.6,
+      "endTime": 456.3,
+      "averageConfidence": 0.9,
+      "index": 36
+    },
+    {
+      "sentence": "Okay... I'm enabling it now, and I'll have someone ping the affected users to try logging in again \u2014 but Elena, I need a follow-up from you today, not tomorrow, today, with an actual update on what caused this.",
+      "speaker_name": "Vanessa Cruz",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 456.7,
+      "endTime": 470.4,
+      "averageConfidence": 0.88,
+      "index": 37
+    },
+    {
+      "sentence": "Absolutely, you have my word \u2014 I'll follow up via email with an update by end of business today, and if engineering identifies the root cause before then you'll hear from me immediately.",
+      "speaker_name": "Elena Vasquez",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 471.2,
+      "endTime": 482.5,
+      "averageConfidence": 0.91,
+      "index": 38
+    },
+    {
+      "sentence": "Alright, I'm going to hold you to that \u2014 and honestly we're going to need to have a broader conversation about reliability with our account team because this is not the first time we've had hiccups, but that's a separate discussion.",
+      "speaker_name": "Vanessa Cruz",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 483.4,
+      "endTime": 497.7,
+      "averageConfidence": 0.92,
+      "index": 39
+    },
+    {
+      "sentence": "Understood, and that's a fair conversation to have \u2014 I'll make a note for your account team to follow up on that as well, for now let's get your team back in and I'll be in touch shortly, okay?",
+      "speaker_name": "Elena Vasquez",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 498.5,
+      "endTime": 512.3,
+      "averageConfidence": 0.94,
+      "index": 40
+    },
+    {
+      "sentence": "Okay, thanks Elena \u2014 I hope to hear from you soon.",
+      "speaker_name": "Vanessa Cruz",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 513.6,
+      "endTime": 517.6,
+      "averageConfidence": 0.89,
+      "index": 41
+    }
+  ]
+}

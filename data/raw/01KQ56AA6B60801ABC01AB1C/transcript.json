@@ -1,0 +1,404 @@
+{
+  "data": [
+    {
+      "sentence": "Hi, thanks for joining \u2014 this is Sarah Chen from Aegis Cloud Security support, I have Marcus Williams here with me as well. Can I confirm I have Ajay Mehta and Natalie Simmons from Clearwater Medical on the line?",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 6.2,
+      "endTime": 19.7,
+      "averageConfidence": 0.91,
+      "index": 0
+    },
+    {
+      "sentence": "Yes, Ajay here. Thanks for getting us on the calendar quickly, I appreciate that at least.",
+      "speaker_name": "Ajay Mehta",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 21.0,
+      "endTime": 26.8,
+      "averageConfidence": 0.95,
+      "index": 1
+    },
+    {
+      "sentence": "Natalie Simmons, IT Director. Yeah, we're both here.",
+      "speaker_name": "Natalie Simmons",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 27.7,
+      "endTime": 30.9,
+      "averageConfidence": 0.91,
+      "index": 2
+    },
+    {
+      "sentence": "Great, great. And Marcus is going to be helping me pull up the billing details on our end as we go through this. So, um, I pulled up support case 8179 \u2014 it looks like this is about some overage charges on your April invoice. Do you want to walk us through what you're seeing?",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 31.7,
+      "endTime": 51.1,
+      "averageConfidence": 0.9,
+      "index": 3
+    },
+    {
+      "sentence": "Yeah, so \u2014 look, I'll be direct. We got our April invoice and there are overage charges totaling just over four thousand dollars that I do not understand and frankly did not expect. At all.",
+      "speaker_name": "Natalie Simmons",
+      "sentimentType": "negative",
+      "speaker_id": 2,
+      "time": 51.6,
+      "endTime": 64.2,
+      "averageConfidence": 0.94,
+      "index": 4
+    },
+    {
+      "sentence": "And from my side as Compliance Manager, a big chunk of those overages seem to be tied to the Comply module, which \u2014 I mean, we literally just got the v2 upgrade notification like three days ago. So I'm not sure what's happening there.",
+      "speaker_name": "Ajay Mehta",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 64.9,
+      "endTime": 80.5,
+      "averageConfidence": 0.89,
+      "index": 5
+    },
+    {
+      "sentence": "Okay, yeah, that's helpful context. Marcus, can you pull up the Clearwater Medical account and get into the billing breakdown for the April cycle?",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 81.8,
+      "endTime": 90.0,
+      "averageConfidence": 0.91,
+      "index": 6
+    },
+    {
+      "sentence": "Already on it, pulling it up now.",
+      "speaker_name": "Marcus Williams",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 90.6,
+      "endTime": 93.0,
+      "averageConfidence": 0.94,
+      "index": 7
+    },
+    {
+      "sentence": "While he's doing that \u2014 Natalie, Ajay, can you tell me roughly which line items stood out the most? Was it just the Comply module or are you seeing things across multiple modules?",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 93.6,
+      "endTime": 105.0,
+      "averageConfidence": 0.96,
+      "index": 8
+    },
+    {
+      "sentence": "It's primarily Comply, but there's also something under Detect that I \u2014 I flagged that too because honestly after what happened in March with that outage, I'm not exactly inclined to give Aegis the benefit of the doubt right now.",
+      "speaker_name": "Natalie Simmons",
+      "sentimentType": "negative",
+      "speaker_id": 2,
+      "time": 105.9,
+      "endTime": 119.9,
+      "averageConfidence": 0.97,
+      "index": 9
+    },
+    {
+      "sentence": "That's totally fair, and I hear you on the March incident \u2014 we're not going to brush past that. Let's get into the specifics first and then we can talk through everything. What does the Detect line item say?",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 120.9,
+      "endTime": 134.6,
+      "averageConfidence": 0.88,
+      "index": 10
+    },
+    {
+      "sentence": "It's showing an overage for \u2014 let me get my invoice up \u2014 okay, it says excess event ingestion volume, something like eight hundred and forty dollars.",
+      "speaker_name": "Ajay Mehta",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 135.1,
+      "endTime": 144.8,
+      "averageConfidence": 0.96,
+      "index": 11
+    },
+    {
+      "sentence": "Okay, Sarah, I've got the account open. So looking at the billing detail \u2014 the Comply overage is three thousand two hundred and change, and it's flagged as on-demand report generation exceeding the plan tier limit. Looks like a significant number of compliance reports were run between April 7th and April 9th.",
+      "speaker_name": "Marcus Williams",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 145.9,
+      "endTime": 164.4,
+      "averageConfidence": 0.9,
+      "index": 12
+    },
+    {
+      "sentence": "April 7th \u2014 that's the day of the Comply v2 launch. So we're being charged for reports that \u2014 I mean, were we even notified that running those reports would trigger overage billing? Because I went in and explored the new features and ran a few reports, I had no idea that was going to cost us extra money.",
+      "speaker_name": "Ajay Mehta",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 164.8,
+      "endTime": 185.2,
+      "averageConfidence": 0.96,
+      "index": 13
+    },
+    {
+      "sentence": "That is a really important question and I want to make sure I understand exactly what happened. Marcus, what's the plan tier for Clearwater's Comply module, and what's the included report generation limit?",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 185.6,
+      "endTime": 197.3,
+      "averageConfidence": 0.92,
+      "index": 14
+    },
+    {
+      "sentence": "They're on the Professional tier for Comply, which includes up to twenty on-demand reports per billing cycle. The account shows forty-seven reports generated between April 7th and April 9th.",
+      "speaker_name": "Marcus Williams",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 197.6,
+      "endTime": 208.1,
+      "averageConfidence": 0.9,
+      "index": 15
+    },
+    {
+      "sentence": "Forty-seven \u2014 okay, so Ajay, does that number make sense to you? Like, do you recall running that many reports?",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 208.5,
+      "endTime": 215.3,
+      "averageConfidence": 0.96,
+      "index": 16
+    },
+    {
+      "sentence": "I mean \u2014 yes and no. When the v2 launched, it was the first time we had access to multi-framework reporting. We're a healthcare organization, we need to demonstrate compliance across HIPAA, SOC 2, we're also starting a PCI DSS review. So yeah, I ran reports. I was exploring the feature set. But I had absolutely no warning that I was going to blow past some threshold and rack up thousands of dollars in charges.",
+      "speaker_name": "Ajay Mehta",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 216.4,
+      "endTime": 242.6,
+      "averageConfidence": 0.91,
+      "index": 17
+    },
+    {
+      "sentence": "Was there any in-app notification, any banner, anything that said hey you're approaching your limit? Because if there was and he missed it that's one thing, but if there wasn't\u2014",
+      "speaker_name": "Natalie Simmons",
+      "sentimentType": "negative",
+      "speaker_id": 2,
+      "time": 243.2,
+      "endTime": 253.9,
+      "averageConfidence": 0.96,
+      "index": 18
+    },
+    {
+      "sentence": "That's \u2014 yeah, I want to look into that. Marcus, do we have any record of in-app threshold alerts being triggered or sent for this account?",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 254.3,
+      "endTime": 263.1,
+      "averageConfidence": 0.96,
+      "index": 19
+    },
+    {
+      "sentence": "I'm checking the notification logs now... I'm not seeing any threshold alert sent for this account. There's a flag here actually \u2014 it looks like the overage alert configuration for Comply on-demand reports may not have been enabled by default on existing accounts that were migrated to v2.",
+      "speaker_name": "Marcus Williams",
+      "sentimentType": "negative",
+      "speaker_id": 3,
+      "time": 264.2,
+      "endTime": 281.0,
+      "averageConfidence": 0.97,
+      "index": 20
+    },
+    {
+      "sentence": "Wait \u2014 so you're saying existing customers were upgraded to v2 and the overage alerts weren't even turned on? So we had no way of knowing we were racking up charges?",
+      "speaker_name": "Natalie Simmons",
+      "sentimentType": "negative",
+      "speaker_id": 2,
+      "time": 281.9,
+      "endTime": 292.8,
+      "averageConfidence": 0.92,
+      "index": 21
+    },
+    {
+      "sentence": "It \u2014 it appears that way for your account, and I want to be transparent with you rather than dance around it. If the alerts weren't configured and you weren't warned, that's a problem on our end and I'm going to escalate this internally to our billing and product teams today.",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "negative",
+      "speaker_id": 0,
+      "time": 293.5,
+      "endTime": 311.8,
+      "averageConfidence": 0.9,
+      "index": 22
+    },
+    {
+      "sentence": "I appreciate you saying that Sarah, I do. But I also want to flag \u2014 this is not a small number. Four thousand dollars is not something we can just absorb, especially when we're a medical organization with tight budget controls. We're not a Fortune 500 company.",
+      "speaker_name": "Ajay Mehta",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 312.9,
+      "endTime": 329.6,
+      "averageConfidence": 0.94,
+      "index": 23
+    },
+    {
+      "sentence": "Understood, completely understood. Can we also loop back to the Detect overage real quick before I forget \u2014 Marcus, the eight hundred and forty dollars in event ingestion overage, what's driving that?",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 330.6,
+      "endTime": 342.0,
+      "averageConfidence": 0.94,
+      "index": 24
+    },
+    {
+      "sentence": "So for Detect, looking at the event volume data \u2014 there was a spike in ingestion on March 10th through March 16th, which is... okay that's actually during the outage window. That's interesting.",
+      "speaker_name": "Marcus Williams",
+      "sentimentType": "negative",
+      "speaker_id": 3,
+      "time": 342.9,
+      "endTime": 354.4,
+      "averageConfidence": 0.93,
+      "index": 25
+    },
+    {
+      "sentence": "During the outage? How are we being charged for events during a period when your system wasn't even processing them properly? We had six hours of no visibility. We were flying blind.",
+      "speaker_name": "Natalie Simmons",
+      "sentimentType": "negative",
+      "speaker_id": 2,
+      "time": 355.1,
+      "endTime": 366.7,
+      "averageConfidence": 0.91,
+      "index": 26
+    },
+    {
+      "sentence": "Yeah, that \u2014 I need to look more closely at this because if events were queued and then replayed through the pipeline after the fix was applied, it's possible the billing system counted them against the current cycle even though a chunk of that volume was essentially backfill. That would not be right.",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "negative",
+      "speaker_id": 0,
+      "time": 367.5,
+      "endTime": 385.9,
+      "averageConfidence": 0.88,
+      "index": 27
+    },
+    {
+      "sentence": "So we might be getting charged for the retry traffic that your system generated because of your own outage. Is that what you're telling me?",
+      "speaker_name": "Natalie Simmons",
+      "sentimentType": "negative",
+      "speaker_id": 2,
+      "time": 386.6,
+      "endTime": 395.7,
+      "averageConfidence": 0.91,
+      "index": 28
+    },
+    {
+      "sentence": "I don't want to confirm that definitively until Marcus can verify the timestamps, but it is a plausible explanation and if that's what happened, that charge should absolutely not stand.",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 397.0,
+      "endTime": 407.6,
+      "averageConfidence": 0.96,
+      "index": 29
+    },
+    {
+      "sentence": "Marcus, can you get into the event ingestion logs for that period and flag the volume breakdown \u2014 specifically anything that looks like queued replay events from after March 16th?",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 407.9,
+      "endTime": 418.9,
+      "averageConfidence": 0.88,
+      "index": 30
+    },
+    {
+      "sentence": "Yeah, I'll need to pull that from the backend pipeline logs, that's going to take me a bit longer than this call, but I can have something documented by end of day.",
+      "speaker_name": "Marcus Williams",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 419.7,
+      "endTime": 431.0,
+      "averageConfidence": 0.9,
+      "index": 31
+    },
+    {
+      "sentence": "Okay, so where does this leave us right now? I have a four thousand dollar invoice due and honestly I'm not comfortable paying it given everything we've just discussed.",
+      "speaker_name": "Natalie Simmons",
+      "sentimentType": "negative",
+      "speaker_id": 2,
+      "time": 431.6,
+      "endTime": 441.5,
+      "averageConfidence": 0.92,
+      "index": 32
+    },
+    {
+      "sentence": "That's a completely reasonable position. Here's what I can commit to right now \u2014 I'm going to flag both of these disputes internally as high priority today. The Comply overage, given the missing alert configuration on migrated accounts, has a very strong basis for a credit or reversal. The Detect overage I need Marcus to verify, but if the billing reflects replay traffic from the outage, that's also something we'd need to reverse. I'd ask that you hold off on payment on the disputed portions while we investigate.",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 442.2,
+      "endTime": 473.2,
+      "averageConfidence": 0.89,
+      "index": 33
+    },
+    {
+      "sentence": "What's the timeline on that? Because our AP department is going to start asking questions.",
+      "speaker_name": "Ajay Mehta",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 474.0,
+      "endTime": 479.5,
+      "averageConfidence": 0.91,
+      "index": 34
+    },
+    {
+      "sentence": "I'd like to give you a full written response on the Comply dispute within forty-eight hours, and the Detect analysis from Marcus by end of day today. Is that workable?",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 480.3,
+      "endTime": 490.7,
+      "averageConfidence": 0.9,
+      "index": 35
+    },
+    {
+      "sentence": "I mean \u2014 it'll have to be. I just want to say for the record, we've been an Aegis customer for three years. We went through the March outage, we didn't make a huge fuss, we understood that things happen. But this invoice situation feels like we're being penalized for engaging with a product launch that wasn't properly set up for us. That's frustrating.",
+      "speaker_name": "Natalie Simmons",
+      "sentimentType": "negative",
+      "speaker_id": 2,
+      "time": 491.5,
+      "endTime": 514.2,
+      "averageConfidence": 0.95,
+      "index": 36
+    },
+    {
+      "sentence": "I hear you, Natalie, and that frustration is warranted. We value the relationship and I want to make sure we get this resolved correctly, not just quickly. I'll send you both a written summary of this call and the next steps before end of business today.",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 515.6,
+      "endTime": 531.9,
+      "averageConfidence": 0.95,
+      "index": 37
+    },
+    {
+      "sentence": "Alright. We'll look for that. Thank you both for at least being straight with us.",
+      "speaker_name": "Ajay Mehta",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 532.6,
+      "endTime": 538.2,
+      "averageConfidence": 0.96,
+      "index": 38
+    },
+    {
+      "sentence": "Of course. We'll be in touch shortly \u2014 thanks Ajay, thanks Natalie.",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 539.0,
+      "endTime": 543.0,
+      "averageConfidence": 0.94,
+      "index": 39
+    }
+  ]
+}

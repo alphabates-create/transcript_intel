@@ -1,0 +1,414 @@
+{
+  "data": [
+    {
+      "sentence": "Hey Catherine, thanks for making time today \u2014 I know you mentioned last week things have been pretty hectic on your end.",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 4.0,
+      "endTime": 12.1,
+      "averageConfidence": 0.93,
+      "index": 0
+    },
+    {
+      "sentence": "Yeah, hectic is one word for it. We've got an audit coming up end of May and honestly our whole security stack is under a microscope right now.",
+      "speaker_name": "Catherine Page",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 12.8,
+      "endTime": 22.9,
+      "averageConfidence": 0.9,
+      "index": 1
+    },
+    {
+      "sentence": "Understood, totally get that. And Russell, good to have you on as well \u2014 I think this is actually the first time we've spoken directly, right?",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 24.4,
+      "endTime": 33.5,
+      "averageConfidence": 0.92,
+      "index": 2
+    },
+    {
+      "sentence": "Yeah, first time. I've been kind of the one in the weeds on the day-to-day with the platform so Catherine thought it made sense for me to jump on this one.",
+      "speaker_name": "Russell Tang",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 33.9,
+      "endTime": 44.5,
+      "averageConfidence": 0.91,
+      "index": 3
+    },
+    {
+      "sentence": "Absolutely, and honestly I'm glad you're here because I think a lot of what I want to talk through today is going to be pretty technical. So, where do you want to start \u2014 should I just sort of set an agenda or do you guys have things you want to get straight to?",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 44.9,
+      "endTime": 64.3,
+      "averageConfidence": 0.9,
+      "index": 4
+    },
+    {
+      "sentence": "I think we should just get into it, Maria. I'll be honest with you \u2014 and I don't want this to feel like an ambush \u2014 but we've been having some pretty serious conversations internally about whether Aegis is still the right fit for us.",
+      "speaker_name": "Catherine Page",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 65.4,
+      "endTime": 81.6,
+      "averageConfidence": 0.88,
+      "index": 5
+    },
+    {
+      "sentence": "Okay. I appreciate you saying that directly, Catherine. Can you help me understand what's driving that? Is this across the board or is it specific areas?",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 82.1,
+      "endTime": 91.4,
+      "averageConfidence": 0.91,
+      "index": 6
+    },
+    {
+      "sentence": "It's \u2014 well, it's a few things. Russell, do you want to start with the Detect stuff since that's kind of where it kicked off?",
+      "speaker_name": "Catherine Page",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 92.1,
+      "endTime": 100.8,
+      "averageConfidence": 0.92,
+      "index": 7
+    },
+    {
+      "sentence": "Sure. So, look \u2014 the outage in March. That was a really bad week for us. We're a manufacturing environment, we've got operational technology, we've got floor systems that we're trying to keep visibility on, and for roughly six hours we had nothing. Zero threat monitoring. And I found out about it because one of my guys noticed alerts had stopped coming in, not because Aegis told us.",
+      "speaker_name": "Russell Tang",
+      "sentimentType": "negative",
+      "speaker_id": 2,
+      "time": 101.8,
+      "endTime": 125.5,
+      "averageConfidence": 0.91,
+      "index": 8
+    },
+    {
+      "sentence": "Yeah, and that's \u2014 Russell, I hear you and I want to acknowledge that because that outage was, um, it was a significant failure on our part. The event processing pipeline had a cascading failure and it exposed a single point of failure in our ingestion layer that frankly should not have existed. I'm not going to sugarcoat it.",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "negative",
+      "speaker_id": 0,
+      "time": 126.4,
+      "endTime": 146.9,
+      "averageConfidence": 0.94,
+      "index": 9
+    },
+    {
+      "sentence": "I mean, at least you're saying that. But the communication piece is what really stung. We're paying for a platform that's supposed to be our eyes and ears and we essentially found out through the back door that it was blind.",
+      "speaker_name": "Russell Tang",
+      "sentimentType": "negative",
+      "speaker_id": 2,
+      "time": 148.0,
+      "endTime": 162.6,
+      "averageConfidence": 0.91,
+      "index": 10
+    },
+    {
+      "sentence": "That's a fair criticism and it's one I've already escalated internally. The post-incident review identified that our customer notification process was too slow and too passive. We've since put in redundant processing nodes and implemented a circuit breaker pattern so that kind of cascade can't happen again, but I also want to be clear \u2014 the communication gap was a separate failure and it's one we're actively fixing.",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "negative",
+      "speaker_id": 0,
+      "time": 163.1,
+      "endTime": 187.2,
+      "averageConfidence": 0.93,
+      "index": 11
+    },
+    {
+      "sentence": "Okay but here's my thing, Maria \u2014 and I want you to really hear this \u2014 we're in manufacturing. We've got ISO 27001 we're working toward, we've got customers asking us about SOC 2 now, and we cannot have a situation where our security monitoring just goes dark and we don't know about it for hours. That's not a 'we're fixing the process' situation, that's a trust issue.",
+      "speaker_name": "Catherine Page",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 188.4,
+      "endTime": 212.4,
+      "averageConfidence": 0.9,
+      "index": 12
+    },
+    {
+      "sentence": "I completely understand, and I don't want to minimize that. Can I ask \u2014 since the remediation went in, have you seen any further gaps or performance issues with Detect specifically?",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 213.0,
+      "endTime": 224.0,
+      "averageConfidence": 0.89,
+      "index": 13
+    },
+    {
+      "sentence": "No, it's been stable since then. But stable for three weeks after a six-hour blackout isn't exactly confidence inspiring, you know?",
+      "speaker_name": "Russell Tang",
+      "sentimentType": "negative",
+      "speaker_id": 2,
+      "time": 224.4,
+      "endTime": 232.0,
+      "averageConfidence": 0.88,
+      "index": 14
+    },
+    {
+      "sentence": "That's fair. And I'm not asking you to just take my word for it. I can get you a formal RCA document and the engineering team can actually walk you through the architecture changes if that would help rebuild some confidence.",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 233.0,
+      "endTime": 247.8,
+      "averageConfidence": 0.95,
+      "index": 15
+    },
+    {
+      "sentence": "That might actually be useful, yeah. But \u2014 and I don't want to just pile on here \u2014 there's also the compliance piece. Russell and I were looking at the reporting functionality last quarter and it just felt really... limited? Like we couldn't get the kind of on-demand reporting we needed.",
+      "speaker_name": "Catherine Page",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 249.2,
+      "endTime": 266.9,
+      "averageConfidence": 0.89,
+      "index": 16
+    },
+    {
+      "sentence": "So this is actually something I do want to flag because it's timely \u2014 Aegis Comply v2 just went GA last week, on April 7th. And one of the headline features is exactly that \u2014 on-demand compliance reporting across SOC 2, PCI DSS, HIPAA, and ISO 27001. Like, you mentioned ISO 27001 a minute ago, that's now a supported framework.",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 267.7,
+      "endTime": 289.2,
+      "averageConfidence": 0.91,
+      "index": 17
+    },
+    {
+      "sentence": "Wait, when did that launch?",
+      "speaker_name": "Russell Tang",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 290.2,
+      "endTime": 292.0,
+      "averageConfidence": 0.93,
+      "index": 18
+    },
+    {
+      "sentence": "April 7th. So literally last week. I know the timing is \u2014 I wish I'd been able to get you a preview of it earlier, that's on me, but the functionality that you were frustrated about should be significantly different now.",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 293.3,
+      "endTime": 307.4,
+      "averageConfidence": 0.92,
+      "index": 19
+    },
+    {
+      "sentence": "Okay well that's... I mean, that would have been helpful to know about sooner. We've been going through this whole evaluation partly because of the compliance reporting gaps.",
+      "speaker_name": "Catherine Page",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 307.9,
+      "endTime": 318.0,
+      "averageConfidence": 0.95,
+      "index": 20
+    },
+    {
+      "sentence": "And I take responsibility for that communication gap on my end. You should have been looped in on the Comply v2 roadmap well before GA. Can I ask \u2014 what does the evaluation look like right now? Are you in active conversations with other vendors?",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 319.3,
+      "endTime": 335.4,
+      "averageConfidence": 0.91,
+      "index": 21
+    },
+    {
+      "sentence": "Yeah, we've been talking to Fortiguard Pro. They reached out to us actually, about six weeks ago, and their pitch was pretty compelling especially on the compliance and reporting side.",
+      "speaker_name": "Catherine Page",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 336.4,
+      "endTime": 346.9,
+      "averageConfidence": 0.89,
+      "index": 22
+    },
+    {
+      "sentence": "Okay, good to know. And how far along are those conversations?",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 348.0,
+      "endTime": 351.9,
+      "averageConfidence": 0.93,
+      "index": 23
+    },
+    {
+      "sentence": "We've had two demos and they're putting together a proposal. Russell, what's your read on them technically?",
+      "speaker_name": "Catherine Page",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 352.7,
+      "endTime": 359.2,
+      "averageConfidence": 0.9,
+      "index": 24
+    },
+    {
+      "sentence": "Honestly their UI is cleaner. Alert triage feels a bit more intuitive. But I've got questions about how they handle OT environments specifically because a lot of their case studies seem very IT-centric and we've got Siemens PLCs on the floor that I need visibility on.",
+      "speaker_name": "Russell Tang",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 360.4,
+      "endTime": 376.4,
+      "averageConfidence": 0.91,
+      "index": 25
+    },
+    {
+      "sentence": "That's a really important point and it's actually one of the areas where I think Aegis Detect has genuine depth \u2014 the OT and ICS coverage specifically. But I don't want to just tell you that, I'd rather show you. Have you actually stress-tested Fortiguard Pro against your OT environment or is that still pending?",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 377.9,
+      "endTime": 397.6,
+      "averageConfidence": 0.97,
+      "index": 26
+    },
+    {
+      "sentence": "Still pending. Their proposal is supposed to address it but we haven't seen it yet.",
+      "speaker_name": "Russell Tang",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 398.0,
+      "endTime": 403.1,
+      "averageConfidence": 0.92,
+      "index": 27
+    },
+    {
+      "sentence": "Okay. So here's what I'd like to propose \u2014 and tell me if this feels like too much \u2014 but I'd like to set up a technical session with our OT security specialist and your team specifically around the manufacturing use case, Siemens environment included. And separately, I want to get you into a Comply v2 demo because I genuinely think what you see is going to be different from what you've experienced before.",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 404.4,
+      "endTime": 430.4,
+      "averageConfidence": 0.89,
+      "index": 28
+    },
+    {
+      "sentence": "I mean, I'm open to it. Catherine?",
+      "speaker_name": "Russell Tang",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 431.3,
+      "endTime": 433.8,
+      "averageConfidence": 0.93,
+      "index": 29
+    },
+    {
+      "sentence": "I'm open to it too but I want to be honest \u2014 we're not going to be swayed just by demos at this point. The March outage shook our confidence and we need more than a good product presentation to feel like Aegis is the right long-term partner. Does that make sense?",
+      "speaker_name": "Catherine Page",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 434.7,
+      "endTime": 452.9,
+      "averageConfidence": 0.9,
+      "index": 30
+    },
+    {
+      "sentence": "It makes complete sense. And I respect you for saying it that way. What would it take \u2014 like, genuinely, what would rebuilding that trust look like for you? I want to understand what success looks like from your side.",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 454.0,
+      "endTime": 467.7,
+      "averageConfidence": 0.93,
+      "index": 31
+    },
+    {
+      "sentence": "Honestly? A few things. We want the RCA documentation Russell mentioned. We'd want some kind of SLA commitment or credit structure for monitoring downtime specifically \u2014 not just generic uptime guarantees. And we want to actually see the Comply v2 reporting in action for ISO 27001 because that audit in May is real and we need to be able to produce documentation.",
+      "speaker_name": "Catherine Page",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 468.6,
+      "endTime": 490.0,
+      "averageConfidence": 0.93,
+      "index": 32
+    },
+    {
+      "sentence": "All of that is reasonable and I can work toward all three. The RCA I can get you this week. The SLA conversation I'll need to pull in our account executive and potentially our VP of Customer Success, but I don't think what you're asking for is out of reach. And the Comply v2 demo \u2014 I can have that scheduled within the week. Would next Tuesday or Wednesday work?",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 491.5,
+      "endTime": 516.1,
+      "averageConfidence": 0.9,
+      "index": 33
+    },
+    {
+      "sentence": "Wednesday works better for me. Russell?",
+      "speaker_name": "Catherine Page",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 517.2,
+      "endTime": 519.7,
+      "averageConfidence": 0.9,
+      "index": 34
+    },
+    {
+      "sentence": "Wednesday's fine.",
+      "speaker_name": "Russell Tang",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 520.4,
+      "endTime": 521.9,
+      "averageConfidence": 0.93,
+      "index": 35
+    },
+    {
+      "sentence": "Great. I'll get that on the calendar today. And look \u2014 I know this call was hard and I appreciate that you came to me directly instead of just going quiet. I'd rather have the honest conversation than find out after the fact that we'd lost you. We've got work to do to earn back your confidence and I'm not taking that lightly.",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 522.4,
+      "endTime": 544.4,
+      "averageConfidence": 0.96,
+      "index": 36
+    },
+    {
+      "sentence": "We appreciate that. Like I said, we're not looking to leave just for the sake of leaving \u2014 switching vendors mid-audit cycle would be a nightmare. But we need to feel like Aegis has its house in order.",
+      "speaker_name": "Catherine Page",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 545.5,
+      "endTime": 558.7,
+      "averageConfidence": 0.96,
+      "index": 37
+    },
+    {
+      "sentence": "Understood. I'll follow up with a summary email this afternoon \u2014 RCA timeline, the Wednesday Comply v2 demo, and next steps on the SLA discussion. Anything else before we wrap?",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 559.2,
+      "endTime": 569.4,
+      "averageConfidence": 0.97,
+      "index": 38
+    },
+    {
+      "sentence": "No, I think that covers it. Thanks Maria.",
+      "speaker_name": "Russell Tang",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 570.9,
+      "endTime": 573.6,
+      "averageConfidence": 0.94,
+      "index": 39
+    },
+    {
+      "sentence": "Thanks, Maria. Talk soon.",
+      "speaker_name": "Catherine Page",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 574.0,
+      "endTime": 575.6,
+      "averageConfidence": 0.91,
+      "index": 40
+    }
+  ]
+}

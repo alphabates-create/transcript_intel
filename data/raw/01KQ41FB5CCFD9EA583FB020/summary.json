@@ -1,0 +1,46 @@
+{
+  "summary": "Lisa Park and Kevin O'Brien from Aegis held a threat detection tuning session with Patricia Dunn (VP of Security) and Michael Russo (Compliance Officer) from Harborview Banking, who went live on Aegis Detect seven weeks ago. The primary concerns discussed were alert fatigue from false positives driven by geo-anomaly detection for multi-timezone staff, compliance coverage gaps for FFIEC/SOX/GLBA requirements, and inefficient alert routing to a single shared SOC inbox. Kevin enabled alert mode on the privileged access monitoring ruleset during the call and identified that the data retention setting needs to be updated from 90 days to at least 12 months. A follow-up working session was planned for the week of March 16th to configure trusted location profiles and work schedule profiles for the Manila team.",
+  "actionItems": [
+    "Kevin O'Brien: Send session summary with storage estimate for 12-month retention, bulk high-mobility user update template, and PagerDuty integration instructions",
+    "Patricia Dunn: Provide Manila office static IP ranges and coordinate availability for follow-up configuration session the week of March 16th",
+    "Lisa Park: Send calendar invite for follow-up working session once Patricia's team confirms availability",
+    "Patricia Dunn: Alert SOC team about expected initial burst of privileged access monitoring alerts over the next 24 hours and obtain PagerDuty API key for integration setup"
+  ],
+  "topics": [
+    "alert tuning",
+    "false positives",
+    "compliance",
+    "alert routing",
+    "data retention",
+    "financial services"
+  ],
+  "overallSentiment": "mixed-positive",
+  "sentimentScore": 3.9,
+  "keyMoments": [
+    {
+      "time": 210.0,
+      "text": "Patricia raises SOC alert fatigue as a top concern, with false positives degrading response times on real threats",
+      "type": "concern",
+      "speaker": "Patricia Dunn"
+    },
+    {
+      "time": 680.0,
+      "text": "Kevin discovers privileged access monitoring rules are in monitor-only mode instead of alert mode, a misconfiguration with direct compliance implications",
+      "type": "technical_issue",
+      "speaker": "Kevin O'Brien"
+    },
+    {
+      "time": 820.0,
+      "text": "Kevin enables alert mode on privileged access monitoring ruleset live during the call with Michael and Patricia's sign-off",
+      "type": "action_item",
+      "speaker": "Kevin O'Brien"
+    },
+    {
+      "time": 1380.0,
+      "text": "Kevin discovers data retention is set to 90 days, well below the 12-month minimum required by Harborview's auditors",
+      "type": "concern",
+      "speaker": "Kevin O'Brien"
+    }
+  ],
+  "meetingId": "01KQ41FB5CCFD9EA583FB020"
+}

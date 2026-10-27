@@ -1,0 +1,474 @@
+{
+  "data": [
+    {
+      "sentence": "Alright, I think we're all on \u2014 can everyone hear me okay?",
+      "speaker_name": "Chris Lee",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 3.9,
+      "endTime": 8.4,
+      "averageConfidence": 0.9,
+      "index": 0
+    },
+    {
+      "sentence": "Yeah, I can hear you.",
+      "speaker_name": "Nina Kowalski",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 8.8,
+      "endTime": 11.0,
+      "averageConfidence": 0.91,
+      "index": 1
+    },
+    {
+      "sentence": "Yep, good here.",
+      "speaker_name": "Tyler Washington",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 11.9,
+      "endTime": 13.4,
+      "averageConfidence": 0.91,
+      "index": 2
+    },
+    {
+      "sentence": "Same, I'm on.",
+      "speaker_name": "Sofia Petrov",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 14.5,
+      "endTime": 16.0,
+      "averageConfidence": 0.92,
+      "index": 3
+    },
+    {
+      "sentence": "Okay good, so \u2014 let's just dive in because I don't want this to run long. The reason I called this is, uh, we've been getting some pretty alarming signals from the Protect module over the last couple of weeks and I think we need to talk through what's actually happening before this becomes a customer-facing issue.",
+      "speaker_name": "Chris Lee",
+      "sentimentType": "negative",
+      "speaker_id": 0,
+      "time": 16.5,
+      "endTime": 36.7,
+      "averageConfidence": 0.94,
+      "index": 4
+    },
+    {
+      "sentence": "Yeah, I'm glad we're finally having this conversation honestly. I've been flagging some of these benchmark numbers for like three weeks now and it feels like nothing's moved.",
+      "speaker_name": "Nina Kowalski",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 37.5,
+      "endTime": 47.1,
+      "averageConfidence": 0.88,
+      "index": 5
+    },
+    {
+      "sentence": "Okay, let's not \u2014 I hear you Nina, and I want to get to that, but let's just start with the actual data so we're all on the same page. Tyler, you ran the load tests last week, can you walk us through what you saw?",
+      "speaker_name": "Chris Lee",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 48.0,
+      "endTime": 64.0,
+      "averageConfidence": 0.94,
+      "index": 6
+    },
+    {
+      "sentence": "Sure, yeah. So we ran a simulated backup workload at roughly 2x our current P95 customer scale, and the results were... not great. Throughput started degrading at around the 60% load mark, and by the time we hit full simulated load we were seeing backup job queue times spike to like \u2014 I think the worst number was 47 minutes for a job that should complete in under five.",
+      "speaker_name": "Tyler Washington",
+      "sentimentType": "negative",
+      "speaker_id": 2,
+      "time": 64.4,
+      "endTime": 88.9,
+      "averageConfidence": 0.93,
+      "index": 7
+    },
+    {
+      "sentence": "47 minutes? I \u2014 sorry, did you say 47?",
+      "speaker_name": "Sofia Petrov",
+      "sentimentType": "negative",
+      "speaker_id": 3,
+      "time": 89.7,
+      "endTime": 92.6,
+      "averageConfidence": 0.94,
+      "index": 8
+    },
+    {
+      "sentence": "Yeah. 47. And that's not even worst-case, that's just what we observed in the test window. It could be worse under sustained load.",
+      "speaker_name": "Tyler Washington",
+      "sentimentType": "negative",
+      "speaker_id": 2,
+      "time": 93.7,
+      "endTime": 101.7,
+      "averageConfidence": 0.92,
+      "index": 9
+    },
+    {
+      "sentence": "That's... I mean that's genuinely bad. Like that's not a tuning problem, that's a fundamental architecture concern.",
+      "speaker_name": "Sofia Petrov",
+      "sentimentType": "negative",
+      "speaker_id": 3,
+      "time": 103.2,
+      "endTime": 108.9,
+      "averageConfidence": 0.92,
+      "index": 10
+    },
+    {
+      "sentence": "Right, which is sort of what I've been trying to say. The scheduler \u2014 and look, I don't want to throw anyone under the bus here \u2014 but the job scheduler isn't built to handle concurrent dispatch at this scale. It was designed for, I don't know, a much smaller customer footprint than where we're heading.",
+      "speaker_name": "Tyler Washington",
+      "sentimentType": "negative",
+      "speaker_id": 2,
+      "time": 109.2,
+      "endTime": 129.2,
+      "averageConfidence": 0.93,
+      "index": 11
+    },
+    {
+      "sentence": "Okay and this is exactly what I documented in QA-1847 back in, uh, late February. The concurrency ceiling on the scheduler queue was a known risk item. I flagged it as high severity.",
+      "speaker_name": "Nina Kowalski",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 130.1,
+      "endTime": 141.4,
+      "averageConfidence": 0.94,
+      "index": 12
+    },
+    {
+      "sentence": "Nina, I know you flagged it. It was on the backlog. We were dealing with \u2014 look, we had the Detect outage in March, that pulled a lot of engineering bandwidth, and some things got deprioritized. That's just the reality.",
+      "speaker_name": "Chris Lee",
+      "sentimentType": "negative",
+      "speaker_id": 0,
+      "time": 142.6,
+      "endTime": 157.0,
+      "averageConfidence": 0.95,
+      "index": 13
+    },
+    {
+      "sentence": "I understand that, Chris, and I'm not trying to relitigate prioritization decisions. But I think we have to acknowledge that we knew about this and we're now sitting here looking at 47-minute queue times. That's... that's uncomfortable.",
+      "speaker_name": "Nina Kowalski",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 157.9,
+      "endTime": 170.7,
+      "averageConfidence": 0.88,
+      "index": 14
+    },
+    {
+      "sentence": "It is uncomfortable. I'm not disagreeing. Let's focus on what we do about it.",
+      "speaker_name": "Chris Lee",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 172.2,
+      "endTime": 177.1,
+      "averageConfidence": 0.96,
+      "index": 15
+    },
+    {
+      "sentence": "So I've been doing some digging since Tyler shared the numbers yesterday, and I think there are actually two separate issues tangled together here. One is the scheduler concurrency problem which Nina flagged, and the other is \u2014 and this one I actually didn't expect \u2014 the snapshot deduplication layer is doing a lot of synchronous I/O that it really shouldn't be. Like it's blocking on disk reads mid-job.",
+      "speaker_name": "Sofia Petrov",
+      "sentimentType": "negative",
+      "speaker_id": 3,
+      "time": 178.3,
+      "endTime": 202.3,
+      "averageConfidence": 0.88,
+      "index": 16
+    },
+    {
+      "sentence": "Oh, yeah \u2014 I actually saw that too in the traces. There's this dedup check that happens inline and it's just... it's not async. It never was.",
+      "speaker_name": "Tyler Washington",
+      "sentimentType": "negative",
+      "speaker_id": 2,
+      "time": 203.1,
+      "endTime": 212.4,
+      "averageConfidence": 0.95,
+      "index": 17
+    },
+    {
+      "sentence": "So that's compounding the queue problem. Because jobs are blocking longer than they should, which backs up the queue, which makes the scheduler worse.",
+      "speaker_name": "Sofia Petrov",
+      "sentimentType": "negative",
+      "speaker_id": 3,
+      "time": 213.7,
+      "endTime": 222.5,
+      "averageConfidence": 0.93,
+      "index": 18
+    },
+    {
+      "sentence": "It's like, it's a pressure cooker situation. Each problem makes the other one worse. Great.",
+      "speaker_name": "Nina Kowalski",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 223.4,
+      "endTime": 228.7,
+      "averageConfidence": 0.91,
+      "index": 19
+    },
+    {
+      "sentence": "Okay, so realistically \u2014 what are we looking at in terms of effort to fix the scheduler concurrency issue? Sofia, you know that codebase better than anyone.",
+      "speaker_name": "Chris Lee",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 229.8,
+      "endTime": 239.7,
+      "averageConfidence": 0.88,
+      "index": 20
+    },
+    {
+      "sentence": "Honestly? It's not a quick fix. The scheduler wasn't designed to be horizontally scalable. To do this properly we'd probably need to refactor the dispatch layer, introduce some kind of distributed queue \u2014 I keep thinking something like a partitioned queue model would actually solve this \u2014 but we're talking weeks of work. Plural. Not two weeks, more like... six to eight minimum if we want to do it right and not create new problems.",
+      "speaker_name": "Sofia Petrov",
+      "sentimentType": "negative",
+      "speaker_id": 3,
+      "time": 240.8,
+      "endTime": 267.2,
+      "averageConfidence": 0.92,
+      "index": 21
+    },
+    {
+      "sentence": "Six to eight weeks. Okay. And we're heading into what's supposed to be a growth quarter for Protect. Sales has been pushing it pretty hard post the Comply v2 launch \u2014 they want to bundle them together.",
+      "speaker_name": "Chris Lee",
+      "sentimentType": "negative",
+      "speaker_id": 0,
+      "time": 268.4,
+      "endTime": 281.7,
+      "averageConfidence": 0.89,
+      "index": 22
+    },
+    {
+      "sentence": "Which is great for the business but if we scale the customer base and the infrastructure can't handle it, we're going to have outages. Real ones. Customer-impacting ones.",
+      "speaker_name": "Tyler Washington",
+      "sentimentType": "negative",
+      "speaker_id": 2,
+      "time": 282.4,
+      "endTime": 292.1,
+      "averageConfidence": 0.89,
+      "index": 23
+    },
+    {
+      "sentence": "And that's the last thing we need right now. After March, after the Detect thing \u2014 honestly our credibility with some of these enterprise customers is already fragile. Another major incident would be... it would not be good.",
+      "speaker_name": "Nina Kowalski",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 292.8,
+      "endTime": 305.9,
+      "averageConfidence": 0.9,
+      "index": 24
+    },
+    {
+      "sentence": "Yeah, I think about that a lot. The Detect outage \u2014 the six hours of no visibility \u2014 that shook some people. I know we fixed it, the redundant nodes, the circuit breaker stuff, all of that. But trust takes a while to rebuild and piling a Protect failure on top of that is not something I want to explain to leadership.",
+      "speaker_name": "Chris Lee",
+      "sentimentType": "negative",
+      "speaker_id": 0,
+      "time": 307.2,
+      "endTime": 329.0,
+      "averageConfidence": 0.95,
+      "index": 25
+    },
+    {
+      "sentence": "So what do we do in the meantime? Like is there a stopgap? Because six to eight weeks for a full refactor doesn't help us if we're onboarding new customers next month.",
+      "speaker_name": "Tyler Washington",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 329.3,
+      "endTime": 340.9,
+      "averageConfidence": 0.95,
+      "index": 26
+    },
+    {
+      "sentence": "There might be some things we can do at the config level. Like we could tighten the job concurrency limits per tenant \u2014 basically throttle how many concurrent backup jobs any single customer can run \u2014 which buys us some headroom on the queue. It's not a fix, it's a band-aid, but it could prevent the worst-case blowups.",
+      "speaker_name": "Sofia Petrov",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 342.3,
+      "endTime": 362.3,
+      "averageConfidence": 0.91,
+      "index": 27
+    },
+    {
+      "sentence": "Yeah but then we're artificially limiting the product for customers who are paying for, you know, enterprise-grade backup. That feels wrong.",
+      "speaker_name": "Nina Kowalski",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 362.8,
+      "endTime": 370.4,
+      "averageConfidence": 0.9,
+      "index": 28
+    },
+    {
+      "sentence": "It does feel wrong. But the alternative might be an outage, which is worse.",
+      "speaker_name": "Sofia Petrov",
+      "sentimentType": "negative",
+      "speaker_id": 3,
+      "time": 371.7,
+      "endTime": 376.7,
+      "averageConfidence": 0.96,
+      "index": 29
+    },
+    {
+      "sentence": "I agree with Sofia. A graceful degradation we control is better than an uncontrolled failure. We implement the throttle as a temporary measure, we communicate it internally, and we stay off the critical path while we do the real fix.",
+      "speaker_name": "Chris Lee",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 377.8,
+      "endTime": 391.6,
+      "averageConfidence": 0.95,
+      "index": 30
+    },
+    {
+      "sentence": "And the async dedup issue \u2014 is that more tractable? Like can we decouple that faster than the scheduler work?",
+      "speaker_name": "Tyler Washington",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 392.1,
+      "endTime": 399.5,
+      "averageConfidence": 0.92,
+      "index": 31
+    },
+    {
+      "sentence": "Yeah, actually I think the dedup thing is more isolated. If we move the deduplication check to an async worker and just do a quick hash lookup first with a fallback... I mean I'd need to prototype it but I think that's a one to two week effort. Maybe less.",
+      "speaker_name": "Sofia Petrov",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 400.5,
+      "endTime": 418.0,
+      "averageConfidence": 0.88,
+      "index": 32
+    },
+    {
+      "sentence": "Okay, that's at least something. That's one concrete thing we can actually move on quickly.",
+      "speaker_name": "Chris Lee",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 419.1,
+      "endTime": 424.5,
+      "averageConfidence": 0.94,
+      "index": 33
+    },
+    {
+      "sentence": "Can I ask something that might be uncomfortable? Do we need to be having a conversation about whether sales should be slowing down Protect commitments right now? Like, should we be having a conversation with them about customer onboarding pace?",
+      "speaker_name": "Nina Kowalski",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 425.6,
+      "endTime": 439.4,
+      "averageConfidence": 0.91,
+      "index": 34
+    },
+    {
+      "sentence": "Ugh. I mean \u2014 yes, probably. That's going to be a fun conversation. Sales is riding high on the Comply v2 momentum and they're not going to love being told to pump the brakes on Protect.",
+      "speaker_name": "Chris Lee",
+      "sentimentType": "negative",
+      "speaker_id": 0,
+      "time": 440.3,
+      "endTime": 453.0,
+      "averageConfidence": 0.89,
+      "index": 35
+    },
+    {
+      "sentence": "I know, but better to have that conversation now than to have it after a customer's backups fail during a ransomware event or something. Like, that's the scenario we're trying to avoid.",
+      "speaker_name": "Nina Kowalski",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 453.9,
+      "endTime": 465.0,
+      "averageConfidence": 0.91,
+      "index": 36
+    },
+    {
+      "sentence": "You're right. Okay. I'll set up time with the sales lead this week. I'll frame it as a scaling preparation conversation rather than a stop-selling conversation. But the message will basically be: let's be thoughtful about onboarding pace for the next six to eight weeks.",
+      "speaker_name": "Chris Lee",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 466.4,
+      "endTime": 482.2,
+      "averageConfidence": 0.96,
+      "index": 37
+    },
+    {
+      "sentence": "That's probably the right framing. And in parallel, Tyler and I can start sketching out the scheduler architecture? Like even just getting the design doc started so we know what we're actually committing to?",
+      "speaker_name": "Sofia Petrov",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 483.6,
+      "endTime": 495.9,
+      "averageConfidence": 0.89,
+      "index": 38
+    },
+    {
+      "sentence": "Yeah, let's do that. I can pull together the load test traces and annotate them so you've got the full picture of where things are falling apart.",
+      "speaker_name": "Tyler Washington",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 496.3,
+      "endTime": 505.9,
+      "averageConfidence": 0.92,
+      "index": 39
+    },
+    {
+      "sentence": "Good. Nina, can you put together a summary of the QA findings \u2014 the existing ticket plus anything new from the test results \u2014 so I have something to bring to leadership? I need to brief them this week and I want the data to speak for itself.",
+      "speaker_name": "Chris Lee",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 507.0,
+      "endTime": 524.3,
+      "averageConfidence": 0.9,
+      "index": 40
+    },
+    {
+      "sentence": "Yeah, I can have that to you by tomorrow morning. And I'll include the timeline of when things were flagged because I think that's... I think that context matters.",
+      "speaker_name": "Nina Kowalski",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 525.1,
+      "endTime": 535.0,
+      "averageConfidence": 0.9,
+      "index": 41
+    },
+    {
+      "sentence": "Understood. Okay \u2014 I think we have a rough path forward. It's not a great situation, I won't pretend it is, but at least we're not walking into it blind anymore. Let's regroup end of week and see where we are on the dedup fix and the design doc. Sound good?",
+      "speaker_name": "Chris Lee",
+      "sentimentType": "negative",
+      "speaker_id": 0,
+      "time": 536.2,
+      "endTime": 554.1,
+      "averageConfidence": 0.9,
+      "index": 42
+    },
+    {
+      "sentence": "Works for me.",
+      "speaker_name": "Tyler Washington",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 555.1,
+      "endTime": 556.6,
+      "averageConfidence": 0.94,
+      "index": 43
+    },
+    {
+      "sentence": "Same, I'll have the summary ready.",
+      "speaker_name": "Nina Kowalski",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 557.0,
+      "endTime": 558.8,
+      "averageConfidence": 0.95,
+      "index": 44
+    },
+    {
+      "sentence": "Yeah, sounds good. I'll ping Tyler offline to coordinate.",
+      "speaker_name": "Sofia Petrov",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 559.2,
+      "endTime": 562.2,
+      "averageConfidence": 0.93,
+      "index": 45
+    },
+    {
+      "sentence": "Alright. Thanks everyone. Not a fun call but an important one. Talk later.",
+      "speaker_name": "Chris Lee",
+      "sentimentType": "negative",
+      "speaker_id": 0,
+      "time": 563.3,
+      "endTime": 567.5,
+      "averageConfidence": 0.89,
+      "index": 46
+    }
+  ]
+}

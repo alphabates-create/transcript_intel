@@ -1,0 +1,202 @@
+[
+  {
+    "speakerName": "Hannah Liu",
+    "timestamp": 4.3,
+    "endTimeTs": 11.4
+  },
+  {
+    "speakerName": "Ananya Sharma",
+    "timestamp": 12.8,
+    "endTimeTs": 14.3
+  },
+  {
+    "speakerName": "Mike Romano",
+    "timestamp": 15.1,
+    "endTimeTs": 20.0
+  },
+  {
+    "speakerName": "Ananya Sharma",
+    "timestamp": 21.1,
+    "endTimeTs": 27.2
+  },
+  {
+    "speakerName": "Hannah Liu",
+    "timestamp": 27.8,
+    "endTimeTs": 33.9
+  },
+  {
+    "speakerName": "Mike Romano",
+    "timestamp": 35.1,
+    "endTimeTs": 36.6
+  },
+  {
+    "speakerName": "Hannah Liu",
+    "timestamp": 38.0,
+    "endTimeTs": 62.3
+  },
+  {
+    "speakerName": "Ananya Sharma",
+    "timestamp": 63.5,
+    "endTimeTs": 74.0
+  },
+  {
+    "speakerName": "Hannah Liu",
+    "timestamp": 75.1,
+    "endTimeTs": 80.5
+  },
+  {
+    "speakerName": "Ananya Sharma",
+    "timestamp": 81.5,
+    "endTimeTs": 105.1
+  },
+  {
+    "speakerName": "Mike Romano",
+    "timestamp": 105.9,
+    "endTimeTs": 111.4
+  },
+  {
+    "speakerName": "Ananya Sharma",
+    "timestamp": 112.0,
+    "endTimeTs": 127.4
+  },
+  {
+    "speakerName": "Hannah Liu",
+    "timestamp": 128.6,
+    "endTimeTs": 137.5
+  },
+  {
+    "speakerName": "Ananya Sharma",
+    "timestamp": 138.9,
+    "endTimeTs": 152.9
+  },
+  {
+    "speakerName": "Hannah Liu",
+    "timestamp": 154.1,
+    "endTimeTs": 162.6
+  },
+  {
+    "speakerName": "Mike Romano",
+    "timestamp": 163.6,
+    "endTimeTs": 184.4
+  },
+  {
+    "speakerName": "Hannah Liu",
+    "timestamp": 185.2,
+    "endTimeTs": 196.1
+  },
+  {
+    "speakerName": "Ananya Sharma",
+    "timestamp": 197.1,
+    "endTimeTs": 218.5
+  },
+  {
+    "speakerName": "Mike Romano",
+    "timestamp": 219.6,
+    "endTimeTs": 229.7
+  },
+  {
+    "speakerName": "Ananya Sharma",
+    "timestamp": 230.3,
+    "endTimeTs": 242.3
+  },
+  {
+    "speakerName": "Hannah Liu",
+    "timestamp": 243.5,
+    "endTimeTs": 255.1
+  },
+  {
+    "speakerName": "Mike Romano",
+    "timestamp": 255.9,
+    "endTimeTs": 260.6
+  },
+  {
+    "speakerName": "Hannah Liu",
+    "timestamp": 262.0,
+    "endTimeTs": 275.6
+  },
+  {
+    "speakerName": "Ananya Sharma",
+    "timestamp": 277.0,
+    "endTimeTs": 282.5
+  },
+  {
+    "speakerName": "Hannah Liu",
+    "timestamp": 283.0,
+    "endTimeTs": 302.5
+  },
+  {
+    "speakerName": "Mike Romano",
+    "timestamp": 302.9,
+    "endTimeTs": 316.5
+  },
+  {
+    "speakerName": "Hannah Liu",
+    "timestamp": 317.7,
+    "endTimeTs": 325.4
+  },
+  {
+    "speakerName": "Mike Romano",
+    "timestamp": 326.3,
+    "endTimeTs": 335.7
+  },
+  {
+    "speakerName": "Hannah Liu",
+    "timestamp": 336.3,
+    "endTimeTs": 353.5
+  },
+  {
+    "speakerName": "Ananya Sharma",
+    "timestamp": 354.8,
+    "endTimeTs": 374.7
+  },
+  {
+    "speakerName": "Hannah Liu",
+    "timestamp": 375.3,
+    "endTimeTs": 391.4
+  },
+  {
+    "speakerName": "Mike Romano",
+    "timestamp": 392.2,
+    "endTimeTs": 404.6
+  },
+  {
+    "speakerName": "Hannah Liu",
+    "timestamp": 405.2,
+    "endTimeTs": 416.7
+  },
+  {
+    "speakerName": "Ananya Sharma",
+    "timestamp": 418.0,
+    "endTimeTs": 421.9
+  },
+  {
+    "speakerName": "Mike Romano",
+    "timestamp": 422.9,
+    "endTimeTs": 439.5
+  },
+  {
+    "speakerName": "Ananya Sharma",
+    "timestamp": 440.6,
+    "endTimeTs": 452.3
+  },
+  {
+    "speakerName": "Hannah Liu",
+    "timestamp": 453.0,
+    "endTimeTs": 459.7
+  },
+  {
+    "speakerName": "Mike Romano",
+    "timestamp": 460.9,
+    "endTimeTs": 463.5
+  },
+  {
+    "speakerName": "Ananya Sharma",
+    "timestamp": 464.6,
+    "endTimeTs": 468.4
+  },
+  {
+    "speakerName": "Hannah Liu",
+    "timestamp": 469.4,
+    "endTimeTs": 479.3
+  }
+]

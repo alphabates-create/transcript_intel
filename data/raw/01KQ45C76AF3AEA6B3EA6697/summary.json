@@ -1,0 +1,46 @@
+{
+  "summary": "Daniel Okafor and Sofia Petrov met with Harold Jensen to discuss the upcoming renewal of a three-module cybersecurity platform contract (Protect, Detect, and Comply) ahead of an April 30th deadline. Harold raised concerns about a recent six-hour outage that left his manufacturing environment without threat monitoring visibility, and Sofia explained the root cause and architectural fixes implemented since. Harold disclosed exploratory conversations with a competitor (CyberNova) and flagged a gap in CMMC compliance support needed for a Q4 audit. The parties aligned on three key deliverables: an enhanced SLA for Detect, a revised pricing structure accounting for the outage, and a written roadmap commitment on CMMC support.",
+  "actionItems": [
+    "Daniel Okafor: Send revised proposal document by Thursday or Friday including updated SLA language, two-year pricing scenario, and roadmap commitments",
+    "Sofia Petrov: Arrange a call between Harold and the Comply product manager to discuss CMMC roadmap timeline",
+    "Harold Jensen: Share the proposal document with his legal team and leadership for review",
+    "Daniel Okafor: Formalize the enhanced 99.9% Detect uptime SLA with remediation credits in writing as part of the renewal package"
+  ],
+  "topics": [
+    "renewal",
+    "outage",
+    "sla",
+    "compliance",
+    "cmmc",
+    "competitive threat"
+  ],
+  "overallSentiment": "mixed-negative",
+  "sentimentScore": 2.8,
+  "keyMoments": [
+    {
+      "time": 95.0,
+      "text": "Harold raises the six-hour outage, noting that going dark on threat detection in a manufacturing OT environment was unacceptable",
+      "type": "concern",
+      "speaker": "Harold Jensen"
+    },
+    {
+      "time": 390.0,
+      "text": "Harold discloses exploratory conversations with competitor CyberNova, driven partly by the outage and partly by product gaps",
+      "type": "churn_signal",
+      "speaker": "Harold Jensen"
+    },
+    {
+      "time": 480.0,
+      "text": "Harold flags that CMMC framework is not covered by the upcoming Comply v2 release, which is a gap given his Q4 audit",
+      "type": "feature_gap",
+      "speaker": "Harold Jensen"
+    },
+    {
+      "time": 310.0,
+      "text": "Daniel offers a formalized enhanced SLA of 99.9% uptime on Detect, up from 99.5%, with remediation credits tied to it",
+      "type": "pricing_offer",
+      "speaker": "Daniel Okafor"
+    }
+  ],
+  "meetingId": "01KQ45C76AF3AEA6B3EA6697"
+}

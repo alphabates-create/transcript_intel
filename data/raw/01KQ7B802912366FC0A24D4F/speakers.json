@@ -1,0 +1,257 @@
+[
+  {
+    "speakerName": "Ravi Gupta",
+    "timestamp": 3.4,
+    "endTimeTs": 7.7
+  },
+  {
+    "speakerName": "Hannah Liu",
+    "timestamp": 8.0,
+    "endTimeTs": 12.2
+  },
+  {
+    "speakerName": "Ravi Gupta",
+    "timestamp": 13.6,
+    "endTimeTs": 19.6
+  },
+  {
+    "speakerName": "Nina Kowalski",
+    "timestamp": 20.2,
+    "endTimeTs": 21.7
+  },
+  {
+    "speakerName": "Alex Reyes",
+    "timestamp": 22.1,
+    "endTimeTs": 23.6
+  },
+  {
+    "speakerName": "Hannah Liu",
+    "timestamp": 24.5,
+    "endTimeTs": 33.7
+  },
+  {
+    "speakerName": "Ananya Sharma",
+    "timestamp": 35.0,
+    "endTimeTs": 37.5
+  },
+  {
+    "speakerName": "Ravi Gupta",
+    "timestamp": 38.1,
+    "endTimeTs": 40.2
+  },
+  {
+    "speakerName": "Hannah Liu",
+    "timestamp": 40.9,
+    "endTimeTs": 56.0
+  },
+  {
+    "speakerName": "Nina Kowalski",
+    "timestamp": 56.9,
+    "endTimeTs": 58.4
+  },
+  {
+    "speakerName": "Hannah Liu",
+    "timestamp": 59.5,
+    "endTimeTs": 66.1
+  },
+  {
+    "speakerName": "Ravi Gupta",
+    "timestamp": 67.6,
+    "endTimeTs": 86.5
+  },
+  {
+    "speakerName": "Ananya Sharma",
+    "timestamp": 87.6,
+    "endTimeTs": 97.1
+  },
+  {
+    "speakerName": "Ravi Gupta",
+    "timestamp": 98.2,
+    "endTimeTs": 111.6
+  },
+  {
+    "speakerName": "Alex Reyes",
+    "timestamp": 113.0,
+    "endTimeTs": 118.0
+  },
+  {
+    "speakerName": "Ravi Gupta",
+    "timestamp": 118.5,
+    "endTimeTs": 124.0
+  },
+  {
+    "speakerName": "Hannah Liu",
+    "timestamp": 124.7,
+    "endTimeTs": 130.9
+  },
+  {
+    "speakerName": "Nina Kowalski",
+    "timestamp": 131.8,
+    "endTimeTs": 139.6
+  },
+  {
+    "speakerName": "Ananya Sharma",
+    "timestamp": 140.7,
+    "endTimeTs": 155.0
+  },
+  {
+    "speakerName": "Nina Kowalski",
+    "timestamp": 155.6,
+    "endTimeTs": 162.0
+  },
+  {
+    "speakerName": "Ananya Sharma",
+    "timestamp": 163.1,
+    "endTimeTs": 173.2
+  },
+  {
+    "speakerName": "Nina Kowalski",
+    "timestamp": 174.0,
+    "endTimeTs": 180.6
+  },
+  {
+    "speakerName": "Hannah Liu",
+    "timestamp": 181.9,
+    "endTimeTs": 186.1
+  },
+  {
+    "speakerName": "Ravi Gupta",
+    "timestamp": 187.0,
+    "endTimeTs": 193.6
+  },
+  {
+    "speakerName": "Hannah Liu",
+    "timestamp": 194.9,
+    "endTimeTs": 202.6
+  },
+  {
+    "speakerName": "Alex Reyes",
+    "timestamp": 203.8,
+    "endTimeTs": 220.1
+  },
+  {
+    "speakerName": "Ananya Sharma",
+    "timestamp": 221.6,
+    "endTimeTs": 225.8
+  },
+  {
+    "speakerName": "Alex Reyes",
+    "timestamp": 226.4,
+    "endTimeTs": 240.9
+  },
+  {
+    "speakerName": "Hannah Liu",
+    "timestamp": 241.5,
+    "endTimeTs": 245.4
+  },
+  {
+    "speakerName": "Alex Reyes",
+    "timestamp": 246.1,
+    "endTimeTs": 259.9
+  },
+  {
+    "speakerName": "Ravi Gupta",
+    "timestamp": 260.8,
+    "endTimeTs": 266.3
+  },
+  {
+    "speakerName": "Hannah Liu",
+    "timestamp": 266.9,
+    "endTimeTs": 271.2
+  },
+  {
+    "speakerName": "Nina Kowalski",
+    "timestamp": 271.5,
+    "endTimeTs": 290.3
+  },
+  {
+    "speakerName": "Ananya Sharma",
+    "timestamp": 291.4,
+    "endTimeTs": 294.7
+  },
+  {
+    "speakerName": "Nina Kowalski",
+    "timestamp": 295.9,
+    "endTimeTs": 306.3
+  },
+  {
+    "speakerName": "Hannah Liu",
+    "timestamp": 306.7,
+    "endTimeTs": 315.5
+  },
+  {
+    "speakerName": "Ananya Sharma",
+    "timestamp": 316.7,
+    "endTimeTs": 324.4
+  },
+  {
+    "speakerName": "Hannah Liu",
+    "timestamp": 325.4,
+    "endTimeTs": 340.5
+  },
+  {
+    "speakerName": "Ravi Gupta",
+    "timestamp": 341.0,
+    "endTimeTs": 355.0
+  },
+  {
+    "speakerName": "Alex Reyes",
+    "timestamp": 355.3,
+    "endTimeTs": 366.0
+  },
+  {
+    "speakerName": "Ravi Gupta",
+    "timestamp": 366.6,
+    "endTimeTs": 373.7
+  },
+  {
+    "speakerName": "Hannah Liu",
+    "timestamp": 374.3,
+    "endTimeTs": 387.5
+  },
+  {
+    "speakerName": "Ravi Gupta",
+    "timestamp": 388.9,
+    "endTimeTs": 392.8
+  },
+  {
+    "speakerName": "Alex Reyes",
+    "timestamp": 393.6,
+    "endTimeTs": 402.0
+  },
+  {
+    "speakerName": "Hannah Liu",
+    "timestamp": 403.0,
+    "endTimeTs": 411.8
+  },
+  {
+    "speakerName": "Nina Kowalski",
+    "timestamp": 412.4,
+    "endTimeTs": 413.9
+  },
+  {
+    "speakerName": "Ananya Sharma",
+    "timestamp": 415.2,
+    "endTimeTs": 416.7
+  },
+  {
+    "speakerName": "Alex Reyes",
+    "timestamp": 417.7,
+    "endTimeTs": 419.5
+  },
+  {
+    "speakerName": "Hannah Liu",
+    "timestamp": 420.1,
+    "endTimeTs": 430.6
+  },
+  {
+    "speakerName": "Ravi Gupta",
+    "timestamp": 431.2,
+    "endTimeTs": 432.7
+  },
+  {
+    "speakerName": "Ananya Sharma",
+    "timestamp": 433.1,
+    "endTimeTs": 434.6
+  }
+]

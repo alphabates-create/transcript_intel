@@ -1,0 +1,38 @@
+[
+  {
+    "participantName": "Diana Reeves",
+    "timestamp": 1773226819000,
+    "type": "Join",
+    "time": 19.0
+  },
+  {
+    "participantName": "Marcus Williams",
+    "timestamp": 1773226836000,
+    "type": "Join",
+    "time": 36.0
+  },
+  {
+    "participantName": "Tyler Washington",
+    "timestamp": 1773226837000,
+    "type": "Join",
+    "time": 37.0
+  },
+  {
+    "participantName": "Tyler Washington",
+    "timestamp": 1773227820000,
+    "type": "Leave",
+    "time": 1020.0
+  },
+  {
+    "participantName": "Diana Reeves",
+    "timestamp": 1773227809000,
+    "type": "Leave",
+    "time": 1009.0
+  },
+  {
+    "participantName": "Marcus Williams",
+    "timestamp": 1773227824000,
+    "type": "Leave",
+    "time": 1024.0
+  }
+]

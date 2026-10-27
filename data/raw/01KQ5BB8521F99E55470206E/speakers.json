@@ -1,0 +1,207 @@
+[
+  {
+    "speakerName": "Sofia Petrov",
+    "timestamp": 6.1,
+    "endTimeTs": 11.9
+  },
+  {
+    "speakerName": "Tyler Washington",
+    "timestamp": 12.7,
+    "endTimeTs": 18.2
+  },
+  {
+    "speakerName": "Sofia Petrov",
+    "timestamp": 18.9,
+    "endTimeTs": 22.9
+  },
+  {
+    "speakerName": "Ravi Gupta",
+    "timestamp": 23.6,
+    "endTimeTs": 26.4
+  },
+  {
+    "speakerName": "Sofia Petrov",
+    "timestamp": 27.8,
+    "endTimeTs": 43.3
+  },
+  {
+    "speakerName": "Nina Kowalski",
+    "timestamp": 43.8,
+    "endTimeTs": 56.0
+  },
+  {
+    "speakerName": "Tyler Washington",
+    "timestamp": 57.3,
+    "endTimeTs": 63.8
+  },
+  {
+    "speakerName": "Nina Kowalski",
+    "timestamp": 65.2,
+    "endTimeTs": 77.5
+  },
+  {
+    "speakerName": "Tyler Washington",
+    "timestamp": 78.0,
+    "endTimeTs": 83.9
+  },
+  {
+    "speakerName": "Sofia Petrov",
+    "timestamp": 85.1,
+    "endTimeTs": 93.4
+  },
+  {
+    "speakerName": "Tyler Washington",
+    "timestamp": 94.5,
+    "endTimeTs": 103.9
+  },
+  {
+    "speakerName": "Sofia Petrov",
+    "timestamp": 104.8,
+    "endTimeTs": 115.8
+  },
+  {
+    "speakerName": "Ananya Sharma",
+    "timestamp": 116.6,
+    "endTimeTs": 136.2
+  },
+  {
+    "speakerName": "Ravi Gupta",
+    "timestamp": 137.6,
+    "endTimeTs": 143.9
+  },
+  {
+    "speakerName": "Ananya Sharma",
+    "timestamp": 144.7,
+    "endTimeTs": 154.2
+  },
+  {
+    "speakerName": "Sofia Petrov",
+    "timestamp": 155.4,
+    "endTimeTs": 164.4
+  },
+  {
+    "speakerName": "Ananya Sharma",
+    "timestamp": 164.8,
+    "endTimeTs": 176.4
+  },
+  {
+    "speakerName": "Sofia Petrov",
+    "timestamp": 177.2,
+    "endTimeTs": 187.7
+  },
+  {
+    "speakerName": "Ravi Gupta",
+    "timestamp": 188.3,
+    "endTimeTs": 210.5
+  },
+  {
+    "speakerName": "Sofia Petrov",
+    "timestamp": 210.9,
+    "endTimeTs": 223.8
+  },
+  {
+    "speakerName": "Ravi Gupta",
+    "timestamp": 224.2,
+    "endTimeTs": 225.7
+  },
+  {
+    "speakerName": "Ananya Sharma",
+    "timestamp": 226.7,
+    "endTimeTs": 228.9
+  },
+  {
+    "speakerName": "Sofia Petrov",
+    "timestamp": 229.3,
+    "endTimeTs": 244.3
+  },
+  {
+    "speakerName": "Tyler Washington",
+    "timestamp": 245.1,
+    "endTimeTs": 253.0
+  },
+  {
+    "speakerName": "Sofia Petrov",
+    "timestamp": 254.4,
+    "endTimeTs": 257.1
+  },
+  {
+    "speakerName": "Tyler Washington",
+    "timestamp": 257.7,
+    "endTimeTs": 274.7
+  },
+  {
+    "speakerName": "Nina Kowalski",
+    "timestamp": 275.3,
+    "endTimeTs": 288.0
+  },
+  {
+    "speakerName": "Sofia Petrov",
+    "timestamp": 288.3,
+    "endTimeTs": 299.2
+  },
+  {
+    "speakerName": "Nina Kowalski",
+    "timestamp": 300.4,
+    "endTimeTs": 301.9
+  },
+  {
+    "speakerName": "Ananya Sharma",
+    "timestamp": 302.4,
+    "endTimeTs": 307.8
+  },
+  {
+    "speakerName": "Ravi Gupta",
+    "timestamp": 309.1,
+    "endTimeTs": 327.7
+  },
+  {
+    "speakerName": "Sofia Petrov",
+    "timestamp": 329.1,
+    "endTimeTs": 340.2
+  },
+  {
+    "speakerName": "Nina Kowalski",
+    "timestamp": 340.6,
+    "endTimeTs": 349.9
+  },
+  {
+    "speakerName": "Sofia Petrov",
+    "timestamp": 350.7,
+    "endTimeTs": 365.2
+  },
+  {
+    "speakerName": "Tyler Washington",
+    "timestamp": 365.9,
+    "endTimeTs": 371.6
+  },
+  {
+    "speakerName": "Sofia Petrov",
+    "timestamp": 373.0,
+    "endTimeTs": 381.3
+  },
+  {
+    "speakerName": "Ananya Sharma",
+    "timestamp": 382.3,
+    "endTimeTs": 388.6
+  },
+  {
+    "speakerName": "Sofia Petrov",
+    "timestamp": 389.4,
+    "endTimeTs": 402.1
+  },
+  {
+    "speakerName": "Ravi Gupta",
+    "timestamp": 403.4,
+    "endTimeTs": 404.9
+  },
+  {
+    "speakerName": "Tyler Washington",
+    "timestamp": 405.2,
+    "endTimeTs": 407.1
+  },
+  {
+    "speakerName": "Sofia Petrov",
+    "timestamp": 408.1,
+    "endTimeTs": 410.9
+  }
+]

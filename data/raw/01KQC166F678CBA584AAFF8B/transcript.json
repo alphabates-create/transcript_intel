@@ -1,0 +1,394 @@
+{
+  "data": [
+    {
+      "sentence": "Hi Derek, thanks for holding \u2014 this is Sarah Chen from Aegis Cloud Security support, I've got your case pulled up here, case number 7615.",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 5.4,
+      "endTime": 14.2,
+      "averageConfidence": 0.92,
+      "index": 0
+    },
+    {
+      "sentence": "Yeah, hi Sarah. Thanks for getting back to me. Honestly I've been waiting on this for, uh, a couple days now and it's starting to become a real problem for us.",
+      "speaker_name": "Derek Owens",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 14.7,
+      "endTime": 25.3,
+      "averageConfidence": 0.88,
+      "index": 1
+    },
+    {
+      "sentence": "I completely understand and I apologize for the delay in getting you on a live call. I do want to dig into this with you today and get it resolved. So the notes in the case mention a policy sync delay in Aegis Identity \u2014 can you walk me through what you're seeing?",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 26.1,
+      "endTime": 44.5,
+      "averageConfidence": 0.91,
+      "index": 2
+    },
+    {
+      "sentence": "Sure. So basically, we push policy updates through Identity \u2014 role assignments, access group changes \u2014 and they're just... not propagating. Or they are, but it's taking, like, four, five hours sometimes. And in a financial services environment that is not acceptable. We had a situation last Thursday where we provisioned a new analyst and she couldn't access core systems until the next morning.",
+      "speaker_name": "Derek Owens",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 45.9,
+      "endTime": 68.3,
+      "averageConfidence": 0.88,
+      "index": 3
+    },
+    {
+      "sentence": "Okay, so we're talking about provisioning sync delays, not just policy rule updates \u2014 is that right? Or is it both?",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 69.2,
+      "endTime": 77.0,
+      "averageConfidence": 0.94,
+      "index": 4
+    },
+    {
+      "sentence": "It's both, honestly. But the provisioning one is the one that's really biting us. Role-based policy updates seem to eventually get there, but it's slow. The provisioning \u2014 that's where it's the worst.",
+      "speaker_name": "Derek Owens",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 77.7,
+      "endTime": 89.4,
+      "averageConfidence": 0.96,
+      "index": 5
+    },
+    {
+      "sentence": "Got it. And when did you first start noticing this? Do you have a rough date?",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 90.7,
+      "endTime": 96.2,
+      "averageConfidence": 0.9,
+      "index": 6
+    },
+    {
+      "sentence": "I mean, we started noticing it, I want to say, around mid-March? Maybe a little before? But we thought it was just, you know, a temporary thing. It wasn't until it kept happening that we actually opened a ticket.",
+      "speaker_name": "Derek Owens",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 97.1,
+      "endTime": 111.0,
+      "averageConfidence": 0.94,
+      "index": 7
+    },
+    {
+      "sentence": "Mid-March, okay. I do want to flag something \u2014 and I want to be transparent with you about this \u2014 we did have a significant incident with Aegis Detect in that timeframe, March 10th through the 18th, that was a pipeline-level issue. Now that was Detect, not Identity, but I want to check whether there were any downstream effects on shared services. Can you tell me \u2014 are you running Detect alongside Identity?",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 111.7,
+      "endTime": 137.7,
+      "averageConfidence": 0.91,
+      "index": 8
+    },
+    {
+      "sentence": "Yeah, we have Detect and Identity, we don't have Protect or Comply. Well \u2014 actually we're supposed to be getting Comply soon but that's a whole other conversation.",
+      "speaker_name": "Derek Owens",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 138.6,
+      "endTime": 148.8,
+      "averageConfidence": 0.91,
+      "index": 9
+    },
+    {
+      "sentence": "Okay, noted. So the reason I'm asking is \u2014 there were some shared event ingestion components between Detect and Identity in certain tenant configurations, and I want to see if your environment is one of those. Can you give me your tenant ID? I should have it in the case but I want to double-check.",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 149.7,
+      "endTime": 169.4,
+      "averageConfidence": 0.92,
+      "index": 10
+    },
+    {
+      "sentence": "Yeah it's, uh, CWG-04471. That's our primary tenant.",
+      "speaker_name": "Derek Owens",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 170.3,
+      "endTime": 173.2,
+      "averageConfidence": 0.89,
+      "index": 11
+    },
+    {
+      "sentence": "CWG-04471, perfect. Okay, give me just a second here while I pull up the sync logs for your tenant... okay I'm in.",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 174.1,
+      "endTime": 181.7,
+      "averageConfidence": 0.94,
+      "index": 12
+    },
+    {
+      "sentence": "While you're looking at that \u2014 I just want to say, like, this is impacting us more than I think the ticket description conveys. We're a wealth management firm. We have compliance requirements. We have auditors. If someone has access they shouldn't have, or doesn't have access they should have, that's not just an inconvenience, that's a potential audit finding.",
+      "speaker_name": "Derek Owens",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 182.1,
+      "endTime": 202.9,
+      "averageConfidence": 0.91,
+      "index": 13
+    },
+    {
+      "sentence": "No, you're absolutely right and I take that seriously. Financial services environments have zero tolerance for this kind of lag and I'm not going to minimize it.",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 203.5,
+      "endTime": 213.2,
+      "averageConfidence": 0.9,
+      "index": 14
+    },
+    {
+      "sentence": "I appreciate that. It just \u2014 it feels like we report these things and then it kind of goes into a black hole, you know? I submitted the ticket on the 22nd and I got one automated response and then nothing until you called today.",
+      "speaker_name": "Derek Owens",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 213.6,
+      "endTime": 229.7,
+      "averageConfidence": 0.92,
+      "index": 15
+    },
+    {
+      "sentence": "That's fair feedback and I'll make sure that's flagged internally. You should not have had a five-day gap with no human response on a Priority 2 case. That's on us. Okay, so I'm looking at your sync logs now and... yeah, I'm seeing what you're describing. There are queue depth spikes \u2014 significant ones \u2014 on your Identity sync worker. They're clustering around, it looks like, every few hours.",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "negative",
+      "speaker_id": 0,
+      "time": 230.9,
+      "endTime": 255.1,
+      "averageConfidence": 0.89,
+      "index": 16
+    },
+    {
+      "sentence": "So is that a known bug or what? Like what's causing it?",
+      "speaker_name": "Derek Owens",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 255.7,
+      "endTime": 260.2,
+      "averageConfidence": 0.88,
+      "index": 17
+    },
+    {
+      "sentence": "So, I'm looking at your configuration and I think I can see what's happening. Your sync worker is configured with a pretty aggressive polling interval \u2014 looks like it's set to sixty seconds \u2014 but your directory size, you've got a pretty large AD environment, right? How many users roughly?",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 260.6,
+      "endTime": 278.2,
+      "averageConfidence": 0.94,
+      "index": 18
+    },
+    {
+      "sentence": "We're around 800 users, give or take.",
+      "speaker_name": "Derek Owens",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 278.7,
+      "endTime": 280.9,
+      "averageConfidence": 0.89,
+      "index": 19
+    },
+    {
+      "sentence": "Okay so 800 users, and you're on a shared sync cluster tier \u2014 I can see that here \u2014 and what's happening is the polling cycle is completing but the write queue is backing up because the worker isn't getting enough processing headroom between cycles. It's essentially falling behind itself. Now whether that's purely a configuration issue or whether there's an underlying bug causing the worker to be slower than it should be, I want to be honest, I'm not a hundred percent sure yet.",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 281.9,
+      "endTime": 311.5,
+      "averageConfidence": 0.97,
+      "index": 20
+    },
+    {
+      "sentence": "Well, I mean \u2014 we haven't changed our configuration. This was working fine before mid-March. So something changed on your end.",
+      "speaker_name": "Derek Owens",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 312.1,
+      "endTime": 319.6,
+      "averageConfidence": 0.88,
+      "index": 21
+    },
+    {
+      "sentence": "That's a fair point and I don't want to dispute that. Something may have shifted in how the shared cluster is handling workloads, possibly related to the remediation work we did after the Detect incident. I want to get our backend engineering team to look at this because if the circuit breaker changes we made affected cluster resource allocation, that could be contributing to what you're seeing.",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 320.6,
+      "endTime": 344.3,
+      "averageConfidence": 0.91,
+      "index": 22
+    },
+    {
+      "sentence": "So basically you fixed one thing and possibly broke something else. Great.",
+      "speaker_name": "Derek Owens",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 345.4,
+      "endTime": 349.4,
+      "averageConfidence": 0.97,
+      "index": 23
+    },
+    {
+      "sentence": "I understand why that's frustrating. I'm not going to make excuses. What I can do right now \u2014 there are a couple of things. First, I can escalate this to a P1 and get engineering eyes on it today, not tomorrow, today. Second, I can make a configuration change on your sync worker right now \u2014 I can move you off the shared cluster tier to a dedicated worker, which should immediately reduce the queue backup. It won't fix the root cause but it should get you back to normal sync times while we investigate.",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 350.2,
+      "endTime": 383.8,
+      "averageConfidence": 0.95,
+      "index": 24
+    },
+    {
+      "sentence": "Okay. Yeah, let's do that. How long does the dedicated worker change take?",
+      "speaker_name": "Derek Owens",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 384.3,
+      "endTime": 389.1,
+      "averageConfidence": 0.95,
+      "index": 25
+    },
+    {
+      "sentence": "It's usually \u2014 it's a backend change, so I need to submit a provisioning request, it typically takes about 30 to 45 minutes to propagate. You might see a brief sync pause of like two or three minutes during the cutover but it shouldn't be disruptive.",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 390.3,
+      "endTime": 406.3,
+      "averageConfidence": 0.9,
+      "index": 26
+    },
+    {
+      "sentence": "Okay. And is there anything I need to do on my end or does it just happen?",
+      "speaker_name": "Derek Owens",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 407.4,
+      "endTime": 413.6,
+      "averageConfidence": 0.92,
+      "index": 27
+    },
+    {
+      "sentence": "Nothing on your end. I'll initiate it right after this call and I'll send you an email confirmation when it's done. I'd ask you to monitor sync times over the next couple of hours and let me know if you're still seeing delays above, let's say, ten minutes \u2014 because on a dedicated worker at your directory size, you should be well under that.",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 414.3,
+      "endTime": 436.9,
+      "averageConfidence": 0.91,
+      "index": 28
+    },
+    {
+      "sentence": "And the root cause investigation \u2014 what's the timeline on that? Because if this is a bug I want to know it's actually being fixed, not just worked around.",
+      "speaker_name": "Derek Owens",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 437.5,
+      "endTime": 447.4,
+      "averageConfidence": 0.96,
+      "index": 29
+    },
+    {
+      "sentence": "That's the right question. I'm going to escalate this case with my notes and the log data I'm pulling right now. Engineering's SLA for a P1 investigation is 48 hours to root cause determination. I can't promise a fix in 48 hours but I can promise you'll have a definitive answer on what caused it and a remediation plan. And I will personally follow up with you \u2014 not an automated email \u2014 on Wednesday.",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 447.9,
+      "endTime": 474.3,
+      "averageConfidence": 0.89,
+      "index": 30
+    },
+    {
+      "sentence": "Wednesday. Okay. That's, uh \u2014 I'm going to hold you to that, Sarah.",
+      "speaker_name": "Derek Owens",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 475.1,
+      "endTime": 479.4,
+      "averageConfidence": 0.94,
+      "index": 31
+    },
+    {
+      "sentence": "Please do. And Derek \u2014 I know you mentioned Comply is coming up for you. Once this is stabilized I'd actually recommend making sure your Identity configuration is reviewed before that goes live, just to make sure the integrations are set up cleanly. But that's a conversation for after we get this sorted.",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 480.3,
+      "endTime": 498.6,
+      "averageConfidence": 0.93,
+      "index": 32
+    },
+    {
+      "sentence": "Yeah, yeah that makes sense. One thing at a time. I just \u2014 look, I like the platform overall, I really do, but when stuff like this happens and it takes days to even get someone on the phone, it makes me nervous about renewal conversations.",
+      "speaker_name": "Derek Owens",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 499.8,
+      "endTime": 515.7,
+      "averageConfidence": 0.89,
+      "index": 33
+    },
+    {
+      "sentence": "I hear you, and that's feedback I'm going to make sure gets to the right people. Your account team should be aware of this experience regardless of the technical outcome. I'll flag it.",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 516.6,
+      "endTime": 528.3,
+      "averageConfidence": 0.96,
+      "index": 34
+    },
+    {
+      "sentence": "Okay. Alright. Yeah, let's go ahead and do the dedicated worker thing and I'll watch the sync times this afternoon.",
+      "speaker_name": "Derek Owens",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 529.6,
+      "endTime": 536.9,
+      "averageConfidence": 0.93,
+      "index": 35
+    },
+    {
+      "sentence": "Perfect. I'll get that initiated right now. You'll get an email from me within the hour with confirmation and I'll include a direct line for this case so you don't have to go through the queue again. And Wednesday at the latest you'll hear from me with an engineering update.",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 538.0,
+      "endTime": 555.5,
+      "averageConfidence": 0.93,
+      "index": 36
+    },
+    {
+      "sentence": "Alright. Thanks Sarah. I appreciate you actually digging into it.",
+      "speaker_name": "Derek Owens",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 555.9,
+      "endTime": 559.2,
+      "averageConfidence": 0.95,
+      "index": 37
+    },
+    {
+      "sentence": "Of course. I'll be in touch shortly. Take care.",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 560.5,
+      "endTime": 563.7,
+      "averageConfidence": 0.95,
+      "index": 38
+    }
+  ]
+}

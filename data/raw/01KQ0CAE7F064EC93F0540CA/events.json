@@ -1,0 +1,50 @@
+[
+  {
+    "participantName": "Mike Romano",
+    "timestamp": 1771236018000,
+    "type": "Join",
+    "time": 18.0
+  },
+  {
+    "participantName": "Chris Lee",
+    "timestamp": 1771236027000,
+    "type": "Join",
+    "time": 27.0
+  },
+  {
+    "participantName": "Tyler Washington",
+    "timestamp": 1771236046000,
+    "type": "Join",
+    "time": 46.0
+  },
+  {
+    "participantName": "Tom Bradley",
+    "timestamp": 1771236059000,
+    "type": "Join",
+    "time": 59.0
+  },
+  {
+    "participantName": "Chris Lee",
+    "timestamp": 1771237712000,
+    "type": "Leave",
+    "time": 1712.0
+  },
+  {
+    "participantName": "Mike Romano",
+    "timestamp": 1771237719000,
+    "type": "Leave",
+    "time": 1719.0
+  },
+  {
+    "participantName": "Tyler Washington",
+    "timestamp": 1771237732000,
+    "type": "Leave",
+    "time": 1732.0
+  },
+  {
+    "participantName": "Tom Bradley",
+    "timestamp": 1771237724000,
+    "type": "Leave",
+    "time": 1724.0
+  }
+]

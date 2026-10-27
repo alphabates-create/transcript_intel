@@ -1,0 +1,38 @@
+[
+  {
+    "participantName": "Frank Delaney",
+    "timestamp": 1773585018000,
+    "type": "Join",
+    "time": 18.0
+  },
+  {
+    "participantName": "Elena Vasquez",
+    "timestamp": 1773585020000,
+    "type": "Join",
+    "time": 20.0
+  },
+  {
+    "participantName": "Grace Yoon",
+    "timestamp": 1773585053000,
+    "type": "Join",
+    "time": 53.0
+  },
+  {
+    "participantName": "Elena Vasquez",
+    "timestamp": 1773585788000,
+    "type": "Leave",
+    "time": 788.0
+  },
+  {
+    "participantName": "Grace Yoon",
+    "timestamp": 1773585781000,
+    "type": "Leave",
+    "time": 781.0
+  },
+  {
+    "participantName": "Frank Delaney",
+    "timestamp": 1773585780000,
+    "type": "Leave",
+    "time": 780.0
+  }
+]

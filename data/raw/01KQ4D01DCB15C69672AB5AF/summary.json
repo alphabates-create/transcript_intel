@@ -1,0 +1,46 @@
+{
+  "summary": "This was a kickoff call for Clearwater's onboarding onto Comply v2, which had just gone GA on the day of the call (April 7th). Aisha led the session alongside solutions architect Kevin O'Brien and staff engineer Mike Romano, walking Natalie and Ajay through the platform's key features including on-demand reporting, multi-framework support (HIPAA, SOC 2, PCI DSS, ISO 27001), and continuous monitoring. Ajay expressed strong enthusiasm for the on-demand reporting and continuous monitoring capabilities given painful past audit experiences. The team aligned on a fast deployment timeline targeting connector setup within the week, a baseline HIPAA report by Wednesday or Thursday, and a review call on Thursday.",
+  "actionItems": [
+    "Mike Romano: Send CloudFormation template for CloudPrime IAM role creation to Natalie's team today",
+    "Natalie Simmons: Verify multi-region CloudTrail logging is enabled and run the CloudFormation template, then share the IAM role ARN with Mike",
+    "Aisha Johnson: Send Thursday calendar invite to all participants for the baseline HIPAA report review call",
+    "Ajay Mehta: Confirm Thursday availability and coordinate with Natalie to prioritize connector setup this week"
+  ],
+  "topics": [
+    "onboarding",
+    "compliance",
+    "hipaa",
+    "soc 2",
+    "deployment",
+    "multi-framework support"
+  ],
+  "overallSentiment": "very-positive",
+  "sentimentScore": 4.8,
+  "keyMoments": [
+    {
+      "time": 135.0,
+      "text": "Ajay expresses strong relief about on-demand HIPAA reporting, referencing a painful 11 PM audit scramble",
+      "type": "positive_pivot",
+      "speaker": "Ajay Mehta"
+    },
+    {
+      "time": 210.0,
+      "text": "Kevin explains the unified control mapping layer that eliminates duplicated effort across compliance frameworks, resolving Ajay's major pain point of maintaining multiple spreadsheets",
+      "type": "praise",
+      "speaker": "Kevin O'Brien"
+    },
+    {
+      "time": 420.0,
+      "text": "Mike outlines the deployment sequence and confirms connector setup could be completed in a single day, faster than Natalie expected",
+      "type": "action_item",
+      "speaker": "Mike Romano"
+    },
+    {
+      "time": 600.0,
+      "text": "Team aligns on accelerated timeline: CloudFormation template sent today, connectors up this week, baseline HIPAA report by Wednesday or Thursday, and review call Thursday",
+      "type": "action_item",
+      "speaker": "Aisha Johnson"
+    }
+  ],
+  "meetingId": "01KQ4D01DCB15C69672AB5AF"
+}

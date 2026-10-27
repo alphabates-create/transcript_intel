@@ -1,0 +1,207 @@
+[
+  {
+    "speakerName": "Daniel Okafor",
+    "timestamp": 4.3,
+    "endTimeTs": 9.4
+  },
+  {
+    "speakerName": "Thomas Hargrove",
+    "timestamp": 10.0,
+    "endTimeTs": 12.7
+  },
+  {
+    "speakerName": "Daniel Okafor",
+    "timestamp": 13.8,
+    "endTimeTs": 24.5
+  },
+  {
+    "speakerName": "Thomas Hargrove",
+    "timestamp": 25.6,
+    "endTimeTs": 35.3
+  },
+  {
+    "speakerName": "Daniel Okafor",
+    "timestamp": 36.5,
+    "endTimeTs": 50.4
+  },
+  {
+    "speakerName": "Lisa Park",
+    "timestamp": 51.3,
+    "endTimeTs": 59.8
+  },
+  {
+    "speakerName": "Thomas Hargrove",
+    "timestamp": 61.3,
+    "endTimeTs": 65.1
+  },
+  {
+    "speakerName": "Daniel Okafor",
+    "timestamp": 66.5,
+    "endTimeTs": 87.8
+  },
+  {
+    "speakerName": "Thomas Hargrove",
+    "timestamp": 88.6,
+    "endTimeTs": 97.6
+  },
+  {
+    "speakerName": "Lisa Park",
+    "timestamp": 98.1,
+    "endTimeTs": 106.9
+  },
+  {
+    "speakerName": "Thomas Hargrove",
+    "timestamp": 107.3,
+    "endTimeTs": 129.3
+  },
+  {
+    "speakerName": "Lisa Park",
+    "timestamp": 129.7,
+    "endTimeTs": 137.1
+  },
+  {
+    "speakerName": "Thomas Hargrove",
+    "timestamp": 138.0,
+    "endTimeTs": 168.2
+  },
+  {
+    "speakerName": "Daniel Okafor",
+    "timestamp": 168.8,
+    "endTimeTs": 176.8
+  },
+  {
+    "speakerName": "Thomas Hargrove",
+    "timestamp": 177.4,
+    "endTimeTs": 192.2
+  },
+  {
+    "speakerName": "Lisa Park",
+    "timestamp": 192.8,
+    "endTimeTs": 206.1
+  },
+  {
+    "speakerName": "Thomas Hargrove",
+    "timestamp": 206.8,
+    "endTimeTs": 218.8
+  },
+  {
+    "speakerName": "Daniel Okafor",
+    "timestamp": 219.2,
+    "endTimeTs": 239.2
+  },
+  {
+    "speakerName": "Thomas Hargrove",
+    "timestamp": 240.5,
+    "endTimeTs": 248.8
+  },
+  {
+    "speakerName": "Daniel Okafor",
+    "timestamp": 249.4,
+    "endTimeTs": 255.0
+  },
+  {
+    "speakerName": "Thomas Hargrove",
+    "timestamp": 255.6,
+    "endTimeTs": 276.6
+  },
+  {
+    "speakerName": "Daniel Okafor",
+    "timestamp": 277.8,
+    "endTimeTs": 288.1
+  },
+  {
+    "speakerName": "Lisa Park",
+    "timestamp": 289.4,
+    "endTimeTs": 299.1
+  },
+  {
+    "speakerName": "Thomas Hargrove",
+    "timestamp": 300.6,
+    "endTimeTs": 316.4
+  },
+  {
+    "speakerName": "Lisa Park",
+    "timestamp": 316.7,
+    "endTimeTs": 324.4
+  },
+  {
+    "speakerName": "Thomas Hargrove",
+    "timestamp": 325.3,
+    "endTimeTs": 347.7
+  },
+  {
+    "speakerName": "Daniel Okafor",
+    "timestamp": 348.9,
+    "endTimeTs": 359.8
+  },
+  {
+    "speakerName": "Thomas Hargrove",
+    "timestamp": 360.9,
+    "endTimeTs": 377.1
+  },
+  {
+    "speakerName": "Lisa Park",
+    "timestamp": 378.5,
+    "endTimeTs": 392.3
+  },
+  {
+    "speakerName": "Thomas Hargrove",
+    "timestamp": 392.8,
+    "endTimeTs": 398.1
+  },
+  {
+    "speakerName": "Lisa Park",
+    "timestamp": 399.2,
+    "endTimeTs": 405.4
+  },
+  {
+    "speakerName": "Daniel Okafor",
+    "timestamp": 406.5,
+    "endTimeTs": 415.1
+  },
+  {
+    "speakerName": "Thomas Hargrove",
+    "timestamp": 415.5,
+    "endTimeTs": 434.4
+  },
+  {
+    "speakerName": "Daniel Okafor",
+    "timestamp": 435.5,
+    "endTimeTs": 443.9
+  },
+  {
+    "speakerName": "Thomas Hargrove",
+    "timestamp": 445.4,
+    "endTimeTs": 459.0
+  },
+  {
+    "speakerName": "Lisa Park",
+    "timestamp": 460.1,
+    "endTimeTs": 467.3
+  },
+  {
+    "speakerName": "Daniel Okafor",
+    "timestamp": 468.6,
+    "endTimeTs": 478.1
+  },
+  {
+    "speakerName": "Lisa Park",
+    "timestamp": 478.9,
+    "endTimeTs": 496.6
+  },
+  {
+    "speakerName": "Thomas Hargrove",
+    "timestamp": 497.9,
+    "endTimeTs": 506.4
+  },
+  {
+    "speakerName": "Daniel Okafor",
+    "timestamp": 507.9,
+    "endTimeTs": 514.2
+  },
+  {
+    "speakerName": "Thomas Hargrove",
+    "timestamp": 515.3,
+    "endTimeTs": 517.5
+  }
+]

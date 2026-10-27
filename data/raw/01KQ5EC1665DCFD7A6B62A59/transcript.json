@@ -1,0 +1,374 @@
+{
+  "data": [
+    {
+      "sentence": "Hi, this is Marcus Williams calling from Aegis Cloud Security support, I have Vanessa Cruz on the line for case number 8749, and I'm also going to bring in my colleague Elena Vasquez who specializes in Identity \u2014 Elena are you there?",
+      "speaker_name": "Marcus Williams",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 7.1,
+      "endTime": 22.0,
+      "averageConfidence": 0.89,
+      "index": 0
+    },
+    {
+      "sentence": "Yeah I'm here, hi Vanessa, thanks for your patience on this one.",
+      "speaker_name": "Elena Vasquez",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 22.9,
+      "endTime": 27.0,
+      "averageConfidence": 0.97,
+      "index": 1
+    },
+    {
+      "sentence": "Hi, yeah, okay \u2014 look I appreciate you guys getting on a call but I want to be upfront, this has been a really frustrating morning for us, so I'm hoping we can just cut to the chase and figure out what's going on.",
+      "speaker_name": "Vanessa Cruz",
+      "sentimentType": "negative",
+      "speaker_id": 2,
+      "time": 28.0,
+      "endTime": 43.5,
+      "averageConfidence": 0.95,
+      "index": 2
+    },
+    {
+      "sentence": "Absolutely, totally understand, let's dive right in \u2014 so from the case notes it looks like you're seeing an issue with SAML certificate rotation in Aegis Identity, can you walk us through what you're experiencing?",
+      "speaker_name": "Marcus Williams",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 43.9,
+      "endTime": 56.3,
+      "averageConfidence": 0.9,
+      "index": 3
+    },
+    {
+      "sentence": "Sure, so \u2014 we rotated our SAML signing certificate yesterday, standard procedure, we do this every six months, and after the rotation a significant portion of our users are getting authentication failures when they try to SSO into our internal tools.",
+      "speaker_name": "Vanessa Cruz",
+      "sentimentType": "negative",
+      "speaker_id": 2,
+      "time": 57.6,
+      "endTime": 72.2,
+      "averageConfidence": 0.91,
+      "index": 4
+    },
+    {
+      "sentence": "Okay and when you say a significant portion, are we talking like a handful of users or is this more widespread?",
+      "speaker_name": "Elena Vasquez",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 73.0,
+      "endTime": 80.3,
+      "averageConfidence": 0.88,
+      "index": 5
+    },
+    {
+      "sentence": "We're talking roughly sixty to seventy percent of our workforce right now, Elena, so \u2014 yeah, it's pretty bad, people can't get into Salesforce, they can't get into our inventory management system, it's basically grinding our retail ops team to a halt on a Sunday which is one of our busiest days.",
+      "speaker_name": "Vanessa Cruz",
+      "sentimentType": "negative",
+      "speaker_id": 2,
+      "time": 80.9,
+      "endTime": 99.1,
+      "averageConfidence": 0.96,
+      "index": 6
+    },
+    {
+      "sentence": "Okay that's \u2014 yeah that's definitely a critical impact situation, I'm sorry you're dealing with that on a Sunday.",
+      "speaker_name": "Marcus Williams",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 99.7,
+      "endTime": 106.5,
+      "averageConfidence": 0.94,
+      "index": 7
+    },
+    {
+      "sentence": "I mean, it shouldn't matter what day it is, this shouldn't be happening at all, right? We followed the documentation for certificate rotation step by step and now our people can't log in.",
+      "speaker_name": "Vanessa Cruz",
+      "sentimentType": "negative",
+      "speaker_id": 2,
+      "time": 107.0,
+      "endTime": 118.3,
+      "averageConfidence": 0.95,
+      "index": 8
+    },
+    {
+      "sentence": "You're right, you're absolutely right, and I want to dig into this because I actually have a hypothesis about what might be happening here \u2014 Vanessa, when you did the rotation, did you use the in-platform certificate wizard or did you upload the certificate manually through the admin console?",
+      "speaker_name": "Elena Vasquez",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 119.4,
+      "endTime": 136.6,
+      "averageConfidence": 0.9,
+      "index": 9
+    },
+    {
+      "sentence": "We used the wizard, the one that's supposed to handle the, uh, the propagation automatically, that's kind of the whole point of using it.",
+      "speaker_name": "Vanessa Cruz",
+      "sentimentType": "negative",
+      "speaker_id": 2,
+      "time": 137.8,
+      "endTime": 146.0,
+      "averageConfidence": 0.93,
+      "index": 10
+    },
+    {
+      "sentence": "Right, okay, so \u2014 I need to be transparent with you here Vanessa, we are aware of a bug that was introduced in the 3.4.1 release of Aegis Identity, and it specifically affects the certificate rotation wizard.",
+      "speaker_name": "Elena Vasquez",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 146.7,
+      "endTime": 160.2,
+      "averageConfidence": 0.96,
+      "index": 11
+    },
+    {
+      "sentence": "There's a bug.",
+      "speaker_name": "Vanessa Cruz",
+      "sentimentType": "negative",
+      "speaker_id": 2,
+      "time": 161.3,
+      "endTime": 162.8,
+      "averageConfidence": 0.91,
+      "index": 12
+    },
+    {
+      "sentence": "Yes, and \u2014 I want to explain what it's doing because it helps with the workaround \u2014 so essentially what's happening is the wizard is completing the cert rotation on the identity provider side but it's not properly propagating the new certificate metadata to all of the service provider connections, so some of your SP integrations are still trying to validate assertions against the old certificate.",
+      "speaker_name": "Elena Vasquez",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 163.4,
+      "endTime": 186.5,
+      "averageConfidence": 0.88,
+      "index": 13
+    },
+    {
+      "sentence": "So the wizard is broken. The tool that's supposed to make this safe and easy \u2014 is broken.",
+      "speaker_name": "Vanessa Cruz",
+      "sentimentType": "negative",
+      "speaker_id": 2,
+      "time": 187.8,
+      "endTime": 194.3,
+      "averageConfidence": 0.93,
+      "index": 14
+    },
+    {
+      "sentence": "I \u2014 yes, there's a defect in it, I'm not going to sugarcoat that, and I understand why that's incredibly frustrating especially given the impact you're seeing right now.",
+      "speaker_name": "Elena Vasquez",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 195.2,
+      "endTime": 205.8,
+      "averageConfidence": 0.97,
+      "index": 15
+    },
+    {
+      "sentence": "And this is \u2014 okay, sorry Marcus, I'm just \u2014 I'm really struggling here because we've been on this platform for two and a half years and we've had a rough few weeks, you guys had that Detect outage earlier this month and now this, it's like\u2014",
+      "speaker_name": "Vanessa Cruz",
+      "sentimentType": "negative",
+      "speaker_id": 2,
+      "time": 206.3,
+      "endTime": 222.8,
+      "averageConfidence": 0.9,
+      "index": 16
+    },
+    {
+      "sentence": "I hear you, I hear you completely and those are both legitimate concerns, but right now let's focus on getting your people back in, can we do that? Because I do have a path to resolution.",
+      "speaker_name": "Marcus Williams",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 224.2,
+      "endTime": 236.7,
+      "averageConfidence": 0.88,
+      "index": 17
+    },
+    {
+      "sentence": "Yes, okay, yes please \u2014 what do we need to do.",
+      "speaker_name": "Vanessa Cruz",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 237.2,
+      "endTime": 240.9,
+      "averageConfidence": 0.9,
+      "index": 18
+    },
+    {
+      "sentence": "Okay so the fix is \u2014 it's a bit manual but it works, what you'll need to do is go into each service provider connection in the admin console and manually re-import the new certificate metadata for each integration, it won't be automatic through the wizard but once you do it per-SP the authentication will work correctly.",
+      "speaker_name": "Elena Vasquez",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 242.0,
+      "endTime": 262.3,
+      "averageConfidence": 0.93,
+      "index": 19
+    },
+    {
+      "sentence": "How many SP connections are we talking about, like, do you know how many integrations we have configured?",
+      "speaker_name": "Vanessa Cruz",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 262.8,
+      "endTime": 269.0,
+      "averageConfidence": 0.95,
+      "index": 20
+    },
+    {
+      "sentence": "I'm pulling up your account right now \u2014 it looks like you have fourteen service provider connections active.",
+      "speaker_name": "Marcus Williams",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 270.2,
+      "endTime": 276.3,
+      "averageConfidence": 0.93,
+      "index": 21
+    },
+    {
+      "sentence": "Fourteen. Okay so we have to manually touch fourteen integrations to fix something that your wizard was supposed to handle automatically.",
+      "speaker_name": "Vanessa Cruz",
+      "sentimentType": "negative",
+      "speaker_id": 2,
+      "time": 277.2,
+      "endTime": 285.0,
+      "averageConfidence": 0.96,
+      "index": 22
+    },
+    {
+      "sentence": "Yes, and \u2014 I can stay on this call with you the entire time and walk you through each one if that's helpful, I don't want you to have to figure this out alone.",
+      "speaker_name": "Elena Vasquez",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 285.9,
+      "endTime": 297.5,
+      "averageConfidence": 0.93,
+      "index": 23
+    },
+    {
+      "sentence": "I'm going to need to pull in one of my engineers to actually do the clicking around in the console, give me two minutes.",
+      "speaker_name": "Vanessa Cruz",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 298.6,
+      "endTime": 307.4,
+      "averageConfidence": 0.89,
+      "index": 24
+    },
+    {
+      "sentence": "Of course, take your time.",
+      "speaker_name": "Marcus Williams",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 307.8,
+      "endTime": 309.7,
+      "averageConfidence": 0.97,
+      "index": 25
+    },
+    {
+      "sentence": "While we wait \u2014 Elena, do you know when a proper fix is going to be released for this? Like when is the patch coming?",
+      "speaker_name": "Vanessa Cruz",
+      "sentimentType": "negative",
+      "speaker_id": 2,
+      "time": 310.7,
+      "endTime": 319.2,
+      "averageConfidence": 0.95,
+      "index": 26
+    },
+    {
+      "sentence": "So our engineering team has the fix built, it's going through QA validation right now, current target is a patch release in the 3.4.2 update which is scheduled for the week of April 6th.",
+      "speaker_name": "Elena Vasquez",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 319.7,
+      "endTime": 331.9,
+      "averageConfidence": 0.96,
+      "index": 27
+    },
+    {
+      "sentence": "April 6th. So for anyone who does a cert rotation before then they're going to hit this same problem.",
+      "speaker_name": "Vanessa Cruz",
+      "sentimentType": "negative",
+      "speaker_id": 2,
+      "time": 333.2,
+      "endTime": 340.3,
+      "averageConfidence": 0.94,
+      "index": 28
+    },
+    {
+      "sentence": "That's correct, and we are \u2014 we have a customer advisory going out today actually, warning admins not to use the wizard until 3.4.2, I know that doesn't help you retroactively but we are trying to prevent other customers from hitting this.",
+      "speaker_name": "Elena Vasquez",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 340.9,
+      "endTime": 355.8,
+      "averageConfidence": 0.9,
+      "index": 29
+    },
+    {
+      "sentence": "Would have been nice to have that warning before I ran the wizard yesterday.",
+      "speaker_name": "Vanessa Cruz",
+      "sentimentType": "negative",
+      "speaker_id": 2,
+      "time": 356.6,
+      "endTime": 361.5,
+      "averageConfidence": 0.94,
+      "index": 30
+    },
+    {
+      "sentence": "You're right, the advisory should have gone out sooner, I \u2014 I don't have a good answer for why it didn't and I'm not going to make excuses for that.",
+      "speaker_name": "Elena Vasquez",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 362.6,
+      "endTime": 373.1,
+      "averageConfidence": 0.96,
+      "index": 31
+    },
+    {
+      "sentence": "Okay, I have my engineer Priya on \u2014 she can go into the console, Elena can you walk us through the steps?",
+      "speaker_name": "Vanessa Cruz",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 373.9,
+      "endTime": 381.8,
+      "averageConfidence": 0.92,
+      "index": 32
+    },
+    {
+      "sentence": "Yes absolutely \u2014 Priya, if you go to the Aegis Identity admin console and navigate to Identity Federation, then Service Providers, you should see the list of all your SP connections there.",
+      "speaker_name": "Elena Vasquez",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 382.2,
+      "endTime": 393.3,
+      "averageConfidence": 0.91,
+      "index": 33
+    },
+    {
+      "sentence": "And Vanessa, just so you know, Marcus and I are going to document everything from this call and I'm going to personally escalate this to our customer success team to make sure you get a proper follow-up on the overall reliability concerns you raised, the Detect outage, this bug \u2014 I want to make sure someone is having that bigger conversation with you.",
+      "speaker_name": "Elena Vasquez",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 394.1,
+      "endTime": 416.4,
+      "averageConfidence": 0.96,
+      "index": 34
+    },
+    {
+      "sentence": "I appreciate that, I do \u2014 I just, I need things to actually work, you know, we chose Aegis because we thought it was going to reduce our operational headaches not add to them.",
+      "speaker_name": "Vanessa Cruz",
+      "sentimentType": "negative",
+      "speaker_id": 2,
+      "time": 417.1,
+      "endTime": 429.4,
+      "averageConfidence": 0.97,
+      "index": 35
+    },
+    {
+      "sentence": "That's fair, and that feedback is going to be heard, I promise you that \u2014 now let's get your team back online.",
+      "speaker_name": "Marcus Williams",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 430.5,
+      "endTime": 438.1,
+      "averageConfidence": 0.95,
+      "index": 36
+    }
+  ]
+}

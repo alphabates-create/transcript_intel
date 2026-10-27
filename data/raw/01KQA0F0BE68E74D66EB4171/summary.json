@@ -1,0 +1,46 @@
+{
+  "summary": "James Mitchell convened a competitive strategy call with Rachel Torres, Tom Bradley, Jordan Whitfield, and Kevin O'Brien to address SentinelShield's aggressive positioning against Aegis in three recent late-stage deals. Tom Bradley explained the root cause and remediation of the March platform outage, confirming that redundant processing nodes and a circuit breaker pattern have been in production since March 28th. Jordan Whitfield highlighted Comply v2, launched April 7th, as a strong differentiator with native cross-module compliance reporting for SOC 2, PCI DSS, HIPAA, and ISO 27001. The team aligned on next steps for the at-risk Hartfield Manufacturing deal and identified materials needed to support the competitive response.",
+  "actionItems": [
+    "Tom Bradley: Create a high-level technical architecture overview of the March incident remediation to share with prospects by end of next week",
+    "Jordan Whitfield: Complete updated competitive battlecard including CyberNova comparison, targeting end of next week",
+    "Rachel Torres: Schedule a technical call with Hartfield Manufacturing's infrastructure team for next week focused on Comply v2 and SOC 2 reporting",
+    "Kevin O'Brien: Attend Hartfield Manufacturing technical call and support the Comply v2 demo angle around their active SOC 2 audit"
+  ],
+  "topics": [
+    "competitive positioning",
+    "platform reliability",
+    "product launch",
+    "compliance",
+    "sales strategy",
+    "incident remediation"
+  ],
+  "overallSentiment": "mixed-positive",
+  "sentimentScore": 3.6,
+  "keyMoments": [
+    {
+      "time": 45.0,
+      "text": "James reveals SentinelShield is actively using the March outage as a talking point in late-stage competitive deals, including with Hartfield Manufacturing",
+      "type": "churn_signal",
+      "speaker": "James Mitchell"
+    },
+    {
+      "time": 180.0,
+      "text": "Tom Bradley details the March outage root cause and confirms architectural remediation with redundant nodes and circuit breaker pattern is live in production",
+      "type": "technical_issue",
+      "speaker": "Tom Bradley"
+    },
+    {
+      "time": 420.0,
+      "text": "Jordan Whitfield positions Comply v2 as a native differentiator vs. bolt-on compliance in SentinelShield and VaultEdge, highlighting four-click report generation",
+      "type": "positive_pivot",
+      "speaker": "Jordan Whitfield"
+    },
+    {
+      "time": 600.0,
+      "text": "Kevin O'Brien identifies Hartfield's active SOC 2 audit as an immediate pain point that on-demand SOC 2 reporting in Comply v2 can directly address",
+      "type": "action_item",
+      "speaker": "Kevin O'Brien"
+    }
+  ],
+  "meetingId": "01KQA0F0BE68E74D66EB4171"
+}

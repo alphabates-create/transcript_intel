@@ -1,0 +1,46 @@
+{
+  "summary": "Kendra Wallace, CTO of Brightpath Commerce, contacted Aegis Cloud Security support regarding a $1,400 discrepancy on her February invoice. Marcus Williams identified an overage charge of 2.31 terabytes under the Aegis Protect module, which was traced to a backup policy change made on January 3rd that added five new workloads including database instances. The team clarified that billing is calculated on pre-compression raw data, meaning the policy expansion unintentionally pushed usage over the 10 TB contracted tier. Marcus agreed to document the findings in a case summary and connect Kendra with account manager Devon Park to discuss a potential billing adjustment.",
+  "actionItems": [
+    "Marcus Williams: Send case summary email to Kendra including invoice reference INV-2026-0847, January usage figures, January 3rd policy change log, and Devon Park's contact information",
+    "Kendra Wallace: Reach out to account manager Devon Park to discuss potential billing adjustment for the overage charge",
+    "Sarah Chen: Ensure Kendra's infrastructure lead is looped in to enable usage threshold alerts in the Aegis Protect portal dashboard",
+    "Kendra Wallace: Have infrastructure lead review usage dashboard in the portal and configure real-time usage alerts going forward"
+  ],
+  "topics": [
+    "billing dispute",
+    "invoice overage",
+    "data retention",
+    "backup policy",
+    "account management",
+    "usage monitoring"
+  ],
+  "overallSentiment": "mixed-positive",
+  "sentimentScore": 3.7,
+  "keyMoments": [
+    {
+      "time": 90.0,
+      "text": "Kendra identifies the unexpected data retention overage charge of 2.3 TB on the invoice, expressing surprise given their consistent data footprint",
+      "type": "concern",
+      "speaker": "Kendra Wallace"
+    },
+    {
+      "time": 285.0,
+      "text": "Marcus discovers a backup policy change on January 3rd adding five new workloads, explaining the root cause of the overage",
+      "type": "technical_issue",
+      "speaker": "Marcus Williams"
+    },
+    {
+      "time": 370.0,
+      "text": "Kendra questions whether anything can be done about the charge given it was an unintentional configuration consequence rather than deliberate overuse",
+      "type": "pricing_offer",
+      "speaker": "Kendra Wallace"
+    },
+    {
+      "time": 430.0,
+      "text": "Sarah recommends enabling usage threshold alerts in the portal to proactively notify the team before hitting tier limits in the future",
+      "type": "action_item",
+      "speaker": "Sarah Chen"
+    }
+  ],
+  "meetingId": "01KQ773D68723289E4A98889"
+}

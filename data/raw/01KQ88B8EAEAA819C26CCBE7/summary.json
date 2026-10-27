@@ -1,0 +1,46 @@
+{
+  "summary": "Aegis Cloud Security support rep Elena Vasquez spoke with Grace Yoon and Frank Delaney (VP of IT) of Northstar, a pharmaceutical company, regarding a platform-wide outage of the Aegis Detect event processing pipeline that had been ongoing for approximately nine to ten hours. The customer was never proactively notified of the outage, which Elena acknowledged as a serious communication failure. The outage is particularly critical because Northstar handles HIPAA-regulated patient data and is currently in a SOC 2 audit cycle, creating potential compliance findings. Elena committed to 30-minute email updates, audit-ready incident documentation, and an executive call with Aegis VP of Engineering within 48 hours of resolution, while Frank made clear he is actively evaluating competitor platforms.",
+  "actionItems": [
+    "Elena Vasquez: Send 30-minute email updates to Grace and Frank until the event pipeline outage is fully resolved",
+    "Elena Vasquez: Produce detailed audit-ready incident documentation covering timeline, root cause, data preservation, and remediation steps for Northstar's SOC 2 auditors",
+    "Elena Vasquez: Confirm scheduling of VP of Engineering and CSM call within 48 hours of incident resolution before end of business today",
+    "Elena Vasquez: Arrange a post-incident architecture review with Northstar covering redundancy, failover posture, and Detect integration into their broader security stack"
+  ],
+  "topics": [
+    "platform outage",
+    "hipaa compliance",
+    "soc 2 audit",
+    "churn risk",
+    "incident communication failure",
+    "infrastructure architecture"
+  ],
+  "overallSentiment": "mixed-negative",
+  "sentimentScore": 2.1,
+  "keyMoments": [
+    {
+      "time": 112.0,
+      "text": "Grace reveals Northstar is subject to HIPAA and has had zero threat visibility for hours, escalating the severity of the outage",
+      "type": "concern",
+      "speaker": "Grace Yoon"
+    },
+    {
+      "time": 285.0,
+      "text": "Grace discloses they are in an active SOC 2 audit cycle and a nine-hour monitoring gap could result in an audit finding",
+      "type": "concern",
+      "speaker": "Grace Yoon"
+    },
+    {
+      "time": 430.0,
+      "text": "Frank states he is actively evaluating competitors SentinelShield and CyberNova and has had calls with both in the last six months",
+      "type": "churn_signal",
+      "speaker": "Frank Delaney"
+    },
+    {
+      "time": 680.0,
+      "text": "Elena confirms the root cause is a single point of failure in the event ingestion architecture, acknowledging it is a systemic vulnerability rather than a one-time event",
+      "type": "technical_issue",
+      "speaker": "Elena Vasquez"
+    }
+  ],
+  "meetingId": "01KQ88B8EAEAA819C26CCBE7"
+}

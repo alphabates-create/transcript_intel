@@ -1,0 +1,38 @@
+[
+  {
+    "participantName": "Raymond Burke",
+    "timestamp": 1772299807000,
+    "type": "Join",
+    "time": 7.0
+  },
+  {
+    "participantName": "Lisa Park",
+    "timestamp": 1772299821000,
+    "type": "Join",
+    "time": 21.0
+  },
+  {
+    "participantName": "Aisha Johnson",
+    "timestamp": 1772299844000,
+    "type": "Join",
+    "time": 44.0
+  },
+  {
+    "participantName": "Lisa Park",
+    "timestamp": 1772302375000,
+    "type": "Leave",
+    "time": 2575.0
+  },
+  {
+    "participantName": "Aisha Johnson",
+    "timestamp": 1772302383000,
+    "type": "Leave",
+    "time": 2583.0
+  },
+  {
+    "participantName": "Raymond Burke",
+    "timestamp": 1772302370000,
+    "type": "Leave",
+    "time": 2570.0
+  }
+]

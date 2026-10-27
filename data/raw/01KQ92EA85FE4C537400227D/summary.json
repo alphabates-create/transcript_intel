@@ -1,0 +1,46 @@
+{
+  "summary": "Warren Beck from Blackridge, a financial services firm, contacted Aegis support to request a custom compliance template feature in Aegis Comply v2 that would allow them to track internal board and regulator controls alongside standard frameworks like SOC 2 and PCI DSS. Priya Patel confirmed the feature is on the near-term product roadmap and enrolled Warren in the early access/design partner program. In the meantime, Priya walked Warren through two workarounds: custom control annotations within existing reports and the Comply v2 API for exporting structured control data. The call concluded with clear next steps and a very positive tone from both parties.",
+  "actionItems": [
+    "Priya Patel: Log feature request for custom compliance templates against Warren's account and flag as priority to the product team",
+    "Priya Patel: Send follow-up email within the hour with early access intake form and links to Comply v2 API documentation",
+    "Warren Beck: Complete the early access intake form and explore the custom annotation feature in the SOC 2 report UI",
+    "Warren Beck: Loop in internal data team to evaluate the Comply v2 API for pulling control data into internal dashboards"
+  ],
+  "topics": [
+    "feature request",
+    "custom compliance templates",
+    "early access program",
+    "api integration",
+    "workaround",
+    "financial services"
+  ],
+  "overallSentiment": "very-positive",
+  "sentimentScore": 4.8,
+  "keyMoments": [
+    {
+      "time": 97.0,
+      "text": "Warren praises Comply v2 on-demand reporting, saying his audit team is 'over the moon' about SOC 2 and PCI DSS reports",
+      "type": "praise",
+      "speaker": "Warren Beck"
+    },
+    {
+      "time": 210.0,
+      "text": "Warren requests a bespoke custom compliance template feature to track Blackridge-specific internal controls for board reporting",
+      "type": "feature_gap",
+      "speaker": "Warren Beck"
+    },
+    {
+      "time": 390.0,
+      "text": "Priya offers enrollment in the customer advisory early access program, positioning Warren as a design partner to shape and receive the feature before GA",
+      "type": "positive_pivot",
+      "speaker": "Priya Patel"
+    },
+    {
+      "time": 620.0,
+      "text": "Priya surfaces the undiscovered custom annotation feature within existing reports as an immediate workaround, which Warren plans to explore that afternoon",
+      "type": "action_item",
+      "speaker": "Priya Patel"
+    }
+  ],
+  "meetingId": "01KQ92EA85FE4C537400227D"
+}

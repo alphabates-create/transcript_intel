@@ -1,0 +1,46 @@
+{
+  "summary": "Priya from Aegis Cloud Security support and senior engineer Sarah Chen joined a call with Yuki Tanaka, Security Lead at Pineridge, to troubleshoot a failing CloudPrime S3 backup connector issue (Case 2638). Yuki reported that backup jobs were failing with a 403 error since the previous Thursday, despite no known IAM permission changes. Sarah identified two likely causes: a misconfigured connector endpoint (using the generic s3.amazonaws.com instead of the region-specific us-west-2 endpoint) and potentially restrictive CloudPrime Service Control Policies updated during a routine policy review around the same time. Yuki updated the endpoint setting live on the call and agreed to test the backup job, check SCP policies with their CloudPrime admin, and share CloudTrail logs with the Aegis team.",
+  "actionItems": [
+    "Yuki Tanaka: Run a test backup job after updating the S3 connector endpoint to s3.us-west-2.amazonaws.com and report results back via the case email",
+    "Yuki Tanaka: Loop in CloudPrime admin to review SCPs and bucket policies referencing the IAM role ARN found in Aegis Protect Connector Settings",
+    "Yuki Tanaka: Pull CloudTrail logs from last Thursday through today and attach them to Case 2638",
+    "Yuki Tanaka: Enable the Retry Policy in the S3 connector Advanced Options to reduce manual re-triggering of failed jobs"
+  ],
+  "topics": [
+    "aws s3 connector",
+    "backup failure",
+    "403 error",
+    "iam permissions",
+    "service control policies",
+    "connector configuration"
+  ],
+  "overallSentiment": "mixed-positive",
+  "sentimentScore": 3.9,
+  "keyMoments": [
+    {
+      "time": 95.0,
+      "text": "Yuki reports 403 error on backup jobs despite no IAM permission changes on their end",
+      "type": "technical_issue",
+      "speaker": "Yuki Tanaka"
+    },
+    {
+      "time": 290.0,
+      "text": "Yuki recalls a routine CloudPrime policy review around the time failures began, providing a strong lead for the SCP investigation",
+      "type": "positive_pivot",
+      "speaker": "Yuki Tanaka"
+    },
+    {
+      "time": 430.0,
+      "text": "Sarah identifies the misconfigured generic S3 endpoint as a likely contributor to the 403 errors due to cross-region routing",
+      "type": "feature_gap",
+      "speaker": "Sarah Chen"
+    },
+    {
+      "time": 680.0,
+      "text": "Yuki discovers the automatic retry policy feature they were unaware of, which will reduce manual overhead during troubleshooting",
+      "type": "praise",
+      "speaker": "Yuki Tanaka"
+    }
+  ],
+  "meetingId": "01KQ3C837D7EF689408DCF95"
+}

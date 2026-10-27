@@ -1,0 +1,394 @@
+{
+  "data": [
+    {
+      "sentence": "Okay, I think we've got everyone. Tom, you there? Brian's on, Ananya's on \u2014 Sofia, can you confirm?",
+      "speaker_name": "Brian Cho",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 6.3,
+      "endTime": 12.4,
+      "averageConfidence": 0.92,
+      "index": 0
+    },
+    {
+      "sentence": "Yeah I'm here, sorry, I was just pulling up the dashboards.",
+      "speaker_name": "Sofia Petrov",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 13.0,
+      "endTime": 16.7,
+      "averageConfidence": 0.94,
+      "index": 1
+    },
+    {
+      "sentence": "Good. Okay, let's not waste time. Tom, do you want to kick us off or should I?",
+      "speaker_name": "Brian Cho",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 17.4,
+      "endTime": 23.5,
+      "averageConfidence": 0.95,
+      "index": 2
+    },
+    {
+      "sentence": "I'll start. So, uh, at approximately 9:14 AM Pacific we started seeing alerts \u2014 or rather, the absence of alerts \u2014 from the Detect event processing pipeline. The ingestion layer just... stopped. No events coming through, no throughput, and the monitoring didn't catch it immediately which is its own problem we're going to talk about.",
+      "speaker_name": "Tom Bradley",
+      "sentimentType": "negative",
+      "speaker_id": 2,
+      "time": 24.6,
+      "endTime": 44.2,
+      "averageConfidence": 0.94,
+      "index": 3
+    },
+    {
+      "sentence": "When you say the monitoring didn't catch it \u2014 are we talking about our internal alerting or the customer-facing status stuff?",
+      "speaker_name": "Brian Cho",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 44.9,
+      "endTime": 52.2,
+      "averageConfidence": 0.9,
+      "index": 4
+    },
+    {
+      "sentence": "Both, honestly. Internal alerting had a lag, and the status page wasn't updated until... Ananya, when did we actually post to the status page?",
+      "speaker_name": "Tom Bradley",
+      "sentimentType": "negative",
+      "speaker_id": 2,
+      "time": 53.0,
+      "endTime": 61.4,
+      "averageConfidence": 0.89,
+      "index": 5
+    },
+    {
+      "sentence": "It was around 10:40, so that's \u2014 yeah, that's about an hour and a half after the initial failure. And I want to be upfront, that's on me partly because I was the one who was supposed to pull the trigger on that and I was heads-down trying to figure out the root cause first.",
+      "speaker_name": "Ananya Sharma",
+      "sentimentType": "negative",
+      "speaker_id": 3,
+      "time": 61.7,
+      "endTime": 81.1,
+      "averageConfidence": 0.96,
+      "index": 6
+    },
+    {
+      "sentence": "Ananya, I appreciate you saying that but that's a process failure, not a you failure. We shouldn't have a single person making the call on when to post. That's a systemic issue.",
+      "speaker_name": "Tom Bradley",
+      "sentimentType": "negative",
+      "speaker_id": 2,
+      "time": 81.4,
+      "endTime": 92.7,
+      "averageConfidence": 0.91,
+      "index": 7
+    },
+    {
+      "sentence": "I mean \u2014 I agree with that, but we can talk process later. Right now I've got customers blowing up my team's queue and I need to understand what actually happened technically so I can give my support engineers something to say.",
+      "speaker_name": "Brian Cho",
+      "sentimentType": "negative",
+      "speaker_id": 0,
+      "time": 93.9,
+      "endTime": 108.9,
+      "averageConfidence": 0.91,
+      "index": 8
+    },
+    {
+      "sentence": "Right, yeah. Sofia, you want to walk through the technical failure? You were in the weeds on this from the start.",
+      "speaker_name": "Tom Bradley",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 109.9,
+      "endTime": 117.5,
+      "averageConfidence": 0.89,
+      "index": 9
+    },
+    {
+      "sentence": "Sure. So the event ingestion pipeline \u2014 basically it's a single primary node that handles all incoming threat event data before it fans out to the processing workers. That node hit a memory ceiling, started throwing OOM errors, and because we don't have a circuit breaker or any redundancy on that node, it just cascaded. Everything downstream starved out.",
+      "speaker_name": "Sofia Petrov",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 118.6,
+      "endTime": 139.6,
+      "averageConfidence": 0.93,
+      "index": 10
+    },
+    {
+      "sentence": "Wait, so there's literally one node doing all of the ingestion? That's... okay I'm not an engineer but that sounds like a really bad design.",
+      "speaker_name": "Brian Cho",
+      "sentimentType": "negative",
+      "speaker_id": 0,
+      "time": 140.0,
+      "endTime": 149.2,
+      "averageConfidence": 0.9,
+      "index": 11
+    },
+    {
+      "sentence": "It's not ideal, no. It's \u2014 look, it's a legacy architecture decision and it's been on the roadmap to address. We just hadn't prioritized it.",
+      "speaker_name": "Tom Bradley",
+      "sentimentType": "negative",
+      "speaker_id": 2,
+      "time": 149.8,
+      "endTime": 158.9,
+      "averageConfidence": 0.89,
+      "index": 12
+    },
+    {
+      "sentence": "It was flagged in the Q4 tech debt review, Tom. I flagged it.",
+      "speaker_name": "Ananya Sharma",
+      "sentimentType": "negative",
+      "speaker_id": 3,
+      "time": 159.9,
+      "endTime": 164.2,
+      "averageConfidence": 0.93,
+      "index": 13
+    },
+    {
+      "sentence": "I know you did. And I'm not \u2014 look, this is not the time for that conversation. Yes, it was flagged, yes, it should have been prioritized, and now we're dealing with the consequences. I own that.",
+      "speaker_name": "Tom Bradley",
+      "sentimentType": "negative",
+      "speaker_id": 2,
+      "time": 164.9,
+      "endTime": 178.3,
+      "averageConfidence": 0.92,
+      "index": 14
+    },
+    {
+      "sentence": "Okay. So what's the current status? Are customers seeing data right now or are we still down?",
+      "speaker_name": "Brian Cho",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 179.2,
+      "endTime": 185.5,
+      "averageConfidence": 0.94,
+      "index": 15
+    },
+    {
+      "sentence": "We're still down as of this call. Sofia and I have been working on a hotfix \u2014 we're spinning up a secondary ingestion node and routing traffic through a temporary load balancer config, but it's not clean. It's a stopgap.",
+      "speaker_name": "Ananya Sharma",
+      "sentimentType": "negative",
+      "speaker_id": 3,
+      "time": 187.0,
+      "endTime": 201.2,
+      "averageConfidence": 0.93,
+      "index": 16
+    },
+    {
+      "sentence": "How long until that stopgap is live?",
+      "speaker_name": "Brian Cho",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 202.1,
+      "endTime": 204.5,
+      "averageConfidence": 0.94,
+      "index": 17
+    },
+    {
+      "sentence": "Best case? Another hour, maybe ninety minutes. But I don't want to commit to that publicly yet.",
+      "speaker_name": "Sofia Petrov",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 205.9,
+      "endTime": 212.3,
+      "averageConfidence": 0.92,
+      "index": 18
+    },
+    {
+      "sentence": "Brian, what are you hearing from customers? Like, who's screaming the loudest right now?",
+      "speaker_name": "Tom Bradley",
+      "sentimentType": "negative",
+      "speaker_id": 2,
+      "time": 213.2,
+      "endTime": 218.1,
+      "averageConfidence": 0.89,
+      "index": 19
+    },
+    {
+      "sentence": "I mean, everyone in the enterprise tier is screaming. We've got \u2014 let me just look at my notes here \u2014 Harmon Financial has escalated twice, they're threatening to call their account manager directly. TerraLogix is asking whether this is a breach, which is a great question to get at 10 in the morning. And we've got at least a dozen mid-market customers who are just, you know, sitting there with a broken security product and no visibility into their threat environment.",
+      "speaker_name": "Brian Cho",
+      "sentimentType": "negative",
+      "speaker_id": 0,
+      "time": 219.2,
+      "endTime": 247.8,
+      "averageConfidence": 0.89,
+      "index": 20
+    },
+    {
+      "sentence": "TerraLogix thinks it's a breach? We need to get ahead of that immediately.",
+      "speaker_name": "Tom Bradley",
+      "sentimentType": "negative",
+      "speaker_id": 2,
+      "time": 248.3,
+      "endTime": 253.0,
+      "averageConfidence": 0.89,
+      "index": 21
+    },
+    {
+      "sentence": "I know, I've got one of my senior support reps on the phone with them right now. But Tom, I need an actual statement I can give customers about what happened. Something honest that doesn't make us look like we don't know what we're doing.",
+      "speaker_name": "Brian Cho",
+      "sentimentType": "negative",
+      "speaker_id": 0,
+      "time": 254.2,
+      "endTime": 269.8,
+      "averageConfidence": 0.93,
+      "index": 22
+    },
+    {
+      "sentence": "The problem is we're still root-causing. I don't want to put out a statement that's wrong.",
+      "speaker_name": "Tom Bradley",
+      "sentimentType": "negative",
+      "speaker_id": 2,
+      "time": 270.7,
+      "endTime": 276.5,
+      "averageConfidence": 0.95,
+      "index": 23
+    },
+    {
+      "sentence": "Tom, we know enough. It's a pipeline failure. It's not a breach. That's the most important thing to communicate right now. Customers would rather have an incomplete honest update than silence.",
+      "speaker_name": "Brian Cho",
+      "sentimentType": "negative",
+      "speaker_id": 0,
+      "time": 276.8,
+      "endTime": 288.1,
+      "averageConfidence": 0.96,
+      "index": 24
+    },
+    {
+      "sentence": "I agree with Brian on this one. We've been in communications blackout for too long already.",
+      "speaker_name": "Ananya Sharma",
+      "sentimentType": "negative",
+      "speaker_id": 3,
+      "time": 289.3,
+      "endTime": 295.2,
+      "averageConfidence": 0.88,
+      "index": 25
+    },
+    {
+      "sentence": "Fine. Fine. I'll draft something in the next \u2014 can someone give me fifteen minutes and I'll have a customer statement?",
+      "speaker_name": "Tom Bradley",
+      "sentimentType": "negative",
+      "speaker_id": 2,
+      "time": 295.9,
+      "endTime": 303.5,
+      "averageConfidence": 0.93,
+      "index": 26
+    },
+    {
+      "sentence": "Please. And make sure it explicitly says this is not a security breach, that's the first question everyone's asking.",
+      "speaker_name": "Brian Cho",
+      "sentimentType": "negative",
+      "speaker_id": 0,
+      "time": 304.9,
+      "endTime": 311.5,
+      "averageConfidence": 0.96,
+      "index": 27
+    },
+    {
+      "sentence": "Yeah, I will. Sofia, while I'm doing that \u2014 can you document what you know so far about the failure sequence? We're going to need a timeline for the post-mortem.",
+      "speaker_name": "Tom Bradley",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 312.9,
+      "endTime": 323.6,
+      "averageConfidence": 0.95,
+      "index": 28
+    },
+    {
+      "sentence": "Already started. I've got a doc in Confluence, I'll drop the link in Slack. One thing I want to flag though \u2014 when we bring the stopgap online, customers are going to start seeing alerts again but there may be a gap in their event history. Like, events that occurred during the outage window may not be recoverable. We need to be upfront about that.",
+      "speaker_name": "Sofia Petrov",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 324.0,
+      "endTime": 346.8,
+      "averageConfidence": 0.9,
+      "index": 29
+    },
+    {
+      "sentence": "Oh, that's \u2014 yeah, that's going to be a very bad conversation to have with customers in regulated industries. Are we sure about that? Is there any way to replay the events?",
+      "speaker_name": "Brian Cho",
+      "sentimentType": "negative",
+      "speaker_id": 0,
+      "time": 347.7,
+      "endTime": 359.2,
+      "averageConfidence": 0.96,
+      "index": 30
+    },
+    {
+      "sentence": "We have some buffering at the source layer but it's limited. I'd say we can recover maybe sixty to seventy percent of what was lost. The rest is... gone.",
+      "speaker_name": "Ananya Sharma",
+      "sentimentType": "negative",
+      "speaker_id": 3,
+      "time": 359.8,
+      "endTime": 370.3,
+      "averageConfidence": 0.94,
+      "index": 31
+    },
+    {
+      "sentence": "Okay. That's \u2014 we need to think carefully about how we communicate that. That's a significant data loss event for a security monitoring product.",
+      "speaker_name": "Brian Cho",
+      "sentimentType": "negative",
+      "speaker_id": 0,
+      "time": 370.9,
+      "endTime": 379.1,
+      "averageConfidence": 0.9,
+      "index": 32
+    },
+    {
+      "sentence": "Agreed. Let's not bury it. Put it in the post-incident report. Customers deserve to know.",
+      "speaker_name": "Tom Bradley",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 380.6,
+      "endTime": 385.8,
+      "averageConfidence": 0.95,
+      "index": 33
+    },
+    {
+      "sentence": "Can we talk about the immediate next steps? I just want to make sure we have a clear owner on each thing before we get off this call, because the last two hours have been a lot of people doing a lot of things without coordination.",
+      "speaker_name": "Brian Cho",
+      "sentimentType": "negative",
+      "speaker_id": 0,
+      "time": 387.0,
+      "endTime": 403.5,
+      "averageConfidence": 0.89,
+      "index": 34
+    },
+    {
+      "sentence": "Yes. Okay. Sofia and Ananya, you own the stopgap fix and the technical timeline doc. Brian, you own customer communications and escalation triage. I'll draft the public statement and then I'm going to get on a call with the CTO because she's going to need to know about this if she doesn't already.",
+      "speaker_name": "Tom Bradley",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 404.9,
+      "endTime": 423.4,
+      "averageConfidence": 0.9,
+      "index": 35
+    },
+    {
+      "sentence": "She knows. I got a Slack from her about forty minutes ago.",
+      "speaker_name": "Ananya Sharma",
+      "sentimentType": "negative",
+      "speaker_id": 3,
+      "time": 423.9,
+      "endTime": 428.4,
+      "averageConfidence": 0.89,
+      "index": 36
+    },
+    {
+      "sentence": "Great. That's... great. Okay. Let's reconvene in ninety minutes or sooner if the fix goes live. Everybody check in on Slack. And \u2014 I know this has been a rough morning. Let's just get it fixed.",
+      "speaker_name": "Tom Bradley",
+      "sentimentType": "negative",
+      "speaker_id": 2,
+      "time": 429.3,
+      "endTime": 442.3,
+      "averageConfidence": 0.95,
+      "index": 37
+    },
+    {
+      "sentence": "Agreed. Let's go.",
+      "speaker_name": "Brian Cho",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 442.7,
+      "endTime": 444.2,
+      "averageConfidence": 0.92,
+      "index": 38
+    }
+  ]
+}

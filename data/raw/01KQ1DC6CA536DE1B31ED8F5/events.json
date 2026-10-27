@@ -1,0 +1,38 @@
+[
+  {
+    "participantName": "Wayne Keller",
+    "timestamp": 1772031630000,
+    "type": "Join",
+    "time": 30.0
+  },
+  {
+    "participantName": "Maria Santos",
+    "timestamp": 1772031649000,
+    "type": "Join",
+    "time": 49.0
+  },
+  {
+    "participantName": "Rachel Torres",
+    "timestamp": 1772031650000,
+    "type": "Join",
+    "time": 50.0
+  },
+  {
+    "participantName": "Rachel Torres",
+    "timestamp": 1772033588000,
+    "type": "Leave",
+    "time": 1988.0
+  },
+  {
+    "participantName": "Maria Santos",
+    "timestamp": 1772033606000,
+    "type": "Leave",
+    "time": 2006.0
+  },
+  {
+    "participantName": "Wayne Keller",
+    "timestamp": 1772033604000,
+    "type": "Leave",
+    "time": 2004.0
+  }
+]

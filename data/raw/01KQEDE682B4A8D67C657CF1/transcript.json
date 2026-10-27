@@ -1,0 +1,414 @@
+{
+  "data": [
+    {
+      "sentence": "Hi, this is Sarah Chen calling from Aegis Cloud Security support \u2014 am I speaking with Dominic Flores?",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 3.7,
+      "endTime": 10.3,
+      "averageConfidence": 0.96,
+      "index": 0
+    },
+    {
+      "sentence": "Yeah, that's me. Hi Sarah. I've got Michelle Tan on the line too, she's our Security Manager \u2014 she's been dealing with this more directly than I have.",
+      "speaker_name": "Dominic Flores",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 11.6,
+      "endTime": 21.7,
+      "averageConfidence": 0.94,
+      "index": 1
+    },
+    {
+      "sentence": "Hi Sarah, yeah, I've been the one actually in the platform trying to figure out what's going on.",
+      "speaker_name": "Michelle Tan",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 22.0,
+      "endTime": 28.7,
+      "averageConfidence": 0.96,
+      "index": 2
+    },
+    {
+      "sentence": "Great, hi Michelle, thanks for jumping on. So I pulled up Support Case 3103 before this call \u2014 you're seeing a spike in false positives from Aegis Detect after a patch was applied, is that right?",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 29.0,
+      "endTime": 41.5,
+      "averageConfidence": 0.97,
+      "index": 3
+    },
+    {
+      "sentence": "That's correct. And look, I want to be upfront \u2014 we're already pretty frustrated. This is the second issue we've had with Detect in, like, the past couple weeks.",
+      "speaker_name": "Dominic Flores",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 42.3,
+      "endTime": 52.5,
+      "averageConfidence": 0.96,
+      "index": 4
+    },
+    {
+      "sentence": "I completely understand, Dominic, and I appreciate you flagging that. Can you walk me through what you're seeing specifically? Like when did it start and what kind of alerts are triggering?",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 54.0,
+      "endTime": 65.3,
+      "averageConfidence": 0.96,
+      "index": 5
+    },
+    {
+      "sentence": "So, um, we applied the agent patch \u2014 I think it was version 4.2.1 \u2014 on Friday night. Saturday morning I come in and my dashboard is just... lit up. Hundreds of critical alerts.",
+      "speaker_name": "Michelle Tan",
+      "sentimentType": "negative",
+      "speaker_id": 2,
+      "time": 65.9,
+      "endTime": 78.2,
+      "averageConfidence": 0.91,
+      "index": 6
+    },
+    {
+      "sentence": "Hundreds? Like, what's your normal alert volume on a Saturday?",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 78.6,
+      "endTime": 81.9,
+      "averageConfidence": 0.94,
+      "index": 7
+    },
+    {
+      "sentence": "Maybe fifteen, twenty alerts on a slow day. We're a retail company, we have a lot of endpoints, but our baseline is pretty well established at this point. So going from twenty to, I don't know, I counted over three hundred by 9 AM \u2014 that's not normal.",
+      "speaker_name": "Michelle Tan",
+      "sentimentType": "negative",
+      "speaker_id": 2,
+      "time": 83.0,
+      "endTime": 99.5,
+      "averageConfidence": 0.95,
+      "index": 8
+    },
+    {
+      "sentence": "And our on-call person spent the entire morning triaging and every single one of them was a false positive. Every. Single. One. That's hours of wasted time right there.",
+      "speaker_name": "Dominic Flores",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 100.6,
+      "endTime": 111.0,
+      "averageConfidence": 0.89,
+      "index": 9
+    },
+    {
+      "sentence": "Yeah, that's \u2014 okay, I hear you, that's a significant operational impact. Michelle, do you know what categories of alerts were triggering? Like was it lateral movement, unusual login patterns, data exfiltration flags, or...?",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 111.9,
+      "endTime": 123.5,
+      "averageConfidence": 0.89,
+      "index": 10
+    },
+    {
+      "sentence": "It was mostly the behavioral anomaly ones. Uh, specifically around process execution \u2014 we were getting flagged for what looked like, I think the alert type was something like 'suspicious child process spawning' or something along those lines.",
+      "speaker_name": "Michelle Tan",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 124.1,
+      "endTime": 137.6,
+      "averageConfidence": 0.92,
+      "index": 11
+    },
+    {
+      "sentence": "Okay. And those endpoints \u2014 are those your POS systems, back-office servers, or a mix?",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 138.5,
+      "endTime": 143.4,
+      "averageConfidence": 0.89,
+      "index": 12
+    },
+    {
+      "sentence": "Mix, but predominantly back-office. Our inventory management system runs a lot of scheduled jobs on Saturday mornings \u2014 restocking workflows, that kind of thing. We've never had issues with those being flagged before.",
+      "speaker_name": "Michelle Tan",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 144.2,
+      "endTime": 156.1,
+      "averageConfidence": 0.92,
+      "index": 13
+    },
+    {
+      "sentence": "Right, right. So the patch may have reset or recalibrated the behavioral baseline thresholds. That's... yeah, that's a known issue we've been tracking with 4.2.1 actually. The patch included updates to the behavioral detection engine and in some environments it's basically starting the learning period over from scratch.",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 157.2,
+      "endTime": 173.9,
+      "averageConfidence": 0.95,
+      "index": 14
+    },
+    {
+      "sentence": "I'm sorry \u2014 it's a known issue? Why weren't we notified before we applied it?",
+      "speaker_name": "Dominic Flores",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 174.3,
+      "endTime": 179.3,
+      "averageConfidence": 0.91,
+      "index": 15
+    },
+    {
+      "sentence": "That's a fair point, Dominic, and I'm not going to make excuses for that. The advisory did go out but I think it was posted to the release notes portal and honestly that's not sufficient for an issue of this scope. I'll be flagging that internally.",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "negative",
+      "speaker_id": 0,
+      "time": 180.1,
+      "endTime": 196.2,
+      "averageConfidence": 0.96,
+      "index": 16
+    },
+    {
+      "sentence": "We shouldn't have to check a portal every time we apply a patch to find out if it's going to break our alerting. We have an account manager, we have a support contract \u2014 this should be proactive communication.",
+      "speaker_name": "Dominic Flores",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 197.5,
+      "endTime": 211.3,
+      "averageConfidence": 0.89,
+      "index": 17
+    },
+    {
+      "sentence": "You're absolutely right. And I will make sure that feedback gets escalated after this call. Right now though I want to focus on getting you fixed up \u2014 can we do that?",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 212.4,
+      "endTime": 223.8,
+      "averageConfidence": 0.89,
+      "index": 18
+    },
+    {
+      "sentence": "Yeah, okay. Yes. What do we do?",
+      "speaker_name": "Michelle Tan",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 224.8,
+      "endTime": 227.3,
+      "averageConfidence": 0.95,
+      "index": 19
+    },
+    {
+      "sentence": "So there are two things we can do. First, I can push a configuration update to manually restore your previous baseline snapshot \u2014 we keep a 30-day history of your tuning profiles, so we can roll back to where you were before the patch. That should stop the flood of false positives within a couple hours of applying it.",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 227.8,
+      "endTime": 248.9,
+      "averageConfidence": 0.92,
+      "index": 20
+    },
+    {
+      "sentence": "Okay, that sounds good. And what's the second thing?",
+      "speaker_name": "Michelle Tan",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 249.9,
+      "endTime": 253.0,
+      "averageConfidence": 0.89,
+      "index": 21
+    },
+    {
+      "sentence": "The second thing is we need to get you on a supervised re-learning period so the engine actually learns your environment properly after the patch \u2014 rather than just resetting blind. I'd want to work with you to set some suppression rules for those Saturday batch jobs specifically, so they don't trigger during the relearning window.",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 254.3,
+      "endTime": 273.7,
+      "averageConfidence": 0.91,
+      "index": 22
+    },
+    {
+      "sentence": "How long does the relearning period take? Because we can't have our team babysitting alerts for weeks.",
+      "speaker_name": "Dominic Flores",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 274.9,
+      "endTime": 280.9,
+      "averageConfidence": 0.9,
+      "index": 23
+    },
+    {
+      "sentence": "Typically seven to fourteen days for a retail environment with your endpoint count. But with the suppression rules in place and the baseline restore, you should be back to normal alert volumes pretty much immediately \u2014 the relearning just happens in the background.",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 282.2,
+      "endTime": 297.4,
+      "averageConfidence": 0.93,
+      "index": 24
+    },
+    {
+      "sentence": "Okay. And this won't affect our actual threat detection coverage during that window? Because \u2014 I mean, we can't just be blind to real threats either.",
+      "speaker_name": "Michelle Tan",
+      "sentimentType": "negative",
+      "speaker_id": 2,
+      "time": 298.0,
+      "endTime": 307.4,
+      "averageConfidence": 0.96,
+      "index": 25
+    },
+    {
+      "sentence": "No, the signature-based detection stays fully active throughout. The behavioral engine is supplementary \u2014 it catches things signatures might miss, but you're not losing your core detection capability. The suppression rules will be scoped really narrowly to those specific process patterns.",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 308.0,
+      "endTime": 322.1,
+      "averageConfidence": 0.96,
+      "index": 26
+    },
+    {
+      "sentence": "Okay. That's \u2014 yeah, that's somewhat reassuring. Though I want to say, this is all happening, what, a week after we already had issues with Detect? The outage earlier this month?",
+      "speaker_name": "Dominic Flores",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 323.4,
+      "endTime": 334.1,
+      "averageConfidence": 0.9,
+      "index": 27
+    },
+    {
+      "sentence": "I know. I know, and I won't pretend that's not a rough stretch. We take that seriously.",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "negative",
+      "speaker_id": 0,
+      "time": 335.2,
+      "endTime": 341.1,
+      "averageConfidence": 0.95,
+      "index": 28
+    },
+    {
+      "sentence": "We're evaluating other vendors at renewal time, Sarah. I want to be transparent about that. This isn't a threat, it's just \u2014 we need to be confident in this platform and right now our confidence is shaken.",
+      "speaker_name": "Dominic Flores",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 342.2,
+      "endTime": 355.5,
+      "averageConfidence": 0.91,
+      "index": 29
+    },
+    {
+      "sentence": "I appreciate you being direct with me, Dominic. All I can do right now is make sure we get this fixed correctly today and make sure your account team follows up with you on the bigger picture. That conversation deserves more than a support call.",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 356.1,
+      "endTime": 371.7,
+      "averageConfidence": 0.89,
+      "index": 30
+    },
+    {
+      "sentence": "Agreed. For now, how do we start the baseline restore? Do you need access to something on our end?",
+      "speaker_name": "Michelle Tan",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 372.8,
+      "endTime": 379.8,
+      "averageConfidence": 0.91,
+      "index": 31
+    },
+    {
+      "sentence": "I'll initiate it from our side \u2014 I just need you to confirm the tenant ID and which agent group you want me to target first. Do you want to start with the back-office servers since that's where most of the noise is coming from?",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 380.2,
+      "endTime": 395.9,
+      "averageConfidence": 0.96,
+      "index": 32
+    },
+    {
+      "sentence": "Yes, start there. The tenant ID is SLB-0047. And I can stay on the line while you do it if that helps.",
+      "speaker_name": "Michelle Tan",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 396.6,
+      "endTime": 404.4,
+      "averageConfidence": 0.9,
+      "index": 33
+    },
+    {
+      "sentence": "That would be great actually, yeah. Give me just a moment to pull that up... okay, I've got your tenant, I can see the baseline history. Your last stable profile is from March 13th \u2014 does that sound right, before the patch?",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 405.3,
+      "endTime": 420.1,
+      "averageConfidence": 0.89,
+      "index": 34
+    },
+    {
+      "sentence": "Yeah, we applied the patch on the 14th. So March 13th would be clean.",
+      "speaker_name": "Michelle Tan",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 421.6,
+      "endTime": 426.7,
+      "averageConfidence": 0.9,
+      "index": 35
+    },
+    {
+      "sentence": "Perfect. Initiating the restore now to the back-office agent group. You should start seeing alert volumes normalize within the next hour or two. I'll send you a follow-up email with the suppression rule recommendations and a write-up of what happened \u2014 something you can share with your team.",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 427.0,
+      "endTime": 444.2,
+      "averageConfidence": 0.92,
+      "index": 36
+    },
+    {
+      "sentence": "Okay. And the account manager follow-up you mentioned \u2014 can you put that in writing too? I want to make sure it actually happens.",
+      "speaker_name": "Dominic Flores",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 445.6,
+      "endTime": 454.0,
+      "averageConfidence": 0.95,
+      "index": 37
+    },
+    {
+      "sentence": "Absolutely. I'll copy your account manager directly on the case notes so it's documented. Is there anything else pressing before I let you both go?",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 455.1,
+      "endTime": 463.9,
+      "averageConfidence": 0.94,
+      "index": 38
+    },
+    {
+      "sentence": "No, I think that's it for now. We'll keep an eye on the alert volumes. Thanks Sarah \u2014 I don't want it to sound like we're not appreciating the help today, we just... we need things to be more stable.",
+      "speaker_name": "Michelle Tan",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 464.7,
+      "endTime": 478.8,
+      "averageConfidence": 0.89,
+      "index": 39
+    },
+    {
+      "sentence": "I hear you, Michelle. Thanks for your patience. I'll get that email over to you within the hour.",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 479.3,
+      "endTime": 485.4,
+      "averageConfidence": 0.97,
+      "index": 40
+    }
+  ]
+}

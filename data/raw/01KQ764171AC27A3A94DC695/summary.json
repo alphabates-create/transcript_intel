@@ -1,0 +1,46 @@
+{
+  "summary": "This 30-day post-incident review covered the March 10-18 Detect module outage, which caused six hours of complete threat monitoring blindness for 47 affected accounts due to a single point of failure in the event ingestion pipeline. The engineering team confirmed fixes including redundant processing nodes and a circuit breaker pattern, both deployed by March 29th, with a clean 30-day window since. Customer Success raised concerns about two key accounts \u2014 Meridian Financial (August renewal at risk due to compliance audit impact) and Treswick Healthcare (HIPAA documentation concerns) \u2014 and the team discussed potential remediation strategies including early access to the Detect telemetry dashboard and a Comply v2 upsell conversation. The team aligned on several follow-up actions including drafting a customer-facing incident summary and improving internal communications protocols.",
+  "actionItems": [
+    "Chris Lee: Talk to Priya about getting Meridian Financial into an early access or beta program for the expanded event telemetry dashboard by mid-May",
+    "Tyler Washington: Draft a customer-facing incident summary document and share with Diana for tone review by end of week",
+    "Diana Reeves: Check Treswick Healthcare's contract to determine if they are on Comply and explore a platform expansion conversation",
+    "Chris Lee: Update on-call runbook to ensure Customer Success receives a heads-up notification whenever a circuit breaker activation occurs"
+  ],
+  "topics": [
+    "post-incident review",
+    "service outage",
+    "compliance risk",
+    "customer retention",
+    "internal communications",
+    "product early access"
+  ],
+  "overallSentiment": "mixed-negative",
+  "sentimentScore": 2.8,
+  "keyMoments": [
+    {
+      "time": 312,
+      "text": "Diana reveals that Meridian Financial faced a real compliance audit problem due to the six-hour monitoring gap, with renewal at risk in August",
+      "type": "churn_signal",
+      "speaker": "Diana Reeves"
+    },
+    {
+      "time": 498,
+      "text": "Team identifies opportunity to offer Meridian Financial early access to the expanded event telemetry dashboard as a service recovery gesture",
+      "type": "positive_pivot",
+      "speaker": "Diana Reeves"
+    },
+    {
+      "time": 612,
+      "text": "Chris Lee connects Comply v2's new on-demand HIPAA reporting as a potential solution for Treswick Healthcare's regulatory documentation concerns",
+      "type": "feature_gap",
+      "speaker": "Chris Lee"
+    },
+    {
+      "time": 192,
+      "text": "Diana requests that engineering notify Customer Success via Slack whenever a circuit breaker activation occurs, even if it is a non-event for customers",
+      "type": "concern",
+      "speaker": "Diana Reeves"
+    }
+  ],
+  "meetingId": "01KQ764171AC27A3A94DC695"
+}

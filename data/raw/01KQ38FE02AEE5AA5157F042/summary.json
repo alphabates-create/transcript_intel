@@ -1,0 +1,46 @@
+{
+  "summary": "Oliver Grant contacted Aegis Cloud Security support to report multiple formatting bugs in the newly launched Aegis Comply v2 PDF report export. The issues include section header text truncation on long control category names, a table pagination problem splitting the header row from its data, and incorrect page count in the footer. Marcus confirmed the bugs by reproducing them in a test environment and identified them as a rendering defect in the PDF generation service introduced with the v2 release. Marcus committed to escalating to engineering with high priority and providing an ETA via email the same day, given Oliver's internal audit review scheduled for the following week.",
+  "actionItems": [
+    "Marcus Williams: File bug report with engineering team immediately, flagging audit timeline urgency, and send Oliver an email ETA update later today",
+    "Marcus Williams: Check with engineering and case queue to determine if other customers are reporting the same PDF rendering issues",
+    "Oliver Grant: Download the CSV export from the Comply dashboard as a backup reference for the internal audit review while the fix is pending",
+    "Oliver Grant: Regenerate the SOC 2 report after the patch is deployed and verify the formatting issues are resolved"
+  ],
+  "topics": [
+    "product bug",
+    "compliance reporting",
+    "pdf rendering",
+    "new release issue",
+    "audit deadline",
+    "workaround"
+  ],
+  "overallSentiment": "mixed-positive",
+  "sentimentScore": 3.4,
+  "keyMoments": [
+    {
+      "time": 95.0,
+      "text": "Oliver describes three distinct formatting bugs in the SOC 2 PDF export: header truncation, table pagination breaking, and incorrect page count in footer.",
+      "type": "technical_issue",
+      "speaker": "Oliver Grant"
+    },
+    {
+      "time": 290.0,
+      "text": "Marcus confirms the bug is reproducible on his end and acknowledges it is a rendering defect introduced with the v2 release, not a user-side issue.",
+      "type": "positive_pivot",
+      "speaker": "Marcus Williams"
+    },
+    {
+      "time": 385.0,
+      "text": "Oliver flags that he has an internal audit review next week and needs clean reports ready, creating urgency for a timely fix.",
+      "type": "concern",
+      "speaker": "Oliver Grant"
+    },
+    {
+      "time": 450.0,
+      "text": "Marcus offers a CSV export workaround so Oliver has access to the underlying compliance data while waiting for the patch.",
+      "type": "action_item",
+      "speaker": "Marcus Williams"
+    }
+  ],
+  "meetingId": "01KQ38FE02AEE5AA5157F042"
+}

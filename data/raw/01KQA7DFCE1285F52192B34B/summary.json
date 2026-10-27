@@ -1,0 +1,46 @@
+{
+  "summary": "Dominic Flores, IT Director at Silverline Brands, called Aegis Cloud Security support regarding a two-week-old open case about backup jobs significantly overrunning their scheduled 1 AM\u20135 AM window, with SQL Server backups now taking up to 8\u20139 hours and causing production performance degradation. Support engineer David Kim identified a dramatic throughput drop from ~800 MB/s to ~180\u2013220 MB/s, potentially linked to backend network routing changes made during a March remediation effort for a separate module (Aegis Detect). David initiated immediate workarounds including a manual agent update to version 4.2.0 and SQL job priority adjustments, and escalated the issue as P1 to the infrastructure team. A follow-up call was scheduled for the next morning at 10 AM Central with a Protect platform engineer to review root cause findings.",
+  "actionItems": [
+    "David Kim: Escalate case to Protect infrastructure team as P1 and investigate backend network routing changes from March remediation as root cause of throughput degradation",
+    "David Kim: Deploy agent update 4.2.0 to Silverline Brands environment manually within the hour and adjust SQL backup job priority settings for tonight's run",
+    "David Kim: Send calendar invite and case update email to Dominic within 30 minutes for 10 AM Central follow-up call with a Protect platform engineer",
+    "David Kim: Set up alert to be paged directly if SQL backup job duration exceeds six hours during tonight's backup window"
+  ],
+  "topics": [
+    "backup performance",
+    "throughput degradation",
+    "platform incident",
+    "sql server",
+    "agent update",
+    "support response time"
+  ],
+  "overallSentiment": "mixed-negative",
+  "sentimentScore": 2.4,
+  "keyMoments": [
+    {
+      "time": 95.0,
+      "text": "Dominic expresses frustration about slow initial response time despite paying for premium support",
+      "type": "concern",
+      "speaker": "Dominic Flores"
+    },
+    {
+      "time": 420.0,
+      "text": "David identifies throughput dropped from ~800 MB/s to ~180-220 MB/s, confirming a significant platform-side issue",
+      "type": "technical_issue",
+      "speaker": "David Kim"
+    },
+    {
+      "time": 540.0,
+      "text": "Dominic alarmed to learn a separate module incident (Aegis Detect) may have broken backups with no proactive customer notification",
+      "type": "churn_signal",
+      "speaker": "Dominic Flores"
+    },
+    {
+      "time": 780.0,
+      "text": "Dominic acknowledges appreciation for David's transparency and commits to tomorrow's follow-up call, signaling cautious de-escalation",
+      "type": "positive_pivot",
+      "speaker": "Dominic Flores"
+    }
+  ],
+  "meetingId": "01KQA7DFCE1285F52192B34B"
+}

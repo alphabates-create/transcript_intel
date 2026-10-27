@@ -1,0 +1,46 @@
+{
+  "summary": "Vanessa Cruz from a retail company contacted Aegis Cloud Security support regarding a critical SAML certificate rotation issue affecting 60-70% of her workforce on a Sunday. Support engineer Elena Vasquez identified the root cause as a known bug in Aegis Identity version 3.4.1, where the certificate rotation wizard fails to propagate new certificate metadata to all service provider connections. The team worked on a manual workaround requiring Vanessa's engineer Priya to re-import the new certificate metadata across all 14 SP connections. Vanessa expressed broader frustration with platform reliability, citing this bug alongside a recent Detect outage, and Marcus committed to escalating her concerns to customer success.",
+  "actionItems": [
+    "Elena Vasquez: Walk Priya through manually re-importing new certificate metadata for all 14 service provider connections in the admin console",
+    "Marcus Williams: Document the call and escalate reliability concerns (Detect outage and SAML wizard bug) to the customer success team for a follow-up conversation with Vanessa",
+    "Elena Vasquez: Ensure the customer advisory warning admins not to use the certificate rotation wizard until patch 3.4.2 is distributed today",
+    "Aegis Engineering: Release patch 3.4.2 with the certificate rotation wizard fix by the week of April 6th"
+  ],
+  "topics": [
+    "saml certificate rotation",
+    "product bug",
+    "authentication failure",
+    "service outage",
+    "customer reliability concerns",
+    "identity federation"
+  ],
+  "overallSentiment": "mixed-negative",
+  "sentimentScore": 2.2,
+  "keyMoments": [
+    {
+      "time": 75.0,
+      "text": "Vanessa reveals that 60-70% of her workforce cannot authenticate into critical business tools on one of the busiest days of the week, characterizing it as a critical operational impact.",
+      "type": "concern",
+      "speaker": "Vanessa Cruz"
+    },
+    {
+      "time": 285.0,
+      "text": "Elena discloses a known bug in the 3.4.1 release where the certificate rotation wizard fails to propagate new certificate metadata to all service provider connections.",
+      "type": "technical_issue",
+      "speaker": "Elena Vasquez"
+    },
+    {
+      "time": 390.0,
+      "text": "Vanessa references the earlier Detect outage combined with this new bug, signaling growing dissatisfaction with overall platform reliability after two and a half years as a customer.",
+      "type": "churn_signal",
+      "speaker": "Vanessa Cruz"
+    },
+    {
+      "time": 620.0,
+      "text": "Elena commits to personally escalating the reliability concerns to the customer success team and documenting the broader issues raised during the call.",
+      "type": "action_item",
+      "speaker": "Elena Vasquez"
+    }
+  ],
+  "meetingId": "01KQ5EC1665DCFD7A6B62A59"
+}

@@ -1,0 +1,202 @@
+[
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 5.2,
+    "endTimeTs": 12.1
+  },
+  {
+    "speakerName": "Raj Kapoor",
+    "timestamp": 12.7,
+    "endTimeTs": 18.8
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 19.2,
+    "endTimeTs": 35.7
+  },
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 36.0,
+    "endTimeTs": 45.9
+  },
+  {
+    "speakerName": "Brian Cho",
+    "timestamp": 46.5,
+    "endTimeTs": 63.3
+  },
+  {
+    "speakerName": "Raj Kapoor",
+    "timestamp": 64.6,
+    "endTimeTs": 70.7
+  },
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 71.3,
+    "endTimeTs": 93.0
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 93.4,
+    "endTimeTs": 99.3
+  },
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 100.1,
+    "endTimeTs": 117.0
+  },
+  {
+    "speakerName": "Brian Cho",
+    "timestamp": 118.5,
+    "endTimeTs": 130.1
+  },
+  {
+    "speakerName": "Raj Kapoor",
+    "timestamp": 130.5,
+    "endTimeTs": 141.8
+  },
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 142.8,
+    "endTimeTs": 164.9
+  },
+  {
+    "speakerName": "Raj Kapoor",
+    "timestamp": 166.4,
+    "endTimeTs": 179.5
+  },
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 180.8,
+    "endTimeTs": 196.2
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 197.3,
+    "endTimeTs": 212.6
+  },
+  {
+    "speakerName": "Brian Cho",
+    "timestamp": 213.9,
+    "endTimeTs": 222.9
+  },
+  {
+    "speakerName": "Raj Kapoor",
+    "timestamp": 224.2,
+    "endTimeTs": 233.5
+  },
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 234.8,
+    "endTimeTs": 247.3
+  },
+  {
+    "speakerName": "Raj Kapoor",
+    "timestamp": 248.7,
+    "endTimeTs": 253.4
+  },
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 254.9,
+    "endTimeTs": 272.2
+  },
+  {
+    "speakerName": "Brian Cho",
+    "timestamp": 273.5,
+    "endTimeTs": 278.7
+  },
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 279.7,
+    "endTimeTs": 295.7
+  },
+  {
+    "speakerName": "Raj Kapoor",
+    "timestamp": 297.1,
+    "endTimeTs": 313.4
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 313.8,
+    "endTimeTs": 324.3
+  },
+  {
+    "speakerName": "Brian Cho",
+    "timestamp": 325.5,
+    "endTimeTs": 342.3
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 342.7,
+    "endTimeTs": 362.3
+  },
+  {
+    "speakerName": "Raj Kapoor",
+    "timestamp": 363.8,
+    "endTimeTs": 377.7
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 379.1,
+    "endTimeTs": 400.4
+  },
+  {
+    "speakerName": "Brian Cho",
+    "timestamp": 400.9,
+    "endTimeTs": 417.8
+  },
+  {
+    "speakerName": "Raj Kapoor",
+    "timestamp": 419.2,
+    "endTimeTs": 432.4
+  },
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 433.8,
+    "endTimeTs": 446.8
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 447.8,
+    "endTimeTs": 458.0
+  },
+  {
+    "speakerName": "Raj Kapoor",
+    "timestamp": 458.6,
+    "endTimeTs": 470.4
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 470.9,
+    "endTimeTs": 488.0
+  },
+  {
+    "speakerName": "Brian Cho",
+    "timestamp": 488.4,
+    "endTimeTs": 496.8
+  },
+  {
+    "speakerName": "Raj Kapoor",
+    "timestamp": 497.1,
+    "endTimeTs": 508.8
+  },
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 509.2,
+    "endTimeTs": 515.1
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 516.2,
+    "endTimeTs": 528.2
+  },
+  {
+    "speakerName": "Raj Kapoor",
+    "timestamp": 528.7,
+    "endTimeTs": 534.4
+  },
+  {
+    "speakerName": "Brian Cho",
+    "timestamp": 535.1,
+    "endTimeTs": 536.9
+  }
+]

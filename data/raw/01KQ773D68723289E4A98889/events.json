@@ -1,0 +1,38 @@
+[
+  {
+    "participantName": "Marcus Williams",
+    "timestamp": 1772197214000,
+    "type": "Join",
+    "time": 14.0
+  },
+  {
+    "participantName": "Kendra Wallace",
+    "timestamp": 1772197234000,
+    "type": "Join",
+    "time": 34.0
+  },
+  {
+    "participantName": "Sarah Chen",
+    "timestamp": 1772197236000,
+    "type": "Join",
+    "time": 36.0
+  },
+  {
+    "participantName": "Sarah Chen",
+    "timestamp": 1772197933000,
+    "type": "Leave",
+    "time": 733.0
+  },
+  {
+    "participantName": "Marcus Williams",
+    "timestamp": 1772197933000,
+    "type": "Leave",
+    "time": 733.0
+  },
+  {
+    "participantName": "Kendra Wallace",
+    "timestamp": 1772197929000,
+    "type": "Leave",
+    "time": 729.0
+  }
+]

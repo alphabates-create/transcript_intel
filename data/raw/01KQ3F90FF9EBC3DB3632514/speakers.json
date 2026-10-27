@@ -1,0 +1,207 @@
+[
+  {
+    "speakerName": "Nina Kowalski",
+    "timestamp": 4.3,
+    "endTimeTs": 10.6
+  },
+  {
+    "speakerName": "Tyler Washington",
+    "timestamp": 11.3,
+    "endTimeTs": 16.5
+  },
+  {
+    "speakerName": "Sofia Petrov",
+    "timestamp": 16.9,
+    "endTimeTs": 22.3
+  },
+  {
+    "speakerName": "Mike Romano",
+    "timestamp": 23.2,
+    "endTimeTs": 31.7
+  },
+  {
+    "speakerName": "Nina Kowalski",
+    "timestamp": 32.2,
+    "endTimeTs": 41.6
+  },
+  {
+    "speakerName": "Sofia Petrov",
+    "timestamp": 42.0,
+    "endTimeTs": 54.4
+  },
+  {
+    "speakerName": "Mike Romano",
+    "timestamp": 55.2,
+    "endTimeTs": 61.4
+  },
+  {
+    "speakerName": "Nina Kowalski",
+    "timestamp": 62.3,
+    "endTimeTs": 71.2
+  },
+  {
+    "speakerName": "Tyler Washington",
+    "timestamp": 72.1,
+    "endTimeTs": 82.3
+  },
+  {
+    "speakerName": "Nina Kowalski",
+    "timestamp": 83.4,
+    "endTimeTs": 98.9
+  },
+  {
+    "speakerName": "Sofia Petrov",
+    "timestamp": 99.4,
+    "endTimeTs": 108.4
+  },
+  {
+    "speakerName": "Mike Romano",
+    "timestamp": 108.9,
+    "endTimeTs": 113.2
+  },
+  {
+    "speakerName": "Sofia Petrov",
+    "timestamp": 113.5,
+    "endTimeTs": 129.0
+  },
+  {
+    "speakerName": "Mike Romano",
+    "timestamp": 129.9,
+    "endTimeTs": 139.2
+  },
+  {
+    "speakerName": "Sofia Petrov",
+    "timestamp": 139.9,
+    "endTimeTs": 144.9
+  },
+  {
+    "speakerName": "Tyler Washington",
+    "timestamp": 145.7,
+    "endTimeTs": 147.3
+  },
+  {
+    "speakerName": "Nina Kowalski",
+    "timestamp": 148.0,
+    "endTimeTs": 154.1
+  },
+  {
+    "speakerName": "Sofia Petrov",
+    "timestamp": 154.7,
+    "endTimeTs": 161.8
+  },
+  {
+    "speakerName": "Tyler Washington",
+    "timestamp": 162.8,
+    "endTimeTs": 169.7
+  },
+  {
+    "speakerName": "Nina Kowalski",
+    "timestamp": 170.9,
+    "endTimeTs": 180.7
+  },
+  {
+    "speakerName": "Mike Romano",
+    "timestamp": 182.1,
+    "endTimeTs": 190.2
+  },
+  {
+    "speakerName": "Nina Kowalski",
+    "timestamp": 190.5,
+    "endTimeTs": 196.1
+  },
+  {
+    "speakerName": "Tyler Washington",
+    "timestamp": 197.1,
+    "endTimeTs": 213.5
+  },
+  {
+    "speakerName": "Sofia Petrov",
+    "timestamp": 213.9,
+    "endTimeTs": 220.2
+  },
+  {
+    "speakerName": "Mike Romano",
+    "timestamp": 221.5,
+    "endTimeTs": 229.0
+  },
+  {
+    "speakerName": "Sofia Petrov",
+    "timestamp": 229.8,
+    "endTimeTs": 237.5
+  },
+  {
+    "speakerName": "Mike Romano",
+    "timestamp": 238.9,
+    "endTimeTs": 247.7
+  },
+  {
+    "speakerName": "Tyler Washington",
+    "timestamp": 248.3,
+    "endTimeTs": 253.5
+  },
+  {
+    "speakerName": "Nina Kowalski",
+    "timestamp": 254.3,
+    "endTimeTs": 270.8
+  },
+  {
+    "speakerName": "Tyler Washington",
+    "timestamp": 272.2,
+    "endTimeTs": 280.5
+  },
+  {
+    "speakerName": "Nina Kowalski",
+    "timestamp": 281.7,
+    "endTimeTs": 290.8
+  },
+  {
+    "speakerName": "Mike Romano",
+    "timestamp": 291.4,
+    "endTimeTs": 304.3
+  },
+  {
+    "speakerName": "Sofia Petrov",
+    "timestamp": 305.1,
+    "endTimeTs": 310.1
+  },
+  {
+    "speakerName": "Mike Romano",
+    "timestamp": 310.9,
+    "endTimeTs": 319.7
+  },
+  {
+    "speakerName": "Nina Kowalski",
+    "timestamp": 321.2,
+    "endTimeTs": 328.0
+  },
+  {
+    "speakerName": "Mike Romano",
+    "timestamp": 328.6,
+    "endTimeTs": 338.8
+  },
+  {
+    "speakerName": "Sofia Petrov",
+    "timestamp": 339.6,
+    "endTimeTs": 348.1
+  },
+  {
+    "speakerName": "Nina Kowalski",
+    "timestamp": 349.0,
+    "endTimeTs": 366.4
+  },
+  {
+    "speakerName": "Mike Romano",
+    "timestamp": 366.8,
+    "endTimeTs": 368.3
+  },
+  {
+    "speakerName": "Tyler Washington",
+    "timestamp": 369.5,
+    "endTimeTs": 372.1
+  },
+  {
+    "speakerName": "Sofia Petrov",
+    "timestamp": 373.2,
+    "endTimeTs": 374.7
+  }
+]

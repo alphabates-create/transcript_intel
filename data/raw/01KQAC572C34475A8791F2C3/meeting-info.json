@@ -1,0 +1,21 @@
+{
+  "meetingId": "01KQAC572C34475A8791F2C3",
+  "title": "Protect Team - Quarterly Planning",
+  "organizerEmail": "mike.romano@aegiscloud.com",
+  "host": "mike.romano@aegiscloud.com",
+  "startTime": "2026-02-23T12:45:00.000Z",
+  "endTime": "2026-02-23T13:15:48.000Z",
+  "duration": 30.8,
+  "allEmails": [
+    "mike.romano@aegiscloud.com",
+    "ananya.sharma@aegiscloud.com",
+    "ravi.gupta@aegiscloud.com",
+    "sofia.petrov@aegiscloud.com"
+  ],
+  "invitees": [
+    "mike.romano@aegiscloud.com",
+    "ananya.sharma@aegiscloud.com",
+    "ravi.gupta@aegiscloud.com",
+    "sofia.petrov@aegiscloud.com"
+  ]
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "participantName": "Paula Schneider",
+    "timestamp": 1773508539000,
+    "type": "Join",
+    "time": 39.0
+  },
+  {
+    "participantName": "Priya Patel",
+    "timestamp": 1773508558000,
+    "type": "Join",
+    "time": 58.0
+  },
+  {
+    "participantName": "Priya Patel",
+    "timestamp": 1773509166000,
+    "type": "Leave",
+    "time": 666.0
+  },
+  {
+    "participantName": "Paula Schneider",
+    "timestamp": 1773509182000,
+    "type": "Leave",
+    "time": 682.0
+  }
+]

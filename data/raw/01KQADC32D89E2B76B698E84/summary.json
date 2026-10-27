@@ -1,0 +1,46 @@
+{
+  "summary": "Nova Retail Group VP Stephanie Blair and senior security engineer Andre Coleman contacted Aegis Cloud Security support regarding an SSO outage affecting approximately 38-42% of their 1,200 users since February 10th. Aegis support identified a likely regression introduced by a patch deployed on February 9th affecting SAML NameID format handling in the Identity module. A temporary workaround was provided via bulk per-user local auth override in the admin console, while a permanent fix is estimated within 48 hours. Stephanie expressed significant frustration over the four-day outage coinciding with Valentine's Day, one of Nova Retail's busiest sales days, and the lack of proactive communication from Aegis.",
+  "actionItems": [
+    "Sarah Chen: Escalate patch priority with engineering and follow up with updated fix ETA by end of day today",
+    "Sarah Chen: Flag status page communication gap internally and ensure a status update is published for affected customers",
+    "Elena Vasquez: Draft and send an incident summary email within the hour for Stephanie to share with her CISO",
+    "Andre Coleman: Apply bulk Authentication Override workaround to approximately 450 affected users in the Aegis Identity admin console"
+  ],
+  "topics": [
+    "sso outage",
+    "identity module regression",
+    "saml configuration",
+    "incident communication",
+    "workaround",
+    "patch deployment"
+  ],
+  "overallSentiment": "mixed-negative",
+  "sentimentScore": 2.3,
+  "keyMoments": [
+    {
+      "time": 210.0,
+      "text": "Stephanie expresses frustration that a patch was deployed the day before the outage began and they are only hearing about it now after four days of users being locked out.",
+      "type": "churn_signal",
+      "speaker": "Stephanie Blair"
+    },
+    {
+      "time": 310.0,
+      "text": "Andre confirms that the local auth workaround is largely inapplicable because Nova Retail enforced SSO-only per Aegis's own recommended documentation, eliminating the primary suggested workaround.",
+      "type": "concern",
+      "speaker": "Andre Coleman"
+    },
+    {
+      "time": 420.0,
+      "text": "Elena walks Andre through the bulk Authentication Override option in the admin console, providing a viable stopgap for the affected users on the same day as the call.",
+      "type": "positive_pivot",
+      "speaker": "Elena Vasquez"
+    },
+    {
+      "time": 570.0,
+      "text": "Stephanie acknowledges the team is not leaving Aegis but states she needs to see responsiveness, and accepts the offer of a drafted incident summary email to share with her CISO.",
+      "type": "action_item",
+      "speaker": "Stephanie Blair"
+    }
+  ],
+  "meetingId": "01KQADC32D89E2B76B698E84"
+}

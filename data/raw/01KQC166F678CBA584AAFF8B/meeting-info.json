@@ -1,0 +1,17 @@
+{
+  "meetingId": "01KQC166F678CBA584AAFF8B",
+  "title": "Support Case #7615 - Crestline Wealth Group Policy Sync Delay",
+  "organizerEmail": "sarah.chen@aegiscloud.com",
+  "host": "sarah.chen@aegiscloud.com",
+  "startTime": "2026-04-27T10:15:00.000Z",
+  "endTime": "2026-04-27T10:35:42.000Z",
+  "duration": 20.7,
+  "allEmails": [
+    "sarah.chen@aegiscloud.com",
+    "d.owens@crestlinewealth.com"
+  ],
+  "invitees": [
+    "sarah.chen@aegiscloud.com",
+    "d.owens@crestlinewealth.com"
+  ]
+}

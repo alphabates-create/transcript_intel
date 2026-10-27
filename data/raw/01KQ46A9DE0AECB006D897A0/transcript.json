@@ -1,0 +1,414 @@
+{
+  "data": [
+    {
+      "sentence": "Okay, I think everyone's on \u2014 Diana, Marcus, you both there?",
+      "speaker_name": "Tyler Washington",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 4.5,
+      "endTime": 8.1,
+      "averageConfidence": 0.96,
+      "index": 0
+    },
+    {
+      "sentence": "Yeah I'm here, I've been here for like five minutes actually, I was waiting on the bridge code to work.",
+      "speaker_name": "Diana Reeves",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 8.9,
+      "endTime": 16.1,
+      "averageConfidence": 0.94,
+      "index": 1
+    },
+    {
+      "sentence": "Sorry, yeah the \u2014 the conferencing system was being weird, I don't know. Marcus?",
+      "speaker_name": "Tyler Washington",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 17.0,
+      "endTime": 22.1,
+      "averageConfidence": 0.95,
+      "index": 2
+    },
+    {
+      "sentence": "Present. I've got the incident channel pulled up and I'm looking at the logs right now.",
+      "speaker_name": "Marcus Williams",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 23.1,
+      "endTime": 29.2,
+      "averageConfidence": 0.92,
+      "index": 3
+    },
+    {
+      "sentence": "Okay good. So \u2014 Diana, before you say anything, I want to give you a status update first so we're all working from the same picture, okay?",
+      "speaker_name": "Tyler Washington",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 29.8,
+      "endTime": 39.2,
+      "averageConfidence": 0.91,
+      "index": 4
+    },
+    {
+      "sentence": "Tyler I have eight customers blowing up my phone right now, so please, go ahead, talk fast.",
+      "speaker_name": "Diana Reeves",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 40.2,
+      "endTime": 46.3,
+      "averageConfidence": 0.94,
+      "index": 5
+    },
+    {
+      "sentence": "Right. So \u2014 so the event processing pipeline went down at approximately 2:47 AM this morning. We're seeing a cascading failure that started in the ingestion layer and basically knocked out the entire threat monitoring feed for Detect. Nobody is getting alerts right now.",
+      "speaker_name": "Tyler Washington",
+      "sentimentType": "negative",
+      "speaker_id": 0,
+      "time": 46.9,
+      "endTime": 62.2,
+      "averageConfidence": 0.91,
+      "index": 6
+    },
+    {
+      "sentence": "Nobody is \u2014 okay so you're telling me that every single Detect customer is flying blind right now? Like zero visibility?",
+      "speaker_name": "Diana Reeves",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 63.2,
+      "endTime": 70.8,
+      "averageConfidence": 0.94,
+      "index": 7
+    },
+    {
+      "sentence": "That is correct, yes. Zero event processing, zero alerts going out.",
+      "speaker_name": "Tyler Washington",
+      "sentimentType": "negative",
+      "speaker_id": 0,
+      "time": 71.7,
+      "endTime": 75.3,
+      "averageConfidence": 0.9,
+      "index": 8
+    },
+    {
+      "sentence": "Tyler, this is \u2014 this is really bad. Do you understand how bad this is? We have enterprise customers who have contractual SLA commitments around monitoring uptime.",
+      "speaker_name": "Diana Reeves",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 76.5,
+      "endTime": 85.7,
+      "averageConfidence": 0.93,
+      "index": 9
+    },
+    {
+      "sentence": "I know, Diana, I know. We're \u2014 we are working it.",
+      "speaker_name": "Tyler Washington",
+      "sentimentType": "negative",
+      "speaker_id": 0,
+      "time": 87.0,
+      "endTime": 91.0,
+      "averageConfidence": 0.95,
+      "index": 10
+    },
+    {
+      "sentence": "Can I jump in here? So from a support standpoint, I've already had, uh, eleven tickets come in since about 6 AM when people started getting to work and noticed their dashboards were blank. Hartwell Financial, Crestwood Health, um, Meridian Logistics \u2014 all of them are asking for ETAs and I have nothing to give them.",
+      "speaker_name": "Marcus Williams",
+      "sentimentType": "negative",
+      "speaker_id": 2,
+      "time": 91.5,
+      "endTime": 111.3,
+      "averageConfidence": 0.96,
+      "index": 11
+    },
+    {
+      "sentence": "Okay so Marcus what are you telling them right now? What's the messaging?",
+      "speaker_name": "Diana Reeves",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 111.7,
+      "endTime": 116.3,
+      "averageConfidence": 0.95,
+      "index": 12
+    },
+    {
+      "sentence": "I'm telling them we're aware of a service disruption affecting Detect and that our engineering team is actively investigating. That's... that's basically all I have.",
+      "speaker_name": "Marcus Williams",
+      "sentimentType": "negative",
+      "speaker_id": 2,
+      "time": 117.4,
+      "endTime": 126.0,
+      "averageConfidence": 0.9,
+      "index": 13
+    },
+    {
+      "sentence": "That is not good enough, that is not \u2014 Tyler, can you give me something more concrete? What is the root cause, do we actually know?",
+      "speaker_name": "Diana Reeves",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 126.4,
+      "endTime": 135.5,
+      "averageConfidence": 0.95,
+      "index": 14
+    },
+    {
+      "sentence": "We think \u2014 and I want to be careful here because we're still digging \u2014 but we think it's a single point of failure in the ingestion layer. Basically one node failed and instead of the load distributing properly it just, uh, it cascaded. Took everything downstream with it.",
+      "speaker_name": "Tyler Washington",
+      "sentimentType": "negative",
+      "speaker_id": 0,
+      "time": 136.1,
+      "endTime": 153.4,
+      "averageConfidence": 0.96,
+      "index": 15
+    },
+    {
+      "sentence": "A single point of failure? We have a single point of failure in production in a threat monitoring pipeline? How is that even \u2014 how did that get through architecture review?",
+      "speaker_name": "Diana Reeves",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 154.5,
+      "endTime": 165.2,
+      "averageConfidence": 0.91,
+      "index": 16
+    },
+    {
+      "sentence": "Diana, I \u2014 look, I hear you and honestly I'm asking myself the same question right now but that is a conversation for after we fix it, okay? Can we focus?",
+      "speaker_name": "Tyler Washington",
+      "sentimentType": "negative",
+      "speaker_id": 0,
+      "time": 166.3,
+      "endTime": 177.0,
+      "averageConfidence": 0.9,
+      "index": 17
+    },
+    {
+      "sentence": "No, I'm sorry, I'm not letting that go because I need to understand this for when I talk to customers. Hartwell's CISO is going to ask me that exact question.",
+      "speaker_name": "Diana Reeves",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 177.8,
+      "endTime": 188.1,
+      "averageConfidence": 0.91,
+      "index": 18
+    },
+    {
+      "sentence": "Then tell him we identified an architectural gap in our event ingestion redundancy and we are remediating it. That's the honest answer and it's all we have right now.",
+      "speaker_name": "Tyler Washington",
+      "sentimentType": "negative",
+      "speaker_id": 0,
+      "time": 189.2,
+      "endTime": 199.5,
+      "averageConfidence": 0.93,
+      "index": 19
+    },
+    {
+      "sentence": "I need an ETA Tyler. What is your best estimate for restoration?",
+      "speaker_name": "Diana Reeves",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 200.3,
+      "endTime": 204.6,
+      "averageConfidence": 0.9,
+      "index": 20
+    },
+    {
+      "sentence": "Uh \u2014 okay so honestly, we're looking at somewhere between four and eight hours to get the pipeline stable again. We need to stand up redundant nodes and we don't want to rush it because if we botch the recovery we could lose event data on top of everything else.",
+      "speaker_name": "Tyler Washington",
+      "sentimentType": "negative",
+      "speaker_id": 0,
+      "time": 205.8,
+      "endTime": 223.2,
+      "averageConfidence": 0.96,
+      "index": 21
+    },
+    {
+      "sentence": "Four to eight hours. Tyler, it's already been \u2014 what, almost four hours since 2:47? So we could be looking at twelve hours total of zero threat monitoring visibility.",
+      "speaker_name": "Diana Reeves",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 224.6,
+      "endTime": 234.7,
+      "averageConfidence": 0.95,
+      "index": 22
+    },
+    {
+      "sentence": "In a worst case scenario, yes. I'm not going to sugarcoat it.",
+      "speaker_name": "Tyler Washington",
+      "sentimentType": "negative",
+      "speaker_id": 0,
+      "time": 235.4,
+      "endTime": 240.0,
+      "averageConfidence": 0.91,
+      "index": 23
+    },
+    {
+      "sentence": "I've got \u2014 okay, I just got another ticket while we've been talking. Crestwood Health is saying they're, quote, evaluating alternative vendors. They're asking about SentinelShield.",
+      "speaker_name": "Marcus Williams",
+      "sentimentType": "negative",
+      "speaker_id": 2,
+      "time": 240.6,
+      "endTime": 249.9,
+      "averageConfidence": 0.88,
+      "index": 24
+    },
+    {
+      "sentence": "Of course they are. Of course. Marcus, flag that one to me directly, I'm going to call Crestwood's account lead personally.",
+      "speaker_name": "Diana Reeves",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 251.1,
+      "endTime": 258.9,
+      "averageConfidence": 0.92,
+      "index": 25
+    },
+    {
+      "sentence": "Yeah, flagging it now.",
+      "speaker_name": "Marcus Williams",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 259.3,
+      "endTime": 260.9,
+      "averageConfidence": 0.92,
+      "index": 26
+    },
+    {
+      "sentence": "Diana I want to \u2014 I want to propose something. Can we do thirty-minute status update emails going out to all affected customers? Marcus coordinates, engineering feeds me the latest, and we keep a consistent message. No more vacuum.",
+      "speaker_name": "Tyler Washington",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 261.4,
+      "endTime": 274.9,
+      "averageConfidence": 0.9,
+      "index": 27
+    },
+    {
+      "sentence": "Yes. Yes, that is the bare minimum we should be doing, why is that not already happening?",
+      "speaker_name": "Diana Reeves",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 276.2,
+      "endTime": 282.4,
+      "averageConfidence": 0.95,
+      "index": 28
+    },
+    {
+      "sentence": "Because we've been triaging the actual technical failure, Diana, we don't have unlimited people here.",
+      "speaker_name": "Tyler Washington",
+      "sentimentType": "negative",
+      "speaker_id": 0,
+      "time": 283.0,
+      "endTime": 288.0,
+      "averageConfidence": 0.91,
+      "index": 29
+    },
+    {
+      "sentence": "Marcus, can you own the customer comms cadence? I'll draft the first email template right now and get it to you in the next fifteen minutes.",
+      "speaker_name": "Diana Reeves",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 288.8,
+      "endTime": 298.0,
+      "averageConfidence": 0.95,
+      "index": 30
+    },
+    {
+      "sentence": "Yeah, I can do that. Should I loop in the CSMs for their specific accounts or keep it centralized?",
+      "speaker_name": "Marcus Williams",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 299.2,
+      "endTime": 306.1,
+      "averageConfidence": 0.9,
+      "index": 31
+    },
+    {
+      "sentence": "Loop them in but all comms go through you so we don't have five different people saying five different things. One voice.",
+      "speaker_name": "Diana Reeves",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 306.9,
+      "endTime": 314.3,
+      "averageConfidence": 0.95,
+      "index": 32
+    },
+    {
+      "sentence": "Got it.",
+      "speaker_name": "Marcus Williams",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 314.8,
+      "endTime": 316.3,
+      "averageConfidence": 0.97,
+      "index": 33
+    },
+    {
+      "sentence": "Tyler \u2014 and I'm asking this seriously, not to be combative \u2014 do we need to escalate this to the executive team? Like does Raj need to know about this right now?",
+      "speaker_name": "Diana Reeves",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 317.3,
+      "endTime": 329.0,
+      "averageConfidence": 0.92,
+      "index": 34
+    },
+    {
+      "sentence": "I already pinged Raj at 4 AM. He's aware. He's not on this bridge because we told him we'd update him at noon with status.",
+      "speaker_name": "Tyler Washington",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 330.2,
+      "endTime": 339.5,
+      "averageConfidence": 0.9,
+      "index": 35
+    },
+    {
+      "sentence": "Okay. Okay good. Alright \u2014 so Tyler, your team is on remediation, you will feed Marcus updates every thirty minutes, Marcus coordinates customer comms, I'm going to personally call Crestwood and Hartwell in the next hour. Does that \u2014 does that cover the immediate next steps?",
+      "speaker_name": "Diana Reeves",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 340.6,
+      "endTime": 357.2,
+      "averageConfidence": 0.89,
+      "index": 36
+    },
+    {
+      "sentence": "That covers it. And Diana \u2014 for what it's worth, I'm sorry. This should not have happened and I know that doesn't fix anything but... we are going to get it fixed.",
+      "speaker_name": "Tyler Washington",
+      "sentimentType": "negative",
+      "speaker_id": 0,
+      "time": 358.2,
+      "endTime": 369.1,
+      "averageConfidence": 0.93,
+      "index": 37
+    },
+    {
+      "sentence": "I know you are. I know. But Tyler, when this is over we are having a very long conversation about redundancy architecture because I cannot \u2014 I cannot go back to customers with something like this again. I just can't.",
+      "speaker_name": "Diana Reeves",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 369.9,
+      "endTime": 383.9,
+      "averageConfidence": 0.92,
+      "index": 38
+    },
+    {
+      "sentence": "Agreed. That conversation is going to happen, I promise. Okay \u2014 I need to get back to the incident. Marcus, I'll send you the first update by 10:30.",
+      "speaker_name": "Tyler Washington",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 384.5,
+      "endTime": 394.8,
+      "averageConfidence": 0.97,
+      "index": 39
+    },
+    {
+      "sentence": "I'll be watching for it. Alright, let's go.",
+      "speaker_name": "Marcus Williams",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 395.1,
+      "endTime": 398.2,
+      "averageConfidence": 0.96,
+      "index": 40
+    }
+  ]
+}

@@ -1,0 +1,434 @@
+{
+  "data": [
+    {
+      "sentence": "Okay, I think everyone's on \u2014 Nina, Jordan, you both there?",
+      "speaker_name": "Alex Reyes",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 6.3,
+      "endTime": 10.4,
+      "averageConfidence": 0.88,
+      "index": 0
+    },
+    {
+      "sentence": "Yeah, I'm here, just had to mute my Slack notifications, there's like a thousand messages this morning.",
+      "speaker_name": "Nina Kowalski",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 11.1,
+      "endTime": 17.4,
+      "averageConfidence": 0.88,
+      "index": 1
+    },
+    {
+      "sentence": "Same, I'm here. Good morning everyone.",
+      "speaker_name": "Jordan Whitfield",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 18.8,
+      "endTime": 21.1,
+      "averageConfidence": 0.9,
+      "index": 2
+    },
+    {
+      "sentence": "Good morning! Okay so, three days out from launch \u2014 I'm genuinely excited, I feel like we've been building toward this for so long.",
+      "speaker_name": "Alex Reyes",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 21.7,
+      "endTime": 30.2,
+      "averageConfidence": 0.94,
+      "index": 3
+    },
+    {
+      "sentence": "April 7th cannot come fast enough honestly.",
+      "speaker_name": "Jordan Whitfield",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 31.0,
+      "endTime": 33.4,
+      "averageConfidence": 0.91,
+      "index": 4
+    },
+    {
+      "sentence": "Right? Like, I've been living in the Comply v2 ticket queue for what feels like six months.",
+      "speaker_name": "Nina Kowalski",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 34.1,
+      "endTime": 40.2,
+      "averageConfidence": 0.92,
+      "index": 5
+    },
+    {
+      "sentence": "It basically has been six months, so you're not wrong. Okay, I want to run through the launch day checklist today \u2014 make sure we're all aligned, flag any blockers, and just kind of do a final gut check before Tuesday.",
+      "speaker_name": "Alex Reyes",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 41.7,
+      "endTime": 56.3,
+      "averageConfidence": 0.91,
+      "index": 6
+    },
+    {
+      "sentence": "Sounds good, yeah. I have my checklist pulled up.",
+      "speaker_name": "Nina Kowalski",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 56.7,
+      "endTime": 59.8,
+      "averageConfidence": 0.91,
+      "index": 7
+    },
+    {
+      "sentence": "Same here, I've got the design handoff doc open too in case we need to reference anything.",
+      "speaker_name": "Jordan Whitfield",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 60.3,
+      "endTime": 66.0,
+      "averageConfidence": 0.94,
+      "index": 8
+    },
+    {
+      "sentence": "Perfect. So let me just start from the top \u2014 QA sign-off. Nina, where are we on the final regression suite? Last I saw there were like three open items.",
+      "speaker_name": "Alex Reyes",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 66.9,
+      "endTime": 77.7,
+      "averageConfidence": 0.96,
+      "index": 9
+    },
+    {
+      "sentence": "Yeah so, two of those are already closed as of this morning actually \u2014 the SOC 2 report generation timeout issue and the, um, the framework toggle bug in the multi-report view. Both resolved and verified.",
+      "speaker_name": "Nina Kowalski",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 79.1,
+      "endTime": 92.1,
+      "averageConfidence": 0.89,
+      "index": 10
+    },
+    {
+      "sentence": "Oh that's great, I didn't see the update yet.",
+      "speaker_name": "Alex Reyes",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 92.5,
+      "endTime": 95.9,
+      "averageConfidence": 0.9,
+      "index": 11
+    },
+    {
+      "sentence": "Yeah Dev pushed fixes last night and I ran through the test cases first thing this morning. The third one \u2014 the edge case with PCI DSS report download on Safari \u2014 that one's still open but engineering flagged it as low severity, cosmetic only, doesn't affect report content.",
+      "speaker_name": "Nina Kowalski",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 96.5,
+      "endTime": 113.4,
+      "averageConfidence": 0.9,
+      "index": 12
+    },
+    {
+      "sentence": "Okay, so is the call there to ship with it or hold? What's your gut, Nina?",
+      "speaker_name": "Alex Reyes",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 114.4,
+      "endTime": 119.8,
+      "averageConfidence": 0.95,
+      "index": 13
+    },
+    {
+      "sentence": "I mean, honestly, ship it. It's a minor UI rendering thing, the PDF is correct, the data is correct. I'd document it as a known issue and patch it in the next minor release.",
+      "speaker_name": "Nina Kowalski",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 120.2,
+      "endTime": 132.3,
+      "averageConfidence": 0.96,
+      "index": 14
+    },
+    {
+      "sentence": "Yeah I agree with that, and from the design side the Safari issue is \u2014 I actually know exactly what it is, it's just a flexbox rendering quirk in the download modal. I can drop a one-line CSS fix, it's not even worth delaying for.",
+      "speaker_name": "Jordan Whitfield",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 133.1,
+      "endTime": 148.6,
+      "averageConfidence": 0.97,
+      "index": 15
+    },
+    {
+      "sentence": "Can you do that before Tuesday though? Like I don't want to be merging stuff day-of.",
+      "speaker_name": "Alex Reyes",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 149.6,
+      "endTime": 155.6,
+      "averageConfidence": 0.91,
+      "index": 16
+    },
+    {
+      "sentence": "Oh totally, I'll have it in a PR by end of day today. It's literally one line.",
+      "speaker_name": "Jordan Whitfield",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 156.7,
+      "endTime": 162.9,
+      "averageConfidence": 0.89,
+      "index": 17
+    },
+    {
+      "sentence": "Okay, perfect. Nina you good to verify that today or tomorrow?",
+      "speaker_name": "Alex Reyes",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 163.9,
+      "endTime": 167.6,
+      "averageConfidence": 0.96,
+      "index": 18
+    },
+    {
+      "sentence": "Absolutely, just ping me when it's merged and I'll run it through the test suite, should take maybe twenty minutes.",
+      "speaker_name": "Nina Kowalski",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 169.0,
+      "endTime": 175.8,
+      "averageConfidence": 0.89,
+      "index": 19
+    },
+    {
+      "sentence": "Great, okay. That feels really clean. Moving on \u2014 Jordan, the on-demand reporting UI flow, are we good? The walkthrough I saw last week looked amazing by the way.",
+      "speaker_name": "Alex Reyes",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 177.0,
+      "endTime": 187.2,
+      "averageConfidence": 0.9,
+      "index": 20
+    },
+    {
+      "sentence": "Thank you! Yeah, I'm really happy with how that turned out. The framework selector, the report preview panel, the download options \u2014 it all feels cohesive. I incorporated the feedback from the internal beta users, the ones who said the framework descriptions were too jargon-heavy.",
+      "speaker_name": "Jordan Whitfield",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 188.3,
+      "endTime": 204.3,
+      "averageConfidence": 0.94,
+      "index": 21
+    },
+    {
+      "sentence": "Oh yeah, that was a big one. I remember that feedback, people were like 'what does this even mean.'",
+      "speaker_name": "Nina Kowalski",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 205.1,
+      "endTime": 211.6,
+      "averageConfidence": 0.94,
+      "index": 22
+    },
+    {
+      "sentence": "Exactly, so the copy is much more plain language now. Like instead of just saying 'ISO 27001 framework' we have a little tooltip that explains what it covers, who it's typically for. It makes the whole thing feel a lot more accessible, especially for folks who aren't compliance experts themselves.",
+      "speaker_name": "Jordan Whitfield",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 212.9,
+      "endTime": 230.5,
+      "averageConfidence": 0.92,
+      "index": 23
+    },
+    {
+      "sentence": "That's such a good call, I think that's going to make a real difference for our smaller customers who don't have a dedicated compliance team.",
+      "speaker_name": "Alex Reyes",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 231.6,
+      "endTime": 240.7,
+      "averageConfidence": 0.96,
+      "index": 24
+    },
+    {
+      "sentence": "That was kind of the whole point, right? Like the whole pitch of Comply v2 is that compliance shouldn't require a specialist to operate the tool. So the UX has to back that up.",
+      "speaker_name": "Jordan Whitfield",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 241.7,
+      "endTime": 253.6,
+      "averageConfidence": 0.89,
+      "index": 25
+    },
+    {
+      "sentence": "A hundred percent. Okay, let me \u2014 let me jump to something that I want to make sure we're thinking about given the, uh, the Detect outage earlier this month.",
+      "speaker_name": "Alex Reyes",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 254.5,
+      "endTime": 265.5,
+      "averageConfidence": 0.96,
+      "index": 26
+    },
+    {
+      "sentence": "Oh yeah, good call. What's the concern?",
+      "speaker_name": "Nina Kowalski",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 266.1,
+      "endTime": 268.7,
+      "averageConfidence": 0.89,
+      "index": 27
+    },
+    {
+      "sentence": "So obviously Comply and Detect are separate modules, the outage shouldn't touch us at all. But I just want to make sure our comms are tight in case any customer asks on launch day whether the new Comply features are somehow connected to any recent stability issues. Like I don't want anyone conflating the two.",
+      "speaker_name": "Alex Reyes",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 269.3,
+      "endTime": 288.8,
+      "averageConfidence": 0.96,
+      "index": 28
+    },
+    {
+      "sentence": "That's a really smart thing to flag. I'd say from a QA perspective, Comply's infrastructure is totally independent \u2014 we don't share the event ingestion pipeline at all. The Comply report generation runs on its own processing layer.",
+      "speaker_name": "Nina Kowalski",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 289.3,
+      "endTime": 303.0,
+      "averageConfidence": 0.92,
+      "index": 29
+    },
+    {
+      "sentence": "Right, and I think if we can get that in the launch announcement \u2014 even just a line that says something like 'Comply v2 operates on dedicated infrastructure' \u2014 that kind of proactively addresses any concerns without making it weird.",
+      "speaker_name": "Jordan Whitfield",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 303.5,
+      "endTime": 317.9,
+      "averageConfidence": 0.92,
+      "index": 30
+    },
+    {
+      "sentence": "Yeah I love that, I'll work that into the announcement copy. Okay, let me \u2014 what else. Oh, the HIPAA reporting module. Are we still confident that's fully validated? That's the one that was in flux the longest.",
+      "speaker_name": "Alex Reyes",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 318.6,
+      "endTime": 332.1,
+      "averageConfidence": 0.9,
+      "index": 31
+    },
+    {
+      "sentence": "Yes, fully validated. And honestly I'm most proud of that one from a QA standpoint. We ran it through like forty different customer data configurations to make sure the report output was accurate across edge cases. It's solid.",
+      "speaker_name": "Nina Kowalski",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 332.6,
+      "endTime": 345.9,
+      "averageConfidence": 0.88,
+      "index": 32
+    },
+    {
+      "sentence": "Forty configurations, that's \u2014 yeah, okay. I feel good about that.",
+      "speaker_name": "Alex Reyes",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 346.5,
+      "endTime": 350.8,
+      "averageConfidence": 0.91,
+      "index": 33
+    },
+    {
+      "sentence": "We were not going to ship a HIPAA module that had any ambiguity in the output. Like, that's not the place to be hand-wavy.",
+      "speaker_name": "Nina Kowalski",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 351.9,
+      "endTime": 360.1,
+      "averageConfidence": 0.92,
+      "index": 34
+    },
+    {
+      "sentence": "No, absolutely not. Okay \u2014 last big thing on my list, the in-app guidance. Jordan, the tooltips, the empty state copy, the onboarding flow for first-time Comply users. Where does that stand?",
+      "speaker_name": "Alex Reyes",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 360.5,
+      "endTime": 372.1,
+      "averageConfidence": 0.95,
+      "index": 35
+    },
+    {
+      "sentence": "All done and in production. The empty state for when you haven't run any reports yet \u2014 I'm actually really happy with it, it's got a clear call to action, explains the four frameworks, and has a 'run your first report' button that takes you right into the flow. It doesn't feel like a dead end.",
+      "speaker_name": "Jordan Whitfield",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 372.5,
+      "endTime": 392.1,
+      "averageConfidence": 0.96,
+      "index": 36
+    },
+    {
+      "sentence": "Oh I saw that in staging, it looks great. The illustration too, it fits the overall aesthetic really well.",
+      "speaker_name": "Nina Kowalski",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 393.2,
+      "endTime": 399.9,
+      "averageConfidence": 0.94,
+      "index": 37
+    },
+    {
+      "sentence": "Thank you! That one took a few iterations. The first version was way too busy. But I think where we landed is clean and it gives people a clear path forward.",
+      "speaker_name": "Jordan Whitfield",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 401.4,
+      "endTime": 412.2,
+      "averageConfidence": 0.96,
+      "index": 38
+    },
+    {
+      "sentence": "Alright, I think we're in genuinely great shape. Like, better than I expected three days out if I'm being honest. I'll update the launch checklist in Notion this afternoon, get sign-offs from all three of us, and then we should be good to go for Tuesday. Anyone have anything else?",
+      "speaker_name": "Alex Reyes",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 413.4,
+      "endTime": 431.2,
+      "averageConfidence": 0.97,
+      "index": 39
+    },
+    {
+      "sentence": "Nothing from me. I'm excited. Let's ship it.",
+      "speaker_name": "Nina Kowalski",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 432.2,
+      "endTime": 435.2,
+      "averageConfidence": 0.91,
+      "index": 40
+    },
+    {
+      "sentence": "Same. Tuesday cannot come fast enough. This is going to be a good one.",
+      "speaker_name": "Jordan Whitfield",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 436.3,
+      "endTime": 441.2,
+      "averageConfidence": 0.91,
+      "index": 41
+    },
+    {
+      "sentence": "Alright, let's do it. Thanks everyone, talk soon.",
+      "speaker_name": "Alex Reyes",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 442.5,
+      "endTime": 445.2,
+      "averageConfidence": 0.93,
+      "index": 42
+    }
+  ]
+}

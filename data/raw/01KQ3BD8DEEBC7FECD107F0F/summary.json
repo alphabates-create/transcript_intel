@@ -1,0 +1,46 @@
+{
+  "summary": "Aegis held a product demo call with Warren Beck (CISO) and Julia Tran (security analyst) from Blackridge, a financial services firm with a HIPAA-regulated healthcare subsidiary. The discussion centered on Aegis Comply v2, a newly released compliance reporting module, and how it could eliminate the manual, two-week evidence-gathering process Julia's team currently endures before audits. Key capabilities highlighted included on-demand and scheduled HIPAA reporting, multi-framework support (SOC 2, PCI DSS, ISO 27001), remediation guidance, and native LogVault integration. The call concluded with agreement to pursue a scoped proof of concept for the Blackridge Health Finance HIPAA environment, with Aegis to deliver a proposal by end of week.",
+  "actionItems": [
+    "Lisa Park: Send Warren a proposed POC timeline and scope for the HIPAA reporting proof of concept by end of week",
+    "Lisa Park: Provide Julia with a direct contact from the Aegis implementation team for technical environment discussions",
+    "Maria Santos: Send Julia and Warren the Comply v2 release notes, a sample HIPAA report PDF, and regulated-industry customer case studies",
+    "Warren Beck: Loop in Blackridge legal and compliance team before advancing further into the POC process"
+  ],
+  "topics": [
+    "hipaa compliance",
+    "compliance reporting",
+    "proof of concept",
+    "logvault integration",
+    "multi-framework support",
+    "audit automation"
+  ],
+  "overallSentiment": "very-positive",
+  "sentimentScore": 4.7,
+  "keyMoments": [
+    {
+      "time": 142.0,
+      "text": "Julia describes spending two full weeks manually gathering audit evidence, with a near-miss on a compliance deadline, establishing the core pain point driving this evaluation.",
+      "type": "concern",
+      "speaker": "Julia Tran"
+    },
+    {
+      "time": 420.0,
+      "text": "Julia reacts positively to the remediation guidance feature, noting her current process leaves gaps unresolved due to lack of direction \u2014 a clear feature gap in their existing tooling.",
+      "type": "feature_gap",
+      "speaker": "Julia Tran"
+    },
+    {
+      "time": 530.0,
+      "text": "Warren acknowledges the March Detect incident but says Aegis's proactive transparency actually increased his confidence in the vendor, turning a potential concern into a positive pivot.",
+      "type": "positive_pivot",
+      "speaker": "Warren Beck"
+    },
+    {
+      "time": 720.0,
+      "text": "Julia confirms native LogVault support resolves a major integration concern, and Warren closes by calling the conversation more productive than expected, with both parties aligned on a POC path forward.",
+      "type": "action_item",
+      "speaker": "Lisa Park"
+    }
+  ],
+  "meetingId": "01KQ3BD8DEEBC7FECD107F0F"
+}

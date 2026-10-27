@@ -1,0 +1,46 @@
+{
+  "summary": "Isaac Brennan, infrastructure lead at Trailhead Marketplace, called Aegis Cloud Security support in frustration over a complete 15+ hour outage of Aegis Detect's event processing pipeline, leaving his retail platform blind to threats. Elena Vasquez and David Kim confirmed the issue is platform-wide, stemming from a cascading failure in the event ingestion layer, with no confirmed ETA for resolution. Isaac expressed serious concern about PCI compliance and fraud exposure during the outage, and was particularly upset that no proactive communication had been sent despite his status page subscription. Elena escalated the case to P1, committed to a two-hour update, and logged a formal request for a full written incident report by end of week. Isaac warned that the future of the contract depends on how the situation is handled in the next 24 hours.",
+  "actionItems": [
+    "Elena Vasquez: Escalate case to P1 priority and tag account for direct engineering contact, then follow up with Isaac within two hours",
+    "Elena Vasquez: Loop in Isaac's account manager to provide direct leadership-level communication channel for ongoing updates",
+    "Elena Vasquez: Deliver a formal written incident report including root cause, timeline, and remediation plan before end of week",
+    "Isaac Brennan: Conduct manual review of fraud transaction logs through secondary tooling as a stop-gap while Detect is down"
+  ],
+  "topics": [
+    "platform outage",
+    "detect pipeline failure",
+    "pci compliance",
+    "churn risk",
+    "incident communication",
+    "fraud monitoring"
+  ],
+  "overallSentiment": "very-negative",
+  "sentimentScore": 1.4,
+  "keyMoments": [
+    {
+      "time": 68.0,
+      "text": "Isaac reveals Detect alerts have been completely silent for 15+ hours with stale dashboard data, during peak retail transaction volume",
+      "type": "technical_issue",
+      "speaker": "Isaac Brennan"
+    },
+    {
+      "time": 195.0,
+      "text": "Elena discloses a platform-wide outage affecting Aegis Detect's event processing pipeline, which Isaac had no prior notification of",
+      "type": "concern",
+      "speaker": "Elena Vasquez"
+    },
+    {
+      "time": 310.0,
+      "text": "Isaac raises PCI obligations and the risk of an undetected card skimming operation running through their checkout since the outage began",
+      "type": "churn_signal",
+      "speaker": "Isaac Brennan"
+    },
+    {
+      "time": 610.0,
+      "text": "Isaac warns that depending on how the next 24 hours are handled, the team will have a serious conversation about the future of the contract",
+      "type": "churn_signal",
+      "speaker": "Isaac Brennan"
+    }
+  ],
+  "meetingId": "01KQ7BF0D56037FF89DC89B6"
+}

@@ -1,0 +1,207 @@
+[
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 3.0,
+    "endTimeTs": 9.0
+  },
+  {
+    "speakerName": "Evelyn Park",
+    "timestamp": 9.6,
+    "endTimeTs": 16.4
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 17.1,
+    "endTimeTs": 32.4
+  },
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 33.0,
+    "endTimeTs": 42.3
+  },
+  {
+    "speakerName": "Evelyn Park",
+    "timestamp": 43.2,
+    "endTimeTs": 53.8
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 54.3,
+    "endTimeTs": 62.4
+  },
+  {
+    "speakerName": "Evelyn Park",
+    "timestamp": 63.8,
+    "endTimeTs": 82.0
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 82.6,
+    "endTimeTs": 85.5
+  },
+  {
+    "speakerName": "Evelyn Park",
+    "timestamp": 86.3,
+    "endTimeTs": 102.3
+  },
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 103.3,
+    "endTimeTs": 115.4
+  },
+  {
+    "speakerName": "Evelyn Park",
+    "timestamp": 116.7,
+    "endTimeTs": 134.6
+  },
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 135.6,
+    "endTimeTs": 149.3
+  },
+  {
+    "speakerName": "Evelyn Park",
+    "timestamp": 150.0,
+    "endTimeTs": 166.5
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 166.8,
+    "endTimeTs": 176.4
+  },
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 177.1,
+    "endTimeTs": 201.5
+  },
+  {
+    "speakerName": "Evelyn Park",
+    "timestamp": 202.1,
+    "endTimeTs": 214.5
+  },
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 215.6,
+    "endTimeTs": 227.0
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 228.1,
+    "endTimeTs": 245.1
+  },
+  {
+    "speakerName": "Evelyn Park",
+    "timestamp": 246.0,
+    "endTimeTs": 257.6
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 259.1,
+    "endTimeTs": 269.1
+  },
+  {
+    "speakerName": "Evelyn Park",
+    "timestamp": 269.8,
+    "endTimeTs": 287.0
+  },
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 287.8,
+    "endTimeTs": 302.3
+  },
+  {
+    "speakerName": "Evelyn Park",
+    "timestamp": 303.2,
+    "endTimeTs": 314.8
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 315.4,
+    "endTimeTs": 324.4
+  },
+  {
+    "speakerName": "Evelyn Park",
+    "timestamp": 325.8,
+    "endTimeTs": 334.7
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 335.7,
+    "endTimeTs": 346.6
+  },
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 347.9,
+    "endTimeTs": 377.3
+  },
+  {
+    "speakerName": "Evelyn Park",
+    "timestamp": 378.0,
+    "endTimeTs": 389.7
+  },
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 390.1,
+    "endTimeTs": 408.9
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 410.1,
+    "endTimeTs": 422.8
+  },
+  {
+    "speakerName": "Evelyn Park",
+    "timestamp": 423.5,
+    "endTimeTs": 436.4
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 437.1,
+    "endTimeTs": 455.8
+  },
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 456.2,
+    "endTimeTs": 466.3
+  },
+  {
+    "speakerName": "Evelyn Park",
+    "timestamp": 467.0,
+    "endTimeTs": 474.4
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 475.7,
+    "endTimeTs": 491.9
+  },
+  {
+    "speakerName": "Evelyn Park",
+    "timestamp": 492.9,
+    "endTimeTs": 506.0
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 506.7,
+    "endTimeTs": 517.9
+  },
+  {
+    "speakerName": "Evelyn Park",
+    "timestamp": 519.1,
+    "endTimeTs": 535.9
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 537.0,
+    "endTimeTs": 550.8
+  },
+  {
+    "speakerName": "Evelyn Park",
+    "timestamp": 551.4,
+    "endTimeTs": 560.4
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 561.8,
+    "endTimeTs": 565.8
+  }
+]

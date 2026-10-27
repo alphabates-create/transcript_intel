@@ -1,0 +1,46 @@
+{
+  "summary": "The team convened to address fallout from a six-hour platform outage that caused a complete loss of threat monitoring visibility. Competitors SentinelShield and CyberNova are actively targeting at-risk accounts, including Hartfield Financial and prospect Clearvale Systems. The group aligned on a two-part response strategy: leading with a transparent post-mortem and remediation narrative now, followed by a Comply v2 launch touchpoint in early April to show forward momentum. Key concerns include a potential liability issue involving a customer who claims an actual security incident occurred during the outage window.",
+  "actionItems": [
+    "Megan Lawson: Update competitive battlecards this week to reflect the outage response story and SentinelShield's own historical incident data",
+    "Brian Cho: Prepare a customer-facing technical summary of the incident and remediation steps by end of day Monday",
+    "James Mitchell: Reach out to Hartfield Financial early next week to schedule a call with their CISO above the procurement level",
+    "Daniel Okafor: Prepare a strong follow-up pitch for Clearvale Systems including potential enhanced SLA commitments to salvage the deal"
+  ],
+  "topics": [
+    "platform outage",
+    "competitive displacement",
+    "customer retention",
+    "post-mortem",
+    "product launch",
+    "compliance"
+  ],
+  "overallSentiment": "mixed-negative",
+  "sentimentScore": 2.3,
+  "keyMoments": [
+    {
+      "time": 45.0,
+      "text": "James Mitchell reveals Hartfield Financial has already been contacted by competitor SentinelShield following the outage",
+      "type": "churn_signal",
+      "speaker": "James Mitchell"
+    },
+    {
+      "time": 390.0,
+      "text": "Brian Cho discloses a customer is claiming the outage may have delayed their response to an actual security incident, flagging a potential liability issue",
+      "type": "concern",
+      "speaker": "Brian Cho"
+    },
+    {
+      "time": 780.0,
+      "text": "Tom Bradley outlines concrete remediation steps including redundant processing nodes, circuit breaker pattern, and weekly automated failover testing",
+      "type": "positive_pivot",
+      "speaker": "Tom Bradley"
+    },
+    {
+      "time": 1140.0,
+      "text": "James Mitchell suggests pairing the outage recovery narrative with the upcoming Comply v2 launch to give at-risk accounts a forward-looking reason to stay",
+      "type": "action_item",
+      "speaker": "James Mitchell"
+    }
+  ],
+  "meetingId": "01KQ298F2846EFE59B0D70E2"
+}

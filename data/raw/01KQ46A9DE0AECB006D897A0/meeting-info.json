@@ -1,0 +1,19 @@
+{
+  "meetingId": "01KQ46A9DE0AECB006D897A0",
+  "title": "Detect Outage - Escalation Bridge",
+  "organizerEmail": "tyler.washington@aegiscloud.com",
+  "host": "tyler.washington@aegiscloud.com",
+  "startTime": "2026-03-11T11:00:00.000Z",
+  "endTime": "2026-03-11T11:17:06.000Z",
+  "duration": 17.1,
+  "allEmails": [
+    "tyler.washington@aegiscloud.com",
+    "diana.reeves@aegiscloud.com",
+    "marcus.williams@aegiscloud.com"
+  ],
+  "invitees": [
+    "tyler.washington@aegiscloud.com",
+    "diana.reeves@aegiscloud.com",
+    "marcus.williams@aegiscloud.com"
+  ]
+}

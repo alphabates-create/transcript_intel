@@ -1,0 +1,46 @@
+{
+  "summary": "Maria Santos and Ananya Sharma from Aegis met with Gerald Hutchins of Forge Industries to introduce Comply v2, focusing on its PCI DSS reporting capabilities and multi-framework compliance support. Gerald shared that Forge is in PCI DSS audit prep with a QSA assessment scheduled for end of June, struggling with a highly manual evidence-gathering process. The team covered on-demand reporting, auditor-friendly export formats, multi-framework overlap between PCI DSS and SOC 2, and an estimated two-to-three week onboarding timeline. Gerald also raised prior concerns about a March Detect outage, which Maria acknowledged and committed to addressing with a full post-incident review.",
+  "actionItems": [
+    "Maria Santos: Send Gerald the Detect post-incident review and Comply v2 product brief by end of day",
+    "Ananya Sharma: Prepare a customized PCI DSS to SOC 2 control mapping one-pager for Gerald's internal conversations",
+    "Maria Santos: Schedule a technical deep-dive demo session with Gerald's team and Ananya for approximately one week out",
+    "Gerald Hutchins: Share the post-incident review materials with his steering committee to address internal concerns about Detect reliability"
+  ],
+  "topics": [
+    "pci dss compliance",
+    "audit preparation",
+    "multi-framework reporting",
+    "product demo",
+    "detect outage follow-up",
+    "soc 2"
+  ],
+  "overallSentiment": "mixed-positive",
+  "sentimentScore": 4.1,
+  "keyMoments": [
+    {
+      "time": 390.0,
+      "text": "Gerald expresses frustration with his current manual PCI DSS evidence-gathering process, noting it consumes weeks of engineering time and prolongs QSA interactions.",
+      "type": "concern",
+      "speaker": "Gerald Hutchins"
+    },
+    {
+      "time": 780.0,
+      "text": "Ananya explains the multi-framework control overlap in Comply v2, revealing that PCI DSS evidence artifacts can automatically satisfy SOC 2 criteria without re-instrumentation.",
+      "type": "positive_pivot",
+      "speaker": "Ananya Sharma"
+    },
+    {
+      "time": 1200.0,
+      "text": "Gerald reveals that earlier reliability concerns about Detect came up in his steering committee, signaling potential churn risk tied to the March outage.",
+      "type": "churn_signal",
+      "speaker": "Gerald Hutchins"
+    },
+    {
+      "time": 1260.0,
+      "text": "Maria proactively acknowledges the March Detect outage, describes architectural remediation steps taken, and offers to share the full post-incident review.",
+      "type": "action_item",
+      "speaker": "Maria Santos"
+    }
+  ],
+  "meetingId": "01KQB95605C6F873C6036285"
+}

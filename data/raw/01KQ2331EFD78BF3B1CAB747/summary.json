@@ -1,0 +1,46 @@
+{
+  "summary": "The team convened an urgent internal call to address a significant outage of their Detect product that left customers without security monitoring for approximately six hours overnight. A single point of failure in the event ingestion pipeline caused a cascading failure, and critically, the company's own internal alerting also failed because the health checks were tied to the same broken pipeline \u2014 meaning a customer, not the team, flagged the outage. At least 47 support tickets have been logged, key enterprise accounts including Fortex and Meridian Financial are expressing dissatisfaction and referencing competitors, and SLA compliance issues are expected to result in credits. The team aligned on immediate action items including drafting a formal executive incident communication, pulling the full SLA exposure list, looping in legal and finance, and preparing customer-facing talking points to clarify that the Comply product was unaffected.",
+  "actionItems": [
+    "Priya Patel: Send confirmed RCA technical details to Diana by noon today",
+    "Aisha Johnson: Pull full list of customers with contractual uptime SLAs on Detect from Salesforce and deliver by 4 PM",
+    "Lisa Park: Loop in legal and finance on SLA exposure and send Diana the Meridian Financial contact information",
+    "Diana Reeves: Draft formal executive incident communication using only confirmed facts and personally reach out to Fortex CISO and Brightline account today"
+  ],
+  "topics": [
+    "product outage",
+    "churn risk",
+    "sla compliance",
+    "incident communication",
+    "internal monitoring failure",
+    "customer escalation"
+  ],
+  "overallSentiment": "negative",
+  "sentimentScore": 1.8,
+  "keyMoments": [
+    {
+      "time": 312,
+      "text": "Aisha reveals that a customer \u2014 not the internal team \u2014 flagged the outage at 2 AM, triggering the internal escalation",
+      "type": "churn_signal",
+      "speaker": "Aisha Johnson"
+    },
+    {
+      "time": 390,
+      "text": "Diana highlights the critical irony that the health checks used to detect failures were tied to the same pipeline that broke, meaning the monitoring product failed to monitor itself",
+      "type": "technical_issue",
+      "speaker": "Diana Reeves"
+    },
+    {
+      "time": 510,
+      "text": "Aisha flags that Fortex's CISO explicitly mentioned competitor SentinelShield and that they are evaluating their options, signaling serious churn risk",
+      "type": "churn_signal",
+      "speaker": "Aisha Johnson"
+    },
+    {
+      "time": 680,
+      "text": "Priya confirms Comply is on completely separate infrastructure and was unaffected, and will be on track for the April launch \u2014 providing a positive data point to communicate to worried customers",
+      "type": "positive_pivot",
+      "speaker": "Priya Patel"
+    }
+  ],
+  "meetingId": "01KQ2331EFD78BF3B1CAB747"
+}

@@ -1,0 +1,404 @@
+{
+  "data": [
+    {
+      "sentence": "Alright, I think everyone's on now \u2014 Raj, you're good? I can see you joined but your video's off.",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 5.2,
+      "endTime": 12.1,
+      "averageConfidence": 0.89,
+      "index": 0
+    },
+    {
+      "sentence": "Yeah sorry, I'm on a laptop today, camera's being weird. Audio's fine though, let's just go.",
+      "speaker_name": "Raj Kapoor",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 12.7,
+      "endTime": 18.8,
+      "averageConfidence": 0.91,
+      "index": 1
+    },
+    {
+      "sentence": "Okay cool. So, um, I wanted to get us all together before the end of April because we need to actually talk about Q1 win-loss \u2014 not just look at the numbers in Salesforce and call it a day. There's some stuff here that's honestly pretty troubling.",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "negative",
+      "speaker_id": 0,
+      "time": 19.2,
+      "endTime": 35.7,
+      "averageConfidence": 0.91,
+      "index": 2
+    },
+    {
+      "sentence": "Yeah I've been wanting to have this conversation for a few weeks. I pulled the closed-lost records going back to January and the pattern is not great.",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "negative",
+      "speaker_id": 2,
+      "time": 36.0,
+      "endTime": 45.9,
+      "averageConfidence": 0.93,
+      "index": 3
+    },
+    {
+      "sentence": "Before we get into the data, I just want to say \u2014 some of what I'm hearing from the support side is also feeding into this. Like we're not just losing deals, we're losing deals to specific competitors for specific reasons and I think those reasons are avoidable.",
+      "speaker_name": "Brian Cho",
+      "sentimentType": "negative",
+      "speaker_id": 3,
+      "time": 46.5,
+      "endTime": 63.3,
+      "averageConfidence": 0.89,
+      "index": 4
+    },
+    {
+      "sentence": "Okay so let's just get into it. Kevin, you want to walk through what you pulled together?",
+      "speaker_name": "Raj Kapoor",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 64.6,
+      "endTime": 70.7,
+      "averageConfidence": 0.96,
+      "index": 5
+    },
+    {
+      "sentence": "Sure. So in Q1 we had \u2014 I'm looking at my sheet here \u2014 34 closed-lost opportunities with a total combined ACV of around 2.1 million. Of those, 22 had a named competitor as the reason or it was noted in the loss notes. SentinelShield shows up the most, 9 times. VaultEdge was 6. CyberNova was 4. The rest were kind of scattered.",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "negative",
+      "speaker_id": 2,
+      "time": 71.3,
+      "endTime": 93.0,
+      "averageConfidence": 0.96,
+      "index": 6
+    },
+    {
+      "sentence": "SentinelShield nine times. That's \u2014 that's a lot. Do we know what specifically they were winning on?",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "negative",
+      "speaker_id": 0,
+      "time": 93.4,
+      "endTime": 99.3,
+      "averageConfidence": 0.89,
+      "index": 7
+    },
+    {
+      "sentence": "That's the frustrating part. The loss notes are inconsistent. Some AEs write paragraphs, some write 'went with competitor' and that's it. But from the ones that had detail, the recurring themes were pricing, and \u2014 this is the one that stings \u2014 reliability concerns post the March outage.",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "negative",
+      "speaker_id": 2,
+      "time": 100.1,
+      "endTime": 117.0,
+      "averageConfidence": 0.96,
+      "index": 8
+    },
+    {
+      "sentence": "Yeah, I was afraid that was going to come up. The March outage is still haunting us. I've had multiple customers ask me directly about it during QBRs in the last few weeks.",
+      "speaker_name": "Brian Cho",
+      "sentimentType": "negative",
+      "speaker_id": 3,
+      "time": 118.5,
+      "endTime": 130.1,
+      "averageConfidence": 0.92,
+      "index": 9
+    },
+    {
+      "sentence": "How many of the Q1 losses do we think are directly attributable to the outage versus just timing? Like Q1 was already in progress when the outage happened on March 10th.",
+      "speaker_name": "Raj Kapoor",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 130.5,
+      "endTime": 141.8,
+      "averageConfidence": 0.97,
+      "index": 10
+    },
+    {
+      "sentence": "It's hard to isolate cleanly, but deals that were in late-stage negotiation in mid-March \u2014 I counted at least five that slipped or went cold right around that window. And two of them explicitly cited it in the loss notes. One prospect said, and I'm quoting from the notes here, 'we can't afford six hours of no threat visibility in our environment.'",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "negative",
+      "speaker_id": 2,
+      "time": 142.8,
+      "endTime": 164.9,
+      "averageConfidence": 0.9,
+      "index": 11
+    },
+    {
+      "sentence": "That's fair feedback though, right? Like I'm not going to sit here and say that's unfair. Six hours was bad. The cascading failure in the event ingestion pipeline \u2014 that should never have gotten to that point.",
+      "speaker_name": "Raj Kapoor",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 166.4,
+      "endTime": 179.5,
+      "averageConfidence": 0.95,
+      "index": 12
+    },
+    {
+      "sentence": "And to be clear, the fix is in place. The redundant processing nodes are live, we've got the circuit breaker pattern deployed. But the optics problem is that prospects don't know that unless we tell them and apparently we're not always telling them effectively.",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "negative",
+      "speaker_id": 2,
+      "time": 180.8,
+      "endTime": 196.2,
+      "averageConfidence": 0.93,
+      "index": 13
+    },
+    {
+      "sentence": "That's actually something I want to flag \u2014 do we have a leave-behind or a one-pager that specifically addresses the March incident and what we did to fix it? Because I don't have one and I've been kind of winging it in conversations.",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "negative",
+      "speaker_id": 0,
+      "time": 197.3,
+      "endTime": 212.6,
+      "averageConfidence": 0.93,
+      "index": 14
+    },
+    {
+      "sentence": "We don't. And that's a gap. Like we put out a postmortem internally and we sent customer comms but there's nothing packaged for sales conversations.",
+      "speaker_name": "Brian Cho",
+      "sentimentType": "negative",
+      "speaker_id": 3,
+      "time": 213.9,
+      "endTime": 222.9,
+      "averageConfidence": 0.95,
+      "index": 15
+    },
+    {
+      "sentence": "Okay, that's an action item, let's flag that. Someone needs to own a one-pager on the Detect outage resolution. Kevin, can you work with product on that?",
+      "speaker_name": "Raj Kapoor",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 224.2,
+      "endTime": 233.5,
+      "averageConfidence": 0.92,
+      "index": 16
+    },
+    {
+      "sentence": "Yeah I can do that. I'll pull in the postmortem details and frame it as a 'here's what happened, here's what we did, here's why it won't happen again' kind of thing. Should be pretty straightforward.",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 234.8,
+      "endTime": 247.3,
+      "averageConfidence": 0.91,
+      "index": 17
+    },
+    {
+      "sentence": "Good. Okay what about the VaultEdge losses \u2014 what's the pattern there?",
+      "speaker_name": "Raj Kapoor",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 248.7,
+      "endTime": 253.4,
+      "averageConfidence": 0.88,
+      "index": 18
+    },
+    {
+      "sentence": "VaultEdge is mostly showing up in deals where Protect is the primary use case. They're undercutting us on backup pricing pretty aggressively and a couple of the notes mention their recovery time benchmarks. Apparently they're claiming sub-15-minute RTO in their pitch and we're not matching that claim in conversations.",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "negative",
+      "speaker_id": 2,
+      "time": 254.9,
+      "endTime": 272.2,
+      "averageConfidence": 0.9,
+      "index": 19
+    },
+    {
+      "sentence": "Are their RTO numbers even real? Like has anyone done a head-to-head on that?",
+      "speaker_name": "Brian Cho",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 273.5,
+      "endTime": 278.7,
+      "averageConfidence": 0.96,
+      "index": 20
+    },
+    {
+      "sentence": "That's exactly what I want to know. And I don't have a good answer. We need competitive testing data or at least a way to challenge those claims in the room. Right now when a prospect brings up VaultEdge's RTO numbers we're kind of just... nodding.",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "negative",
+      "speaker_id": 2,
+      "time": 279.7,
+      "endTime": 295.7,
+      "averageConfidence": 0.92,
+      "index": 21
+    },
+    {
+      "sentence": "That's a problem. We should not be nodding. We need either our own benchmarks or a way to reframe the conversation around total recovery workflow, not just raw RTO. Because point-in-time recovery, data integrity validation \u2014 those are things we do well and VaultEdge's pitch glosses over.",
+      "speaker_name": "Raj Kapoor",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 297.1,
+      "endTime": 313.4,
+      "averageConfidence": 0.93,
+      "index": 22
+    },
+    {
+      "sentence": "Agreed, but it's hard to reframe in the moment when the prospect already has a datasheet in front of them. We need that collateral to exist before the call happens.",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "negative",
+      "speaker_id": 0,
+      "time": 313.8,
+      "endTime": 324.3,
+      "averageConfidence": 0.92,
+      "index": 23
+    },
+    {
+      "sentence": "Yeah, I hear that. Okay let's talk about Comply for a second because that's actually \u2014 I think that's a potential bright spot even if Q1 was rough. Comply v2 just launched on April 7th and I'm curious if anyone's already seeing it move the needle in conversations.",
+      "speaker_name": "Brian Cho",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 325.5,
+      "endTime": 342.3,
+      "averageConfidence": 0.89,
+      "index": 24
+    },
+    {
+      "sentence": "It's too early to show up in win data obviously, but I've had three demos in the last two weeks where on-demand SOC 2 and HIPAA reporting was like, the thing that got the prospect excited. One of them literally said 'okay this is the first time I've actually wanted to stay on a compliance demo.'",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 342.7,
+      "endTime": 362.3,
+      "averageConfidence": 0.89,
+      "index": 25
+    },
+    {
+      "sentence": "Okay that's good to hear. But let's not let that distract from the Q1 problems. The concern I have is that we go into Q2 still carrying this reliability baggage from March and we don't have good answers for it.",
+      "speaker_name": "Raj Kapoor",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 363.8,
+      "endTime": 377.7,
+      "averageConfidence": 0.92,
+      "index": 26
+    },
+    {
+      "sentence": "There's also something I want to bring up that's a little uncomfortable \u2014 I think some of the Q1 losses are partially on us, meaning Customer Success. There are a couple accounts where I think we didn't stay close enough during the evaluation and competitors got more face time. That's on me to fix but I wanted to name it.",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "negative",
+      "speaker_id": 0,
+      "time": 379.1,
+      "endTime": 400.4,
+      "averageConfidence": 0.92,
+      "index": 27
+    },
+    {
+      "sentence": "I appreciate you saying that. Honestly the same is true on the support side \u2014 we had a couple of escalations during March that probably scared off prospects who were watching how we handled things. Like our response time during the outage was not what it should have been.",
+      "speaker_name": "Brian Cho",
+      "sentimentType": "negative",
+      "speaker_id": 3,
+      "time": 400.9,
+      "endTime": 417.8,
+      "averageConfidence": 0.89,
+      "index": 28
+    },
+    {
+      "sentence": "Okay so we have a few themes here. Reliability perception from the March Detect outage, lack of competitive collateral especially against VaultEdge on Protect, and some execution gaps on our side. Does that feel like a fair summary?",
+      "speaker_name": "Raj Kapoor",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 419.2,
+      "endTime": 432.4,
+      "averageConfidence": 0.92,
+      "index": 29
+    },
+    {
+      "sentence": "I'd add one more \u2014 loss note quality. If we can't consistently capture why we're losing, we can't fix it. The data I pulled was useful but it's incomplete and that means we're probably missing patterns.",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "negative",
+      "speaker_id": 2,
+      "time": 433.8,
+      "endTime": 446.8,
+      "averageConfidence": 0.92,
+      "index": 30
+    },
+    {
+      "sentence": "Yeah that's been a chronic problem. I've brought it up in sales meetings before and it just doesn't stick. Maybe it needs to come from leadership more forcefully.",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "negative",
+      "speaker_id": 0,
+      "time": 447.8,
+      "endTime": 458.0,
+      "averageConfidence": 0.93,
+      "index": 31
+    },
+    {
+      "sentence": "I'll take that one. I'll talk to the VP of Sales about making loss notes a required field with a minimum character count or something. It's not a technical problem, it's a process problem.",
+      "speaker_name": "Raj Kapoor",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 458.6,
+      "endTime": 470.4,
+      "averageConfidence": 0.91,
+      "index": 32
+    },
+    {
+      "sentence": "Good. Okay so action items \u2014 Kevin owns the Detect outage one-pager, we need someone to own a competitive brief on VaultEdge and Protect specifically, Raj you're talking to VP Sales about loss note quality, and I guess I need to tighten up the engagement model for late-stage evaluations.",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 470.9,
+      "endTime": 488.0,
+      "averageConfidence": 0.89,
+      "index": 33
+    },
+    {
+      "sentence": "I can take the VaultEdge competitive brief. I've been doing some informal research anyway and I'd rather have something formal to point to.",
+      "speaker_name": "Brian Cho",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 488.4,
+      "endTime": 496.8,
+      "averageConfidence": 0.93,
+      "index": 34
+    },
+    {
+      "sentence": "Perfect. Can we aim to have drafts of both the one-pager and the competitive brief by end of next week? That gives us something to work with before we're too deep into Q2.",
+      "speaker_name": "Raj Kapoor",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 497.1,
+      "endTime": 508.8,
+      "averageConfidence": 0.97,
+      "index": 35
+    },
+    {
+      "sentence": "End of next week is tight but yeah, I think doable. I'll block time for it.",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 509.2,
+      "endTime": 515.1,
+      "averageConfidence": 0.97,
+      "index": 36
+    },
+    {
+      "sentence": "Same. Okay I think that's probably a good place to wrap. I'll send out a summary with the action items after this. Thanks everyone \u2014 this was a hard conversation but it needed to happen.",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 516.2,
+      "endTime": 528.2,
+      "averageConfidence": 0.89,
+      "index": 37
+    },
+    {
+      "sentence": "Agreed. Let's not wait until Q2 close to do this again. Monthly would be better.",
+      "speaker_name": "Raj Kapoor",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 528.7,
+      "endTime": 534.4,
+      "averageConfidence": 0.94,
+      "index": 38
+    },
+    {
+      "sentence": "Seconded. Alright, talk soon.",
+      "speaker_name": "Brian Cho",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 535.1,
+      "endTime": 536.9,
+      "averageConfidence": 0.93,
+      "index": 39
+    }
+  ]
+}

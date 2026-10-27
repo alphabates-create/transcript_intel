@@ -1,0 +1,46 @@
+{
+  "summary": "Maria Santos met with Derek Owens of Crestline Wealth to discuss their upcoming renewal in late March 2026, approximately six weeks out. They reviewed usage across three modules (Protect, Detect, and Comply), with Derek noting data growth from 14TB to approximately 17-17.5TB affecting tier pricing. Maria introduced an upcoming Comply multi-framework reporting feature and discussed pricing options ranging from $155K-$160K annually, with a two-year discount option available. The call ended with a clear plan: Maria will deliver a comparison quote and Detect resilience technical summary by February 27th, and Derek will provide a decision direction by March 5th.",
+  "actionItems": [
+    "Maria Santos: Send a side-by-side renewal quote (1-year vs 2-year options) reflecting updated data volume by February 27th",
+    "Maria Santos: Provide a written technical summary of Detect pipeline resilience improvements by February 27th",
+    "Maria Santos: Pull and review the November/December backup failure support ticket to understand the delayed response",
+    "Derek Owens: Present renewal options to CFO and provide a decision or direction by March 5th"
+  ],
+  "topics": [
+    "renewal",
+    "pricing",
+    "compliance roadmap",
+    "data backup",
+    "threat detection",
+    "support issue"
+  ],
+  "overallSentiment": "mixed-positive",
+  "sentimentScore": 3.8,
+  "keyMoments": [
+    {
+      "time": 312.0,
+      "text": "Derek emphasizes that reliability in threat monitoring is non-negotiable due to SEC and FINRA oversight, flagging a potential churn risk if Detect resilience is inadequate",
+      "type": "concern",
+      "speaker": "Derek Owens"
+    },
+    {
+      "time": 498.0,
+      "text": "Maria reveals the upcoming Comply multi-framework on-demand reporting feature included at no additional cost, which Derek identifies as directly relevant to client demands",
+      "type": "positive_pivot",
+      "speaker": "Maria Santos"
+    },
+    {
+      "time": 642.0,
+      "text": "Maria presents pricing in the $155K-$160K range (5-8% increase) and offers a two-year term discount to bring pricing closer to current contract value",
+      "type": "pricing_offer",
+      "speaker": "Maria Santos"
+    },
+    {
+      "time": 756.0,
+      "text": "Derek discloses a November/December support ticket where a backup job failure took several days to resolve, expressing frustration with response time and lack of visibility",
+      "type": "technical_issue",
+      "speaker": "Derek Owens"
+    }
+  ],
+  "meetingId": "01KQAEA50436D047BC39CFC7"
+}

@@ -1,0 +1,394 @@
+{
+  "data": [
+    {
+      "sentence": "Alright, I think Damien just joined \u2014 Damien, can you hear us okay?",
+      "speaker_name": "Daniel Okafor",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 7.8,
+      "endTime": 12.3,
+      "averageConfidence": 0.97,
+      "index": 0
+    },
+    {
+      "sentence": "Yeah, I'm here, I'm here \u2014 sorry, had a last-minute thing pop up on my end. Good to connect with you guys.",
+      "speaker_name": "Damien Rowe",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 13.3,
+      "endTime": 20.8,
+      "averageConfidence": 0.9,
+      "index": 1
+    },
+    {
+      "sentence": "No worries at all, we appreciate you making the time. James is on as well \u2014 James, you want to say hi?",
+      "speaker_name": "Daniel Okafor",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 22.1,
+      "endTime": 29.7,
+      "averageConfidence": 0.93,
+      "index": 2
+    },
+    {
+      "sentence": "Hey Damien, good to meet you. Daniel's told me a lot about what you guys are building over at Stratos \u2014 really exciting stuff.",
+      "speaker_name": "James Mitchell",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 30.4,
+      "endTime": 39.1,
+      "averageConfidence": 0.97,
+      "index": 3
+    },
+    {
+      "sentence": "Yeah, it's been a busy year for us, that's for sure. We've got a pretty big audit coming up and honestly that's \u2014 that's the main driver for this call today.",
+      "speaker_name": "Damien Rowe",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 40.2,
+      "endTime": 51.3,
+      "averageConfidence": 0.93,
+      "index": 4
+    },
+    {
+      "sentence": "Absolutely, and that's exactly what we want to dig into. Before we do, can you give us just a quick picture of where you're at right now with compliance prep? Like what does your current process look like?",
+      "speaker_name": "Daniel Okafor",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 52.3,
+      "endTime": 65.5,
+      "averageConfidence": 0.93,
+      "index": 5
+    },
+    {
+      "sentence": "Sure, yeah. So right now it's \u2014 honestly it's pretty manual. We've got a couple engineers who basically spend weeks pulling together evidence, cross-referencing spreadsheets, making sure everything maps to the right controls. It's painful and it's expensive in terms of engineering time.",
+      "speaker_name": "Damien Rowe",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 66.5,
+      "endTime": 81.6,
+      "averageConfidence": 0.89,
+      "index": 6
+    },
+    {
+      "sentence": "Yeah that's \u2014 we hear that a lot actually. The spreadsheet approach works until it really doesn't, especially when you're dealing with multiple frameworks at once.",
+      "speaker_name": "James Mitchell",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 82.3,
+      "endTime": 91.7,
+      "averageConfidence": 0.91,
+      "index": 7
+    },
+    {
+      "sentence": "Exactly. And we're not just looking at one framework here. We need SOC 2, and we're also starting to think about ISO 27001 because we've got a couple of enterprise prospects in Europe who are going to require it.",
+      "speaker_name": "Damien Rowe",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 92.7,
+      "endTime": 106.5,
+      "averageConfidence": 0.92,
+      "index": 8
+    },
+    {
+      "sentence": "Okay, so SOC 2 and ISO 27001 \u2014 that's a really common combination actually, and that's something Aegis Comply handles really well. Can I walk you through kind of how that works?",
+      "speaker_name": "Daniel Okafor",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 107.2,
+      "endTime": 118.3,
+      "averageConfidence": 0.94,
+      "index": 9
+    },
+    {
+      "sentence": "Please, yeah, go for it.",
+      "speaker_name": "Damien Rowe",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 119.2,
+      "endTime": 121.1,
+      "averageConfidence": 0.94,
+      "index": 10
+    },
+    {
+      "sentence": "So the core value proposition with Comply is that it maps your environment continuously to whatever frameworks you're targeting \u2014 SOC 2, ISO 27001, we also support PCI DSS and HIPAA \u2014 and it generates audit-ready reports on demand. So instead of your engineers spending three weeks pulling evidence, they're spending, you know, maybe a few hours validating what the platform's already collected.",
+      "speaker_name": "Daniel Okafor",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 122.5,
+      "endTime": 144.6,
+      "averageConfidence": 0.92,
+      "index": 11
+    },
+    {
+      "sentence": "That \u2014 okay that sounds almost too good to be true. What does the evidence collection actually look like? Because that's where we always get stuck.",
+      "speaker_name": "Damien Rowe",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 145.2,
+      "endTime": 154.5,
+      "averageConfidence": 0.96,
+      "index": 12
+    },
+    {
+      "sentence": "Yeah it's a fair question. So Comply integrates directly with your cloud infrastructure \u2014 we're talking your CloudPrime, GCP, Azure environments \u2014 and it's continuously pulling configuration data, access logs, change history. All of that gets mapped to specific controls within the framework. So when your auditor asks for evidence of, say, access control reviews, you're not scrambling \u2014 it's already there, timestamped, organized.",
+      "speaker_name": "James Mitchell",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 155.8,
+      "endTime": 178.1,
+      "averageConfidence": 0.95,
+      "index": 13
+    },
+    {
+      "sentence": "That's huge. That is genuinely huge. Do you know how many times I've had someone ping me at ten PM the night before an audit asking where some log is from six months ago?",
+      "speaker_name": "Damien Rowe",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 179.2,
+      "endTime": 191.4,
+      "averageConfidence": 0.96,
+      "index": 14
+    },
+    {
+      "sentence": "Ha, we've heard that story more than once.",
+      "speaker_name": "Daniel Okafor",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 192.8,
+      "endTime": 195.9,
+      "averageConfidence": 0.9,
+      "index": 15
+    },
+    {
+      "sentence": "I can only imagine. And what about \u2014 so you mentioned on-demand reports, is that like a scheduled thing or can you literally just generate one whenever you need it?",
+      "speaker_name": "Damien Rowe",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 196.3,
+      "endTime": 206.9,
+      "averageConfidence": 0.95,
+      "index": 16
+    },
+    {
+      "sentence": "So right now the reporting is \u2014 it's scheduled, you can set cadences, quarterly, monthly, whatever works for your team. The on-demand piece is actually something we're rolling out very soon, that's coming in an upcoming release and it's going to be a really significant upgrade for teams in exactly your situation.",
+      "speaker_name": "James Mitchell",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 207.4,
+      "endTime": 226.0,
+      "averageConfidence": 0.92,
+      "index": 17
+    },
+    {
+      "sentence": "Okay, good to know. And timing-wise \u2014 our audit is in Q2, so we're looking at probably May. Is that enough runway to get everything set up and actually generating useful data?",
+      "speaker_name": "Damien Rowe",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 227.3,
+      "endTime": 238.9,
+      "averageConfidence": 0.94,
+      "index": 18
+    },
+    {
+      "sentence": "Yeah, that's actually a pretty comfortable timeline. Onboarding for Comply typically takes \u2014 I'd say two to three weeks to get the integrations fully stood up and mapped. And then the platform starts building that continuous evidence trail right away. By May you'd have a solid two-plus months of data, which is what auditors want to see.",
+      "speaker_name": "Daniel Okafor",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 240.2,
+      "endTime": 260.6,
+      "averageConfidence": 0.91,
+      "index": 19
+    },
+    {
+      "sentence": "That makes me feel a lot better, honestly. We were a little worried we were coming to this late but that's \u2014 that's reassuring.",
+      "speaker_name": "Damien Rowe",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 261.2,
+      "endTime": 269.4,
+      "averageConfidence": 0.9,
+      "index": 20
+    },
+    {
+      "sentence": "No, you're in good shape. And just to give you some context \u2014 we've had customers start the Comply onboarding even closer to their audit date and still come out the other side really well. The platform is designed to get to value quickly.",
+      "speaker_name": "James Mitchell",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 270.5,
+      "endTime": 285.8,
+      "averageConfidence": 0.88,
+      "index": 21
+    },
+    {
+      "sentence": "Love that. Okay, so \u2014 and I don't want to get too far ahead of ourselves but \u2014 is there a way to see this in action? Like a demo environment or something where I can show my team what this actually looks like?",
+      "speaker_name": "Damien Rowe",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 286.3,
+      "endTime": 302.1,
+      "averageConfidence": 0.92,
+      "index": 22
+    },
+    {
+      "sentence": "One hundred percent. We can set up a full demo environment for you \u2014 we can actually map it to a sandbox that mirrors your stack, so it feels relevant rather than just, you know, generic demo data. That's something we like to do for engineering-led teams especially.",
+      "speaker_name": "Daniel Okafor",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 302.7,
+      "endTime": 320.0,
+      "averageConfidence": 0.96,
+      "index": 23
+    },
+    {
+      "sentence": "Oh that's perfect, yeah. My team is going to want to kick the tires on this before we commit to anything. They're skeptical of anything that promises to simplify compliance \u2014 rightfully so, I'd say.",
+      "speaker_name": "Damien Rowe",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 320.8,
+      "endTime": 332.9,
+      "averageConfidence": 0.88,
+      "index": 24
+    },
+    {
+      "sentence": "That's honestly the right attitude. We welcome that scrutiny \u2014 the platform tends to do well when engineering teams really dig into it.",
+      "speaker_name": "James Mitchell",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 333.6,
+      "endTime": 341.9,
+      "averageConfidence": 0.93,
+      "index": 25
+    },
+    {
+      "sentence": "Good. And \u2014 oh, one thing I meant to ask \u2014 we're also using Aegis Detect already, right, Daniel? So how does Comply play with that? Is there integration there or are they kind of separate things?",
+      "speaker_name": "Damien Rowe",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 342.6,
+      "endTime": 355.7,
+      "averageConfidence": 0.95,
+      "index": 26
+    },
+    {
+      "sentence": "Great question, and yes \u2014 they're definitely designed to work together. Detect feeds event and threat data directly into Comply's evidence store, so if an auditor wants to see your threat monitoring posture, your incident response trail, all of that is already captured. It actually makes the SOC 2 security criteria section a lot easier to address.",
+      "speaker_name": "Daniel Okafor",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 356.1,
+      "endTime": 376.4,
+      "averageConfidence": 0.96,
+      "index": 27
+    },
+    {
+      "sentence": "Okay so it's like \u2014 the more modules you have, the richer the evidence picture gets. That actually makes a lot of sense.",
+      "speaker_name": "Damien Rowe",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 376.7,
+      "endTime": 384.7,
+      "averageConfidence": 0.89,
+      "index": 28
+    },
+    {
+      "sentence": "Exactly, yeah. It's a cohesive platform so everything kind of reinforces everything else. That's the design philosophy.",
+      "speaker_name": "James Mitchell",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 385.4,
+      "endTime": 391.8,
+      "averageConfidence": 0.94,
+      "index": 29
+    },
+    {
+      "sentence": "I really like that. Okay \u2014 so next steps. What does getting the demo scheduled look like? I want to move on this pretty quickly.",
+      "speaker_name": "Damien Rowe",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 393.2,
+      "endTime": 402.3,
+      "averageConfidence": 0.96,
+      "index": 30
+    },
+    {
+      "sentence": "So I'll send you a link to our scheduling tool right after this call \u2014 we can usually get something on the calendar within the week. And I'll also put together a one-pager on the SOC 2 and ISO 27001 framework mapping specifically so you have something to share with your team ahead of the demo.",
+      "speaker_name": "Daniel Okafor",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 403.1,
+      "endTime": 423.1,
+      "averageConfidence": 0.93,
+      "index": 31
+    },
+    {
+      "sentence": "That would be fantastic. Yeah, anything I can hand to my engineers before the demo so they come in informed rather than cold \u2014 that helps a lot.",
+      "speaker_name": "Damien Rowe",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 423.7,
+      "endTime": 433.6,
+      "averageConfidence": 0.94,
+      "index": 32
+    },
+    {
+      "sentence": "Totally, we'll make sure they have context. And Damien, is there anyone else on your side who should be looped in for the demo? Like a CISO, a compliance lead, anyone like that?",
+      "speaker_name": "James Mitchell",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 434.0,
+      "endTime": 445.7,
+      "averageConfidence": 0.93,
+      "index": 33
+    },
+    {
+      "sentence": "Yeah, good call \u2014 I'll bring our Head of Security, Priya, she'll want to be there. And probably one of our senior DevOps folks who actually does the heavy lifting on audit prep. I'll make sure they're on the invite.",
+      "speaker_name": "Damien Rowe",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 447.0,
+      "endTime": 461.1,
+      "averageConfidence": 0.93,
+      "index": 34
+    },
+    {
+      "sentence": "Perfect, the more the merrier. Alright, I think we've covered a lot of good ground today \u2014 I'm really glad we got this on the calendar.",
+      "speaker_name": "Daniel Okafor",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 461.5,
+      "endTime": 470.9,
+      "averageConfidence": 0.95,
+      "index": 35
+    },
+    {
+      "sentence": "Same here. Honestly this was more productive than I expected \u2014 I feel like we've got a real path forward before the audit. Looking forward to the demo.",
+      "speaker_name": "Damien Rowe",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 471.6,
+      "endTime": 481.7,
+      "averageConfidence": 0.95,
+      "index": 36
+    },
+    {
+      "sentence": "Awesome. We'll get everything over to you today \u2014 and Damien, seriously, don't hesitate to reach out if anything comes up before then.",
+      "speaker_name": "James Mitchell",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 482.9,
+      "endTime": 491.4,
+      "averageConfidence": 0.89,
+      "index": 37
+    },
+    {
+      "sentence": "Will do. Thanks guys, talk soon.",
+      "speaker_name": "Damien Rowe",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 492.0,
+      "endTime": 494.0,
+      "averageConfidence": 0.92,
+      "index": 38
+    }
+  ]
+}

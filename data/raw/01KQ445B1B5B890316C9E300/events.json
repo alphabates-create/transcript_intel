@@ -1,0 +1,38 @@
+[
+  {
+    "participantName": "Sofia Petrov",
+    "timestamp": 1776446106000,
+    "type": "Join",
+    "time": 6.0
+  },
+  {
+    "participantName": "Ravi Gupta",
+    "timestamp": 1776446117000,
+    "type": "Join",
+    "time": 17.0
+  },
+  {
+    "participantName": "Raj Kapoor",
+    "timestamp": 1776446135000,
+    "type": "Join",
+    "time": 35.0
+  },
+  {
+    "participantName": "Ravi Gupta",
+    "timestamp": 1776448795000,
+    "type": "Leave",
+    "time": 2695.0
+  },
+  {
+    "participantName": "Sofia Petrov",
+    "timestamp": 1776448804000,
+    "type": "Leave",
+    "time": 2704.0
+  },
+  {
+    "participantName": "Raj Kapoor",
+    "timestamp": 1776448808000,
+    "type": "Leave",
+    "time": 2708.0
+  }
+]

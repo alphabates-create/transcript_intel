@@ -1,0 +1,414 @@
+{
+  "data": [
+    {
+      "sentence": "Hey Victor, thanks for making time today \u2014 I know your calendar's been pretty packed lately.",
+      "speaker_name": "Rachel Torres",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 4.5,
+      "endTime": 10.0,
+      "averageConfidence": 0.89,
+      "index": 0
+    },
+    {
+      "sentence": "Yeah, no worries, it's been a busy quarter but this is \u2014 this is on my list, so happy to make it happen.",
+      "speaker_name": "Victor Zheng",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 10.9,
+      "endTime": 19.1,
+      "averageConfidence": 0.91,
+      "index": 1
+    },
+    {
+      "sentence": "Good, good. So I've also got Sofia Petrov on with me today, she's one of our senior engineers on the Identity side, and I figured having her here would be more useful than me trying to take notes and relay everything back.",
+      "speaker_name": "Rachel Torres",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 20.1,
+      "endTime": 35.1,
+      "averageConfidence": 0.92,
+      "index": 2
+    },
+    {
+      "sentence": "Hey Victor, thanks for having us. Really looking forward to hearing what you've been running into.",
+      "speaker_name": "Sofia Petrov",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 35.9,
+      "endTime": 41.2,
+      "averageConfidence": 0.96,
+      "index": 3
+    },
+    {
+      "sentence": "Hey Sofia, yeah, appreciate you jumping on. Okay so \u2014 where do I start. So we've been on Aegis Identity now for, I want to say, about seven months? Maybe closer to eight.",
+      "speaker_name": "Victor Zheng",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 42.4,
+      "endTime": 54.1,
+      "averageConfidence": 0.88,
+      "index": 4
+    },
+    {
+      "sentence": "Yeah, that tracks, I think you all went live around mid-September last year.",
+      "speaker_name": "Rachel Torres",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 54.4,
+      "endTime": 59.3,
+      "averageConfidence": 0.91,
+      "index": 5
+    },
+    {
+      "sentence": "Right, yeah. So overall \u2014 look, it's been fine. The SSO integration was pretty smooth once we got through the initial SAML configuration, and the MFA rollout went better than I expected honestly.",
+      "speaker_name": "Victor Zheng",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 60.4,
+      "endTime": 71.7,
+      "averageConfidence": 0.92,
+      "index": 6
+    },
+    {
+      "sentence": "That's good to hear. That SAML piece can be... yeah, it can be a little finicky depending on the IdP.",
+      "speaker_name": "Sofia Petrov",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 72.4,
+      "endTime": 79.4,
+      "averageConfidence": 0.95,
+      "index": 7
+    },
+    {
+      "sentence": "It was, yeah, we had a couple of back-and-forths with your support team on that, but it got resolved. So no complaints there. The reason I wanted to have this call is really around some gaps we're hitting on the IAM side \u2014 specifically around how Aegis Identity handles role management at scale.",
+      "speaker_name": "Victor Zheng",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 79.7,
+      "endTime": 98.5,
+      "averageConfidence": 0.88,
+      "index": 8
+    },
+    {
+      "sentence": "Okay, yeah, tell me more. What does scale look like for Frostbyte right now in terms of, like, users and roles?",
+      "speaker_name": "Sofia Petrov",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 99.7,
+      "endTime": 106.9,
+      "averageConfidence": 0.95,
+      "index": 9
+    },
+    {
+      "sentence": "So we're sitting at roughly \u2014 and this has grown a lot this year \u2014 we're at about 1,400 users across the organization. And the role taxonomy is... it's gotten complicated. We've got engineering, ML infrastructure, data, product, and then all the corporate functions on top of that.",
+      "speaker_name": "Victor Zheng",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 107.4,
+      "endTime": 124.3,
+      "averageConfidence": 0.94,
+      "index": 10
+    },
+    {
+      "sentence": "Right.",
+      "speaker_name": "Sofia Petrov",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 124.9,
+      "endTime": 126.4,
+      "averageConfidence": 0.91,
+      "index": 11
+    },
+    {
+      "sentence": "And the issue we keep running into is that there's no good way to do nested role inheritance within Aegis Identity. Like, I can define roles, I can assign permissions, but I can't say \u2014 this team lead role inherits everything from the senior engineer role, plus these additional permissions. It's all flat.",
+      "speaker_name": "Victor Zheng",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 127.0,
+      "endTime": 146.1,
+      "averageConfidence": 0.92,
+      "index": 12
+    },
+    {
+      "sentence": "Yeah, that's \u2014 that's a known limitation in the current version, I'll be straight with you. The role model right now is flat, there's no hierarchical inheritance baked in. It's something that's been on the roadmap for a while.",
+      "speaker_name": "Sofia Petrov",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 146.4,
+      "endTime": 160.3,
+      "averageConfidence": 0.88,
+      "index": 13
+    },
+    {
+      "sentence": "So it is on the roadmap? Do you have any sense of timeline?",
+      "speaker_name": "Victor Zheng",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 160.7,
+      "endTime": 165.4,
+      "averageConfidence": 0.89,
+      "index": 14
+    },
+    {
+      "sentence": "I don't want to \u2014 I don't want to give you a number I can't stand behind, honestly. Rachel, do you have anything more concrete from the product side on that?",
+      "speaker_name": "Sofia Petrov",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 165.9,
+      "endTime": 176.6,
+      "averageConfidence": 0.95,
+      "index": 15
+    },
+    {
+      "sentence": "Not a GA date, no. The last I heard from our product team, hierarchical roles is in active development, but I haven't seen a committed date for release. I can definitely follow up with our product management contact and get you something more specific, Victor.",
+      "speaker_name": "Rachel Torres",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 177.5,
+      "endTime": 193.3,
+      "averageConfidence": 0.89,
+      "index": 16
+    },
+    {
+      "sentence": "Yeah, that would be helpful. Because right now what we're doing is \u2014 we're basically duplicating permissions manually across roles, which is, uh, it's error-prone and it's a pain to audit.",
+      "speaker_name": "Victor Zheng",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 193.6,
+      "endTime": 204.5,
+      "averageConfidence": 0.95,
+      "index": 17
+    },
+    {
+      "sentence": "Yeah, I get that. That's exactly the kind of thing hierarchical inheritance would fix. Can I ask \u2014 when you say it's hard to audit, are you running into issues specifically around access reviews, or is it more the day-to-day management overhead?",
+      "speaker_name": "Sofia Petrov",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 206.0,
+      "endTime": 221.1,
+      "averageConfidence": 0.95,
+      "index": 18
+    },
+    {
+      "sentence": "Honestly both, but the access review piece is becoming more urgent. We're going through a SOC 2 audit right now \u2014 we're actually using Aegis Comply for some of that, which, by the way, the v2 stuff that came out earlier this month is pretty solid.",
+      "speaker_name": "Victor Zheng",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 222.0,
+      "endTime": 238.4,
+      "averageConfidence": 0.94,
+      "index": 19
+    },
+    {
+      "sentence": "Oh good, yeah the on-demand reporting in Comply v2 \u2014 I was hoping that would land well for your team.",
+      "speaker_name": "Rachel Torres",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 239.7,
+      "endTime": 246.7,
+      "averageConfidence": 0.9,
+      "index": 20
+    },
+    {
+      "sentence": "Yeah the on-demand SOC 2 report generation is saving us real time. But \u2014 the issue is that when the auditors start pulling on the thread of who has access to what and why, the role structure in Identity doesn't tell a clean story because everything is kind of manually duplicated.",
+      "speaker_name": "Victor Zheng",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 247.8,
+      "endTime": 266.0,
+      "averageConfidence": 0.9,
+      "index": 21
+    },
+    {
+      "sentence": "That makes sense. So there's almost a compounding problem where the flat role structure creates noise in your compliance reporting even if the underlying access is technically correct.",
+      "speaker_name": "Sofia Petrov",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 267.1,
+      "endTime": 277.2,
+      "averageConfidence": 0.92,
+      "index": 22
+    },
+    {
+      "sentence": "Exactly. Yeah, you said it better than I did.",
+      "speaker_name": "Victor Zheng",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 278.1,
+      "endTime": 281.2,
+      "averageConfidence": 0.97,
+      "index": 23
+    },
+    {
+      "sentence": "Okay, that's a really useful framing. Sofia, I want to make sure we capture that for the product feedback \u2014 the compliance audit angle specifically, because that might actually bump the priority on this.",
+      "speaker_name": "Rachel Torres",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 282.3,
+      "endTime": 294.3,
+      "averageConfidence": 0.92,
+      "index": 24
+    },
+    {
+      "sentence": "Agreed, yeah. Victor, is there anything else on the Identity side beyond the role hierarchy piece, or is that the main one?",
+      "speaker_name": "Sofia Petrov",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 295.4,
+      "endTime": 303.4,
+      "averageConfidence": 0.92,
+      "index": 25
+    },
+    {
+      "sentence": "There's \u2014 yeah there's one other thing. It's maybe a smaller ask, but it's been bugging us. The session timeout policies \u2014 right now it seems like you can only set one global timeout, right? There's no way to do it per role or per resource.",
+      "speaker_name": "Victor Zheng",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 303.8,
+      "endTime": 319.9,
+      "averageConfidence": 0.92,
+      "index": 26
+    },
+    {
+      "sentence": "That's correct, yeah. One global session timeout config right now.",
+      "speaker_name": "Sofia Petrov",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 320.3,
+      "endTime": 323.9,
+      "averageConfidence": 0.91,
+      "index": 27
+    },
+    {
+      "sentence": "So what we'd really want is to say \u2014 okay, for users accessing our ML training infrastructure, we want a shorter timeout, maybe 30 minutes, because those environments are sensitive. But for, like, someone just accessing our internal wiki through SSO, a four-hour timeout is totally fine. We shouldn't have to apply the most restrictive policy globally.",
+      "speaker_name": "Victor Zheng",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 324.2,
+      "endTime": 344.4,
+      "averageConfidence": 0.94,
+      "index": 28
+    },
+    {
+      "sentence": "Yeah, that's a reasonable ask. Role-based or resource-based session policies. I don't believe that's on the short-term roadmap but \u2014 honestly, Victor, I'm going to be honest, I'd have to check. I don't want to guess.",
+      "speaker_name": "Sofia Petrov",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 345.8,
+      "endTime": 358.1,
+      "averageConfidence": 0.97,
+      "index": 29
+    },
+    {
+      "sentence": "No, that's fine, I appreciate the honesty. I'd rather you check than tell me something's coming and it doesn't.",
+      "speaker_name": "Victor Zheng",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 359.5,
+      "endTime": 366.2,
+      "averageConfidence": 0.9,
+      "index": 30
+    },
+    {
+      "sentence": "Yeah, and I'll make sure both of these \u2014 the hierarchical roles and the session policy granularity \u2014 are written up formally and submitted to product. And I'll loop in your CSM so there's visibility on our end into how this gets prioritized.",
+      "speaker_name": "Rachel Torres",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 367.4,
+      "endTime": 382.9,
+      "averageConfidence": 0.96,
+      "index": 31
+    },
+    {
+      "sentence": "Great. And \u2014 look, I want to be clear, I'm not raising this because I'm about to go evaluate alternatives or anything like that. It's more that \u2014 we're growing fast, and I want to make sure Aegis Identity can grow with us. If these things get addressed in the next couple of quarters, we're in good shape.",
+      "speaker_name": "Victor Zheng",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 383.7,
+      "endTime": 404.1,
+      "averageConfidence": 0.94,
+      "index": 32
+    },
+    {
+      "sentence": "That's helpful context, Victor, and I appreciate you saying that. It helps us frame the urgency appropriately when we're talking to product.",
+      "speaker_name": "Rachel Torres",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 404.8,
+      "endTime": 412.5,
+      "averageConfidence": 0.94,
+      "index": 33
+    },
+    {
+      "sentence": "Yeah, for sure. One thing I'd also find useful \u2014 and maybe Sofia you'd know this \u2014 is there a way for us to track these feature requests? Like, is there a customer portal or anything where I can see if something moves from 'requested' to 'in progress'?",
+      "speaker_name": "Victor Zheng",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 412.9,
+      "endTime": 429.7,
+      "averageConfidence": 0.91,
+      "index": 34
+    },
+    {
+      "sentence": "So right now that kind of visibility goes through your account manager \u2014 Rachel's your best touchpoint for that. We don't have a self-serve feature request tracker that's customer-facing, at least not yet.",
+      "speaker_name": "Sofia Petrov",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 430.8,
+      "endTime": 442.6,
+      "averageConfidence": 0.91,
+      "index": 35
+    },
+    {
+      "sentence": "Okay, noted. Yeah, that's \u2014 that's another thing that would be nice to have someday, but I understand.",
+      "speaker_name": "Victor Zheng",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 443.9,
+      "endTime": 450.5,
+      "averageConfidence": 0.92,
+      "index": 36
+    },
+    {
+      "sentence": "It's fair feedback and I'll pass that along too. Okay, I think we've covered the main items \u2014 I'll send you a summary email after this with what we discussed, the two feature requests, and what our next steps are on our end. Does that work?",
+      "speaker_name": "Rachel Torres",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 451.2,
+      "endTime": 467.7,
+      "averageConfidence": 0.91,
+      "index": 37
+    },
+    {
+      "sentence": "Yeah, that works. Thanks both of you \u2014 this was a good call. Appreciate the time.",
+      "speaker_name": "Victor Zheng",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 468.8,
+      "endTime": 474.4,
+      "averageConfidence": 0.93,
+      "index": 38
+    },
+    {
+      "sentence": "Thanks Victor, really helpful to get this context directly from you.",
+      "speaker_name": "Sofia Petrov",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 475.5,
+      "endTime": 479.8,
+      "averageConfidence": 0.93,
+      "index": 39
+    },
+    {
+      "sentence": "Absolutely, we'll be in touch. Talk soon.",
+      "speaker_name": "Rachel Torres",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 481.1,
+      "endTime": 483.3,
+      "averageConfidence": 0.97,
+      "index": 40
+    }
+  ]
+}

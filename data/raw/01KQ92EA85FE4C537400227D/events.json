@@ -1,0 +1,26 @@
+[
+  {
+    "participantName": "Warren Beck",
+    "timestamp": 1777137309000,
+    "type": "Join",
+    "time": 9.0
+  },
+  {
+    "participantName": "Priya Patel",
+    "timestamp": 1777137355000,
+    "type": "Join",
+    "time": 55.0
+  },
+  {
+    "participantName": "Priya Patel",
+    "timestamp": 1777137835000,
+    "type": "Leave",
+    "time": 535.0
+  },
+  {
+    "participantName": "Warren Beck",
+    "timestamp": 1777137835000,
+    "type": "Leave",
+    "time": 535.0
+  }
+]

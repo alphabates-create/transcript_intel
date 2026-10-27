@@ -1,0 +1,424 @@
+{
+  "data": [
+    {
+      "sentence": "Hey Lauren, thanks for making time this morning \u2014 I know Q2 planning season gets pretty hectic.",
+      "speaker_name": "Lisa Park",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 8.0,
+      "endTime": 14.4,
+      "averageConfidence": 0.88,
+      "index": 0
+    },
+    {
+      "sentence": "Yeah, no kidding, it's been a lot. But this was already on my calendar so I made sure to protect it.",
+      "speaker_name": "Lauren Bishop",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 15.5,
+      "endTime": 22.9,
+      "averageConfidence": 0.96,
+      "index": 1
+    },
+    {
+      "sentence": "I appreciate that. So, just to set the agenda for today \u2014 I wanted to walk through where things stand on the renewal, get your feedback on how the platform's been performing, and then we can talk about what your roadmap looks like for the rest of the year.",
+      "speaker_name": "Lisa Park",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 23.4,
+      "endTime": 40.9,
+      "averageConfidence": 0.9,
+      "index": 2
+    },
+    {
+      "sentence": "That works. And I do have some things I want to flag, so... yeah, let's just get into it.",
+      "speaker_name": "Lauren Bishop",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 42.3,
+      "endTime": 48.9,
+      "averageConfidence": 0.91,
+      "index": 3
+    },
+    {
+      "sentence": "Of course. Why don't you go first actually \u2014 what's on your mind?",
+      "speaker_name": "Lisa Park",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 49.4,
+      "endTime": 53.7,
+      "averageConfidence": 0.9,
+      "index": 4
+    },
+    {
+      "sentence": "Okay, so the big thing \u2014 and I want to be direct here \u2014 is the outage in March. The Detect outage. That was... that was not a great experience for us.",
+      "speaker_name": "Lauren Bishop",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 54.6,
+      "endTime": 66.2,
+      "averageConfidence": 0.94,
+      "index": 5
+    },
+    {
+      "sentence": "Yeah, and I completely understand. I was going to bring that up myself. That was March 10th through roughly the 18th, the event processing issue \u2014 six hours of no visibility on threat monitoring.",
+      "speaker_name": "Lisa Park",
+      "sentimentType": "negative",
+      "speaker_id": 0,
+      "time": 66.9,
+      "endTime": 79.2,
+      "averageConfidence": 0.96,
+      "index": 6
+    },
+    {
+      "sentence": "Right. And look, I get that outages happen, I've been in infrastructure long enough to know nothing is bulletproof, but six hours is a long time. Our security team was basically flying blind.",
+      "speaker_name": "Lauren Bishop",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 80.5,
+      "endTime": 92.0,
+      "averageConfidence": 0.9,
+      "index": 7
+    },
+    {
+      "sentence": "Completely fair. And I don't want to just gloss over it with a, you know, 'here's what we did to fix it' kind of answer if you have more to say about the impact on your side.",
+      "speaker_name": "Lisa Park",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 92.9,
+      "endTime": 105.5,
+      "averageConfidence": 0.92,
+      "index": 8
+    },
+    {
+      "sentence": "I mean, we didn't have an incident during that window, which is lucky, but it surfaced a gap in our own contingency planning too, so it wasn't all on Aegis. It just... it raised questions internally about the reliability of the platform.",
+      "speaker_name": "Lauren Bishop",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 106.6,
+      "endTime": 121.7,
+      "averageConfidence": 0.97,
+      "index": 9
+    },
+    {
+      "sentence": "That's really helpful context, and I appreciate you being candid about it. On our end, the root cause was a single point of failure in the event ingestion pipeline \u2014 it was a cascading failure from there. Engineering has since deployed redundant processing nodes and implemented a circuit breaker pattern, so the architecture is fundamentally different now in that layer.",
+      "speaker_name": "Lisa Park",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 123.2,
+      "endTime": 144.3,
+      "averageConfidence": 0.96,
+      "index": 10
+    },
+    {
+      "sentence": "Okay. Is there documentation on that? Like, something I can actually share with my team rather than just taking your word for it?",
+      "speaker_name": "Lauren Bishop",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 145.6,
+      "endTime": 154.1,
+      "averageConfidence": 0.89,
+      "index": 11
+    },
+    {
+      "sentence": "Yes, absolutely. We put out a full post-incident review \u2014 I'll send that over after the call. It goes into the root cause analysis, the remediation steps, and the testing we did before re-deploying.",
+      "speaker_name": "Lisa Park",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 155.4,
+      "endTime": 167.0,
+      "averageConfidence": 0.91,
+      "index": 12
+    },
+    {
+      "sentence": "Good. That'll help. My team wants to see that it's not just a band-aid.",
+      "speaker_name": "Lauren Bishop",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 167.9,
+      "endTime": 172.6,
+      "averageConfidence": 0.95,
+      "index": 13
+    },
+    {
+      "sentence": "Understood. And honestly if there are follow-up questions after your team reviews it, I can also set up time with one of our solution architects to walk through the technical details.",
+      "speaker_name": "Lisa Park",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 173.3,
+      "endTime": 184.2,
+      "averageConfidence": 0.92,
+      "index": 14
+    },
+    {
+      "sentence": "That might be worth doing, yeah. Let me see what the team thinks after they read the doc. Okay, so that's the main concern. What else \u2014 you said you wanted to cover the renewal specifically?",
+      "speaker_name": "Lauren Bishop",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 184.5,
+      "endTime": 196.9,
+      "averageConfidence": 0.96,
+      "index": 15
+    },
+    {
+      "sentence": "Right. So your current contract runs through end of June, so we're about... eleven weeks out. I wanted to start the conversation early so we're not scrambling in June.",
+      "speaker_name": "Lisa Park",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 197.9,
+      "endTime": 208.0,
+      "averageConfidence": 0.88,
+      "index": 16
+    },
+    {
+      "sentence": "Smart. Yeah. What are you looking at \u2014 is pricing changing?",
+      "speaker_name": "Lauren Bishop",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 209.4,
+      "endTime": 213.6,
+      "averageConfidence": 0.92,
+      "index": 17
+    },
+    {
+      "sentence": "So, there is a standard escalator built into the contract \u2014 I believe it's three percent \u2014 and that would apply. But I also want to understand what your scope looks like going into next year before we lock anything in, because if you're expanding, that changes the conversation.",
+      "speaker_name": "Lisa Park",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 214.2,
+      "endTime": 231.4,
+      "averageConfidence": 0.96,
+      "index": 18
+    },
+    {
+      "sentence": "Mm. Yeah, so we're planning to add about forty more cloud workloads through Q3 as we finish migrating the last of our on-prem stuff. So the footprint is growing.",
+      "speaker_name": "Lauren Bishop",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 232.1,
+      "endTime": 242.4,
+      "averageConfidence": 0.97,
+      "index": 19
+    },
+    {
+      "sentence": "Okay, that's good to know. Are those workloads going to be on CloudPrime primarily, or is it a mix?",
+      "speaker_name": "Lisa Park",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 243.0,
+      "endTime": 249.9,
+      "averageConfidence": 0.89,
+      "index": 20
+    },
+    {
+      "sentence": "Mix. Mostly CloudPrime, some Azure \u2014 we've got about a 70/30 split right now and I think it stays roughly there.",
+      "speaker_name": "Lauren Bishop",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 250.7,
+      "endTime": 258.3,
+      "averageConfidence": 0.96,
+      "index": 21
+    },
+    {
+      "sentence": "Got it. That's helpful. So I'll put together some options \u2014 probably a base renewal at your current tier, and then a growth option that prices in that expanded workload count. I can model out what makes sense financially for both sides.",
+      "speaker_name": "Lisa Park",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 258.7,
+      "endTime": 273.6,
+      "averageConfidence": 0.91,
+      "index": 22
+    },
+    {
+      "sentence": "That'd be useful. And, um, I do want to flag \u2014 we're not exclusively evaluating Aegis. I have procurement pushing me to get at least one competitive quote, so... I want to be transparent about that.",
+      "speaker_name": "Lauren Bishop",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 274.1,
+      "endTime": 286.5,
+      "averageConfidence": 0.91,
+      "index": 23
+    },
+    {
+      "sentence": "I appreciate you being upfront. Who are you looking at, if you don't mind me asking?",
+      "speaker_name": "Lisa Park",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 287.3,
+      "endTime": 292.6,
+      "averageConfidence": 0.97,
+      "index": 24
+    },
+    {
+      "sentence": "Probably SentinelShield, just because they've been pretty aggressive in our space lately. I don't have a strong pull toward them but procurement wants the comparison.",
+      "speaker_name": "Lauren Bishop",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 293.7,
+      "endTime": 302.9,
+      "averageConfidence": 0.89,
+      "index": 25
+    },
+    {
+      "sentence": "Fair enough. I'll make sure our proposal is competitive on value, not just price. And I'm happy to do a side-by-side if that would be helpful for your internal review.",
+      "speaker_name": "Lisa Park",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 304.4,
+      "endTime": 315.0,
+      "averageConfidence": 0.94,
+      "index": 26
+    },
+    {
+      "sentence": "Maybe. Let me see what SentinelShield comes back with first.",
+      "speaker_name": "Lauren Bishop",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 315.9,
+      "endTime": 319.2,
+      "averageConfidence": 0.95,
+      "index": 27
+    },
+    {
+      "sentence": "Of course. Just know the offer is there. Okay, I also wanted to touch on Comply v2 \u2014 you're currently on Comply, right? The new version just went GA on April 7th.",
+      "speaker_name": "Lisa Park",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 320.4,
+      "endTime": 331.6,
+      "averageConfidence": 0.95,
+      "index": 28
+    },
+    {
+      "sentence": "Oh yeah, I saw the release notes. The on-demand reporting \u2014 we've actually already poked around in it a little.",
+      "speaker_name": "Lauren Bishop",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 332.8,
+      "endTime": 340.1,
+      "averageConfidence": 0.97,
+      "index": 29
+    },
+    {
+      "sentence": "Oh great, any early impressions?",
+      "speaker_name": "Lisa Park",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 340.6,
+      "endTime": 342.7,
+      "averageConfidence": 0.91,
+      "index": 30
+    },
+    {
+      "sentence": "It's... decent. The SOC 2 report generation is noticeably faster than v1. We haven't dug into the HIPAA or ISO stuff yet because that's not really our priority, but the multi-framework view is something we'll probably use for PCI.",
+      "speaker_name": "Lauren Bishop",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 343.1,
+      "endTime": 356.5,
+      "averageConfidence": 0.88,
+      "index": 31
+    },
+    {
+      "sentence": "That's good to hear on the SOC 2 side \u2014 that's been one of the most common things customers come to us about. And yeah, PCI DSS coverage in v2 is pretty robust, so I'd encourage you to test that whenever you get a chance.",
+      "speaker_name": "Lisa Park",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 357.6,
+      "endTime": 373.7,
+      "averageConfidence": 0.93,
+      "index": 32
+    },
+    {
+      "sentence": "We will. Our next PCI audit cycle is Q4 so I want to have that dialed in before then.",
+      "speaker_name": "Lauren Bishop",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 374.5,
+      "endTime": 380.9,
+      "averageConfidence": 0.91,
+      "index": 33
+    },
+    {
+      "sentence": "Perfect timing then. I can connect you with our compliance specialist if you want a guided walkthrough before you're in the thick of audit prep.",
+      "speaker_name": "Lisa Park",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 381.8,
+      "endTime": 390.3,
+      "averageConfidence": 0.94,
+      "index": 34
+    },
+    {
+      "sentence": "Yeah, actually, that would be useful. Maybe in June or so.",
+      "speaker_name": "Lauren Bishop",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 391.1,
+      "endTime": 395.2,
+      "averageConfidence": 0.91,
+      "index": 35
+    },
+    {
+      "sentence": "I'll make a note of that. Okay, so to recap what I'm taking away \u2014 I'll send the post-incident review for the Detect outage, I'll put together two renewal proposal options with pricing that reflects the expanded workload, and I'll pencil in a compliance walkthrough for sometime in June. Does that cover everything?",
+      "speaker_name": "Lisa Park",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 395.8,
+      "endTime": 414.1,
+      "averageConfidence": 0.94,
+      "index": 36
+    },
+    {
+      "sentence": "I think so. And if we decide to loop in the solutions architect on the Detect stuff, I'll reach out through you.",
+      "speaker_name": "Lauren Bishop",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 414.7,
+      "endTime": 422.6,
+      "averageConfidence": 0.92,
+      "index": 37
+    },
+    {
+      "sentence": "Absolutely, just ping me and I'll coordinate. What's a good turnaround for the proposal \u2014 does two weeks work, so around the 24th?",
+      "speaker_name": "Lisa Park",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 423.5,
+      "endTime": 431.8,
+      "averageConfidence": 0.95,
+      "index": 38
+    },
+    {
+      "sentence": "Yeah, that's fine. I probably won't get to it until the following week anyway, so that timing works.",
+      "speaker_name": "Lauren Bishop",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 432.3,
+      "endTime": 438.7,
+      "averageConfidence": 0.96,
+      "index": 39
+    },
+    {
+      "sentence": "Perfect. Alright, I'll let you get back to your Q2 planning chaos. Thanks again for the time, Lauren.",
+      "speaker_name": "Lisa Park",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 439.3,
+      "endTime": 445.8,
+      "averageConfidence": 0.89,
+      "index": 40
+    },
+    {
+      "sentence": "Thanks Lisa. Talk soon.",
+      "speaker_name": "Lauren Bishop",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 446.3,
+      "endTime": 447.8,
+      "averageConfidence": 0.9,
+      "index": 41
+    }
+  ]
+}

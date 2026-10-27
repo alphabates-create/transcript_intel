@@ -1,0 +1,434 @@
+{
+  "data": [
+    {
+      "sentence": "Alright, I think we've got everyone on now \u2014 Gerald, Dana, can you hear us okay?",
+      "speaker_name": "David Kim",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 6.0,
+      "endTime": 11.4,
+      "averageConfidence": 0.96,
+      "index": 0
+    },
+    {
+      "sentence": "Yep, loud and clear, David.",
+      "speaker_name": "Gerald Hutchins",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 12.2,
+      "endTime": 14.0,
+      "averageConfidence": 0.93,
+      "index": 1
+    },
+    {
+      "sentence": "Same here, good connection today.",
+      "speaker_name": "Dana Moretti",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 14.9,
+      "endTime": 16.6,
+      "averageConfidence": 0.95,
+      "index": 2
+    },
+    {
+      "sentence": "Great, and I also wanted to introduce Elena Vasquez, she's a senior support engineer here, she's been really deep in the Comply module so I pulled her in for this one.",
+      "speaker_name": "David Kim",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 17.0,
+      "endTime": 27.6,
+      "averageConfidence": 0.92,
+      "index": 3
+    },
+    {
+      "sentence": "Hi everyone, really happy to be on this call \u2014 Forge Industries is actually one of the accounts I've been keeping an eye on, so this is a great chance to connect directly.",
+      "speaker_name": "Elena Vasquez",
+      "sentimentType": "positive",
+      "speaker_id": 3,
+      "time": 28.8,
+      "endTime": 40.6,
+      "averageConfidence": 0.93,
+      "index": 4
+    },
+    {
+      "sentence": "Oh great, well we appreciate that, Elena. So yeah, I'm Gerald Hutchins, VP of IT here at Forge, and Dana is our Security Manager, she's really the one in the weeds on this.",
+      "speaker_name": "Gerald Hutchins",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 41.6,
+      "endTime": 52.9,
+      "averageConfidence": 0.9,
+      "index": 5
+    },
+    {
+      "sentence": "Yeah, hi \u2014 and honestly thank you guys for making time on short notice, I know we submitted the case just yesterday.",
+      "speaker_name": "Dana Moretti",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 54.3,
+      "endTime": 61.7,
+      "averageConfidence": 0.88,
+      "index": 6
+    },
+    {
+      "sentence": "Of course, that's what we're here for. So let me just pull up case 1993 real quick \u2014 okay, so it looks like the question is around Comply v2 and specifically early access. Dana, do you want to just walk us through what you're looking to do?",
+      "speaker_name": "David Kim",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 62.1,
+      "endTime": 78.5,
+      "averageConfidence": 0.91,
+      "index": 7
+    },
+    {
+      "sentence": "Sure, yeah. So, um, we've been on Aegis Comply for about eight months now and it's been really solid for us. But our compliance team \u2014 we report across multiple frameworks, we do SOC 2, we're getting into HIPAA because we've got a new healthcare adjacent part of the business, and then we have PCI requirements for some of our vendor payment processing. And right now, pulling reports for each of those is just... it's a lot of manual work.",
+      "speaker_name": "Dana Moretti",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 79.1,
+      "endTime": 107.1,
+      "averageConfidence": 0.96,
+      "index": 8
+    },
+    {
+      "sentence": "Right, yeah, that totally makes sense, especially juggling three frameworks at once.",
+      "speaker_name": "Elena Vasquez",
+      "sentimentType": "positive",
+      "speaker_id": 3,
+      "time": 107.9,
+      "endTime": 112.4,
+      "averageConfidence": 0.92,
+      "index": 9
+    },
+    {
+      "sentence": "Exactly. So we heard through, uh, I think it was a webinar or something, that there's a version two of Comply coming that has on-demand reporting across multiple frameworks. And we just \u2014 we really want to know if there's any way to get early access before the general release because our SOC 2 audit window is coming up and the timing would be really helpful.",
+      "speaker_name": "Dana Moretti",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 112.9,
+      "endTime": 136.1,
+      "averageConfidence": 0.92,
+      "index": 10
+    },
+    {
+      "sentence": "Yeah that's \u2014 and honestly I want to say, your timing on asking about this is really good.",
+      "speaker_name": "Elena Vasquez",
+      "sentimentType": "positive",
+      "speaker_id": 3,
+      "time": 137.6,
+      "endTime": 144.0,
+      "averageConfidence": 0.96,
+      "index": 11
+    },
+    {
+      "sentence": "Oh yeah?",
+      "speaker_name": "Gerald Hutchins",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 144.7,
+      "endTime": 146.2,
+      "averageConfidence": 0.89,
+      "index": 12
+    },
+    {
+      "sentence": "Yeah so, um, I can share \u2014 and David correct me if I'm misstating anything here \u2014 but Comply v2 is essentially locked and going through final QA right now. The GA launch is actually scheduled for April 7th, so that's like, what, four days from now.",
+      "speaker_name": "Elena Vasquez",
+      "sentimentType": "positive",
+      "speaker_id": 3,
+      "time": 147.5,
+      "endTime": 163.7,
+      "averageConfidence": 0.96,
+      "index": 13
+    },
+    {
+      "sentence": "That's right, April 7th is the date we have, it's been on the roadmap for a little while and the team is feeling really good about it.",
+      "speaker_name": "David Kim",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 164.0,
+      "endTime": 173.8,
+      "averageConfidence": 0.9,
+      "index": 14
+    },
+    {
+      "sentence": "Oh wow, okay, four days \u2014 Dana did you catch that?",
+      "speaker_name": "Gerald Hutchins",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 174.4,
+      "endTime": 178.1,
+      "averageConfidence": 0.94,
+      "index": 15
+    },
+    {
+      "sentence": "Yeah I \u2014 that's honestly better than I expected. So it's a full GA release, not just like a limited beta?",
+      "speaker_name": "Dana Moretti",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 178.6,
+      "endTime": 186.1,
+      "averageConfidence": 0.97,
+      "index": 16
+    },
+    {
+      "sentence": "Full GA, available to all existing Comply customers. And the on-demand reporting piece \u2014 that's going to cover SOC 2, PCI DSS, HIPAA, and ISO 27001 right out of the gate. So your use case, Dana, honestly checks every box.",
+      "speaker_name": "Elena Vasquez",
+      "sentimentType": "positive",
+      "speaker_id": 3,
+      "time": 187.4,
+      "endTime": 201.7,
+      "averageConfidence": 0.89,
+      "index": 17
+    },
+    {
+      "sentence": "That's \u2014 okay, that's really exciting actually. Because we were almost starting to look at whether we needed a separate point solution just for the HIPAA piece and this would obviously be way cleaner to keep it all in one platform.",
+      "speaker_name": "Dana Moretti",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 202.6,
+      "endTime": 216.7,
+      "averageConfidence": 0.9,
+      "index": 18
+    },
+    {
+      "sentence": "Yeah absolutely, and that's kind of the whole vision behind v2 \u2014 consolidating that audit prep workflow so you're not bouncing between tools or doing a ton of manual exports. You essentially set up your framework mappings and then you can generate a report on demand whenever your auditor asks for it.",
+      "speaker_name": "Elena Vasquez",
+      "sentimentType": "positive",
+      "speaker_id": 3,
+      "time": 218.0,
+      "endTime": 236.4,
+      "averageConfidence": 0.94,
+      "index": 19
+    },
+    {
+      "sentence": "Can I ask a kind of dumb question \u2014 when you say on-demand, does that mean like, real-time? Or is there still some processing lag?",
+      "speaker_name": "Gerald Hutchins",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 237.8,
+      "endTime": 246.8,
+      "averageConfidence": 0.96,
+      "index": 20
+    },
+    {
+      "sentence": "That's not a dumb question at all, it's actually a really common one. So the underlying data is continuously synced, so when you generate a report it's pulling from current state. There may be, you know, a minute or two of rendering time depending on the scope of what you're pulling, but it's not like a 24-hour batch job or anything like that.",
+      "speaker_name": "Elena Vasquez",
+      "sentimentType": "positive",
+      "speaker_id": 3,
+      "time": 247.5,
+      "endTime": 269.9,
+      "averageConfidence": 0.9,
+      "index": 21
+    },
+    {
+      "sentence": "Okay great, that's what I was hoping to hear.",
+      "speaker_name": "Gerald Hutchins",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 270.8,
+      "endTime": 273.8,
+      "averageConfidence": 0.94,
+      "index": 22
+    },
+    {
+      "sentence": "And just to add to that \u2014 one of the things that came with v2 is also better evidence collection. So it's not just generating the summary report, it's actually attaching the relevant log references and control evidence inline, which is something auditors have been asking for.",
+      "speaker_name": "David Kim",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 274.8,
+      "endTime": 291.4,
+      "averageConfidence": 0.97,
+      "index": 23
+    },
+    {
+      "sentence": "Oh that is huge. Our last SOC 2 audit, we spent \u2014 I don't even want to say how many hours just pulling evidence artifacts together manually.",
+      "speaker_name": "Dana Moretti",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 291.7,
+      "endTime": 301.6,
+      "averageConfidence": 0.93,
+      "index": 24
+    },
+    {
+      "sentence": "Yeah that's one of the biggest pain points we hear from compliance teams honestly.",
+      "speaker_name": "Elena Vasquez",
+      "sentimentType": "positive",
+      "speaker_id": 3,
+      "time": 302.9,
+      "endTime": 308.0,
+      "averageConfidence": 0.94,
+      "index": 25
+    },
+    {
+      "sentence": "So okay, back to the original question \u2014 since we're only four days out, is there anything we should be doing to prepare, or does the upgrade happen automatically for our tenant?",
+      "speaker_name": "Dana Moretti",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 308.6,
+      "endTime": 319.9,
+      "averageConfidence": 0.9,
+      "index": 26
+    },
+    {
+      "sentence": "Good question. So the v2 update will roll out automatically for existing customers, but there are a few configuration steps you'll want to do on your side to take full advantage of the multi-framework features. Specifically you'll need to go into the Comply settings and, um, map your existing controls to the new framework templates \u2014 v2 has a migration assistant for this that'll try to auto-map based on your current setup, but you'll want to review it.",
+      "speaker_name": "Elena Vasquez",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 320.6,
+      "endTime": 347.9,
+      "averageConfidence": 0.94,
+      "index": 27
+    },
+    {
+      "sentence": "Is there documentation for that process, or like a walkthrough?",
+      "speaker_name": "Dana Moretti",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 348.5,
+      "endTime": 352.5,
+      "averageConfidence": 0.9,
+      "index": 28
+    },
+    {
+      "sentence": "Yes, there's going to be a full v2 migration guide published in the knowledge base on the 7th alongside the release, and we're also planning a customer webinar \u2014 David, what's the date on that?",
+      "speaker_name": "Elena Vasquez",
+      "sentimentType": "positive",
+      "speaker_id": 3,
+      "time": 353.6,
+      "endTime": 365.9,
+      "averageConfidence": 0.89,
+      "index": 29
+    },
+    {
+      "sentence": "I believe it's April 10th, a Thursday, I can send you both the invite after this call if that's helpful.",
+      "speaker_name": "David Kim",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 366.5,
+      "endTime": 373.9,
+      "averageConfidence": 0.92,
+      "index": 30
+    },
+    {
+      "sentence": "Please do, yeah. And actually can you send it to a couple people on my team? I've got two compliance analysts who are going to be the primary users on this.",
+      "speaker_name": "Dana Moretti",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 375.2,
+      "endTime": 386.0,
+      "averageConfidence": 0.88,
+      "index": 31
+    },
+    {
+      "sentence": "Absolutely, just shoot me an email with their addresses and I'll get them added.",
+      "speaker_name": "David Kim",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 386.5,
+      "endTime": 391.4,
+      "averageConfidence": 0.96,
+      "index": 32
+    },
+    {
+      "sentence": "Perfect. Okay and \u2014 sorry, one more thing, this might be a little out of scope for this call but \u2014 we had been thinking about requesting some features around, um, custom control labeling within the reports. Like being able to tag controls with our internal policy numbers. Is that something v2 supports or is that more of a future roadmap item?",
+      "speaker_name": "Dana Moretti",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 392.1,
+      "endTime": 413.8,
+      "averageConfidence": 0.93,
+      "index": 33
+    },
+    {
+      "sentence": "Ooh, that's a good one. So, um, v2 does have a custom metadata field option for controls \u2014 I don't want to overcommit on exactly how flexible it is but I believe you can add custom tags and labels. I'd want to double-check the specifics and follow up with you in writing so you know exactly what's supported.",
+      "speaker_name": "Elena Vasquez",
+      "sentimentType": "positive",
+      "speaker_id": 3,
+      "time": 415.0,
+      "endTime": 435.8,
+      "averageConfidence": 0.91,
+      "index": 34
+    },
+    {
+      "sentence": "Yeah that would be great, even if it's partial support that would be a huge improvement for us.",
+      "speaker_name": "Dana Moretti",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 437.1,
+      "endTime": 443.7,
+      "averageConfidence": 0.94,
+      "index": 35
+    },
+    {
+      "sentence": "And if it turns out there are gaps there, I'd love to formally log that as a feature request with the product team \u2014 that kind of internal policy cross-referencing is actually something I could see a lot of enterprise customers wanting.",
+      "speaker_name": "Elena Vasquez",
+      "sentimentType": "positive",
+      "speaker_id": 3,
+      "time": 444.8,
+      "endTime": 459.6,
+      "averageConfidence": 0.91,
+      "index": 36
+    },
+    {
+      "sentence": "Please do, yeah. We'd love to be part of that conversation if there's ever a beta or feedback group for that.",
+      "speaker_name": "Gerald Hutchins",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 461.0,
+      "endTime": 468.3,
+      "averageConfidence": 0.94,
+      "index": 37
+    },
+    {
+      "sentence": "Noted, and honestly Forge Industries would be a great reference customer for that kind of feature given how many frameworks you're operating across. I'll make a note of that.",
+      "speaker_name": "Elena Vasquez",
+      "sentimentType": "positive",
+      "speaker_id": 3,
+      "time": 468.8,
+      "endTime": 479.1,
+      "averageConfidence": 0.92,
+      "index": 38
+    },
+    {
+      "sentence": "Awesome. Okay I think that actually covers everything we came into this call with, and then some. David, Elena \u2014 this was super helpful, we really appreciate you both.",
+      "speaker_name": "Gerald Hutchins",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 479.7,
+      "endTime": 490.2,
+      "averageConfidence": 0.93,
+      "index": 39
+    },
+    {
+      "sentence": "Of course, glad we could help. I'll send over the webinar invite and follow up on the custom labeling question by end of week. Don't hesitate to reach back out through the case if anything else comes up before the 7th.",
+      "speaker_name": "David Kim",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 491.3,
+      "endTime": 506.1,
+      "averageConfidence": 0.96,
+      "index": 40
+    },
+    {
+      "sentence": "Will do. Thanks everyone, talk soon.",
+      "speaker_name": "Dana Moretti",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 507.6,
+      "endTime": 509.9,
+      "averageConfidence": 0.9,
+      "index": 41
+    },
+    {
+      "sentence": "Thanks, have a good one!",
+      "speaker_name": "Elena Vasquez",
+      "sentimentType": "positive",
+      "speaker_id": 3,
+      "time": 510.5,
+      "endTime": 512.6,
+      "averageConfidence": 0.96,
+      "index": 42
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "summary": "This was an onboarding kickoff call for Aegis Identity with Victor Zheng and Olivia Strand as the new customers, joined by James Mitchell (account manager) and Ananya Sharma (senior engineer, technical point of contact). The customer is migrating from Okta and their primary goals are consolidating SSO across eight tools and implementing more granular MFA and conditional access policies, particularly for contractor vs. full-time employee differentiation. Ananya outlined a two-to-three week timeline for baseline SSO configuration and MFA rollout, faster than the customer anticipated. Next steps were clearly established, including Victor completing Okta API token setup and a user attribute mapping template before scheduling a live working session.",
+  "actionItems": [
+    "Victor Zheng: Complete the Okta API token request and fill out the user attribute mapping template by end of next week",
+    "Ananya Sharma: Send Okta API token request guide and user attribute mapping template to Victor this afternoon",
+    "Ananya Sharma: Create and share a project milestone tracking document with the team",
+    "Victor Zheng: Schedule a 90-minute working session with Ananya for the Okta connector setup after completing prerequisites"
+  ],
+  "topics": [
+    "onboarding",
+    "sso configuration",
+    "mfa policy",
+    "identity access management",
+    "contractor access controls",
+    "okta migration"
+  ],
+  "overallSentiment": "very-positive",
+  "sentimentScore": 4.8,
+  "keyMoments": [
+    {
+      "time": 95.0,
+      "text": "Victor expresses frustration with Okta's clunky MFA policy management and contractor provisioning issues, revealing pain points driving the migration.",
+      "type": "concern",
+      "speaker": "Victor Zheng"
+    },
+    {
+      "time": 160.0,
+      "text": "Olivia confirms contractor access differentiation directly addresses a finding from a recent security review, validating the business case for the implementation.",
+      "type": "positive_pivot",
+      "speaker": "Olivia Strand"
+    },
+    {
+      "time": 390.0,
+      "text": "Ananya confirms all seven third-party tools have prebuilt connectors and projects SSO can go live across all eight apps within two weeks, well ahead of the customer's six-week estimate.",
+      "type": "praise",
+      "speaker": "Ananya Sharma"
+    },
+    {
+      "time": 530.0,
+      "text": "Olivia highlights that Aegis Identity's per-app, per-group MFA method enforcement is functionality they could not achieve with Okta, reinforcing product differentiation.",
+      "type": "feature_gap",
+      "speaker": "Olivia Strand"
+    }
+  ],
+  "meetingId": "01KQC3A2EBC501837E973B16"
+}

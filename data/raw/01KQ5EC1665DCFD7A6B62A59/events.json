@@ -1,0 +1,38 @@
+[
+  {
+    "participantName": "Vanessa Cruz",
+    "timestamp": 1774797320000,
+    "type": "Join",
+    "time": 20.0
+  },
+  {
+    "participantName": "Marcus Williams",
+    "timestamp": 1774797349000,
+    "type": "Join",
+    "time": 49.0
+  },
+  {
+    "participantName": "Elena Vasquez",
+    "timestamp": 1774797352000,
+    "type": "Join",
+    "time": 52.0
+  },
+  {
+    "participantName": "Marcus Williams",
+    "timestamp": 1774797898000,
+    "type": "Leave",
+    "time": 598.0
+  },
+  {
+    "participantName": "Elena Vasquez",
+    "timestamp": 1774797883000,
+    "type": "Leave",
+    "time": 583.0
+  },
+  {
+    "participantName": "Vanessa Cruz",
+    "timestamp": 1774797893000,
+    "type": "Leave",
+    "time": 593.0
+  }
+]

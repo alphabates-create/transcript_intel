@@ -1,0 +1,46 @@
+{
+  "summary": "Aisha Johnson (Aegis) spoke with Kendra Wallace (Brightpath) about the state of their security vendor relationship, which has been under strain following a six-hour Aegis Detect outage in March. Kendra disclosed that Brightpath has been actively evaluating SentinelShield as an alternative, driven by the outage and pre-existing alert fatigue concerns with Aegis Detect. Despite concerns about Detect, Kendra expressed satisfaction with Aegis Protect and the newly launched Comply v2 module. The call concluded with an agreement to hold a technical session in early May, bringing in Aegis engineers to address Detect reliability and alert tuning before a mid-May decision deadline ahead of the July contract renewal.",
+  "actionItems": [
+    "Aisha Johnson: Send follow-up email today summarizing the technical session plan, timeline, and Priya's contact information",
+    "Aisha Johnson: Share the real engineering post-mortem and architecture change documentation (non-marketing version) with Kendra for Priya to review before the session",
+    "Aisha Johnson: Organize a technical session in early May with the Detect engineering lead (no sales slides, live architecture and config walkthrough)",
+    "Kendra Wallace: Connect Priya (lead engineer) with Aisha to schedule the technical session and prepare questions"
+  ],
+  "topics": [
+    "churn risk",
+    "outage post-mortem",
+    "competitor evaluation",
+    "alert fatigue",
+    "contract renewal",
+    "compliance"
+  ],
+  "overallSentiment": "mixed-negative",
+  "sentimentScore": 2.6,
+  "keyMoments": [
+    {
+      "time": 78.0,
+      "text": "Kendra reveals Brightpath has been conducting a six-week security vendor evaluation and is seriously considering SentinelShield",
+      "type": "churn_signal",
+      "speaker": "Kendra Wallace"
+    },
+    {
+      "time": 182.0,
+      "text": "Kendra describes the March six-hour threat monitoring outage and its impact on a 24/7 retail transaction environment, calling it very hard to move past",
+      "type": "concern",
+      "speaker": "Kendra Wallace"
+    },
+    {
+      "time": 520.0,
+      "text": "Kendra praises Comply v2, noting it saved her compliance team approximately two days of work when generating an on-demand SOC 2 report",
+      "type": "praise",
+      "speaker": "Kendra Wallace"
+    },
+    {
+      "time": 680.0,
+      "text": "Aisha proposes a dedicated technical session with Aegis engineering leads using real architecture diagrams and Brightpath's actual config \u2014 no sales demo",
+      "type": "positive_pivot",
+      "speaker": "Aisha Johnson"
+    }
+  ],
+  "meetingId": "01KQ45F6F7349D0A620571F1"
+}

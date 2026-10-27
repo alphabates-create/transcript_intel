@@ -1,0 +1,50 @@
+[
+  {
+    "participantName": "Priya Patel",
+    "timestamp": 1771417802000,
+    "type": "Join",
+    "time": 2.0
+  },
+  {
+    "participantName": "Raymond Burke",
+    "timestamp": 1771417812000,
+    "type": "Join",
+    "time": 12.0
+  },
+  {
+    "participantName": "Dr. Linda Cheng",
+    "timestamp": 1771417818000,
+    "type": "Join",
+    "time": 18.0
+  },
+  {
+    "participantName": "Sarah Chen",
+    "timestamp": 1771417829000,
+    "type": "Join",
+    "time": 29.0
+  },
+  {
+    "participantName": "Sarah Chen",
+    "timestamp": 1771419581000,
+    "type": "Leave",
+    "time": 1781.0
+  },
+  {
+    "participantName": "Priya Patel",
+    "timestamp": 1771419557000,
+    "type": "Leave",
+    "time": 1757.0
+  },
+  {
+    "participantName": "Dr. Linda Cheng",
+    "timestamp": 1771419576000,
+    "type": "Leave",
+    "time": 1776.0
+  },
+  {
+    "participantName": "Raymond Burke",
+    "timestamp": 1771419554000,
+    "type": "Leave",
+    "time": 1754.0
+  }
+]

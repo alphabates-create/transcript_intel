@@ -1,0 +1,444 @@
+{
+  "data": [
+    {
+      "sentence": "Alright, I think everyone's on \u2014 Diana, Nina, Tyler, you guys can hear me okay?",
+      "speaker_name": "Ravi Gupta",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 6.9,
+      "endTime": 12.6,
+      "averageConfidence": 0.9,
+      "index": 0
+    },
+    {
+      "sentence": "Yep, loud and clear.",
+      "speaker_name": "Nina Kowalski",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 13.7,
+      "endTime": 15.5,
+      "averageConfidence": 0.88,
+      "index": 1
+    },
+    {
+      "sentence": "Good here.",
+      "speaker_name": "Tyler Washington",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 16.5,
+      "endTime": 18.0,
+      "averageConfidence": 0.9,
+      "index": 2
+    },
+    {
+      "sentence": "I'm on, just grabbing my coffee real quick \u2014 okay, go ahead.",
+      "speaker_name": "Diana Reeves",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 19.1,
+      "endTime": 23.3,
+      "averageConfidence": 0.94,
+      "index": 3
+    },
+    {
+      "sentence": "Ha, same. Okay so, uh, really the reason I pulled everyone together today is we need to do a final walk-through of the SOC 2 Type II materials before we hand them off to the auditors, and honestly I'm \u2014 I'm feeling pretty good about where we landed.",
+      "speaker_name": "Ravi Gupta",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 23.9,
+      "endTime": 40.9,
+      "averageConfidence": 0.93,
+      "index": 4
+    },
+    {
+      "sentence": "Yeah, I was looking at the Comply v2 exports this morning and I have to say, like, the on-demand reporting is just \u2014 it's night and day compared to what we were doing manually before.",
+      "speaker_name": "Nina Kowalski",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 41.5,
+      "endTime": 54.1,
+      "averageConfidence": 0.93,
+      "index": 5
+    },
+    {
+      "sentence": "Right? I remember we used to spend like two weeks pulling evidence packages together and now it's just... click, done.",
+      "speaker_name": "Tyler Washington",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 54.6,
+      "endTime": 61.5,
+      "averageConfidence": 0.95,
+      "index": 6
+    },
+    {
+      "sentence": "I mean, that's genuinely what I'm going to tell customers when they ask about the April launch \u2014 like, this is the thing that changes the audit prep conversation completely.",
+      "speaker_name": "Diana Reeves",
+      "sentimentType": "positive",
+      "speaker_id": 3,
+      "time": 62.1,
+      "endTime": 73.0,
+      "averageConfidence": 0.94,
+      "index": 7
+    },
+    {
+      "sentence": "Totally agree. Okay so let me share my screen \u2014 give me one sec \u2014 alright, can everyone see the evidence package summary?",
+      "speaker_name": "Ravi Gupta",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 73.5,
+      "endTime": 82.0,
+      "averageConfidence": 0.95,
+      "index": 8
+    },
+    {
+      "sentence": "Yep, got it.",
+      "speaker_name": "Nina Kowalski",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 82.4,
+      "endTime": 84.0,
+      "averageConfidence": 0.92,
+      "index": 9
+    },
+    {
+      "sentence": "Mhm, I can see it.",
+      "speaker_name": "Tyler Washington",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 84.6,
+      "endTime": 86.1,
+      "averageConfidence": 0.9,
+      "index": 10
+    },
+    {
+      "sentence": "So, the big sections are \u2014 availability controls, change management, logical access, and then incident response. And I want to walk through each one but I also, um, I want to flag the incident response section specifically because of the March outage.",
+      "speaker_name": "Ravi Gupta",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 87.4,
+      "endTime": 102.2,
+      "averageConfidence": 0.9,
+      "index": 11
+    },
+    {
+      "sentence": "Yeah, I was going to ask about that. How are we \u2014 how are we framing the Detect outage in the documentation?",
+      "speaker_name": "Diana Reeves",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 102.7,
+      "endTime": 110.3,
+      "averageConfidence": 0.9,
+      "index": 12
+    },
+    {
+      "sentence": "So that's actually something Tyler and I worked through last week, and I think we landed in a really good place \u2014 like, we're being fully transparent about the six hours of monitoring visibility loss, but we're also showing the complete remediation arc. Redundant nodes, the circuit breaker implementation, post-incident review docs, all of it.",
+      "speaker_name": "Ravi Gupta",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 110.7,
+      "endTime": 129.9,
+      "averageConfidence": 0.93,
+      "index": 13
+    },
+    {
+      "sentence": "Yeah and honestly, from a controls narrative standpoint, auditors typically respond well when you can show a clear before-and-after. Like here's the gap, here's what we did, here's the evidence that it's fixed. That's a mature posture.",
+      "speaker_name": "Tyler Washington",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 130.9,
+      "endTime": 143.8,
+      "averageConfidence": 0.89,
+      "index": 14
+    },
+    {
+      "sentence": "I completely agree with that framing. And Diana, from a customer-facing perspective, if this comes up in any account conversations, that's exactly the story \u2014 we identified a single point of failure, we fixed it comprehensively, and we have the audit trail to prove it.",
+      "speaker_name": "Nina Kowalski",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 144.4,
+      "endTime": 159.9,
+      "averageConfidence": 0.92,
+      "index": 15
+    },
+    {
+      "sentence": "Good, yeah. I'll be honest, I was a little nervous about how the auditors would receive that section but hearing you frame it that way, Tyler, that makes me feel a lot better.",
+      "speaker_name": "Diana Reeves",
+      "sentimentType": "positive",
+      "speaker_id": 3,
+      "time": 161.1,
+      "endTime": 172.9,
+      "averageConfidence": 0.94,
+      "index": 16
+    },
+    {
+      "sentence": "Yeah, I think we're in good shape. Okay, so let me jump to the logical access section \u2014 this is where Aegis Identity really shines in our own dogfooding. We've got full MFA enforcement documented, SSO logs going back the full audit window, access review records quarterly.",
+      "speaker_name": "Ravi Gupta",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 173.7,
+      "endTime": 190.1,
+      "averageConfidence": 0.9,
+      "index": 17
+    },
+    {
+      "sentence": "Oh, and the deprovisioning logs \u2014 I want to make sure those are in there. That was a gap finding from our last Type I.",
+      "speaker_name": "Nina Kowalski",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 191.1,
+      "endTime": 200.2,
+      "averageConfidence": 0.95,
+      "index": 18
+    },
+    {
+      "sentence": "Yep, already in there. I specifically made sure of that. You can see it \u2014 section 4.3, employee offboarding workflow with timestamps.",
+      "speaker_name": "Tyler Washington",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 201.1,
+      "endTime": 208.9,
+      "averageConfidence": 0.92,
+      "index": 19
+    },
+    {
+      "sentence": "Oh nice, okay. Yeah that's \u2014 that's going to close out that finding cleanly.",
+      "speaker_name": "Nina Kowalski",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 209.6,
+      "endTime": 214.7,
+      "averageConfidence": 0.93,
+      "index": 20
+    },
+    {
+      "sentence": "Good catch on that, Nina. Okay, change management \u2014 this one I'm most proud of honestly. We have full CI/CD pipeline logs, peer review approvals, the deployment freeze records from the March incident window. It's very complete.",
+      "speaker_name": "Ravi Gupta",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 216.0,
+      "endTime": 229.0,
+      "averageConfidence": 0.93,
+      "index": 21
+    },
+    {
+      "sentence": "Can I ask a quick question about the Comply v2 export format? Because I want to understand \u2014 when the auditor pulls this, is it like a static PDF or is it a live link?",
+      "speaker_name": "Diana Reeves",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 230.1,
+      "endTime": 242.6,
+      "averageConfidence": 0.95,
+      "index": 22
+    },
+    {
+      "sentence": "So it's \u2014 great question. The export is a point-in-time PDF with a hash for verification, but you can also generate a new one on demand if they want a refreshed snapshot. So it's not like a stale document sitting there.",
+      "speaker_name": "Ravi Gupta",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 243.4,
+      "endTime": 257.6,
+      "averageConfidence": 0.92,
+      "index": 23
+    },
+    {
+      "sentence": "Oh that's actually really elegant. Because the last audit we did, the auditor kept coming back with 'oh can I get an updated version of this' and it was just \u2014 it was painful.",
+      "speaker_name": "Diana Reeves",
+      "sentimentType": "positive",
+      "speaker_id": 3,
+      "time": 258.3,
+      "endTime": 270.1,
+      "averageConfidence": 0.9,
+      "index": 24
+    },
+    {
+      "sentence": "Ha, yes \u2014 that's exactly the problem Comply v2 was designed to solve. Like, that pain point is the whole origin story of that feature.",
+      "speaker_name": "Tyler Washington",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 270.7,
+      "endTime": 279.7,
+      "averageConfidence": 0.88,
+      "index": 25
+    },
+    {
+      "sentence": "Okay, I want to flag one thing on availability \u2014 and this is minor, but I want to make sure we address it before submission. The uptime SLA documentation references 99.9% availability, but during the March window we were technically below that for Detect. Are we annotating that?",
+      "speaker_name": "Nina Kowalski",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 280.5,
+      "endTime": 297.8,
+      "averageConfidence": 0.94,
+      "index": 26
+    },
+    {
+      "sentence": "Yeah, so \u2014 I'm glad you brought that up. We have a separate exception note with the incident report attached. Auditors expect exceptions to be documented, not hidden. And we actually came in above 99.9 for the full audit period across all other services, so the overall availability story is still very strong.",
+      "speaker_name": "Ravi Gupta",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 298.4,
+      "endTime": 317.0,
+      "averageConfidence": 0.91,
+      "index": 27
+    },
+    {
+      "sentence": "Got it, okay. I just wanted to make sure it wasn't buried. As long as it's clearly cross-referenced I'm happy.",
+      "speaker_name": "Nina Kowalski",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 318.2,
+      "endTime": 325.2,
+      "averageConfidence": 0.92,
+      "index": 28
+    },
+    {
+      "sentence": "It is, yeah. I'll send you the specific page reference after this call so you can verify.",
+      "speaker_name": "Ravi Gupta",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 326.0,
+      "endTime": 332.2,
+      "averageConfidence": 0.89,
+      "index": 29
+    },
+    {
+      "sentence": "Perfect. And can we talk about timeline? When are we actually submitting this to the auditors?",
+      "speaker_name": "Diana Reeves",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 333.6,
+      "endTime": 339.1,
+      "averageConfidence": 0.91,
+      "index": 30
+    },
+    {
+      "sentence": "So the plan is to get Nina's final QA sign-off by Wednesday, I'll do one last pass on the evidence package Thursday morning, and then we submit Thursday afternoon. Auditors have us in their queue for the week of April 27th.",
+      "speaker_name": "Ravi Gupta",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 339.7,
+      "endTime": 354.5,
+      "averageConfidence": 0.9,
+      "index": 31
+    },
+    {
+      "sentence": "Wednesday is tight for me but doable. I just need to make sure I have access to the final Comply export \u2014 Tyler, can you make sure I'm provisioned on the reporting module?",
+      "speaker_name": "Nina Kowalski",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 355.4,
+      "endTime": 367.3,
+      "averageConfidence": 0.93,
+      "index": 32
+    },
+    {
+      "sentence": "Already done, actually. I added you this morning. You should have gotten an email.",
+      "speaker_name": "Tyler Washington",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 368.4,
+      "endTime": 373.6,
+      "averageConfidence": 0.97,
+      "index": 33
+    },
+    {
+      "sentence": "Oh! Yeah, I see it now. Okay great, that's super helpful, thank you.",
+      "speaker_name": "Nina Kowalski",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 375.0,
+      "endTime": 379.5,
+      "averageConfidence": 0.89,
+      "index": 34
+    },
+    {
+      "sentence": "Awesome. Diana, from your side, is there anything the CS team needs from this package? Like, are there customer-facing commitments that are dependent on us getting the Type II cert?",
+      "speaker_name": "Ravi Gupta",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 380.7,
+      "endTime": 391.6,
+      "averageConfidence": 0.94,
+      "index": 35
+    },
+    {
+      "sentence": "Yes, actually \u2014 we have three enterprise prospects who've asked for SOC 2 Type II as a procurement requirement, and two existing customers who have it in their renewal terms. So getting the report by end of May is pretty critical for us commercially.",
+      "speaker_name": "Diana Reeves",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 392.0,
+      "endTime": 407.2,
+      "averageConfidence": 0.96,
+      "index": 36
+    },
+    {
+      "sentence": "Okay, that's helpful context. I don't think we're at risk on that timeline at all \u2014 if we submit Thursday and the audit window is the week of the 27th, we should have the report well before end of May.",
+      "speaker_name": "Ravi Gupta",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 407.6,
+      "endTime": 421.6,
+      "averageConfidence": 0.96,
+      "index": 37
+    },
+    {
+      "sentence": "That's a relief. I'll let those accounts know we're on track. Honestly, this whole process has been so much smoother than I expected \u2014 like, last year's audit was just a nightmare in comparison.",
+      "speaker_name": "Diana Reeves",
+      "sentimentType": "positive",
+      "speaker_id": 3,
+      "time": 422.3,
+      "endTime": 434.1,
+      "averageConfidence": 0.9,
+      "index": 38
+    },
+    {
+      "sentence": "Well, and that's honestly a credit to everyone on this call. Ravi, you've been driving this thing relentlessly, Tyler the technical documentation is rock solid, Nina your QA process caught things we would have been embarrassed to submit. It's just \u2014 yeah, it's been a good team effort.",
+      "speaker_name": "Nina Kowalski",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 435.5,
+      "endTime": 452.3,
+      "averageConfidence": 0.9,
+      "index": 39
+    },
+    {
+      "sentence": "Aw, thanks Nina. Okay, I think we've covered everything \u2014 let me just recap the actions real quick: Nina signs off by Wednesday, I finalize Thursday morning, Tyler you're on standby for any last-minute evidence questions, and Diana you'll hold comms with the auditor contact. Everyone good?",
+      "speaker_name": "Ravi Gupta",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 453.2,
+      "endTime": 469.4,
+      "averageConfidence": 0.94,
+      "index": 40
+    },
+    {
+      "sentence": "Good with me.",
+      "speaker_name": "Tyler Washington",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 469.8,
+      "endTime": 471.3,
+      "averageConfidence": 0.96,
+      "index": 41
+    },
+    {
+      "sentence": "Yep, sounds great. Excited to get this across the finish line.",
+      "speaker_name": "Nina Kowalski",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 472.7,
+      "endTime": 476.4,
+      "averageConfidence": 0.96,
+      "index": 42
+    },
+    {
+      "sentence": "Same. Thanks everyone, this was a great call.",
+      "speaker_name": "Diana Reeves",
+      "sentimentType": "positive",
+      "speaker_id": 3,
+      "time": 477.4,
+      "endTime": 480.6,
+      "averageConfidence": 0.95,
+      "index": 43
+    }
+  ]
+}

@@ -1,0 +1,202 @@
+[
+  {
+    "speakerName": "Raj Kapoor",
+    "timestamp": 6.5,
+    "endTimeTs": 14.5
+  },
+  {
+    "speakerName": "Diana Reeves",
+    "timestamp": 15.4,
+    "endTimeTs": 20.7
+  },
+  {
+    "speakerName": "Raj Kapoor",
+    "timestamp": 21.5,
+    "endTimeTs": 30.4
+  },
+  {
+    "speakerName": "Megan Lawson",
+    "timestamp": 31.7,
+    "endTimeTs": 49.3
+  },
+  {
+    "speakerName": "Raj Kapoor",
+    "timestamp": 50.3,
+    "endTimeTs": 53.9
+  },
+  {
+    "speakerName": "Megan Lawson",
+    "timestamp": 55.0,
+    "endTimeTs": 72.5
+  },
+  {
+    "speakerName": "Raj Kapoor",
+    "timestamp": 73.2,
+    "endTimeTs": 79.1
+  },
+  {
+    "speakerName": "Nina Kowalski",
+    "timestamp": 80.0,
+    "endTimeTs": 98.6
+  },
+  {
+    "speakerName": "Raj Kapoor",
+    "timestamp": 99.0,
+    "endTimeTs": 104.4
+  },
+  {
+    "speakerName": "Nina Kowalski",
+    "timestamp": 105.2,
+    "endTimeTs": 117.9
+  },
+  {
+    "speakerName": "Raj Kapoor",
+    "timestamp": 118.4,
+    "endTimeTs": 129.3
+  },
+  {
+    "speakerName": "Nina Kowalski",
+    "timestamp": 130.7,
+    "endTimeTs": 138.4
+  },
+  {
+    "speakerName": "Raj Kapoor",
+    "timestamp": 139.5,
+    "endTimeTs": 147.6
+  },
+  {
+    "speakerName": "Diana Reeves",
+    "timestamp": 149.0,
+    "endTimeTs": 161.4
+  },
+  {
+    "speakerName": "Megan Lawson",
+    "timestamp": 161.8,
+    "endTimeTs": 164.0
+  },
+  {
+    "speakerName": "Diana Reeves",
+    "timestamp": 165.0,
+    "endTimeTs": 179.7
+  },
+  {
+    "speakerName": "Megan Lawson",
+    "timestamp": 180.1,
+    "endTimeTs": 188.1
+  },
+  {
+    "speakerName": "Diana Reeves",
+    "timestamp": 188.8,
+    "endTimeTs": 204.1
+  },
+  {
+    "speakerName": "Raj Kapoor",
+    "timestamp": 204.9,
+    "endTimeTs": 208.4
+  },
+  {
+    "speakerName": "Diana Reeves",
+    "timestamp": 209.5,
+    "endTimeTs": 218.4
+  },
+  {
+    "speakerName": "Raj Kapoor",
+    "timestamp": 219.8,
+    "endTimeTs": 230.6
+  },
+  {
+    "speakerName": "Megan Lawson",
+    "timestamp": 231.6,
+    "endTimeTs": 249.0
+  },
+  {
+    "speakerName": "Raj Kapoor",
+    "timestamp": 249.9,
+    "endTimeTs": 253.0
+  },
+  {
+    "speakerName": "Megan Lawson",
+    "timestamp": 253.3,
+    "endTimeTs": 263.0
+  },
+  {
+    "speakerName": "Raj Kapoor",
+    "timestamp": 264.4,
+    "endTimeTs": 274.5
+  },
+  {
+    "speakerName": "Megan Lawson",
+    "timestamp": 275.0,
+    "endTimeTs": 276.5
+  },
+  {
+    "speakerName": "Raj Kapoor",
+    "timestamp": 277.3,
+    "endTimeTs": 282.8
+  },
+  {
+    "speakerName": "Nina Kowalski",
+    "timestamp": 283.1,
+    "endTimeTs": 305.5
+  },
+  {
+    "speakerName": "Raj Kapoor",
+    "timestamp": 306.6,
+    "endTimeTs": 313.6
+  },
+  {
+    "speakerName": "Nina Kowalski",
+    "timestamp": 314.9,
+    "endTimeTs": 317.8
+  },
+  {
+    "speakerName": "Raj Kapoor",
+    "timestamp": 318.4,
+    "endTimeTs": 330.2
+  },
+  {
+    "speakerName": "Megan Lawson",
+    "timestamp": 331.2,
+    "endTimeTs": 344.7
+  },
+  {
+    "speakerName": "Raj Kapoor",
+    "timestamp": 345.5,
+    "endTimeTs": 353.8
+  },
+  {
+    "speakerName": "Diana Reeves",
+    "timestamp": 354.7,
+    "endTimeTs": 371.3
+  },
+  {
+    "speakerName": "Raj Kapoor",
+    "timestamp": 372.0,
+    "endTimeTs": 382.5
+  },
+  {
+    "speakerName": "Megan Lawson",
+    "timestamp": 383.0,
+    "endTimeTs": 387.0
+  },
+  {
+    "speakerName": "Raj Kapoor",
+    "timestamp": 387.9,
+    "endTimeTs": 393.5
+  },
+  {
+    "speakerName": "Nina Kowalski",
+    "timestamp": 394.3,
+    "endTimeTs": 395.8
+  },
+  {
+    "speakerName": "Diana Reeves",
+    "timestamp": 396.2,
+    "endTimeTs": 398.1
+  },
+  {
+    "speakerName": "Raj Kapoor",
+    "timestamp": 398.5,
+    "endTimeTs": 405.2
+  }
+]

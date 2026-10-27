@@ -1,0 +1,21 @@
+{
+  "meetingId": "01KQ2331EFD78BF3B1CAB747",
+  "title": "Detect Outage - Customer Impact Assessment",
+  "organizerEmail": "lisa.park@aegiscloud.com",
+  "host": "lisa.park@aegiscloud.com",
+  "startTime": "2026-03-12T13:45:00.000Z",
+  "endTime": "2026-03-12T14:33:00.000Z",
+  "duration": 48.0,
+  "allEmails": [
+    "lisa.park@aegiscloud.com",
+    "priya.patel@aegiscloud.com",
+    "diana.reeves@aegiscloud.com",
+    "aisha.johnson@aegiscloud.com"
+  ],
+  "invitees": [
+    "lisa.park@aegiscloud.com",
+    "priya.patel@aegiscloud.com",
+    "diana.reeves@aegiscloud.com",
+    "aisha.johnson@aegiscloud.com"
+  ]
+}

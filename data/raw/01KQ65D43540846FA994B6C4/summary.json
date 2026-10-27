@@ -1,0 +1,46 @@
+{
+  "summary": "Rachel Torres and Sofia Petrov met with Victor Zheng of Frostbyte to discuss pain points after approximately eight months on Aegis Identity. Victor highlighted two key product gaps: the lack of hierarchical role inheritance in the flat role model, which causes manual permission duplication and complicates their ongoing SOC 2 audit, and the inability to configure session timeout policies per role or resource. Victor also praised Aegis Comply v2's on-demand SOC 2 reporting as a significant time-saver. He clarified he is not evaluating alternatives but wants assurance that Aegis Identity can scale with Frostbyte's rapid growth over the coming quarters.",
+  "actionItems": [
+    "Rachel Torres: Follow up with product management to get a more concrete timeline on hierarchical role inheritance and share it with Victor",
+    "Rachel Torres: Formally submit both feature requests (hierarchical roles and granular session timeout policies) to the product team with the compliance audit context to support prioritization",
+    "Rachel Torres: Send a summary email to Victor recapping the discussion, feature requests, and next steps",
+    "Sofia Petrov: Verify current roadmap status of role-based or resource-based session timeout policies and relay findings to Rachel"
+  ],
+  "topics": [
+    "role management",
+    "feature gap",
+    "soc 2 compliance",
+    "session timeout policy",
+    "product roadmap",
+    "identity access management"
+  ],
+  "overallSentiment": "mixed-positive",
+  "sentimentScore": 3.7,
+  "keyMoments": [
+    {
+      "time": 180.0,
+      "text": "Victor identifies the lack of nested role inheritance as the primary pain point, describing the current flat role model as error-prone and difficult to audit.",
+      "type": "feature_gap",
+      "speaker": "Victor Zheng"
+    },
+    {
+      "time": 390.0,
+      "text": "Victor praises Aegis Comply v2's on-demand SOC 2 report generation as saving his team real time during their active audit.",
+      "type": "praise",
+      "speaker": "Victor Zheng"
+    },
+    {
+      "time": 480.0,
+      "text": "Sofia and Rachel acknowledge that the flat role structure creates compounding noise in compliance reporting, agreeing to flag the audit angle to boost product priority.",
+      "type": "action_item",
+      "speaker": "Rachel Torres"
+    },
+    {
+      "time": 570.0,
+      "text": "Victor raises a second feature gap: the inability to set session timeout policies per role or resource, requiring the most restrictive global policy to apply across all environments.",
+      "type": "feature_gap",
+      "speaker": "Victor Zheng"
+    }
+  ],
+  "meetingId": "01KQ65D43540846FA994B6C4"
+}

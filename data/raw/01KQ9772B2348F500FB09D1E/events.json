@@ -1,0 +1,26 @@
+[
+  {
+    "participantName": "Elena Vasquez",
+    "timestamp": 1771951523000,
+    "type": "Join",
+    "time": 23.0
+  },
+  {
+    "participantName": "Vanessa Cruz",
+    "timestamp": 1771951550000,
+    "type": "Join",
+    "time": 50.0
+  },
+  {
+    "participantName": "Elena Vasquez",
+    "timestamp": 1771952324000,
+    "type": "Leave",
+    "time": 824.0
+  },
+  {
+    "participantName": "Vanessa Cruz",
+    "timestamp": 1771952317000,
+    "type": "Leave",
+    "time": 817.0
+  }
+]

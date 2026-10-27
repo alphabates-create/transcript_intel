@@ -1,0 +1,207 @@
+[
+  {
+    "speakerName": "Rachel Torres",
+    "timestamp": 4.5,
+    "endTimeTs": 10.0
+  },
+  {
+    "speakerName": "Victor Zheng",
+    "timestamp": 10.9,
+    "endTimeTs": 19.1
+  },
+  {
+    "speakerName": "Rachel Torres",
+    "timestamp": 20.1,
+    "endTimeTs": 35.1
+  },
+  {
+    "speakerName": "Sofia Petrov",
+    "timestamp": 35.9,
+    "endTimeTs": 41.2
+  },
+  {
+    "speakerName": "Victor Zheng",
+    "timestamp": 42.4,
+    "endTimeTs": 54.1
+  },
+  {
+    "speakerName": "Rachel Torres",
+    "timestamp": 54.4,
+    "endTimeTs": 59.3
+  },
+  {
+    "speakerName": "Victor Zheng",
+    "timestamp": 60.4,
+    "endTimeTs": 71.7
+  },
+  {
+    "speakerName": "Sofia Petrov",
+    "timestamp": 72.4,
+    "endTimeTs": 79.4
+  },
+  {
+    "speakerName": "Victor Zheng",
+    "timestamp": 79.7,
+    "endTimeTs": 98.5
+  },
+  {
+    "speakerName": "Sofia Petrov",
+    "timestamp": 99.7,
+    "endTimeTs": 106.9
+  },
+  {
+    "speakerName": "Victor Zheng",
+    "timestamp": 107.4,
+    "endTimeTs": 124.3
+  },
+  {
+    "speakerName": "Sofia Petrov",
+    "timestamp": 124.9,
+    "endTimeTs": 126.4
+  },
+  {
+    "speakerName": "Victor Zheng",
+    "timestamp": 127.0,
+    "endTimeTs": 146.1
+  },
+  {
+    "speakerName": "Sofia Petrov",
+    "timestamp": 146.4,
+    "endTimeTs": 160.3
+  },
+  {
+    "speakerName": "Victor Zheng",
+    "timestamp": 160.7,
+    "endTimeTs": 165.4
+  },
+  {
+    "speakerName": "Sofia Petrov",
+    "timestamp": 165.9,
+    "endTimeTs": 176.6
+  },
+  {
+    "speakerName": "Rachel Torres",
+    "timestamp": 177.5,
+    "endTimeTs": 193.3
+  },
+  {
+    "speakerName": "Victor Zheng",
+    "timestamp": 193.6,
+    "endTimeTs": 204.5
+  },
+  {
+    "speakerName": "Sofia Petrov",
+    "timestamp": 206.0,
+    "endTimeTs": 221.1
+  },
+  {
+    "speakerName": "Victor Zheng",
+    "timestamp": 222.0,
+    "endTimeTs": 238.4
+  },
+  {
+    "speakerName": "Rachel Torres",
+    "timestamp": 239.7,
+    "endTimeTs": 246.7
+  },
+  {
+    "speakerName": "Victor Zheng",
+    "timestamp": 247.8,
+    "endTimeTs": 266.0
+  },
+  {
+    "speakerName": "Sofia Petrov",
+    "timestamp": 267.1,
+    "endTimeTs": 277.2
+  },
+  {
+    "speakerName": "Victor Zheng",
+    "timestamp": 278.1,
+    "endTimeTs": 281.2
+  },
+  {
+    "speakerName": "Rachel Torres",
+    "timestamp": 282.3,
+    "endTimeTs": 294.3
+  },
+  {
+    "speakerName": "Sofia Petrov",
+    "timestamp": 295.4,
+    "endTimeTs": 303.4
+  },
+  {
+    "speakerName": "Victor Zheng",
+    "timestamp": 303.8,
+    "endTimeTs": 319.9
+  },
+  {
+    "speakerName": "Sofia Petrov",
+    "timestamp": 320.3,
+    "endTimeTs": 323.9
+  },
+  {
+    "speakerName": "Victor Zheng",
+    "timestamp": 324.2,
+    "endTimeTs": 344.4
+  },
+  {
+    "speakerName": "Sofia Petrov",
+    "timestamp": 345.8,
+    "endTimeTs": 358.1
+  },
+  {
+    "speakerName": "Victor Zheng",
+    "timestamp": 359.5,
+    "endTimeTs": 366.2
+  },
+  {
+    "speakerName": "Rachel Torres",
+    "timestamp": 367.4,
+    "endTimeTs": 382.9
+  },
+  {
+    "speakerName": "Victor Zheng",
+    "timestamp": 383.7,
+    "endTimeTs": 404.1
+  },
+  {
+    "speakerName": "Rachel Torres",
+    "timestamp": 404.8,
+    "endTimeTs": 412.5
+  },
+  {
+    "speakerName": "Victor Zheng",
+    "timestamp": 412.9,
+    "endTimeTs": 429.7
+  },
+  {
+    "speakerName": "Sofia Petrov",
+    "timestamp": 430.8,
+    "endTimeTs": 442.6
+  },
+  {
+    "speakerName": "Victor Zheng",
+    "timestamp": 443.9,
+    "endTimeTs": 450.5
+  },
+  {
+    "speakerName": "Rachel Torres",
+    "timestamp": 451.2,
+    "endTimeTs": 467.7
+  },
+  {
+    "speakerName": "Victor Zheng",
+    "timestamp": 468.8,
+    "endTimeTs": 474.4
+  },
+  {
+    "speakerName": "Sofia Petrov",
+    "timestamp": 475.5,
+    "endTimeTs": 479.8
+  },
+  {
+    "speakerName": "Rachel Torres",
+    "timestamp": 481.1,
+    "endTimeTs": 483.3
+  }
+]

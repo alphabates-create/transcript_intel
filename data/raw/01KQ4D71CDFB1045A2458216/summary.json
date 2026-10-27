@@ -1,0 +1,46 @@
+{
+  "summary": "James Mitchell led a renewal call with Evelyn Park of Bridgeport, joined by Kevin O'Brien (Solutions Architecture) and Ravi Gupta (DevOps). Evelyn shared overall positive feedback on Aegis Protect and Identity modules, while raising concerns about a six-hour Detect outage in March. Ravi provided a technical explanation of the incident and remediation steps taken. The team aligned on renewal terms including flat pricing, Comply v2 access at no charge for year one, a 20% seat expansion rider, and several follow-up deliverables.",
+  "actionItems": [
+    "James Mitchell: Send final renewal documents to Evelyn today including flat pricing, Comply v2 year-one inclusion, and 20% seat expansion rider",
+    "Ravi Gupta: Deliver the final post-incident report for the March 10th Detect outage to Evelyn for internal compliance documentation",
+    "Kevin O'Brien: Schedule a Comply v2 deep-dive session with Evelyn's compliance manager",
+    "Kevin O'Brien: Coordinate a pre-acquisition readiness check for Bridgeport's incoming regional clinic when the deal gets closer to closing"
+  ],
+  "topics": [
+    "renewal",
+    "compliance",
+    "incident review",
+    "product update",
+    "expansion",
+    "healthcare security"
+  ],
+  "overallSentiment": "mixed-positive",
+  "sentimentScore": 4.1,
+  "keyMoments": [
+    {
+      "time": 312.0,
+      "text": "Evelyn raised concern about the six-hour Detect outage in March, noting she received board-level escalations",
+      "type": "concern",
+      "speaker": "Evelyn Park"
+    },
+    {
+      "time": 198.0,
+      "text": "Evelyn confirmed a phishing attempt was stopped by MFA rollout, crediting the Aegis Identity implementation",
+      "type": "praise",
+      "speaker": "Evelyn Park"
+    },
+    {
+      "time": 520.0,
+      "text": "James revealed flat pricing renewal and Comply v2 included at no cost for year one, which Evelyn responded to positively",
+      "type": "pricing_offer",
+      "speaker": "James Mitchell"
+    },
+    {
+      "time": 680.0,
+      "text": "Evelyn shared plans to acquire a regional clinic mid-year and confirmed the 20% seat expansion rider would cover near-term growth needs",
+      "type": "action_item",
+      "speaker": "Evelyn Park"
+    }
+  ],
+  "meetingId": "01KQ4D71CDFB1045A2458216"
+}
