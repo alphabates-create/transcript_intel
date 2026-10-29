@@ -1,0 +1,314 @@
+{
+  "data": [
+    {
+      "sentence": "Aegis Cloud Security support, Elena Vasquez speaking \u2014 how can I help?",
+      "speaker_name": "Elena Vasquez",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 7.1,
+      "endTime": 11.0,
+      "averageConfidence": 0.96,
+      "index": 0
+    },
+    {
+      "sentence": "Hi Elena, it's Olivia Strand from Frostbyte AI, and Victor is on with me. We're stuck on the new attribute mapping screen in Identity.",
+      "speaker_name": "Olivia Strand",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 12.2,
+      "endTime": 20.0,
+      "averageConfidence": 0.93,
+      "index": 1
+    },
+    {
+      "sentence": "Hi Olivia, hi Victor. Is this the redesigned mapping UI that went out last week?",
+      "speaker_name": "Elena Vasquez",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 20.6,
+      "endTime": 25.7,
+      "averageConfidence": 0.93,
+      "index": 2
+    },
+    {
+      "sentence": "Yes. We're trying to map our HR system's worker type field so contractors get a separate role, and the inline validation keeps rejecting it.",
+      "speaker_name": "Olivia Strand",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 26.6,
+      "endTime": 35.7,
+      "averageConfidence": 0.93,
+      "index": 3
+    },
+    {
+      "sentence": "It says invalid attribute value, expected boolean. But the field is a string \u2014 employee, contractor, intern.",
+      "speaker_name": "Olivia Strand",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 36.5,
+      "endTime": 42.9,
+      "averageConfidence": 0.96,
+      "index": 4
+    },
+    {
+      "sentence": "Okay, let me open your tenant. Which source attribute are you mapping from?",
+      "speaker_name": "Elena Vasquez",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 43.5,
+      "endTime": 48.2,
+      "averageConfidence": 0.89,
+      "index": 5
+    },
+    {
+      "sentence": "It's called workerType in our SCIM payload from the HR system.",
+      "speaker_name": "Olivia Strand",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 49.3,
+      "endTime": 53.5,
+      "averageConfidence": 0.95,
+      "index": 6
+    },
+    {
+      "sentence": "I see it. The new UI is treating workerType as the built-in contractor flag, which is a true or false field, so it rejects the string values.",
+      "speaker_name": "Elena Vasquez",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 54.4,
+      "endTime": 64.9,
+      "averageConfidence": 0.94,
+      "index": 7
+    },
+    {
+      "sentence": "That's frustrating. We waited for this release specifically because the old mapping screen kept silently dropping this field.",
+      "speaker_name": "Victor Zheng",
+      "sentimentType": "negative",
+      "speaker_id": 2,
+      "time": 66.0,
+      "endTime": 73.0,
+      "averageConfidence": 0.89,
+      "index": 8
+    },
+    {
+      "sentence": "We have about sixty contractors who still get full employee access, and our SOC 2 auditor flagged it last month.",
+      "speaker_name": "Victor Zheng",
+      "sentimentType": "negative",
+      "speaker_id": 2,
+      "time": 74.1,
+      "endTime": 81.3,
+      "averageConfidence": 0.93,
+      "index": 9
+    },
+    {
+      "sentence": "Understood, that's a real access risk and I'll treat it that way.",
+      "speaker_name": "Elena Vasquez",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 81.7,
+      "endTime": 85.7,
+      "averageConfidence": 0.96,
+      "index": 10
+    },
+    {
+      "sentence": "There's a workaround. If you map workerType to a custom attribute instead of the built-in one, validation accepts strings.",
+      "speaker_name": "Elena Vasquez",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 86.8,
+      "endTime": 93.1,
+      "averageConfidence": 0.9,
+      "index": 11
+    },
+    {
+      "sentence": "Then you create an assignment rule \u2014 if the custom attribute equals contractor, assign the contractor role.",
+      "speaker_name": "Elena Vasquez",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 93.8,
+      "endTime": 99.7,
+      "averageConfidence": 0.9,
+      "index": 12
+    },
+    {
+      "sentence": "Let me try that now. Custom attribute... I'll call it hr_worker_type.",
+      "speaker_name": "Olivia Strand",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 100.1,
+      "endTime": 104.2,
+      "averageConfidence": 0.95,
+      "index": 13
+    },
+    {
+      "sentence": "Okay, it saved. No validation error this time.",
+      "speaker_name": "Olivia Strand",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 105.1,
+      "endTime": 107.8,
+      "averageConfidence": 0.93,
+      "index": 14
+    },
+    {
+      "sentence": "Now under assignment rules, add a condition on hr_worker_type equals contractor, and pick your contractor role.",
+      "speaker_name": "Elena Vasquez",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 108.7,
+      "endTime": 114.2,
+      "averageConfidence": 0.9,
+      "index": 15
+    },
+    {
+      "sentence": "Done. Do I need to force a sync, or will it pick it up on the next cycle?",
+      "speaker_name": "Olivia Strand",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 114.8,
+      "endTime": 120.8,
+      "averageConfidence": 0.89,
+      "index": 16
+    },
+    {
+      "sentence": "I'd run a manual sync on a test user first, to be safe. Do you have a contractor account we can use?",
+      "speaker_name": "Elena Vasquez",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 121.5,
+      "endTime": 128.7,
+      "averageConfidence": 0.94,
+      "index": 17
+    },
+    {
+      "sentence": "Yes, I'll use mine, I set up a test contractor profile last week. Running it now.",
+      "speaker_name": "Olivia Strand",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 129.3,
+      "endTime": 134.9,
+      "averageConfidence": 0.9,
+      "index": 18
+    },
+    {
+      "sentence": "It worked \u2014 the test account moved to the contractor role and lost access to the finance apps.",
+      "speaker_name": "Olivia Strand",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 135.3,
+      "endTime": 141.7,
+      "averageConfidence": 0.9,
+      "index": 19
+    },
+    {
+      "sentence": "Good. That's the outcome we've been after since we left Okta.",
+      "speaker_name": "Victor Zheng",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 142.1,
+      "endTime": 146.1,
+      "averageConfidence": 0.97,
+      "index": 20
+    },
+    {
+      "sentence": "But this is a workaround. We still don't have role inheritance, so our contractor role is a full copy of the employee role minus a few apps.",
+      "speaker_name": "Victor Zheng",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 147.6,
+      "endTime": 158.3,
+      "averageConfidence": 0.94,
+      "index": 21
+    },
+    {
+      "sentence": "Every time we add an app, someone has to remember to update both roles. That's exactly how the audit finding happened.",
+      "speaker_name": "Victor Zheng",
+      "sentimentType": "negative",
+      "speaker_id": 2,
+      "time": 159.8,
+      "endTime": 166.7,
+      "averageConfidence": 0.89,
+      "index": 22
+    },
+    {
+      "sentence": "That's fair. Hierarchical roles are on the Identity roadmap, and I'll add your case to the feature request so the team sees the audit impact.",
+      "speaker_name": "Elena Vasquez",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 167.5,
+      "endTime": 177.3,
+      "averageConfidence": 0.96,
+      "index": 23
+    },
+    {
+      "sentence": "Please do. Rachel said it might land in Q3, and a date would really help us with the auditor.",
+      "speaker_name": "Victor Zheng",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 178.2,
+      "endTime": 184.8,
+      "averageConfidence": 0.92,
+      "index": 24
+    },
+    {
+      "sentence": "I'll ask the Identity product team for a target date and include it in my follow-up.",
+      "speaker_name": "Elena Vasquez",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 185.3,
+      "endTime": 191.5,
+      "averageConfidence": 0.96,
+      "index": 25
+    },
+    {
+      "sentence": "I'm also filing a bug on the validation behavior \u2014 the UI should let you choose a custom attribute instead of auto-matching the built-in flag.",
+      "speaker_name": "Elena Vasquez",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 192.5,
+      "endTime": 201.1,
+      "averageConfidence": 0.89,
+      "index": 26
+    },
+    {
+      "sentence": "Thanks. Can we roll this out to all sixty contractors today?",
+      "speaker_name": "Olivia Strand",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 202.0,
+      "endTime": 205.9,
+      "averageConfidence": 0.93,
+      "index": 27
+    },
+    {
+      "sentence": "Yes, but I'd do it in two batches and check access reports after the first one, in case any contractor has an unusual app assignment.",
+      "speaker_name": "Elena Vasquez",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 207.4,
+      "endTime": 215.8,
+      "averageConfidence": 0.92,
+      "index": 28
+    },
+    {
+      "sentence": "Makes sense. I'll do the first thirty this afternoon.",
+      "speaker_name": "Olivia Strand",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 216.9,
+      "endTime": 220.4,
+      "averageConfidence": 0.95,
+      "index": 29
+    },
+    {
+      "sentence": "Thanks Elena, that got us unblocked faster than I expected.",
+      "speaker_name": "Victor Zheng",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 221.8,
+      "endTime": 225.6,
+      "averageConfidence": 0.96,
+      "index": 30
+    }
+  ]
+}

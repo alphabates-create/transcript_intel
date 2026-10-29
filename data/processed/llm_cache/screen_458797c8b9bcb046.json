@@ -1,0 +1,15 @@
+{
+  "is_business": true,
+  "reason": "The call covers a customer's competitive evaluation of SentinelShield, a Detect outage, alert fatigue, and a July contract renewal, all of which are core sales and retention work.",
+  "usage": {
+    "ts": "2026-10-29T19:09:09+00:00",
+    "step": "screen",
+    "model": "claude-sonnet-5-5",
+    "input_tokens": 859,
+    "output_tokens": 74,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "request_id": "req_011CgX4A47LjUYcABKSzTW29",
+    "cost_usd": 0.002458
+  }
+}

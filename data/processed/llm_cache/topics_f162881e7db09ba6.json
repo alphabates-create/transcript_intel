@@ -1,0 +1,11 @@
+{
+  "primary_theme": "Renewal & contracts",
+  "themes": [
+    "Compliance & audit",
+    "Renewal & contracts",
+    "Billing disputes"
+  ],
+  "certainty": 0.72,
+  "rationale": "The call is a contract discussion about the end-of-March renewal, including a 750M event tier upgrade at $310/month and an agreed annual renewal, with the overage billing concern and SOC 2 interest as supporting threads.",
+  "source": "llm"
+}

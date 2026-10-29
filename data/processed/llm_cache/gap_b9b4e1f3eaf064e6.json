@@ -1,0 +1,15 @@
+{
+  "name": "Proactive alerting and usage visibility",
+  "summary": "Customers want proactive, low-noise alerts (telemetry heartbeat loss, seat-count overage thresholds) with better severity scoring and easier rule configuration so they can catch issues and billing surprises before they hit invoices or audits.",
+  "usage": {
+    "ts": "2026-10-29T03:10:41+00:00",
+    "step": "feature_gaps",
+    "model": "claude-sonnet-5-5",
+    "input_tokens": 683,
+    "output_tokens": 104,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "request_id": "req_011CgVo4uy3bD2FLXayK54MC",
+    "cost_usd": 0.002406
+  }
+}

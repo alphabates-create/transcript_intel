@@ -1,0 +1,15 @@
+{
+  "is_business": true,
+  "reason": "The call covers Protect module load-test results, scheduler and deduplication root causes, engineering fixes, and alignment with sales on onboarding pace, all of which are core work topics.",
+  "usage": {
+    "ts": "2026-10-29T19:09:06+00:00",
+    "step": "screen",
+    "model": "claude-sonnet-5-5",
+    "input_tokens": 832,
+    "output_tokens": 73,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "request_id": "req_011CgX49ra3izvFr6GJK5NDV",
+    "cost_usd": 0.002394
+  }
+}

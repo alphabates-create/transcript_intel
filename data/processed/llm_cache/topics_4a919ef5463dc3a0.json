@@ -1,0 +1,11 @@
+{
+  "primary_theme": "Detect outage & fallout",
+  "themes": [
+    "Compliance & audit",
+    "Detect outage & fallout",
+    "Renewal & contracts"
+  ],
+  "certainty": 0.96,
+  "rationale": "The call centers on a 15+ hour Detect event pipeline outage, P1 escalation, lack of proactive communication, and a requested written incident report.",
+  "source": "llm"
+}

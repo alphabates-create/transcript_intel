@@ -1,0 +1,15 @@
+{
+  "name": "Granular access and session controls",
+  "summary": "Customers want finer-grained identity and access controls, including nested role inheritance, per-role or per-resource session timeouts, and auditable conditional MFA exclusions for service accounts, instead of today's flat roles and restrictive global policies.",
+  "usage": {
+    "ts": "2026-10-27T19:08:51+00:00",
+    "step": "feature_gaps",
+    "model": "claude-sonnet-5-5",
+    "input_tokens": 683,
+    "output_tokens": 98,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "request_id": "req_011CgTGX1bFR8YoQnQRQ9Zsk",
+    "cost_usd": 0.002346
+  }
+}

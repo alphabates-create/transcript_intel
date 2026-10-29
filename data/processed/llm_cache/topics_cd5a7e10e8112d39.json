@@ -1,0 +1,23 @@
+{
+  "primary_theme": "Internal planning",
+  "themes": [
+    "Internal planning",
+    "Billing disputes",
+    "Renewal & contracts",
+    "Competitive threat",
+    "Comply v2 launch"
+  ],
+  "certainty": 0.55,
+  "rationale": "This is an internal AegisCloud pricing and packaging review ahead of the Q3 price book lock, with a proposal going to the pricing committee, though it substantively covers Comply overage disputes, renewal discounts, competitor flat pricing and v2 launch fallout.",
+  "usage": {
+    "ts": "2026-10-28T01:15:55+00:00",
+    "step": "topics",
+    "model": "claude-sonnet-5-5",
+    "input_tokens": 1963,
+    "output_tokens": 164,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "request_id": "req_011CgTkWNCyJVaQTwaUAd1L7",
+    "cost_usd": 0.005566
+  }
+}

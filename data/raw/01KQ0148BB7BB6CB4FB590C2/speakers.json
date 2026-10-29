@@ -1,0 +1,202 @@
+[
+  {
+    "speakerName": "Aisha Johnson",
+    "timestamp": 6.6,
+    "endTimeTs": 13.6
+  },
+  {
+    "speakerName": "Kendra Wallace",
+    "timestamp": 15.0,
+    "endTimeTs": 23.5
+  },
+  {
+    "speakerName": "Owen Pritchard",
+    "timestamp": 24.8,
+    "endTimeTs": 30.6
+  },
+  {
+    "speakerName": "Aisha Johnson",
+    "timestamp": 32.1,
+    "endTimeTs": 42.0
+  },
+  {
+    "speakerName": "Kendra Wallace",
+    "timestamp": 42.7,
+    "endTimeTs": 49.7
+  },
+  {
+    "speakerName": "Kendra Wallace",
+    "timestamp": 50.1,
+    "endTimeTs": 58.0
+  },
+  {
+    "speakerName": "Aisha Johnson",
+    "timestamp": 58.9,
+    "endTimeTs": 66.1
+  },
+  {
+    "speakerName": "Ravi Gupta",
+    "timestamp": 66.5,
+    "endTimeTs": 74.3
+  },
+  {
+    "speakerName": "Ravi Gupta",
+    "timestamp": 74.7,
+    "endTimeTs": 84.8
+  },
+  {
+    "speakerName": "Owen Pritchard",
+    "timestamp": 85.8,
+    "endTimeTs": 89.8
+  },
+  {
+    "speakerName": "Ravi Gupta",
+    "timestamp": 91.1,
+    "endTimeTs": 99.4
+  },
+  {
+    "speakerName": "Owen Pritchard",
+    "timestamp": 100.4,
+    "endTimeTs": 103.1
+  },
+  {
+    "speakerName": "Kendra Wallace",
+    "timestamp": 103.5,
+    "endTimeTs": 114.0
+  },
+  {
+    "speakerName": "Ravi Gupta",
+    "timestamp": 114.9,
+    "endTimeTs": 122.5
+  },
+  {
+    "speakerName": "Ravi Gupta",
+    "timestamp": 123.6,
+    "endTimeTs": 131.4
+  },
+  {
+    "speakerName": "Owen Pritchard",
+    "timestamp": 131.9,
+    "endTimeTs": 136.1
+  },
+  {
+    "speakerName": "Aisha Johnson",
+    "timestamp": 137.6,
+    "endTimeTs": 143.4
+  },
+  {
+    "speakerName": "Owen Pritchard",
+    "timestamp": 144.5,
+    "endTimeTs": 153.9
+  },
+  {
+    "speakerName": "Owen Pritchard",
+    "timestamp": 154.8,
+    "endTimeTs": 162.0
+  },
+  {
+    "speakerName": "Ravi Gupta",
+    "timestamp": 162.5,
+    "endTimeTs": 169.8
+  },
+  {
+    "speakerName": "Ravi Gupta",
+    "timestamp": 171.0,
+    "endTimeTs": 179.4
+  },
+  {
+    "speakerName": "Owen Pritchard",
+    "timestamp": 179.8,
+    "endTimeTs": 183.6
+  },
+  {
+    "speakerName": "Ravi Gupta",
+    "timestamp": 184.2,
+    "endTimeTs": 194.3
+  },
+  {
+    "speakerName": "Owen Pritchard",
+    "timestamp": 195.4,
+    "endTimeTs": 200.4
+  },
+  {
+    "speakerName": "Kendra Wallace",
+    "timestamp": 201.1,
+    "endTimeTs": 208.4
+  },
+  {
+    "speakerName": "Ravi Gupta",
+    "timestamp": 208.7,
+    "endTimeTs": 218.6
+  },
+  {
+    "speakerName": "Owen Pritchard",
+    "timestamp": 219.7,
+    "endTimeTs": 222.4
+  },
+  {
+    "speakerName": "Aisha Johnson",
+    "timestamp": 223.1,
+    "endTimeTs": 228.0
+  },
+  {
+    "speakerName": "Aisha Johnson",
+    "timestamp": 228.9,
+    "endTimeTs": 238.3
+  },
+  {
+    "speakerName": "Kendra Wallace",
+    "timestamp": 239.0,
+    "endTimeTs": 243.9
+  },
+  {
+    "speakerName": "Aisha Johnson",
+    "timestamp": 244.6,
+    "endTimeTs": 250.8
+  },
+  {
+    "speakerName": "Kendra Wallace",
+    "timestamp": 252.1,
+    "endTimeTs": 260.4
+  },
+  {
+    "speakerName": "Kendra Wallace",
+    "timestamp": 261.7,
+    "endTimeTs": 268.8
+  },
+  {
+    "speakerName": "Aisha Johnson",
+    "timestamp": 269.2,
+    "endTimeTs": 273.7
+  },
+  {
+    "speakerName": "Owen Pritchard",
+    "timestamp": 275.0,
+    "endTimeTs": 283.8
+  },
+  {
+    "speakerName": "Ravi Gupta",
+    "timestamp": 284.1,
+    "endTimeTs": 289.3
+  },
+  {
+    "speakerName": "Aisha Johnson",
+    "timestamp": 290.3,
+    "endTimeTs": 300.5
+  },
+  {
+    "speakerName": "Aisha Johnson",
+    "timestamp": 301.0,
+    "endTimeTs": 306.4
+  },
+  {
+    "speakerName": "Kendra Wallace",
+    "timestamp": 307.7,
+    "endTimeTs": 309.5
+  },
+  {
+    "speakerName": "Owen Pritchard",
+    "timestamp": 310.7,
+    "endTimeTs": 314.5
+  }
+]

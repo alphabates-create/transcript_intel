@@ -1,0 +1,19 @@
+{
+  "meetingId": "01KQC31451F34F8EBF76113B",
+  "title": "Support Case #7311 - Axiom Labs Elastic Seat Invoice Error",
+  "organizerEmail": "marcus.williams@aegiscloud.com",
+  "host": "marcus.williams@aegiscloud.com",
+  "startTime": "2026-06-11T17:15:00.000Z",
+  "endTime": "2026-06-11T17:27:17.000Z",
+  "duration": 12.3,
+  "allEmails": [
+    "marcus.williams@aegiscloud.com",
+    "m.joshi@axiomlabs.dev",
+    "r.caldwell@axiomlabs.dev"
+  ],
+  "invitees": [
+    "marcus.williams@aegiscloud.com",
+    "m.joshi@axiomlabs.dev",
+    "r.caldwell@axiomlabs.dev"
+  ]
+}

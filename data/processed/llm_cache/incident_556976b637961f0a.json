@@ -1,0 +1,20 @@
+{
+  "status": "open",
+  "resolved_call_index": null,
+  "owner": "Marcus Williams",
+  "category": "Billing",
+  "priority": "P3",
+  "outage_hours": null,
+  "resolution_note": "Marcus Williams will void invoice INV-2026-03412 and issue a corrected invoice within five business days, before Axiom's June 20 payment run; correction not yet issued or confirmed.",
+  "usage": {
+    "ts": "2026-10-28T20:10:05+00:00",
+    "step": "incidents",
+    "model": "claude-sonnet-5-5",
+    "input_tokens": 1670,
+    "output_tokens": 126,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "request_id": "req_011CgVEzZEn7Paj25vrwja18",
+    "cost_usd": 0.0046
+  }
+}

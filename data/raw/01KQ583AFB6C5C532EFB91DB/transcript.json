@@ -1,0 +1,264 @@
+{
+  "data": [
+    {
+      "sentence": "Hi Derek, it's Sarah Chen from Aegis support \u2014 thanks for making time for the follow-up.",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 7.2,
+      "endTime": 12.7,
+      "averageConfidence": 0.97,
+      "index": 0
+    },
+    {
+      "sentence": "Hi Sarah. Sure, I figured we should close the loop on the sync issue.",
+      "speaker_name": "Derek Owens",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 13.7,
+      "endTime": 18.4,
+      "averageConfidence": 0.93,
+      "index": 1
+    },
+    {
+      "sentence": "Absolutely. This is case 8124, which I opened as the follow-up to 7615 after we moved you to a dedicated sync worker.",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 19.3,
+      "endTime": 27.1,
+      "averageConfidence": 0.88,
+      "index": 2
+    },
+    {
+      "sentence": "How have policy changes been propagating for you since then?",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 27.8,
+      "endTime": 31.2,
+      "averageConfidence": 0.91,
+      "index": 3
+    },
+    {
+      "sentence": "Honestly, much better. The last few policy changes went through in under five minutes, most of them in about two.",
+      "speaker_name": "Derek Owens",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 31.8,
+      "endTime": 39.1,
+      "averageConfidence": 0.94,
+      "index": 4
+    },
+    {
+      "sentence": "We did a big group restructure last Thursday \u2014 around three hundred users moving between groups \u2014 and that took about twelve minutes.",
+      "speaker_name": "Derek Owens",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 39.5,
+      "endTime": 48.2,
+      "averageConfidence": 0.97,
+      "index": 5
+    },
+    {
+      "sentence": "That lines up with what I see in the logs. Twelve minutes for a bulk move that size is within the normal range on a dedicated worker.",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 48.9,
+      "endTime": 57.7,
+      "averageConfidence": 0.92,
+      "index": 6
+    },
+    {
+      "sentence": "Good. The other thing I wanted to check was provisioning for new hires \u2014 we had a class of twenty start Monday.",
+      "speaker_name": "Derek Owens",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 58.9,
+      "endTime": 67.3,
+      "averageConfidence": 0.88,
+      "index": 7
+    },
+    {
+      "sentence": "I can see those. All twenty accounts were provisioned within three minutes of the HR sync, and their access packages applied.",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 68.7,
+      "endTime": 75.9,
+      "averageConfidence": 0.96,
+      "index": 8
+    },
+    {
+      "sentence": "Great, that's what I needed to hear. Our onboarding team was nervous after last month.",
+      "speaker_name": "Derek Owens",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 76.9,
+      "endTime": 82.3,
+      "averageConfidence": 0.95,
+      "index": 9
+    },
+    {
+      "sentence": "I do want to say, though \u2014 the five days without a response on the original case still bothers me.",
+      "speaker_name": "Derek Owens",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 83.4,
+      "endTime": 91.0,
+      "averageConfidence": 0.88,
+      "index": 10
+    },
+    {
+      "sentence": "We're a wealth management firm. If a terminated employee keeps access for four hours, that's a regulatory problem, not an inconvenience.",
+      "speaker_name": "Derek Owens",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 91.4,
+      "endTime": 99.3,
+      "averageConfidence": 0.92,
+      "index": 11
+    },
+    {
+      "sentence": "You're absolutely right, and I'm sorry that happened. We've made a change since then.",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 100.1,
+      "endTime": 104.7,
+      "averageConfidence": 0.89,
+      "index": 12
+    },
+    {
+      "sentence": "P2 cases now page the on-call support engineer if there's no human response within eight business hours, so nothing sits in a queue for days.",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 105.7,
+      "endTime": 114.3,
+      "averageConfidence": 0.91,
+      "index": 13
+    },
+    {
+      "sentence": "Okay. That's the kind of thing I'd want to see in writing for our vendor review.",
+      "speaker_name": "Derek Owens",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 114.9,
+      "endTime": 120.6,
+      "averageConfidence": 0.9,
+      "index": 14
+    },
+    {
+      "sentence": "I'll include it in the case closure summary.",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 121.3,
+      "endTime": 123.9,
+      "averageConfidence": 0.91,
+      "index": 15
+    },
+    {
+      "sentence": "One more thing \u2014 is there a way for us to see sync latency ourselves, instead of calling you?",
+      "speaker_name": "Derek Owens",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 124.3,
+      "endTime": 130.5,
+      "averageConfidence": 0.91,
+      "index": 16
+    },
+    {
+      "sentence": "Not in the console today. There's an API endpoint for sync job status, and I can send you a sample script that pulls it.",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 131.2,
+      "endTime": 140.4,
+      "averageConfidence": 0.88,
+      "index": 17
+    },
+    {
+      "sentence": "A dashboard would be better, but a script works for now. Is a dashboard on the roadmap?",
+      "speaker_name": "Derek Owens",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 141.6,
+      "endTime": 147.3,
+      "averageConfidence": 0.89,
+      "index": 18
+    },
+    {
+      "sentence": "I'll log it as a feature request with the Identity product team \u2014 I know they're building an audit trail view that might include it.",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 147.9,
+      "endTime": 156.3,
+      "averageConfidence": 0.94,
+      "index": 19
+    },
+    {
+      "sentence": "Please do. If we can watch it ourselves, my team will sleep a lot better.",
+      "speaker_name": "Derek Owens",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 157.0,
+      "endTime": 162.1,
+      "averageConfidence": 0.96,
+      "index": 20
+    },
+    {
+      "sentence": "Before we close it, I'd suggest monitoring for one more week, and if latency stays under ten minutes, I'll resolve the case.",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 163.3,
+      "endTime": 171.5,
+      "averageConfidence": 0.94,
+      "index": 21
+    },
+    {
+      "sentence": "That's fine. And the dedicated worker \u2014 is that permanent, or does it get reverted at some point?",
+      "speaker_name": "Derek Owens",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 172.1,
+      "endTime": 178.3,
+      "averageConfidence": 0.96,
+      "index": 22
+    },
+    {
+      "sentence": "It's permanent for your tenant. It's flagged on your account so it won't be touched in future rebalances.",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 178.8,
+      "endTime": 185.3,
+      "averageConfidence": 0.96,
+      "index": 23
+    },
+    {
+      "sentence": "Okay, good. Thanks Sarah, I appreciate you following up proactively \u2014 that's what was missing last time.",
+      "speaker_name": "Derek Owens",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 186.1,
+      "endTime": 192.5,
+      "averageConfidence": 0.96,
+      "index": 24
+    },
+    {
+      "sentence": "Thank you, Derek. I'll send the summary and the script today.",
+      "speaker_name": "Sarah Chen",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 193.6,
+      "endTime": 197.6,
+      "averageConfidence": 0.88,
+      "index": 25
+    }
+  ]
+}

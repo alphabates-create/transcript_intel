@@ -1,0 +1,58 @@
+{
+  "summary": "Olivia Strand and Victor Zheng of Frostbyte AI contacted Aegis Cloud Security support because the newly released Identity attribute mapping UI rejected their SCIM workerType field, blocking contractor-specific role assignment for about 60 contractors who still had full employee access, an issue already flagged by their SOC 2 auditor. Elena Vasquez found the UI was auto-matching workerType to the built-in boolean contractor flag, and walked them through mapping it to a custom attribute with an assignment rule, which worked on a test account. Victor stressed that this remains a workaround because Aegis Identity lacks hierarchical role inheritance, forcing duplicate role maintenance that caused the audit finding. Elena filed a bug on the validation behavior, added Frostbyte's audit impact to the role inheritance feature request, and recommended a two-batch rollout.",
+  "actionItems": [
+    "Olivia Strand: Roll out the contractor mapping to the first 30 contractors this afternoon and review access reports before the second batch",
+    "Elena Vasquez: File a bug for the attribute mapping UI auto-matching custom fields to the built-in contractor flag",
+    "Elena Vasquez: Add Frostbyte's SOC 2 audit impact to the hierarchical role inheritance feature request",
+    "Elena Vasquez: Obtain a target date for role inheritance from the Identity product team and include it in the follow-up"
+  ],
+  "topics": [
+    "identity management",
+    "SCIM provisioning",
+    "attribute mapping",
+    "access governance",
+    "SOC 2 audit",
+    "feature request"
+  ],
+  "overallSentiment": "mixed-positive",
+  "sentimentScore": 3.4,
+  "keyMoments": [
+    {
+      "time": 36.0,
+      "text": "Olivia reports the new mapping UI rejects the workerType string field as an invalid boolean",
+      "type": "technical_issue",
+      "speaker": "Olivia Strand"
+    },
+    {
+      "time": 74.0,
+      "text": "Victor says ~60 contractors still have full employee access, flagged by their SOC 2 auditor",
+      "type": "concern",
+      "speaker": "Victor Zheng"
+    },
+    {
+      "time": 86.0,
+      "text": "Elena proposes mapping to a custom attribute with an assignment rule as a workaround",
+      "type": "positive_pivot",
+      "speaker": "Elena Vasquez"
+    },
+    {
+      "time": 135.0,
+      "text": "The test contractor account moves to the contractor role and loses finance app access",
+      "type": "positive_pivot",
+      "speaker": "Olivia Strand"
+    },
+    {
+      "time": 147.0,
+      "text": "Victor notes the lack of hierarchical role inheritance forces duplicate role maintenance",
+      "type": "feature_gap",
+      "speaker": "Victor Zheng"
+    },
+    {
+      "time": 221.0,
+      "text": "Victor thanks Elena for unblocking them quickly",
+      "type": "praise",
+      "speaker": "Victor Zheng"
+    }
+  ],
+  "meetingId": "01KQ189459C7825E1561F401"
+}

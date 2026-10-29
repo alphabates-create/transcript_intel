@@ -1,0 +1,11 @@
+{
+  "n_calls": 115,
+  "pearson_vendor_vs_vader": 0.717,
+  "spearman_vendor_vs_vader": 0.712,
+  "pearson_vendor_vs_customer": 0.756,
+  "n_disagreements": 6,
+  "mean_customer_minus_staff": -0.013,
+  "share_improved_with_pivot": 0.488,
+  "share_improved_without_pivot": 0.485,
+  "n_with_pivot": 82
+}

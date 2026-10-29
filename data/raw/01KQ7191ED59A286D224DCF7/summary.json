@@ -1,0 +1,59 @@
+{
+  "summary": "Mike Romano led a design review of the Protect scheduler rewrite with Nina Kowalski, Chris Lee and Sofia Petrov ahead of production rollout. Canary load tests at 2x P95 scale cut backup queue time from 47 minutes to about 6, with concurrent dispatch eliminating lock contention. Sofia presented the root cause of Silverline's April snapshot corruption: a race condition in async dedup let index entries be written before chunk data flushed, so backups reported success while restores failed, which Chris compared to the Detect health-check lesson. The team made checksum verification after flush and daily 1% automated restore verification mandatory release gates, approved a three-week staged rollout (5%, 25%, 100%) with automatic rollback, and agreed to resist sales pressure from the new Comply plus Protect bundle. Multi-region replication requested by Vanta Health is likely to slip to early Q4, so Nina will ask product to scope a Q3 single-region early access.",
+  "actionItems": [
+    "Sofia Petrov: Implement post-flush checksum verification and daily 1% automated restore verification as release gates",
+    "Chris Lee: Write the scheduler rollout runbook with 5/25/100% stages and automatic rollback criteria",
+    "Mike Romano: Align with sales that Protect onboardings stay gated until the rollout reaches 100%",
+    "Mike Romano: Ask Silverline to join the first 5% canary with restore verification enabled",
+    "Nina Kowalski: Take a Q3 single secondary region early access scope for multi-region replication to Jordan Whitfield this week"
+  ],
+  "topics": [
+    "scheduler rewrite",
+    "backup performance",
+    "data integrity",
+    "release engineering",
+    "root cause analysis",
+    "roadmap risk"
+  ],
+  "overallSentiment": "mixed-positive",
+  "sentimentScore": 3.3,
+  "keyMoments": [
+    {
+      "time": 18.0,
+      "text": "Sofia reports queue time at 2x P95 scale cut from 47 minutes to about 6",
+      "type": "positive_pivot",
+      "speaker": "Sofia Petrov"
+    },
+    {
+      "time": 48.0,
+      "text": "Nina says the April dedup fix silently broke restores and a customer found it first",
+      "type": "concern",
+      "speaker": "Nina Kowalski"
+    },
+    {
+      "time": 72.0,
+      "text": "Sofia explains the race condition that let backups report success with incomplete chunks",
+      "type": "technical_issue",
+      "speaker": "Sofia Petrov"
+    },
+    {
+      "time": 97.0,
+      "text": "Nina proposes checksum-after-flush and daily 1% restore verification as release gates",
+      "type": "action_item",
+      "speaker": "Nina Kowalski"
+    },
+    {
+      "time": 148.0,
+      "text": "Nina pushes back on sales pressure to accelerate the rollout",
+      "type": "concern",
+      "speaker": "Nina Kowalski"
+    },
+    {
+      "time": 192.0,
+      "text": "Mike says multi-region replication will likely slip to early Q4",
+      "type": "feature_gap",
+      "speaker": "Mike Romano"
+    }
+  ],
+  "meetingId": "01KQ7191ED59A286D224DCF7"
+}

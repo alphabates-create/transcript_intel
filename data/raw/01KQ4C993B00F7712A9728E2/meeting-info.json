@@ -1,0 +1,23 @@
+{
+  "meetingId": "01KQ4C993B00F7712A9728E2",
+  "title": "Q2 Executive Business Review",
+  "organizerEmail": "diana.reeves@aegiscloud.com",
+  "host": "diana.reeves@aegiscloud.com",
+  "startTime": "2026-06-24T16:00:00.000Z",
+  "endTime": "2026-06-24T16:11:36.000Z",
+  "duration": 11.6,
+  "allEmails": [
+    "diana.reeves@aegiscloud.com",
+    "tom.bradley@aegiscloud.com",
+    "james.mitchell@aegiscloud.com",
+    "brian.cho@aegiscloud.com",
+    "megan.lawson@aegiscloud.com"
+  ],
+  "invitees": [
+    "diana.reeves@aegiscloud.com",
+    "tom.bradley@aegiscloud.com",
+    "james.mitchell@aegiscloud.com",
+    "brian.cho@aegiscloud.com",
+    "megan.lawson@aegiscloud.com"
+  ]
+}

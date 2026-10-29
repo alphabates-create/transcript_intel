@@ -1,0 +1,12 @@
+{
+  "primary_theme": "Competitive threat",
+  "themes": [
+    "Compliance & audit",
+    "Detect outage & fallout",
+    "Comply v2 launch",
+    "Competitive threat"
+  ],
+  "certainty": 0.62,
+  "rationale": "The call is titled a vendor comparison and Catherine discloses they are actively evaluating Fortiguard Pro, with the March outage, compliance reporting gaps and Comply v2 serving as drivers and remedies.",
+  "source": "llm"
+}

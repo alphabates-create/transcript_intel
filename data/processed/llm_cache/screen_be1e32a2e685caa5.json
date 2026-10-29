@@ -1,0 +1,15 @@
+{
+  "is_business": true,
+  "reason": "Internal meeting to prepare for a SOC 2 Type II audit, covering control gaps, compliance operations, and assigned action items.",
+  "usage": {
+    "ts": "2026-10-29T19:08:51+00:00",
+    "step": "screen",
+    "model": "claude-sonnet-5-5",
+    "input_tokens": 781,
+    "output_tokens": 60,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "request_id": "req_011CgX48pEtG2VUuoKDWaJt8",
+    "cost_usd": 0.002162
+  }
+}

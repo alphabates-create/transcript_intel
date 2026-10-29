@@ -1,0 +1,9 @@
+{
+  "primary_theme": "Compliance & audit",
+  "themes": [
+    "Compliance & audit"
+  ],
+  "certainty": 0.9,
+  "rationale": "The call is an internal prep session for a SOC 2 Type II audit, covering control gaps like hotfix documentation, incident traceability, and security training ahead of the observation period.",
+  "source": "llm"
+}

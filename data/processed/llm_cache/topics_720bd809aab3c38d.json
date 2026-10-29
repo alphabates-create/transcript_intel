@@ -1,0 +1,9 @@
+{
+  "primary_theme": "Detect outage & fallout",
+  "themes": [
+    "Detect outage & fallout"
+  ],
+  "certainty": 0.97,
+  "rationale": "Customer reports a total Detect dashboard outage from the ingestion pipeline failure, with lost OT/SCADA visibility, Sev 1 escalation, data backfill and SLA credit discussion.",
+  "source": "llm"
+}

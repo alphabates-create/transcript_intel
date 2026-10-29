@@ -1,0 +1,15 @@
+{
+  "name": "Multi-framework compliance control mapping",
+  "summary": "Customers want a true control mapping matrix showing relationships across SOC 2, ISO 27001, and PCI DSS, rather than concatenated per-framework lists, to support compliance beyond SOC 2.",
+  "usage": {
+    "ts": "2026-10-27T20:51:53+00:00",
+    "step": "feature_gaps",
+    "model": "claude-sonnet-5-5",
+    "input_tokens": 687,
+    "output_tokens": 94,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "request_id": "req_011CgTQNh6iMSkQqy2uHfZXT",
+    "cost_usd": 0.002314
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "is_business": false,
+  "reason": "The call was purely a birthday celebration for Priya with cake and stories, with no customers, products, or other work topics discussed.",
+  "usage": {
+    "ts": "2026-10-29T19:09:15+00:00",
+    "step": "screen",
+    "model": "claude-sonnet-5-5",
+    "input_tokens": 579,
+    "output_tokens": 55,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "request_id": "req_011CgX4AUw5LbUthUj26RSba",
+    "cost_usd": 0.001708
+  }
+}

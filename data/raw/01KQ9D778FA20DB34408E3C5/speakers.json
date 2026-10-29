@@ -1,0 +1,182 @@
+[
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 7.1,
+    "endTimeTs": 11.0
+  },
+  {
+    "speakerName": "Alicia Monroe",
+    "timestamp": 11.9,
+    "endTimeTs": 20.0
+  },
+  {
+    "speakerName": "Alicia Monroe",
+    "timestamp": 20.9,
+    "endTimeTs": 26.8
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 27.3,
+    "endTimeTs": 31.5
+  },
+  {
+    "speakerName": "Alicia Monroe",
+    "timestamp": 32.6,
+    "endTimeTs": 41.5
+  },
+  {
+    "speakerName": "Gregory Fisk",
+    "timestamp": 41.9,
+    "endTimeTs": 48.9
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 49.8,
+    "endTimeTs": 55.2
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 55.5,
+    "endTimeTs": 60.3
+  },
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 60.7,
+    "endTimeTs": 65.9
+  },
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 66.8,
+    "endTimeTs": 73.2
+  },
+  {
+    "speakerName": "Gregory Fisk",
+    "timestamp": 73.6,
+    "endTimeTs": 77.5
+  },
+  {
+    "speakerName": "Alicia Monroe",
+    "timestamp": 78.5,
+    "endTimeTs": 84.3
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 85.5,
+    "endTimeTs": 93.4
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 94.6,
+    "endTimeTs": 104.7
+  },
+  {
+    "speakerName": "Alicia Monroe",
+    "timestamp": 105.7,
+    "endTimeTs": 110.7
+  },
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 111.8,
+    "endTimeTs": 117.0
+  },
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 118.2,
+    "endTimeTs": 126.3
+  },
+  {
+    "speakerName": "Gregory Fisk",
+    "timestamp": 127.5,
+    "endTimeTs": 128.9
+  },
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 129.8,
+    "endTimeTs": 137.6
+  },
+  {
+    "speakerName": "Gregory Fisk",
+    "timestamp": 139.0,
+    "endTimeTs": 141.8
+  },
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 143.0,
+    "endTimeTs": 152.6
+  },
+  {
+    "speakerName": "Alicia Monroe",
+    "timestamp": 153.2,
+    "endTimeTs": 160.0
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 161.5,
+    "endTimeTs": 163.7
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 164.5,
+    "endTimeTs": 173.8
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 175.0,
+    "endTimeTs": 180.6
+  },
+  {
+    "speakerName": "Alicia Monroe",
+    "timestamp": 181.3,
+    "endTimeTs": 183.3
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 184.7,
+    "endTimeTs": 192.7
+  },
+  {
+    "speakerName": "Gregory Fisk",
+    "timestamp": 194.1,
+    "endTimeTs": 199.1
+  },
+  {
+    "speakerName": "Alicia Monroe",
+    "timestamp": 199.5,
+    "endTimeTs": 208.3
+  },
+  {
+    "speakerName": "Alicia Monroe",
+    "timestamp": 209.6,
+    "endTimeTs": 218.2
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 219.0,
+    "endTimeTs": 222.0
+  },
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 222.5,
+    "endTimeTs": 226.1
+  },
+  {
+    "speakerName": "Gregory Fisk",
+    "timestamp": 227.4,
+    "endTimeTs": 229.0
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 230.0,
+    "endTimeTs": 236.1
+  },
+  {
+    "speakerName": "Alicia Monroe",
+    "timestamp": 236.7,
+    "endTimeTs": 242.2
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 242.7,
+    "endTimeTs": 247.8
+  }
+]

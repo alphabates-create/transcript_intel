@@ -1,0 +1,15 @@
+{
+  "is_business": true,
+  "reason": "This is a customer support case about a LogVault SIEM connector bug with Vanta Health Systems, covering root cause, workarounds, and a fix via version 3.5.0.",
+  "usage": {
+    "ts": "2026-10-29T19:08:50+00:00",
+    "step": "screen",
+    "model": "claude-sonnet-5-5",
+    "input_tokens": 875,
+    "output_tokens": 72,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "request_id": "req_011CgX48h4H6khhtBJPc9vJt",
+    "cost_usd": 0.00247
+  }
+}

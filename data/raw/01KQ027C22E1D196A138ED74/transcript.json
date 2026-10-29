@@ -1,0 +1,304 @@
+{
+  "data": [
+    {
+      "sentence": "Thanks everyone. The goal today is to decide whether we change Comply pricing before the Q3 price book locks at the end of the month.",
+      "speaker_name": "Jordan Whitfield",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 8.9,
+      "endTime": 18.5,
+      "averageConfidence": 0.89,
+      "index": 0
+    },
+    {
+      "sentence": "Quick context: Comply v2 adoption is strong, but the per-report overage model is causing friction, and we're discounting heavily to win renewals.",
+      "speaker_name": "Jordan Whitfield",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 19.9,
+      "endTime": 27.5,
+      "averageConfidence": 0.9,
+      "index": 1
+    },
+    {
+      "sentence": "From billing support, it's been rough. We've had nine overage disputes since the v2 launch, and Clearwater was the biggest at thirty-two hundred dollars.",
+      "speaker_name": "Marcus Williams",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 28.2,
+      "endTime": 36.4,
+      "averageConfidence": 0.95,
+      "index": 2
+    },
+    {
+      "sentence": "Most of them are the same story \u2014 customers exploring on-demand reports with no idea there was a limit, and no in-app warning.",
+      "speaker_name": "Marcus Williams",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 37.3,
+      "endTime": 44.9,
+      "averageConfidence": 0.93,
+      "index": 3
+    },
+    {
+      "sentence": "And that's the worst possible experience. The feature we're using to win people back after the outage is the one surprising them with a bill.",
+      "speaker_name": "Diana Reeves",
+      "sentimentType": "negative",
+      "speaker_id": 2,
+      "time": 46.3,
+      "endTime": 55.9,
+      "averageConfidence": 0.91,
+      "index": 4
+    },
+    {
+      "sentence": "Agreed. The no-warning part is a bug for migrated accounts, and that fix ships next week. But the bigger question is the model itself.",
+      "speaker_name": "Jordan Whitfield",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 57.4,
+      "endTime": 66.8,
+      "averageConfidence": 0.89,
+      "index": 5
+    },
+    {
+      "sentence": "From sales, the per-report model is hard to explain. Customers ask how many reports they'll need, and nobody knows.",
+      "speaker_name": "James Mitchell",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 67.3,
+      "endTime": 74.4,
+      "averageConfidence": 0.96,
+      "index": 6
+    },
+    {
+      "sentence": "Meanwhile, SentinelShield and VaultEdge both quote flat platform pricing. VaultEdge came in eighteen percent under us at Summit Trust.",
+      "speaker_name": "James Mitchell",
+      "sentimentType": "negative",
+      "speaker_id": 3,
+      "time": 75.8,
+      "endTime": 83.1,
+      "averageConfidence": 0.89,
+      "index": 7
+    },
+    {
+      "sentence": "And we've been giving Comply away for free in year one to save renewals \u2014 Bridgeport, Summit Trust, a few others.",
+      "speaker_name": "Diana Reeves",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 83.6,
+      "endTime": 91.7,
+      "averageConfidence": 0.97,
+      "index": 8
+    },
+    {
+      "sentence": "Which worries me. If year one is free and year two has overages, we're setting up a second wave of disputes next spring.",
+      "speaker_name": "Jordan Whitfield",
+      "sentimentType": "negative",
+      "speaker_id": 0,
+      "time": 92.3,
+      "endTime": 101.4,
+      "averageConfidence": 0.92,
+      "index": 9
+    },
+    {
+      "sentence": "So here's the proposal. Three tiers \u2014 Essentials, Professional and Enterprise \u2014 with unlimited on-demand reports in every tier.",
+      "speaker_name": "Jordan Whitfield",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 101.9,
+      "endTime": 108.4,
+      "averageConfidence": 0.89,
+      "index": 10
+    },
+    {
+      "sentence": "The tiers differ by number of frameworks, auditor package exports and API access, not by report count.",
+      "speaker_name": "Jordan Whitfield",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 108.8,
+      "endTime": 115.1,
+      "averageConfidence": 0.9,
+      "index": 11
+    },
+    {
+      "sentence": "Unlimited reports would be a much easier conversation. I can sell that tomorrow.",
+      "speaker_name": "James Mitchell",
+      "sentimentType": "positive",
+      "speaker_id": 3,
+      "time": 116.2,
+      "endTime": 120.5,
+      "averageConfidence": 0.91,
+      "index": 12
+    },
+    {
+      "sentence": "What happens to the customers already disputing overages?",
+      "speaker_name": "Marcus Williams",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 121.6,
+      "endTime": 124.7,
+      "averageConfidence": 0.92,
+      "index": 13
+    },
+    {
+      "sentence": "We'd credit any overage charged since April seventh and move them onto the matching tier at renewal.",
+      "speaker_name": "Jordan Whitfield",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 125.7,
+      "endTime": 131.2,
+      "averageConfidence": 0.91,
+      "index": 14
+    },
+    {
+      "sentence": "That's a strong story for Customer Success. It turns a complaint into a goodwill gesture.",
+      "speaker_name": "Diana Reeves",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 131.5,
+      "endTime": 137.1,
+      "averageConfidence": 0.9,
+      "index": 15
+    },
+    {
+      "sentence": "What does it cost us? Overage revenue isn't nothing.",
+      "speaker_name": "James Mitchell",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 137.7,
+      "endTime": 141.1,
+      "averageConfidence": 0.9,
+      "index": 16
+    },
+    {
+      "sentence": "About a hundred and ten thousand a year in overage revenue goes away. Finance thinks we recover it if the Professional tier lifts the average deal by eight percent.",
+      "speaker_name": "Jordan Whitfield",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 142.3,
+      "endTime": 152.5,
+      "averageConfidence": 0.88,
+      "index": 17
+    },
+    {
+      "sentence": "That's realistic if we bundle Professional with Protect. That's the combination customers keep asking for.",
+      "speaker_name": "James Mitchell",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 153.9,
+      "endTime": 159.3,
+      "averageConfidence": 0.91,
+      "index": 18
+    },
+    {
+      "sentence": "Careful with Protect, though. Engineering asked us to slow Protect onboarding until the scheduler fix is out.",
+      "speaker_name": "Diana Reeves",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 160.6,
+      "endTime": 166.5,
+      "averageConfidence": 0.91,
+      "index": 19
+    },
+    {
+      "sentence": "Good point. We can launch the bundle in the price book but gate new Protect onboardings on the scheduler rollout.",
+      "speaker_name": "Jordan Whitfield",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 167.7,
+      "endTime": 174.4,
+      "averageConfidence": 0.96,
+      "index": 20
+    },
+    {
+      "sentence": "One more thing from support \u2014 can we get usage visible in the console? Half our billing tickets are customers asking what they used.",
+      "speaker_name": "Marcus Williams",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 175.5,
+      "endTime": 184.0,
+      "averageConfidence": 0.93,
+      "index": 21
+    },
+    {
+      "sentence": "Yes, a usage page is part of this. Even with unlimited reports, customers want to see seats and API calls.",
+      "speaker_name": "Jordan Whitfield",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 184.3,
+      "endTime": 192.0,
+      "averageConfidence": 0.94,
+      "index": 22
+    },
+    {
+      "sentence": "I'd want an eighty percent usage alert on seats too. The Axiom invoice issue this week was another surprise bill.",
+      "speaker_name": "Diana Reeves",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 192.9,
+      "endTime": 199.9,
+      "averageConfidence": 0.93,
+      "index": 23
+    },
+    {
+      "sentence": "Yeah, Axiom's first invoice on the elastic seat model was wrong, and they only signed in April. That's not a good look.",
+      "speaker_name": "Marcus Williams",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 200.9,
+      "endTime": 208.7,
+      "averageConfidence": 0.89,
+      "index": 24
+    },
+    {
+      "sentence": "Okay, adding seat alerts. Let's decide: does anyone object to taking the three-tier model to the pricing committee?",
+      "speaker_name": "Jordan Whitfield",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 209.1,
+      "endTime": 215.6,
+      "averageConfidence": 0.96,
+      "index": 25
+    },
+    {
+      "sentence": "No objection from sales.",
+      "speaker_name": "James Mitchell",
+      "sentimentType": "positive",
+      "speaker_id": 3,
+      "time": 216.4,
+      "endTime": 217.8,
+      "averageConfidence": 0.96,
+      "index": 26
+    },
+    {
+      "sentence": "Customer Success supports it.",
+      "speaker_name": "Diana Reeves",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 219.1,
+      "endTime": 220.6,
+      "averageConfidence": 0.9,
+      "index": 27
+    },
+    {
+      "sentence": "Support supports it, especially the overage credit.",
+      "speaker_name": "Marcus Williams",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 222.0,
+      "endTime": 224.7,
+      "averageConfidence": 0.91,
+      "index": 28
+    },
+    {
+      "sentence": "Great. I'll write it up with finance for the committee on the twentieth.",
+      "speaker_name": "Jordan Whitfield",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 225.7,
+      "endTime": 230.9,
+      "averageConfidence": 0.97,
+      "index": 29
+    }
+  ]
+}

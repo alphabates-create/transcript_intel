@@ -1,0 +1,20 @@
+{
+  "status": "open",
+  "resolved_call_index": null,
+  "owner": "Elena Vasquez",
+  "category": "Outage",
+  "priority": "P1",
+  "outage_hours": 6.0,
+  "resolution_note": "Service was restored March 18 with redundant processing nodes and a circuit breaker, but the case stays open until the data recovery summary and post-incident report are delivered and confirmed.",
+  "usage": {
+    "ts": "2026-10-27T06:50:40+00:00",
+    "step": "incidents",
+    "model": "claude-sonnet-5-5",
+    "input_tokens": 1647,
+    "output_tokens": 121,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "request_id": "req_011CgSJE75QgwEPJUha7bCtU",
+    "cost_usd": 0.004504
+  }
+}

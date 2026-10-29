@@ -1,0 +1,23 @@
+{
+  "primary_theme": "Renewal & contracts",
+  "themes": [
+    "Renewal & contracts",
+    "Detect outage & fallout",
+    "Comply v2 launch",
+    "Compliance & audit",
+    "Onboarding & deployment"
+  ],
+  "certainty": 0.62,
+  "rationale": "The call centers on Keystone's decision to add Detect as an expansion, co-termed with the existing three-year agreement with an enhanced 99.9% SLA, though outage trust repair, Comply v2 HIPAA savings, and onboarding are also substantial.",
+  "usage": {
+    "ts": "2026-10-27T20:38:31+00:00",
+    "step": "topics",
+    "model": "claude-sonnet-5-5",
+    "input_tokens": 1928,
+    "output_tokens": 172,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "request_id": "req_011CgTPMauViDHTPqxbNYAck",
+    "cost_usd": 0.005576
+  }
+}

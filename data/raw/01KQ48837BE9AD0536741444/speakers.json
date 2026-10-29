@@ -1,0 +1,142 @@
+[
+  {
+    "speakerName": "Lisa Park",
+    "timestamp": 5.8,
+    "endTimeTs": 11.8
+  },
+  {
+    "speakerName": "Lisa Park",
+    "timestamp": 12.7,
+    "endTimeTs": 19.5
+  },
+  {
+    "speakerName": "Raymond Burke",
+    "timestamp": 20.2,
+    "endTimeTs": 27.7
+  },
+  {
+    "speakerName": "Raymond Burke",
+    "timestamp": 28.8,
+    "endTimeTs": 34.2
+  },
+  {
+    "speakerName": "Lisa Park",
+    "timestamp": 34.5,
+    "endTimeTs": 39.0
+  },
+  {
+    "speakerName": "Raymond Burke",
+    "timestamp": 39.8,
+    "endTimeTs": 51.3
+  },
+  {
+    "speakerName": "Dr. Linda Cheng",
+    "timestamp": 52.1,
+    "endTimeTs": 59.5
+  },
+  {
+    "speakerName": "Lisa Park",
+    "timestamp": 60.7,
+    "endTimeTs": 65.2
+  },
+  {
+    "speakerName": "Dr. Linda Cheng",
+    "timestamp": 66.0,
+    "endTimeTs": 71.9
+  },
+  {
+    "speakerName": "Dr. Linda Cheng",
+    "timestamp": 72.2,
+    "endTimeTs": 78.3
+  },
+  {
+    "speakerName": "Lisa Park",
+    "timestamp": 79.7,
+    "endTimeTs": 83.3
+  },
+  {
+    "speakerName": "Dr. Linda Cheng",
+    "timestamp": 84.5,
+    "endTimeTs": 93.0
+  },
+  {
+    "speakerName": "Lisa Park",
+    "timestamp": 93.3,
+    "endTimeTs": 98.2
+  },
+  {
+    "speakerName": "Raymond Burke",
+    "timestamp": 98.6,
+    "endTimeTs": 105.8
+  },
+  {
+    "speakerName": "Raymond Burke",
+    "timestamp": 106.8,
+    "endTimeTs": 113.8
+  },
+  {
+    "speakerName": "Lisa Park",
+    "timestamp": 114.2,
+    "endTimeTs": 121.3
+  },
+  {
+    "speakerName": "Raymond Burke",
+    "timestamp": 121.7,
+    "endTimeTs": 125.7
+  },
+  {
+    "speakerName": "Dr. Linda Cheng",
+    "timestamp": 126.7,
+    "endTimeTs": 135.4
+  },
+  {
+    "speakerName": "Lisa Park",
+    "timestamp": 136.6,
+    "endTimeTs": 145.0
+  },
+  {
+    "speakerName": "Dr. Linda Cheng",
+    "timestamp": 146.5,
+    "endTimeTs": 152.8
+  },
+  {
+    "speakerName": "Lisa Park",
+    "timestamp": 153.4,
+    "endTimeTs": 158.9
+  },
+  {
+    "speakerName": "Dr. Linda Cheng",
+    "timestamp": 160.2,
+    "endTimeTs": 169.7
+  },
+  {
+    "speakerName": "Lisa Park",
+    "timestamp": 170.8,
+    "endTimeTs": 177.9
+  },
+  {
+    "speakerName": "Dr. Linda Cheng",
+    "timestamp": 178.9,
+    "endTimeTs": 188.8
+  },
+  {
+    "speakerName": "Lisa Park",
+    "timestamp": 189.8,
+    "endTimeTs": 194.9
+  },
+  {
+    "speakerName": "Raymond Burke",
+    "timestamp": 196.4,
+    "endTimeTs": 200.6
+  },
+  {
+    "speakerName": "Lisa Park",
+    "timestamp": 201.6,
+    "endTimeTs": 206.3
+  },
+  {
+    "speakerName": "Dr. Linda Cheng",
+    "timestamp": 207.6,
+    "endTimeTs": 214.2
+  }
+]

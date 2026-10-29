@@ -1,0 +1,15 @@
+{
+  "is_business": true,
+  "reason": "The call is a customer roadmap review where a CSM and a Pinnacle Insurance customer discuss Detect feature requests, a pipeline outage, LogVault integration, and a planned Comply demo.",
+  "usage": {
+    "ts": "2026-10-29T19:09:07+00:00",
+    "step": "screen",
+    "model": "claude-sonnet-5-5",
+    "input_tokens": 814,
+    "output_tokens": 82,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "request_id": "req_011CgX49txumgebG7LufAwWM",
+    "cost_usd": 0.002448
+  }
+}

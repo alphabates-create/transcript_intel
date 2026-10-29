@@ -1,0 +1,52 @@
+﻿call_id,start_time,hours_from_start,in_window,title,call_type,account,sentiment_score,km_churn_signal,competitors
+01KQ38C4101D6774F2F02331,2026-03-10 13:15:00+00:00,0.0,True,INCIDENT: Detect Pipeline Failure - War Room,internal,,1.8,1,
+01KQEDB92E33CF9945A7F71B,2026-03-10 13:15:00+00:00,0.0,True,URGENT: Cobalt Software - Aegis Detect Dashboard Down,external,Cobalt,1.8,1,SentinelShield
+01KQ46A9DE0AECB006D897A0,2026-03-11 11:00:00+00:00,21.8,True,Detect Outage - Escalation Bridge,internal,,1.8,1,SentinelShield
+01KQ7BF0D56037FF89DC89B6,2026-03-11 17:45:00+00:00,28.5,True,Support Case #3266 - Trailhead Marketplace Detect Alerts Not Firing,support,Trailhead,1.4,2,SentinelShield
+01KQ351E141926AB7CAB668D,2026-03-12 12:15:00+00:00,47.0,True,Aegis / Northstar Pharma - Urgent: Detect Outage Impact,external,Northstar,2.1,2,SentinelShield
+01KQ2331EFD78BF3B1CAB747,2026-03-12 13:45:00+00:00,48.5,True,Detect Outage - Customer Impact Assessment,internal,,1.8,2,SentinelShield
+01KQ2D93184912F0147315E7,2026-03-12 15:45:00+00:00,50.5,True,URGENT: Blackridge Investments - Complete Loss of Threat Visibility,external,Blackridge,1.6,1,SentinelShield
+01KQ94C2B8B9B4668F3D3491,2026-03-13 10:30:00+00:00,69.2,True,Support Case #6573 - Ridgeline Logistics Detect Data Gaps,support,Ridgeline,2.1,1,
+01KQ2217B066855A3B7814CB,2026-03-14 11:45:00+00:00,94.5,True,Aegis / Meridian Capital - Service Reliability Discussion,external,Meridian,2.4,1,SentinelShield
+01KQE110900B8A65D80AE694,2026-03-14 14:30:00+00:00,97.2,True,Detect Outage - Root Cause Analysis,internal,,2.4,0,
+01KQ325BDEDEE927D2970775,2026-03-14 17:15:00+00:00,100.0,True,Support Case #5889 - Ridgeline Logistics Detect Latency Issues,support,Ridgeline,2.4,1,
+01KQ88B8EAEAA819C26CCBE7,2026-03-15 14:30:00+00:00,121.2,True,ESCALATION: Northstar Pharma - Detect Outage Impact on Compliance,external,Northstar,2.1,1,SentinelShield; CyberNova
+01KQ03B0303900521BB089CA,2026-03-16 09:30:00+00:00,140.2,True,Detect Outage - Remediation Plan Review,internal,,2.4,1,
+01KQEDE682B4A8D67C657CF1,2026-03-16 16:15:00+00:00,147.0,True,Support Case #3103 - Silverline Brands Detect False Positives After Patch,support,Silverline,2.4,1,
+01KQ8C5A044F54EE1774D53C,2026-03-17 11:45:00+00:00,166.5,True,Aegis / Helix Data - Post-Incident Review,external,Helix,2.3,1,VaultEdge
+01KQ5D47170D4828E89EDE37,2026-03-18 14:45:00+00:00,193.5,True,Support Case #7537 - Forge Industries Detect Recovery Confirmation,support,Forge,3.4,0,
+01KQ3CE40428CCC5FF433FFC,2026-03-18 16:30:00+00:00,195.2,True,Detect Outage - Post-Incident Review,internal,,2.8,1,
+01KQ1DCC80852AE384C898C9,2026-03-19 16:00:00+00:00,218.8,False,Aegis / Quantum Edge - Renewal Concerns,external,Quantum,2.4,1,SentinelShield
+01KQ298F2846EFE59B0D70E2,2026-03-20 15:30:00+00:00,242.2,False,Competitive Threat Assessment - Post Outage,internal,,2.3,1,SentinelShield; VaultEdge; CyberNova
+01KQ7FA71CF70FAFEE4B6251,2026-03-21 11:15:00+00:00,262.0,False,Aegis / Nova Retail Group - Renewal Discussion,external,Nova,2.6,2,SentinelShield
+01KQ1DE954A807A5D2653175,2026-03-24 14:45:00+00:00,337.5,False,Comply v2 - Launch Readiness Review,internal,,3.6,0,
+01KQ45C76AF3AEA6B3EA6697,2026-03-24 17:45:00+00:00,340.5,False,Aegis / Steelpoint Manufacturing - Contract Review,external,Steelpoint,2.8,1,CyberNova
+01KQ5A966832A146DA4B7D41,2026-03-26 16:00:00+00:00,386.8,False,Aegis / Summit Trust - Platform Concerns Discussion,external,Summit,2.4,2,VaultEdge
+01KQC1267BEB344076DD7656,2026-03-28 12:30:00+00:00,431.2,False,Aegis / Ironclad Financial - Account Recovery Check-in,external,Ironclad,2.8,2,SentinelShield
+01KQ3D8C1EF16C042F31FAFD,2026-04-05 14:30:00+00:00,625.2,False,Aegis / Trailhead Marketplace - Renewal Confirmation,external,Trailhead,4.5,0,
+01KQ764171AC27A3A94DC695,2026-04-07 13:45:00+00:00,672.5,False,Detect Reliability - 30-Day Review,internal,,2.8,1,
+01KQB95605C6F873C6036285,2026-04-09 11:15:00+00:00,718.0,False,Aegis / Forge Industries - PCI DSS Compliance Review,external,Forge,4.1,1,
+01KQA0F0BE68E74D66EB4171,2026-04-10 11:30:00+00:00,742.2,False,Competitive Response Strategy,internal,,3.6,1,SentinelShield; VaultEdge; CyberNova
+01KQ56AA6B60801ABC01AB1C,2026-04-10 17:30:00+00:00,748.2,False,Support Case #8179 - Clearwater Medical Overage Charges Dispute,support,Clearwater,2.4,1,
+01KQ0F8AFF3DA34FD4580008,2026-04-11 14:15:00+00:00,769.0,False,Aegis / Cobalt Software - Q2 Planning,external,Cobalt,3.4,2,SentinelShield
+01KQA7DFCE1285F52192B34B,2026-04-12 09:00:00+00:00,787.8,False,Support Case #9856 - Silverline Brands Backup Window Exceeded,support,Silverline,2.4,1,
+01KQ6CAA850EAFDC48B52846,2026-04-14 13:45:00+00:00,840.5,False,Aegis / Ironworks Corp - Vendor Comparison Discussion,external,Ironworks,2.6,1,Fortiguard Pro
+01KQBBF753B44DE677670E6D,2026-04-15 12:30:00+00:00,863.2,False,Support Case #6147 - Summit Trust Detect Alert Delays,support,Summit,2.4,1,
+01KQ8D9A06510DD623EFB1A6,2026-04-16 13:00:00+00:00,887.8,False,Aegis / Pinnacle Insurance - Detect Roadmap Review,external,Pinnacle,3.6,1,
+01KQ445B1B5B890316C9E300,2026-04-17 17:15:00+00:00,916.0,False,Weekly Engineering Standup,internal,,3.5,0,
+01KQFEEFFF8E80B0DFD10880,2026-04-20 09:30:00+00:00,980.2,False,SOC 2 Type II - Final Review,internal,,4.7,0,
+01KQ56D878454E5783DC6D94,2026-04-22 12:30:00+00:00,1031.2,False,Support Case #3536 - Stratos Cloud LogVault Integration Timeout,support,Stratos,2.4,1,
+01KQ45F6F7349D0A620571F1,2026-04-22 15:30:00+00:00,1034.2,False,Aegis / Brightpath Commerce - Competitive Evaluation,external,Brightpath,2.6,1,SentinelShield
+01KQ4D71CDFB1045A2458216,2026-04-23 13:30:00+00:00,1056.2,False,Aegis / Bridgeport Health - Renewal Finalization,external,Bridgeport,4.1,0,
+01KQ4529010F423FD9DB40BD,2026-04-24 12:45:00+00:00,1079.5,False,Win/Loss Analysis - Q1,internal,,2.4,1,SentinelShield; VaultEdge; CyberNova
+01KQ7B802912366FC0A24D4F,2026-04-26 11:45:00+00:00,1126.5,False,All Hands - April Update,internal,,3.6,0,VaultEdge
+01KQC166F678CBA584AAFF8B,2026-04-27 10:15:00+00:00,1149.0,False,Support Case #7615 - Crestline Wealth Group Policy Sync Delay,support,Crestline,2.4,2,
+01KQF9600A904ADE8605B3F0,2026-04-28 10:45:00+00:00,1173.5,False,Detect Team - Reliability Sprint Retro,internal,,4.8,0,
+01KQD199788883B6F18C81E8,2026-04-28 12:45:00+00:00,1175.5,False,Aegis / Atlas Precision - Annual Review & Renewal,external,Atlas,4.3,0,SentinelShield
+01KQ0148BB7BB6CB4FB590C2,2026-05-06 15:30:00+00:00,1370.2,False,Aegis / Brightpath Commerce - Detect Technical Session,external,Brightpath,3.7,1,SentinelShield
+01KQF1F3BDA5506F031E5700,2026-05-12 10:00:00+00:00,1508.8,False,Detect Chaos Engineering - Game Day Review,internal,,4.2,1,
+01KQ9D778FA20DB34408E3C5,2026-05-14 16:45:00+00:00,1563.5,False,Aegis / Summit Trust - Renewal Decision,external,Summit,2.7,1,VaultEdge
+01KQ3BC30A48575E5B1895F5,2026-05-27 17:30:00+00:00,1876.2,False,Aegis / Keystone Health - Detect Add-on Decision,external,Keystone,4.7,0,
+01KQC6CC9F71E8974B8BC766,2026-05-28 15:00:00+00:00,1897.8,False,Customer Success - At-Risk Account Review,internal,,2.9,3,SentinelShield; VaultEdge; Fortiguard Pro
+01KQ48837BE9AD0536741444,2026-06-04 18:00:00+00:00,2068.8,False,Aegis / Vanta Health Systems - Q2 Business Review,external,Vanta,4.4,1,
+01KQ4C993B00F7712A9728E2,2026-06-24 16:00:00+00:00,2546.8,False,Q2 Executive Business Review,internal,,3.4,2,SentinelShield; Fortiguard Pro

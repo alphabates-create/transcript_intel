@@ -1,0 +1,15 @@
+{
+  "is_business": true,
+  "reason": "This is a customer support case about LogVault integration timeouts, including root-cause diagnosis, a fix, a data backfill and churn risk, all of which are work content.",
+  "usage": {
+    "ts": "2026-10-29T19:09:09+00:00",
+    "step": "screen",
+    "model": "claude-sonnet-5-5",
+    "input_tokens": 895,
+    "output_tokens": 68,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "request_id": "req_011CgX4A1mT2pCAHGjor5ND9",
+    "cost_usd": 0.00247
+  }
+}

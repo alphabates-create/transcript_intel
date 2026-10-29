@@ -1,0 +1,20 @@
+{
+  "status": "open",
+  "resolved_call_index": null,
+  "owner": "Sarah Chen",
+  "category": "Defect",
+  "priority": "P1",
+  "outage_hours": null,
+  "resolution_note": "Workarounds (retry_on_timeout and F5 connection limit increase) are being applied today, with the permanent fix, an upgrade to connector 3.5.0, planned for the weekend and not yet confirmed.",
+  "usage": {
+    "ts": "2026-10-27T06:50:07+00:00",
+    "step": "incidents",
+    "model": "claude-sonnet-5-5",
+    "input_tokens": 1801,
+    "output_tokens": 133,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "request_id": "req_011CgSJBhn8XE9Z1yMDvJ2cD",
+    "cost_usd": 0.004932
+  }
+}

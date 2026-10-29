@@ -1,0 +1,244 @@
+{
+  "data": [
+    {
+      "sentence": "Welcome to Aegis, Helena and Tobias. We're really glad to be starting this with you.",
+      "speaker_name": "Lisa Park",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 7.2,
+      "endTime": 12.3,
+      "averageConfidence": 0.96,
+      "index": 0
+    },
+    {
+      "sentence": "Thanks, Lisa. We're glad too. It was a close evaluation, so I'll tell you what tipped it.",
+      "speaker_name": "Helena Marsh",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 13.6,
+      "endTime": 19.3,
+      "averageConfidence": 0.9,
+      "index": 1
+    },
+    {
+      "sentence": "We looked hard at SentinelShield and VaultEdge. Honestly, on features alone it was close.",
+      "speaker_name": "Helena Marsh",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 20.5,
+      "endTime": 25.0,
+      "averageConfidence": 0.89,
+      "index": 2
+    },
+    {
+      "sentence": "What decided it was how you handled the March outage. Keystone's CISO walked us through your game day summary, including what failed.",
+      "speaker_name": "Helena Marsh",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 25.8,
+      "endTime": 33.6,
+      "averageConfidence": 0.92,
+      "index": 3
+    },
+    {
+      "sentence": "A vendor that shows me its own failures is one I trust to tell me about mine.",
+      "speaker_name": "Helena Marsh",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 34.7,
+      "endTime": 40.4,
+      "averageConfidence": 0.94,
+      "index": 4
+    },
+    {
+      "sentence": "That means a lot to the engineering team. They debated for a long time whether to share the partition test result.",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 41.2,
+      "endTime": 48.0,
+      "averageConfidence": 0.9,
+      "index": 5
+    },
+    {
+      "sentence": "Let's talk about the plan. You're starting with Detect and Comply, and Identity in phase two.",
+      "speaker_name": "Lisa Park",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 48.9,
+      "endTime": 54.2,
+      "averageConfidence": 0.95,
+      "index": 6
+    },
+    {
+      "sentence": "Right. We're a credit union with about nine hundred staff and thirty branches, mostly on CloudPrime, with some on-prem core banking.",
+      "speaker_name": "Tobias Lindqvist",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 54.8,
+      "endTime": 62.2,
+      "averageConfidence": 0.95,
+      "index": 7
+    },
+    {
+      "sentence": "The core banking system is the sensitive part. It can't take an agent, so we'd need agentless log collection.",
+      "speaker_name": "Tobias Lindqvist",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 62.9,
+      "endTime": 70.4,
+      "averageConfidence": 0.92,
+      "index": 8
+    },
+    {
+      "sentence": "That's supported through LogVault. We'd forward syslog from a collector in your data center, so nothing is installed on the core system.",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 71.3,
+      "endTime": 79.1,
+      "averageConfidence": 0.97,
+      "index": 9
+    },
+    {
+      "sentence": "Good, that was my main worry.",
+      "speaker_name": "Tobias Lindqvist",
+      "sentimentType": "positive",
+      "speaker_id": 3,
+      "time": 80.1,
+      "endTime": 82.3,
+      "averageConfidence": 0.9,
+      "index": 10
+    },
+    {
+      "sentence": "For Detect, the first seven days are observation mode. It learns your baselines without paging anyone, so your team isn't flooded on day one.",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 82.7,
+      "endTime": 91.4,
+      "averageConfidence": 0.95,
+      "index": 11
+    },
+    {
+      "sentence": "I like that. We've heard from Brightpath that tuning made a big difference to their alert volume.",
+      "speaker_name": "Helena Marsh",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 91.9,
+      "endTime": 97.7,
+      "averageConfidence": 0.95,
+      "index": 12
+    },
+    {
+      "sentence": "It did. We'll schedule a tuning session at the end of week two using your own alert data.",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 98.1,
+      "endTime": 104.0,
+      "averageConfidence": 0.92,
+      "index": 13
+    },
+    {
+      "sentence": "On compliance, we're examined by the NCUA, and we also do SOC 2 for our fintech partners.",
+      "speaker_name": "Helena Marsh",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 104.9,
+      "endTime": 111.0,
+      "averageConfidence": 0.97,
+      "index": 14
+    },
+    {
+      "sentence": "Comply v2 covers SOC 2 natively. The NCUA examination framework isn't built in yet, but most of its controls map onto FFIEC, which we do support.",
+      "speaker_name": "Lisa Park",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 112.1,
+      "endTime": 121.2,
+      "averageConfidence": 0.92,
+      "index": 15
+    },
+    {
+      "sentence": "Can you send that mapping? Our examiner will ask.",
+      "speaker_name": "Helena Marsh",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 121.7,
+      "endTime": 124.6,
+      "averageConfidence": 0.9,
+      "index": 16
+    },
+    {
+      "sentence": "Yes, I'll put together a control mapping between FFIEC and the NCUA requirements for your examiner.",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 124.9,
+      "endTime": 131.0,
+      "averageConfidence": 0.91,
+      "index": 17
+    },
+    {
+      "sentence": "What's the timeline end to end?",
+      "speaker_name": "Tobias Lindqvist",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 132.4,
+      "endTime": 134.7,
+      "averageConfidence": 0.97,
+      "index": 18
+    },
+    {
+      "sentence": "About five weeks for Detect and Comply. Week one is collectors and integrations, week two observation mode, then tuning, then go-live.",
+      "speaker_name": "Lisa Park",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 135.9,
+      "endTime": 144.0,
+      "averageConfidence": 0.91,
+      "index": 19
+    },
+    {
+      "sentence": "And you'll give us access to the pipeline health panel when it ships?",
+      "speaker_name": "Helena Marsh",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 144.6,
+      "endTime": 149.6,
+      "averageConfidence": 0.88,
+      "index": 20
+    },
+    {
+      "sentence": "From day one of its release, yes. You'll have the heartbeat alerts routed to your SOC as well.",
+      "speaker_name": "Lisa Park",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 151.0,
+      "endTime": 156.9,
+      "averageConfidence": 0.93,
+      "index": 21
+    },
+    {
+      "sentence": "Perfect. This is a good start. Let's get the collectors scheduled.",
+      "speaker_name": "Helena Marsh",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 157.9,
+      "endTime": 161.8,
+      "averageConfidence": 0.94,
+      "index": 22
+    },
+    {
+      "sentence": "Wonderful. I'll send the project plan and the collector requirements tomorrow.",
+      "speaker_name": "Lisa Park",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 162.9,
+      "endTime": 166.8,
+      "averageConfidence": 0.91,
+      "index": 23
+    }
+  ]
+}

@@ -1,0 +1,334 @@
+{
+  "data": [
+    {
+      "sentence": "Alright, let's get started \u2014 this is the review of Tuesday's game day on the Detect ingestion pipeline.",
+      "speaker_name": "Tyler Washington",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 5.6,
+      "endTime": 11.5,
+      "averageConfidence": 0.96,
+      "index": 0
+    },
+    {
+      "sentence": "Ravi ran the scenarios, so I'll let him walk through them, and then I want to land on what's left before we call the reliability work done.",
+      "speaker_name": "Tyler Washington",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 13.0,
+      "endTime": 22.9,
+      "averageConfidence": 0.96,
+      "index": 1
+    },
+    {
+      "sentence": "Sure. We ran five scenarios in the staging cluster at about one point two times our current peak event volume.",
+      "speaker_name": "Ravi Gupta",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 23.3,
+      "endTime": 31.1,
+      "averageConfidence": 0.9,
+      "index": 2
+    },
+    {
+      "sentence": "Scenario one was killing the primary ingestion node outright. Failover completed in eleven seconds and we lost zero events.",
+      "speaker_name": "Ravi Gupta",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 32.6,
+      "endTime": 39.4,
+      "averageConfidence": 0.96,
+      "index": 3
+    },
+    {
+      "sentence": "That's better than the fourteen we saw in the sprint retro.",
+      "speaker_name": "Chris Lee",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 40.9,
+      "endTime": 45.2,
+      "averageConfidence": 0.88,
+      "index": 4
+    },
+    {
+      "sentence": "Yeah, tuning the health check interval helped. Scenario two was memory pressure \u2014 the exact failure mode from March.",
+      "speaker_name": "Ravi Gupta",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 45.8,
+      "endTime": 52.1,
+      "averageConfidence": 0.95,
+      "index": 5
+    },
+    {
+      "sentence": "The circuit breaker tripped at eighty-five percent memory, shed load to the secondary, and the primary recovered on its own.",
+      "speaker_name": "Ravi Gupta",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 52.7,
+      "endTime": 60.3,
+      "averageConfidence": 0.95,
+      "index": 6
+    },
+    {
+      "sentence": "So the thing that took us down for six hours now just... recovers. That's huge.",
+      "speaker_name": "Tyler Washington",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 61.5,
+      "endTime": 67.2,
+      "averageConfidence": 0.91,
+      "index": 7
+    },
+    {
+      "sentence": "Scenario three is where we found something. We partitioned the network between the queue and the processing nodes.",
+      "speaker_name": "Ravi Gupta",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 68.1,
+      "endTime": 74.0,
+      "averageConfidence": 0.94,
+      "index": 8
+    },
+    {
+      "sentence": "Both nodes stayed healthy but stopped receiving events, and our alerting didn't fire for about six minutes.",
+      "speaker_name": "Ravi Gupta",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 75.5,
+      "endTime": 82.2,
+      "averageConfidence": 0.9,
+      "index": 9
+    },
+    {
+      "sentence": "Six minutes with nobody knowing \u2014 that's the same blind spot as March, just shorter.",
+      "speaker_name": "Ananya Sharma",
+      "sentimentType": "negative",
+      "speaker_id": 3,
+      "time": 83.7,
+      "endTime": 88.7,
+      "averageConfidence": 0.95,
+      "index": 10
+    },
+    {
+      "sentence": "Right. The health checks still look at the node, not at whether events are actually flowing end to end.",
+      "speaker_name": "Ravi Gupta",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 90.0,
+      "endTime": 97.6,
+      "averageConfidence": 0.93,
+      "index": 11
+    },
+    {
+      "sentence": "Which is exactly why we wanted the synthetic heartbeat. Where is that?",
+      "speaker_name": "Chris Lee",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 98.1,
+      "endTime": 102.3,
+      "averageConfidence": 0.91,
+      "index": 12
+    },
+    {
+      "sentence": "It's designed but not built. It's the same component as the customer-facing health panel, so it's slated for early June.",
+      "speaker_name": "Tyler Washington",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 103.2,
+      "endTime": 110.1,
+      "averageConfidence": 0.95,
+      "index": 13
+    },
+    {
+      "sentence": "I'd push to pull it forward. I'm on calls with Brightpath and Summit Trust this month, and both asked how we'd detect a silent failure.",
+      "speaker_name": "Ananya Sharma",
+      "sentimentType": "negative",
+      "speaker_id": 3,
+      "time": 110.8,
+      "endTime": 120.0,
+      "averageConfidence": 0.96,
+      "index": 14
+    },
+    {
+      "sentence": "If I can't answer that with something real, it's going to cost us at renewal.",
+      "speaker_name": "Ananya Sharma",
+      "sentimentType": "negative",
+      "speaker_id": 3,
+      "time": 120.6,
+      "endTime": 126.0,
+      "averageConfidence": 0.95,
+      "index": 15
+    },
+    {
+      "sentence": "Okay. Chris, what would it take to ship the internal heartbeat by end of May and leave the customer UI for June?",
+      "speaker_name": "Tyler Washington",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 126.8,
+      "endTime": 134.3,
+      "averageConfidence": 0.94,
+      "index": 16
+    },
+    {
+      "sentence": "If Ravi pairs with Sofia on it, probably two weeks. The UI is the long pole, not the heartbeat itself.",
+      "speaker_name": "Chris Lee",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 134.6,
+      "endTime": 142.0,
+      "averageConfidence": 0.93,
+      "index": 17
+    },
+    {
+      "sentence": "I can do that if we push the load-testing suite cleanup by a sprint.",
+      "speaker_name": "Ravi Gupta",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 143.4,
+      "endTime": 148.7,
+      "averageConfidence": 0.94,
+      "index": 18
+    },
+    {
+      "sentence": "I'm fine with that. Let's split it \u2014 internal heartbeat by May twenty-ninth, customer panel stays in June.",
+      "speaker_name": "Tyler Washington",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 149.3,
+      "endTime": 155.7,
+      "averageConfidence": 0.91,
+      "index": 19
+    },
+    {
+      "sentence": "Scenario four was a bad config push, and rollback took four minutes, which is within target.",
+      "speaker_name": "Ravi Gupta",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 156.7,
+      "endTime": 162.3,
+      "averageConfidence": 0.89,
+      "index": 20
+    },
+    {
+      "sentence": "Scenario five was the one I was worried about \u2014 the circuit breaker payload threshold, the thing that hit Stratos Cloud in April.",
+      "speaker_name": "Ravi Gupta",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 163.8,
+      "endTime": 171.7,
+      "averageConfidence": 0.91,
+      "index": 21
+    },
+    {
+      "sentence": "With the new adaptive threshold it handled fifteen thousand events a minute without tripping, so that one's fixed.",
+      "speaker_name": "Ravi Gupta",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 172.7,
+      "endTime": 179.6,
+      "averageConfidence": 0.92,
+      "index": 22
+    },
+    {
+      "sentence": "Good, I'll let Damien's team know, they were really unhappy about that one.",
+      "speaker_name": "Ananya Sharma",
+      "sentimentType": "positive",
+      "speaker_id": 3,
+      "time": 179.9,
+      "endTime": 185.0,
+      "averageConfidence": 0.93,
+      "index": 23
+    },
+    {
+      "sentence": "Did we run anything on the shared clusters? Summit Trust and Crestline both had issues from the post-outage rebalancing.",
+      "speaker_name": "Chris Lee",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 186.2,
+      "endTime": 193.0,
+      "averageConfidence": 0.93,
+      "index": 24
+    },
+    {
+      "sentence": "Not in this round. That's a gap \u2014 we should add a noisy-neighbor scenario to the next game day.",
+      "speaker_name": "Ravi Gupta",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 193.9,
+      "endTime": 200.7,
+      "averageConfidence": 0.92,
+      "index": 25
+    },
+    {
+      "sentence": "Agreed. I'd like these game days to be quarterly, not a one-off.",
+      "speaker_name": "Tyler Washington",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 201.5,
+      "endTime": 206.3,
+      "averageConfidence": 0.92,
+      "index": 26
+    },
+    {
+      "sentence": "I'll put it on the reliability sprint calendar and write it into the Q3 plan.",
+      "speaker_name": "Chris Lee",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 207.0,
+      "endTime": 213.0,
+      "averageConfidence": 0.89,
+      "index": 27
+    },
+    {
+      "sentence": "Can I get a customer-safe summary of today? Something I can share in renewal calls without exposing internals.",
+      "speaker_name": "Ananya Sharma",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 213.9,
+      "endTime": 220.6,
+      "averageConfidence": 0.93,
+      "index": 28
+    },
+    {
+      "sentence": "Yes. Ravi, draft the technical write-up, and Ananya, you turn it into the customer version.",
+      "speaker_name": "Tyler Washington",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 221.2,
+      "endTime": 227.0,
+      "averageConfidence": 0.88,
+      "index": 29
+    },
+    {
+      "sentence": "Happy to. Honestly, this is the first time since March I feel like we have a good story.",
+      "speaker_name": "Ananya Sharma",
+      "sentimentType": "positive",
+      "speaker_id": 3,
+      "time": 227.7,
+      "endTime": 233.5,
+      "averageConfidence": 0.9,
+      "index": 30
+    },
+    {
+      "sentence": "Same. Great work, Ravi \u2014 this was a really solid game day.",
+      "speaker_name": "Tyler Washington",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 234.1,
+      "endTime": 238.8,
+      "averageConfidence": 0.92,
+      "index": 31
+    },
+    {
+      "sentence": "Okay, actions: heartbeat by May twenty-ninth, a noisy-neighbor scenario next round, quarterly game days, and the two write-ups by Friday.",
+      "speaker_name": "Tyler Washington",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 239.5,
+      "endTime": 246.5,
+      "averageConfidence": 0.96,
+      "index": 32
+    }
+  ]
+}

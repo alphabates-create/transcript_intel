@@ -1,0 +1,9 @@
+{
+  "primary_theme": "Onboarding & deployment",
+  "themes": [
+    "Onboarding & deployment"
+  ],
+  "certainty": 0.93,
+  "rationale": "The call is an onboarding planning session for the Detect deployment covering sequencing, a one-month timeline, the late-March peak-season deadline, PagerDuty/LogVault integrations, and the seven-day baseline mode, with the December incident only a brief side topic about a different event than the March outage.",
+  "source": "llm"
+}

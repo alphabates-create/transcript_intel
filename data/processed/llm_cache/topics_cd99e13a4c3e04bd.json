@@ -1,0 +1,10 @@
+{
+  "primary_theme": "Compliance & audit",
+  "themes": [
+    "Compliance & audit",
+    "Competitive threat"
+  ],
+  "certainty": 0.8,
+  "rationale": "The call centers on Comply feature gaps in HIPAA reporting (control-family filtering, scheduled delivery, audit workflow), with VaultEdge raised as a possible future evaluation but not an active one.",
+  "source": "llm"
+}

@@ -1,0 +1,11 @@
+{
+  "primary_theme": "Onboarding & deployment",
+  "themes": [
+    "Compliance & audit",
+    "Backup / Protect",
+    "Onboarding & deployment"
+  ],
+  "certainty": 0.9,
+  "rationale": "This is an onboarding kickoff where Maria walks through the 4-6 week three-phase plan covering environment discovery, backup policy configuration, restore drills, and next steps like CloudPrime access provisioning.",
+  "source": "llm"
+}

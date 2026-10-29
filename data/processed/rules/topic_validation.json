@@ -1,0 +1,9 @@
+{
+  "n_calls": 115,
+  "n_llm": 0,
+  "n_rules": 115,
+  "primary_in_rule_themes": null,
+  "mean_jaccard_llm_vs_rules": null,
+  "model": null,
+  "cluster_purity_weighted": 0.591
+}

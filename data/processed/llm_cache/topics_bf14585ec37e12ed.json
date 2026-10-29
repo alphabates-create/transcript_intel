@@ -1,0 +1,10 @@
+{
+  "primary_theme": "Billing disputes",
+  "themes": [
+    "Comply v2 launch",
+    "Billing disputes"
+  ],
+  "certainty": 0.9,
+  "rationale": "The call centers on a $255 proration overbilling on the Comply v2 upgrade, with a credit arranged and the issue escalated to the billing systems team; v2 features and launch-day upgrades are secondary.",
+  "source": "llm"
+}

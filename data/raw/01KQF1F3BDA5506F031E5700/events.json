@@ -1,0 +1,50 @@
+[
+  {
+    "participantName": "Tyler Washington",
+    "timestamp": 1778580002000,
+    "type": "Join",
+    "time": 2.0
+  },
+  {
+    "participantName": "Ananya Sharma",
+    "timestamp": 1778580003000,
+    "type": "Join",
+    "time": 3.0
+  },
+  {
+    "participantName": "Chris Lee",
+    "timestamp": 1778580011000,
+    "type": "Join",
+    "time": 11.0
+  },
+  {
+    "participantName": "Ravi Gupta",
+    "timestamp": 1778580017000,
+    "type": "Join",
+    "time": 17.0
+  },
+  {
+    "participantName": "Tyler Washington",
+    "timestamp": 1778580936000,
+    "type": "Leave",
+    "time": 936.0
+  },
+  {
+    "participantName": "Ravi Gupta",
+    "timestamp": 1778580935000,
+    "type": "Leave",
+    "time": 935.0
+  },
+  {
+    "participantName": "Chris Lee",
+    "timestamp": 1778580934000,
+    "type": "Leave",
+    "time": 934.0
+  },
+  {
+    "participantName": "Ananya Sharma",
+    "timestamp": 1778580937000,
+    "type": "Leave",
+    "time": 937.0
+  }
+]

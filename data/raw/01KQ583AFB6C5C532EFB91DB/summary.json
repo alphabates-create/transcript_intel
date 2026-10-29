@@ -1,0 +1,53 @@
+{
+  "summary": "Sarah Chen from Aegis Cloud Security support followed up with Derek Owens of Crestline Wealth to verify the fix for persistent Aegis Identity policy sync delays (original case 7615) after his tenant moved to a dedicated sync worker. Derek confirmed policy changes now propagate in about two to five minutes, a 300-user group restructure completed in twelve minutes, and twenty new hires were provisioned within three minutes. He reiterated that the earlier five-day response gap was a regulatory concern for a wealth management firm, and Sarah explained the new P2 escalation rule that pages on-call after eight business hours without a response. Derek requested self-service visibility into sync latency; Sarah offered an API script and logged a dashboard feature request. The case will close after one more week of monitoring, and the dedicated worker is permanent.",
+  "actionItems": [
+    "Sarah Chen: Send Derek the case summary including the new P2 escalation policy in writing today",
+    "Sarah Chen: Send a sample script for the Identity sync job status API today",
+    "Sarah Chen: Log a feature request for an in-console sync latency dashboard with the Identity product team",
+    "Derek Owens: Monitor policy sync latency for one more week and report any delays above ten minutes",
+    "Sarah Chen: Resolve case 8124 after one week if latency stays under ten minutes"
+  ],
+  "topics": [
+    "identity management",
+    "policy sync",
+    "provisioning",
+    "support responsiveness",
+    "case follow-up",
+    "feature request"
+  ],
+  "overallSentiment": "mixed-positive",
+  "sentimentScore": 3.9,
+  "keyMoments": [
+    {
+      "time": 31.0,
+      "text": "Derek confirms policy changes now propagate in two to five minutes after the dedicated worker migration",
+      "type": "positive_pivot",
+      "speaker": "Derek Owens"
+    },
+    {
+      "time": 83.0,
+      "text": "Derek says the earlier five-day response gap still bothers him",
+      "type": "concern",
+      "speaker": "Derek Owens"
+    },
+    {
+      "time": 91.0,
+      "text": "Derek frames delayed deprovisioning as a regulatory risk for a wealth management firm",
+      "type": "churn_signal",
+      "speaker": "Derek Owens"
+    },
+    {
+      "time": 124.0,
+      "text": "Derek asks for self-service visibility into sync latency, which the console lacks",
+      "type": "feature_gap",
+      "speaker": "Derek Owens"
+    },
+    {
+      "time": 186.0,
+      "text": "Derek thanks Sarah for following up proactively",
+      "type": "praise",
+      "speaker": "Derek Owens"
+    }
+  ],
+  "meetingId": "01KQ583AFB6C5C532EFB91DB"
+}

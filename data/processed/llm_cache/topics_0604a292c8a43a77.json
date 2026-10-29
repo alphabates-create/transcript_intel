@@ -1,0 +1,9 @@
+{
+  "primary_theme": "Identity / SSO / MFA",
+  "themes": [
+    "Identity / SSO / MFA"
+  ],
+  "certainty": 0.95,
+  "rationale": "The call is a support case fixing an Aegis Identity LDAP sync failure caused by an untrusted internal CA certificate, resolved live by uploading the root cert, while the prior Detect outage was only mentioned as background for frustration.",
+  "source": "llm"
+}

@@ -1,0 +1,20 @@
+{
+  "primary_theme": "Detect outage & fallout",
+  "themes": [
+    "Detect outage & fallout",
+    "Internal planning"
+  ],
+  "certainty": 0.6,
+  "rationale": "The game day review centers on whether the Detect pipeline failure modes behind the March outage now self-heal, and on the remaining silent-failure blind spot that mirrors March and worries customers in renewal.}",
+  "usage": {
+    "ts": "2026-10-27T19:08:40+00:00",
+    "step": "topics",
+    "model": "claude-sonnet-5-5",
+    "input_tokens": 1991,
+    "output_tokens": 124,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "request_id": "req_011CgTGWDsu7oeUY3GRKw7hE",
+    "cost_usd": 0.005222
+  }
+}

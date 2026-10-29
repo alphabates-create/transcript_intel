@@ -1,0 +1,50 @@
+[
+  {
+    "participantName": "Alicia Monroe",
+    "timestamp": 1778777102000,
+    "type": "Join",
+    "time": 2.0
+  },
+  {
+    "participantName": "Maria Santos",
+    "timestamp": 1778777105000,
+    "type": "Join",
+    "time": 5.0
+  },
+  {
+    "participantName": "Kevin O'Brien",
+    "timestamp": 1778777111000,
+    "type": "Join",
+    "time": 11.0
+  },
+  {
+    "participantName": "Gregory Fisk",
+    "timestamp": 1778777131000,
+    "type": "Join",
+    "time": 31.0
+  },
+  {
+    "participantName": "Maria Santos",
+    "timestamp": 1778778149000,
+    "type": "Leave",
+    "time": 1049.0
+  },
+  {
+    "participantName": "Alicia Monroe",
+    "timestamp": 1778778143000,
+    "type": "Leave",
+    "time": 1043.0
+  },
+  {
+    "participantName": "Gregory Fisk",
+    "timestamp": 1778778145000,
+    "type": "Leave",
+    "time": 1045.0
+  },
+  {
+    "participantName": "Kevin O'Brien",
+    "timestamp": 1778778149000,
+    "type": "Leave",
+    "time": 1049.0
+  }
+]

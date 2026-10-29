@@ -1,0 +1,13 @@
+{
+  "primary_theme": "Renewal & contracts",
+  "themes": [
+    "Detect outage & fallout",
+    "Comply v2 launch",
+    "Renewal & contracts",
+    "Identity / SSO / MFA",
+    "Backup / Protect"
+  ],
+  "certainty": 0.8,
+  "rationale": "The call is a renewal check-in where satisfaction is confirmed and the conversation moves toward expanding the renewal with Aegis Identity and Comply v2 early access.",
+  "source": "llm"
+}

@@ -1,0 +1,11 @@
+{
+  "primary_theme": "Detect outage & fallout",
+  "themes": [
+    "Detect outage & fallout",
+    "Renewal & contracts",
+    "Competitive threat"
+  ],
+  "certainty": 0.93,
+  "rationale": "The call centers on Grace's escalation over the Detect outage's lost monitoring visibility, with Maria explaining root cause and committing to a post-mortem, data integrity check, and SLA review.",
+  "source": "llm"
+}

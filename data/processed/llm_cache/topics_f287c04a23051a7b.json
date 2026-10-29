@@ -1,0 +1,11 @@
+{
+  "primary_theme": "Internal planning",
+  "themes": [
+    "Detect outage & fallout",
+    "Comply v2 launch",
+    "Internal planning"
+  ],
+  "certainty": 0.7,
+  "rationale": "This is an internal engineering standup (Raj, Ravi, Sofia) reviewing Detect post-mortem action items such as the circuit breaker PR, load testing schedule and runbook, plus Comply v2 bug status.",
+  "source": "llm"
+}

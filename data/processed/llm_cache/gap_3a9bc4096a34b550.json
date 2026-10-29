@@ -1,0 +1,15 @@
+{
+  "name": "Multi-region replication support",
+  "summary": "Customers want multi-region replication, such as for a new Sacramento site, and are concerned about its expected slip to early Q4, with related cross-region routing issues like misconfigured generic S3 endpoints causing 403 errors and proactive seat-count alerts also raised.",
+  "usage": {
+    "ts": "2026-10-28T20:10:19+00:00",
+    "step": "feature_gaps",
+    "model": "claude-sonnet-5-5",
+    "input_tokens": 454,
+    "output_tokens": 108,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "request_id": "req_011CgVF1iCpHnCNK8dQmWh9S",
+    "cost_usd": 0.001988
+  }
+}

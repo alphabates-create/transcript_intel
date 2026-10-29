@@ -1,0 +1,15 @@
+{
+  "name": "In-product pipeline health visibility",
+  "summary": "Customers want built-in visibility and proactive alerting on event ingestion pipeline health so they can detect outages and degradation themselves rather than relying on support, along with clearer documentation and handling of integration limits like Detect API rate limits and undocumented parameters.",
+  "usage": {
+    "ts": "2026-10-29T03:10:39+00:00",
+    "step": "feature_gaps",
+    "model": "claude-sonnet-5-5",
+    "input_tokens": 624,
+    "output_tokens": 108,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "request_id": "req_011CgVo4kNqdJ9icxwFtRicu",
+    "cost_usd": 0.002328
+  }
+}

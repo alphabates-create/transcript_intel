@@ -1,0 +1,11 @@
+{
+  "primary_theme": "Backup / Protect",
+  "themes": [
+    "Compliance & audit",
+    "Backup / Protect",
+    "Onboarding & deployment"
+  ],
+  "certainty": 0.85,
+  "rationale": "The workshop centers on Vanta Health's hybrid backup and recovery pain points (untested RTOs, VM coverage gaps, automated restore testing) and how Aegis Protect addresses them, with onboarding and HIPAA retention as secondary threads.",
+  "source": "llm"
+}

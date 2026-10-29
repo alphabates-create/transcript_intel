@@ -1,0 +1,4 @@
+{
+  "name": "Pipeline resilience and health visibility",
+  "summary": "Customers want a redundant, self-monitoring monitoring pipeline with in-product health visibility, proactive alerting, and safe failover so a single component failure or outage is detected by Aegis before customers notice."
+}

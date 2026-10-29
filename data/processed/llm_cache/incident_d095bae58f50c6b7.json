@@ -1,0 +1,20 @@
+{
+  "status": "open",
+  "resolved_call_index": null,
+  "owner": "Marcus Williams",
+  "category": "Billing",
+  "priority": "P3",
+  "outage_hours": null,
+  "resolution_note": "Root cause identified as a Jan 3 backup policy change pushing usage over the 10 TB tier; pending case summary and Devon Park's review of a possible billing adjustment.",
+  "usage": {
+    "ts": "2026-10-27T06:50:14+00:00",
+    "step": "incidents",
+    "model": "claude-sonnet-5-5",
+    "input_tokens": 1661,
+    "output_tokens": 121,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "request_id": "req_011CgSJC9GJaaN1qEeS3qZwn",
+    "cost_usd": 0.004532
+  }
+}

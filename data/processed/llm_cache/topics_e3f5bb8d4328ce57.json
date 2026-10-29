@@ -1,0 +1,10 @@
+{
+  "primary_theme": "Backup / Protect",
+  "themes": [
+    "Backup / Protect",
+    "Onboarding & deployment"
+  ],
+  "certainty": 0.8,
+  "rationale": "The call centers on deploying Aegis Protect for Coastal Living's hybrid backup and recovery environment, covering RPO/RTO needs and backup visibility, with a phased onboarding plan and kickoff as a secondary thread.",
+  "source": "llm"
+}

@@ -1,0 +1,22 @@
+{
+  "primary_theme": "Comply v2 launch",
+  "themes": [
+    "Comply v2 launch",
+    "Compliance & audit",
+    "Competitive threat",
+    "Renewal & contracts"
+  ],
+  "certainty": 0.55,
+  "rationale": "The call centers on a Comply v2 bug (error 5023, packages over 2 GB failing to split) breaking the HIPAA auditor export, though the audit deadline, SentinelShield shortlist and June renewal risk are also substantive.",
+  "usage": {
+    "ts": "2026-10-27T19:08:40+00:00",
+    "step": "topics",
+    "model": "claude-sonnet-5-5",
+    "input_tokens": 1987,
+    "output_tokens": 152,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "request_id": "req_011CgTGWDrQa1vN5GmLWxaCR",
+    "cost_usd": 0.005494
+  }
+}

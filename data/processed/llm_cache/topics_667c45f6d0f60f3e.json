@@ -1,0 +1,9 @@
+{
+  "primary_theme": "Comply v2 launch",
+  "themes": [
+    "Comply v2 launch"
+  ],
+  "certainty": 0.96,
+  "rationale": "Internal pre-launch alignment for the Comply v2 GA on April 7 covering staging dry-runs, regression testing, phased rollout, and rollback via feature flag.",
+  "source": "llm"
+}

@@ -1,0 +1,15 @@
+{
+  "is_business": true,
+  "reason": "The call was a Q2 roadmap planning session for the Identity product covering SCIM, adaptive MFA, audit trail, and Comply integration, which is core product and engineering work.",
+  "usage": {
+    "ts": "2026-10-29T19:09:05+00:00",
+    "step": "screen",
+    "model": "claude-sonnet-5-5",
+    "input_tokens": 800,
+    "output_tokens": 74,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "request_id": "req_011CgX49paFfNoNtaACTmDNA",
+    "cost_usd": 0.00234
+  }
+}

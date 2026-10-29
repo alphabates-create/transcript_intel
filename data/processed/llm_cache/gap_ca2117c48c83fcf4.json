@@ -1,0 +1,15 @@
+{
+  "name": "Multi-framework compliance mapping",
+  "summary": "Customers want compliance reporting that maps controls across SOC 2, ISO 27001, and PCI DSS in a true matrix format, along with PCI DSS support for payment data retention, rather than concatenated per-framework lists.",
+  "usage": {
+    "ts": "2026-10-28T19:41:36+00:00",
+    "step": "feature_gaps",
+    "model": "claude-sonnet-5-5",
+    "input_tokens": 639,
+    "output_tokens": 99,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "request_id": "req_011CgVCpmGKxfBHwsaJsofXm",
+    "cost_usd": 0.002268
+  }
+}

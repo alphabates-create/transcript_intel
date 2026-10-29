@@ -1,0 +1,284 @@
+{
+  "data": [
+    {
+      "sentence": "Thanks for calling Aegis Cloud Security support, this is Marcus Williams.",
+      "speaker_name": "Marcus Williams",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 7.9,
+      "endTime": 11.7,
+      "averageConfidence": 0.89,
+      "index": 0
+    },
+    {
+      "sentence": "Hi Marcus, Mina Joshi from Axiom Labs, and Ryan Caldwell is on too. We're calling about our June invoice.",
+      "speaker_name": "Mina Joshi",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 12.1,
+      "endTime": 18.5,
+      "averageConfidence": 0.92,
+      "index": 1
+    },
+    {
+      "sentence": "It's the first one on the new three-year contract, and it's about eleven thousand eight hundred dollars higher than we expected.",
+      "speaker_name": "Mina Joshi",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 19.7,
+      "endTime": 27.8,
+      "averageConfidence": 0.89,
+      "index": 2
+    },
+    {
+      "sentence": "I'm sorry about that. Let me pull it up \u2014 do you have the invoice number?",
+      "speaker_name": "Marcus Williams",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 29.2,
+      "endTime": 35.4,
+      "averageConfidence": 0.89,
+      "index": 3
+    },
+    {
+      "sentence": "INV-2026-03412.",
+      "speaker_name": "Mina Joshi",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 36.9,
+      "endTime": 38.3,
+      "averageConfidence": 0.94,
+      "index": 4
+    },
+    {
+      "sentence": "Got it. Can you walk me through what you expected versus what you see?",
+      "speaker_name": "Marcus Williams",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 38.8,
+      "endTime": 43.5,
+      "averageConfidence": 0.91,
+      "index": 5
+    },
+    {
+      "sentence": "The whole point of the elastic seat model was that we pay for our monthly average seats, not our peak.",
+      "speaker_name": "Ryan Caldwell",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 44.5,
+      "endTime": 51.7,
+      "averageConfidence": 0.89,
+      "index": 6
+    },
+    {
+      "sentence": "We had a hackathon in May and spun up about two hundred temporary accounts for three days, and we've been billed as if they existed all month.",
+      "speaker_name": "Ryan Caldwell",
+      "sentimentType": "negative",
+      "speaker_id": 2,
+      "time": 52.0,
+      "endTime": 61.3,
+      "averageConfidence": 0.88,
+      "index": 7
+    },
+    {
+      "sentence": "I see it. The invoice is calculated on peak seats \u2014 two thousand and eighty \u2014 instead of the monthly average, which comes to about one thousand eight hundred and ninety.",
+      "speaker_name": "Marcus Williams",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 62.6,
+      "endTime": 72.9,
+      "averageConfidence": 0.93,
+      "index": 8
+    },
+    {
+      "sentence": "And there's a second problem. The enterprise API tier appears twice, once as a line item and once inside the platform bundle.",
+      "speaker_name": "Mina Joshi",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 73.6,
+      "endTime": 82.2,
+      "averageConfidence": 0.91,
+      "index": 9
+    },
+    {
+      "sentence": "Yes, I see the duplicate. That one's clearly an error.",
+      "speaker_name": "Marcus Williams",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 83.2,
+      "endTime": 87.0,
+      "averageConfidence": 0.9,
+      "index": 10
+    },
+    {
+      "sentence": "Honestly, Marcus, this is disappointing. We signed in April because the elastic model fit how we work, and the very first invoice ignores it.",
+      "speaker_name": "Ryan Caldwell",
+      "sentimentType": "negative",
+      "speaker_id": 2,
+      "time": 87.4,
+      "endTime": 95.9,
+      "averageConfidence": 0.95,
+      "index": 11
+    },
+    {
+      "sentence": "I had to explain this to our CFO this morning, and she asked whether we read the contract correctly. We did.",
+      "speaker_name": "Mina Joshi",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 96.4,
+      "endTime": 104.0,
+      "averageConfidence": 0.92,
+      "index": 12
+    },
+    {
+      "sentence": "You did. Your contract clearly states monthly average for elastic seats. This is on our side.",
+      "speaker_name": "Marcus Williams",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 104.6,
+      "endTime": 110.9,
+      "averageConfidence": 0.89,
+      "index": 13
+    },
+    {
+      "sentence": "Let me check one thing. It looks like your account was moved to the new contract, but the billing profile still has the old seat calculation.",
+      "speaker_name": "Marcus Williams",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 111.5,
+      "endTime": 121.8,
+      "averageConfidence": 0.9,
+      "index": 14
+    },
+    {
+      "sentence": "We've seen something similar with accounts migrated during the Comply v2 launch, so I suspect it's the same migration problem.",
+      "speaker_name": "Marcus Williams",
+      "sentimentType": "negative",
+      "speaker_id": 0,
+      "time": 122.7,
+      "endTime": 130.1,
+      "averageConfidence": 0.92,
+      "index": 15
+    },
+    {
+      "sentence": "So are other elastic customers getting wrong invoices too?",
+      "speaker_name": "Ryan Caldwell",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 131.5,
+      "endTime": 134.6,
+      "averageConfidence": 0.95,
+      "index": 16
+    },
+    {
+      "sentence": "That's a good question, and I'm going to ask billing operations to check every elastic-seat account before the next cycle.",
+      "speaker_name": "Marcus Williams",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 135.7,
+      "endTime": 142.5,
+      "averageConfidence": 0.94,
+      "index": 17
+    },
+    {
+      "sentence": "What happens with this invoice? Our payment run is on the twentieth.",
+      "speaker_name": "Mina Joshi",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 144.0,
+      "endTime": 148.2,
+      "averageConfidence": 0.94,
+      "index": 18
+    },
+    {
+      "sentence": "I'll void INV-2026-03412 and issue a corrected invoice based on the average seat count, with the duplicate API line removed.",
+      "speaker_name": "Marcus Williams",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 148.8,
+      "endTime": 156.6,
+      "averageConfidence": 0.93,
+      "index": 19
+    },
+    {
+      "sentence": "You'll have it within five business days, well before your payment run. Don't pay the current one.",
+      "speaker_name": "Marcus Williams",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 157.7,
+      "endTime": 164.3,
+      "averageConfidence": 0.97,
+      "index": 20
+    },
+    {
+      "sentence": "Okay, that works. Can I get that in writing for our CFO?",
+      "speaker_name": "Mina Joshi",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 165.0,
+      "endTime": 168.9,
+      "averageConfidence": 0.92,
+      "index": 21
+    },
+    {
+      "sentence": "I'll email a confirmation today with the corrected amount, the reason for the error, and the case number.",
+      "speaker_name": "Marcus Williams",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 169.7,
+      "endTime": 175.5,
+      "averageConfidence": 0.91,
+      "index": 22
+    },
+    {
+      "sentence": "And going forward, can we see seat counts ourselves before the invoice lands? We'd have caught this.",
+      "speaker_name": "Ryan Caldwell",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 176.0,
+      "endTime": 182.0,
+      "averageConfidence": 0.89,
+      "index": 23
+    },
+    {
+      "sentence": "Not in the console today, but there's a usage page in the works. I'll pass your request on to product.",
+      "speaker_name": "Marcus Williams",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 182.6,
+      "endTime": 189.6,
+      "averageConfidence": 0.96,
+      "index": 24
+    },
+    {
+      "sentence": "Please. To be clear, we're happy with the platform itself. It's the billing side that keeps letting us down.",
+      "speaker_name": "Ryan Caldwell",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 190.7,
+      "endTime": 198.0,
+      "averageConfidence": 0.95,
+      "index": 25
+    },
+    {
+      "sentence": "Understood. I'll also let Aisha know, so she can follow up from the account side.",
+      "speaker_name": "Marcus Williams",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 198.5,
+      "endTime": 203.5,
+      "averageConfidence": 0.95,
+      "index": 26
+    },
+    {
+      "sentence": "Thanks, Marcus. I appreciate you owning it quickly.",
+      "speaker_name": "Mina Joshi",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 204.2,
+      "endTime": 207.0,
+      "averageConfidence": 0.89,
+      "index": 27
+    }
+  ]
+}

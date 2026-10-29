@@ -1,0 +1,13 @@
+{
+  "primary_theme": "Detect outage & fallout",
+  "themes": [
+    "Compliance & audit",
+    "Detect outage & fallout",
+    "Comply v2 launch",
+    "Renewal & contracts",
+    "Competitive threat"
+  ],
+  "certainty": 0.8,
+  "rationale": "The call centers on the six-hour Detect outage, with root cause explanation, remediation steps, and a post-mortem and SLA demands, while renewal, SentinelShield evaluation, and Comply v2 for the PCI audit are secondary but substantive threads.",
+  "source": "llm"
+}

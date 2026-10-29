@@ -1,0 +1,9 @@
+{
+  "primary_theme": "Detect outage & fallout",
+  "themes": [
+    "Detect outage & fallout"
+  ],
+  "certainty": 0.96,
+  "rationale": "The call is an internal post-incident review of the March 10 Detect outage covering the six-hour monitoring gap, root cause, fixes, and customer communications; renewal risk and roadmap items were mentioned only as consequences of the outage.",
+  "source": "llm"
+}

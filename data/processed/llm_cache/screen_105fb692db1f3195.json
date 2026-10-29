@@ -1,0 +1,15 @@
+{
+  "is_business": true,
+  "reason": "This is a customer support escalation about a threat-detection pipeline outage, with SLA review, churn risk from a competitor evaluation, and an incident report commitment.",
+  "usage": {
+    "ts": "2026-10-29T19:08:57+00:00",
+    "step": "screen",
+    "model": "claude-sonnet-5-5",
+    "input_tokens": 872,
+    "output_tokens": 68,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "request_id": "req_011CgX49CEhzZANH4mXUiQCT",
+    "cost_usd": 0.002424
+  }
+}

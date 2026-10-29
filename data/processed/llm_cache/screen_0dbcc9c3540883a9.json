@@ -1,0 +1,15 @@
+{
+  "is_business": true,
+  "reason": "The call covers the June renewal, the March Detect outage, competitive quoting from SentinelShield, Comply v2, and renewal pricing options with a customer.",
+  "usage": {
+    "ts": "2026-10-29T19:09:05+00:00",
+    "step": "screen",
+    "model": "claude-sonnet-5-5",
+    "input_tokens": 791,
+    "output_tokens": 67,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "request_id": "req_011CgX49ms2MU4bmJTqK4D4U",
+    "cost_usd": 0.002252
+  }
+}

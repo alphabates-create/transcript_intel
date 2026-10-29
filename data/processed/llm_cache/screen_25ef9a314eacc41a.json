@@ -1,0 +1,15 @@
+{
+  "is_business": true,
+  "reason": "The call is a Q1 win-loss review covering closed-lost deals, competitors, the March Detect outage's impact, and sales process action items, all of which are substantive work content.",
+  "usage": {
+    "ts": "2026-10-29T19:09:10+00:00",
+    "step": "screen",
+    "model": "claude-sonnet-5-5",
+    "input_tokens": 822,
+    "output_tokens": 71,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "request_id": "req_011CgX4A6h79u6AFcjh2PBCc",
+    "cost_usd": 0.002354
+  }
+}

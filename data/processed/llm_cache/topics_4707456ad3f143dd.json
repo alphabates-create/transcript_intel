@@ -1,0 +1,10 @@
+{
+  "primary_theme": "Identity / SSO / MFA",
+  "themes": [
+    "Compliance & audit",
+    "Identity / SSO / MFA"
+  ],
+  "certainty": 0.8,
+  "rationale": "The call centers on Aegis Identity product gaps (flat role model lacking hierarchical inheritance, no per-role session timeout policies), with SOC 2 audit impact as a secondary theme and Comply v2 praise only in passing.",
+  "source": "llm"
+}

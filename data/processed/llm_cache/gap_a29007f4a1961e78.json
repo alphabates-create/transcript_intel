@@ -1,0 +1,15 @@
+{
+  "name": "Customization and Operational Visibility",
+  "summary": "Customers want more flexible, customizable compliance controls, templates, and alerting, along with clearer error messaging and more reliable integrations and reporting, to fit their internal policies and operational workflows.",
+  "usage": {
+    "ts": "2026-10-27T20:51:57+00:00",
+    "step": "feature_gaps",
+    "model": "claude-sonnet-5-5",
+    "input_tokens": 656,
+    "output_tokens": 87,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "request_id": "req_011CgTQNyWSahqfLx3Dx6SVd",
+    "cost_usd": 0.002182
+  }
+}

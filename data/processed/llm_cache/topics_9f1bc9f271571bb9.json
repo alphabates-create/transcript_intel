@@ -1,0 +1,21 @@
+{
+  "primary_theme": "Internal planning",
+  "themes": [
+    "Internal planning",
+    "Detect outage & fallout",
+    "Renewal & contracts"
+  ],
+  "certainty": 0.85,
+  "rationale": "This is an internal Q2 executive business review with cross-functional updates and Q3 priorities, while the Detect remediation fallout and renewal/NRR discussion are substantive but secondary.",
+  "usage": {
+    "ts": "2026-10-29T19:50:45+00:00",
+    "step": "topics",
+    "model": "claude-sonnet-5-5",
+    "input_tokens": 2019,
+    "output_tokens": 124,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "request_id": "req_011CgX7KyC3qcHyvU1Z5n2aA",
+    "cost_usd": 0.005278
+  }
+}

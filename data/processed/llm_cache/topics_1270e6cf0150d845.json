@@ -1,0 +1,10 @@
+{
+  "primary_theme": "Competitive threat",
+  "themes": [
+    "Internal planning",
+    "Competitive threat"
+  ],
+  "certainty": 0.85,
+  "rationale": "Internal review of SentinelShield, VaultEdge, CyberNova and Fortiguard Pro as real risks to AegisCloud products, with planning of a competitive response and a leadership risk item.",
+  "source": "llm"
+}

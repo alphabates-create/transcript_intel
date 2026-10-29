@@ -1,0 +1,58 @@
+{
+  "summary": "Mina Joshi and Ryan Caldwell of Axiom Labs contacted Aegis Cloud Security support about an $11,800 overcharge on the first invoice under their new three-year elastic seat contract. Marcus Williams confirmed two errors: seats were billed at the May peak (2,080, inflated by ~200 temporary hackathon accounts) instead of the contracted monthly average (~1,890), and the enterprise API tier was charged twice. He traced the cause to a billing profile not updated during the contract migration, likely the same migration issue seen with Comply v2 accounts, and will ask billing operations to audit all elastic-seat accounts. Marcus committed to voiding the invoice and issuing a corrected one within five business days, before Axiom's June 20 payment run. Ryan praised the platform but said billing keeps letting them down, and asked for self-service visibility into seat counts.",
+  "actionItems": [
+    "Marcus Williams: Void invoice INV-2026-03412 and issue a corrected invoice based on average seats with the duplicate API line removed within five business days",
+    "Marcus Williams: Email Mina written confirmation of the corrected amount, cause and case number today",
+    "Marcus Williams: Ask billing operations to audit all elastic-seat accounts before the next billing cycle",
+    "Marcus Williams: Pass Axiom's request for self-service seat count visibility to product and notify Aisha Johnson"
+  ],
+  "topics": [
+    "billing dispute",
+    "invoice error",
+    "elastic seat pricing",
+    "contract migration",
+    "usage visibility",
+    "customer trust"
+  ],
+  "overallSentiment": "mixed-negative",
+  "sentimentScore": 2.7,
+  "keyMoments": [
+    {
+      "time": 19.0,
+      "text": "Mina reports the first invoice on the new contract is ~$11,800 higher than expected",
+      "type": "concern",
+      "speaker": "Mina Joshi"
+    },
+    {
+      "time": 62.0,
+      "text": "Marcus finds seats billed on peak rather than the contracted monthly average",
+      "type": "technical_issue",
+      "speaker": "Marcus Williams"
+    },
+    {
+      "time": 87.0,
+      "text": "Ryan says it is disappointing that the first invoice ignores the elastic model they signed for",
+      "type": "churn_signal",
+      "speaker": "Ryan Caldwell"
+    },
+    {
+      "time": 122.0,
+      "text": "Marcus links the error to the same migration issue seen with Comply v2 accounts",
+      "type": "technical_issue",
+      "speaker": "Marcus Williams"
+    },
+    {
+      "time": 176.0,
+      "text": "Ryan asks to see seat counts before the invoice arrives",
+      "type": "feature_gap",
+      "speaker": "Ryan Caldwell"
+    },
+    {
+      "time": 190.0,
+      "text": "Ryan says Axiom is happy with the platform itself",
+      "type": "praise",
+      "speaker": "Ryan Caldwell"
+    }
+  ],
+  "meetingId": "01KQC31451F34F8EBF76113B"
+}

@@ -1,0 +1,15 @@
+{
+  "is_business": true,
+  "reason": "The call is an incident war room about the Detect pipeline outage, covering customer escalations, a stopgap engineering fix, a public statement, and a post-mortem plan.",
+  "usage": {
+    "ts": "2026-10-29T19:08:55+00:00",
+    "step": "screen",
+    "model": "claude-sonnet-5-5",
+    "input_tokens": 847,
+    "output_tokens": 70,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "request_id": "req_011CgX495fKJsF9ih8vb8PKL",
+    "cost_usd": 0.002394
+  }
+}

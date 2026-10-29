@@ -1,0 +1,12 @@
+{
+  "primary_theme": "Renewal & contracts",
+  "themes": [
+    "Compliance & audit",
+    "Detect outage & fallout",
+    "Comply v2 launch",
+    "Renewal & contracts"
+  ],
+  "certainty": 0.85,
+  "rationale": "The call is a renewal confirmation covering the Comply add-on promotional pricing of $18,500 locked for two years, procurement next steps, and contract execution by end of April.",
+  "source": "llm"
+}

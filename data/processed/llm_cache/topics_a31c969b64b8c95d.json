@@ -1,0 +1,12 @@
+{
+  "primary_theme": "Compliance & audit",
+  "themes": [
+    "Compliance & audit",
+    "Detect outage & fallout",
+    "Comply v2 launch",
+    "Onboarding & deployment"
+  ],
+  "certainty": 0.8,
+  "rationale": "The call centers on Forge's PCI DSS audit prep, manual evidence gathering, QSA assessment in June, and multi-framework reporting with SOC 2, with Comply v2 as the solution and the Detect outage as a secondary concern.",
+  "source": "llm"
+}

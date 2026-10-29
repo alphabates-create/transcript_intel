@@ -1,0 +1,20 @@
+{
+  "status": "open",
+  "resolved_call_index": null,
+  "owner": "Priya Patel",
+  "category": "Outage",
+  "priority": "P1",
+  "outage_hours": 72.0,
+  "resolution_note": "Escalated to the Protect infrastructure team with manual backup snapshots and a root cause and fix timeline promised within four hours; the outage is not yet confirmed fixed.",
+  "usage": {
+    "ts": "2026-10-27T06:49:58+00:00",
+    "step": "incidents",
+    "model": "claude-sonnet-5-5",
+    "input_tokens": 1668,
+    "output_tokens": 119,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "request_id": "req_011CgSJB3Yk4ZuvuTk5WRz9Z",
+    "cost_usd": 0.004526
+  }
+}

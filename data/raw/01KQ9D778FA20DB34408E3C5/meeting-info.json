@@ -1,0 +1,21 @@
+{
+  "meetingId": "01KQ9D778FA20DB34408E3C5",
+  "title": "Aegis / Summit Trust - Renewal Decision",
+  "organizerEmail": "maria.santos@aegiscloud.com",
+  "host": "maria.santos@aegiscloud.com",
+  "startTime": "2026-05-14T16:45:00.000Z",
+  "endTime": "2026-05-14T17:02:30.000Z",
+  "duration": 17.5,
+  "allEmails": [
+    "maria.santos@aegiscloud.com",
+    "a.monroe@summittrust.com",
+    "g.fisk@summittrust.com",
+    "kevin.obrien@aegiscloud.com"
+  ],
+  "invitees": [
+    "maria.santos@aegiscloud.com",
+    "a.monroe@summittrust.com",
+    "g.fisk@summittrust.com",
+    "kevin.obrien@aegiscloud.com"
+  ]
+}

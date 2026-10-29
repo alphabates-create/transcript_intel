@@ -1,0 +1,19 @@
+{
+  "meetingId": "01KQ41466D3700FDD12D7F68",
+  "title": "Support Case #5530 - Silverline Brands Protect Restore Test Failure",
+  "organizerEmail": "david.kim@aegiscloud.com",
+  "host": "david.kim@aegiscloud.com",
+  "startTime": "2026-05-21T14:00:00.000Z",
+  "endTime": "2026-05-21T14:12:45.000Z",
+  "duration": 12.8,
+  "allEmails": [
+    "david.kim@aegiscloud.com",
+    "d.flores@silverlinebrands.com",
+    "m.tan@silverlinebrands.com"
+  ],
+  "invitees": [
+    "david.kim@aegiscloud.com",
+    "d.flores@silverlinebrands.com",
+    "m.tan@silverlinebrands.com"
+  ]
+}

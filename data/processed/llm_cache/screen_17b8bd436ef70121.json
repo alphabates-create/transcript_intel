@@ -1,0 +1,15 @@
+{
+  "is_business": true,
+  "reason": "The call is an internal incident response about the Detect outage, covering customer impact, SLA credits, support tickets, and churn risk at key accounts.",
+  "usage": {
+    "ts": "2026-10-29T19:08:57+00:00",
+    "step": "screen",
+    "model": "claude-sonnet-5-5",
+    "input_tokens": 858,
+    "output_tokens": 62,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "request_id": "req_011CgX49Bu7WdDgBGhUYHoLs",
+    "cost_usd": 0.002336
+  }
+}

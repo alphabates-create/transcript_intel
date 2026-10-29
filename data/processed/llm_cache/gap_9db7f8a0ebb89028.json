@@ -1,0 +1,15 @@
+{
+  "name": "Flexible compliance reporting",
+  "summary": "Customers want interactive, filterable compliance reports (e.g., HIPAA by control family) with side-by-side comparison and reliable concurrent report generation, so audits no longer require manual Excel work.",
+  "usage": {
+    "ts": "2026-10-28T01:16:09+00:00",
+    "step": "feature_gaps",
+    "model": "claude-sonnet-5-5",
+    "input_tokens": 613,
+    "output_tokens": 88,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "request_id": "req_011CgTkXYvRHmZrw24SFRosK",
+    "cost_usd": 0.002106
+  }
+}

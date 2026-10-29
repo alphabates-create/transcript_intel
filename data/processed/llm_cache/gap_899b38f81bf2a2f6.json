@@ -1,0 +1,15 @@
+{
+  "name": "Pipeline health visibility and resilience",
+  "summary": "Customers want in-product visibility and proactive alerting on monitoring pipeline health, plus redundant architecture and clear documentation and communication so a single component failure like the March outage doesn't silently take down security monitoring.",
+  "usage": {
+    "ts": "2026-10-27T19:09:04+00:00",
+    "step": "feature_gaps",
+    "model": "claude-sonnet-5-5",
+    "input_tokens": 630,
+    "output_tokens": 96,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "request_id": "req_011CgTGXudbqvyvnsC6fMVuk",
+    "cost_usd": 0.00222
+  }
+}

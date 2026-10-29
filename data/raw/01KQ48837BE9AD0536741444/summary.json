@@ -1,0 +1,58 @@
+{
+  "summary": "Lisa Park held a Q2 business review with Raymond Burke and CTO Dr. Linda Cheng of Vanta Health Systems. Vanta has migrated all 450 on-prem VMs and its 200 TB DICOM imaging archive to Aegis Protect, and its first full DR test recovered the EHR system in 2 hours 50 minutes against a 4-hour target, the first tested recovery time Linda could present to her board. Linda acknowledged the rough February start (backup API outage and SIEM connector gaps) and noted both have been clean since. Raymond asked for automated cold-tier archiving of older imaging studies, potentially cutting storage costs by a third, and Linda requested multi-region replication for a new Sacramento site, warning Vanta will build its own if it slips past Q3. Linda praised Comply v2 for HIPAA reporting but deferred any Detect discussion until Aegis shows a few clean quarters after the March outage.",
+  "actionItems": [
+    "Lisa Park: Send the Q2 business review deck to Raymond and Linda today",
+    "Lisa Park: Have solutions engineering model archive-tier savings for the DICOM data using Vanta's access patterns within two weeks",
+    "Lisa Park: Confirm a firm date for Protect multi-region replication and request early access for Vanta",
+    "Lisa Park: Share Detect reliability updates with Linda as they become available"
+  ],
+  "topics": [
+    "quarterly business review",
+    "backup and recovery",
+    "disaster recovery testing",
+    "storage cost optimization",
+    "multi-region replication",
+    "value realization"
+  ],
+  "overallSentiment": "positive",
+  "sentimentScore": 4.4,
+  "keyMoments": [
+    {
+      "time": 39.0,
+      "text": "Raymond reports the first full DR test recovered the EHR system in 2h50m against a 4-hour target",
+      "type": "praise",
+      "speaker": "Raymond Burke"
+    },
+    {
+      "time": 66.0,
+      "text": "Linda recalls the February backup API outage nearly derailed the relationship",
+      "type": "concern",
+      "speaker": "Dr. Linda Cheng"
+    },
+    {
+      "time": 106.0,
+      "text": "Raymond asks for automated cold-tier archiving to cut imaging storage costs by a third",
+      "type": "feature_gap",
+      "speaker": "Raymond Burke"
+    },
+    {
+      "time": 126.0,
+      "text": "Linda requests multi-region replication for a new Sacramento site",
+      "type": "feature_gap",
+      "speaker": "Dr. Linda Cheng"
+    },
+    {
+      "time": 146.0,
+      "text": "Linda warns Vanta will build its own replication if it slips past Q3",
+      "type": "churn_signal",
+      "speaker": "Dr. Linda Cheng"
+    },
+    {
+      "time": 178.0,
+      "text": "Linda defers a Detect discussion until Aegis shows a few clean quarters",
+      "type": "concern",
+      "speaker": "Dr. Linda Cheng"
+    }
+  ],
+  "meetingId": "01KQ48837BE9AD0536741444"
+}

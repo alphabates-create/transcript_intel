@@ -1,0 +1,334 @@
+{
+  "data": [
+    {
+      "sentence": "Aegis Cloud Security support, this is David Kim speaking.",
+      "speaker_name": "David Kim",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 6.8,
+      "endTime": 10.3,
+      "averageConfidence": 0.92,
+      "index": 0
+    },
+    {
+      "sentence": "David, it's Dominic Flores at Silverline. I've got Michelle on with me, and we have a serious problem.",
+      "speaker_name": "Dominic Flores",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 11.0,
+      "endTime": 18.0,
+      "averageConfidence": 0.91,
+      "index": 1
+    },
+    {
+      "sentence": "Hi Dominic, hi Michelle. Tell me what's going on.",
+      "speaker_name": "David Kim",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 19.4,
+      "endTime": 22.9,
+      "averageConfidence": 0.96,
+      "index": 2
+    },
+    {
+      "sentence": "We ran our quarterly restore drill this morning for the PCI audit, and the restore of our payments database failed.",
+      "speaker_name": "Dominic Flores",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 23.3,
+      "endTime": 30.9,
+      "averageConfidence": 0.96,
+      "index": 3
+    },
+    {
+      "sentence": "It got to sixty-two percent and stopped with a checksum mismatch on one of the snapshot chunks. We tried twice.",
+      "speaker_name": "Michelle Tan",
+      "sentimentType": "negative",
+      "speaker_id": 2,
+      "time": 32.3,
+      "endTime": 39.3,
+      "averageConfidence": 0.93,
+      "index": 4
+    },
+    {
+      "sentence": "Our QSA is on site next Thursday, and a failed restore test is a finding we cannot have.",
+      "speaker_name": "Dominic Flores",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 39.8,
+      "endTime": 46.9,
+      "averageConfidence": 0.89,
+      "index": 5
+    },
+    {
+      "sentence": "Understood. Which snapshot were you restoring from?",
+      "speaker_name": "David Kim",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 48.1,
+      "endTime": 50.7,
+      "averageConfidence": 0.91,
+      "index": 6
+    },
+    {
+      "sentence": "Last night's, the full snapshot from 1 AM. The job reported success in the console.",
+      "speaker_name": "Michelle Tan",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 51.7,
+      "endTime": 57.6,
+      "averageConfidence": 0.93,
+      "index": 7
+    },
+    {
+      "sentence": "Okay, I'm pulling up the job now. I can see the backup completed at 4:52 AM, which is still outside your window, by the way.",
+      "speaker_name": "David Kim",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 58.7,
+      "endTime": 67.4,
+      "averageConfidence": 0.97,
+      "index": 8
+    },
+    {
+      "sentence": "Yes, I know. That's the case we've had open since April. The backups still run long and now apparently they're not even restorable.",
+      "speaker_name": "Dominic Flores",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 68.6,
+      "endTime": 76.3,
+      "averageConfidence": 0.91,
+      "index": 9
+    },
+    {
+      "sentence": "I see the checksum error. Chunk 1,184 of the snapshot doesn't match what was written to the index.",
+      "speaker_name": "David Kim",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 77.4,
+      "endTime": 83.7,
+      "averageConfidence": 0.89,
+      "index": 10
+    },
+    {
+      "sentence": "I'm going to be straight with you \u2014 this looks related to the deduplication layer changes we made in April, not something on your side.",
+      "speaker_name": "David Kim",
+      "sentimentType": "negative",
+      "speaker_id": 0,
+      "time": 84.3,
+      "endTime": 92.6,
+      "averageConfidence": 0.93,
+      "index": 11
+    },
+    {
+      "sentence": "So the fix for the slow backups broke the backups.",
+      "speaker_name": "Michelle Tan",
+      "sentimentType": "negative",
+      "speaker_id": 2,
+      "time": 93.3,
+      "endTime": 96.7,
+      "averageConfidence": 0.94,
+      "index": 12
+    },
+    {
+      "sentence": "It's possible. I need engineering to confirm, but the timing lines up with the async dedup rollout.",
+      "speaker_name": "David Kim",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 97.1,
+      "endTime": 103.0,
+      "averageConfidence": 0.94,
+      "index": 13
+    },
+    {
+      "sentence": "David, this is the third issue in three months. Detect in March, the backup window in April, and now this.",
+      "speaker_name": "Dominic Flores",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 103.6,
+      "endTime": 110.8,
+      "averageConfidence": 0.89,
+      "index": 14
+    },
+    {
+      "sentence": "We're keeping Comply, it's been great, but I'm going to recommend we move backup to another vendor at renewal.",
+      "speaker_name": "Dominic Flores",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 111.8,
+      "endTime": 119.2,
+      "averageConfidence": 0.91,
+      "index": 15
+    },
+    {
+      "sentence": "I hear you, and I'm not going to argue with that today. Let me focus on getting you a clean restore before Thursday.",
+      "speaker_name": "David Kim",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 119.7,
+      "endTime": 127.2,
+      "averageConfidence": 0.93,
+      "index": 16
+    },
+    {
+      "sentence": "Can you try restoring from the snapshot taken two nights ago? That one was written before the latest dedup patch.",
+      "speaker_name": "David Kim",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 127.8,
+      "endTime": 134.7,
+      "averageConfidence": 0.94,
+      "index": 17
+    },
+    {
+      "sentence": "Give me a minute, I'll kick it off now.",
+      "speaker_name": "Michelle Tan",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 135.1,
+      "endTime": 138.2,
+      "averageConfidence": 0.91,
+      "index": 18
+    },
+    {
+      "sentence": "While that runs, I'm escalating this as P1 to the Protect platform team and asking for an engineer on this call.",
+      "speaker_name": "David Kim",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 139.1,
+      "endTime": 146.8,
+      "averageConfidence": 0.92,
+      "index": 19
+    },
+    {
+      "sentence": "Okay, it's running. Restore is at eighteen percent and moving faster than this morning.",
+      "speaker_name": "Michelle Tan",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 148.3,
+      "endTime": 153.1,
+      "averageConfidence": 0.94,
+      "index": 20
+    },
+    {
+      "sentence": "If that one works, does it count for the auditors? It's two days old.",
+      "speaker_name": "Dominic Flores",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 153.9,
+      "endTime": 159.1,
+      "averageConfidence": 0.96,
+      "index": 21
+    },
+    {
+      "sentence": "For a restore drill, a successful restore from a recent snapshot with a documented recovery point should satisfy the test, but your QSA has the final word.",
+      "speaker_name": "David Kim",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 160.0,
+      "endTime": 169.6,
+      "averageConfidence": 0.97,
+      "index": 22
+    },
+    {
+      "sentence": "It's at fifty percent now.",
+      "speaker_name": "Michelle Tan",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 170.0,
+      "endTime": 171.9,
+      "averageConfidence": 0.92,
+      "index": 23
+    },
+    {
+      "sentence": "I also need to know if any other snapshots this month have the same problem. If our backups are silently corrupt, that's worse than slow.",
+      "speaker_name": "Dominic Flores",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 172.8,
+      "endTime": 181.6,
+      "averageConfidence": 0.91,
+      "index": 24
+    },
+    {
+      "sentence": "Agreed. I'll ask engineering to run an integrity scan across every snapshot for your tenant since the April patch.",
+      "speaker_name": "David Kim",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 182.7,
+      "endTime": 189.7,
+      "averageConfidence": 0.9,
+      "index": 25
+    },
+    {
+      "sentence": "Ninety percent... and it completed. Checksums verified.",
+      "speaker_name": "Michelle Tan",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 190.6,
+      "endTime": 193.3,
+      "averageConfidence": 0.93,
+      "index": 26
+    },
+    {
+      "sentence": "Okay. Okay, that's a relief, at least we have something for Thursday.",
+      "speaker_name": "Dominic Flores",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 194.5,
+      "endTime": 198.5,
+      "averageConfidence": 0.94,
+      "index": 27
+    },
+    {
+      "sentence": "Good. I'll document the restore result and the root cause for your auditors, and I'll have the integrity scan results to you by tomorrow evening.",
+      "speaker_name": "David Kim",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 199.1,
+      "endTime": 207.2,
+      "averageConfidence": 0.93,
+      "index": 28
+    },
+    {
+      "sentence": "And I want the backup window issue fixed, not just this. It's been open for six weeks.",
+      "speaker_name": "Dominic Flores",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 208.7,
+      "endTime": 215.0,
+      "averageConfidence": 0.95,
+      "index": 29
+    },
+    {
+      "sentence": "I'll ask the Protect lead to join our follow-up tomorrow with a date for the scheduler fix.",
+      "speaker_name": "David Kim",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 215.5,
+      "endTime": 222.2,
+      "averageConfidence": 0.96,
+      "index": 30
+    },
+    {
+      "sentence": "Fine. Tomorrow, ten Central.",
+      "speaker_name": "Dominic Flores",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 223.6,
+      "endTime": 225.2,
+      "averageConfidence": 0.91,
+      "index": 31
+    },
+    {
+      "sentence": "I'll send the invite now. Michelle, thank you for running that so quickly.",
+      "speaker_name": "David Kim",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 226.3,
+      "endTime": 231.3,
+      "averageConfidence": 0.93,
+      "index": 32
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "summary": "Tyler Washington led a review of the first chaos engineering game day on the Detect ingestion pipeline, run by Ravi Gupta in staging at 1.2x peak volume. Node failure recovered in 11 seconds with zero event loss, and the March memory-pressure failure mode now self-heals via the circuit breaker; the April Stratos Cloud payload-threshold issue is also fixed by an adaptive threshold. A network partition test exposed a remaining gap: nodes stayed healthy but stopped receiving events, and alerting took about six minutes to fire because health checks do not verify end-to-end event flow. Ananya Sharma pushed to accelerate the synthetic heartbeat because customers in renewal are asking how silent failures are detected, and the team agreed to ship the internal heartbeat by May 29 with the customer panel in June. The team also agreed to make game days quarterly and add a noisy-neighbor scenario for shared clusters.",
+  "actionItems": [
+    "Ravi Gupta: Build the internal synthetic heartbeat with Sofia by May 29, deferring load-testing suite cleanup by one sprint",
+    "Ravi Gupta: Draft the technical game day write-up by Friday",
+    "Ananya Sharma: Turn the write-up into a customer-safe summary for renewal calls by Friday",
+    "Ananya Sharma: Let Stratos Cloud know the circuit breaker payload threshold issue is fixed",
+    "Chris Lee: Schedule quarterly game days on the reliability sprint calendar and add them to the Q3 plan, including a noisy-neighbor scenario"
+  ],
+  "topics": [
+    "chaos engineering",
+    "platform reliability",
+    "failover testing",
+    "observability gaps",
+    "synthetic monitoring",
+    "renewal enablement"
+  ],
+  "overallSentiment": "positive",
+  "sentimentScore": 4.2,
+  "keyMoments": [
+    {
+      "time": 52.0,
+      "text": "Ravi shows the March memory-pressure failure mode now self-recovers via the circuit breaker",
+      "type": "positive_pivot",
+      "speaker": "Ravi Gupta"
+    },
+    {
+      "time": 75.0,
+      "text": "Network partition test reveals alerting took ~6 minutes to fire while nodes appeared healthy",
+      "type": "technical_issue",
+      "speaker": "Ravi Gupta"
+    },
+    {
+      "time": 83.0,
+      "text": "Ananya notes the partition result is the same blind spot as March, just shorter",
+      "type": "concern",
+      "speaker": "Ananya Sharma"
+    },
+    {
+      "time": 110.0,
+      "text": "Ananya says Brightpath and Summit Trust are asking how silent failures are detected and it will cost renewals",
+      "type": "churn_signal",
+      "speaker": "Ananya Sharma"
+    },
+    {
+      "time": 149.0,
+      "text": "Team commits to an internal heartbeat by May 29 with the customer panel in June",
+      "type": "action_item",
+      "speaker": "Tyler Washington"
+    },
+    {
+      "time": 234.0,
+      "text": "Tyler praises the game day as really solid work",
+      "type": "praise",
+      "speaker": "Tyler Washington"
+    }
+  ],
+  "meetingId": "01KQF1F3BDA5506F031E5700"
+}

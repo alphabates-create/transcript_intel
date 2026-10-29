@@ -1,0 +1,15 @@
+{
+  "is_business": true,
+  "reason": "The call covered Comply v2 GA timing, QA coverage, a customer loss to VaultEdge, ~$240K ARR in upsells, a Detect ingestion bottleneck, and March priorities, all of which are work content.",
+  "usage": {
+    "ts": "2026-10-29T19:08:53+00:00",
+    "step": "screen",
+    "model": "claude-sonnet-5-5",
+    "input_tokens": 792,
+    "output_tokens": 90,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "request_id": "req_011CgX48u3cF6U8WQkKvWUuP",
+    "cost_usd": 0.002484
+  }
+}

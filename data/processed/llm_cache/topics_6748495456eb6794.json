@@ -1,0 +1,10 @@
+{
+  "primary_theme": "Detect outage & fallout",
+  "themes": [
+    "Detect outage & fallout",
+    "Competitive threat"
+  ],
+  "certainty": 0.9,
+  "rationale": "The call is a post-incident review of the six-hour Detect pipeline outage, covering delayed alerting, manual log audits, and remediation commitments, with the customer's VaultEdge evaluation as a substantial secondary thread.",
+  "source": "llm"
+}

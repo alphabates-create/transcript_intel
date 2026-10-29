@@ -1,0 +1,15 @@
+{
+  "is_business": true,
+  "reason": "The call is a customer escalation about an Aegis Detect outage, churn risk, remediation commitments and a June renewal at risk.",
+  "usage": {
+    "ts": "2026-10-29T19:08:56+00:00",
+    "step": "screen",
+    "model": "claude-sonnet-5-5",
+    "input_tokens": 803,
+    "output_tokens": 58,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "request_id": "req_011CgX499MLA6ZVohQNZedBL",
+    "cost_usd": 0.002186
+  }
+}

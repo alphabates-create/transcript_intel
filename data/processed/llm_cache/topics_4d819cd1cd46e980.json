@@ -1,0 +1,22 @@
+{
+  "primary_theme": "Backup / Protect",
+  "themes": [
+    "Backup / Protect",
+    "Compliance & audit",
+    "Renewal & contracts",
+    "Competitive threat"
+  ],
+  "certainty": 0.9,
+  "rationale": "The call centers on a failed Protect restore drill with a checksum mismatch traced to a corrupted snapshot from April dedup changes, with PCI audit pressure and renewal/churn risk as secondary concerns.",
+  "usage": {
+    "ts": "2026-10-27T20:11:42+00:00",
+    "step": "topics",
+    "model": "claude-sonnet-5-5",
+    "input_tokens": 1935,
+    "output_tokens": 142,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "request_id": "req_011CgTMJzYVSU2dPuNXs1Rtu",
+    "cost_usd": 0.00529
+  }
+}

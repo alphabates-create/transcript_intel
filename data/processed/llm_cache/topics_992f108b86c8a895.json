@@ -1,0 +1,10 @@
+{
+  "primary_theme": "Detect outage & fallout",
+  "themes": [
+    "Detect outage & fallout",
+    "Competitive threat"
+  ],
+  "certainty": 0.9,
+  "rationale": "The call centers on the six-hour Detect monitoring blackout, Ravi's admission of the single point of failure, remediation commitments, and trust repair, with the CISO's vendor review and SentinelShield evaluation as a substantive secondary thread.",
+  "source": "llm"
+}

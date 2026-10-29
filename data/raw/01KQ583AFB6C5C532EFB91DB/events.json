@@ -1,0 +1,26 @@
+[
+  {
+    "participantName": "Sarah Chen",
+    "timestamp": 1779190203000,
+    "type": "Join",
+    "time": 3.0
+  },
+  {
+    "participantName": "Derek Owens",
+    "timestamp": 1779190210000,
+    "type": "Join",
+    "time": 10.0
+  },
+  {
+    "participantName": "Sarah Chen",
+    "timestamp": 1779190837000,
+    "type": "Leave",
+    "time": 637.0
+  },
+  {
+    "participantName": "Derek Owens",
+    "timestamp": 1779190839000,
+    "type": "Leave",
+    "time": 639.0
+  }
+]

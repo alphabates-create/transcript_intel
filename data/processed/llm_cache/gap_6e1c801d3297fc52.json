@@ -1,0 +1,15 @@
+{
+  "name": "In-product pipeline health visibility",
+  "summary": "Customers want the console to show real-time health, sync latency, and outage status of the monitoring and event ingestion pipeline so they can detect problems themselves instead of relying on Aegis or reporting outages to it.",
+  "usage": {
+    "ts": "2026-10-29T19:50:54+00:00",
+    "step": "feature_gaps",
+    "model": "claude-sonnet-5-5",
+    "input_tokens": 728,
+    "output_tokens": 91,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "request_id": "req_011CgX7Lhormw58KFnTGpwSZ",
+    "cost_usd": 0.002366
+  }
+}

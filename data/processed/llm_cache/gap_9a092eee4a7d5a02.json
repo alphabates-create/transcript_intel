@@ -1,0 +1,15 @@
+{
+  "name": "Proactive Alerting and Cost Visibility",
+  "summary": "Customers want proactive alerts and automation, such as seat-count overage warnings, coverage-gap notifications for unprotected VMs, and less noisy alerts, along with cold-tier archiving to cut storage costs and fuller documentation of parameters like retry_on_timeout.",
+  "usage": {
+    "ts": "2026-10-29T19:50:52+00:00",
+    "step": "feature_gaps",
+    "model": "claude-sonnet-5-5",
+    "input_tokens": 593,
+    "output_tokens": 120,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "request_id": "req_011CgX7LZH9hNVsbaEJkHB5U",
+    "cost_usd": 0.002386
+  }
+}

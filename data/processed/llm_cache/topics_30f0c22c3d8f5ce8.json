@@ -1,0 +1,11 @@
+{
+  "primary_theme": "Compliance & audit",
+  "themes": [
+    "Compliance & audit",
+    "Detect outage & fallout",
+    "Comply v2 launch"
+  ],
+  "certainty": 0.93,
+  "rationale": "The call is a final walk-through of SOC 2 Type II audit materials, covering controls, evidence packaging, and the submission and audit window timeline.",
+  "source": "llm"
+}

@@ -1,0 +1,11 @@
+{
+  "primary_theme": "Comply v2 launch",
+  "themes": [
+    "Compliance & audit",
+    "Comply v2 launch",
+    "Onboarding & deployment"
+  ],
+  "certainty": 0.9,
+  "rationale": "The call is a Comply v2 preview demo ahead of the 7 Apr GA, ending with Nimbus committing to first-wave rollout and a plan to be live by 21 April.",
+  "source": "llm"
+}

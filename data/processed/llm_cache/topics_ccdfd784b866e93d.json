@@ -1,0 +1,11 @@
+{
+  "primary_theme": "Competitive threat",
+  "themes": [
+    "Detect outage & fallout",
+    "Comply v2 launch",
+    "Competitive threat"
+  ],
+  "certainty": 0.8,
+  "rationale": "The call is titled a competitive threat assessment and centers on SentinelShield and CyberNova targeting at-risk accounts like Hartfield Financial, with a planned competitive response, though the outage fallout and Comply v2 touchpoint are substantive supporting parts.}",
+  "source": "llm"
+}

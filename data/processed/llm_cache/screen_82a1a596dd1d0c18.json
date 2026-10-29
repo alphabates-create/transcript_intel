@@ -1,0 +1,15 @@
+{
+  "is_business": true,
+  "reason": "This is a customer onboarding kickoff for Comply v2 with Clearwater Medical covering product features, deployment timeline, and HIPAA reporting.",
+  "usage": {
+    "ts": "2026-10-29T19:09:04+00:00",
+    "step": "screen",
+    "model": "claude-sonnet-5-5",
+    "input_tokens": 862,
+    "output_tokens": 67,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "request_id": "req_011CgX49i74YPnXAc9uSgVwN",
+    "cost_usd": 0.002394
+  }
+}

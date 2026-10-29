@@ -1,0 +1,294 @@
+{
+  "data": [
+    {
+      "sentence": "Okay, let's start. This is the Q2 business review, and I want us to be honest about the quarter, not just the good parts.",
+      "speaker_name": "Diana Reeves",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 6.2,
+      "endTime": 14.6,
+      "averageConfidence": 0.9,
+      "index": 0
+    },
+    {
+      "sentence": "James, start with revenue.",
+      "speaker_name": "Diana Reeves",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 15.6,
+      "endTime": 17.0,
+      "averageConfidence": 0.89,
+      "index": 1
+    },
+    {
+      "sentence": "Net revenue retention for the quarter is ninety-four percent, down from one hundred and six in Q1.",
+      "speaker_name": "James Mitchell",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 18.2,
+      "endTime": 23.9,
+      "averageConfidence": 0.96,
+      "index": 2
+    },
+    {
+      "sentence": "The drop is mostly two things: Ironworks churning to Fortiguard Pro, and the free year-one Comply we gave away to save renewals.",
+      "speaker_name": "James Mitchell",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 25.2,
+      "endTime": 32.9,
+      "averageConfidence": 0.93,
+      "index": 3
+    },
+    {
+      "sentence": "On the positive side, new logos are up. Keystone added Detect, and Larkspur Financial signed last week, partly on Keystone's reference.",
+      "speaker_name": "James Mitchell",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 34.4,
+      "endTime": 41.7,
+      "averageConfidence": 0.94,
+      "index": 4
+    },
+    {
+      "sentence": "Brightpath too, right?",
+      "speaker_name": "Diana Reeves",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 42.1,
+      "endTime": 43.5,
+      "averageConfidence": 0.89,
+      "index": 5
+    },
+    {
+      "sentence": "Yes, two years. The tuning sandbox closed that one.",
+      "speaker_name": "James Mitchell",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 44.5,
+      "endTime": 48.1,
+      "averageConfidence": 0.93,
+      "index": 6
+    },
+    {
+      "sentence": "Tom, reliability.",
+      "speaker_name": "Diana Reeves",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 48.6,
+      "endTime": 50.0,
+      "averageConfidence": 0.91,
+      "index": 7
+    },
+    {
+      "sentence": "No customer-facing outage since March. Detect availability has been one hundred percent in April, May and June.",
+      "speaker_name": "Tom Bradley",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 50.6,
+      "endTime": 56.5,
+      "averageConfidence": 0.94,
+      "index": 8
+    },
+    {
+      "sentence": "The internal heartbeat went live on May twenty-ninth and caught one silent stall in staging within a day of launch.",
+      "speaker_name": "Tom Bradley",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 57.6,
+      "endTime": 65.3,
+      "averageConfidence": 0.89,
+      "index": 9
+    },
+    {
+      "sentence": "The less good news: at least six customer incidents this quarter came from our own remediation work, and that's on engineering.",
+      "speaker_name": "Tom Bradley",
+      "sentimentType": "negative",
+      "speaker_id": 2,
+      "time": 65.9,
+      "endTime": 73.4,
+      "averageConfidence": 0.94,
+      "index": 10
+    },
+    {
+      "sentence": "We've changed the rule. Remediation now goes through the same staged rollout and restore verification as any release.",
+      "speaker_name": "Tom Bradley",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 74.5,
+      "endTime": 81.3,
+      "averageConfidence": 0.97,
+      "index": 11
+    },
+    {
+      "sentence": "From support, that second wave is the story of the quarter. Ticket volume was twenty-two percent above Q1, and P2 response times slipped.",
+      "speaker_name": "Brian Cho",
+      "sentimentType": "negative",
+      "speaker_id": 3,
+      "time": 82.4,
+      "endTime": 90.0,
+      "averageConfidence": 0.88,
+      "index": 12
+    },
+    {
+      "sentence": "Since we added the on-call paging rule for P2s in May, nothing has gone more than eight business hours without a human response.",
+      "speaker_name": "Brian Cho",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 91.0,
+      "endTime": 100.1,
+      "averageConfidence": 0.95,
+      "index": 13
+    },
+    {
+      "sentence": "Is the backlog cleared?",
+      "speaker_name": "Diana Reeves",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 100.4,
+      "endTime": 101.9,
+      "averageConfidence": 0.96,
+      "index": 14
+    },
+    {
+      "sentence": "Mostly. We're down to fourteen open cases older than a week, from forty-one at the peak.",
+      "speaker_name": "Brian Cho",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 102.4,
+      "endTime": 108.4,
+      "averageConfidence": 0.91,
+      "index": 15
+    },
+    {
+      "sentence": "Product update. The pricing committee approved the three Comply tiers on June twentieth, so they're in the Q3 price book.",
+      "speaker_name": "Megan Lawson",
+      "sentimentType": "neutral",
+      "speaker_id": 4,
+      "time": 109.3,
+      "endTime": 115.8,
+      "averageConfidence": 0.93,
+      "index": 16
+    },
+    {
+      "sentence": "And the overage credits went out to nine customers this week. Two of them have already replied to say thank you.",
+      "speaker_name": "Megan Lawson",
+      "sentimentType": "positive",
+      "speaker_id": 4,
+      "time": 116.8,
+      "endTime": 124.8,
+      "averageConfidence": 0.96,
+      "index": 17
+    },
+    {
+      "sentence": "Multi-region replication for Protect has slipped to early Q4. We've told Vanta Health directly and offered them a Q3 early access.",
+      "speaker_name": "Megan Lawson",
+      "sentimentType": "negative",
+      "speaker_id": 4,
+      "time": 125.1,
+      "endTime": 132.7,
+      "averageConfidence": 0.9,
+      "index": 18
+    },
+    {
+      "sentence": "How did Vanta take it?",
+      "speaker_name": "Diana Reeves",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 133.1,
+      "endTime": 134.7,
+      "averageConfidence": 0.95,
+      "index": 19
+    },
+    {
+      "sentence": "Better than I expected. Being told early mattered more to them than the date.",
+      "speaker_name": "Megan Lawson",
+      "sentimentType": "neutral",
+      "speaker_id": 4,
+      "time": 135.9,
+      "endTime": 140.7,
+      "averageConfidence": 0.89,
+      "index": 20
+    },
+    {
+      "sentence": "Northstar?",
+      "speaker_name": "Diana Reeves",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 141.8,
+      "endTime": 143.2,
+      "averageConfidence": 0.92,
+      "index": 21
+    },
+    {
+      "sentence": "Decision call is Friday. My read is we keep Comply and Protect, but Detect is at real risk after their SentinelShield proof of concept.",
+      "speaker_name": "James Mitchell",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 144.0,
+      "endTime": 152.4,
+      "averageConfidence": 0.95,
+      "index": 22
+    },
+    {
+      "sentence": "Okay. Q3 priorities, then. I'd like each of you to name one.",
+      "speaker_name": "Diana Reeves",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 153.3,
+      "endTime": 157.5,
+      "averageConfidence": 0.95,
+      "index": 23
+    },
+    {
+      "sentence": "Engineering: ship the customer-facing pipeline health panel and make chaos game days quarterly.",
+      "speaker_name": "Tom Bradley",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 158.0,
+      "endTime": 162.5,
+      "averageConfidence": 0.93,
+      "index": 24
+    },
+    {
+      "sentence": "Support: hire two engineers so we're not relying on the paging rule to keep P2s under control.",
+      "speaker_name": "Brian Cho",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 163.7,
+      "endTime": 169.2,
+      "averageConfidence": 0.93,
+      "index": 25
+    },
+    {
+      "sentence": "Sales: launch the Professional tier bundle with Protect once the scheduler is at a hundred percent.",
+      "speaker_name": "James Mitchell",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 170.2,
+      "endTime": 175.4,
+      "averageConfidence": 0.95,
+      "index": 26
+    },
+    {
+      "sentence": "Product: hierarchical roles in Identity. Five accounts have asked, and it's causing audit findings.",
+      "speaker_name": "Megan Lawson",
+      "sentimentType": "neutral",
+      "speaker_id": 4,
+      "time": 176.2,
+      "endTime": 180.8,
+      "averageConfidence": 0.94,
+      "index": 27
+    },
+    {
+      "sentence": "Good. Those are the four. Overall, a hard quarter, but we're ending it in a much better place than we started.",
+      "speaker_name": "Diana Reeves",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 182.2,
+      "endTime": 189.3,
+      "averageConfidence": 0.88,
+      "index": 28
+    }
+  ]
+}

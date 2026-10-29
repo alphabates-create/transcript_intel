@@ -1,0 +1,50 @@
+[
+  {
+    "participantName": "Rachel Torres",
+    "timestamp": 1779903003000,
+    "type": "Join",
+    "time": 3.0
+  },
+  {
+    "participantName": "Lisa Park",
+    "timestamp": 1779903004000,
+    "type": "Join",
+    "time": 4.0
+  },
+  {
+    "participantName": "Philip Lau",
+    "timestamp": 1779903009000,
+    "type": "Join",
+    "time": 9.0
+  },
+  {
+    "participantName": "Danielle Ortiz",
+    "timestamp": 1779903016000,
+    "type": "Join",
+    "time": 16.0
+  },
+  {
+    "participantName": "Lisa Park",
+    "timestamp": 1779903678000,
+    "type": "Leave",
+    "time": 678.0
+  },
+  {
+    "participantName": "Philip Lau",
+    "timestamp": 1779903676000,
+    "type": "Leave",
+    "time": 676.0
+  },
+  {
+    "participantName": "Danielle Ortiz",
+    "timestamp": 1779903675000,
+    "type": "Leave",
+    "time": 675.0
+  },
+  {
+    "participantName": "Rachel Torres",
+    "timestamp": 1779903676000,
+    "type": "Leave",
+    "time": 676.0
+  }
+]

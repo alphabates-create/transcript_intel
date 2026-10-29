@@ -1,0 +1,11 @@
+{
+  "primary_theme": "Compliance & audit",
+  "themes": [
+    "Compliance & audit",
+    "Comply v2 launch",
+    "Onboarding & deployment"
+  ],
+  "certainty": 0.8,
+  "rationale": "The call centers on Redwood's ISO 27001 certification prep, with evidence collection, Annex A control mapping and auditor-ready reporting as the main discussion, while Comply v2 is the tool being introduced and activation next steps touch onboarding.",
+  "source": "llm"
+}

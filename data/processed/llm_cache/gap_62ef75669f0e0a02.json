@@ -1,0 +1,15 @@
+{
+  "name": "Compliance and Identity Expansion Interest",
+  "summary": "Customers want SOC 2 compliance reporting via Aegis Comply (including v2) and a consolidated Aegis Identity to replace patchwork IAM, valuing its per-app, per-group MFA enforcement, and also want self-service console visibility into sync latency.",
+  "usage": {
+    "ts": "2026-10-27T20:51:47+00:00",
+    "step": "feature_gaps",
+    "model": "claude-sonnet-5-5",
+    "input_tokens": 557,
+    "output_tokens": 116,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "request_id": "req_011CgTQNFqgMAEhzfU5oVMvS",
+    "cost_usd": 0.002274
+  }
+}

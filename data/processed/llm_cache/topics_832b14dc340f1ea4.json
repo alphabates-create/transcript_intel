@@ -1,0 +1,9 @@
+{
+  "primary_theme": "Internal planning",
+  "themes": [
+    "Internal planning"
+  ],
+  "certainty": 0.93,
+  "rationale": "This is an internal Detect team sprint twelve planning meeting with a sprint eleven retro, carry-overs, capacity scoping and sprint commitments, and the pipeline single-point-of-failure work is only a sprint item (dated February, before the March outage).",
+  "source": "llm"
+}

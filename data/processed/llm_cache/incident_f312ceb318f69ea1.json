@@ -1,0 +1,20 @@
+{
+  "status": "open",
+  "resolved_call_index": null,
+  "owner": "Elena Vasquez",
+  "category": "Request",
+  "priority": "P3",
+  "outage_hours": null,
+  "resolution_note": "Customer was told Comply v2 GA is April 7th; still pending are the webinar invite, written follow-up on custom control labeling, and logging the feature request with product.",
+  "usage": {
+    "ts": "2026-10-27T06:50:50+00:00",
+    "step": "incidents",
+    "model": "claude-sonnet-5-5",
+    "input_tokens": 1666,
+    "output_tokens": 116,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "request_id": "req_011CgSJEs9Gu1wBMzWget8Fc",
+    "cost_usd": 0.004492
+  }
+}

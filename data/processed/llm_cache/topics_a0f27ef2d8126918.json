@@ -1,0 +1,9 @@
+{
+  "primary_theme": "Comply v2 launch",
+  "themes": [
+    "Comply v2 launch"
+  ],
+  "certainty": 0.96,
+  "rationale": "Internal pre-launch sync reviewing QA bug status, HIPAA module validation, onboarding flows and readiness for the April 7 Comply v2 GA.",
+  "source": "llm"
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "participantName": "Elena Vasquez",
+    "timestamp": 1780416002000,
+    "type": "Join",
+    "time": 2.0
+  },
+  {
+    "participantName": "Olivia Strand",
+    "timestamp": 1780416006000,
+    "type": "Join",
+    "time": 6.0
+  },
+  {
+    "participantName": "Victor Zheng",
+    "timestamp": 1780416006000,
+    "type": "Join",
+    "time": 6.0
+  },
+  {
+    "participantName": "Elena Vasquez",
+    "timestamp": 1780416920000,
+    "type": "Leave",
+    "time": 920.0
+  },
+  {
+    "participantName": "Olivia Strand",
+    "timestamp": 1780416917000,
+    "type": "Leave",
+    "time": 917.0
+  },
+  {
+    "participantName": "Victor Zheng",
+    "timestamp": 1780416918000,
+    "type": "Leave",
+    "time": 918.0
+  }
+]

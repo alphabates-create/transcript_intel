@@ -1,0 +1,9 @@
+{
+  "primary_theme": "Billing disputes",
+  "themes": [
+    "Billing disputes"
+  ],
+  "certainty": 0.93,
+  "rationale": "The call centers on a January invoice showing 1,400 seats versus 1,200 contracted, traced to leftover test accounts, with a billing adjustment request submitted to finance.",
+  "source": "llm"
+}

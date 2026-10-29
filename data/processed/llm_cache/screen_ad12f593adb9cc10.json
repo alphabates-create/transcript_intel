@@ -1,0 +1,15 @@
+{
+  "is_business": true,
+  "reason": "This is a customer discovery call about deploying the Aegis Identity module at Crestline, covering deployment phases, PAM gaps, and a potential Comply v2 add-on.",
+  "usage": {
+    "ts": "2026-10-29T19:09:09+00:00",
+    "step": "screen",
+    "model": "claude-sonnet-5-5",
+    "input_tokens": 865,
+    "output_tokens": 73,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "request_id": "req_011CgX4A7TW8RdJXaLaTG7GA",
+    "cost_usd": 0.00246
+  }
+}

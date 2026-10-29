@@ -1,0 +1,20 @@
+{
+  "status": "open",
+  "resolved_call_index": null,
+  "owner": "Sarah Chen",
+  "category": "Defect",
+  "priority": "P2",
+  "outage_hours": null,
+  "resolution_note": "Baseline restore to the March 13th pre-patch profile has been initiated, but alert volumes still need to be monitored and confirmed normal; suppression rules and a written incident explanation are pending follow-up.",
+  "usage": {
+    "ts": "2026-10-27T06:50:37+00:00",
+    "step": "incidents",
+    "model": "claude-sonnet-5-5",
+    "input_tokens": 1663,
+    "output_tokens": 130,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "request_id": "req_011CgSJDiCyvVJcABtLQAHG1",
+    "cost_usd": 0.004626
+  }
+}

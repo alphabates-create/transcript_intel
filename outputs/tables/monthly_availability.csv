@@ -1,0 +1,7 @@
+﻿month,label,outage_hours,n_outages,pct_time_down,availability,allowed_hours,sla_target,sla_breached,hours_over_sla,incidents
+2026-02-01,Feb 2026,0.0,0,0.0,1.0,3.36,0.995,False,0.0,
+2026-03-01,Mar 2026,6.0,1,0.008064516129032258,0.9919354838709677,3.72,0.995,True,2.28,INC-20260310
+2026-04-01,Apr 2026,0.0,0,0.0,1.0,3.6,0.995,False,0.0,
+2026-05-01,May 2026,0.0,0,0.0,1.0,3.72,0.995,False,0.0,
+2026-06-01,Jun 2026,0.0,0,0.0,1.0,3.6,0.995,False,0.0,
+2026-07-01,Jul 2026,0.0,0,0.0,1.0,3.72,0.995,False,0.0,

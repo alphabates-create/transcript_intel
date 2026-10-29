@@ -1,0 +1,12 @@
+{
+  "primary_theme": "Detect outage & fallout",
+  "themes": [
+    "Compliance & audit",
+    "Detect outage & fallout",
+    "Comply v2 launch",
+    "Renewal & contracts"
+  ],
+  "certainty": 0.93,
+  "rationale": "The call is a 30-day post-incident review of the March Detect outage, covering root cause, fixes (redundant nodes, circuit breaker), and customer fallout at Meridian and Treswick.",
+  "source": "llm"
+}

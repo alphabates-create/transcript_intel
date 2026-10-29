@@ -1,0 +1,140 @@
+{
+  "finished_at": "2026-10-29T19:50:54+00:00",
+  "stages_run": [
+    "load",
+    "screen",
+    "enrich",
+    "topics",
+    "sentiment",
+    "incidents",
+    "insights",
+    "export"
+  ],
+  "seconds": {
+    "load": 0.3,
+    "screen": 2.4,
+    "enrich": 0.2,
+    "topics": 3.9,
+    "sentiment": 1.1,
+    "incidents": 0.7,
+    "insights": 7.1,
+    "export": 0.1
+  },
+  "modes_built": [
+    "rules",
+    "hybrid"
+  ],
+  "options": {
+    "use_llm": true,
+    "refresh": false,
+    "llm_model": "claude-sonnet-5-5"
+  },
+  "rows": {
+    "calls": 115,
+    "sentences": 4778,
+    "staff_roster": 27,
+    "key_moments": 490,
+    "action_items": 466
+  },
+  "exports": {
+    "calls_summary.csv": 115,
+    "theme_counts.csv": 10,
+    "sentiment_slices.csv": 28,
+    "incidents.csv": 33,
+    "monthly_availability.csv": 6,
+    "staff_roster.csv": 27,
+    "account_health.csv": 33,
+    "incident_timeline.csv": 51,
+    "feature_gaps.csv": 8,
+    "competitor_mentions.csv": 116,
+    "rep_talk.csv": 15,
+    "owner_workload.csv": 66
+  },
+  "metrics": {
+    "topics": {
+      "n_calls": 115,
+      "n_llm": 115,
+      "n_rules": 0,
+      "primary_in_rule_themes": 0.957,
+      "mean_jaccard_llm_vs_rules": 0.682,
+      "model": "claude-sonnet-5-5",
+      "cluster_purity_weighted": 0.564
+    },
+    "sentiment": {
+      "n_calls": 115,
+      "pearson_vendor_vs_vader": 0.717,
+      "spearman_vendor_vs_vader": 0.712,
+      "pearson_vendor_vs_customer": 0.756,
+      "n_disagreements": 6,
+      "mean_customer_minus_staff": -0.013,
+      "share_improved_with_pivot": 0.488,
+      "share_improved_without_pivot": 0.485,
+      "n_with_pivot": 82
+    },
+    "insights": {
+      "incident": {
+        "first_war_room": "2026-03-10 13:15:00+00:00",
+        "n_outage_calls": 51,
+        "n_window_calls": 17,
+        "n_affected_accounts": 24,
+        "hours_to_first_customer_call": 0.0,
+        "hours_to_last_window_call": 195.2,
+        "window_avg_score": 2.18,
+        "affected_avg_before": 3.66,
+        "affected_avg_after": 3.42,
+        "affected_naming_competitor_after": [
+          "Atlas",
+          "Brightpath",
+          "Cobalt",
+          "Ironclad",
+          "Ironworks",
+          "Northstar",
+          "Nova",
+          "Quantum",
+          "Steelpoint",
+          "Summit"
+        ]
+      },
+      "n_accounts": 33,
+      "risk_tiers": {
+        "Medium": 15,
+        "High": 10,
+        "Low": 8
+      },
+      "top_risk_accounts": [
+        "Summit",
+        "Silverline",
+        "Ridgeline",
+        "Meridian",
+        "Northstar"
+      ],
+      "n_feature_asks": 8,
+      "competitor_calls": {
+        "SentinelShield": 28,
+        "VaultEdge": 16,
+        "CyberNova": 8,
+        "Fortiguard Pro": 5
+      },
+      "talk_share_vs_score_r": -0.121,
+      "talk_bucket_scores": {
+        "Q1 (33%\u201341%)": 3.58,
+        "Q2 (41%\u201342%)": 3.82,
+        "Q3 (42%\u201346%)": 3.14,
+        "Q4 (46%\u201363%)": 3.15
+      }
+    },
+    "incidents": {
+      "n": 33,
+      "open": 26
+    }
+  },
+  "screen": {
+    "n": 115,
+    "excluded": 0,
+    "sources": {
+      "llm": 115
+    }
+  },
+  "excluded_total": 0,
+  "unreadable": {}
+}

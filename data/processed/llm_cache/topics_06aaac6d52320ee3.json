@@ -1,0 +1,10 @@
+{
+  "primary_theme": "Comply v2 launch",
+  "themes": [
+    "Compliance & audit",
+    "Comply v2 launch"
+  ],
+  "certainty": 0.8,
+  "rationale": "The call is a support case about rendering bugs in the newly launched Comply v2 PDF export, confirmed by Marcus as a defect introduced with the v2 release, while the SOC 2 report and upcoming internal audit add a secondary compliance angle.",
+  "source": "llm"
+}

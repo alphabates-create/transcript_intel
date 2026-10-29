@@ -1,0 +1,15 @@
+{
+  "name": "Product capability and documentation gaps",
+  "summary": "Customers want missing or unfinished capabilities such as file-level restore, report comparison views, native SCIM 2.0, SSO session timeout fixes, and automatic VM backup coverage alerts, along with simpler SIEM connector setup and complete parameter documentation.",
+  "usage": {
+    "ts": "2026-10-27T20:38:42+00:00",
+    "step": "feature_gaps",
+    "model": "claude-sonnet-5-5",
+    "input_tokens": 740,
+    "output_tokens": 112,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "request_id": "req_011CgTPNNi4QHnN5grYzBRqT",
+    "cost_usd": 0.0026
+  }
+}

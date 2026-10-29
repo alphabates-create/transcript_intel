@@ -1,0 +1,10 @@
+{
+  "primary_theme": "Compliance & audit",
+  "themes": [
+    "Compliance & audit",
+    "Comply v2 launch"
+  ],
+  "certainty": 0.9,
+  "rationale": "The call centers on Bridgeport's upcoming HIPAA audit, SOC 2 to HIPAA control mapping, evidence library restructuring and compliance reporting pain, with the Comply v2 multi-framework preview as a secondary substantive topic.",
+  "source": "llm"
+}

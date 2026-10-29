@@ -1,0 +1,10 @@
+{
+  "primary_theme": "Billing disputes",
+  "themes": [
+    "Backup / Protect",
+    "Billing disputes"
+  ],
+  "certainty": 0.93,
+  "rationale": "The call centers on a $1,400 invoice discrepancy from a 2.31 TB overage charge and a request for a billing adjustment, with the Protect backup policy change as the root cause.",
+  "source": "llm"
+}

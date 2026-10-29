@@ -1,0 +1,15 @@
+{
+  "is_business": true,
+  "reason": "This is a customer support case about degraded backup performance, with root-cause diagnosis (agent 3.4.1 CBT issue), an upgrade plan to 3.6.0, and escalation next steps.",
+  "usage": {
+    "ts": "2026-10-29T19:08:50+00:00",
+    "step": "screen",
+    "model": "claude-sonnet-5-5",
+    "input_tokens": 829,
+    "output_tokens": 81,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "request_id": "req_011CgX48ht8aPYhNSJH2N1Jx",
+    "cost_usd": 0.002468
+  }
+}

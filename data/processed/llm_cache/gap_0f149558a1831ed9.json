@@ -1,0 +1,15 @@
+{
+  "name": "Automated multi-framework compliance reporting",
+  "summary": "Customers want Aegis Comply to generate on-demand reports for SOC 2, PCI DSS and other frameworks, including native cross-framework control mapping, so compliance teams can stop spending weeks in spreadsheets preparing for audits.",
+  "usage": {
+    "ts": "2026-10-27T19:08:55+00:00",
+    "step": "feature_gaps",
+    "model": "claude-sonnet-5-5",
+    "input_tokens": 767,
+    "output_tokens": 107,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "request_id": "req_011CgTGXJXis1sUbpJvGzHsm",
+    "cost_usd": 0.002604
+  }
+}

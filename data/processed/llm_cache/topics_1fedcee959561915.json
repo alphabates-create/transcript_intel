@@ -1,0 +1,10 @@
+{
+  "primary_theme": "Backup / Protect",
+  "themes": [
+    "Compliance & audit",
+    "Backup / Protect"
+  ],
+  "certainty": 0.88,
+  "rationale": "The call is a support case about a three-day Aegis Protect backup API outage, with failed backups and manual snapshots, while the HIPAA incident summary is a secondary compliance need.",
+  "source": "llm"
+}

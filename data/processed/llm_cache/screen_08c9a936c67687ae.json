@@ -1,0 +1,15 @@
+{
+  "is_business": true,
+  "reason": "The call is a Q2 executive business review covering net revenue retention, customer churn and renewals, incidents, support backlog, product roadmap, hiring and Q3 priorities.",
+  "usage": {
+    "ts": "2026-10-29T19:50:41+00:00",
+    "step": "screen",
+    "model": "claude-sonnet-5-5",
+    "input_tokens": 953,
+    "output_tokens": 73,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "request_id": "req_011CgX7Kkc17maqdmPswSJHY",
+    "cost_usd": 0.002636
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "status": "open",
+  "resolved_call_index": null,
+  "owner": "Elena Vasquez",
+  "category": "Outage",
+  "priority": "P1",
+  "outage_hours": null,
+  "resolution_note": "Email OTP workaround enabled and case escalated as P1 to Identity engineering; root cause investigation and follow-up update still pending.",
+  "usage": {
+    "ts": "2026-10-27T06:50:11+00:00",
+    "step": "incidents",
+    "model": "claude-sonnet-5-5",
+    "input_tokens": 1577,
+    "output_tokens": 108,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "request_id": "req_011CgSJBzhd2jpS8GCGGzz6W",
+    "cost_usd": 0.004234
+  }
+}

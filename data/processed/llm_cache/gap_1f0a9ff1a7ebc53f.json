@@ -1,0 +1,4 @@
+{
+  "name": "Compliance docs and clearer errors",
+  "summary": "Customers want HIPAA and ISO 27001 compliance documentation available at launch, reliable SSO with certificate rotation handled correctly, and the UI to show specific SSL trust errors instead of a generic sync failure message."
+}

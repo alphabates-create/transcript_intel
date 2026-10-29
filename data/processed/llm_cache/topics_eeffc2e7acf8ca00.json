@@ -1,0 +1,20 @@
+{
+  "primary_theme": "Backup / Protect",
+  "themes": [
+    "Backup / Protect",
+    "Detect outage & fallout"
+  ],
+  "certainty": 0.85,
+  "rationale": "The QBR centers on Protect: migration of 450 VMs and 200 TB imaging archive, the first full DR test recovering EHR in 2h50m, and requests for cold-tier archiving and multi-region replication, with the Detect outage fallout as a secondary trust issue.",
+  "usage": {
+    "ts": "2026-10-28T20:09:54+00:00",
+    "step": "topics",
+    "model": "claude-sonnet-5-5",
+    "input_tokens": 1991,
+    "output_tokens": 149,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "request_id": "req_011CgVEypLc2ooowWQQrz7e5",
+    "cost_usd": 0.005472
+  }
+}

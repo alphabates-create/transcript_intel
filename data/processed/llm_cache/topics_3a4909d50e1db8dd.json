@@ -1,0 +1,11 @@
+{
+  "primary_theme": "Internal planning",
+  "themes": [
+    "Compliance & audit",
+    "Internal planning",
+    "Identity / SSO / MFA"
+  ],
+  "certainty": 0.85,
+  "rationale": "It is an internal Identity team Q2 roadmap planning session, with the substantive content covering SCIM/JIT provisioning, adaptive MFA, and an audit trail for SOC 2 reporting, while SentinelShield and the March outage come up only as context.",
+  "source": "llm"
+}

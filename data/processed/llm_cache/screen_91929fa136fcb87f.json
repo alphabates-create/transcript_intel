@@ -1,0 +1,15 @@
+{
+  "is_business": true,
+  "reason": "The call is an engineering standup covering Detect pipeline refactor progress, Kafka risk, and the Comply v2 launch timeline.",
+  "usage": {
+    "ts": "2026-10-29T19:08:50+00:00",
+    "step": "screen",
+    "model": "claude-sonnet-5-5",
+    "input_tokens": 810,
+    "output_tokens": 61,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "request_id": "req_011CgX48g5FasN9oyCRCQrfD",
+    "cost_usd": 0.00223
+  }
+}

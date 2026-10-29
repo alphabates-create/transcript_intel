@@ -1,0 +1,13 @@
+{
+  "primary_theme": "Renewal & contracts",
+  "themes": [
+    "Compliance & audit",
+    "Detect outage & fallout",
+    "Comply v2 launch",
+    "Renewal & contracts",
+    "Competitive threat"
+  ],
+  "certainty": 0.55,
+  "rationale": "The call is a pre-renewal account health discussion where the outage, SentinelShield evaluation, compliance reporting pain and Comply v2 preview all bear on whether Nova renews.",
+  "source": "llm"
+}

@@ -1,0 +1,11 @@
+{
+  "primary_theme": "Competitive threat",
+  "themes": [
+    "Detect outage & fallout",
+    "Internal planning",
+    "Competitive threat"
+  ],
+  "certainty": 0.8,
+  "rationale": "Internal Q1 win-loss review centers on 34 closed-lost deals and competitors SentinelShield (9), VaultEdge (6), and CyberNova (4), with collateral gaps for competitive response; the March outage is a major loss driver but secondary.",
+  "source": "llm"
+}

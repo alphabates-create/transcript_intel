@@ -1,0 +1,132 @@
+[
+  {
+    "speakerName": "Sarah Chen",
+    "timestamp": 7.2,
+    "endTimeTs": 12.7
+  },
+  {
+    "speakerName": "Derek Owens",
+    "timestamp": 13.7,
+    "endTimeTs": 18.4
+  },
+  {
+    "speakerName": "Sarah Chen",
+    "timestamp": 19.3,
+    "endTimeTs": 27.1
+  },
+  {
+    "speakerName": "Sarah Chen",
+    "timestamp": 27.8,
+    "endTimeTs": 31.2
+  },
+  {
+    "speakerName": "Derek Owens",
+    "timestamp": 31.8,
+    "endTimeTs": 39.1
+  },
+  {
+    "speakerName": "Derek Owens",
+    "timestamp": 39.5,
+    "endTimeTs": 48.2
+  },
+  {
+    "speakerName": "Sarah Chen",
+    "timestamp": 48.9,
+    "endTimeTs": 57.7
+  },
+  {
+    "speakerName": "Derek Owens",
+    "timestamp": 58.9,
+    "endTimeTs": 67.3
+  },
+  {
+    "speakerName": "Sarah Chen",
+    "timestamp": 68.7,
+    "endTimeTs": 75.9
+  },
+  {
+    "speakerName": "Derek Owens",
+    "timestamp": 76.9,
+    "endTimeTs": 82.3
+  },
+  {
+    "speakerName": "Derek Owens",
+    "timestamp": 83.4,
+    "endTimeTs": 91.0
+  },
+  {
+    "speakerName": "Derek Owens",
+    "timestamp": 91.4,
+    "endTimeTs": 99.3
+  },
+  {
+    "speakerName": "Sarah Chen",
+    "timestamp": 100.1,
+    "endTimeTs": 104.7
+  },
+  {
+    "speakerName": "Sarah Chen",
+    "timestamp": 105.7,
+    "endTimeTs": 114.3
+  },
+  {
+    "speakerName": "Derek Owens",
+    "timestamp": 114.9,
+    "endTimeTs": 120.6
+  },
+  {
+    "speakerName": "Sarah Chen",
+    "timestamp": 121.3,
+    "endTimeTs": 123.9
+  },
+  {
+    "speakerName": "Derek Owens",
+    "timestamp": 124.3,
+    "endTimeTs": 130.5
+  },
+  {
+    "speakerName": "Sarah Chen",
+    "timestamp": 131.2,
+    "endTimeTs": 140.4
+  },
+  {
+    "speakerName": "Derek Owens",
+    "timestamp": 141.6,
+    "endTimeTs": 147.3
+  },
+  {
+    "speakerName": "Sarah Chen",
+    "timestamp": 147.9,
+    "endTimeTs": 156.3
+  },
+  {
+    "speakerName": "Derek Owens",
+    "timestamp": 157.0,
+    "endTimeTs": 162.1
+  },
+  {
+    "speakerName": "Sarah Chen",
+    "timestamp": 163.3,
+    "endTimeTs": 171.5
+  },
+  {
+    "speakerName": "Derek Owens",
+    "timestamp": 172.1,
+    "endTimeTs": 178.3
+  },
+  {
+    "speakerName": "Sarah Chen",
+    "timestamp": 178.8,
+    "endTimeTs": 185.3
+  },
+  {
+    "speakerName": "Derek Owens",
+    "timestamp": 186.1,
+    "endTimeTs": 192.5
+  },
+  {
+    "speakerName": "Sarah Chen",
+    "timestamp": 193.6,
+    "endTimeTs": 197.6
+  }
+]

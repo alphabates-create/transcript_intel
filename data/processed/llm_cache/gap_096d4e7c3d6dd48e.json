@@ -1,0 +1,15 @@
+{
+  "name": "Streamlined SSO and JIT provisioning",
+  "summary": "Customers want SSO configuration, JIT provisioning, certificate rotation, and session timeout behavior to work reliably and be easier to set up, as shown by clustered support tickets and unresolved timeout issues.",
+  "usage": {
+    "ts": "2026-10-27T20:51:55+00:00",
+    "step": "feature_gaps",
+    "model": "claude-sonnet-5-5",
+    "input_tokens": 691,
+    "output_tokens": 98,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "request_id": "req_011CgTQNqoqiLQ8wgbex7Mg1",
+    "cost_usd": 0.002362
+  }
+}

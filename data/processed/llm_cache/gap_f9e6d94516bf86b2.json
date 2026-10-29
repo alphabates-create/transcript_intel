@@ -1,0 +1,15 @@
+{
+  "name": "Streamlined SSO and compliance tooling",
+  "summary": "Customers want simpler SSO and JIT provisioning setup, a true cross-framework control mapping matrix for SOC 2, ISO 27001, and PCI DSS, a streamlined restore workflow, and health-checked failover to secondary nodes.",
+  "usage": {
+    "ts": "2026-10-27T19:08:58+00:00",
+    "step": "feature_gaps",
+    "model": "claude-sonnet-5-5",
+    "input_tokens": 585,
+    "output_tokens": 111,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "request_id": "req_011CgTGXWvMkmbsatbMiKGYX",
+    "cost_usd": 0.00228
+  }
+}

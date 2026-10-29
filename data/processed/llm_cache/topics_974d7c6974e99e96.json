@@ -1,0 +1,12 @@
+{
+  "primary_theme": "Competitive threat",
+  "themes": [
+    "Compliance & audit",
+    "Detect outage & fallout",
+    "Comply v2 launch",
+    "Competitive threat"
+  ],
+  "certainty": 0.9,
+  "rationale": "The internal call was convened to plan AegisCloud's response to SentinelShield's aggressive positioning in late-stage deals, including at-risk Hartfield Manufacturing, with the outage story, Comply v2 and SOC 2 reporting serving as the response's supporting points.",
+  "source": "llm"
+}

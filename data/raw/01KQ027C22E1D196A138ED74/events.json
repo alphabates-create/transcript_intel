@@ -1,0 +1,50 @@
+[
+  {
+    "participantName": "Jordan Whitfield",
+    "timestamp": 1781019001000,
+    "type": "Join",
+    "time": 1.0
+  },
+  {
+    "participantName": "James Mitchell",
+    "timestamp": 1781019012000,
+    "type": "Join",
+    "time": 12.0
+  },
+  {
+    "participantName": "Marcus Williams",
+    "timestamp": 1781019018000,
+    "type": "Join",
+    "time": 18.0
+  },
+  {
+    "participantName": "Diana Reeves",
+    "timestamp": 1781019035000,
+    "type": "Join",
+    "time": 35.0
+  },
+  {
+    "participantName": "Jordan Whitfield",
+    "timestamp": 1781019896000,
+    "type": "Leave",
+    "time": 896.0
+  },
+  {
+    "participantName": "James Mitchell",
+    "timestamp": 1781019898000,
+    "type": "Leave",
+    "time": 898.0
+  },
+  {
+    "participantName": "Diana Reeves",
+    "timestamp": 1781019901000,
+    "type": "Leave",
+    "time": 901.0
+  },
+  {
+    "participantName": "Marcus Williams",
+    "timestamp": 1781019901000,
+    "type": "Leave",
+    "time": 901.0
+  }
+]

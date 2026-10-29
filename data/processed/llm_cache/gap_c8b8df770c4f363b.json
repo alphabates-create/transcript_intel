@@ -1,0 +1,4 @@
+{
+  "name": "Proactive, low-noise alerting",
+  "summary": "Customers want proactive alerts (seat-count thresholds, telemetry heartbeat, latency) that are tunable and low in false positives, with easier custom rules and adequate API rate limits, so they avoid surprises and alert fatigue while still demonstrating effective monitoring to auditors."
+}

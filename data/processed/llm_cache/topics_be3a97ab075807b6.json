@@ -1,0 +1,13 @@
+{
+  "primary_theme": "Renewal & contracts",
+  "themes": [
+    "Compliance & audit",
+    "Detect outage & fallout",
+    "Comply v2 launch",
+    "Renewal & contracts",
+    "Competitive threat"
+  ],
+  "certainty": 0.6,
+  "rationale": "The call is framed around the June renewal, with two proposal options, expansion of about 40 workloads affecting pricing, and procurement's required SentinelShield quote, while the outage, Comply v2 and compliance work are also substantial.",
+  "source": "llm"
+}

@@ -1,0 +1,59 @@
+{
+  "summary": "Grace Yoon of Northstar Pharma contacted Aegis Cloud Security support because Comply v2's HIPAA auditor package export fails at the packaging step with error 5023, three business days before Northstar's HIPAA audit fieldwork begins. Team lead Priya Patel identified a product bug: exports over the new 2 GB package limit fail instead of splitting into volumes, affecting Northstar's ~2.4 GB evidence library and at least two other large tenants. Priya committed to running a split export from Aegis's side with an integrity manifest, delivered via secure portal by end of day tomorrow. Grace stressed that the June renewal is already at risk, with SentinelShield shortlisted by her CISO after the March outage, and voiced frustration that Comply v2 failed on its first real audit. Elena escalated the case to P1 and committed to looping in CSM Maria Santos.",
+  "actionItems": [
+    "Priya Patel: Run the HIPAA auditor package export with the split flag and deliver the volumes plus integrity manifest via secure portal by end of day tomorrow",
+    "Elena Vasquez: Escalate case 4471 to P1 and obtain an engineering ETA for the permanent package-split fix",
+    "Elena Vasquez: Copy Maria Santos on the case summary today and relay Grace's feedback to the account team",
+    "Elena Vasquez: Provide a one-page note for auditors explaining the split package and confirming data integrity",
+    "Elena Vasquez: Check in with Grace tomorrow afternoon when the package is ready"
+  ],
+  "topics": [
+    "compliance reporting",
+    "HIPAA audit",
+    "export failure",
+    "Comply v2 bug",
+    "renewal risk",
+    "customer escalation"
+  ],
+  "overallSentiment": "mixed-negative",
+  "sentimentScore": 2.5,
+  "keyMoments": [
+    {
+      "time": 27.0,
+      "text": "Grace reports the Comply v2 HIPAA auditor package export fails at ~90% every time",
+      "type": "technical_issue",
+      "speaker": "Grace Yoon"
+    },
+    {
+      "time": 88.0,
+      "text": "Grace notes HIPAA audit fieldwork starts Monday",
+      "type": "concern",
+      "speaker": "Grace Yoon"
+    },
+    {
+      "time": 95.0,
+      "text": "Grace says the June renewal is at risk and her CISO has SentinelShield on the shortlist",
+      "type": "churn_signal",
+      "speaker": "Grace Yoon"
+    },
+    {
+      "time": 121.0,
+      "text": "Priya confirms a product bug: packages over 2 GB fail instead of splitting into volumes",
+      "type": "technical_issue",
+      "speaker": "Priya Patel"
+    },
+    {
+      "time": 171.0,
+      "text": "Priya offers a split export with identical content and an integrity manifest before the audit",
+      "type": "positive_pivot",
+      "speaker": "Priya Patel"
+    },
+    {
+      "time": 193.0,
+      "text": "Grace expresses frustration that Comply v2 broke on its first real audit",
+      "type": "concern",
+      "speaker": "Grace Yoon"
+    }
+  ],
+  "meetingId": "01KQ7E9A4DBDCF30A728C6D9"
+}

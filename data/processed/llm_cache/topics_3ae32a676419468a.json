@@ -1,0 +1,9 @@
+{
+  "primary_theme": "Compliance & audit",
+  "themes": [
+    "Compliance & audit"
+  ],
+  "certainty": 0.8,
+  "rationale": "The call is about a feature gap in cross-framework reporting (SOC 2, ISO 27001, PCI DSS control mapping matrix) needed for auditor handoffs, with a manual CSV workaround; the early access mention is only passing and not tied to Comply v2 launch specifics.",
+  "source": "llm"
+}

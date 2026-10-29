@@ -1,0 +1,15 @@
+{
+  "is_business": true,
+  "reason": "The call is a customer support case about an SSO outage in the Identity product, including a regression diagnosis, a workaround, and a fix timeline.",
+  "usage": {
+    "ts": "2026-10-29T19:08:49+00:00",
+    "step": "screen",
+    "model": "claude-sonnet-5-5",
+    "input_tokens": 838,
+    "output_tokens": 61,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "request_id": "req_011CgX48cFJhep3p8s47ut8L",
+    "cost_usd": 0.002286
+  }
+}

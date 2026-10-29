@@ -1,0 +1,10 @@
+{
+  "primary_theme": "Detect outage & fallout",
+  "themes": [
+    "Detect outage & fallout",
+    "Competitive threat"
+  ],
+  "certainty": 0.95,
+  "rationale": "The call is a critical escalation about the Detect event processing pipeline failure leaving Blackridge with zero threat visibility, with commitments to an incident report and SLA review; the SentinelShield evaluation is a substantive secondary theme.",
+  "source": "llm"
+}

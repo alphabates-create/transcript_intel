@@ -1,0 +1,404 @@
+{
+  "data": [
+    {
+      "sentence": "Okay, I think we've got everyone \u2014 Kendra, Owen, thanks for making the time, and Ravi's joining from our engineering side.",
+      "speaker_name": "Aisha Johnson",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 6.6,
+      "endTime": 13.6,
+      "averageConfidence": 0.93,
+      "index": 0
+    },
+    {
+      "sentence": "Yeah, thanks Aisha. I brought Owen because he runs our SecOps team day to day and he's the one living with the alerts.",
+      "speaker_name": "Kendra Wallace",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 15.0,
+      "endTime": 23.5,
+      "averageConfidence": 0.95,
+      "index": 1
+    },
+    {
+      "sentence": "Hi everyone. Happy to be here, though I'll be honest, I came with a list.",
+      "speaker_name": "Owen Pritchard",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 24.8,
+      "endTime": 30.6,
+      "averageConfidence": 0.9,
+      "index": 2
+    },
+    {
+      "sentence": "That's exactly what we want. The goal today is to walk through what changed in Detect since March and then spend most of the time on your alert tuning.",
+      "speaker_name": "Aisha Johnson",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 32.1,
+      "endTime": 42.0,
+      "averageConfidence": 0.96,
+      "index": 3
+    },
+    {
+      "sentence": "Good, because the decision is in about ten days and right now SentinelShield is ahead on our scorecard.",
+      "speaker_name": "Kendra Wallace",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 42.7,
+      "endTime": 49.7,
+      "averageConfidence": 0.93,
+      "index": 4
+    },
+    {
+      "sentence": "Their demo showed pipeline health right in the console, and their SLA is ninety-nine point nine \u2014 that landed with my CFO.",
+      "speaker_name": "Kendra Wallace",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 50.1,
+      "endTime": 58.0,
+      "averageConfidence": 0.97,
+      "index": 5
+    },
+    {
+      "sentence": "Understood, and I appreciate you telling us where things stand. Ravi, do you want to start with the reliability piece?",
+      "speaker_name": "Aisha Johnson",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 58.9,
+      "endTime": 66.1,
+      "averageConfidence": 0.89,
+      "index": 6
+    },
+    {
+      "sentence": "Sure. So the short version \u2014 the March outage came from a single ingestion node with no failover, and that's gone now.",
+      "speaker_name": "Ravi Gupta",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 66.5,
+      "endTime": 74.3,
+      "averageConfidence": 0.93,
+      "index": 7
+    },
+    {
+      "sentence": "We run active-active processing nodes, there's a circuit breaker in front of the queue, and failover in our last test came in at about twelve seconds.",
+      "speaker_name": "Ravi Gupta",
+      "sentimentType": "positive",
+      "speaker_id": 3,
+      "time": 74.7,
+      "endTime": 84.8,
+      "averageConfidence": 0.92,
+      "index": 8
+    },
+    {
+      "sentence": "Twelve seconds of what, though \u2014 delayed alerts or lost events?",
+      "speaker_name": "Owen Pritchard",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 85.8,
+      "endTime": 89.8,
+      "averageConfidence": 0.93,
+      "index": 9
+    },
+    {
+      "sentence": "Delayed. Events buffer during the failover and replay in order, so nothing is dropped, you'd just see alerts a few seconds late.",
+      "speaker_name": "Ravi Gupta",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 91.1,
+      "endTime": 99.4,
+      "averageConfidence": 0.95,
+      "index": 10
+    },
+    {
+      "sentence": "Okay, that's actually a meaningful difference from March.",
+      "speaker_name": "Owen Pritchard",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 100.4,
+      "endTime": 103.1,
+      "averageConfidence": 0.96,
+      "index": 11
+    },
+    {
+      "sentence": "The other thing my board keeps asking is how we'd even know if it happened again \u2014 last time we heard about it from our own analysts.",
+      "speaker_name": "Kendra Wallace",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 103.5,
+      "endTime": 114.0,
+      "averageConfidence": 0.93,
+      "index": 12
+    },
+    {
+      "sentence": "That's fair, and it's the piece I'm most excited about. We're shipping a pipeline health panel in the Detect console in early June.",
+      "speaker_name": "Ravi Gupta",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 114.9,
+      "endTime": 122.5,
+      "averageConfidence": 0.9,
+      "index": 13
+    },
+    {
+      "sentence": "It shows ingestion lag per source, queue depth, and a heartbeat, and you can route a heartbeat-missed alert straight to PagerDuty.",
+      "speaker_name": "Ravi Gupta",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 123.6,
+      "endTime": 131.4,
+      "averageConfidence": 0.92,
+      "index": 14
+    },
+    {
+      "sentence": "If that goes to PagerDuty, that solves my biggest complaint, honestly.",
+      "speaker_name": "Owen Pritchard",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 131.9,
+      "endTime": 136.1,
+      "averageConfidence": 0.89,
+      "index": 15
+    },
+    {
+      "sentence": "Owen, can we switch to alert volume? Kendra mentioned fatigue was a problem even before the outage.",
+      "speaker_name": "Aisha Johnson",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 137.6,
+      "endTime": 143.4,
+      "averageConfidence": 0.96,
+      "index": 16
+    },
+    {
+      "sentence": "Yeah, it's been rough. We average something like a hundred and eighty alerts a day and maybe fifteen of them are worth a human looking at.",
+      "speaker_name": "Owen Pritchard",
+      "sentimentType": "negative",
+      "speaker_id": 2,
+      "time": 144.5,
+      "endTime": 153.9,
+      "averageConfidence": 0.9,
+      "index": 17
+    },
+    {
+      "sentence": "Most of the noise is from our Azure batch jobs overnight and the CloudPrime autoscaling events during sales peaks.",
+      "speaker_name": "Owen Pritchard",
+      "sentimentType": "negative",
+      "speaker_id": 2,
+      "time": 154.8,
+      "endTime": 162.0,
+      "averageConfidence": 0.93,
+      "index": 18
+    },
+    {
+      "sentence": "That pattern makes sense. Those are behavioral baselines that never learned your peak season, because you deployed right before it.",
+      "speaker_name": "Ravi Gupta",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 162.5,
+      "endTime": 169.8,
+      "averageConfidence": 0.96,
+      "index": 19
+    },
+    {
+      "sentence": "What I'd suggest is a re-baseline using April data, suppression windows for the batch jobs, and entity-level thresholds for the autoscaling groups.",
+      "speaker_name": "Ravi Gupta",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 171.0,
+      "endTime": 179.4,
+      "averageConfidence": 0.95,
+      "index": 20
+    },
+    {
+      "sentence": "Entity-level meaning I can set different thresholds for prod versus staging?",
+      "speaker_name": "Owen Pritchard",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 179.8,
+      "endTime": 183.6,
+      "averageConfidence": 0.95,
+      "index": 21
+    },
+    {
+      "sentence": "Exactly, per entity type or per tag. We ran the same exercise with a manufacturing customer last month and they went from about two hundred a day to around thirty-five.",
+      "speaker_name": "Ravi Gupta",
+      "sentimentType": "positive",
+      "speaker_id": 3,
+      "time": 184.2,
+      "endTime": 194.3,
+      "averageConfidence": 0.89,
+      "index": 22
+    },
+    {
+      "sentence": "If we got anywhere near that, my team would throw you a party.",
+      "speaker_name": "Owen Pritchard",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 195.4,
+      "endTime": 200.4,
+      "averageConfidence": 0.94,
+      "index": 23
+    },
+    {
+      "sentence": "Can we see that on our data before the decision, though? I can't take a projection to the steering committee.",
+      "speaker_name": "Kendra Wallace",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 201.1,
+      "endTime": 208.4,
+      "averageConfidence": 0.9,
+      "index": 24
+    },
+    {
+      "sentence": "Yes. If Owen can give us read access to the April alert export, we can run the tuning in a sandbox tenant and show you before-and-after numbers.",
+      "speaker_name": "Ravi Gupta",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 208.7,
+      "endTime": 218.6,
+      "averageConfidence": 0.93,
+      "index": 25
+    },
+    {
+      "sentence": "I can get that to you tomorrow.",
+      "speaker_name": "Owen Pritchard",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 219.7,
+      "endTime": 222.4,
+      "averageConfidence": 0.91,
+      "index": 26
+    },
+    {
+      "sentence": "On the commercial side, Kendra, I know the SLA was a sticking point.",
+      "speaker_name": "Aisha Johnson",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 223.1,
+      "endTime": 228.0,
+      "averageConfidence": 0.95,
+      "index": 27
+    },
+    {
+      "sentence": "We can offer an enhanced Detect SLA at ninety-nine point nine with service credits that actually scale, and we'd credit back the March incident on this renewal.",
+      "speaker_name": "Aisha Johnson",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 228.9,
+      "endTime": 238.3,
+      "averageConfidence": 0.96,
+      "index": 28
+    },
+    {
+      "sentence": "That helps. Would the health panel be in the contract or just on the roadmap?",
+      "speaker_name": "Kendra Wallace",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 239.0,
+      "endTime": 243.9,
+      "averageConfidence": 0.95,
+      "index": 29
+    },
+    {
+      "sentence": "I'll confirm with product, but I believe we can put the June date in writing as a named deliverable.",
+      "speaker_name": "Aisha Johnson",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 244.6,
+      "endTime": 250.8,
+      "averageConfidence": 0.92,
+      "index": 30
+    },
+    {
+      "sentence": "If you can get that in writing and the tuning numbers hold up, I think this becomes a much easier conversation internally.",
+      "speaker_name": "Kendra Wallace",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 252.1,
+      "endTime": 260.4,
+      "averageConfidence": 0.91,
+      "index": 31
+    },
+    {
+      "sentence": "And to be fair, Protect and Comply v2 have been great \u2014 Comply cut our PCI evidence prep by more than half.",
+      "speaker_name": "Kendra Wallace",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 261.7,
+      "endTime": 268.8,
+      "averageConfidence": 0.89,
+      "index": 32
+    },
+    {
+      "sentence": "That's really good to hear, and I'll share that with the Comply team.",
+      "speaker_name": "Aisha Johnson",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 269.2,
+      "endTime": 273.7,
+      "averageConfidence": 0.93,
+      "index": 33
+    },
+    {
+      "sentence": "One more ask \u2014 can we get the post-mortem in a format I can hand to our auditors, not just the blog version?",
+      "speaker_name": "Owen Pritchard",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 275.0,
+      "endTime": 283.8,
+      "averageConfidence": 0.94,
+      "index": 34
+    },
+    {
+      "sentence": "Yes, there's a detailed version with the timeline and control changes. I'll send it under NDA.",
+      "speaker_name": "Ravi Gupta",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 284.1,
+      "endTime": 289.3,
+      "averageConfidence": 0.96,
+      "index": 35
+    },
+    {
+      "sentence": "Great. So to recap \u2014 Owen sends the alert export, Ravi runs the tuning sandbox, and I send the SLA proposal and confirm the health panel date.",
+      "speaker_name": "Aisha Johnson",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 290.3,
+      "endTime": 300.5,
+      "averageConfidence": 0.93,
+      "index": 36
+    },
+    {
+      "sentence": "Can we hold forty-five minutes next Wednesday to review the results before your committee meets?",
+      "speaker_name": "Aisha Johnson",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 301.0,
+      "endTime": 306.4,
+      "averageConfidence": 0.92,
+      "index": 37
+    },
+    {
+      "sentence": "Wednesday works. Let's do it.",
+      "speaker_name": "Kendra Wallace",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 307.7,
+      "endTime": 309.5,
+      "averageConfidence": 0.96,
+      "index": 38
+    },
+    {
+      "sentence": "Thanks Ravi, this was a lot more concrete than I expected.",
+      "speaker_name": "Owen Pritchard",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 310.7,
+      "endTime": 314.5,
+      "averageConfidence": 0.97,
+      "index": 39
+    }
+  ]
+}

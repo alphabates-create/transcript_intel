@@ -1,0 +1,20 @@
+{
+  "status": "open",
+  "resolved_call_index": null,
+  "owner": "Sarah Chen",
+  "category": "Request",
+  "priority": "P3",
+  "outage_hours": null,
+  "resolution_note": "Granular file-level restore is not supported, so a formal feature request was logged and the CSM will follow up with roadmap updates.",
+  "usage": {
+    "ts": "2026-10-27T06:50:44+00:00",
+    "step": "incidents",
+    "model": "claude-sonnet-5-5",
+    "input_tokens": 1628,
+    "output_tokens": 102,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "request_id": "req_011CgSJES9cm7mVooQQHvCgd",
+    "cost_usd": 0.004276
+  }
+}

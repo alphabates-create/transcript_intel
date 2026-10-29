@@ -1,0 +1,15 @@
+{
+  "is_business": true,
+  "reason": "The call is a customer support case follow-up about Aegis Identity policy sync fixes, escalation rules and a feature request with Crestline Wealth.",
+  "usage": {
+    "ts": "2026-10-29T19:09:12+00:00",
+    "step": "screen",
+    "model": "claude-sonnet-5-5",
+    "input_tokens": 883,
+    "output_tokens": 64,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "request_id": "req_011CgX4AL33JTmxNJ2y4Dc6g",
+    "cost_usd": 0.002406
+  }
+}

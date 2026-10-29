@@ -1,0 +1,9 @@
+{
+  "primary_theme": "Compliance & audit",
+  "themes": [
+    "Compliance & audit"
+  ],
+  "certainty": 0.9,
+  "rationale": "The call centers on Stratos's manual SOC 2 and ISO 27001 evidence collection ahead of a May audit and how Comply automates audit-ready evidence.",
+  "source": "llm"
+}

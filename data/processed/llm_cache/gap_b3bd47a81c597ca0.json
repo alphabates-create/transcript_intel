@@ -1,0 +1,15 @@
+{
+  "name": "Resilience, Restore, and Visibility Gaps",
+  "summary": "Customers want Aegis to add granular file-level restore with a simpler restore flow, redundant and health-checked failover with internal outage detection, clearer error messaging, remediation guidance, alerts for unprotected VMs, multi-region replication, and early access to multi-framework compliance reporting.",
+  "usage": {
+    "ts": "2026-10-29T03:10:33+00:00",
+    "step": "feature_gaps",
+    "model": "claude-sonnet-5-5",
+    "input_tokens": 794,
+    "output_tokens": 126,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "request_id": "req_011CgVo4LJVhutqDeZnGTPBC",
+    "cost_usd": 0.002848
+  }
+}

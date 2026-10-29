@@ -1,0 +1,15 @@
+{
+  "name": "Granular access control and session policies",
+  "summary": "Customers want role-based access controls that support hierarchical role inheritance and per-role or per-resource session timeout policies, so they stop duplicating roles and applying one restrictive global timeout everywhere.",
+  "usage": {
+    "ts": "2026-10-28T20:10:20+00:00",
+    "step": "feature_gaps",
+    "model": "claude-sonnet-5-5",
+    "input_tokens": 544,
+    "output_tokens": 87,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "request_id": "req_011CgVF1qdYzUL668fnZmwdi",
+    "cost_usd": 0.001958
+  }
+}

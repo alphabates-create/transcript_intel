@@ -1,0 +1,20 @@
+{
+  "status": "open",
+  "resolved_call_index": null,
+  "owner": "Elena Vasquez",
+  "category": "Defect",
+  "priority": "P2",
+  "outage_hours": null,
+  "resolution_note": "Workaround of mapping workerType to a custom attribute with an assignment rule worked on a test account and is being rolled out in two batches, but the mapping UI validation bug and the role inheritance feature request remain open.",
+  "usage": {
+    "ts": "2026-10-27T20:51:42+00:00",
+    "step": "incidents",
+    "model": "claude-sonnet-5-5",
+    "input_tokens": 1693,
+    "output_tokens": 132,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "request_id": "req_011CgTQMqZgYFkAeRoW8967j",
+    "cost_usd": 0.004706
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "meetingId": "01KQ7191ED59A286D224DCF7",
+  "title": "Protect Scheduler Rewrite - Design Review",
+  "organizerEmail": "mike.romano@aegiscloud.com",
+  "host": "mike.romano@aegiscloud.com",
+  "startTime": "2026-06-16T14:00:00.000Z",
+  "endTime": "2026-06-16T14:12:07.000Z",
+  "duration": 12.1,
+  "allEmails": [
+    "mike.romano@aegiscloud.com",
+    "nina.kowalski@aegiscloud.com",
+    "chris.lee@aegiscloud.com",
+    "sofia.petrov@aegiscloud.com"
+  ],
+  "invitees": [
+    "mike.romano@aegiscloud.com",
+    "nina.kowalski@aegiscloud.com",
+    "chris.lee@aegiscloud.com",
+    "sofia.petrov@aegiscloud.com"
+  ]
+}

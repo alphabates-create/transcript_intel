@@ -1,0 +1,11 @@
+{
+  "primary_theme": "Internal planning",
+  "themes": [
+    "Detect outage & fallout",
+    "Comply v2 launch",
+    "Internal planning"
+  ],
+  "certainty": 0.8,
+  "rationale": "This is an internal April all-hands that covers the Detect outage retro, Comply v2 launch status and Q2 roadmap prioritization, with the roadmap and operating-meeting format framing the whole call.",
+  "source": "llm"
+}

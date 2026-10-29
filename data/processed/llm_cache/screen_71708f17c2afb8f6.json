@@ -1,0 +1,15 @@
+{
+  "is_business": true,
+  "reason": "This is a customer support call about Support Case #9856, covering backup throughput degradation, an agent update workaround, a P1 escalation, and a scheduled follow-up.",
+  "usage": {
+    "ts": "2026-10-29T19:09:05+00:00",
+    "step": "screen",
+    "model": "claude-sonnet-5-5",
+    "input_tokens": 886,
+    "output_tokens": 70,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "request_id": "req_011CgX49p4VMsjbP3xofWu8T",
+    "cost_usd": 0.002472
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "primary_theme": "Identity / SSO / MFA",
+  "themes": [
+    "Identity / SSO / MFA"
+  ],
+  "certainty": 0.95,
+  "rationale": "The call verifies the fix for Aegis Identity policy sync delays and provisioning speed after the move to a dedicated sync worker, with the regulatory concern and support-response gap only secondary.",
+  "usage": {
+    "ts": "2026-10-27T19:08:41+00:00",
+    "step": "topics",
+    "model": "claude-sonnet-5-5",
+    "input_tokens": 1907,
+    "output_tokens": 118,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "request_id": "req_011CgTGWDtPYQrHyBWpXBfaB",
+    "cost_usd": 0.004994
+  }
+}

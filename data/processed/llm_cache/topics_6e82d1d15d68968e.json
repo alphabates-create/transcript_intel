@@ -1,0 +1,10 @@
+{
+  "primary_theme": "Comply v2 launch",
+  "themes": [
+    "Compliance & audit",
+    "Comply v2 launch"
+  ],
+  "certainty": 0.93,
+  "rationale": "Internal design review of Comply v2 covering async report generation, unified evidence store, PDF export scope, v2.1 deferral and load testing ahead of the April GA.",
+  "source": "llm"
+}

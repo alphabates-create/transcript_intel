@@ -1,0 +1,9 @@
+{
+  "primary_theme": "Detect outage & fallout",
+  "themes": [
+    "Detect outage & fallout"
+  ],
+  "certainty": 0.96,
+  "rationale": "Internal post-incident review of the Detect ingestion pipeline failure, covering root causes (OOM cascade, no circuit breaker, weak health checks), six hours of lost threat visibility, and post-mortem transparency.",
+  "source": "llm"
+}

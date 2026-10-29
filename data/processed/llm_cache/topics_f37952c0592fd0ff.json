@@ -1,0 +1,12 @@
+{
+  "primary_theme": "Competitive threat",
+  "themes": [
+    "Detect outage & fallout",
+    "Comply v2 launch",
+    "Renewal & contracts",
+    "Competitive threat"
+  ],
+  "certainty": 0.9,
+  "rationale": "The call is titled a competitive evaluation and centers on Brightpath's six-week evaluation of SentinelShield, with a mid-May decision deadline ahead of the July renewal, driven by the March Detect outage.",
+  "source": "llm"
+}

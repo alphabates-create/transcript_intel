@@ -1,0 +1,15 @@
+{
+  "is_business": true,
+  "reason": "Kevin O'Brien demoed Aegis Comply v2 to a Silverline customer ahead of their PCI DSS audit and planned next steps after the GA release, which is a sales/product call.",
+  "usage": {
+    "ts": "2026-10-29T19:09:03+00:00",
+    "step": "screen",
+    "model": "claude-sonnet-5-5",
+    "input_tokens": 845,
+    "output_tokens": 80,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "request_id": "req_011CgX49cdeRDUF262s84tEn",
+    "cost_usd": 0.00249
+  }
+}

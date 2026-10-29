@@ -1,0 +1,15 @@
+{
+  "name": "Outage transparency and monitoring",
+  "summary": "Customers and sales teams want proactive internal outage detection and clear outage communication, including a sales-facing one-pager explaining the March incident and its resolution, so customers are not the first to report problems.",
+  "usage": {
+    "ts": "2026-10-27T20:38:52+00:00",
+    "step": "feature_gaps",
+    "model": "claude-sonnet-5-5",
+    "input_tokens": 473,
+    "output_tokens": 86,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "request_id": "req_011CgTPPAFyqd7NwttwEcg75",
+    "cost_usd": 0.001806
+  }
+}

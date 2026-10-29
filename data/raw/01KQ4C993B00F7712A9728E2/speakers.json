@@ -1,0 +1,147 @@
+[
+  {
+    "speakerName": "Diana Reeves",
+    "timestamp": 6.2,
+    "endTimeTs": 14.6
+  },
+  {
+    "speakerName": "Diana Reeves",
+    "timestamp": 15.6,
+    "endTimeTs": 17.0
+  },
+  {
+    "speakerName": "James Mitchell",
+    "timestamp": 18.2,
+    "endTimeTs": 23.9
+  },
+  {
+    "speakerName": "James Mitchell",
+    "timestamp": 25.2,
+    "endTimeTs": 32.9
+  },
+  {
+    "speakerName": "James Mitchell",
+    "timestamp": 34.4,
+    "endTimeTs": 41.7
+  },
+  {
+    "speakerName": "Diana Reeves",
+    "timestamp": 42.1,
+    "endTimeTs": 43.5
+  },
+  {
+    "speakerName": "James Mitchell",
+    "timestamp": 44.5,
+    "endTimeTs": 48.1
+  },
+  {
+    "speakerName": "Diana Reeves",
+    "timestamp": 48.6,
+    "endTimeTs": 50.0
+  },
+  {
+    "speakerName": "Tom Bradley",
+    "timestamp": 50.6,
+    "endTimeTs": 56.5
+  },
+  {
+    "speakerName": "Tom Bradley",
+    "timestamp": 57.6,
+    "endTimeTs": 65.3
+  },
+  {
+    "speakerName": "Tom Bradley",
+    "timestamp": 65.9,
+    "endTimeTs": 73.4
+  },
+  {
+    "speakerName": "Tom Bradley",
+    "timestamp": 74.5,
+    "endTimeTs": 81.3
+  },
+  {
+    "speakerName": "Brian Cho",
+    "timestamp": 82.4,
+    "endTimeTs": 90.0
+  },
+  {
+    "speakerName": "Brian Cho",
+    "timestamp": 91.0,
+    "endTimeTs": 100.1
+  },
+  {
+    "speakerName": "Diana Reeves",
+    "timestamp": 100.4,
+    "endTimeTs": 101.9
+  },
+  {
+    "speakerName": "Brian Cho",
+    "timestamp": 102.4,
+    "endTimeTs": 108.4
+  },
+  {
+    "speakerName": "Megan Lawson",
+    "timestamp": 109.3,
+    "endTimeTs": 115.8
+  },
+  {
+    "speakerName": "Megan Lawson",
+    "timestamp": 116.8,
+    "endTimeTs": 124.8
+  },
+  {
+    "speakerName": "Megan Lawson",
+    "timestamp": 125.1,
+    "endTimeTs": 132.7
+  },
+  {
+    "speakerName": "Diana Reeves",
+    "timestamp": 133.1,
+    "endTimeTs": 134.7
+  },
+  {
+    "speakerName": "Megan Lawson",
+    "timestamp": 135.9,
+    "endTimeTs": 140.7
+  },
+  {
+    "speakerName": "Diana Reeves",
+    "timestamp": 141.8,
+    "endTimeTs": 143.2
+  },
+  {
+    "speakerName": "James Mitchell",
+    "timestamp": 144.0,
+    "endTimeTs": 152.4
+  },
+  {
+    "speakerName": "Diana Reeves",
+    "timestamp": 153.3,
+    "endTimeTs": 157.5
+  },
+  {
+    "speakerName": "Tom Bradley",
+    "timestamp": 158.0,
+    "endTimeTs": 162.5
+  },
+  {
+    "speakerName": "Brian Cho",
+    "timestamp": 163.7,
+    "endTimeTs": 169.2
+  },
+  {
+    "speakerName": "James Mitchell",
+    "timestamp": 170.2,
+    "endTimeTs": 175.4
+  },
+  {
+    "speakerName": "Megan Lawson",
+    "timestamp": 176.2,
+    "endTimeTs": 180.8
+  },
+  {
+    "speakerName": "Diana Reeves",
+    "timestamp": 182.2,
+    "endTimeTs": 189.3
+  }
+]

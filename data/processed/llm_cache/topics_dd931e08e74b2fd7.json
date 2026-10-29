@@ -1,0 +1,11 @@
+{
+  "primary_theme": "Detect outage & fallout",
+  "themes": [
+    "Detect outage & fallout",
+    "Renewal & contracts",
+    "Competitive threat"
+  ],
+  "certainty": 0.55,
+  "rationale": "The call is a Detect support case about a flood of false positives after patch 4.2.1 and the customer's frustration over a second incident in two weeks, though it is not the March pipeline outage itself, and the customer's vendor evaluation at renewal is a secondary thread.",
+  "source": "llm"
+}

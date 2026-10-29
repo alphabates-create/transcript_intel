@@ -1,0 +1,157 @@
+[
+  {
+    "speakerName": "Brian Cho",
+    "timestamp": 5.6,
+    "endTimeTs": 9.7
+  },
+  {
+    "speakerName": "Elena Vasquez",
+    "timestamp": 10.1,
+    "endTimeTs": 14.1
+  },
+  {
+    "speakerName": "Marcus Williams",
+    "timestamp": 15.1,
+    "endTimeTs": 18.6
+  },
+  {
+    "speakerName": "Brian Cho",
+    "timestamp": 19.5,
+    "endTimeTs": 22.2
+  },
+  {
+    "speakerName": "Brian Cho",
+    "timestamp": 23.6,
+    "endTimeTs": 25.0
+  },
+  {
+    "speakerName": "Elena Vasquez",
+    "timestamp": 25.4,
+    "endTimeTs": 26.8
+  },
+  {
+    "speakerName": "Priya Patel",
+    "timestamp": 27.3,
+    "endTimeTs": 33.8
+  },
+  {
+    "speakerName": "David Kim",
+    "timestamp": 34.2,
+    "endTimeTs": 39.0
+  },
+  {
+    "speakerName": "Brian Cho",
+    "timestamp": 39.9,
+    "endTimeTs": 42.5
+  },
+  {
+    "speakerName": "Sarah Chen",
+    "timestamp": 43.2,
+    "endTimeTs": 49.2
+  },
+  {
+    "speakerName": "Priya Patel",
+    "timestamp": 50.0,
+    "endTimeTs": 58.7
+  },
+  {
+    "speakerName": "Priya Patel",
+    "timestamp": 59.3,
+    "endTimeTs": 63.3
+  },
+  {
+    "speakerName": "Marcus Williams",
+    "timestamp": 63.8,
+    "endTimeTs": 66.5
+  },
+  {
+    "speakerName": "Elena Vasquez",
+    "timestamp": 67.9,
+    "endTimeTs": 71.1
+  },
+  {
+    "speakerName": "Priya Patel",
+    "timestamp": 72.0,
+    "endTimeTs": 78.4
+  },
+  {
+    "speakerName": "David Kim",
+    "timestamp": 79.4,
+    "endTimeTs": 85.4
+  },
+  {
+    "speakerName": "Priya Patel",
+    "timestamp": 86.1,
+    "endTimeTs": 87.8
+  },
+  {
+    "speakerName": "Sarah Chen",
+    "timestamp": 89.0,
+    "endTimeTs": 95.6
+  },
+  {
+    "speakerName": "Priya Patel",
+    "timestamp": 96.7,
+    "endTimeTs": 102.7
+  },
+  {
+    "speakerName": "Marcus Williams",
+    "timestamp": 103.6,
+    "endTimeTs": 107.2
+  },
+  {
+    "speakerName": "Elena Vasquez",
+    "timestamp": 107.9,
+    "endTimeTs": 110.9
+  },
+  {
+    "speakerName": "Brian Cho",
+    "timestamp": 111.8,
+    "endTimeTs": 114.7
+  },
+  {
+    "speakerName": "David Kim",
+    "timestamp": 115.9,
+    "endTimeTs": 119.1
+  },
+  {
+    "speakerName": "Sarah Chen",
+    "timestamp": 119.9,
+    "endTimeTs": 123.8
+  },
+  {
+    "speakerName": "Marcus Williams",
+    "timestamp": 125.1,
+    "endTimeTs": 129.8
+  },
+  {
+    "speakerName": "Priya Patel",
+    "timestamp": 130.3,
+    "endTimeTs": 136.2
+  },
+  {
+    "speakerName": "Brian Cho",
+    "timestamp": 136.6,
+    "endTimeTs": 140.5
+  },
+  {
+    "speakerName": "Elena Vasquez",
+    "timestamp": 141.6,
+    "endTimeTs": 143.0
+  },
+  {
+    "speakerName": "Priya Patel",
+    "timestamp": 144.2,
+    "endTimeTs": 147.8
+  },
+  {
+    "speakerName": "David Kim",
+    "timestamp": 149.1,
+    "endTimeTs": 150.5
+  },
+  {
+    "speakerName": "Brian Cho",
+    "timestamp": 151.6,
+    "endTimeTs": 154.5
+  }
+]

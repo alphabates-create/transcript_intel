@@ -1,0 +1,38 @@
+[
+  {
+    "participantName": "Lisa Park",
+    "timestamp": 1780596001000,
+    "type": "Join",
+    "time": 1.0
+  },
+  {
+    "participantName": "Raymond Burke",
+    "timestamp": 1780596001000,
+    "type": "Join",
+    "time": 1.0
+  },
+  {
+    "participantName": "Dr. Linda Cheng",
+    "timestamp": 1780596005000,
+    "type": "Join",
+    "time": 5.0
+  },
+  {
+    "participantName": "Lisa Park",
+    "timestamp": 1780596737000,
+    "type": "Leave",
+    "time": 737.0
+  },
+  {
+    "participantName": "Raymond Burke",
+    "timestamp": 1780596737000,
+    "type": "Leave",
+    "time": 737.0
+  },
+  {
+    "participantName": "Dr. Linda Cheng",
+    "timestamp": 1780596735000,
+    "type": "Leave",
+    "time": 735.0
+  }
+]

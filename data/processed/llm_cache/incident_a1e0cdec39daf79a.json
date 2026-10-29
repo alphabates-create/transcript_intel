@@ -1,0 +1,20 @@
+{
+  "status": "open",
+  "resolved_call_index": null,
+  "owner": "David Kim",
+  "category": "Degradation",
+  "priority": "P2",
+  "outage_hours": null,
+  "resolution_note": "Emergency rebalance request IR-8842 submitted to move the tenant off the overloaded node cluster, with a formal incident summary due by EOB the next day; the fix is not yet confirmed.",
+  "usage": {
+    "ts": "2026-10-27T06:51:07+00:00",
+    "step": "incidents",
+    "model": "claude-sonnet-5-5",
+    "input_tokens": 1735,
+    "output_tokens": 125,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "request_id": "req_011CgSJFwWk5oKQBCCAFsbHq",
+    "cost_usd": 0.00472
+  }
+}

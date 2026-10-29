@@ -1,0 +1,274 @@
+{
+  "data": [
+    {
+      "sentence": "Hi Philip, hi Danielle \u2014 thanks for joining. Rachel's with me again.",
+      "speaker_name": "Lisa Park",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 6.0,
+      "endTime": 10.2,
+      "averageConfidence": 0.89,
+      "index": 0
+    },
+    {
+      "sentence": "Thanks Lisa. Good news up front: Danielle and I met yesterday, and we want to move forward with Detect.",
+      "speaker_name": "Philip Lau",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 11.0,
+      "endTime": 18.3,
+      "averageConfidence": 0.89,
+      "index": 1
+    },
+    {
+      "sentence": "That's wonderful to hear. Thank you.",
+      "speaker_name": "Lisa Park",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 19.5,
+      "endTime": 21.5,
+      "averageConfidence": 0.95,
+      "index": 2
+    },
+    {
+      "sentence": "I'll be honest about how we got here, because it wasn't a given. I had real reservations after the March outage.",
+      "speaker_name": "Danielle Ortiz",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 21.9,
+      "endTime": 30.3,
+      "averageConfidence": 0.94,
+      "index": 3
+    },
+    {
+      "sentence": "A CISO adding a monitoring platform that went dark for six hours is not an easy sell to my board.",
+      "speaker_name": "Danielle Ortiz",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 30.8,
+      "endTime": 38.6,
+      "averageConfidence": 0.9,
+      "index": 4
+    },
+    {
+      "sentence": "What changed my mind was the game day summary you sent. Showing us what failed in your own testing, not just what passed, built a lot of credibility.",
+      "speaker_name": "Danielle Ortiz",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 40.1,
+      "endTime": 51.0,
+      "averageConfidence": 0.92,
+      "index": 5
+    },
+    {
+      "sentence": "I'm really glad that landed. Our engineering team was nervous about sharing the network partition result.",
+      "speaker_name": "Rachel Torres",
+      "sentimentType": "positive",
+      "speaker_id": 3,
+      "time": 52.2,
+      "endTime": 57.9,
+      "averageConfidence": 0.95,
+      "index": 6
+    },
+    {
+      "sentence": "That was the part I trusted most. Every vendor tells me they're resilient. You showed me where you weren't, and what you're doing about it.",
+      "speaker_name": "Danielle Ortiz",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 58.6,
+      "endTime": 66.9,
+      "averageConfidence": 0.89,
+      "index": 7
+    },
+    {
+      "sentence": "The other factor is consolidation. We're on Comply and Protect already, and we're trying to cut down our tool count.",
+      "speaker_name": "Philip Lau",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 67.8,
+      "endTime": 75.0,
+      "averageConfidence": 0.92,
+      "index": 8
+    },
+    {
+      "sentence": "Comply v2 saved us around sixty hours on our last HIPAA cycle. Adding Detect on the same platform gives us one evidence trail.",
+      "speaker_name": "Philip Lau",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 75.8,
+      "endTime": 84.8,
+      "averageConfidence": 0.95,
+      "index": 9
+    },
+    {
+      "sentence": "That's a big part of the design \u2014 Detect alerts and response actions flow straight into Comply as audit evidence.",
+      "speaker_name": "Rachel Torres",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 85.3,
+      "endTime": 92.3,
+      "averageConfidence": 0.89,
+      "index": 10
+    },
+    {
+      "sentence": "That's exactly what I want to see working. How long is the onboarding?",
+      "speaker_name": "Danielle Ortiz",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 93.6,
+      "endTime": 98.3,
+      "averageConfidence": 0.9,
+      "index": 11
+    },
+    {
+      "sentence": "For your size, about four weeks. The first week is a seven-day observation mode where Detect learns your baselines without paging anyone.",
+      "speaker_name": "Rachel Torres",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 99.1,
+      "endTime": 107.1,
+      "averageConfidence": 0.95,
+      "index": 12
+    },
+    {
+      "sentence": "Good. That observation period matters to me \u2014 I don't want my team buried in alerts on day one.",
+      "speaker_name": "Danielle Ortiz",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 108.4,
+      "endTime": 114.8,
+      "averageConfidence": 0.96,
+      "index": 13
+    },
+    {
+      "sentence": "On terms, we'd add Detect to your existing three-year agreement, so it co-terms with Comply and Protect.",
+      "speaker_name": "Lisa Park",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 115.2,
+      "endTime": 121.1,
+      "averageConfidence": 0.93,
+      "index": 14
+    },
+    {
+      "sentence": "For the first year, we'll include the enhanced 99.9 SLA and the pipeline health panel as soon as it's released in June.",
+      "speaker_name": "Lisa Park",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 122.2,
+      "endTime": 129.4,
+      "averageConfidence": 0.88,
+      "index": 15
+    },
+    {
+      "sentence": "That's what we discussed, and it works for us.",
+      "speaker_name": "Philip Lau",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 130.9,
+      "endTime": 134.2,
+      "averageConfidence": 0.92,
+      "index": 16
+    },
+    {
+      "sentence": "One request: I'd like the heartbeat alert routed to our SOC from day one, even before the panel ships.",
+      "speaker_name": "Danielle Ortiz",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 135.4,
+      "endTime": 141.6,
+      "averageConfidence": 0.93,
+      "index": 17
+    },
+    {
+      "sentence": "The internal heartbeat goes live at the end of this month. I'll check whether we can expose the alert to customers early, starting with you.",
+      "speaker_name": "Rachel Torres",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 143.1,
+      "endTime": 151.4,
+      "averageConfidence": 0.96,
+      "index": 18
+    },
+    {
+      "sentence": "If you can, that would make Keystone a happy reference customer.",
+      "speaker_name": "Danielle Ortiz",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 152.5,
+      "endTime": 156.2,
+      "averageConfidence": 0.93,
+      "index": 19
+    },
+    {
+      "sentence": "We'd love that. Philip, what do you need from us to get this through procurement?",
+      "speaker_name": "Lisa Park",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 156.7,
+      "endTime": 162.0,
+      "averageConfidence": 0.92,
+      "index": 20
+    },
+    {
+      "sentence": "A revised order form and the security questionnaire update for Detect. Legal's turnaround is about a week.",
+      "speaker_name": "Philip Lau",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 163.5,
+      "endTime": 169.1,
+      "averageConfidence": 0.89,
+      "index": 21
+    },
+    {
+      "sentence": "I'll send both by Friday.",
+      "speaker_name": "Lisa Park",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 170.4,
+      "endTime": 172.2,
+      "averageConfidence": 0.88,
+      "index": 22
+    },
+    {
+      "sentence": "And I'll set up the onboarding kickoff for the week of June eighth, assuming the paperwork lands.",
+      "speaker_name": "Rachel Torres",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 172.5,
+      "endTime": 178.6,
+      "averageConfidence": 0.92,
+      "index": 23
+    },
+    {
+      "sentence": "Sounds great. Honestly, this is the most confident I've felt about a security vendor decision in a while.",
+      "speaker_name": "Danielle Ortiz",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 179.1,
+      "endTime": 186.3,
+      "averageConfidence": 0.97,
+      "index": 24
+    },
+    {
+      "sentence": "Agreed. Thanks to you both \u2014 you've been straight with us the whole way.",
+      "speaker_name": "Philip Lau",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 187.0,
+      "endTime": 191.8,
+      "averageConfidence": 0.92,
+      "index": 25
+    },
+    {
+      "sentence": "Thank you, Philip, Danielle. We're excited to have you on Detect.",
+      "speaker_name": "Lisa Park",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 192.1,
+      "endTime": 196.1,
+      "averageConfidence": 0.89,
+      "index": 26
+    }
+  ]
+}

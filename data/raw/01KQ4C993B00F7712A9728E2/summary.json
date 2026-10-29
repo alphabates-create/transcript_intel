@@ -1,0 +1,59 @@
+{
+  "summary": "Diana Reeves led the Q2 executive business review with Tom Bradley (engineering), James Mitchell (sales), Brian Cho (support) and Megan Lawson (product). Net revenue retention fell from 106% to 94%, driven by the Ironworks churn and free year-one Comply discounts, while new logos rose with Keystone's Detect add-on, Brightpath's two-year renewal and Larkspur Financial signing on Keystone's reference. Tom reported 100% Detect availability since March and an internal heartbeat live since May 29, but acknowledged at least six customer incidents caused by remediation work, now subject to staged rollout and restore verification. Brian reported support volume 22% above Q1 and a backlog reduced from 41 to 14 aged cases. Megan confirmed the three Comply tiers were approved on June 20 and overage credits issued, and that Protect multi-region replication has slipped to early Q4. Northstar's Detect renewal is at risk. Q3 priorities are the customer pipeline health panel, two support hires, the Professional plus Protect bundle, and Identity role inheritance.",
+  "actionItems": [
+    "Tom Bradley: Ship the customer-facing pipeline health panel and schedule quarterly chaos game days in Q3",
+    "Brian Cho: Open requisitions for two support engineers",
+    "James Mitchell: Launch the Comply Professional plus Protect bundle once the scheduler rollout reaches 100%",
+    "Megan Lawson: Prioritize hierarchical role inheritance in the Identity Q3 roadmap",
+    "James Mitchell: Report the Northstar renewal outcome after Friday's decision call"
+  ],
+  "topics": [
+    "quarterly business review",
+    "net revenue retention",
+    "reliability",
+    "support backlog",
+    "pricing",
+    "Q3 priorities"
+  ],
+  "overallSentiment": "mixed-positive",
+  "sentimentScore": 3.4,
+  "keyMoments": [
+    {
+      "time": 25.0,
+      "text": "James attributes the NRR drop to the Ironworks churn and free year-one Comply discounts",
+      "type": "churn_signal",
+      "speaker": "James Mitchell"
+    },
+    {
+      "time": 50.0,
+      "text": "Tom reports 100% Detect availability in April, May and June",
+      "type": "praise",
+      "speaker": "Tom Bradley"
+    },
+    {
+      "time": 65.0,
+      "text": "Tom says at least six customer incidents this quarter came from remediation work",
+      "type": "concern",
+      "speaker": "Tom Bradley"
+    },
+    {
+      "time": 82.0,
+      "text": "Brian reports support ticket volume 22% above Q1 with slipping P2 response times",
+      "type": "concern",
+      "speaker": "Brian Cho"
+    },
+    {
+      "time": 125.0,
+      "text": "Megan says Protect multi-region replication has slipped to early Q4",
+      "type": "feature_gap",
+      "speaker": "Megan Lawson"
+    },
+    {
+      "time": 144.0,
+      "text": "James expects Northstar to keep Comply and Protect but Detect is at real risk",
+      "type": "churn_signal",
+      "speaker": "James Mitchell"
+    }
+  ],
+  "meetingId": "01KQ4C993B00F7712A9728E2"
+}

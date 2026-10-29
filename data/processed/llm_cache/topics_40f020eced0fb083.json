@@ -1,0 +1,9 @@
+{
+  "primary_theme": "Renewal & contracts",
+  "themes": [
+    "Renewal & contracts"
+  ],
+  "certainty": 0.93,
+  "rationale": "The call is a renewal planning session where the CSM presents a three-year proposal with an elastic seat model and enterprise API tier, and next steps involve a formal proposal plus finance and legal approval.",
+  "source": "llm"
+}

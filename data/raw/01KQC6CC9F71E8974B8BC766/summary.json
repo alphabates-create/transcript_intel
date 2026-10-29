@@ -1,0 +1,59 @@
+{
+  "summary": "Diana Reeves led a Customer Success review of at-risk accounts with Maria Santos, Aisha Johnson and Brian Cho. Brightpath renewed for two years after detection tuning cut alerts from ~180 to 41 per day, and Keystone Health signed a Detect add-on. Summit Trust renewed for only one year on Identity and Detect while piloting VaultEdge, and Northstar Pharma remains open with a SentinelShield proof of concept planned for June and the permanent Comply v2 export fix slipping to mid-June. Ironworks Corp churned to Fortiguard Pro (~$140K ACV), citing the March outage, OT monitoring gaps and late ISO 27001 reporting. Silverline's Protect seats (~30% of the account) are at risk after a restore failure caused by a dedup bug. Brian counted at least six support cases this quarter tracing back to the March remediation, which Diana will raise with engineering leadership as a systemic pattern.",
+  "actionItems": [
+    "Maria Santos: Build a save plan for Northstar Pharma before their June SentinelShield proof of concept, due Tuesday",
+    "Brian Cho: Compile all support cases linked to the March Detect remediation by Monday",
+    "Aisha Johnson: Write a Brightpath Commerce renewal case study",
+    "Diana Reeves: Write up the Ironworks loss for the win-loss review",
+    "Diana Reeves: Raise the remediation side-effect pattern with engineering leadership and flag the slipped Comply export fix"
+  ],
+  "topics": [
+    "account health",
+    "churn analysis",
+    "renewal outcomes",
+    "competitive losses",
+    "remediation side effects",
+    "customer success"
+  ],
+  "overallSentiment": "mixed-negative",
+  "sentimentScore": 2.9,
+  "keyMoments": [
+    {
+      "time": 24.0,
+      "text": "Aisha reports Brightpath renewed after alert volume fell from ~180 to 41 per day",
+      "type": "praise",
+      "speaker": "Aisha Johnson"
+    },
+    {
+      "time": 47.0,
+      "text": "Maria says Summit Trust is on a probation year while piloting VaultEdge",
+      "type": "churn_signal",
+      "speaker": "Maria Santos"
+    },
+    {
+      "time": 79.0,
+      "text": "Northstar's CISO is running a SentinelShield proof of concept before renewal",
+      "type": "churn_signal",
+      "speaker": "Maria Santos"
+    },
+    {
+      "time": 99.0,
+      "text": "Maria reports Ironworks churned to Fortiguard Pro",
+      "type": "churn_signal",
+      "speaker": "Maria Santos"
+    },
+    {
+      "time": 154.0,
+      "text": "Brian counts at least six support cases this quarter caused by the March remediation",
+      "type": "concern",
+      "speaker": "Brian Cho"
+    },
+    {
+      "time": 186.0,
+      "text": "Diana assigns a Northstar save plan, a remediation case list and a Brightpath case study",
+      "type": "action_item",
+      "speaker": "Diana Reeves"
+    }
+  ],
+  "meetingId": "01KQC6CC9F71E8974B8BC766"
+}

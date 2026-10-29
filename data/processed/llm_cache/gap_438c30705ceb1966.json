@@ -1,0 +1,15 @@
+{
+  "name": "Proactive Alerts and Product Gaps",
+  "summary": "Customers want proactive notifications (seat overages, telemetry loss), clearer error messaging, more reliable reporting, less noisy alerting with easier custom rules, custom compliance templates, and conditional MFA exclusions for service accounts with audit trails.",
+  "usage": {
+    "ts": "2026-10-27T20:23:19+00:00",
+    "step": "feature_gaps",
+    "model": "claude-sonnet-5-5",
+    "input_tokens": 640,
+    "output_tokens": 112,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "request_id": "req_011CgTNCLGZwBjk9Bs12xrhF",
+    "cost_usd": 0.0024
+  }
+}

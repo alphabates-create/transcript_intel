@@ -1,0 +1,15 @@
+{
+  "name": "Compliance reporting and unified visibility",
+  "summary": "Customers want filterable, unified compliance reports and dashboards (HIPAA and SOC 2 together, by control family) plus remediation guidance, so they stop doing manual Excel work and piecing together fragmented views during audits.",
+  "usage": {
+    "ts": "2026-10-28T19:41:33+00:00",
+    "step": "feature_gaps",
+    "model": "claude-sonnet-5-5",
+    "input_tokens": 918,
+    "output_tokens": 100,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "request_id": "req_011CgVCpSPkyAjtT4QQhkxuo",
+    "cost_usd": 0.002836
+  }
+}

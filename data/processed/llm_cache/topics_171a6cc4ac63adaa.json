@@ -1,0 +1,10 @@
+{
+  "primary_theme": "Onboarding & deployment",
+  "themes": [
+    "Identity / SSO / MFA",
+    "Onboarding & deployment"
+  ],
+  "certainty": 0.62,
+  "rationale": "The call is an onboarding kickoff for Aegis Identity with a setup timeline, Okta migration plan and next steps like API token setup and attribute mapping, though SSO/MFA configuration is a close second theme.",
+  "source": "llm"
+}

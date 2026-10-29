@@ -1,0 +1,58 @@
+{
+  "summary": "Jordan Whitfield led a pricing and packaging review with James Mitchell (sales), Diana Reeves (Customer Success) and Marcus Williams (billing support) ahead of the Q3 price book lock. Marcus reported nine Comply overage disputes since the v2 launch, mostly caused by customers exploring on-demand reports without usage warnings, while James noted that SentinelShield and VaultEdge quote simpler flat pricing. Diana and Jordan raised concern that free year-one Comply discounts used to save renewals will create a second wave of overage disputes. The team agreed to propose three Comply tiers with unlimited on-demand reports, credits for overages charged since April 7, an in-console usage page and 80% seat alerts, accepting ~$110K in lost overage revenue that finance expects to recover through higher Professional-tier deals bundled with Protect. Protect bundle onboardings will be gated on the scheduler rollout.",
+  "actionItems": [
+    "Jordan Whitfield: Write up the three-tier Comply pricing proposal with finance for the pricing committee on June 20",
+    "Jordan Whitfield: Add an in-console usage page and 80% seat usage alerts to the proposal scope",
+    "Marcus Williams: Compile all Comply overage charges since April 7 for the proposed credit",
+    "James Mitchell: Prepare Professional tier plus Protect bundle positioning, with Protect onboarding gated on the scheduler rollout"
+  ],
+  "topics": [
+    "pricing and packaging",
+    "usage-based billing",
+    "overage disputes",
+    "competitive pricing",
+    "Comply v2",
+    "bundling"
+  ],
+  "overallSentiment": "mixed-positive",
+  "sentimentScore": 3.5,
+  "keyMoments": [
+    {
+      "time": 28.0,
+      "text": "Marcus reports nine Comply overage disputes since the v2 launch",
+      "type": "concern",
+      "speaker": "Marcus Williams"
+    },
+    {
+      "time": 46.0,
+      "text": "Diana says the feature used to win customers back is surprising them with bills",
+      "type": "concern",
+      "speaker": "Diana Reeves"
+    },
+    {
+      "time": 75.0,
+      "text": "James notes VaultEdge quoted 18% under Aegis at Summit Trust with flat pricing",
+      "type": "churn_signal",
+      "speaker": "James Mitchell"
+    },
+    {
+      "time": 101.0,
+      "text": "Jordan proposes three tiers with unlimited on-demand reports",
+      "type": "positive_pivot",
+      "speaker": "Jordan Whitfield"
+    },
+    {
+      "time": 175.0,
+      "text": "Marcus asks for usage visibility in the console",
+      "type": "feature_gap",
+      "speaker": "Marcus Williams"
+    },
+    {
+      "time": 225.0,
+      "text": "Jordan will take the proposal to the pricing committee on June 20",
+      "type": "action_item",
+      "speaker": "Jordan Whitfield"
+    }
+  ],
+  "meetingId": "01KQ027C22E1D196A138ED74"
+}

@@ -1,0 +1,20 @@
+{
+  "status": "open",
+  "resolved_call_index": null,
+  "owner": "Sarah Chen",
+  "category": "Defect",
+  "priority": "P2",
+  "outage_hours": null,
+  "resolution_note": "Endpoint was updated to the us-west-2 regional endpoint on the call, but the fix is unconfirmed; the customer still needs to run a test backup, check SCPs with their CloudPrime admin, and share CloudTrail logs.",
+  "usage": {
+    "ts": "2026-10-27T06:50:17+00:00",
+    "step": "incidents",
+    "model": "claude-sonnet-5-5",
+    "input_tokens": 1717,
+    "output_tokens": 141,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "request_id": "req_011CgSJCQ63db4HNrTfsfdYw",
+    "cost_usd": 0.004844
+  }
+}

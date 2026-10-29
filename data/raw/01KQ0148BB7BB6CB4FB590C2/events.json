@@ -1,0 +1,50 @@
+[
+  {
+    "participantName": "Aisha Johnson",
+    "timestamp": 1778081402000,
+    "type": "Join",
+    "time": 2.0
+  },
+  {
+    "participantName": "Kendra Wallace",
+    "timestamp": 1778081409000,
+    "type": "Join",
+    "time": 9.0
+  },
+  {
+    "participantName": "Ravi Gupta",
+    "timestamp": 1778081415000,
+    "type": "Join",
+    "time": 15.0
+  },
+  {
+    "participantName": "Owen Pritchard",
+    "timestamp": 1778081416000,
+    "type": "Join",
+    "time": 16.0
+  },
+  {
+    "participantName": "Aisha Johnson",
+    "timestamp": 1778082759000,
+    "type": "Leave",
+    "time": 1359.0
+  },
+  {
+    "participantName": "Kendra Wallace",
+    "timestamp": 1778082762000,
+    "type": "Leave",
+    "time": 1362.0
+  },
+  {
+    "participantName": "Ravi Gupta",
+    "timestamp": 1778082759000,
+    "type": "Leave",
+    "time": 1359.0
+  },
+  {
+    "participantName": "Owen Pritchard",
+    "timestamp": 1778082757000,
+    "type": "Leave",
+    "time": 1357.0
+  }
+]

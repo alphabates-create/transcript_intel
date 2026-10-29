@@ -1,0 +1,157 @@
+[
+  {
+    "speakerName": "Mike Romano",
+    "timestamp": 6.3,
+    "endTimeTs": 13.3
+  },
+  {
+    "speakerName": "Mike Romano",
+    "timestamp": 14.7,
+    "endTimeTs": 17.8
+  },
+  {
+    "speakerName": "Sofia Petrov",
+    "timestamp": 18.4,
+    "endTimeTs": 25.0
+  },
+  {
+    "speakerName": "Sofia Petrov",
+    "timestamp": 25.3,
+    "endTimeTs": 33.0
+  },
+  {
+    "speakerName": "Chris Lee",
+    "timestamp": 33.5,
+    "endTimeTs": 39.0
+  },
+  {
+    "speakerName": "Nina Kowalski",
+    "timestamp": 39.3,
+    "endTimeTs": 47.3
+  },
+  {
+    "speakerName": "Nina Kowalski",
+    "timestamp": 48.3,
+    "endTimeTs": 55.5
+  },
+  {
+    "speakerName": "Mike Romano",
+    "timestamp": 57.0,
+    "endTimeTs": 62.6
+  },
+  {
+    "speakerName": "Sofia Petrov",
+    "timestamp": 63.8,
+    "endTimeTs": 71.4
+  },
+  {
+    "speakerName": "Sofia Petrov",
+    "timestamp": 72.4,
+    "endTimeTs": 81.1
+  },
+  {
+    "speakerName": "Chris Lee",
+    "timestamp": 81.8,
+    "endTimeTs": 90.6
+  },
+  {
+    "speakerName": "Nina Kowalski",
+    "timestamp": 91.9,
+    "endTimeTs": 96.0
+  },
+  {
+    "speakerName": "Nina Kowalski",
+    "timestamp": 97.3,
+    "endTimeTs": 109.1
+  },
+  {
+    "speakerName": "Mike Romano",
+    "timestamp": 110.4,
+    "endTimeTs": 112.7
+  },
+  {
+    "speakerName": "Sofia Petrov",
+    "timestamp": 114.0,
+    "endTimeTs": 119.2
+  },
+  {
+    "speakerName": "Chris Lee",
+    "timestamp": 120.3,
+    "endTimeTs": 124.4
+  },
+  {
+    "speakerName": "Mike Romano",
+    "timestamp": 125.4,
+    "endTimeTs": 128.6
+  },
+  {
+    "speakerName": "Sofia Petrov",
+    "timestamp": 129.9,
+    "endTimeTs": 139.9
+  },
+  {
+    "speakerName": "Chris Lee",
+    "timestamp": 141.1,
+    "endTimeTs": 148.3
+  },
+  {
+    "speakerName": "Nina Kowalski",
+    "timestamp": 148.9,
+    "endTimeTs": 154.5
+  },
+  {
+    "speakerName": "Mike Romano",
+    "timestamp": 155.9,
+    "endTimeTs": 163.3
+  },
+  {
+    "speakerName": "Chris Lee",
+    "timestamp": 164.6,
+    "endTimeTs": 170.2
+  },
+  {
+    "speakerName": "Sofia Petrov",
+    "timestamp": 170.9,
+    "endTimeTs": 177.1
+  },
+  {
+    "speakerName": "Nina Kowalski",
+    "timestamp": 178.4,
+    "endTimeTs": 184.3
+  },
+  {
+    "speakerName": "Chris Lee",
+    "timestamp": 185.8,
+    "endTimeTs": 191.4
+  },
+  {
+    "speakerName": "Mike Romano",
+    "timestamp": 192.4,
+    "endTimeTs": 198.2
+  },
+  {
+    "speakerName": "Chris Lee",
+    "timestamp": 198.7,
+    "endTimeTs": 203.5
+  },
+  {
+    "speakerName": "Mike Romano",
+    "timestamp": 204.4,
+    "endTimeTs": 211.8
+  },
+  {
+    "speakerName": "Nina Kowalski",
+    "timestamp": 212.9,
+    "endTimeTs": 215.6
+  },
+  {
+    "speakerName": "Mike Romano",
+    "timestamp": 216.8,
+    "endTimeTs": 226.6
+  },
+  {
+    "speakerName": "Mike Romano",
+    "timestamp": 227.3,
+    "endTimeTs": 232.2
+  }
+]

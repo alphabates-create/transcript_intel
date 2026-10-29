@@ -1,0 +1,122 @@
+[
+  {
+    "speakerName": "Lisa Park",
+    "timestamp": 7.2,
+    "endTimeTs": 12.3
+  },
+  {
+    "speakerName": "Helena Marsh",
+    "timestamp": 13.6,
+    "endTimeTs": 19.3
+  },
+  {
+    "speakerName": "Helena Marsh",
+    "timestamp": 20.5,
+    "endTimeTs": 25.0
+  },
+  {
+    "speakerName": "Helena Marsh",
+    "timestamp": 25.8,
+    "endTimeTs": 33.6
+  },
+  {
+    "speakerName": "Helena Marsh",
+    "timestamp": 34.7,
+    "endTimeTs": 40.4
+  },
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 41.2,
+    "endTimeTs": 48.0
+  },
+  {
+    "speakerName": "Lisa Park",
+    "timestamp": 48.9,
+    "endTimeTs": 54.2
+  },
+  {
+    "speakerName": "Tobias Lindqvist",
+    "timestamp": 54.8,
+    "endTimeTs": 62.2
+  },
+  {
+    "speakerName": "Tobias Lindqvist",
+    "timestamp": 62.9,
+    "endTimeTs": 70.4
+  },
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 71.3,
+    "endTimeTs": 79.1
+  },
+  {
+    "speakerName": "Tobias Lindqvist",
+    "timestamp": 80.1,
+    "endTimeTs": 82.3
+  },
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 82.7,
+    "endTimeTs": 91.4
+  },
+  {
+    "speakerName": "Helena Marsh",
+    "timestamp": 91.9,
+    "endTimeTs": 97.7
+  },
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 98.1,
+    "endTimeTs": 104.0
+  },
+  {
+    "speakerName": "Helena Marsh",
+    "timestamp": 104.9,
+    "endTimeTs": 111.0
+  },
+  {
+    "speakerName": "Lisa Park",
+    "timestamp": 112.1,
+    "endTimeTs": 121.2
+  },
+  {
+    "speakerName": "Helena Marsh",
+    "timestamp": 121.7,
+    "endTimeTs": 124.6
+  },
+  {
+    "speakerName": "Kevin O'Brien",
+    "timestamp": 124.9,
+    "endTimeTs": 131.0
+  },
+  {
+    "speakerName": "Tobias Lindqvist",
+    "timestamp": 132.4,
+    "endTimeTs": 134.7
+  },
+  {
+    "speakerName": "Lisa Park",
+    "timestamp": 135.9,
+    "endTimeTs": 144.0
+  },
+  {
+    "speakerName": "Helena Marsh",
+    "timestamp": 144.6,
+    "endTimeTs": 149.6
+  },
+  {
+    "speakerName": "Lisa Park",
+    "timestamp": 151.0,
+    "endTimeTs": 156.9
+  },
+  {
+    "speakerName": "Helena Marsh",
+    "timestamp": 157.9,
+    "endTimeTs": 161.8
+  },
+  {
+    "speakerName": "Lisa Park",
+    "timestamp": 162.9,
+    "endTimeTs": 166.8
+  }
+]

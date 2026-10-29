@@ -1,0 +1,59 @@
+{
+  "summary": "Aisha Johnson and Ravi Gupta met with Kendra Wallace and SecOps lead Owen Pritchard of Brightpath Commerce for the technical session promised ahead of Brightpath's mid-May vendor decision. Kendra disclosed that SentinelShield currently leads their evaluation on pipeline visibility and a 99.9% SLA. Ravi explained the post-outage architecture (active-active nodes, circuit breaker, ~12-second failover with no event loss) and an upcoming in-console pipeline health panel with PagerDuty heartbeat alerts. Owen described severe alert fatigue (~180 alerts/day, ~15 actionable), and Ravi proposed a re-baseline, suppression windows and entity-level thresholds, to be proven on Brightpath's own April data in a sandbox. Aisha offered an enhanced 99.9% Detect SLA with a March service credit, and Kendra signalled the renewal becomes much easier if commitments are written and tuning results hold.",
+  "actionItems": [
+    "Owen Pritchard: Provide read access to Brightpath's April Detect alert export by tomorrow",
+    "Ravi Gupta: Run alert tuning in a sandbox tenant and prepare before-and-after alert volume results for next Wednesday",
+    "Ravi Gupta: Send the detailed post-incident report under NDA for Brightpath's auditors",
+    "Aisha Johnson: Send the enhanced SLA proposal with March service credit and confirm the pipeline health panel date in writing",
+    "Aisha Johnson: Schedule a 45-minute results review next Wednesday ahead of Brightpath's steering committee"
+  ],
+  "topics": [
+    "competitive evaluation",
+    "renewal risk",
+    "alert fatigue",
+    "detection tuning",
+    "platform reliability",
+    "SLA negotiation"
+  ],
+  "overallSentiment": "mixed-positive",
+  "sentimentScore": 3.7,
+  "keyMoments": [
+    {
+      "time": 42.0,
+      "text": "Kendra reveals SentinelShield is currently ahead on Brightpath's evaluation scorecard with the decision ten days out",
+      "type": "churn_signal",
+      "speaker": "Kendra Wallace"
+    },
+    {
+      "time": 103.0,
+      "text": "Kendra asks how Brightpath would know about a future outage, highlighting the lack of in-product pipeline health visibility",
+      "type": "feature_gap",
+      "speaker": "Kendra Wallace"
+    },
+    {
+      "time": 144.0,
+      "text": "Owen describes ~180 alerts per day with only ~15 actionable",
+      "type": "concern",
+      "speaker": "Owen Pritchard"
+    },
+    {
+      "time": 184.0,
+      "text": "Ravi cites a comparable customer cutting alerts from ~200 to ~35 per day through tuning",
+      "type": "positive_pivot",
+      "speaker": "Ravi Gupta"
+    },
+    {
+      "time": 228.0,
+      "text": "Aisha offers an enhanced 99.9% Detect SLA and a service credit for the March incident",
+      "type": "pricing_offer",
+      "speaker": "Aisha Johnson"
+    },
+    {
+      "time": 261.0,
+      "text": "Kendra praises Protect and Comply v2, noting Comply cut PCI evidence prep by more than half",
+      "type": "praise",
+      "speaker": "Kendra Wallace"
+    }
+  ],
+  "meetingId": "01KQ0148BB7BB6CB4FB590C2"
+}

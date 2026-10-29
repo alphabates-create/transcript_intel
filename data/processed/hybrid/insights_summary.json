@@ -1,0 +1,52 @@
+{
+  "incident": {
+    "first_war_room": "2026-03-10 13:15:00+00:00",
+    "n_outage_calls": 51,
+    "n_window_calls": 17,
+    "n_affected_accounts": 24,
+    "hours_to_first_customer_call": 0.0,
+    "hours_to_last_window_call": 195.2,
+    "window_avg_score": 2.18,
+    "affected_avg_before": 3.66,
+    "affected_avg_after": 3.42,
+    "affected_naming_competitor_after": [
+      "Atlas",
+      "Brightpath",
+      "Cobalt",
+      "Ironclad",
+      "Ironworks",
+      "Northstar",
+      "Nova",
+      "Quantum",
+      "Steelpoint",
+      "Summit"
+    ]
+  },
+  "n_accounts": 33,
+  "risk_tiers": {
+    "Medium": 15,
+    "High": 10,
+    "Low": 8
+  },
+  "top_risk_accounts": [
+    "Summit",
+    "Silverline",
+    "Ridgeline",
+    "Meridian",
+    "Northstar"
+  ],
+  "n_feature_asks": 8,
+  "competitor_calls": {
+    "SentinelShield": 28,
+    "VaultEdge": 16,
+    "CyberNova": 8,
+    "Fortiguard Pro": 5
+  },
+  "talk_share_vs_score_r": -0.121,
+  "talk_bucket_scores": {
+    "Q1 (33%\u201341%)": 3.58,
+    "Q2 (41%\u201342%)": 3.82,
+    "Q3 (42%\u201346%)": 3.14,
+    "Q4 (46%\u201363%)": 3.15
+  }
+}

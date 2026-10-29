@@ -1,0 +1,15 @@
+{
+  "name": "Pipeline health visibility and alerting",
+  "summary": "Customers want in-product health monitoring and proactive alerts (e.g. heartbeat alerts routed to their SOC) for the event ingestion pipeline so they learn about outages and sync failures from Aegis, with specific error details, rather than discovering them themselves.",
+  "usage": {
+    "ts": "2026-10-28T01:16:08+00:00",
+    "step": "feature_gaps",
+    "model": "claude-sonnet-5-5",
+    "input_tokens": 794,
+    "output_tokens": 112,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "request_id": "req_011CgTkXPVNyUwnT9nJtDW7P",
+    "cost_usd": 0.002708
+  }
+}

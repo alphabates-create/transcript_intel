@@ -1,0 +1,15 @@
+{
+  "name": "Alerting, Compliance, and Integration Gaps",
+  "summary": "Customers want proactive threshold and latency alerting with controls against alert fatigue, plus customizable compliance tracking (custom templates, internal control labels, unified HIPAA/SOC 2), simpler LogVault/SIEM setup, higher Detect API rate limits, remediation guidance, VM backup coverage alerts, and audited MFA exclusions for service accounts.",
+  "usage": {
+    "ts": "2026-10-28T01:16:11+00:00",
+    "step": "feature_gaps",
+    "model": "claude-sonnet-5-5",
+    "input_tokens": 885,
+    "output_tokens": 155,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "request_id": "req_011CgTkXeDurPE6oBcJ5X9gX",
+    "cost_usd": 0.00332
+  }
+}

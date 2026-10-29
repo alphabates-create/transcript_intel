@@ -1,0 +1,15 @@
+{
+  "name": "Expanded Compliance Framework Reporting",
+  "summary": "Customers want Aegis Comply to offer on-demand, multi-framework compliance reporting that covers more frameworks (SOC 2, CMMC, NCUA, GDPR) with native cross-framework control mapping, replacing their manual spreadsheet-driven audit prep.",
+  "usage": {
+    "ts": "2026-10-29T19:50:50+00:00",
+    "step": "feature_gaps",
+    "model": "claude-sonnet-5-5",
+    "input_tokens": 887,
+    "output_tokens": 120,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "request_id": "req_011CgX7LNaDLJdP9ehLtXww9",
+    "cost_usd": 0.002974
+  }
+}

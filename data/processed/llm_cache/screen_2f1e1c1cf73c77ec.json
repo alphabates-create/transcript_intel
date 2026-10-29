@@ -1,0 +1,15 @@
+{
+  "is_business": true,
+  "reason": "This is a customer support call about a Detect pipeline outage, escalated to P1, with an incident report request and contract churn risk.",
+  "usage": {
+    "ts": "2026-10-29T19:08:56+00:00",
+    "step": "screen",
+    "model": "claude-sonnet-5-5",
+    "input_tokens": 895,
+    "output_tokens": 56,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "request_id": "req_011CgX497UDwsuids9P7Cssh",
+    "cost_usd": 0.00235
+  }
+}

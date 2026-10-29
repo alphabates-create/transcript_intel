@@ -1,0 +1,9 @@
+{
+  "primary_theme": "Detect outage & fallout",
+  "themes": [
+    "Detect outage & fallout"
+  ],
+  "certainty": 0.98,
+  "rationale": "The call is an internal war room on the Detect pipeline failure, covering root cause (single-node ingestion), customer escalations from Harmon Financial and TerraLogix, data loss, and remediation steps.",
+  "source": "llm"
+}

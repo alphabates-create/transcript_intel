@@ -1,0 +1,9 @@
+{
+  "primary_theme": "Detect outage & fallout",
+  "themes": [
+    "Detect outage & fallout"
+  ],
+  "certainty": 0.6,
+  "rationale": "The timeouts stem from a circuit breaker in the April 8 remediation build for the March Detect pipeline outage, requiring a four-day backfill, and the customer cites the outage and trust erosion with churn risk.",
+  "source": "llm"
+}

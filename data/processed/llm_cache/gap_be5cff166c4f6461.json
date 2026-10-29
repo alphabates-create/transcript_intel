@@ -1,0 +1,15 @@
+{
+  "name": "Proactive telemetry and alert health",
+  "summary": "Customers want proactive heartbeat alerts when telemetry stops flowing, along with less noisy, higher-signal alerting and simpler rule configuration, so monitoring gaps and alert fatigue don't undermine threat detection or audit confidence.",
+  "usage": {
+    "ts": "2026-10-28T20:10:09+00:00",
+    "step": "feature_gaps",
+    "model": "claude-sonnet-5-5",
+    "input_tokens": 791,
+    "output_tokens": 107,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "request_id": "req_011CgVF12NSQBWppVJpDv7H3",
+    "cost_usd": 0.002652
+  }
+}

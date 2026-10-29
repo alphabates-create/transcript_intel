@@ -1,0 +1,42 @@
+{
+  "summary": "Brian Cho organized a surprise video call to celebrate Priya Patel's birthday with Elena Vasquez, David Kim, Sarah Chen and Marcus Williams. The team sang happy birthday and asked about the gift package sent to her home, which included a cat-themed mug and a plant Priya named Gerald. Priya shared her evening plans for dinner at a new Thai restaurant with her sister, and the team talked about the half marathon she recently ran in just under two hours. Everyone held up a cupcake, donut or snack to toast her, and Priya made a birthday wish before the call ended.",
+  "actionItems": [
+    "Priya Patel: Order the green curry at the Thai restaurant tonight",
+    "Brian Cho: Share the screenshots from the call with the team"
+  ],
+  "topics": [
+    "birthday celebration",
+    "team social",
+    "surprise party",
+    "personal milestones"
+  ],
+  "overallSentiment": "very-positive",
+  "sentimentScore": 4.9,
+  "keyMoments": [
+    {
+      "time": 23.0,
+      "text": "The team surprises Priya by singing happy birthday",
+      "type": "praise",
+      "speaker": "Brian Cho"
+    },
+    {
+      "time": 50.0,
+      "text": "Priya thanks the team for the gift package",
+      "type": "praise",
+      "speaker": "Priya Patel"
+    },
+    {
+      "time": 96.0,
+      "text": "The team congratulates Priya on finishing a half marathon in under two hours",
+      "type": "praise",
+      "speaker": "Priya Patel"
+    },
+    {
+      "time": 130.0,
+      "text": "Priya says the celebration is the best thing that happened to her all week",
+      "type": "praise",
+      "speaker": "Priya Patel"
+    }
+  ],
+  "meetingId": "01KQ2C53D16CE65DEA612320"
+}

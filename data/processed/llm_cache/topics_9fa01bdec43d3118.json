@@ -1,0 +1,11 @@
+{
+  "primary_theme": "Detect outage & fallout",
+  "themes": [
+    "Compliance & audit",
+    "Detect outage & fallout",
+    "Competitive threat"
+  ],
+  "certainty": 0.93,
+  "rationale": "The call is an escalation about the ongoing Detect event pipeline outage, with lack of proactive notification, root cause, and update commitments, while HIPAA/SOC 2 audit impact and Frank's evaluation of SentinelShield and CyberNova are substantive secondary threads.",
+  "source": "llm"
+}

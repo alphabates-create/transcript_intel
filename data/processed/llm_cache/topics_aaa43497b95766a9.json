@@ -1,0 +1,11 @@
+{
+  "primary_theme": "Renewal & contracts",
+  "themes": [
+    "Compliance & audit",
+    "Comply v2 launch",
+    "Renewal & contracts"
+  ],
+  "certainty": 0.85,
+  "rationale": "This is a renewal check-in that ends with agreement to renew the core contract at existing rates with a three-year lock and a separate Detect demo before an add-on decision, while Comply v2 and audit-prep savings are significant supporting topics.",
+  "source": "llm"
+}

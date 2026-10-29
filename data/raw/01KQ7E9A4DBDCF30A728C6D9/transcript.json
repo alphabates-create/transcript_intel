@@ -1,0 +1,374 @@
+{
+  "data": [
+    {
+      "sentence": "Thank you for calling Aegis Cloud Security support, this is Elena Vasquez \u2014 how can I help?",
+      "speaker_name": "Elena Vasquez",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 6.4,
+      "endTime": 12.4,
+      "averageConfidence": 0.93,
+      "index": 0
+    },
+    {
+      "sentence": "Hi Elena, it's Grace Yoon from Northstar Pharma. We spoke in March during the Detect outage, and, um, I'm back, unfortunately.",
+      "speaker_name": "Grace Yoon",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 13.8,
+      "endTime": 20.7,
+      "averageConfidence": 0.92,
+      "index": 1
+    },
+    {
+      "sentence": "Hi Grace, I remember. I'm sorry to hear something's wrong \u2014 what's happening?",
+      "speaker_name": "Elena Vasquez",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 21.6,
+      "endTime": 26.4,
+      "averageConfidence": 0.88,
+      "index": 2
+    },
+    {
+      "sentence": "We're trying to export our HIPAA compliance report from Comply v2 and it fails every time at about ninety percent.",
+      "speaker_name": "Grace Yoon",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 27.6,
+      "endTime": 35.5,
+      "averageConfidence": 0.96,
+      "index": 3
+    },
+    {
+      "sentence": "We get an error that says export job terminated, code 5023, and then nothing \u2014 no file, not even a partial file.",
+      "speaker_name": "Grace Yoon",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 36.2,
+      "endTime": 43.9,
+      "averageConfidence": 0.95,
+      "index": 4
+    },
+    {
+      "sentence": "Okay. Is this the PDF export or the auditor package export?",
+      "speaker_name": "Elena Vasquez",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 44.9,
+      "endTime": 48.7,
+      "averageConfidence": 0.95,
+      "index": 5
+    },
+    {
+      "sentence": "The auditor package. The PDF works, but our auditors specifically asked for the package with the evidence attachments.",
+      "speaker_name": "Grace Yoon",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 49.8,
+      "endTime": 55.8,
+      "averageConfidence": 0.95,
+      "index": 6
+    },
+    {
+      "sentence": "And roughly how large is your evidence library \u2014 do you know how many artifacts are attached?",
+      "speaker_name": "Elena Vasquez",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 56.1,
+      "endTime": 61.7,
+      "averageConfidence": 0.97,
+      "index": 7
+    },
+    {
+      "sentence": "I'd guess around six thousand, we pull in a lot of access review screenshots and change tickets.",
+      "speaker_name": "Grace Yoon",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 63.1,
+      "endTime": 68.8,
+      "averageConfidence": 0.96,
+      "index": 8
+    },
+    {
+      "sentence": "Let me pull up your tenant logs while we talk. Can you give me the time of the last failed attempt?",
+      "speaker_name": "Elena Vasquez",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 69.8,
+      "endTime": 77.0,
+      "averageConfidence": 0.92,
+      "index": 9
+    },
+    {
+      "sentence": "About twenty minutes ago, so around six-fifteen your time.",
+      "speaker_name": "Grace Yoon",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 77.5,
+      "endTime": 80.5,
+      "averageConfidence": 0.96,
+      "index": 10
+    },
+    {
+      "sentence": "Got it, I can see three failed jobs today and two yesterday, all terminated at the packaging step.",
+      "speaker_name": "Elena Vasquez",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 81.2,
+      "endTime": 88.1,
+      "averageConfidence": 0.9,
+      "index": 11
+    },
+    {
+      "sentence": "Elena, I need to be honest about the timing here. Our HIPAA audit fieldwork starts Monday.",
+      "speaker_name": "Grace Yoon",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 88.6,
+      "endTime": 94.0,
+      "averageConfidence": 0.95,
+      "index": 12
+    },
+    {
+      "sentence": "And our renewal is in June, and after March my CISO already has SentinelShield on the shortlist. This can't be another fire drill.",
+      "speaker_name": "Grace Yoon",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 95.2,
+      "endTime": 103.4,
+      "averageConfidence": 0.95,
+      "index": 13
+    },
+    {
+      "sentence": "Understood, and I don't want this to become one. I'm bringing in my team lead Priya, who has worked the Comply v2 export issues.",
+      "speaker_name": "Elena Vasquez",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 104.5,
+      "endTime": 112.8,
+      "averageConfidence": 0.96,
+      "index": 14
+    },
+    {
+      "sentence": "Hi Grace, Priya here. I've just looked at the job \u2014 it's hitting the two-gigabyte package limit that shipped with v2.",
+      "speaker_name": "Priya Patel",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 113.5,
+      "endTime": 120.7,
+      "averageConfidence": 0.9,
+      "index": 15
+    },
+    {
+      "sentence": "Your attachments come to about two point four gigabytes, and right now the job fails instead of splitting the package, which is a bug on our side.",
+      "speaker_name": "Priya Patel",
+      "sentimentType": "negative",
+      "speaker_id": 2,
+      "time": 121.9,
+      "endTime": 132.1,
+      "averageConfidence": 0.9,
+      "index": 16
+    },
+    {
+      "sentence": "So it's not something we did.",
+      "speaker_name": "Grace Yoon",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 132.8,
+      "endTime": 135.0,
+      "averageConfidence": 0.88,
+      "index": 17
+    },
+    {
+      "sentence": "No, not at all. The limit should trigger a split into multiple volumes and it doesn't. We've seen it with two other large tenants.",
+      "speaker_name": "Priya Patel",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 135.7,
+      "endTime": 144.8,
+      "averageConfidence": 0.89,
+      "index": 18
+    },
+    {
+      "sentence": "Okay. What can we do before Monday?",
+      "speaker_name": "Grace Yoon",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 145.5,
+      "endTime": 148.1,
+      "averageConfidence": 0.97,
+      "index": 19
+    },
+    {
+      "sentence": "Two options. I can run the export from our side with the split flag enabled, which produces three volumes your auditors can open normally.",
+      "speaker_name": "Priya Patel",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 149.3,
+      "endTime": 157.2,
+      "averageConfidence": 0.97,
+      "index": 20
+    },
+    {
+      "sentence": "Or you can filter the export by control family and run it in three parts yourself, but that's more work for your team.",
+      "speaker_name": "Priya Patel",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 157.8,
+      "endTime": 165.4,
+      "averageConfidence": 0.9,
+      "index": 21
+    },
+    {
+      "sentence": "I'd rather you run it. Will the auditors see anything different?",
+      "speaker_name": "Grace Yoon",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 166.5,
+      "endTime": 170.1,
+      "averageConfidence": 0.97,
+      "index": 22
+    },
+    {
+      "sentence": "The content and the hashes are identical, it's just split across files. I'll include a manifest so they can verify nothing is missing.",
+      "speaker_name": "Priya Patel",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 171.2,
+      "endTime": 179.7,
+      "averageConfidence": 0.96,
+      "index": 23
+    },
+    {
+      "sentence": "Okay, that I can work with.",
+      "speaker_name": "Grace Yoon",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 180.1,
+      "endTime": 182.5,
+      "averageConfidence": 0.9,
+      "index": 24
+    },
+    {
+      "sentence": "I'm also marking the case P1 given the audit date, and I'll get you an ETA on the permanent fix from engineering.",
+      "speaker_name": "Elena Vasquez",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 183.6,
+      "endTime": 192.1,
+      "averageConfidence": 0.89,
+      "index": 25
+    },
+    {
+      "sentence": "I appreciate that. I'll be blunt though \u2014 it's frustrating that the feature we were sold as the fix for our compliance pain breaks on our first real audit.",
+      "speaker_name": "Grace Yoon",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 193.4,
+      "endTime": 203.3,
+      "averageConfidence": 0.93,
+      "index": 26
+    },
+    {
+      "sentence": "That's completely fair, and I'll make sure your account team hears it directly, not just through the ticket.",
+      "speaker_name": "Elena Vasquez",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 204.6,
+      "endTime": 210.7,
+      "averageConfidence": 0.89,
+      "index": 27
+    },
+    {
+      "sentence": "Please do. Maria has been good about following up, I'd like her in the loop.",
+      "speaker_name": "Grace Yoon",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 212.1,
+      "endTime": 217.2,
+      "averageConfidence": 0.89,
+      "index": 28
+    },
+    {
+      "sentence": "I'll copy Maria Santos on the case summary today.",
+      "speaker_name": "Elena Vasquez",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 217.5,
+      "endTime": 220.4,
+      "averageConfidence": 0.95,
+      "index": 29
+    },
+    {
+      "sentence": "Grace, I can have the split package to you by end of day tomorrow, Pacific. Does that give you enough time to review before Monday?",
+      "speaker_name": "Priya Patel",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 220.7,
+      "endTime": 230.4,
+      "averageConfidence": 0.91,
+      "index": 30
+    },
+    {
+      "sentence": "Yes, if it's tomorrow. Can you send it through the secure share rather than email?",
+      "speaker_name": "Grace Yoon",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 231.5,
+      "endTime": 236.9,
+      "averageConfidence": 0.96,
+      "index": 31
+    },
+    {
+      "sentence": "Yes, it'll go through the secure portal, and I'll send you a notification with the manifest attached.",
+      "speaker_name": "Priya Patel",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 238.3,
+      "endTime": 243.9,
+      "averageConfidence": 0.95,
+      "index": 32
+    },
+    {
+      "sentence": "Okay. And I'll need a short write-up on the cause \u2014 the auditors may ask why the package came in volumes.",
+      "speaker_name": "Grace Yoon",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 244.4,
+      "endTime": 251.7,
+      "averageConfidence": 0.96,
+      "index": 33
+    },
+    {
+      "sentence": "We'll include a one-page note explaining the split and confirming data integrity.",
+      "speaker_name": "Elena Vasquez",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 252.6,
+      "endTime": 256.6,
+      "averageConfidence": 0.93,
+      "index": 34
+    },
+    {
+      "sentence": "Alright. Thank you both, really. Let's just get through Monday.",
+      "speaker_name": "Grace Yoon",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 257.2,
+      "endTime": 260.5,
+      "averageConfidence": 0.94,
+      "index": 35
+    },
+    {
+      "sentence": "We will. I'll check in with you tomorrow afternoon as soon as the package is ready.",
+      "speaker_name": "Elena Vasquez",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 260.8,
+      "endTime": 266.2,
+      "averageConfidence": 0.92,
+      "index": 36
+    }
+  ]
+}

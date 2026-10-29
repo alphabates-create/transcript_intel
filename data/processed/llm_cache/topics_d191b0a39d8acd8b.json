@@ -1,0 +1,10 @@
+{
+  "primary_theme": "Identity / SSO / MFA",
+  "themes": [
+    "Compliance & audit",
+    "Identity / SSO / MFA"
+  ],
+  "certainty": 0.85,
+  "rationale": "The call centers on SCIM 2.0 provisioning and deprovisioning between Okta and Aegis Identity, with an API workaround; the 24-hour deprovisioning requirement and audit logging are a substantive secondary compliance angle.",
+  "source": "llm"
+}

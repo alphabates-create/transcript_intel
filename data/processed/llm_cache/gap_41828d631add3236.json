@@ -1,0 +1,15 @@
+{
+  "name": "Reliable alerting and outage detection",
+  "summary": "Customers want dependable, self-monitoring alerting that detects platform and pipeline failures before they do, avoids alert fatigue, works within API rate limits, and is protected from regressions by automated gating.",
+  "usage": {
+    "ts": "2026-10-27T20:23:12+00:00",
+    "step": "feature_gaps",
+    "model": "claude-sonnet-5-5",
+    "input_tokens": 664,
+    "output_tokens": 90,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "request_id": "req_011CgTNBq49xg6zpVqJthvUs",
+    "cost_usd": 0.002228
+  }
+}

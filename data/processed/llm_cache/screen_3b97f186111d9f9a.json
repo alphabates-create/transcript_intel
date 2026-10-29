@@ -1,0 +1,15 @@
+{
+  "is_business": true,
+  "reason": "The call is a pricing and packaging review covering Comply overage disputes, competitor pricing, tier proposals, and revenue impact ahead of the Q3 price book lock.",
+  "usage": {
+    "ts": "2026-10-29T19:09:13+00:00",
+    "step": "screen",
+    "model": "claude-sonnet-5-5",
+    "input_tokens": 909,
+    "output_tokens": 72,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "request_id": "req_011CgX4ARedNNRjnSv8XRfri",
+    "cost_usd": 0.002538
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "primary_theme": "Comply v2 launch",
+  "themes": [
+    "Compliance & audit",
+    "Comply v2 launch"
+  ],
+  "certainty": 0.9,
+  "rationale": "The case is about early access to Comply v2, with support revealing the April 7 GA, automatic upgrades, migration assistant, and a webinar, while the SOC 2/HIPAA/PCI reporting need is the driver for the launch interest.",
+  "source": "llm"
+}

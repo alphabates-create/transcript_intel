@@ -1,0 +1,12 @@
+{
+  "primary_theme": "Renewal & contracts",
+  "themes": [
+    "Detect outage & fallout",
+    "Comply v2 launch",
+    "Renewal & contracts",
+    "Identity / SSO / MFA"
+  ],
+  "certainty": 0.93,
+  "rationale": "The call is a renewal finalization where flat pricing, free year-one Comply v2 access, and a 20% seat expansion rider are agreed, with the March Detect outage, Comply v2, and MFA success as secondary substantive topics.",
+  "source": "llm"
+}

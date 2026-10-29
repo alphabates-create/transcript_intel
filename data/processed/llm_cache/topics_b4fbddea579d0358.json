@@ -1,0 +1,10 @@
+{
+  "primary_theme": "Detect outage & fallout",
+  "themes": [
+    "Detect outage & fallout",
+    "Competitive threat"
+  ],
+  "certainty": 0.96,
+  "rationale": "The call is an escalation bridge on the Detect pipeline outage covering root cause, zero alert visibility, customer comms and remediation, with Crestwood's SentinelShield evaluation a secondary churn concern.",
+  "source": "llm"
+}

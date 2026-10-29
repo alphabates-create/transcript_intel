@@ -1,0 +1,10 @@
+{
+  "primary_theme": "Detect outage & fallout",
+  "themes": [
+    "Compliance & audit",
+    "Detect outage & fallout"
+  ],
+  "certainty": 0.9,
+  "rationale": "The call centers on Detect alert delays traced to post-outage node remediation, plus the customer never being notified of the March 10-18 outage and its visibility gap, with compliance documentation concerns as a secondary thread.",
+  "source": "llm"
+}

@@ -1,0 +1,58 @@
+{
+  "summary": "Lisa Park and Rachel Torres met with Philip Lau and CISO Danielle Ortiz of Keystone Health, who confirmed their decision to add Aegis Detect to their existing Comply and Protect contract. Danielle said she had serious reservations after the March outage, but the candid game day summary, which included the failed network partition test, built credibility. Philip cited tool consolidation and Comply v2 saving around 60 hours on the last HIPAA cycle, with Detect evidence flowing into Comply as a single audit trail. Lisa confirmed Detect will co-term with the existing three-year agreement and include the enhanced 99.9% SLA and the June pipeline health panel. Danielle asked for early access to heartbeat alerts and offered to be a reference customer, and onboarding is targeted for the week of June 8.",
+  "actionItems": [
+    "Lisa Park: Send the revised order form and updated Detect security questionnaire by Friday",
+    "Rachel Torres: Check whether Keystone can receive heartbeat alerts before the pipeline health panel ships in June",
+    "Rachel Torres: Schedule the Detect onboarding kickoff for the week of June 8",
+    "Philip Lau: Route the order form through Keystone legal and procurement"
+  ],
+  "topics": [
+    "expansion",
+    "Detect add-on",
+    "trust recovery",
+    "tool consolidation",
+    "compliance reporting",
+    "customer reference"
+  ],
+  "overallSentiment": "very-positive",
+  "sentimentScore": 4.7,
+  "keyMoments": [
+    {
+      "time": 11.0,
+      "text": "Philip confirms Keystone is moving forward with the Detect add-on",
+      "type": "praise",
+      "speaker": "Philip Lau"
+    },
+    {
+      "time": 21.0,
+      "text": "Danielle says she had real reservations after the March outage",
+      "type": "concern",
+      "speaker": "Danielle Ortiz"
+    },
+    {
+      "time": 40.0,
+      "text": "Danielle says the candid game day summary changed her mind",
+      "type": "positive_pivot",
+      "speaker": "Danielle Ortiz"
+    },
+    {
+      "time": 75.0,
+      "text": "Philip says Comply v2 saved ~60 hours on their last HIPAA cycle",
+      "type": "praise",
+      "speaker": "Philip Lau"
+    },
+    {
+      "time": 115.0,
+      "text": "Lisa offers Detect co-termed with the enhanced 99.9% SLA in year one",
+      "type": "pricing_offer",
+      "speaker": "Lisa Park"
+    },
+    {
+      "time": 135.0,
+      "text": "Danielle requests heartbeat alerts routed to her SOC before the health panel ships",
+      "type": "feature_gap",
+      "speaker": "Danielle Ortiz"
+    }
+  ],
+  "meetingId": "01KQ3BC30A48575E5B1895F5"
+}

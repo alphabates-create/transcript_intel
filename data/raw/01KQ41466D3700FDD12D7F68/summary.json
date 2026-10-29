@@ -1,0 +1,59 @@
+{
+  "summary": "Dominic Flores and Security Manager Michelle Tan of Silverline Brands escalated a failed quarterly restore drill on their payments database, which stopped at 62% with a checksum mismatch one week before an on-site PCI DSS QSA assessment. David Kim traced the error to a corrupted snapshot chunk that appears related to the April deduplication-layer changes made to address Silverline's still-open backup window case. A restore from an older snapshot taken before the latest dedup patch completed successfully on the call with verified checksums, giving Silverline evidence for the audit. Dominic described this as the third incident in three months and said he will recommend moving backup to another vendor at renewal while keeping Comply. David escalated to P1, committed to an integrity scan of all tenant snapshots since the April patch, and scheduled a follow-up with the Protect lead.",
+  "actionItems": [
+    "David Kim: Escalate case 5530 to P1 with the Protect platform team and confirm the link to the April dedup rollout",
+    "David Kim: Deliver integrity scan results for all Silverline snapshots since the April patch by tomorrow evening",
+    "David Kim: Document the successful restore and root cause for Silverline's PCI auditors",
+    "David Kim: Bring the Protect lead to tomorrow's 10 AM Central follow-up with a date for the backup scheduler fix",
+    "Michelle Tan: Share the restore drill evidence with the QSA ahead of next Thursday"
+  ],
+  "topics": [
+    "backup restore failure",
+    "data integrity",
+    "PCI DSS audit",
+    "Protect reliability",
+    "regression",
+    "churn risk"
+  ],
+  "overallSentiment": "negative",
+  "sentimentScore": 1.9,
+  "keyMoments": [
+    {
+      "time": 23.0,
+      "text": "Dominic reports the payments database restore drill failed ahead of the PCI audit",
+      "type": "technical_issue",
+      "speaker": "Dominic Flores"
+    },
+    {
+      "time": 39.0,
+      "text": "Dominic says a failed restore test would be an audit finding with the QSA on site next Thursday",
+      "type": "concern",
+      "speaker": "Dominic Flores"
+    },
+    {
+      "time": 84.0,
+      "text": "David links the corrupted snapshot to April deduplication-layer changes",
+      "type": "technical_issue",
+      "speaker": "David Kim"
+    },
+    {
+      "time": 111.0,
+      "text": "Dominic says he will recommend moving backup to another vendor at renewal",
+      "type": "churn_signal",
+      "speaker": "Dominic Flores"
+    },
+    {
+      "time": 172.0,
+      "text": "Dominic worries other snapshots may be silently corrupt",
+      "type": "concern",
+      "speaker": "Dominic Flores"
+    },
+    {
+      "time": 190.0,
+      "text": "Restore from an older snapshot completes with verified checksums",
+      "type": "positive_pivot",
+      "speaker": "Michelle Tan"
+    }
+  ],
+  "meetingId": "01KQ41466D3700FDD12D7F68"
+}

@@ -1,0 +1,11 @@
+{
+  "primary_theme": "Onboarding & deployment",
+  "themes": [
+    "Compliance & audit",
+    "Comply v2 launch",
+    "Onboarding & deployment"
+  ],
+  "certainty": 0.6,
+  "rationale": "The call is a Comply v2 deployment kickoff focused on connector setup, CloudFormation template, and a week-long timeline to a baseline HIPAA report, though it is closely tied to the v2 GA and compliance reporting needs.",
+  "source": "llm"
+}

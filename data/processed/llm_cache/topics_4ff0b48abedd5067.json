@@ -1,0 +1,10 @@
+{
+  "primary_theme": "Internal planning",
+  "themes": [
+    "Detect outage & fallout",
+    "Internal planning"
+  ],
+  "certainty": 0.7,
+  "rationale": "This is an internal Detect team sprint retro covering sprint results, monitoring gaps and plans for quarterly reliability sprints, with the March outage as the backdrop and remediation context.",
+  "source": "llm"
+}

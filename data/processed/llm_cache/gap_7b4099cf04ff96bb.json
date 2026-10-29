@@ -1,0 +1,15 @@
+{
+  "name": "Reporting capabilities and reliability",
+  "summary": "Customers want on-demand reporting, side-by-side report comparison, and reliable concurrent report queuing, none of which are fully available yet.",
+  "usage": {
+    "ts": "2026-10-29T03:10:35+00:00",
+    "step": "feature_gaps",
+    "model": "claude-sonnet-5-5",
+    "input_tokens": 711,
+    "output_tokens": 70,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "request_id": "req_011CgVo4Va7RbRYSAbWdxp4W",
+    "cost_usd": 0.002122
+  }
+}

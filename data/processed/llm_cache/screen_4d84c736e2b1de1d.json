@@ -1,0 +1,15 @@
+{
+  "is_business": true,
+  "reason": "The call is a customer post-incident review about an outage, churn risk to competitor VaultEdge, and remediation commitments, all core work content.",
+  "usage": {
+    "ts": "2026-10-29T19:08:58+00:00",
+    "step": "screen",
+    "model": "claude-sonnet-5-5",
+    "input_tokens": 886,
+    "output_tokens": 60,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "request_id": "req_011CgX49K3Eu6xDdUZQRUPAL",
+    "cost_usd": 0.002372
+  }
+}

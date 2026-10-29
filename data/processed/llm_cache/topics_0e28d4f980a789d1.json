@@ -1,0 +1,10 @@
+{
+  "primary_theme": "Detect outage & fallout",
+  "themes": [
+    "Detect outage & fallout",
+    "Competitive threat"
+  ],
+  "certainty": 0.95,
+  "rationale": "The call is an internal response to the six-hour Detect outage, covering the failed health checks, 47 support tickets, SLA credit exposure, and incident communications, with competitor mentions from Fortex and Meridian as a secondary churn risk.",
+  "source": "llm"
+}

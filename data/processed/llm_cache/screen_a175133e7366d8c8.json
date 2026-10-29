@@ -1,0 +1,15 @@
+{
+  "is_business": true,
+  "reason": "This is a customer renewal negotiation with Summit Trust covering a competitive threat from VaultEdge, product issues in Detect and Identity, and pricing and support concessions.",
+  "usage": {
+    "ts": "2026-10-29T19:09:12+00:00",
+    "step": "screen",
+    "model": "claude-sonnet-5-5",
+    "input_tokens": 930,
+    "output_tokens": 73,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "request_id": "req_011CgX4AJPZv7cpeEsf2eMhG",
+    "cost_usd": 0.00259
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "primary_theme": "Onboarding & deployment",
+  "themes": [
+    "Compliance & audit",
+    "Onboarding & deployment"
+  ],
+  "certainty": 0.55,
+  "rationale": "Post-go-live Detect tuning session fixing configuration (alert mode on privileged access rules, alert routing, trusted location profiles, retention setting), with compliance gaps (FFIEC/SOX/GLBA, 12-month retention) as a substantial secondary thread.",
+  "source": "llm"
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "participantName": "Diana Reeves",
+    "timestamp": 1779980405000,
+    "type": "Join",
+    "time": 5.0
+  },
+  {
+    "participantName": "Maria Santos",
+    "timestamp": 1779980409000,
+    "type": "Join",
+    "time": 9.0
+  },
+  {
+    "participantName": "Aisha Johnson",
+    "timestamp": 1779980409000,
+    "type": "Join",
+    "time": 9.0
+  },
+  {
+    "participantName": "Brian Cho",
+    "timestamp": 1779980414000,
+    "type": "Join",
+    "time": 14.0
+  },
+  {
+    "participantName": "Diana Reeves",
+    "timestamp": 1779981102000,
+    "type": "Leave",
+    "time": 702.0
+  },
+  {
+    "participantName": "Maria Santos",
+    "timestamp": 1779981100000,
+    "type": "Leave",
+    "time": 700.0
+  },
+  {
+    "participantName": "Aisha Johnson",
+    "timestamp": 1779981099000,
+    "type": "Leave",
+    "time": 699.0
+  },
+  {
+    "participantName": "Brian Cho",
+    "timestamp": 1779981102000,
+    "type": "Leave",
+    "time": 702.0
+  }
+]

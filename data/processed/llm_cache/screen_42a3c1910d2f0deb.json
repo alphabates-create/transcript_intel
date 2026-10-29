@@ -1,0 +1,15 @@
+{
+  "is_business": true,
+  "reason": "The call is a customer success review of Aegis Identity covering product pain points, feature requests, an unanswered support ticket, SSO integration and a Q3 renewal.",
+  "usage": {
+    "ts": "2026-10-29T19:08:54+00:00",
+    "step": "screen",
+    "model": "claude-sonnet-5-5",
+    "input_tokens": 824,
+    "output_tokens": 69,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "request_id": "req_011CgX491P6VpBPPTbiW7rue",
+    "cost_usd": 0.002338
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "meetingId": "01KQF1F3BDA5506F031E5700",
+  "title": "Detect Chaos Engineering - Game Day Review",
+  "organizerEmail": "tyler.washington@aegiscloud.com",
+  "host": "tyler.washington@aegiscloud.com",
+  "startTime": "2026-05-12T10:00:00.000Z",
+  "endTime": "2026-05-12T10:15:39.000Z",
+  "duration": 15.7,
+  "allEmails": [
+    "tyler.washington@aegiscloud.com",
+    "ravi.gupta@aegiscloud.com",
+    "chris.lee@aegiscloud.com",
+    "ananya.sharma@aegiscloud.com"
+  ],
+  "invitees": [
+    "tyler.washington@aegiscloud.com",
+    "ravi.gupta@aegiscloud.com",
+    "chris.lee@aegiscloud.com",
+    "ananya.sharma@aegiscloud.com"
+  ]
+}

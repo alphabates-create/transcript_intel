@@ -1,0 +1,364 @@
+{
+  "data": [
+    {
+      "sentence": "Thanks for joining, Alicia, Gregory. Kevin's on as well from solutions architecture.",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 7.1,
+      "endTime": 11.0,
+      "averageConfidence": 0.92,
+      "index": 0
+    },
+    {
+      "sentence": "Thanks Maria. I'll get straight to it \u2014 we have our vendor committee next Thursday and I need to bring a recommendation.",
+      "speaker_name": "Alicia Monroe",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 11.9,
+      "endTime": 20.0,
+      "averageConfidence": 0.93,
+      "index": 1
+    },
+    {
+      "sentence": "Right now the committee is leaning toward VaultEdge for identity, and possibly for monitoring too.",
+      "speaker_name": "Alicia Monroe",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 20.9,
+      "endTime": 26.8,
+      "averageConfidence": 0.95,
+      "index": 2
+    },
+    {
+      "sentence": "I appreciate the directness. Can you walk me through what's driving that?",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 27.3,
+      "endTime": 31.5,
+      "averageConfidence": 0.91,
+      "index": 3
+    },
+    {
+      "sentence": "Three things. The March outage we only found out about in April, the alert delays after that, and the MFA enforcement gaps we raised back in March.",
+      "speaker_name": "Alicia Monroe",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 32.6,
+      "endTime": 41.5,
+      "averageConfidence": 0.92,
+      "index": 4
+    },
+    {
+      "sentence": "And from my side, the support experience. We waited days on some of these cases before anyone looked at them.",
+      "speaker_name": "Gregory Fisk",
+      "sentimentType": "negative",
+      "speaker_id": 2,
+      "time": 41.9,
+      "endTime": 48.9,
+      "averageConfidence": 0.95,
+      "index": 5
+    },
+    {
+      "sentence": "Those are all fair, and I want to go through what's changed on each one.",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 49.8,
+      "endTime": 55.2,
+      "averageConfidence": 0.9,
+      "index": 6
+    },
+    {
+      "sentence": "On the alert delays \u2014 Kevin, can you cover where the tenant rebalance landed?",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 55.5,
+      "endTime": 60.3,
+      "averageConfidence": 0.9,
+      "index": 7
+    },
+    {
+      "sentence": "Sure. After David's emergency rebalance in April, your Detect tenant moved to a dedicated processing node.",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 60.7,
+      "endTime": 65.9,
+      "averageConfidence": 0.96,
+      "index": 8
+    },
+    {
+      "sentence": "Your median alert latency for the last three weeks is about forty seconds, down from twenty to forty-five minutes.",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "positive",
+      "speaker_id": 3,
+      "time": 66.8,
+      "endTime": 73.2,
+      "averageConfidence": 0.97,
+      "index": 9
+    },
+    {
+      "sentence": "That matches what we're seeing. It's been stable since late April.",
+      "speaker_name": "Gregory Fisk",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 73.6,
+      "endTime": 77.5,
+      "averageConfidence": 0.94,
+      "index": 10
+    },
+    {
+      "sentence": "But stable for three weeks isn't the same as trustworthy, especially when we weren't even told about March.",
+      "speaker_name": "Alicia Monroe",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 78.5,
+      "endTime": 84.3,
+      "averageConfidence": 0.9,
+      "index": 11
+    },
+    {
+      "sentence": "You're right, and I won't defend that. You should have heard about the outage from us the week it happened.",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "negative",
+      "speaker_id": 0,
+      "time": 85.5,
+      "endTime": 93.4,
+      "averageConfidence": 0.91,
+      "index": 12
+    },
+    {
+      "sentence": "Since then we've changed the process \u2014 every affected account gets a direct notification from their CSM within four hours, not just a status page post.",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 94.6,
+      "endTime": 104.7,
+      "averageConfidence": 0.91,
+      "index": 13
+    },
+    {
+      "sentence": "What about the MFA issue? That's the one my CISO cares about most.",
+      "speaker_name": "Alicia Monroe",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 105.7,
+      "endTime": 110.7,
+      "averageConfidence": 0.89,
+      "index": 14
+    },
+    {
+      "sentence": "The MFA enforcement fix for legacy app connectors shipped in Identity three point six last week.",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 111.8,
+      "endTime": 117.0,
+      "averageConfidence": 0.91,
+      "index": 15
+    },
+    {
+      "sentence": "Your loan origination system needs one config change to pick it up, and I can do that with Gregory's team this week.",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 118.2,
+      "endTime": 126.3,
+      "averageConfidence": 0.88,
+      "index": 16
+    },
+    {
+      "sentence": "And the session timeouts?",
+      "speaker_name": "Gregory Fisk",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 127.5,
+      "endTime": 128.9,
+      "averageConfidence": 0.93,
+      "index": 17
+    },
+    {
+      "sentence": "That one's still open. It's tied to how your reverse proxy refreshes tokens, and the fix is targeted for June.",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "negative",
+      "speaker_id": 3,
+      "time": 129.8,
+      "endTime": 137.6,
+      "averageConfidence": 0.97,
+      "index": 18
+    },
+    {
+      "sentence": "So we'd be renewing with a known gap.",
+      "speaker_name": "Gregory Fisk",
+      "sentimentType": "negative",
+      "speaker_id": 2,
+      "time": 139.0,
+      "endTime": 141.8,
+      "averageConfidence": 0.89,
+      "index": 19
+    },
+    {
+      "sentence": "Yes, with a workaround \u2014 we can set the token refresh on the proxy side so users stop getting kicked out early. It's not elegant, but it works.",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 143.0,
+      "endTime": 152.6,
+      "averageConfidence": 0.93,
+      "index": 20
+    },
+    {
+      "sentence": "Let's talk about the commercial side, then, because VaultEdge came in about eighteen percent under your renewal quote.",
+      "speaker_name": "Alicia Monroe",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 153.2,
+      "endTime": 160.0,
+      "averageConfidence": 0.91,
+      "index": 21
+    },
+    {
+      "sentence": "Understood. Here's what we can do.",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 161.5,
+      "endTime": 163.7,
+      "averageConfidence": 0.92,
+      "index": 22
+    },
+    {
+      "sentence": "A one-year renewal at flat pricing, a service credit for the March incident applied to year one, and Comply v2 included at no cost for twelve months.",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 164.5,
+      "endTime": 173.8,
+      "averageConfidence": 0.89,
+      "index": 23
+    },
+    {
+      "sentence": "And we'd add a named support engineer for Identity with a four-hour response commitment on P2 cases.",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 175.0,
+      "endTime": 180.6,
+      "averageConfidence": 0.93,
+      "index": 24
+    },
+    {
+      "sentence": "Flat pricing is still above VaultEdge.",
+      "speaker_name": "Alicia Monroe",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 181.3,
+      "endTime": 183.3,
+      "averageConfidence": 0.94,
+      "index": 25
+    },
+    {
+      "sentence": "It is. But with the credit and Comply included, the effective year-one cost is lower, and migrating off a three-module platform isn't free either.",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 184.7,
+      "endTime": 192.7,
+      "averageConfidence": 0.94,
+      "index": 26
+    },
+    {
+      "sentence": "That's true. Migrating SSO for fourteen hundred users is not a small project.",
+      "speaker_name": "Gregory Fisk",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 194.1,
+      "endTime": 199.1,
+      "averageConfidence": 0.9,
+      "index": 27
+    },
+    {
+      "sentence": "I hear you. I'm not going to commit today \u2014 we've lost some trust, and I need the committee to see evidence, not promises.",
+      "speaker_name": "Alicia Monroe",
+      "sentimentType": "negative",
+      "speaker_id": 1,
+      "time": 199.5,
+      "endTime": 208.3,
+      "averageConfidence": 0.88,
+      "index": 28
+    },
+    {
+      "sentence": "If Kevin can get the MFA fix live this week and we see the named support engineer actually respond, that gives me something to point to.",
+      "speaker_name": "Alicia Monroe",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 209.6,
+      "endTime": 218.2,
+      "averageConfidence": 0.95,
+      "index": 29
+    },
+    {
+      "sentence": "That's completely reasonable. Let's make this week the proof.",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 219.0,
+      "endTime": 222.0,
+      "averageConfidence": 0.91,
+      "index": 30
+    },
+    {
+      "sentence": "Gregory, can we do the MFA change Thursday morning?",
+      "speaker_name": "Kevin O'Brien",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 222.5,
+      "endTime": 226.1,
+      "averageConfidence": 0.91,
+      "index": 31
+    },
+    {
+      "sentence": "Thursday at nine works.",
+      "speaker_name": "Gregory Fisk",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 227.4,
+      "endTime": 229.0,
+      "averageConfidence": 0.94,
+      "index": 32
+    },
+    {
+      "sentence": "I'll send the written proposal tonight, with the support commitment and the June date for the timeout fix.",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 230.0,
+      "endTime": 236.1,
+      "averageConfidence": 0.95,
+      "index": 33
+    },
+    {
+      "sentence": "Okay. Send it, and I'll take it to the committee with whatever we see this week.",
+      "speaker_name": "Alicia Monroe",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 236.7,
+      "endTime": 242.2,
+      "averageConfidence": 0.91,
+      "index": 34
+    },
+    {
+      "sentence": "Thank you both \u2014 I know we have work to do to earn this.",
+      "speaker_name": "Maria Santos",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 242.7,
+      "endTime": 247.8,
+      "averageConfidence": 0.89,
+      "index": 35
+    }
+  ]
+}

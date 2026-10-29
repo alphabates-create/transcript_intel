@@ -1,0 +1,15 @@
+{
+  "is_business": true,
+  "reason": "This is a customer support case call about Detect alert delays and an unreported March outage, with a root cause identified and an emergency rebalance request submitted.",
+  "usage": {
+    "ts": "2026-10-29T19:09:06+00:00",
+    "step": "screen",
+    "model": "claude-sonnet-5-5",
+    "input_tokens": 859,
+    "output_tokens": 62,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "request_id": "req_011CgX49q9jCbHBHE4e4R2zN",
+    "cost_usd": 0.002338
+  }
+}

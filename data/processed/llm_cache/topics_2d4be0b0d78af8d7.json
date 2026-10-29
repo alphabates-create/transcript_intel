@@ -1,0 +1,10 @@
+{
+  "primary_theme": "Internal planning",
+  "themes": [
+    "Internal planning",
+    "Identity / SSO / MFA"
+  ],
+  "certainty": 0.9,
+  "rationale": "This is an internal Identity team sprint 22 retro covering capacity, estimation issues, and sprint 23 planning, with the Identity work (SCIM, SSO refactor, MFA tickets) as the content discussed.",
+  "source": "llm"
+}

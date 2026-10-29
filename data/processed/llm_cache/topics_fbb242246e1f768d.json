@@ -1,0 +1,11 @@
+{
+  "primary_theme": "Compliance & audit",
+  "themes": [
+    "Compliance & audit",
+    "Comply v2 launch",
+    "Onboarding & deployment"
+  ],
+  "certainty": 0.9,
+  "rationale": "The call centers on Maplewood's SOC 2 audit prep, manual evidence collection pain, and multi-framework control mapping (SOC 2, PCI DSS, ISO 27001), with Comply v2 reporting previewed and integration effort discussed as secondary topics.",
+  "source": "llm"
+}

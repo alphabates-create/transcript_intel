@@ -1,0 +1,15 @@
+{
+  "name": "Expanded Compliance Reporting Capabilities",
+  "summary": "Customers want more flexible compliance and reporting tools, including on-demand and side-by-side reports, custom templates and control labels for internal policies, and additional frameworks like CMMC and GDPR, plus native SCIM 2.0 provisioning.",
+  "usage": {
+    "ts": "2026-10-27T19:08:56+00:00",
+    "step": "feature_gaps",
+    "model": "claude-sonnet-5-5",
+    "input_tokens": 729,
+    "output_tokens": 111,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "request_id": "req_011CgTGXQxBT1PcHSXSLjKBb",
+    "cost_usd": 0.002568
+  }
+}

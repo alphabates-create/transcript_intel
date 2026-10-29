@@ -1,0 +1,9 @@
+{
+  "primary_theme": "Internal planning",
+  "themes": [
+    "Internal planning"
+  ],
+  "certainty": 0.93,
+  "rationale": "This is an internal weekly engineering standup with sprint status, deadline risk assessment on the ingestion refactor, and resource allocation, while Comply v2 and Detect reliability appear only as work-item updates.",
+  "source": "llm"
+}

@@ -1,0 +1,74 @@
+[
+  {
+    "participantName": "Brian Cho",
+    "timestamp": 1783015204000,
+    "type": "Join",
+    "time": 4.0
+  },
+  {
+    "participantName": "Elena Vasquez",
+    "timestamp": 1783015206000,
+    "type": "Join",
+    "time": 6.0
+  },
+  {
+    "participantName": "Marcus Williams",
+    "timestamp": 1783015207000,
+    "type": "Join",
+    "time": 7.0
+  },
+  {
+    "participantName": "David Kim",
+    "timestamp": 1783015217000,
+    "type": "Join",
+    "time": 17.0
+  },
+  {
+    "participantName": "Priya Patel",
+    "timestamp": 1783015221000,
+    "type": "Join",
+    "time": 21.0
+  },
+  {
+    "participantName": "Sarah Chen",
+    "timestamp": 1783015229000,
+    "type": "Join",
+    "time": 29.0
+  },
+  {
+    "participantName": "Brian Cho",
+    "timestamp": 1783015767000,
+    "type": "Leave",
+    "time": 567.0
+  },
+  {
+    "participantName": "Priya Patel",
+    "timestamp": 1783015768000,
+    "type": "Leave",
+    "time": 568.0
+  },
+  {
+    "participantName": "Elena Vasquez",
+    "timestamp": 1783015762000,
+    "type": "Leave",
+    "time": 562.0
+  },
+  {
+    "participantName": "David Kim",
+    "timestamp": 1783015765000,
+    "type": "Leave",
+    "time": 565.0
+  },
+  {
+    "participantName": "Sarah Chen",
+    "timestamp": 1783015766000,
+    "type": "Leave",
+    "time": 566.0
+  },
+  {
+    "participantName": "Marcus Williams",
+    "timestamp": 1783015765000,
+    "type": "Leave",
+    "time": 565.0
+  }
+]

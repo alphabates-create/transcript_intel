@@ -1,0 +1,9 @@
+{
+  "n_calls": 115,
+  "n_llm": 115,
+  "n_rules": 0,
+  "primary_in_rule_themes": 0.957,
+  "mean_jaccard_llm_vs_rules": 0.682,
+  "model": "claude-sonnet-5-5",
+  "cluster_purity_weighted": 0.564
+}

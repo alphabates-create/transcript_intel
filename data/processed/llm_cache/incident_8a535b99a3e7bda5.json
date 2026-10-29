@@ -1,0 +1,20 @@
+{
+  "status": "resolved",
+  "resolved_call_index": 11,
+  "owner": "Tom Bradley",
+  "category": "Outage",
+  "priority": "P1",
+  "outage_hours": 6.0,
+  "resolution_note": "Fixed by deploying redundant processing nodes and a circuit breaker, confirmed as deployed in the post-incident review; follow-up PIR and customer communications remain.",
+  "usage": {
+    "ts": "2026-10-27T06:49:56+00:00",
+    "step": "incidents",
+    "model": "claude-sonnet-5-5",
+    "input_tokens": 10330,
+    "output_tokens": 123,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "request_id": "req_011CgSJAnoiY9jcedbyKTg6a",
+    "cost_usd": 0.02189
+  }
+}

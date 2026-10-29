@@ -1,0 +1,15 @@
+{
+  "is_business": true,
+  "reason": "The call is an annual review and renewal discussion with customer Atlas Precision covering Comply, a Detect outage, flat renewal pricing, and Identity and OT roadmap follow-ups.",
+  "usage": {
+    "ts": "2026-10-29T19:09:11+00:00",
+    "step": "screen",
+    "model": "claude-sonnet-5-5",
+    "input_tokens": 799,
+    "output_tokens": 79,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "request_id": "req_011CgX4AEtyKAUAjRaGzqBn5",
+    "cost_usd": 0.002388
+  }
+}

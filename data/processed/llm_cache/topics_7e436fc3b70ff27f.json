@@ -1,0 +1,12 @@
+{
+  "primary_theme": "Renewal & contracts",
+  "themes": [
+    "Compliance & audit",
+    "Detect outage & fallout",
+    "Renewal & contracts",
+    "Competitive threat"
+  ],
+  "certainty": 0.8,
+  "rationale": "The call is a contract review ahead of an April 30 renewal deadline, with outcomes focused on an enhanced Detect SLA, revised pricing, and a written roadmap commitment, while the outage, CyberNova evaluation, and CMMC gap are substantive drivers of the negotiation.",
+  "source": "llm"
+}

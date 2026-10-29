@@ -1,0 +1,9 @@
+{
+  "primary_theme": "Detect outage & fallout",
+  "themes": [
+    "Detect outage & fallout"
+  ],
+  "certainty": 0.97,
+  "rationale": "The call is a support case closure for the March 10 Detect outage, covering root cause, architectural fixes, the data gap in the blind-spot window, and the post-incident report requested for the CISO.",
+  "source": "llm"
+}

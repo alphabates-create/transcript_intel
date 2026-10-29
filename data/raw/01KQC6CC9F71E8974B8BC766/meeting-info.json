@@ -1,0 +1,21 @@
+{
+  "meetingId": "01KQC6CC9F71E8974B8BC766",
+  "title": "Customer Success - At-Risk Account Review",
+  "organizerEmail": "diana.reeves@aegiscloud.com",
+  "host": "diana.reeves@aegiscloud.com",
+  "startTime": "2026-05-28T15:00:00.000Z",
+  "endTime": "2026-05-28T15:11:45.000Z",
+  "duration": 11.8,
+  "allEmails": [
+    "diana.reeves@aegiscloud.com",
+    "maria.santos@aegiscloud.com",
+    "aisha.johnson@aegiscloud.com",
+    "brian.cho@aegiscloud.com"
+  ],
+  "invitees": [
+    "diana.reeves@aegiscloud.com",
+    "maria.santos@aegiscloud.com",
+    "aisha.johnson@aegiscloud.com",
+    "brian.cho@aegiscloud.com"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "is_business": true,
+  "reason": "The all-hands covered the Detect outage post-mortem, the Comply v2 launch status and bugs, and Q2 roadmap prioritization, all of which are work content.",
+  "usage": {
+    "ts": "2026-10-29T19:09:10+00:00",
+    "step": "screen",
+    "model": "claude-sonnet-5-5",
+    "input_tokens": 821,
+    "output_tokens": 71,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "request_id": "req_011CgX4AANsSAzXdmAiyXKgA",
+    "cost_usd": 0.002352
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "is_business": true,
+  "reason": "This is a customer support call about closing case #7537, covering a Detect outage, root cause, remediation, and post-incident documentation for the customer's CISO.",
+  "usage": {
+    "ts": "2026-10-29T19:08:59+00:00",
+    "step": "screen",
+    "model": "claude-sonnet-5-5",
+    "input_tokens": 825,
+    "output_tokens": 65,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "request_id": "req_011CgX49LEAqdfioFUyJaV9P",
+    "cost_usd": 0.0023
+  }
+}

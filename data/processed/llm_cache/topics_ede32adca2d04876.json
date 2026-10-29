@@ -1,0 +1,10 @@
+{
+  "primary_theme": "Comply v2 launch",
+  "themes": [
+    "Compliance & audit",
+    "Comply v2 launch"
+  ],
+  "certainty": 0.6,
+  "rationale": "The demo centers on Comply v2 reporting, remediation guidance and LogVault integration, leading to a POC, while the HIPAA audit evidence pain point is a close co-theme and the March Detect incident is only a passing mention.",
+  "source": "llm"
+}

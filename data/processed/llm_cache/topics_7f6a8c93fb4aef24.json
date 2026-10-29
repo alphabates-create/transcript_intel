@@ -1,0 +1,11 @@
+{
+  "primary_theme": "Internal planning",
+  "themes": [
+    "Comply v2 launch",
+    "Internal planning",
+    "Competitive threat"
+  ],
+  "certainty": 0.9,
+  "rationale": "This is an internal all-hands wrap-up with cross-team updates and March priorities, with Comply v2 GA readiness and the VaultEdge customer loss as substantive sub-topics.",
+  "source": "llm"
+}

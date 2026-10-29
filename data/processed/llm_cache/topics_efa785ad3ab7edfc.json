@@ -1,0 +1,11 @@
+{
+  "primary_theme": "Billing disputes",
+  "themes": [
+    "Detect outage & fallout",
+    "Comply v2 launch",
+    "Billing disputes"
+  ],
+  "certainty": 0.93,
+  "rationale": "The call is a support case disputing $4,000+ in April overage charges, with Sarah committing to hold the invoice and deliver a written dispute response, while the Comply v2 alert misconfiguration and Detect outage replay traffic are the causes under investigation.",
+  "source": "llm"
+}

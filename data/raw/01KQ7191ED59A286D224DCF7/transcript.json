@@ -1,0 +1,314 @@
+{
+  "data": [
+    {
+      "sentence": "Okay, let's start. This is the design review for the Protect scheduler rewrite before we start the production rollout.",
+      "speaker_name": "Mike Romano",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 6.3,
+      "endTime": 13.3,
+      "averageConfidence": 0.95,
+      "index": 0
+    },
+    {
+      "sentence": "Sofia, can you give us the canary results first?",
+      "speaker_name": "Mike Romano",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 14.7,
+      "endTime": 17.8,
+      "averageConfidence": 0.91,
+      "index": 1
+    },
+    {
+      "sentence": "Sure. On the load test at two times P95 customer scale, queue time dropped from forty-seven minutes to about six.",
+      "speaker_name": "Sofia Petrov",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 18.4,
+      "endTime": 25.0,
+      "averageConfidence": 0.93,
+      "index": 2
+    },
+    {
+      "sentence": "Concurrent dispatch is doing what we hoped. We're running up to sixty-four jobs per worker without the lock contention we had before.",
+      "speaker_name": "Sofia Petrov",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 25.3,
+      "endTime": 33.0,
+      "averageConfidence": 0.9,
+      "index": 3
+    },
+    {
+      "sentence": "That's a massive improvement. Silverline's overnight backup would finish in about three hours instead of eight.",
+      "speaker_name": "Chris Lee",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 33.5,
+      "endTime": 39.0,
+      "averageConfidence": 0.9,
+      "index": 4
+    },
+    {
+      "sentence": "Before we celebrate, I want to talk about the dedup changes. The async dedup fix from April is what corrupted Silverline's snapshot.",
+      "speaker_name": "Nina Kowalski",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 39.3,
+      "endTime": 47.3,
+      "averageConfidence": 0.93,
+      "index": 5
+    },
+    {
+      "sentence": "We shipped a performance fix that silently broke restores, and nobody knew until a customer ran a drill before their PCI audit.",
+      "speaker_name": "Nina Kowalski",
+      "sentimentType": "negative",
+      "speaker_id": 3,
+      "time": 48.3,
+      "endTime": 55.5,
+      "averageConfidence": 0.9,
+      "index": 6
+    },
+    {
+      "sentence": "Agreed, and it's the most important part of this review. Sofia, what did the root cause show?",
+      "speaker_name": "Mike Romano",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 57.0,
+      "endTime": 62.6,
+      "averageConfidence": 0.91,
+      "index": 7
+    },
+    {
+      "sentence": "A race condition. When two dedup workers handled the same chunk, one could write the index entry before the data finished flushing.",
+      "speaker_name": "Sofia Petrov",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 63.8,
+      "endTime": 71.4,
+      "averageConfidence": 0.91,
+      "index": 8
+    },
+    {
+      "sentence": "The checksum in the index was correct, but the stored chunk was incomplete, so the backup reported success and the restore failed.",
+      "speaker_name": "Sofia Petrov",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 72.4,
+      "endTime": 81.1,
+      "averageConfidence": 0.9,
+      "index": 9
+    },
+    {
+      "sentence": "So our success signal was lying to us. That's the same lesson as Detect \u2014 health checks that don't verify the actual outcome.",
+      "speaker_name": "Chris Lee",
+      "sentimentType": "negative",
+      "speaker_id": 2,
+      "time": 81.8,
+      "endTime": 90.6,
+      "averageConfidence": 0.96,
+      "index": 10
+    },
+    {
+      "sentence": "Which is why I want two changes as release gates, not nice-to-haves.",
+      "speaker_name": "Nina Kowalski",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 91.9,
+      "endTime": 96.0,
+      "averageConfidence": 0.9,
+      "index": 11
+    },
+    {
+      "sentence": "First, verify the checksum on write, after the flush, not before. Second, automated restore verification \u2014 we randomly restore one percent of snapshots every day and alert on any failure.",
+      "speaker_name": "Nina Kowalski",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 97.3,
+      "endTime": 109.1,
+      "averageConfidence": 0.95,
+      "index": 12
+    },
+    {
+      "sentence": "What does the restore sampling cost?",
+      "speaker_name": "Mike Romano",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 110.4,
+      "endTime": 112.7,
+      "averageConfidence": 0.89,
+      "index": 13
+    },
+    {
+      "sentence": "About four percent more compute on the restore cluster. It's not free, but it's small.",
+      "speaker_name": "Sofia Petrov",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 114.0,
+      "endTime": 119.2,
+      "averageConfidence": 0.94,
+      "index": 14
+    },
+    {
+      "sentence": "Compared to losing Silverline's backup business, that's nothing. I'm in favor.",
+      "speaker_name": "Chris Lee",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 120.3,
+      "endTime": 124.4,
+      "averageConfidence": 0.89,
+      "index": 15
+    },
+    {
+      "sentence": "Agreed. Both are release gates. Now, the rollout plan.",
+      "speaker_name": "Mike Romano",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 125.4,
+      "endTime": 128.6,
+      "averageConfidence": 0.9,
+      "index": 16
+    },
+    {
+      "sentence": "The proposal is five percent of tenants in week one, twenty-five in week two, and everyone in week three, with automatic rollback if queue time or restore failures regress.",
+      "speaker_name": "Sofia Petrov",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 129.9,
+      "endTime": 139.9,
+      "averageConfidence": 0.92,
+      "index": 17
+    },
+    {
+      "sentence": "Sales is going to push for faster. The new Comply plus Protect bundle is going into the Q3 price book.",
+      "speaker_name": "Chris Lee",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 141.1,
+      "endTime": 148.3,
+      "averageConfidence": 0.91,
+      "index": 18
+    },
+    {
+      "sentence": "Then sales needs to wait. We are not repeating April because a bundle is launching.",
+      "speaker_name": "Nina Kowalski",
+      "sentimentType": "negative",
+      "speaker_id": 3,
+      "time": 148.9,
+      "endTime": 154.5,
+      "averageConfidence": 0.97,
+      "index": 19
+    },
+    {
+      "sentence": "I'll handle that conversation. Three weeks is the plan, and Protect onboardings stay gated until we hit one hundred percent.",
+      "speaker_name": "Mike Romano",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 155.9,
+      "endTime": 163.3,
+      "averageConfidence": 0.9,
+      "index": 20
+    },
+    {
+      "sentence": "Should Silverline be in the first five percent? They have the most to gain.",
+      "speaker_name": "Chris Lee",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 164.6,
+      "endTime": 170.2,
+      "averageConfidence": 0.89,
+      "index": 21
+    },
+    {
+      "sentence": "I'd say yes, but only with their consent and with restore verification running on their tenant from day one.",
+      "speaker_name": "Sofia Petrov",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 170.9,
+      "endTime": 177.1,
+      "averageConfidence": 0.89,
+      "index": 22
+    },
+    {
+      "sentence": "I like that. It shows them we're fixing the root cause, not just their ticket.",
+      "speaker_name": "Nina Kowalski",
+      "sentimentType": "positive",
+      "speaker_id": 3,
+      "time": 178.4,
+      "endTime": 184.3,
+      "averageConfidence": 0.97,
+      "index": 23
+    },
+    {
+      "sentence": "One more thing \u2014 multi-region replication. Vanta Health asked for it, and it's planned for Q3.",
+      "speaker_name": "Chris Lee",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 185.8,
+      "endTime": 191.4,
+      "averageConfidence": 0.94,
+      "index": 24
+    },
+    {
+      "sentence": "Realistically, with the scheduler rollout taking the team through July, multi-region is going to slip to early Q4.",
+      "speaker_name": "Mike Romano",
+      "sentimentType": "negative",
+      "speaker_id": 0,
+      "time": 192.4,
+      "endTime": 198.2,
+      "averageConfidence": 0.9,
+      "index": 25
+    },
+    {
+      "sentence": "That's a problem. Vanta said they'd build their own if it slips past Q3.",
+      "speaker_name": "Chris Lee",
+      "sentimentType": "negative",
+      "speaker_id": 2,
+      "time": 198.7,
+      "endTime": 203.5,
+      "averageConfidence": 0.88,
+      "index": 26
+    },
+    {
+      "sentence": "Then let's be honest with them now rather than in September. Can product scope a single secondary region as a Q3 early access?",
+      "speaker_name": "Mike Romano",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 204.4,
+      "endTime": 211.8,
+      "averageConfidence": 0.94,
+      "index": 27
+    },
+    {
+      "sentence": "I'll take that to Jordan this week.",
+      "speaker_name": "Nina Kowalski",
+      "sentimentType": "neutral",
+      "speaker_id": 3,
+      "time": 212.9,
+      "endTime": 215.6,
+      "averageConfidence": 0.96,
+      "index": 28
+    },
+    {
+      "sentence": "Okay. Actions: Sofia owns the checksum and restore verification gates, Chris writes the rollout runbook with rollback criteria, and Nina takes the multi-region scope to product.",
+      "speaker_name": "Mike Romano",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 216.8,
+      "endTime": 226.6,
+      "averageConfidence": 0.97,
+      "index": 29
+    },
+    {
+      "sentence": "Good review, everyone. This is a much better place to be than April.",
+      "speaker_name": "Mike Romano",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 227.3,
+      "endTime": 232.2,
+      "averageConfidence": 0.92,
+      "index": 30
+    }
+  ]
+}

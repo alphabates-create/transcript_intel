@@ -21,3 +21,5 @@ streamlit>=1.38
 jupyter
 ipykernel
 tqdm
+# packaging (TranscriptIntel.exe)
+pyinstaller>=6.0

@@ -1,0 +1,15 @@
+{
+  "is_business": true,
+  "reason": "The call is a customer meeting where Aegis introduced Comply v2 for PCI DSS audit prep, covered onboarding timelines, and committed to a post-incident review of a Detect outage.",
+  "usage": {
+    "ts": "2026-10-29T19:09:04+00:00",
+    "step": "screen",
+    "model": "claude-sonnet-5-5",
+    "input_tokens": 856,
+    "output_tokens": 79,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "request_id": "req_011CgX49irCkus2t6YJro8AQ",
+    "cost_usd": 0.002502
+  }
+}

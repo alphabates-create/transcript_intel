@@ -1,0 +1,9 @@
+{
+  "primary_theme": "Internal planning",
+  "themes": [
+    "Internal planning"
+  ],
+  "certainty": 0.96,
+  "rationale": "This is an internal Detect team sprint planning meeting covering carryover tickets, a design spike, and committing to 13 story points.",
+  "source": "llm"
+}

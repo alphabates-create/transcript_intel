@@ -1,0 +1,15 @@
+{
+  "is_business": true,
+  "reason": "The call is a customer support case (#3615) about an Aegis Comply feature gap in cross-framework reporting, with a feature request escalation and beta program discussion.",
+  "usage": {
+    "ts": "2026-10-29T19:08:49+00:00",
+    "step": "screen",
+    "model": "claude-sonnet-5-5",
+    "input_tokens": 851,
+    "output_tokens": 68,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "request_id": "req_011CgX48aNhTp8V8sJZYmjiw",
+    "cost_usd": 0.002382
+  }
+}

@@ -1,0 +1,137 @@
+[
+  {
+    "speakerName": "Lisa Park",
+    "timestamp": 6.0,
+    "endTimeTs": 10.2
+  },
+  {
+    "speakerName": "Philip Lau",
+    "timestamp": 11.0,
+    "endTimeTs": 18.3
+  },
+  {
+    "speakerName": "Lisa Park",
+    "timestamp": 19.5,
+    "endTimeTs": 21.5
+  },
+  {
+    "speakerName": "Danielle Ortiz",
+    "timestamp": 21.9,
+    "endTimeTs": 30.3
+  },
+  {
+    "speakerName": "Danielle Ortiz",
+    "timestamp": 30.8,
+    "endTimeTs": 38.6
+  },
+  {
+    "speakerName": "Danielle Ortiz",
+    "timestamp": 40.1,
+    "endTimeTs": 51.0
+  },
+  {
+    "speakerName": "Rachel Torres",
+    "timestamp": 52.2,
+    "endTimeTs": 57.9
+  },
+  {
+    "speakerName": "Danielle Ortiz",
+    "timestamp": 58.6,
+    "endTimeTs": 66.9
+  },
+  {
+    "speakerName": "Philip Lau",
+    "timestamp": 67.8,
+    "endTimeTs": 75.0
+  },
+  {
+    "speakerName": "Philip Lau",
+    "timestamp": 75.8,
+    "endTimeTs": 84.8
+  },
+  {
+    "speakerName": "Rachel Torres",
+    "timestamp": 85.3,
+    "endTimeTs": 92.3
+  },
+  {
+    "speakerName": "Danielle Ortiz",
+    "timestamp": 93.6,
+    "endTimeTs": 98.3
+  },
+  {
+    "speakerName": "Rachel Torres",
+    "timestamp": 99.1,
+    "endTimeTs": 107.1
+  },
+  {
+    "speakerName": "Danielle Ortiz",
+    "timestamp": 108.4,
+    "endTimeTs": 114.8
+  },
+  {
+    "speakerName": "Lisa Park",
+    "timestamp": 115.2,
+    "endTimeTs": 121.1
+  },
+  {
+    "speakerName": "Lisa Park",
+    "timestamp": 122.2,
+    "endTimeTs": 129.4
+  },
+  {
+    "speakerName": "Philip Lau",
+    "timestamp": 130.9,
+    "endTimeTs": 134.2
+  },
+  {
+    "speakerName": "Danielle Ortiz",
+    "timestamp": 135.4,
+    "endTimeTs": 141.6
+  },
+  {
+    "speakerName": "Rachel Torres",
+    "timestamp": 143.1,
+    "endTimeTs": 151.4
+  },
+  {
+    "speakerName": "Danielle Ortiz",
+    "timestamp": 152.5,
+    "endTimeTs": 156.2
+  },
+  {
+    "speakerName": "Lisa Park",
+    "timestamp": 156.7,
+    "endTimeTs": 162.0
+  },
+  {
+    "speakerName": "Philip Lau",
+    "timestamp": 163.5,
+    "endTimeTs": 169.1
+  },
+  {
+    "speakerName": "Lisa Park",
+    "timestamp": 170.4,
+    "endTimeTs": 172.2
+  },
+  {
+    "speakerName": "Rachel Torres",
+    "timestamp": 172.5,
+    "endTimeTs": 178.6
+  },
+  {
+    "speakerName": "Danielle Ortiz",
+    "timestamp": 179.1,
+    "endTimeTs": 186.3
+  },
+  {
+    "speakerName": "Philip Lau",
+    "timestamp": 187.0,
+    "endTimeTs": 191.8
+  },
+  {
+    "speakerName": "Lisa Park",
+    "timestamp": 192.1,
+    "endTimeTs": 196.1
+  }
+]

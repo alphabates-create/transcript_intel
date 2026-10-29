@@ -1,0 +1,15 @@
+{
+  "name": "On-demand multi-framework compliance reporting",
+  "summary": "Customers want Aegis Comply to generate on-demand audit-ready reports across more frameworks (SOC 2, PCI DSS, HIPAA, plus gaps like CMMC and GDPR) with cross-framework control mapping, to replace weeks of manual spreadsheet work.",
+  "usage": {
+    "ts": "2026-10-28T19:41:29+00:00",
+    "step": "feature_gaps",
+    "model": "claude-sonnet-5-5",
+    "input_tokens": 815,
+    "output_tokens": 123,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "request_id": "req_011CgVCp8tZ7b6f6rQsqbS65",
+    "cost_usd": 0.00286
+  }
+}

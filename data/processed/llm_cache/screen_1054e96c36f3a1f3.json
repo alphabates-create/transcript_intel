@@ -1,0 +1,15 @@
+{
+  "is_business": true,
+  "reason": "The call is a Detect team sprint planning meeting covering tickets DETECT-219 and DETECT-231, an ingestion pipeline design spike, and sprint commitments.",
+  "usage": {
+    "ts": "2026-10-29T19:08:53+00:00",
+    "step": "screen",
+    "model": "claude-sonnet-5-5",
+    "input_tokens": 794,
+    "output_tokens": 73,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "request_id": "req_011CgX48uX8Lv8qUgAKdAS3o",
+    "cost_usd": 0.002318
+  }
+}

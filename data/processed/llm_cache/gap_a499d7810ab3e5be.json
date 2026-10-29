@@ -1,0 +1,15 @@
+{
+  "name": "Compliance reporting and access controls",
+  "summary": "Customers want more flexible, unified compliance reporting (filterable by control family and spanning HIPAA and SOC 2) along with finer-grained access controls such as nested role inheritance and per-role session timeout policies, plus consolidated dashboards and simpler restore workflows.",
+  "usage": {
+    "ts": "2026-10-27T20:38:49+00:00",
+    "step": "feature_gaps",
+    "model": "claude-sonnet-5-5",
+    "input_tokens": 713,
+    "output_tokens": 114,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "request_id": "req_011CgTPNuA8zVhxJCyBxeLFF",
+    "cost_usd": 0.002566
+  }
+}

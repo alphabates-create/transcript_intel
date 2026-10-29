@@ -1,0 +1,28 @@
+﻿email,name,team,basis,n_calls
+aisha.johnson@aegiscloud.com,Aisha Johnson,Customer Success & Sales,role mention: CSM,10
+daniel.okafor@aegiscloud.com,Daniel Okafor,Customer Success & Sales,role mention: CSM,8
+diana.reeves@aegiscloud.com,Diana Reeves,Customer Success & Sales,role mention: customer success/sales,10
+james.mitchell@aegiscloud.com,James Mitchell,Customer Success & Sales,role mention: account manager,8
+lisa.park@aegiscloud.com,Lisa Park,Customer Success & Sales,role mention: CSM,11
+maria.santos@aegiscloud.com,Maria Santos,Customer Success & Sales,role mention: CSM at Aegis Cloud Security,15
+rachel.torres@aegiscloud.com,Rachel Torres,Customer Success & Sales,role mention: CSM,9
+chris.lee@aegiscloud.com,Chris Lee,Engineering,"internal meetings (6 engineering, 2 product)",9
+mike.romano@aegiscloud.com,Mike Romano,Engineering,"role mention: I'm Mike Romano, Staff Engineer, so I'm sort of Kevin's part",12
+nina.kowalski@aegiscloud.com,Nina Kowalski,Engineering,"internal meetings (5 engineering, 3 product)",12
+raj.kapoor@aegiscloud.com,Raj Kapoor,Engineering,"internal meetings (2 engineering, 1 product)",5
+ravi.gupta@aegiscloud.com,Ravi Gupta,Engineering,role mention: DevOps,12
+sofia.petrov@aegiscloud.com,Sofia Petrov,Engineering,role mention: Senior Engineer,13
+tom.bradley@aegiscloud.com,Tom Bradley,Engineering,override,8
+tyler.washington@aegiscloud.com,Tyler Washington,Engineering,role mention: engineering,11
+alex.reyes@aegiscloud.com,Alex Reyes,Product & Strategy,"internal meetings (0 engineering, 2 product)",3
+hannah.liu@aegiscloud.com,Hannah Liu,Product & Strategy,"internal meetings (0 engineering, 2 product)",3
+jordan.whitfield@aegiscloud.com,Jordan Whitfield,Product & Strategy,"internal meetings (0 engineering, 5 product)",6
+megan.lawson@aegiscloud.com,Megan Lawson,Product & Strategy,role mention: product,7
+ananya.sharma@aegiscloud.com,Ananya Sharma,Solutions Engineering,role mention: I'm Ananya — I joined the solutions engineering team back in,15
+kevin.obrien@aegiscloud.com,Kevin O'Brien,Solutions Engineering,role mention: Solutions Architecture,15
+brian.cho@aegiscloud.com,Brian Cho,Support,override,8
+david.kim@aegiscloud.com,David Kim,Support,"role mention: This is David Kim calling from Aegis Cloud Security support,",10
+elena.vasquez@aegiscloud.com,Elena Vasquez,Support,"role mention: this is Elena Vasquez from Aegis Cloud Security support, am ",10
+marcus.williams@aegiscloud.com,Marcus Williams,Support,role mention: support,10
+priya.patel@aegiscloud.com,Priya Patel,Support,role mention: this is Priya Patel from Aegis support — I'm the team lead o,8
+sarah.chen@aegiscloud.com,Sarah Chen,Support,"role mention: this is Sarah Chen from Aegis support, I'll be handling case",12

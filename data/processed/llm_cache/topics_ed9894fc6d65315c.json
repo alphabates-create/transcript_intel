@@ -1,0 +1,9 @@
+{
+  "primary_theme": "Detect outage & fallout",
+  "themes": [
+    "Detect outage & fallout"
+  ],
+  "certainty": 0.97,
+  "rationale": "The support call is about multi-day Detect alert latency from a cascading pipeline failure on Aegis's side, with SLA breach, service credits, and lost threat visibility discussed.",
+  "source": "llm"
+}

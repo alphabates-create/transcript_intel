@@ -1,0 +1,15 @@
+{
+  "name": "Reliable, unified reporting visibility",
+  "summary": "Customers want dependable reporting and monitoring, with CI-gated checks on alert severity config changes, a single unified dashboard view, and concurrent report queuing that does not time out.",
+  "usage": {
+    "ts": "2026-10-27T19:08:53+00:00",
+    "step": "feature_gaps",
+    "model": "claude-sonnet-5-5",
+    "input_tokens": 480,
+    "output_tokens": 84,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "request_id": "req_011CgTGXAX1xfEsN6tBMpJju",
+    "cost_usd": 0.0018
+  }
+}

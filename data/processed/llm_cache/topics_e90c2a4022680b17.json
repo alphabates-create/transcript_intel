@@ -1,0 +1,9 @@
+{
+  "primary_theme": "Backup / Protect",
+  "themes": [
+    "Backup / Protect"
+  ],
+  "certainty": 0.97,
+  "rationale": "The call is a support case about nightly backup jobs slowing from 90 minutes to 4-6 hours, traced to an outdated backup agent (3.4.1) with a fix in 3.6.0.",
+  "source": "llm"
+}

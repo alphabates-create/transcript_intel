@@ -1,0 +1,15 @@
+{
+  "is_business": true,
+  "reason": "The call covers competitive strategy against SentinelShield, outage remediation, the Comply v2 launch, and next steps for the at-risk Hartfield Manufacturing deal, all of which are substantive work content.",
+  "usage": {
+    "ts": "2026-10-29T19:09:04+00:00",
+    "step": "screen",
+    "model": "claude-sonnet-5-5",
+    "input_tokens": 839,
+    "output_tokens": 84,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "request_id": "req_011CgX49j1tNXSo2YBQRu5aM",
+    "cost_usd": 0.002518
+  }
+}

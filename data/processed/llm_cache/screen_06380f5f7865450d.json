@@ -1,0 +1,15 @@
+{
+  "is_business": true,
+  "reason": "The call is a customer onboarding planning session for the Aegis Detect deployment, covering timeline, integrations with PagerDuty and LogVault, alert fatigue, and a past reliability incident.",
+  "usage": {
+    "ts": "2026-10-29T19:08:48+00:00",
+    "step": "screen",
+    "model": "claude-sonnet-5-5",
+    "input_tokens": 838,
+    "output_tokens": 80,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "request_id": "req_011CgX48aVeQirJWmysvo7e7",
+    "cost_usd": 0.002476
+  }
+}

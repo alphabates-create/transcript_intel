@@ -1,0 +1,15 @@
+{
+  "is_business": true,
+  "reason": "The call is a post-incident review of the Detect outage covering engineering fixes, at-risk customer renewals (Meridian Financial, Treswick Healthcare), and follow-up actions.",
+  "usage": {
+    "ts": "2026-10-29T19:09:03+00:00",
+    "step": "screen",
+    "model": "claude-sonnet-5-5",
+    "input_tokens": 857,
+    "output_tokens": 77,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "request_id": "req_011CgX49gUavtttpDr28VBK4",
+    "cost_usd": 0.002484
+  }
+}

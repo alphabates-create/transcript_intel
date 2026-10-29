@@ -1,0 +1,10 @@
+{
+  "primary_theme": "Internal planning",
+  "themes": [
+    "Internal planning",
+    "Backup / Protect"
+  ],
+  "certainty": 0.85,
+  "rationale": "This is an internal Protect team Q2 quarterly planning call, covering roadmap scoping, capacity and tech debt, with backup and restore features as the subject matter.",
+  "source": "llm"
+}

@@ -1,0 +1,23 @@
+{
+  "primary_theme": "Renewal & contracts",
+  "themes": [
+    "Renewal & contracts",
+    "Competitive threat",
+    "Detect outage & fallout",
+    "Identity / SSO / MFA",
+    "Comply v2 launch"
+  ],
+  "certainty": 0.62,
+  "rationale": "The call is a pre-committee renewal negotiation with a flat-price one-year offer, service credit and free Comply v2, though VaultEdge competition, outage fallout and MFA/SSO issues are all substantive drivers.",
+  "usage": {
+    "ts": "2026-10-27T19:08:40+00:00",
+    "step": "topics",
+    "model": "claude-sonnet-5-5",
+    "input_tokens": 2009,
+    "output_tokens": 161,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "request_id": "req_011CgTGWDsf2JfBXgtKTnwF6",
+    "cost_usd": 0.005628
+  }
+}

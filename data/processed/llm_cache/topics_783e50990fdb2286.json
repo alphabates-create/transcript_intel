@@ -1,0 +1,10 @@
+{
+  "primary_theme": "Detect outage & fallout",
+  "themes": [
+    "Detect outage & fallout",
+    "Competitive threat"
+  ],
+  "certainty": 0.93,
+  "rationale": "Customer reported the Detect dashboard down with no threat visibility, triggering a P1 escalation, RCA commitment, and service credit discussion, while the SentinelShield evaluation is a substantial secondary thread.",
+  "source": "llm"
+}

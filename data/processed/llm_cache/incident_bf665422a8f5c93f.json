@@ -1,0 +1,20 @@
+{
+  "status": "open",
+  "resolved_call_index": null,
+  "owner": "David Kim",
+  "category": "Billing",
+  "priority": "P3",
+  "outage_hours": null,
+  "resolution_note": "A $255 credit is arranged for the May 1st invoice and the proration error is being escalated to the billing systems team, but the credit has not yet been applied or confirmed.",
+  "usage": {
+    "ts": "2026-10-27T06:51:10+00:00",
+    "step": "incidents",
+    "model": "claude-sonnet-5-5",
+    "input_tokens": 1597,
+    "output_tokens": 114,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "request_id": "req_011CgSJGKAUns92H9uALv7C2",
+    "cost_usd": 0.004334
+  }
+}

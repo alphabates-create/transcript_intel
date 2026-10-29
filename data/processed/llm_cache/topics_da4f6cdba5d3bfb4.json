@@ -1,0 +1,12 @@
+{
+  "primary_theme": "Renewal & contracts",
+  "themes": [
+    "Compliance & audit",
+    "Comply v2 launch",
+    "Renewal & contracts",
+    "Backup / Protect"
+  ],
+  "certainty": 0.55,
+  "rationale": "The QBR centers on renewal outlook, with Yuki confirming intent to renew, flagging budget, and requesting a separate pricing discussion, while Comply v2 and SOC 2 reporting feed the ROI case.",
+  "source": "llm"
+}

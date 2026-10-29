@@ -1,0 +1,10 @@
+{
+  "primary_theme": "Backup / Protect",
+  "themes": [
+    "Internal planning",
+    "Backup / Protect"
+  ],
+  "certainty": 0.88,
+  "rationale": "The call centers on Protect load-test results showing 47-minute backup job queue times, scheduler and snapshot dedup bottlenecks, and interim fixes, with Comply v2 bundling mentioned only as sales context.",
+  "source": "llm"
+}

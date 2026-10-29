@@ -1,0 +1,25 @@
+{
+  "meetingId": "01KQ2C53D16CE65DEA612320",
+  "title": "Team Celebration - Priya's Birthday",
+  "organizerEmail": "brian.cho@aegiscloud.com",
+  "host": "brian.cho@aegiscloud.com",
+  "startTime": "2026-07-02T18:00:00.000Z",
+  "endTime": "2026-07-02T18:09:29.000Z",
+  "duration": 9.5,
+  "allEmails": [
+    "brian.cho@aegiscloud.com",
+    "priya.patel@aegiscloud.com",
+    "elena.vasquez@aegiscloud.com",
+    "david.kim@aegiscloud.com",
+    "sarah.chen@aegiscloud.com",
+    "marcus.williams@aegiscloud.com"
+  ],
+  "invitees": [
+    "brian.cho@aegiscloud.com",
+    "priya.patel@aegiscloud.com",
+    "elena.vasquez@aegiscloud.com",
+    "david.kim@aegiscloud.com",
+    "sarah.chen@aegiscloud.com",
+    "marcus.williams@aegiscloud.com"
+  ]
+}

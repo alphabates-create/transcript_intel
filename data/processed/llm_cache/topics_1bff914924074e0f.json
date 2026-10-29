@@ -1,0 +1,9 @@
+{
+  "primary_theme": "Identity / SSO / MFA",
+  "themes": [
+    "Identity / SSO / MFA"
+  ],
+  "certainty": 0.97,
+  "rationale": "The call is a P1 support case about TOTP validation failures (error 4031) locking out 40-45 users via the Okta SSO integration with Aegis Identity, mitigated by an email OTP workaround.",
+  "source": "llm"
+}

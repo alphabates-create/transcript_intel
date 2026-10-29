@@ -1,0 +1,15 @@
+{
+  "is_business": true,
+  "reason": "This is a Q1 business review with customer Pineridge covering Detect and Protect usage, the Comply v2 release, and renewal outlook, all of which are core customer and sales work.",
+  "usage": {
+    "ts": "2026-10-29T19:08:53+00:00",
+    "step": "screen",
+    "model": "claude-sonnet-5-5",
+    "input_tokens": 841,
+    "output_tokens": 74,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "request_id": "req_011CgX48xVUXD5zfLFPsfkm1",
+    "cost_usd": 0.002422
+  }
+}

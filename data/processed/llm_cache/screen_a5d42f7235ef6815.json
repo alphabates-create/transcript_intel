@@ -1,0 +1,15 @@
+{
+  "is_business": true,
+  "reason": "The call is a customer renewal discussion covering Protect and Detect usage, an outage post-mortem, a Comply v2 upsell at $18,500 annually, and contract next steps.",
+  "usage": {
+    "ts": "2026-10-29T19:09:03+00:00",
+    "step": "screen",
+    "model": "claude-sonnet-5-5",
+    "input_tokens": 825,
+    "output_tokens": 75,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "request_id": "req_011CgX49d1UE5JZ6X3wVK9eJ",
+    "cost_usd": 0.0024
+  }
+}

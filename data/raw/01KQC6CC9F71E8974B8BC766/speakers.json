@@ -1,0 +1,162 @@
+[
+  {
+    "speakerName": "Diana Reeves",
+    "timestamp": 8.0,
+    "endTimeTs": 16.2
+  },
+  {
+    "speakerName": "Diana Reeves",
+    "timestamp": 17.0,
+    "endTimeTs": 18.5
+  },
+  {
+    "speakerName": "Aisha Johnson",
+    "timestamp": 19.7,
+    "endTimeTs": 23.6
+  },
+  {
+    "speakerName": "Aisha Johnson",
+    "timestamp": 24.7,
+    "endTimeTs": 32.9
+  },
+  {
+    "speakerName": "Diana Reeves",
+    "timestamp": 34.4,
+    "endTimeTs": 36.4
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 36.9,
+    "endTimeTs": 46.3
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 47.3,
+    "endTimeTs": 53.5
+  },
+  {
+    "speakerName": "Diana Reeves",
+    "timestamp": 54.9,
+    "endTimeTs": 57.4
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 58.8,
+    "endTimeTs": 71.1
+  },
+  {
+    "speakerName": "Diana Reeves",
+    "timestamp": 71.5,
+    "endTimeTs": 72.9
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 73.8,
+    "endTimeTs": 79.1
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 79.9,
+    "endTimeTs": 86.8
+  },
+  {
+    "speakerName": "Brian Cho",
+    "timestamp": 87.3,
+    "endTimeTs": 94.3
+  },
+  {
+    "speakerName": "Diana Reeves",
+    "timestamp": 95.0,
+    "endTimeTs": 98.4
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 99.2,
+    "endTimeTs": 104.3
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 105.2,
+    "endTimeTs": 112.1
+  },
+  {
+    "speakerName": "Diana Reeves",
+    "timestamp": 112.6,
+    "endTimeTs": 114.6
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 115.5,
+    "endTimeTs": 117.5
+  },
+  {
+    "speakerName": "Brian Cho",
+    "timestamp": 118.3,
+    "endTimeTs": 127.1
+  },
+  {
+    "speakerName": "Brian Cho",
+    "timestamp": 128.2,
+    "endTimeTs": 136.1
+  },
+  {
+    "speakerName": "Aisha Johnson",
+    "timestamp": 137.5,
+    "endTimeTs": 139.8
+  },
+  {
+    "speakerName": "Brian Cho",
+    "timestamp": 141.0,
+    "endTimeTs": 146.0
+  },
+  {
+    "speakerName": "Diana Reeves",
+    "timestamp": 147.2,
+    "endTimeTs": 153.2
+  },
+  {
+    "speakerName": "Brian Cho",
+    "timestamp": 154.3,
+    "endTimeTs": 162.2
+  },
+  {
+    "speakerName": "Diana Reeves",
+    "timestamp": 162.8,
+    "endTimeTs": 169.0
+  },
+  {
+    "speakerName": "Aisha Johnson",
+    "timestamp": 169.8,
+    "endTimeTs": 175.8
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 177.0,
+    "endTimeTs": 181.4
+  },
+  {
+    "speakerName": "Diana Reeves",
+    "timestamp": 182.3,
+    "endTimeTs": 186.1
+  },
+  {
+    "speakerName": "Diana Reeves",
+    "timestamp": 186.8,
+    "endTimeTs": 197.2
+  },
+  {
+    "speakerName": "Diana Reeves",
+    "timestamp": 198.3,
+    "endTimeTs": 205.0
+  },
+  {
+    "speakerName": "Brian Cho",
+    "timestamp": 205.9,
+    "endTimeTs": 208.5
+  },
+  {
+    "speakerName": "Maria Santos",
+    "timestamp": 209.4,
+    "endTimeTs": 213.9
+  }
+]

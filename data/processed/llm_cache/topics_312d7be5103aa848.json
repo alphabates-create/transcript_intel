@@ -1,0 +1,11 @@
+{
+  "primary_theme": "Comply v2 launch",
+  "themes": [
+    "Compliance & audit",
+    "Comply v2 launch",
+    "Internal planning"
+  ],
+  "certainty": 0.9,
+  "rationale": "The call is an internal retrospective on Comply v2 post-launch adoption (847 tenants, ~38% vs 25% benchmark), with support and feedback review; compliance frameworks and roadmap are secondary.",
+  "source": "llm"
+}

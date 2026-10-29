@@ -1,0 +1,10 @@
+{
+  "primary_theme": "Internal planning",
+  "themes": [
+    "Internal planning",
+    "Identity / SSO / MFA"
+  ],
+  "certainty": 0.85,
+  "rationale": "This is an internal product sync on the Identity Q2 roadmap, covering sprint planning, spec-lock and QA process changes, with MFA rules engine and SSO connector work as the subject matter.",
+  "source": "llm"
+}

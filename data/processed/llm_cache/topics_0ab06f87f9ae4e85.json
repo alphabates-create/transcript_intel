@@ -1,0 +1,12 @@
+{
+  "primary_theme": "Renewal & contracts",
+  "themes": [
+    "Compliance & audit",
+    "Detect outage & fallout",
+    "Renewal & contracts",
+    "Identity / SSO / MFA"
+  ],
+  "certainty": 0.8,
+  "rationale": "This is an annual review ahead of a May renewal, ending with agreement on flat pricing across the three current modules and an add-on amendment structure for Identity, while Comply audit benefits, the March Detect outage and an Identity expansion opportunity are also substantive discussion points.",
+  "source": "llm"
+}

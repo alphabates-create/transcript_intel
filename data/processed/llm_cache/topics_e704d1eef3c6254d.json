@@ -1,0 +1,12 @@
+{
+  "primary_theme": "Renewal & contracts",
+  "themes": [
+    "Detect outage & fallout",
+    "Comply v2 launch",
+    "Renewal & contracts",
+    "Backup / Protect"
+  ],
+  "certainty": 0.9,
+  "rationale": "The call is an account review ahead of a late-March renewal, centered on $155K-$160K pricing, tier changes from data growth, a two-year discount option, and a decision timeline.",
+  "source": "llm"
+}

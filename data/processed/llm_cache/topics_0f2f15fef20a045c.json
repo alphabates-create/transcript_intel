@@ -1,0 +1,9 @@
+{
+  "primary_theme": "Backup / Protect",
+  "themes": [
+    "Backup / Protect"
+  ],
+  "certainty": 0.96,
+  "rationale": "The call is a support case about missing granular file-level restore from EBS snapshots in Aegis Protect, including a two-hour workaround and a formal feature request.",
+  "source": "llm"
+}

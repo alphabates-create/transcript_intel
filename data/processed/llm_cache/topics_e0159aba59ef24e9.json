@@ -1,0 +1,10 @@
+{
+  "primary_theme": "Comply v2 launch",
+  "themes": [
+    "Compliance & audit",
+    "Comply v2 launch"
+  ],
+  "certainty": 0.8,
+  "rationale": "The call is an early access demo of Comply v2 ahead of the April 7 GA, with next steps tied to a post-GA walkthrough, while the PCI DSS audit readiness and compliance reporting drive the customer's interest.",
+  "source": "llm"
+}

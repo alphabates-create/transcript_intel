@@ -1,0 +1,38 @@
+[
+  {
+    "participantName": "Elena Vasquez",
+    "timestamp": 1778246102000,
+    "type": "Join",
+    "time": 2.0
+  },
+  {
+    "participantName": "Grace Yoon",
+    "timestamp": 1778246112000,
+    "type": "Join",
+    "time": 12.0
+  },
+  {
+    "participantName": "Priya Patel",
+    "timestamp": 1778246136000,
+    "type": "Join",
+    "time": 36.0
+  },
+  {
+    "participantName": "Elena Vasquez",
+    "timestamp": 1778246988000,
+    "type": "Leave",
+    "time": 888.0
+  },
+  {
+    "participantName": "Grace Yoon",
+    "timestamp": 1778246983000,
+    "type": "Leave",
+    "time": 883.0
+  },
+  {
+    "participantName": "Priya Patel",
+    "timestamp": 1778246989000,
+    "type": "Leave",
+    "time": 889.0
+  }
+]

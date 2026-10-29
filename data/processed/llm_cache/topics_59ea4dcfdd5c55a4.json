@@ -1,0 +1,10 @@
+{
+  "primary_theme": "Onboarding & deployment",
+  "themes": [
+    "Compliance & audit",
+    "Onboarding & deployment"
+  ],
+  "certainty": 0.4,
+  "rationale": "The call is a support case about a LogVault SIEM connector 3.4.1 bug dropping events (F5 timeouts, retry_on_timeout workaround, upgrade to 3.5.0), which is closest to integration/configuration troubleshooting, with HIPAA concerns as a secondary theme and no taxonomy theme for LogVault support issues.",
+  "source": "llm"
+}

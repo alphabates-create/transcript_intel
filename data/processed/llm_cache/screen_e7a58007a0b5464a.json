@@ -1,0 +1,15 @@
+{
+  "is_business": true,
+  "reason": "The call is a launch readiness review for the Comply v2 product covering release timelines, engineering slippage from a Detect outage, and documentation risks.",
+  "usage": {
+    "ts": "2026-10-29T19:09:00+00:00",
+    "step": "screen",
+    "model": "claude-sonnet-5-5",
+    "input_tokens": 774,
+    "output_tokens": 63,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "request_id": "req_011CgX49SAMeTASBdC6R2RWn",
+    "cost_usd": 0.002178
+  }
+}

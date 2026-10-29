@@ -1,0 +1,15 @@
+{
+  "name": "Self-service visibility and usability",
+  "summary": "Customers want better self-service tooling, including filterable compliance reports, unified dashboards, sync latency visibility, nested role inheritance, simpler restore workflows, and clearer documentation and proactive notifications, so they can work without manual effort or support intervention.",
+  "usage": {
+    "ts": "2026-10-27T20:23:17+00:00",
+    "step": "feature_gaps",
+    "model": "claude-sonnet-5-5",
+    "input_tokens": 661,
+    "output_tokens": 107,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "request_id": "req_011CgTNCDQKjVpNGsPVytKG8",
+    "cost_usd": 0.002392
+  }
+}

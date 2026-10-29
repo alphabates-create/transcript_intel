@@ -1,0 +1,38 @@
+[
+  {
+    "participantName": "Mina Joshi",
+    "timestamp": 1781198101000,
+    "type": "Join",
+    "time": 1.0
+  },
+  {
+    "participantName": "Marcus Williams",
+    "timestamp": 1781198106000,
+    "type": "Join",
+    "time": 6.0
+  },
+  {
+    "participantName": "Ryan Caldwell",
+    "timestamp": 1781198108000,
+    "type": "Join",
+    "time": 8.0
+  },
+  {
+    "participantName": "Marcus Williams",
+    "timestamp": 1781198833000,
+    "type": "Leave",
+    "time": 733.0
+  },
+  {
+    "participantName": "Mina Joshi",
+    "timestamp": 1781198830000,
+    "type": "Leave",
+    "time": 730.0
+  },
+  {
+    "participantName": "Ryan Caldwell",
+    "timestamp": 1781198835000,
+    "type": "Leave",
+    "time": 735.0
+  }
+]

@@ -1,0 +1,10 @@
+{
+  "primary_theme": "Backup / Protect",
+  "themes": [
+    "Detect outage & fallout",
+    "Backup / Protect"
+  ],
+  "certainty": 0.9,
+  "rationale": "The call centers on SQL Server backup jobs overrunning their window and throughput dropping from ~800 to ~200 MB/s, with a Protect engineer follow-up; the March Detect remediation as a possible cause is a secondary factor.",
+  "source": "llm"
+}

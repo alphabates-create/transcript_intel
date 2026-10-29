@@ -1,0 +1,15 @@
+{
+  "name": "Unified console visibility and alerting",
+  "summary": "Customers want a single self-service console view of usage and sync latency, with native latency alerting, instead of fragmented dashboards and workarounds like LogVault-based synthetic monitoring.",
+  "usage": {
+    "ts": "2026-10-29T03:10:31+00:00",
+    "step": "feature_gaps",
+    "model": "claude-sonnet-5-5",
+    "input_tokens": 465,
+    "output_tokens": 84,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "request_id": "req_011CgVo4CauGKa77TshqAVDN",
+    "cost_usd": 0.00177
+  }
+}

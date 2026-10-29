@@ -1,0 +1,10 @@
+{
+  "primary_theme": "Comply v2 launch",
+  "themes": [
+    "Compliance & audit",
+    "Comply v2 launch"
+  ],
+  "certainty": 0.7,
+  "rationale": "The call is a feature request for custom templates in Comply v2, ending with early access/design partner enrollment and workarounds using the v2 API, while SOC 2/PCI DSS reporting is the supporting context.",
+  "source": "llm"
+}

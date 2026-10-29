@@ -1,0 +1,284 @@
+{
+  "data": [
+    {
+      "sentence": "Thanks for making time, Raymond, Linda. I've got a short deck, but I'd rather make this a conversation.",
+      "speaker_name": "Lisa Park",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 5.8,
+      "endTime": 11.8,
+      "averageConfidence": 0.92,
+      "index": 0
+    },
+    {
+      "sentence": "Let's start where we started in February \u2014 your backup environment across the two data centers and the cloud workloads.",
+      "speaker_name": "Lisa Park",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 12.7,
+      "endTime": 19.5,
+      "averageConfidence": 0.89,
+      "index": 1
+    },
+    {
+      "sentence": "Sure. All four hundred and fifty on-prem VMs are now on Protect, and we finished the DICOM imaging archive migration two weeks ago.",
+      "speaker_name": "Raymond Burke",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 20.2,
+      "endTime": 27.7,
+      "averageConfidence": 0.94,
+      "index": 2
+    },
+    {
+      "sentence": "That was the big one, two hundred terabytes, and it went more smoothly than I expected.",
+      "speaker_name": "Raymond Burke",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 28.8,
+      "endTime": 34.2,
+      "averageConfidence": 0.96,
+      "index": 3
+    },
+    {
+      "sentence": "That's great. And the recovery testing \u2014 that was your biggest concern back then.",
+      "speaker_name": "Lisa Park",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 34.5,
+      "endTime": 39.0,
+      "averageConfidence": 0.89,
+      "index": 4
+    },
+    {
+      "sentence": "We ran our first full DR test last month. Our target recovery time for the EHR system was four hours and we recovered in two hours and fifty minutes.",
+      "speaker_name": "Raymond Burke",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 39.8,
+      "endTime": 51.3,
+      "averageConfidence": 0.91,
+      "index": 5
+    },
+    {
+      "sentence": "That's the first time in five years we've had a tested recovery time I can actually put in front of our board.",
+      "speaker_name": "Dr. Linda Cheng",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 52.1,
+      "endTime": 59.5,
+      "averageConfidence": 0.97,
+      "index": 6
+    },
+    {
+      "sentence": "That's exactly the outcome we were aiming for. Congratulations to your team.",
+      "speaker_name": "Lisa Park",
+      "sentimentType": "positive",
+      "speaker_id": 0,
+      "time": 60.7,
+      "endTime": 65.2,
+      "averageConfidence": 0.95,
+      "index": 7
+    },
+    {
+      "sentence": "I'll be honest, after the API outage in February I wasn't sure we'd get here.",
+      "speaker_name": "Dr. Linda Cheng",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 66.0,
+      "endTime": 71.9,
+      "averageConfidence": 0.96,
+      "index": 8
+    },
+    {
+      "sentence": "Three days without backup orchestration on patient data was not a good start to the relationship.",
+      "speaker_name": "Dr. Linda Cheng",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 72.2,
+      "endTime": 78.3,
+      "averageConfidence": 0.96,
+      "index": 9
+    },
+    {
+      "sentence": "I remember, and I appreciate you sticking with us through that.",
+      "speaker_name": "Lisa Park",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 79.7,
+      "endTime": 83.3,
+      "averageConfidence": 0.91,
+      "index": 10
+    },
+    {
+      "sentence": "Priya handled it well. And the SIEM connector issue from February has been clean since the fix \u2014 no gaps in LogVault since March.",
+      "speaker_name": "Dr. Linda Cheng",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 84.5,
+      "endTime": 93.0,
+      "averageConfidence": 0.96,
+      "index": 11
+    },
+    {
+      "sentence": "Let's talk about what's next. Raymond, you mentioned storage costs on the imaging archive.",
+      "speaker_name": "Lisa Park",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 93.3,
+      "endTime": 98.2,
+      "averageConfidence": 0.89,
+      "index": 12
+    },
+    {
+      "sentence": "Yes. Most of the DICOM data is rarely read after ninety days, but it all sits on the standard tier.",
+      "speaker_name": "Raymond Burke",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 98.6,
+      "endTime": 105.8,
+      "averageConfidence": 0.92,
+      "index": 13
+    },
+    {
+      "sentence": "If we could move older studies to a cold tier automatically, I think we'd cut storage cost by a third.",
+      "speaker_name": "Raymond Burke",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 106.8,
+      "endTime": 113.8,
+      "averageConfidence": 0.89,
+      "index": 14
+    },
+    {
+      "sentence": "Protect supports lifecycle policies to an archive tier. I can have our solutions team model the savings using your actual access patterns.",
+      "speaker_name": "Lisa Park",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 114.2,
+      "endTime": 121.3,
+      "averageConfidence": 0.96,
+      "index": 15
+    },
+    {
+      "sentence": "That would be really useful for our budget cycle in August.",
+      "speaker_name": "Raymond Burke",
+      "sentimentType": "positive",
+      "speaker_id": 1,
+      "time": 121.7,
+      "endTime": 125.7,
+      "averageConfidence": 0.93,
+      "index": 16
+    },
+    {
+      "sentence": "The bigger ask from me is multi-region replication. We're opening a third site in Sacramento and I want a copy outside the Bay Area.",
+      "speaker_name": "Dr. Linda Cheng",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 126.7,
+      "endTime": 135.4,
+      "averageConfidence": 0.92,
+      "index": 17
+    },
+    {
+      "sentence": "That's on the Protect roadmap for Q3. I'll get you a firmer date and see if you can join the early access program.",
+      "speaker_name": "Lisa Park",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 136.6,
+      "endTime": 145.0,
+      "averageConfidence": 0.97,
+      "index": 18
+    },
+    {
+      "sentence": "Please. If it slips past Q3, we'll need to build something ourselves, and I'd rather not.",
+      "speaker_name": "Dr. Linda Cheng",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 146.5,
+      "endTime": 152.8,
+      "averageConfidence": 0.9,
+      "index": 19
+    },
+    {
+      "sentence": "Understood. One more thing \u2014 you're using Comply for HIPAA. How has v2 been?",
+      "speaker_name": "Lisa Park",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 153.4,
+      "endTime": 158.9,
+      "averageConfidence": 0.9,
+      "index": 20
+    },
+    {
+      "sentence": "Good. The on-demand HIPAA report saved my compliance team a lot of evidence gathering, and the Protect recovery tests show up as evidence automatically.",
+      "speaker_name": "Dr. Linda Cheng",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 160.2,
+      "endTime": 169.7,
+      "averageConfidence": 0.94,
+      "index": 21
+    },
+    {
+      "sentence": "Would it be worth a conversation about Detect at some point? It would feed into the same evidence trail.",
+      "speaker_name": "Lisa Park",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 170.8,
+      "endTime": 177.9,
+      "averageConfidence": 0.91,
+      "index": 22
+    },
+    {
+      "sentence": "Maybe later this year. After what happened in March, I want to see a few clean quarters before I put threat monitoring on you as well.",
+      "speaker_name": "Dr. Linda Cheng",
+      "sentimentType": "neutral",
+      "speaker_id": 2,
+      "time": 178.9,
+      "endTime": 188.8,
+      "averageConfidence": 0.92,
+      "index": 23
+    },
+    {
+      "sentence": "That's completely fair. I'll share the reliability updates as they come, with no pressure.",
+      "speaker_name": "Lisa Park",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 189.8,
+      "endTime": 194.9,
+      "averageConfidence": 0.95,
+      "index": 24
+    },
+    {
+      "sentence": "Can you send the deck and the cost model when it's ready?",
+      "speaker_name": "Raymond Burke",
+      "sentimentType": "neutral",
+      "speaker_id": 1,
+      "time": 196.4,
+      "endTime": 200.6,
+      "averageConfidence": 0.89,
+      "index": 25
+    },
+    {
+      "sentence": "Yes, the deck today, and the archive cost model within two weeks.",
+      "speaker_name": "Lisa Park",
+      "sentimentType": "neutral",
+      "speaker_id": 0,
+      "time": 201.6,
+      "endTime": 206.3,
+      "averageConfidence": 0.92,
+      "index": 26
+    },
+    {
+      "sentence": "Thanks, Lisa. This was a good review \u2014 it's nice to have one of these that's mostly good news.",
+      "speaker_name": "Dr. Linda Cheng",
+      "sentimentType": "positive",
+      "speaker_id": 2,
+      "time": 207.6,
+      "endTime": 214.2,
+      "averageConfidence": 0.92,
+      "index": 27
+    }
+  ]
+}

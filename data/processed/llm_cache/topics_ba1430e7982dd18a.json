@@ -1,0 +1,22 @@
+{
+  "primary_theme": "Renewal & contracts",
+  "themes": [
+    "Renewal & contracts",
+    "Competitive threat",
+    "Detect outage & fallout",
+    "Internal planning"
+  ],
+  "certainty": 0.5,
+  "rationale": "The internal at-risk account review centers on renewal outcomes (Brightpath two-year, Summit Trust one-year, Keystone add-on, Northstar open, Ironworks churn), with competitive losses and March outage fallout as major drivers.",
+  "usage": {
+    "ts": "2026-10-27T20:11:43+00:00",
+    "step": "topics",
+    "model": "claude-sonnet-5-5",
+    "input_tokens": 1990,
+    "output_tokens": 153,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "request_id": "req_011CgTMJzZyMR7jG6b1GzFSX",
+    "cost_usd": 0.00551
+  }
+}

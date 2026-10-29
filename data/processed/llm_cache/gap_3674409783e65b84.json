@@ -1,0 +1,4 @@
+{
+  "name": "Granular access control policies",
+  "summary": "Customers want nested role inheritance, per-role or per-resource session timeout policies, and auditable conditional MFA exclusions for service accounts so they can manage access precisely and meet compliance requirements without relying on flat roles and overly restrictive global settings."
+}

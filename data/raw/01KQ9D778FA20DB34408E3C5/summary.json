@@ -1,0 +1,58 @@
+{
+  "summary": "Maria Santos (CSM) and Kevin O'Brien met with Alicia Monroe and Gregory Fisk of Summit Trust a week before their vendor committee, which is currently leaning toward VaultEdge for identity and possibly monitoring. Alicia cited late notification of the March Detect outage, post-outage alert delays and unresolved MFA enforcement gaps, while Gregory raised slow support responses. Kevin reported median alert latency down to ~40 seconds after the April tenant rebalance and an MFA enforcement fix shipped in Identity 3.6, though SSO session timeouts remain open until June with a proxy-side workaround. Facing a VaultEdge quote ~18% lower, Maria offered a one-year flat-price renewal with a March service credit, Comply v2 free for twelve months, and a named Identity support engineer with a four-hour P2 response. Alicia declined to commit, asking for evidence this week: the MFA fix live and the support commitment demonstrated.",
+  "actionItems": [
+    "Kevin O'Brien: Apply the Identity 3.6 MFA enforcement configuration for the loan origination system with Gregory's team Thursday at 9 AM",
+    "Kevin O'Brien: Configure the proxy-side token refresh workaround for SSO session timeouts",
+    "Maria Santos: Send the written renewal proposal tonight including the named support engineer commitment and June timeout fix date",
+    "Alicia Monroe: Present the proposal and this week's results to the Summit Trust vendor committee next Thursday"
+  ],
+  "topics": [
+    "renewal",
+    "competitive threat",
+    "identity management",
+    "MFA enforcement",
+    "incident communication",
+    "pricing negotiation"
+  ],
+  "overallSentiment": "mixed-negative",
+  "sentimentScore": 2.7,
+  "keyMoments": [
+    {
+      "time": 20.0,
+      "text": "Alicia says the vendor committee is leaning toward VaultEdge for identity and possibly monitoring",
+      "type": "churn_signal",
+      "speaker": "Alicia Monroe"
+    },
+    {
+      "time": 32.0,
+      "text": "Alicia lists late outage notification, alert delays and MFA enforcement gaps",
+      "type": "concern",
+      "speaker": "Alicia Monroe"
+    },
+    {
+      "time": 66.0,
+      "text": "Kevin shows median alert latency down to ~40 seconds from 20-45 minutes",
+      "type": "positive_pivot",
+      "speaker": "Kevin O'Brien"
+    },
+    {
+      "time": 129.0,
+      "text": "Kevin confirms the SSO session timeout issue remains unresolved until June",
+      "type": "feature_gap",
+      "speaker": "Kevin O'Brien"
+    },
+    {
+      "time": 164.0,
+      "text": "Maria offers flat pricing, a March service credit and Comply v2 free for twelve months",
+      "type": "pricing_offer",
+      "speaker": "Maria Santos"
+    },
+    {
+      "time": 199.0,
+      "text": "Alicia declines to commit, saying trust is lost and the committee needs evidence",
+      "type": "concern",
+      "speaker": "Alicia Monroe"
+    }
+  ],
+  "meetingId": "01KQ9D778FA20DB34408E3C5"
+}

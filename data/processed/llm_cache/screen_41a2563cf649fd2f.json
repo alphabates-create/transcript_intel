@@ -1,0 +1,15 @@
+{
+  "is_business": true,
+  "reason": "The call is a customer technical session covering a competitive evaluation, renewal risk, Detect architecture, alert tuning and SLA negotiation with Brightpath Commerce.",
+  "usage": {
+    "ts": "2026-10-29T19:09:11+00:00",
+    "step": "screen",
+    "model": "claude-sonnet-5-5",
+    "input_tokens": 951,
+    "output_tokens": 73,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "request_id": "req_011CgX4AFqHNYKt6uq1E8NfY",
+    "cost_usd": 0.002632
+  }
+}

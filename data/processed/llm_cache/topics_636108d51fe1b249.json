@@ -1,0 +1,21 @@
+{
+  "primary_theme": "Competitive threat",
+  "themes": [
+    "Competitive threat",
+    "Detect outage & fallout",
+    "Renewal & contracts"
+  ],
+  "certainty": 0.72,
+  "rationale": "Kendra discloses SentinelShield leads Brightpath's scorecard ahead of a mid-May decision, and the call is AegisCloud's effort to counter with architecture, tuning proof and an enhanced SLA.",
+  "usage": {
+    "ts": "2026-10-27T19:08:40+00:00",
+    "step": "topics",
+    "model": "claude-sonnet-5-5",
+    "input_tokens": 2061,
+    "output_tokens": 139,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "request_id": "req_011CgTGWDstydci93xWMRvCS",
+    "cost_usd": 0.005512
+  }
+}

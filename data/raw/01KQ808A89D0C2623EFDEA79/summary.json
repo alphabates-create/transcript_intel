@@ -1,0 +1,53 @@
+{
+  "summary": "Lisa Park and Kevin O'Brien kicked off onboarding for new customer Larkspur Financial, a credit union with about 900 staff and 30 branches, with CISO Helena Marsh and Tobias Lindqvist. Helena said the close evaluation against SentinelShield and VaultEdge was decided by Aegis's transparent handling of the March outage, after Keystone Health's CISO shared the game day summary. Phase one covers Detect and Comply, with Identity in phase two. Kevin confirmed agentless log collection for the on-prem core banking system via a LogVault syslog collector, a seven-day Detect observation mode and a week-two tuning session. Comply v2 covers SOC 2, but the NCUA examination framework is not built in, so Kevin will provide an FFIEC-to-NCUA control mapping. Go-live is targeted in about five weeks, with access to the pipeline health panel and heartbeat alerts on release.",
+  "actionItems": [
+    "Lisa Park: Send the onboarding project plan and LogVault collector requirements tomorrow",
+    "Kevin O'Brien: Prepare an FFIEC-to-NCUA control mapping for Larkspur's examiner",
+    "Kevin O'Brien: Schedule the Detect tuning session for the end of week two using Larkspur's alert data",
+    "Tobias Lindqvist: Schedule installation of the syslog collector in Larkspur's data center",
+    "Lisa Park: Enable the pipeline health panel and SOC heartbeat alerts for Larkspur on release"
+  ],
+  "topics": [
+    "onboarding",
+    "new customer",
+    "competitive win",
+    "log collection",
+    "NCUA compliance",
+    "trust and transparency"
+  ],
+  "overallSentiment": "very-positive",
+  "sentimentScore": 4.8,
+  "keyMoments": [
+    {
+      "time": 25.0,
+      "text": "Helena says Aegis's handling of the March outage, via Keystone's reference, decided the evaluation",
+      "type": "praise",
+      "speaker": "Helena Marsh"
+    },
+    {
+      "time": 62.0,
+      "text": "Tobias notes the core banking system cannot take an agent",
+      "type": "concern",
+      "speaker": "Tobias Lindqvist"
+    },
+    {
+      "time": 71.0,
+      "text": "Kevin confirms agentless log collection through a LogVault syslog collector",
+      "type": "positive_pivot",
+      "speaker": "Kevin O'Brien"
+    },
+    {
+      "time": 112.0,
+      "text": "Lisa notes the NCUA examination framework is not built into Comply v2",
+      "type": "feature_gap",
+      "speaker": "Lisa Park"
+    },
+    {
+      "time": 135.0,
+      "text": "Lisa sets a five-week plan to go-live for Detect and Comply",
+      "type": "action_item",
+      "speaker": "Lisa Park"
+    }
+  ],
+  "meetingId": "01KQ808A89D0C2623EFDEA79"
+}

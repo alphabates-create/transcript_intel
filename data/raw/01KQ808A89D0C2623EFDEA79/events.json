@@ -1,0 +1,50 @@
+[
+  {
+    "participantName": "Tobias Lindqvist",
+    "timestamp": 1782927002000,
+    "type": "Join",
+    "time": 2.0
+  },
+  {
+    "participantName": "Lisa Park",
+    "timestamp": 1782927005000,
+    "type": "Join",
+    "time": 5.0
+  },
+  {
+    "participantName": "Helena Marsh",
+    "timestamp": 1782927009000,
+    "type": "Join",
+    "time": 9.0
+  },
+  {
+    "participantName": "Kevin O'Brien",
+    "timestamp": 1782927035000,
+    "type": "Join",
+    "time": 35.0
+  },
+  {
+    "participantName": "Lisa Park",
+    "timestamp": 1782927641000,
+    "type": "Leave",
+    "time": 641.0
+  },
+  {
+    "participantName": "Helena Marsh",
+    "timestamp": 1782927635000,
+    "type": "Leave",
+    "time": 635.0
+  },
+  {
+    "participantName": "Kevin O'Brien",
+    "timestamp": 1782927642000,
+    "type": "Leave",
+    "time": 642.0
+  },
+  {
+    "participantName": "Tobias Lindqvist",
+    "timestamp": 1782927640000,
+    "type": "Leave",
+    "time": 640.0
+  }
+]

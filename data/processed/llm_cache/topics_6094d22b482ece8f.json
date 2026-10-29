@@ -1,0 +1,9 @@
+{
+  "primary_theme": "Detect outage & fallout",
+  "themes": [
+    "Detect outage & fallout"
+  ],
+  "certainty": 0.97,
+  "rationale": "The internal call is a day-three review of the Detect pipeline outage, covering root cause, the redundant-node and circuit-breaker remediation, 112 open tickets, customer communication, and postmortem planning.",
+  "source": "llm"
+}

@@ -1,0 +1,15 @@
+{
+  "is_business": true,
+  "reason": "This is a customer success call about renewal risk, Aegis Identity MFA and SSO issues, a Detect outage, and competitor VaultEdge churn concerns.",
+  "usage": {
+    "ts": "2026-10-29T19:09:01+00:00",
+    "step": "screen",
+    "model": "claude-sonnet-5-5",
+    "input_tokens": 854,
+    "output_tokens": 70,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "request_id": "req_011CgX49VtbT4Ss9TuTqfzZZ",
+    "cost_usd": 0.002408
+  }
+}

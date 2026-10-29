@@ -1,0 +1,13 @@
+{
+  "primary_theme": "Detect outage & fallout",
+  "themes": [
+    "Compliance & audit",
+    "Detect outage & fallout",
+    "Comply v2 launch",
+    "Renewal & contracts",
+    "Competitive threat"
+  ],
+  "certainty": 0.6,
+  "rationale": "The call centers on the six-hour March 10-11 Detect outage, SLA breach, lost visibility and trust repair, which drives the competitor evaluation (SentinelShield) and renewal discussion.",
+  "source": "llm"
+}

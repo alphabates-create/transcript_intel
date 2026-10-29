@@ -1,0 +1,157 @@
+[
+  {
+    "speakerName": "Elena Vasquez",
+    "timestamp": 7.1,
+    "endTimeTs": 11.0
+  },
+  {
+    "speakerName": "Olivia Strand",
+    "timestamp": 12.2,
+    "endTimeTs": 20.0
+  },
+  {
+    "speakerName": "Elena Vasquez",
+    "timestamp": 20.6,
+    "endTimeTs": 25.7
+  },
+  {
+    "speakerName": "Olivia Strand",
+    "timestamp": 26.6,
+    "endTimeTs": 35.7
+  },
+  {
+    "speakerName": "Olivia Strand",
+    "timestamp": 36.5,
+    "endTimeTs": 42.9
+  },
+  {
+    "speakerName": "Elena Vasquez",
+    "timestamp": 43.5,
+    "endTimeTs": 48.2
+  },
+  {
+    "speakerName": "Olivia Strand",
+    "timestamp": 49.3,
+    "endTimeTs": 53.5
+  },
+  {
+    "speakerName": "Elena Vasquez",
+    "timestamp": 54.4,
+    "endTimeTs": 64.9
+  },
+  {
+    "speakerName": "Victor Zheng",
+    "timestamp": 66.0,
+    "endTimeTs": 73.0
+  },
+  {
+    "speakerName": "Victor Zheng",
+    "timestamp": 74.1,
+    "endTimeTs": 81.3
+  },
+  {
+    "speakerName": "Elena Vasquez",
+    "timestamp": 81.7,
+    "endTimeTs": 85.7
+  },
+  {
+    "speakerName": "Elena Vasquez",
+    "timestamp": 86.8,
+    "endTimeTs": 93.1
+  },
+  {
+    "speakerName": "Elena Vasquez",
+    "timestamp": 93.8,
+    "endTimeTs": 99.7
+  },
+  {
+    "speakerName": "Olivia Strand",
+    "timestamp": 100.1,
+    "endTimeTs": 104.2
+  },
+  {
+    "speakerName": "Olivia Strand",
+    "timestamp": 105.1,
+    "endTimeTs": 107.8
+  },
+  {
+    "speakerName": "Elena Vasquez",
+    "timestamp": 108.7,
+    "endTimeTs": 114.2
+  },
+  {
+    "speakerName": "Olivia Strand",
+    "timestamp": 114.8,
+    "endTimeTs": 120.8
+  },
+  {
+    "speakerName": "Elena Vasquez",
+    "timestamp": 121.5,
+    "endTimeTs": 128.7
+  },
+  {
+    "speakerName": "Olivia Strand",
+    "timestamp": 129.3,
+    "endTimeTs": 134.9
+  },
+  {
+    "speakerName": "Olivia Strand",
+    "timestamp": 135.3,
+    "endTimeTs": 141.7
+  },
+  {
+    "speakerName": "Victor Zheng",
+    "timestamp": 142.1,
+    "endTimeTs": 146.1
+  },
+  {
+    "speakerName": "Victor Zheng",
+    "timestamp": 147.6,
+    "endTimeTs": 158.3
+  },
+  {
+    "speakerName": "Victor Zheng",
+    "timestamp": 159.8,
+    "endTimeTs": 166.7
+  },
+  {
+    "speakerName": "Elena Vasquez",
+    "timestamp": 167.5,
+    "endTimeTs": 177.3
+  },
+  {
+    "speakerName": "Victor Zheng",
+    "timestamp": 178.2,
+    "endTimeTs": 184.8
+  },
+  {
+    "speakerName": "Elena Vasquez",
+    "timestamp": 185.3,
+    "endTimeTs": 191.5
+  },
+  {
+    "speakerName": "Elena Vasquez",
+    "timestamp": 192.5,
+    "endTimeTs": 201.1
+  },
+  {
+    "speakerName": "Olivia Strand",
+    "timestamp": 202.0,
+    "endTimeTs": 205.9
+  },
+  {
+    "speakerName": "Elena Vasquez",
+    "timestamp": 207.4,
+    "endTimeTs": 215.8
+  },
+  {
+    "speakerName": "Olivia Strand",
+    "timestamp": 216.9,
+    "endTimeTs": 220.4
+  },
+  {
+    "speakerName": "Victor Zheng",
+    "timestamp": 221.8,
+    "endTimeTs": 225.6
+  }
+]

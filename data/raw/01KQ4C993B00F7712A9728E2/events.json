@@ -1,0 +1,62 @@
+[
+  {
+    "participantName": "Diana Reeves",
+    "timestamp": 1782316801000,
+    "type": "Join",
+    "time": 1.0
+  },
+  {
+    "participantName": "Tom Bradley",
+    "timestamp": 1782316813000,
+    "type": "Join",
+    "time": 13.0
+  },
+  {
+    "participantName": "James Mitchell",
+    "timestamp": 1782316815000,
+    "type": "Join",
+    "time": 15.0
+  },
+  {
+    "participantName": "Brian Cho",
+    "timestamp": 1782316823000,
+    "type": "Join",
+    "time": 23.0
+  },
+  {
+    "participantName": "Megan Lawson",
+    "timestamp": 1782316836000,
+    "type": "Join",
+    "time": 36.0
+  },
+  {
+    "participantName": "Diana Reeves",
+    "timestamp": 1782317491000,
+    "type": "Leave",
+    "time": 691.0
+  },
+  {
+    "participantName": "Tom Bradley",
+    "timestamp": 1782317494000,
+    "type": "Leave",
+    "time": 694.0
+  },
+  {
+    "participantName": "James Mitchell",
+    "timestamp": 1782317493000,
+    "type": "Leave",
+    "time": 693.0
+  },
+  {
+    "participantName": "Brian Cho",
+    "timestamp": 1782317493000,
+    "type": "Leave",
+    "time": 693.0
+  },
+  {
+    "participantName": "Megan Lawson",
+    "timestamp": 1782317494000,
+    "type": "Leave",
+    "time": 694.0
+  }
+]

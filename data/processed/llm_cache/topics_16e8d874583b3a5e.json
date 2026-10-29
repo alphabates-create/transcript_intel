@@ -1,0 +1,11 @@
+{
+  "primary_theme": "Detect outage & fallout",
+  "themes": [
+    "Compliance & audit",
+    "Detect outage & fallout",
+    "Comply v2 launch"
+  ],
+  "certainty": 0.4,
+  "rationale": "The call is a Detect roadmap review, but the strongest driver is the March six-hour outage and the pipeline health visibility gap, with Comply v2 SOC 2 reporting as a secondary topic; no single theme dominates.",
+  "source": "llm"
+}
